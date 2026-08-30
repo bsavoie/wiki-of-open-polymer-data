@@ -1,0 +1,19 @@
+{
+  "name": "wiki-of-open-polymer-data",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A completeness-first, open-source-grounded reference for polymer families and materials.",
+  "scripts": {
+    "validate": "node scripts/validate-snapshot.mjs",
+    "test": "node --test",
+    "build": "node scripts/build.mjs",
+    "import:snapshot": "node scripts/import-snapshot.mjs",
+    "coverage": "node scripts/coverage.mjs",
+    "check": "npm run validate && npm test && npm run build"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "Apache-2.0"
+}

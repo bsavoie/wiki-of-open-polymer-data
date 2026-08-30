@@ -1,0 +1,9 @@
+dist/
+outputs/
+node_modules/
+.dist-build-*/
+.dist-previous-*/
+public-data/.wop-publication-snapshot-v1.next-*/
+public-data/.wop-publication-snapshot-v1.previous-*/
+coverage/
+.DS_Store

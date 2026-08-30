@@ -1,0 +1,176 @@
+{
+  "schema": "wop-publication-snapshot-v1",
+  "methodology": {
+    "scope": "The initial denominator combines the dominant volume resins with established engineering thermoplastics, thermosets, elastomers, fibers, natural and semisynthetic polymers, degradable and biomedical materials, and a representative functional-polymer tail. Families and processing-relevant subfamilies may both appear because they answer different research questions.",
+    "selectionSignals": [
+      "Documented presence among dominant global resin groups",
+      "Repeated treatment in open polymer textbooks or university courseware",
+      "Distinct industrial processing, cure, spinning, or vulcanization behavior",
+      "Established engineering, high-temperature, barrier, elastomeric, biomedical, or functional use",
+      "Recognized polymer class or source-based name in public nomenclature references"
+    ],
+    "rankingDisclaimer": "This is a curated high-priority coverage set, not a quantitative worldwide production ranking. Public market sources resolve the largest resin groups but aggregate much of the long tail.",
+    "sourceStandard": "Methodology sources justify the catalog boundary and vocabulary only. They do not support unwritten claims in individual stubs. Article prose must later be mapped to its own anonymously accessible sources.",
+    "sources": [
+      {
+        "sourceId": "method-iupac-polymer-classes",
+        "lineageId": "iupac-polymer-division",
+        "sourceType": "nomenclature_standard",
+        "citation": "Barón et al., Glossary of class names of polymers based on chemical structure and molecular architecture, Pure and Applied Chemistry 81 (2009), 1131–1186.",
+        "url": "https://publications.iupac.org/pac/81/6/1131/index.html",
+        "contentUrl": "https://publications.iupac.org/pac/pdf/2009/pdf/8106x1131.pdf",
+        "locator": "Abstract, introductory classification, glossary entries, and alphabetical index.",
+        "accessedDate": "2026-08-29",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Publisher-hosted full text is publicly readable; cite and independently paraphrase.",
+        "supports": [
+          "taxonomy",
+          "nomenclature"
+        ]
+      },
+      {
+        "sourceId": "method-openstax-synthetic-polymers",
+        "lineageId": "openstax-organic-chemistry",
+        "sourceType": "open_textbook",
+        "citation": "John McMurry, Organic Chemistry, Chapter 31: Synthetic Polymers, OpenStax (2023).",
+        "url": "https://openstax.org/books/organic-chemistry/pages/31-why-this-chapter",
+        "locator": "Chapter 31, especially sections 31.1, 31.3, 31.4, and 31.7.",
+        "accessedDate": "2026-08-29",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "OpenStax Organic Chemistry is published under CC BY-NC-SA 4.0.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "supports": [
+          "taxonomy",
+          "processing_framework"
+        ]
+      },
+      {
+        "sourceId": "method-mit-polymer-engineering",
+        "lineageId": "mit-ocw-polymer-engineering",
+        "sourceType": "courseware",
+        "citation": "David Roylance, Polymer Engineering, MIT OpenCourseWare, Fall 2003.",
+        "url": "https://ocw.mit.edu/courses/3-064-polymer-engineering-fall-2003/pages/lecture-notes/",
+        "locator": "Lecture-note sequence covering structure, mechanics, melt processing, extrusion, injection molding, and thermosets.",
+        "accessedDate": "2026-08-29",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "MIT OpenCourseWare content is published under CC BY-NC-SA 4.0 unless otherwise noted.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "supports": [
+          "taxonomy",
+          "processing_framework"
+        ]
+      },
+      {
+        "sourceId": "method-unep-major-polymers",
+        "lineageId": "unep-marine-plastics-2016",
+        "sourceType": "public_report",
+        "citation": "United Nations Environment Programme, Marine Plastic Debris and Microplastics: Global Lessons and Research to Inspire Action and Guide Policy Change (2016).",
+        "url": "https://www.unep.org/resources/publication/marine-plastic-debris-and-microplastics-global-lessons-and-research-inspire",
+        "contentUrl": "https://wedocs.unep.org/bitstream/handle/20.500.11822/17561/Marine%20Plastic%20Debris%20and%20Microplastic%20Technical%20Report%20Advance%20Copy.pdf",
+        "locator": "Background chapter discussion of polymer types and dominant volume resins.",
+        "accessedDate": "2026-08-29",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "UNEP hosts the complete report for public reading; cite and independently paraphrase.",
+        "supports": [
+          "commodity_prevalence",
+          "taxonomy"
+        ]
+      },
+      {
+        "sourceId": "method-ncbi-biomaterials",
+        "lineageId": "national-academies-biomaterials",
+        "sourceType": "public_report",
+        "citation": "National Research Council, Capturing the Full Power of Biomaterials for Military Medicine (2004), NCBI Bookshelf.",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK215570/",
+        "locator": "Biomaterials overview and listed synthetic degradable and natural polymer classes.",
+        "accessedDate": "2026-08-29",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The complete book chapter is publicly readable through NCBI Bookshelf; cite and independently paraphrase.",
+        "supports": [
+          "biomedical_scope",
+          "natural_polymer_scope"
+        ]
+      },
+      {
+        "sourceId": "method-open-processing-review",
+        "lineageId": "gaspar-cunha-covas-processing-review",
+        "sourceType": "open_journal",
+        "citation": "Gaspar-Cunha, Covas, and Sikora, Optimization of Polymer Processing: A Review, Part I—Extrusion, Materials 15 (2022), 384.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8746397/",
+        "locator": "Introduction and processing-sequence overview.",
+        "accessedDate": "2026-08-29",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The article is distributed under CC BY 4.0.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "processing_framework"
+        ]
+      }
+    ]
+  },
+  "polymers": [
+    {
+      "type": "polymer_entry",
+      "wopId": "wop-000001",
+      "canonicalSlug": "polyethylene-family",
+      "canonicalName": "Polyethylene family",
+      "alternateNames": [],
+      "abbreviations": [
+        "PE"
+      ],
+      "entryKind": "family",
+      "taxonomy": {
+        "primaryClass": "commodity_thermoplastic",
+        "materialBehaviors": [
+          "thermoplastic"
+        ],
+        "marketTiers": [
+          "commodity"
+        ],
+        "origins": [
+          "synthetic"
+        ],
+        "chemistryClasses": [
+          "polyolefin"
+        ],
+        "functionalTags": [
+          "thermoplastic"
+        ]
+      },
+      "relationships": [],
+      "sections": {
+        "overview": "",
+        "nomenclature": "",
+        "feedstocksAndSynthesis": "",
+        "mechanicalProperties": "",
+        "processing": "",
+        "structureAndMorphology": "",
+        "properties": "",
+        "applications": "",
+        "degradationAndStability": "",
+        "recyclingAndEndOfLife": "",
+        "healthSafetyAndRegulation": "",
+        "limitationsAndVariability": ""
+      },
+      "sources": [],
+      "maturity": {
+        "contentMaturity": "stub",
+        "confidence": "provisional",
+        "reviewFlags": [
+          "open_sources_needed",
+          "taxonomy_needs_review",
+          "processing_data_needed",
+          "property_data_needed"
+        ]
+      }
+    }
+  ],
+  "aliases": [],
+  "searchTerms": []
+}

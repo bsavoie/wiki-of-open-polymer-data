@@ -1,0 +1,263 @@
+seed_id	canonical_name	aliases	record_kind	market_tier	raw_behavior
+001	Polyethylene family	PE	family	commodity	thermoplastic
+002	Low-density polyethylene	LDPE|PE-LD	subfamily	commodity	thermoplastic
+003	Linear low-density polyethylene	LLDPE|PE-LLD	subfamily	commodity	thermoplastic
+004	Medium-density polyethylene	MDPE|PE-MD	subfamily	commodity	thermoplastic
+005	High-density polyethylene	HDPE|PE-HD	subfamily	commodity	thermoplastic
+006	Ultra-high-molecular-weight polyethylene	UHMWPE|PE-UHMW	subfamily	engineering	thermoplastic|fiber-forming
+007	Very-low-density polyethylene	VLDPE|PE-VLD	subfamily	commodity	thermoplastic|elastomeric
+008	Cross-linked polyethylene	PEX|XLPE	network	commodity	thermoset
+009	Polypropylene family	PP	family	commodity	thermoplastic
+010	Isotactic polypropylene	iPP|i-PP	subfamily	commodity	thermoplastic
+011	Syndiotactic polypropylene	sPP|s-PP	subfamily	engineering	thermoplastic
+012	Random propylene–ethylene copolymer	PP-R|PPR	copolymer	commodity	thermoplastic
+013	Heterophasic polypropylene copolymer	PP-B|HECO|polypropylene block copolymer|impact polypropylene copolymer	copolymer	commodity	thermoplastic
+014	Poly(1-butene)	PB-1|polybutene-1	polymer	engineering	thermoplastic
+015	Poly(4-methyl-1-pentene)	PMP	polymer	engineering	thermoplastic
+016	Cyclo-olefin polymer	COP	family	engineering	thermoplastic
+017	Cyclic olefin copolymer	COC	copolymer	engineering	thermoplastic
+018	Ethylene–vinyl acetate copolymer	EVA|EVAC	copolymer	commodity	thermoplastic|elastomeric
+019	Ethylene–vinyl alcohol copolymer	EVOH	copolymer	engineering	thermoplastic|barrier
+020	Ethylene–acrylic acid copolymer	EAA	copolymer	specialty	thermoplastic|adhesive
+021	Ethylene–methacrylic acid copolymer	EMAA	copolymer	specialty	thermoplastic|adhesive
+022	Polyolefin ionomer	ethylene-acid ionomer|IO	family	engineering	thermoplastic|ionic
+023	Poly(vinyl chloride)	PVC	polymer	commodity	thermoplastic
+024	Chlorinated poly(vinyl chloride)	CPVC|PVC-C	modified_polymer	engineering	thermoplastic
+025	Poly(vinylidene chloride)	PVDC	polymer	engineering	thermoplastic|barrier
+026	Poly(vinyl acetate)	PVAc|PVAC	polymer	commodity	thermoplastic|adhesive
+027	Poly(vinyl alcohol)	PVA|PVOH|PVAL	polymer	specialty	water-soluble|film-forming
+028	Poly(vinyl butyral)	PVB	copolymer	specialty	thermoplastic|adhesive
+029	Poly(vinyl formal)	PVFM|polyvinyl formal	copolymer	specialty	thermoplastic|coating
+030	Polystyrene	PS|PSt	polymer	commodity	thermoplastic
+031	High-impact polystyrene	HIPS	modified_polymer	commodity	thermoplastic|toughened
+032	Styrene–acrylonitrile copolymer	SAN	copolymer	commodity	thermoplastic
+033	Acrylonitrile–butadiene–styrene copolymer	ABS	copolymer	commodity	thermoplastic
+034	Acrylonitrile–styrene–acrylate copolymer	ASA	copolymer	engineering	thermoplastic
+035	Methacrylate–butadiene–styrene copolymer	MBS	copolymer	engineering	thermoplastic|impact-modifier
+036	Styrene–maleic anhydride copolymer	SMA	copolymer	engineering	thermoplastic|reactive
+037	Styrene–methyl methacrylate copolymer	SMMA|MS	copolymer	engineering	thermoplastic
+038	Poly(methyl methacrylate)	PMMA	polymer	commodity	thermoplastic
+039	Polyacrylonitrile	PAN	polymer	commodity	fiber-forming|thermoplastic
+040	Poly(alkyl acrylate) family	polyacrylate|acrylic ester polymers	family	specialty	thermoplastic|elastomeric
+041	Polyacrylamide	PAM	polymer	specialty	water-soluble|hydrogel-forming
+042	Poly(acrylic acid)	PAA	polymer	specialty	water-soluble|polyelectrolyte
+043	Thermoplastic polyester family	saturated polyester	family	engineering	thermoplastic
+044	Poly(ethylene terephthalate)	PET|PETE	polymer	commodity	thermoplastic|fiber-forming
+045	Glycol-modified poly(ethylene terephthalate)	PETG	copolymer	engineering	thermoplastic
+046	Poly(butylene terephthalate)	PBT	polymer	engineering	thermoplastic
+047	Poly(trimethylene terephthalate)	PTT	polymer	engineering	thermoplastic|fiber-forming
+048	Poly(ethylene naphthalate)	PEN	polymer	high_performance	thermoplastic|barrier
+049	Poly(cyclohexylenedimethylene terephthalate)	PCT	polymer	high_performance	thermoplastic
+050	Polyarylate	PAR	family	high_performance	thermoplastic
+051	Thermotropic aromatic copolyester	LCP|TLCP	family	high_performance	thermoplastic|liquid-crystalline
+052	Polyamide family	PA|nylon	family	engineering	thermoplastic|fiber-forming
+053	Polyamide 6	PA6|nylon 6	polymer	engineering	thermoplastic|fiber-forming
+054	Polyamide 66	PA66|nylon 66	polymer	engineering	thermoplastic|fiber-forming
+055	Polyamide 46	PA46|nylon 46	polymer	high_performance	thermoplastic
+056	Polyamide 610	PA610|nylon 610	polymer	engineering	thermoplastic
+057	Polyamide 612	PA612|nylon 612	polymer	engineering	thermoplastic
+058	Polyamide 11	PA11|nylon 11	polymer	engineering	thermoplastic
+059	Polyamide 12	PA12|nylon 12	polymer	engineering	thermoplastic
+060	Polyamide 1010	PA1010|nylon 1010	polymer	engineering	thermoplastic
+061	Polyamide 1012	PA1012|nylon 1012	polymer	engineering	thermoplastic
+062	Polyamide 6T	PA6T	polymer	high_performance	thermoplastic
+063	Polyamide 9T	PA9T	polymer	high_performance	thermoplastic
+064	Polyamide 10T	PA10T	polymer	high_performance	thermoplastic
+065	Poly(m-xylylene adipamide)	PAMXD6|MXD6	polymer	engineering	thermoplastic|barrier
+066	Polyphthalamide family	PPA	family	high_performance	thermoplastic
+067	Polyamide 6/66	PA6/66	copolymer	engineering	thermoplastic
+068	Bisphenol A polycarbonate	BPA-PC	polymer	engineering	thermoplastic
+069	Poly(propylene carbonate)	PPC	polymer	specialty	thermoplastic|biodegradable
+070	Poly(vinyl fluoride)	PVF	polymer	high_performance	thermoplastic|film-forming
+071	Polycarbonate–siloxane copolymer	PC-siloxane|PC-SI	copolymer	engineering	thermoplastic
+072	Polyester–polycarbonate copolymer	PC-co-polyester	copolymer	engineering	thermoplastic
+073	Polyoxymethylene family	POM|acetal	family	engineering	thermoplastic
+074	Polyoxymethylene homopolymer	POM-H|POM-HO	polymer	engineering	thermoplastic
+075	Polyoxymethylene copolymer	POM-C|POM-CO	copolymer	engineering	thermoplastic
+076	Poly(phenylene ether)	PPE|PPO	family	engineering	thermoplastic
+077	Bisphenol A polysulfone	PSU|bisphenol A polysulfone resin	polymer	high_performance	thermoplastic
+078	Poly(ether sulfone)	PESU|PES	polymer	high_performance	thermoplastic
+079	Polyphenylsulfone	PPSU	polymer	high_performance	thermoplastic
+080	Poly(phenylene sulfide)	PPS	polymer	high_performance	thermoplastic
+081	Poly(aryl ether ketone) family	PAEK	family	high_performance	thermoplastic
+082	Poly(ether ether ketone)	PEEK	polymer	high_performance	thermoplastic
+083	Poly(ether ketone ketone)	PEKK	polymer	high_performance	thermoplastic
+084	Polyetherimide	PEI	polymer	high_performance	thermoplastic
+085	Polyamide-imide	PAI	polymer	high_performance	thermoplastic
+086	Polyimide family	PI	family	high_performance	high-temperature
+087	Thermoplastic polyimide	TPI	subfamily	high_performance	thermoplastic
+088	Alternating ethylene–carbon monoxide polyketone	POK|aliphatic polyketone	copolymer	engineering	thermoplastic
+089	Poly(tetrafluoroethylene)	PTFE	polymer	high_performance	thermoplastic
+090	Fluorinated ethylene propylene copolymer	FEP	copolymer	high_performance	thermoplastic
+091	Perfluoroalkoxy alkane polymer	PFA	family	high_performance	thermoplastic
+092	Ethylene–tetrafluoroethylene copolymer	ETFE	copolymer	high_performance	thermoplastic
+093	Ethylene–chlorotrifluoroethylene copolymer	ECTFE	copolymer	high_performance	thermoplastic
+094	Poly(chlorotrifluoroethylene)	PCTFE	polymer	high_performance	thermoplastic
+095	Poly(vinylidene fluoride)	PVDF	polymer	high_performance	thermoplastic
+096	Tetrafluoroethylene–hexafluoropropylene–vinylidene fluoride terpolymer	TFE-HFP-VDF	copolymer	high_performance	thermoplastic|elastomeric
+097	Poly(p-xylylene) family	PPX|poly-para-xylylene	family	specialty	vapor-deposited-coating
+098	Epoxy resin family	EP|epoxide resin	family	commodity	thermoset
+099	Bisphenol A diglycidyl ether epoxy	DGEBA epoxy	subfamily	commodity	thermoset
+100	Bisphenol F diglycidyl ether epoxy	DGEBF epoxy	subfamily	engineering	thermoset
+101	Epoxy novolac resin family	epoxy novolac	family	high_performance	thermoset
+102	Glycidyl amine epoxy resin		subfamily	high_performance	thermoset
+103	Cycloaliphatic epoxy resin	CE|cycloaliphatic EP	subfamily	engineering	thermoset
+104	Unsaturated polyester resin family	UPR|UP	family	commodity	thermoset
+105	Orthophthalic unsaturated polyester resin	ortho-UPR	subfamily	commodity	thermoset
+106	Isophthalic unsaturated polyester resin	iso-UPR	subfamily	engineering	thermoset
+107	Dicyclopentadiene-modified unsaturated polyester resin	DCPD-UPR	subfamily	engineering	thermoset
+108	Vinyl ester resin family	VE|VER	family	engineering	thermoset
+109	Bisphenol A epoxy vinyl ester	BPA-VE	subfamily	engineering	thermoset
+110	Epoxy-novolac vinyl ester	novolac-VE	subfamily	high_performance	thermoset
+111	Phenol–formaldehyde resin family	PF|phenolic	family	commodity	thermoset
+112	Novolac phenolic resin	novolac PF	subfamily	commodity	thermoplastic|resin|thermoset-precursor
+113	Resole phenolic resin	resole PF	subfamily	commodity	thermoset
+114	Cresol–formaldehyde resin	CF	copolymer	engineering	thermoset
+115	Resorcinol–formaldehyde resin	RF	copolymer	specialty	thermoset
+116	Phenol–resorcinol–formaldehyde resin	PRF	copolymer	engineering	thermoset|adhesive
+117	Urea–formaldehyde resin	UF	copolymer	commodity	thermoset|adhesive
+118	Melamine–formaldehyde resin	MF	copolymer	commodity	thermoset
+119	Melamine–urea–formaldehyde resin	MUF	copolymer	commodity	thermoset|adhesive
+120	Phenol–urea–formaldehyde resin	PUF	copolymer	engineering	thermoset|adhesive
+121	Benzoguanamine–formaldehyde resin	BF	copolymer	specialty	thermoset|coating
+122	Thermoset polyurethane	PUR|TS-PU	family	commodity	thermoset|resin|foam|elastomeric|coating|adhesive
+123	Polyisocyanurate	PIR	family	commodity	thermoset|resin|foam
+124	Polyurea	PUA	family	engineering	thermoset|elastomeric
+125	Alkyd resin	AK|alkyd	family	commodity	thermoset|coating
+126	Silicone resin	SI resin|polysiloxane resin	family	engineering	thermoset
+127	Bismaleimide resin	BMI	family	high_performance	thermoset
+128	Cyanate ester resin	CE resin|cyanate	family	high_performance	thermoset
+129	Polybenzoxazine	PBZ|benzoxazine resin	family	high_performance	thermoset
+130	Phthalonitrile resin	PN resin	family	high_performance	thermoset
+131	Poly(furfuryl alcohol) resin	PFA|PFA (furan)|furfuryl resin	polymer	specialty	thermoset
+132	Poly(diallyl phthalate)	PDAP|DAP resin	polymer	engineering	thermoset
+133	Thermosetting polyimide	TSPI|thermoset PI	subfamily	high_performance	thermoset
+134	Natural rubber	NR	polymer	commodity	elastomer
+135	Synthetic cis-1,4-polyisoprene	IR|isoprene rubber	polymer	commodity	elastomer
+136	Trans-1,4-polyisoprene	trans-PI|trans-polyisoprene	polymer	specialty	thermoplastic|crystalline
+137	Polybutadiene rubber	BR	polymer	commodity	elastomer
+138	Styrene–butadiene rubber family	SBR	family	commodity	elastomer
+139	Emulsion styrene–butadiene rubber	E-SBR	copolymer	commodity	elastomer
+140	Solution styrene–butadiene rubber	S-SBR	copolymer	commodity	elastomer
+141	Carboxylated styrene–butadiene rubber	XSBR	copolymer	engineering	elastomer
+142	Nitrile butadiene rubber	NBR	copolymer	commodity	elastomer
+143	Hydrogenated nitrile butadiene rubber	HNBR	modified_polymer	high_performance	elastomer
+144	Carboxylated nitrile butadiene rubber	XNBR	copolymer	engineering	elastomer
+145	Butyl rubber	IIR|isobutylene-isoprene rubber	copolymer	commodity	elastomer
+146	Bromobutyl rubber	BIIR	modified_polymer	engineering	elastomer
+147	Chlorobutyl rubber	CIIR	modified_polymer	engineering	elastomer
+148	Polychloroprene rubber	CR|chloroprene rubber	polymer	engineering	elastomer
+149	Ethylene–propylene rubber	EPM	copolymer	commodity	elastomer
+150	Ethylene–propylene–diene rubber	EPDM	copolymer	commodity	elastomer
+151	Acrylic rubber	ACM	family	engineering	elastomer
+152	Ethylene–acrylic elastomer	AEM	copolymer	high_performance	elastomer
+153	Epichlorohydrin homopolymer rubber	CO|polychloromethyloxirane	polymer	high_performance	elastomer
+154	Epichlorohydrin–ethylene oxide rubber	ECO	copolymer	high_performance	elastomer
+155	Chlorinated polyethylene elastomer	CM|CPE	modified_polymer	engineering	elastomer
+156	Chlorosulfonated polyethylene rubber	CSM	modified_polymer	high_performance	elastomer
+157	FKM fluoroelastomer family	FKM|FKM rubber	family	high_performance	elastomer
+158	Perfluoroelastomer	FFKM	family	high_performance	elastomer
+159	Tetrafluoroethylene–propylene elastomer	FEPM	copolymer	high_performance	elastomer
+160	Silicone rubber family	Q|silicone elastomer	family	high_performance	elastomer
+161	Methyl-vinyl silicone rubber	VMQ	subfamily	high_performance	elastomer
+162	Fluorosilicone rubber	FVMQ	subfamily	high_performance	elastomer
+163	Polysulfide rubber	T|polysulfide elastomer	family	specialty	elastomer
+164	Polyisobutylene	PIB|polyisobutene	polymer	commodity	elastomeric
+165	Ethylene–octene elastomer	POE|ethylene-octene copolymer	copolymer	engineering	elastomer
+166	Styrene–butadiene–styrene block copolymer	SBS	copolymer	commodity	thermoplastic-elastomer
+167	Styrene–isoprene–styrene block copolymer	SIS	copolymer	commodity	thermoplastic-elastomer
+168	Styrene–ethylene/butylene–styrene block copolymer	SEBS	copolymer	engineering	thermoplastic-elastomer
+169	Styrene–ethylene/propylene–styrene block copolymer	SEPS	copolymer	engineering	thermoplastic-elastomer
+170	Styrene–ethylene/ethylene-propylene–styrene block copolymer	SEEPS	copolymer	engineering	thermoplastic-elastomer
+171	Thermoplastic polyolefin elastomer	TPO	family	commodity	thermoplastic-elastomer
+172	Thermoplastic vulcanizate	TPV	family	engineering	thermoplastic-elastomer
+173	Thermoplastic polyurethane elastomer	TPU|TPE-U	family	engineering	thermoplastic-elastomer
+174	Thermoplastic copolyester elastomer	TPC-ET|COPE|TPE-E	family	engineering	thermoplastic-elastomer
+175	Polyether block amide elastomer	PEBA|TPE-A	family	high_performance	thermoplastic-elastomer
+176	Aramid family	AR|aromatic polyamide	family	high_performance	fiber-forming
+177	Poly(p-phenylene terephthalamide)	PPTA|para-aramid	polymer	high_performance	fiber-forming|liquid-crystalline
+178	Poly(m-phenylene isophthalamide)	PMIA|meta-aramid	polymer	high_performance	fiber-forming
+179	Poly(p-phenylene/3,4′-oxydiphenylene terephthalamide)	ODA-PPTA|copolyaramid	copolymer	high_performance	fiber-forming
+180	Polybenzimidazole	PBI	family	high_performance	fiber-forming|high-temperature
+181	Poly(p-phenylene benzobisoxazole)	PBO	polymer	high_performance	fiber-forming|liquid-crystalline
+182	Poly(p-phenylene benzobisthiazole)	PBZT	polymer	high_performance	fiber-forming|liquid-crystalline
+183	Polyoxadiazole	POD	family	high_performance	fiber-forming|high-temperature
+184	Modacrylic fiber polymer family	modacrylic polymer	family	commodity	fiber-forming
+185	Vinyon fiber polymer family	vinyon|vinyl chloride-based fiber polymer	family	specialty	fiber-forming
+186	Elastane (spandex) polymer family	elastane|spandex|segmented polyurethane elastane	family	commodity	fiber-forming|elastomer
+187	Novoloid fiber polymer family	novoloid|novoloid phenolic fiber polymer	family	specialty	fiber-forming|thermoset
+188	Regenerated cellulose	rayon|viscose cellulose	subfamily	commodity	fiber-forming|biopolymer
+189	Cellulose acetate	CA	subfamily	commodity	thermoplastic|fiber-forming
+190	Cellulose triacetate	CTA|triacetate	subfamily	commodity	thermoplastic|fiber-forming
+191	Cellulose	CE|cellulosic polymer	family	commodity	biopolymer|fiber-forming
+192	Cellulose acetate butyrate	CAB	modified_polymer	engineering	thermoplastic
+193	Cellulose acetate propionate	CAP	modified_polymer	engineering	thermoplastic
+194	Cellulose nitrate	CN|nitrocellulose	subfamily	specialty	thermoplastic|film-forming
+195	Methyl cellulose	MC	subfamily	commodity	water-soluble|biopolymer
+196	Ethyl cellulose	EC	subfamily	commodity	thermoplastic|film-forming
+197	Hydroxyethyl cellulose	HEC	subfamily	commodity	water-soluble|biopolymer
+198	Hydroxypropyl cellulose	HPC	subfamily	specialty	water-soluble|thermoplastic
+199	Hydroxypropyl methylcellulose	HPMC	subfamily	commodity	water-soluble|film-forming
+200	Carboxymethyl cellulose	CMC	subfamily	commodity	water-soluble|polyelectrolyte
+201	Starch	starch polymer	family	commodity	biopolymer
+202	Amylose	linear starch polysaccharide	polymer	commodity	biopolymer
+203	Amylopectin	branched starch polysaccharide	polymer	commodity	biopolymer
+204	Thermoplastic starch	TPS	grade_family	commodity	thermoplastic|biopolymer
+205	Chitin	poly(N-acetylglucosamine)	polymer	commodity	biopolymer
+206	Chitosan	deacetylated chitin	subfamily	specialty	biopolymer|polyelectrolyte
+207	Alginate	alginic acid salt	family	commodity	biopolymer|hydrogel-forming
+208	Agarose	agarose polysaccharide	polymer	specialty	biopolymer|hydrogel-forming
+209	Carrageenan	carrageenan polysaccharide	family	commodity	biopolymer|hydrogel-forming
+210	Lignin	lignin biopolymer	family	commodity	biopolymer|thermoset-like
+211	Collagen	collagen protein	family	specialty	biopolymer|fiber-forming
+212	Silk fibroin	fibroin protein	polymer	specialty	biopolymer|fiber-forming
+213	Polyhydroxyalkanoate family	PHA	family	specialty	thermoplastic|biodegradable
+214	Poly(3-hydroxybutyrate)	PHB|P3HB	polymer	specialty	thermoplastic|biodegradable
+215	Poly(3-hydroxybutyrate-co-3-hydroxyvalerate)	PHBV	copolymer	specialty	thermoplastic|biodegradable
+216	Poly(3-hydroxybutyrate-co-3-hydroxyhexanoate)	P(3HB-co-3HHx)|PHBHHx	copolymer	specialty	thermoplastic|biodegradable
+217	Polylactide family	PLA|poly(lactic acid)	family	engineering	thermoplastic|biodegradable
+218	Poly(L-lactide)	PLLA|poly(L-lactic acid)	polymer	engineering	thermoplastic|biodegradable
+219	Poly(glycolic acid)	PGA	polymer	specialty	thermoplastic|bioresorbable
+220	Poly(lactide-co-glycolide)	PLGA	copolymer	specialty	thermoplastic|bioresorbable
+221	Polycaprolactone	PCL	polymer	specialty	thermoplastic|biodegradable
+222	Poly(butylene succinate)	PBS	polymer	engineering	thermoplastic|biodegradable
+223	Poly(butylene adipate-co-terephthalate)	PBAT	copolymer	engineering	thermoplastic|biodegradable
+224	Poly(butylene succinate-co-adipate)	PBSA	copolymer	specialty	thermoplastic|biodegradable
+225	Poly(ethylene 2,5-furandicarboxylate)	PEF	polymer	engineering	thermoplastic|barrier
+226	Poly(ethylene oxide)	PEO|PEG|polyethylene glycol	polymer	specialty	water-soluble|thermoplastic
+227	Poly(propylene oxide)	PPO|PPG|polypropylene glycol	polymer	specialty	functional|polyether
+228	Poly(tetramethylene ether glycol)	PTMEG|PTMG|PTHF	polymer	specialty	functional|polyether
+229	Poly(2-hydroxyethyl methacrylate)	PHEMA	polymer	specialty	hydrogel-forming
+230	Poly(N-isopropylacrylamide)	PNIPAM|PNIPAAm	polymer	specialty	stimuli-responsive|hydrogel-forming
+231	Poly(diallyldimethylammonium chloride)	PDADMAC|polyDADMAC	polymer	specialty	water-soluble|polyelectrolyte
+232	Polyethyleneimine	PEI|poly(ethylene imine)	family	specialty	water-soluble|polyelectrolyte
+233	Poly(sodium 4-styrenesulfonate)	PSS|PNaSS	polymer	specialty	water-soluble|polyelectrolyte
+234	Perfluorosulfonic acid ionomer family	PFSA	family	high_performance	functional|ionomer|ion-conducting|membrane
+235	Sulfonated poly(ether ether ketone)	SPEEK	modified_polymer	high_performance	ion-conducting|membrane
+236	Poly(2-oxazoline) family	POx	family	specialty	water-soluble|biomaterial
+237	Poly(vinylpyrrolidone)	PVP|poly(N-vinylpyrrolidone)	polymer	specialty	water-soluble|film-forming
+238	Poly(ethylene oxide)-block-poly(propylene oxide)-block-poly(ethylene oxide)	poloxamer|PEO-PPO-PEO	family	specialty	amphiphilic|thermoresponsive
+239	Poly(amidoamine) dendrimer family	PAMAM	family	specialty	dendritic|biomaterial
+240	Polydimethylsiloxane	PDMS|poly(dimethylsiloxane)	polymer	engineering	elastomeric|fluid|thermoset-precursor
+241	Polyacetylene	PAc|polyethyne	polymer	specialty	conjugated-conductive
+242	Polyaniline	PANI	polymer	specialty	conjugated-conductive
+243	Polypyrrole	PPy	polymer	specialty	conjugated-conductive
+244	Polythiophene	PTh|PT	family	specialty	conjugated-conductive
+245	Poly(3-hexylthiophene)	P3HT	subfamily	specialty	conjugated-semiconductor
+246	Poly(3,4-ethylenedioxythiophene)	PEDOT	subfamily	specialty	conjugated-conductive
+247	Poly(3,4-ethylenedioxythiophene):poly(styrenesulfonate)	PEDOT:PSS	polymer_complex	specialty	conductive-polymer-complex
+248	Poly(p-phenylene vinylene)	PPV	family	specialty	conjugated-semiconductor
+249	Poly[2-methoxy-5-(2-ethylhexyloxy)-1,4-phenylenevinylene]	MEH-PPV	subfamily	specialty	conjugated-semiconductor
+250	Polyfluorene family	PFo|PFO	family	specialty	conjugated-semiconductor
+251	Polycarbonate family	PC	family	engineering	thermoplastic
+252	Polysulfone family	polysulfones	family	high_performance	thermoplastic
+253	Polyisoprene family	polyisoprenes	family	commodity	elastomer|thermoplastic
+254	Fluoropolymer family	fluoropolymers	family	high_performance	thermoplastic|functional
+255	Polyurethane family	PU	family	engineering	thermoset|thermoplastic-elastomer|elastomeric|foam|coating|adhesive
+256	Polysiloxane family	silicone polymer family	family	high_performance	elastomeric|thermoset|coating|functional
+257	Styrenic block copolymer family	SBC	family	engineering	thermoplastic-elastomer
+258	Polycarbonate/ABS blend	PC/ABS|PC-ABS	polymer_blend	engineering	thermoplastic|impact-modified
+259	Poly(phenylene ether)/polystyrene blend	PPE/PS|PPO/PS	polymer_blend	engineering	thermoplastic
+260	Unplasticized poly(vinyl chloride)	PVC-U|rigid PVC	grade_family	commodity	thermoplastic|rigid
+261	Plasticized poly(vinyl chloride)	PVC-P|flexible PVC	grade_family	commodity	thermoplastic|flexible
+262	Fluoroelastomer family	fluoroelastomers	family	high_performance	elastomer
