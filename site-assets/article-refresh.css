@@ -1,0 +1,199 @@
+/* The wiki's article view borrows the OOPC researcher's quiet reading surface.
+   Chemistry assets, article anchors, and the tab behavior remain unchanged. */
+.breadcrumb--article-profile {
+  margin-top: 1.5rem;
+  font-size: .875rem;
+}
+.breadcrumb--article-profile a { font-weight: 500; }
+.article-shell--tabbed { padding-bottom: 5rem; }
+.article-profile__hero {
+  margin-top: 1rem;
+  padding: 1.25rem 0 2rem;
+  gap: clamp(1.5rem, 4vw, 3rem);
+  align-items: start;
+  background: transparent;
+  color: var(--ink);
+  border-radius: 0;
+  box-shadow: none;
+}
+.article-profile__identity {
+  padding: .25rem 0;
+  justify-content: start;
+}
+.article-profile__identity .eyebrow { color: var(--ink-soft); }
+.article-profile__identity h1 {
+  margin: .75rem 0 .5rem;
+  font-family: inherit;
+  font-size: clamp(1.8rem, 3vw, 2.65rem);
+  font-weight: 600;
+  letter-spacing: -.025em;
+  line-height: 1.14;
+}
+.article-profile__identity .article-aliases { color: var(--ink-soft); line-height: 1.55; }
+.article-profile__identity .article-maturity { order: 2; margin-top: 1.2rem; }
+.article-profile__identity .status-chip {
+  padding: .25rem .65rem;
+  color: var(--blue-dark);
+  background: var(--aqua-soft);
+  border-color: transparent;
+  font-weight: 600;
+}
+.article-profile__identity .article-maturity a { font-size: .82rem; }
+.article-profile__class { margin: 1.15rem 0 0; padding: 0; }
+.article-profile__class > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .3rem .6rem;
+  padding: 0;
+  border: 0;
+}
+.article-profile__class dt { color: var(--ink-soft); font-size: .72rem; }
+.article-profile__class dd { margin: 0; color: var(--ink); font-size: .9rem; font-weight: 600; }
+.article-profile__hero > .structure-showcase--hero {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+.article-profile__hero--boundary > .structure-showcase--hero {
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--ink);
+}
+.article-profile__hero.article-profile__hero--boundary .structure-showcase h2 { color: var(--ink-soft); }
+.structure-boundary { color: var(--ink-soft); }
+.structure-boundary strong { color: var(--ink); }
+.structure-boundary a { color: var(--blue); }
+.structure-showcase h2,
+.structure-card__heading :is(h3, h4, h5),
+.article-section :is(h2, h3),
+.article-tab-panel__intro h2,
+.overview-group > h3,
+.contextual-structure-preview__heading :is(h3, h4) {
+  font-family: inherit;
+  font-weight: 600;
+  letter-spacing: -.01em;
+  line-height: 1.3;
+}
+.article-profile__hero .structure-showcase h2 { font-size: 1.05rem; }
+.structure-card { border-color: var(--line); border-radius: var(--radius); }
+.article-profile__hero .structure-card { padding: 1rem; }
+.article-profile__hero .structure-card__heading h3 { font-size: .95rem; line-height: 1.35; }
+.article-profile__hero .structure-card figcaption,
+.article-profile__hero .structure-card figcaption p,
+.article-profile__hero .structure-card__download { font-size: .8rem; line-height: 1.5; }
+.structure-card__notation, .structure-state { border-color: var(--blue); background: var(--aqua-soft); }
+.structure-state--research { border-color: var(--amber); background: var(--amber-soft); }
+.structure-gallery__controls button { border-color: var(--line); color: var(--ink); }
+.structure-gallery__controls button:hover:not(:disabled) { border-color: var(--blue); background: var(--aqua-soft); }
+
+/* A single horizontal tab row leaves space for reading on small screens. */
+.article-profile__tab-dock {
+  top: 74px;
+  padding: .4rem 0 .7rem;
+  background: var(--paper);
+}
+.article-profile__tab-grid {
+  display: flex;
+  gap: 0;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scrollbar-width: thin;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  box-shadow: none;
+}
+.article-profile__tab-grid a {
+  flex: 1 0 auto;
+  min-width: max-content;
+  min-height: 48px;
+  padding: .65rem .85rem;
+  border: 0;
+  color: var(--ink-soft);
+  font-size: .82rem;
+  font-weight: 500;
+  background: transparent;
+}
+.article-profile__tab-grid a:hover { background: var(--aqua-soft); color: var(--blue-dark); }
+.article-profile__tab-grid a[aria-selected="true"] { color: var(--blue-dark); background: var(--aqua-soft); font-weight: 600; }
+.article-profile__tab-grid a::before { height: 3px; background: var(--blue); }
+.article-profile__surface {
+  border-color: var(--line);
+  border-radius: var(--radius);
+  box-shadow: none;
+}
+.article-profile__surface .article-tab-panel { padding: clamp(1.25rem, 3.5vw, 2.5rem); }
+.article-profile__surface .article-tab-panel__intro { padding-bottom: 1.4rem; }
+.article-tab-panel__intro h2 { font-size: clamp(1.4rem, 2.5vw, 1.8rem); }
+.article-profile__surface .article-tab-panel--overview > .overview-group { padding-block: 1.75rem; }
+.overview-group > h3 { font-size: 1.15rem; }
+.overview-definition { padding-left: 1rem; border-left: 3px solid var(--blue); }
+.overview-definition > p { font-size: 1rem; line-height: 1.7; }
+.overview-facts { border-radius: 10px; overflow: hidden; }
+.overview-facts > div { background: var(--paper); }
+.contextual-structure-preview { border-left: 3px solid var(--blue); border-radius: 10px; background: var(--paper); }
+.overview-subsection h4 { color: var(--ink); font-size: .9rem; font-weight: 600; letter-spacing: 0; text-transform: none; }
+.article-section h2 { font-size: 1.4rem; }
+.article-section h3 { font-size: 1.1rem; }
+.article-section__heading > span { color: var(--blue); }
+.evidence-table-scroll { border-radius: 10px; background: var(--surface); }
+.evidence-table caption { background: var(--paper); }
+.evidence-table thead, .evidence-table tbody th { background: var(--paper); }
+.evidence-table th, .evidence-table td { border-color: var(--line); }
+.sources > ol > li { gap: .75rem; }
+.source-number {
+  align-self: start;
+  padding: .12rem .35rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--paper);
+  color: var(--ink-soft);
+  font-size: .75rem;
+  text-align: center;
+}
+.source-meta span { background: var(--paper); color: var(--ink-soft); }
+.synthesis-route > header, .reaction-label { background: var(--paper); }
+.synthesis-route__basis, .reaction-side > h5, .reaction-arrow,
+.reaction-reagent dt span, .reaction-notation, .reaction-scroll-hint { color: var(--ink-soft); }
+.reaction-mechanism { border-color: var(--line); background: var(--paper); }
+.synthesis-route__limits { background: var(--amber-soft); }
+
+@media (max-width: 900px) {
+  .article-profile__hero--boundary { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 720px) {
+  .article-profile__hero { grid-template-columns: minmax(0, 1fr); padding: .75rem 0 1.5rem; }
+  .article-profile__identity h1 { font-size: clamp(1.75rem, 7vw, 2.4rem); line-height: 1.15; }
+  .article-profile__identity h1.article-title--long { font-size: 1.55rem; }
+  .article-profile__hero > .structure-showcase--hero { padding: 0; }
+  .article-profile__hero--boundary > .structure-showcase--hero { padding: 1rem; }
+}
+@media (max-width: 600px) {
+  .breadcrumb--article-profile { margin-top: 1rem; }
+  .article-profile__identity { padding: 0; }
+  .article-profile__class { margin-top: .85rem; }
+  .article-profile__tab-dock { top: 66px; }
+  .article-profile__tab-dock::after {
+    content: 'Scroll for more sections →';
+    display: block;
+    padding: .3rem .15rem 0;
+    color: var(--ink-soft);
+    font-size: .72rem;
+    line-height: 1.2;
+  }
+  .article-profile__tab-grid { display: flex; overflow-x: auto; gap: 0; background: var(--surface); }
+  .article-profile__tab-grid a { min-height: 46px; padding: .6rem .8rem; background: transparent; font-size: .82rem; }
+  .article-profile__surface .article-tab-panel { padding: 1.2rem; }
+  .article-profile__hero .structure-card { padding: .85rem; }
+  .article-tab-panel, .article-shell--tabbed .article-tab-panel .article-section,
+  .legacy-fragment-target, .article-profile .sources > ol > li,
+  .reference-occurrence, .coverage-gaps li, .degradation-evidence { scroll-margin-top: 150px; }
+}
+@media print {
+  .article-profile__hero { display: block; color: black; background: white; border: 1px solid #777; box-shadow: none; }
+  .article-profile__surface { border-color: #777; box-shadow: none; }
+}

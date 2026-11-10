@@ -170,6 +170,7 @@ the machine authority for visual styling, with no per-record overrides.
 - Code: Apache-2.0 (`LICENSE`)
 - Original prose and diagrams: CC BY 4.0 (`LICENSE-CONTENT`)
 - Original structured data: CC0 (`LICENSE-DATA`)
+- Bundled Inter font: SIL Open Font License 1.1 (`site-assets/inter.LICENSE`)
 
 Those licenses apply only to original repository contributions. Linked source
 material retains its own copyright and license. The wiki should normally cite

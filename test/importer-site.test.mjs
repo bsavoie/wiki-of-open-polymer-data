@@ -69,6 +69,10 @@ test('the static build emits canonical pages, unique aliases, local search, data
   const search = await fs.readFile(path.join(output, 'assets', 'search.js'), 'utf8');
   const articleScript = await fs.readFile(path.join(output, 'assets', 'article.js'), 'utf8');
   const style = await fs.readFile(path.join(output, 'assets', 'site.css'), 'utf8');
+  const articleStyle = await fs.readFile(path.join(output, 'assets', 'article-refresh.css'), 'utf8');
+  const catalogStyle = await fs.readFile(path.join(output, 'assets', 'catalog-refresh.css'), 'utf8');
+  const font = await fs.readFile(path.join(output, 'assets', 'InterVariable.woff2'));
+  assert.deepEqual(font, await fs.readFile(path.resolve('site-assets/InterVariable.woff2')));
   const publishedData = JSON.parse(await fs.readFile(path.join(output, 'data', 'wop-publication-snapshot-v2', 'snapshot.json'), 'utf8'));
   const publishedLegacyData = await fs.readFile(path.join(output, 'data', 'wop-publication-snapshot-v1', 'snapshot.json'), 'utf8');
   const frozenLegacyData = await fs.readFile(path.resolve('public-data/wop-publication-snapshot-v1/snapshot.json'), 'utf8');
@@ -257,12 +261,10 @@ test('the static build emits canonical pages, unique aliases, local search, data
   assert.match(style, /\.article-shell--tabbed \.article-tab-panel \.article-section \{ scroll-margin-top: 150px; \}/);
   assert.match(style, /@media \(max-width: 900px\)[\s\S]*\.article-nav--tabbed \{ display: none; \}/);
   assert.match(style, /@media \(max-width: 600px\)[\s\S]*\.article-tabs__list \{[^}]*grid-auto-flow: column;[^}]*grid-auto-columns: minmax\(138px, 1fr\);/);
-  assert.match(style, /@media \(max-width: 600px\)[\s\S]*\.article-profile__tab-grid \{[^}]*grid-template-columns: repeat\(4, minmax\(0, 1fr\)\);[^}]*grid-auto-flow: row;[^}]*overflow: visible;/);
-  assert.match(style, /@media \(max-width: 600px\)[\s\S]*\.article-profile__tab-grid a \{ grid-column: auto; \}/);
-  assert.match(style, /@media \(max-width: 600px\)[\s\S]*\.article-profile__tab-grid a \{[^}]*font-size: 0\.72rem;/);
+  assert.match(articleStyle, /@media \(max-width: 600px\)[\s\S]*\.article-profile__tab-grid \{[^}]*overflow-x: auto;/);
+  assert.match(catalogStyle, /@media \(max-width: 600px\)[\s\S]*\.polymer-grid \{ grid-template-columns: minmax\(0, 1fr\); \}/);
   assert.match(style, /@media \(max-width: 720px\)[\s\S]*\.article-profile__hero \{[^}]*grid-template-areas: "identity" "structure";/);
   assert.doesNotMatch(style, /\.wordmark small, \.site-nav \{ display: none; \}/);
-  assert.match(style, /@media \(max-width: 600px\)[\s\S]*\.site-nav \{ gap: 0\.7rem; \}/);
   assert.match(style, /@media print[\s\S]*\.article-tab-panel\[hidden\] \{ display: block !important; \}/);
   assert.match(style, /@media print[\s\S]*details\.structural-details:not\(\[open\]\) > \*:not\(summary\), details\.reference-support:not\(\[open\]\) > \*:not\(summary\) \{ display: block !important; \}/);
   assert.match(style, /@media print[\s\S]*\.article-tab-panel__intro \{ color: black;/);

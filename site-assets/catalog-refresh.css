@@ -1,0 +1,184 @@
+/* Catalog and reference landing page. Shared colors and type come from site.css. */
+.home-hero {
+  width: min(1180px, calc(100% - 3.5rem));
+  padding: clamp(2.5rem, 5vw, 4rem) 0 1.75rem;
+  display: block;
+}
+.home-hero h1 {
+  max-width: 760px;
+  margin: 0.55rem 0 0.75rem;
+  font-family: inherit;
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.14;
+}
+.home-hero > div > p { max-width: 720px; font-size: 1rem; line-height: 1.6; }
+.home-hero__links { display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; margin-top: 1rem; }
+.home-hero__links a { font-size: 0.875rem; font-weight: 600; text-decoration-thickness: 1px; }
+.corpus-stats { gap: 0.5rem; margin-top: 1.2rem; }
+.corpus-stats span {
+  padding: 0.3rem 0.65rem;
+  background: var(--surface);
+  border-color: var(--line);
+  font-size: 0.8rem;
+}
+.corpus-stats strong { font-size: inherit; }
+
+.catalog {
+  width: min(1180px, calc(100% - 3.5rem));
+  margin: 0 auto;
+  padding: 1.5rem 0 3.5rem;
+  color: var(--ink);
+  background: transparent;
+  scroll-margin-top: 5rem;
+}
+.catalog .section-heading { max-width: none; }
+.catalog .section-heading .eyebrow { color: var(--blue); }
+.catalog .section-heading h2,
+.methodology h2,
+.research-queue h2 {
+  margin: 0.35rem 0 0.55rem;
+  font-family: inherit;
+  font-size: clamp(1.5rem, 2.5vw, 1.75rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+.catalog .section-heading p { margin: 0; color: var(--ink-soft); line-height: 1.55; }
+.catalog-controls {
+  margin: 1.25rem 0 1rem;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.catalog-controls label { min-width: 0; gap: 0.35rem; }
+.catalog-controls label > span {
+  color: var(--ink-soft);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.catalog-controls input, .catalog-controls select {
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0 0.75rem;
+  background: var(--surface);
+  color: var(--ink);
+}
+.catalog-controls input:focus, .catalog-controls select:focus { border-color: var(--blue); }
+.catalog-controls button {
+  min-height: 44px;
+  padding: 0 1rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
+  font-weight: 600;
+}
+.catalog-controls button:hover { border-color: var(--blue); background: var(--surface); color: var(--blue); }
+.catalog-summary { margin: 1rem 0 0.6rem; color: var(--ink-soft); font-size: 0.875rem; }
+.catalog-summary strong { color: var(--ink); }
+.polymer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.5rem; }
+.polymer-card {
+  min-width: 0;
+  min-height: 0;
+  padding: 0.9rem 1rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-areas: "title category" "aliases meta";
+  align-content: start;
+  align-items: baseline;
+  gap: 0.25rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+.polymer-card:hover, .polymer-card:focus-within {
+  transform: none;
+  border-color: var(--blue);
+  background: var(--surface);
+  box-shadow: 0 2px 10px rgba(44, 31, 98, 0.07);
+}
+.polymer-card__meta { grid-area: meta; color: var(--ink-soft); font-size: 0.7rem; font-weight: 500; letter-spacing: 0; }
+.polymer-card h3 {
+  grid-area: title;
+  min-width: 0;
+  margin: 0;
+  overflow-wrap: anywhere;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+.polymer-card h3 a { color: var(--ink); text-decoration: none; }
+.polymer-card h3 a:hover, .polymer-card h3 a:focus-visible { color: var(--blue); text-decoration: underline; }
+.polymer-card h3 a::after { content: none; }
+.polymer-card__aliases { grid-area: aliases; min-height: 0; margin: 0; color: var(--ink-soft); font-size: 0.8rem; overflow-wrap: anywhere; }
+.polymer-card__category {
+  grid-area: category;
+  max-width: 12rem;
+  margin: 0;
+  padding: 0.15rem 0.5rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--ink-soft);
+  font-size: 0.7rem;
+  line-height: 1.35;
+  text-align: right;
+}
+.empty-state { padding: 2rem; border: 1px dashed var(--line); background: var(--surface); color: var(--ink); }
+.empty-state p { color: var(--ink-soft); }
+
+.research-queue {
+  width: min(1180px, calc(100% - 3.5rem));
+  max-width: none;
+  padding: 2rem 0 3rem;
+  border-top: 1px solid var(--line);
+}
+.research-queue > p { color: var(--ink-soft); }
+.research-metrics { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+.research-metrics > div { border-top-width: 1px; }
+.research-metrics dd { font-size: 1.2rem; font-weight: 600; }
+.research-filters select { border-radius: 8px; background: var(--surface); }
+.research-filters button { border-radius: 8px; }
+.methodology {
+  width: min(1180px, calc(100% - 3.5rem));
+  padding: 2.5rem 0 5rem;
+  border-top: 1px solid var(--line);
+  gap: clamp(2rem, 5vw, 5rem);
+  scroll-margin-top: 5rem;
+}
+.methodology__sources { border: 1px solid var(--line); }
+.methodology__sources h3 { font-family: inherit; font-size: 1.125rem; font-weight: 600; }
+
+@media (max-width: 900px) {
+  .catalog-controls { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .catalog-controls .catalog-search { grid-column: 1 / -1; }
+  .catalog-controls button { justify-self: start; }
+}
+@media (max-width: 600px) {
+  .home-hero, .catalog, .research-queue, .methodology { width: calc(100% - 2rem); }
+  .home-hero { padding-top: 2rem; }
+  .catalog-controls { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .polymer-grid { grid-template-columns: minmax(0, 1fr); }
+  .methodology { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 420px) {
+  .catalog-controls { grid-template-columns: minmax(0, 1fr); }
+  .catalog-controls .catalog-search { grid-column: auto; }
+  .catalog-controls button { justify-self: stretch; }
+  .polymer-card { grid-template-columns: minmax(0, 1fr); grid-template-areas: "title" "aliases" "category" "meta"; gap: 0.3rem; }
+  .polymer-card__category { justify-self: start; text-align: left; }
+}
+@media (prefers-reduced-motion: reduce) { .polymer-card { transition: none; } }
+@media print { .catalog-controls { display: none; } }
