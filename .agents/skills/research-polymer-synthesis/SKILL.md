@@ -1,6 +1,6 @@
 ---
 name: research-polymer-synthesis
-description: Research or review feedstocks and synthesis for a Wiki of Open Polymer Data entry, with polymer-boundary controls, independent open-source corroboration, and claim-to-section source mapping. Use for the Synthesis tab; do not use it as evidence for processing or properties unless those claims are separately researched and mapped.
+description: Populate a Wiki of Open Polymer Data entry’s feedstocks and synthesis section from open sources.
 ---
 
 # Research Polymer Synthesis
@@ -10,13 +10,14 @@ Populate only `sections.feedstocksAndSynthesis`. First read and follow
 linked references; they control source eligibility, public records, maturity,
 and validation.
 
-## Evidence target
+## Population target
 
-Use at least two distinct documents from two independent source lineages. A
-source counts only when its exact locator directly supports a published claim.
-Prefer an open textbook, open paper, thesis, public patent, or institutional
-course material over generic explanatory pages. A single review may orient the
-search but must not become the only evidence lineage.
+Use at least two distinct open documents from two source lineages. Prefer an
+open textbook, paper, thesis, public patent, institutional material, or official
+technical source. The sources may play different roles: one can establish the
+family chemistry while another supplies an industrial, historical, or route
+example. Prefer that complementary pairing when it is readily available rather
+than using two general reviews by default.
 
 ## Scope the chemistry
 
@@ -33,21 +34,37 @@ the sources establish for that boundary. Cover, when evidence permits:
 - isolation or finishing only when it is part of polymer manufacture rather
   than downstream article processing.
 
-Do not invent a recipe from a conceptual mechanism. Do not combine conditions
-from separate routes into a synthetic procedure. If a source describes a
-laboratory demonstration, patent example, or particular catalyst technology,
-label that scope rather than presenting it as the universal commercial route.
-Treat old process surveys as historical evidence and patents as disclosed
-embodiments: neither establishes present-day prevalence without a separate,
-current source.
+For a natural polymer, describe its biological source, biosynthesis, extraction,
+purification, or derivatization as appropriate instead of forcing it into a
+synthetic-polymer template. Keep later casting, molding, spinning, gelation, or
+curing in the Processing tab.
+
+For thermosets and elastomers, describe network-forming reactants and chemistry
+here; put the article-shaping cure or vulcanization operation, schedule, and
+equipment settings in Processing. A source may support both tabs when it
+directly contains both kinds of evidence.
+
+Do not invent a recipe from a conceptual mechanism or combine separate routes
+into one procedure. Label laboratory, patent, historical, and catalyst-specific
+examples when that scope is important. A compact population draft should cover
+the principal feedstock, polymerization class, and at least one meaningful
+route or control variable when the sources permit.
 
 ## Draft and review
 
-Write an independent synthesis that separates well-established family-level
-chemistry from source-specific examples. Map every used source to
-`feedstocksAndSynthesis`, record an exact locator and access/reuse status, and
-keep unresolved details out of the prose. Before publication, run an
-overbreadth pass: challenge monomer scope, catalyst generality, route
-prevalence, and any assertion that a method is industrial or dominant.
+Write an independent synthesis that separates established family chemistry
+from source-specific examples. A useful population draft normally identifies:
 
-Run `npm run check` after updating the authoritative snapshot.
+- the principal monomer, precursor, or natural feedstock;
+- the polymerization, network-forming, biosynthetic, extraction, or
+  modification route that defines the material;
+- at least one meaningful catalyst, initiator, medium, reaction control, route
+  variant, or manufacturing example when the open sources provide it.
+
+Map only sources that directly support `feedstocksAndSynthesis` and record a
+useful locator and access/reuse status. Do not map an article-fabrication source
+to synthesis merely because it identifies the starting resin. Do not block a
+source-backed draft on exhaustive route coverage; leave broader comparison and
+present-day prevalence checks for later hardening.
+
+Run `npm run check` once after completing the requested article or batch.

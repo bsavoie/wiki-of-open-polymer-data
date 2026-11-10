@@ -1,0 +1,2061 @@
+[
+  {
+    "wopId": "wop-000098",
+    "sections": {
+      "healthSafetyAndRegulation": "Uncured epoxy systems can irritate skin and cause sensitization; hardeners have their own hazards. WEST SYSTEM warns that contact risks persist during partial cure and that sanding incompletely cured material creates hazardous dust. Avoid skin and eye contact and control dust and vapors. Large masses of mixed resin can self-heat rapidly during cure and ignite nearby combustible material."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-west-epoxy-safety-2021",
+        "lineageId": "gougeon-west-system-user-manual",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "WEST SYSTEM, User Manual and Product Guide, September 2021 edition.",
+        "url": "https://www.westsystem.com/app/uploads/2023/12/English-WEST-SYSTEM-User-Manual-September-2021-Screen-Version.pdf",
+        "locator": "Section 2.1, pages 3–4: resin/hardener contact, sanding dust and exotherm; WEST SYSTEM formulated epoxy systems.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The manufacturer provides the complete manual for anonymous public reading; no open-reuse license was identified, so the guidance is cited and independently paraphrased.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000099",
+    "sections": {
+      "healthSafetyAndRegulation": "For bisphenol-A epoxy formulations, distinguish the reactive resin/hardener mixture from the fully cured article. WEST SYSTEM handling guidance identifies skin irritation and sensitization during mixing and partial cure, dust exposure during sanding, and strong heat release from large curing batches. Gloves appropriate to the formulation, eye protection, ventilation and controlled batch size address these fabrication hazards."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-west-epoxy-safety-2021",
+        "lineageId": "gougeon-west-system-user-manual",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "WEST SYSTEM, User Manual and Product Guide, September 2021 edition.",
+        "url": "https://www.westsystem.com/app/uploads/2023/12/English-WEST-SYSTEM-User-Manual-September-2021-Screen-Version.pdf",
+        "locator": "Section 2.1, pages 3–4: resin/hardener contact, sanding dust and exotherm; WEST SYSTEM formulated epoxy systems.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The manufacturer provides the complete manual for anonymous public reading; no open-reuse license was identified, so the guidance is cited and independently paraphrased.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000100",
+    "sections": {
+      "healthSafetyAndRegulation": "When working with uncured bisphenol-F epoxy systems, prevent skin contact with both resin and hardener. HSE identifies epoxy systems as occupational dermatitis hazards and recommends application tools and gloves suited to the chemicals involved. Handling controls apply to the complete formulation; curing changes the exposure scenario."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-construction-epoxy-dermatitis",
+        "lineageId": "hse-construction-epoxy-dermatitis",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. Construction dermatitis: frequently asked questions.",
+        "url": "https://www.hse.gov.uk/construction/faq-skin.htm",
+        "locator": "Epoxy resins/hardeners as dermatitis hazards; preventing skin contact and selecting suitable gloves.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000101",
+    "sections": {
+      "healthSafetyAndRegulation": "When working with uncured epoxy-novolac systems, prevent skin contact with both resin and hardener. HSE identifies epoxy systems as occupational dermatitis hazards and recommends application tools and gloves suited to the chemicals involved. Handling controls apply to the complete formulation; curing changes the exposure scenario."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-construction-epoxy-dermatitis",
+        "lineageId": "hse-construction-epoxy-dermatitis",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. Construction dermatitis: frequently asked questions.",
+        "url": "https://www.hse.gov.uk/construction/faq-skin.htm",
+        "locator": "Epoxy resins/hardeners as dermatitis hazards; preventing skin contact and selecting suitable gloves.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000102",
+    "sections": {
+      "healthSafetyAndRegulation": "Huntsman’s ARALDITE MY 721 safety sheet identifies skin sensitization for the tetraglycidyl-methylenedianiline resin and advises avoiding skin contact and inhalation of vapor or mist. It also identifies aquatic toxicity, making spill containment important. These findings describe the uncured commercial glycidyl-amine component; the hardener and finished composite require separate assessment."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-glycidylamine-my721-sds-2015",
+        "lineageId": "glycidylamine-my721-sds-2015",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Huntsman Advanced Materials. ARALDITE MY 721 US safety data sheet, 9 January 2015. Public distributor copy.",
+        "url": "https://spolymers.com/wp-content/uploads/Araldite-MY-721-US_SDS.pdf",
+        "locator": "Sections 2–3 and 7–8; tetraglycidyl methylenedianiline resin.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000103",
+    "sections": {
+      "healthSafetyAndRegulation": "The 2019 US safety sheet for ARALDITE CY 179 identifies skin sensitization, suspected mutagenicity and repeated-exposure organ toxicity for the supplied cycloaliphatic diepoxide component. It recommends avoiding skin and eye contact and inhalation of vapor or mist, with suitable contact protection. These warnings concern the reactive resin formulation and are not a classification of all fully cured cycloaliphatic epoxy articles."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-cycloaliphatic-cy179-sds-2019",
+        "lineageId": "cycloaliphatic-cy179-sds-2019",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Huntsman Advanced Materials. ARALDITE CY 179 US safety data sheet, version 2.0, 10 December 2019. Public distributor copy.",
+        "url": "https://spolymers.com/wp-content/uploads/Araldite-CY-179-US_SDS.pdf",
+        "locator": "Sections 2–3 and 7–8; cycloaliphatic diepoxide, CAS 2386-87-0.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000104",
+    "sections": {
+      "healthSafetyAndRegulation": "For styrene-containing unsaturated polyester formulations, open molding can expose workers to irritating styrene vapor, which can also cause headache or drowsiness. HSE recommends reducing exposed resin area and capturing emissions with ventilation. These hazards concern the liquid formulation and its application process."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-styrene-composites-2018",
+        "lineageId": "hse-styrene-composites-2018",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. Styrene control in fibre-reinforced plastics contact moulding. PPIS14 revision 2, June 2018.",
+        "url": "https://www.hse.gov.uk/pubns/ppis14.pdf",
+        "locator": "Health effects and exposure controls for styrene-containing resins in open contact molding.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000105",
+    "sections": {
+      "healthSafetyAndRegulation": "For styrene-containing orthophthalic polyester formulations, open molding can expose workers to irritating styrene vapor, which can also cause headache or drowsiness. HSE recommends reducing exposed resin area and capturing emissions with ventilation. These hazards concern the liquid formulation and its application process."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-styrene-composites-2018",
+        "lineageId": "hse-styrene-composites-2018",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. Styrene control in fibre-reinforced plastics contact moulding. PPIS14 revision 2, June 2018.",
+        "url": "https://www.hse.gov.uk/pubns/ppis14.pdf",
+        "locator": "Health effects and exposure controls for styrene-containing resins in open contact molding.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000106",
+    "sections": {
+      "healthSafetyAndRegulation": "For styrene-containing isophthalic polyester formulations, open molding can expose workers to irritating styrene vapor, which can also cause headache or drowsiness. HSE recommends reducing exposed resin area and capturing emissions with ventilation. These hazards concern the liquid formulation and its application process."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-styrene-composites-2018",
+        "lineageId": "hse-styrene-composites-2018",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. Styrene control in fibre-reinforced plastics contact moulding. PPIS14 revision 2, June 2018.",
+        "url": "https://www.hse.gov.uk/pubns/ppis14.pdf",
+        "locator": "Health effects and exposure controls for styrene-containing resins in open contact molding.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000107",
+    "sections": {
+      "healthSafetyAndRegulation": "For styrene-containing DCPD-modified polyester formulations, open molding can expose workers to irritating styrene vapor, which can also cause headache or drowsiness. HSE recommends reducing exposed resin area and capturing emissions with ventilation. These hazards concern the liquid formulation and its application process."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-styrene-composites-2018",
+        "lineageId": "hse-styrene-composites-2018",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. Styrene control in fibre-reinforced plastics contact moulding. PPIS14 revision 2, June 2018.",
+        "url": "https://www.hse.gov.uk/pubns/ppis14.pdf",
+        "locator": "Health effects and exposure controls for styrene-containing resins in open contact molding.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000108",
+    "sections": {
+      "healthSafetyAndRegulation": "DERAKANE guidance treats vinyl ester fabrication as a complete-system handling issue: resin, solvents, accelerators and catalysts each require precautions. The manufacturer directs users to component safety sheets for handling and disposal. These instructions concern the reactive fabrication system; cured-laminate exposure requires assessment of its actual composition and subsequent operations."
+    },
+    "sources": [
+      {
+        "lineageId": "derakane-guide",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "INEOS Composites, Derakane Resin Selection Guide.",
+        "url": "https://www.ineos.com/globalassets/ineos-group/businesses/ineos-composites/markets/corrosion/derakane-resin-selection-guide.pdf",
+        "locator": "Safety Precautions, page 11; resin, solvent, accelerator and catalyst handling in DERAKANE fabrication.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The cited substantive material is anonymously readable; no explicit open reuse license was identified. Independently paraphrased.",
+        "sourceId": "comp-derakane-safety-guide",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000109",
+    "sections": {
+      "healthSafetyAndRegulation": "DERAKANE guidance treats bisphenol-A epoxy vinyl ester fabrication as a complete-system handling issue: resin, solvents, accelerators and catalysts each require precautions. The manufacturer directs users to component safety sheets for handling and disposal. These instructions concern the reactive fabrication system; cured-laminate exposure requires assessment of its actual composition and subsequent operations."
+    },
+    "sources": [
+      {
+        "lineageId": "derakane-guide",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "INEOS Composites, Derakane Resin Selection Guide.",
+        "url": "https://www.ineos.com/globalassets/ineos-group/businesses/ineos-composites/markets/corrosion/derakane-resin-selection-guide.pdf",
+        "locator": "Safety Precautions, page 11; resin, solvent, accelerator and catalyst handling in DERAKANE fabrication.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The cited substantive material is anonymously readable; no explicit open reuse license was identified. Independently paraphrased.",
+        "sourceId": "comp-derakane-safety-guide",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000110",
+    "sections": {
+      "healthSafetyAndRegulation": "DERAKANE guidance treats epoxy-novolac vinyl ester fabrication as a complete-system handling issue: resin, solvents, accelerators and catalysts each require precautions. The manufacturer directs users to component safety sheets for handling and disposal. These instructions concern the reactive fabrication system; cured-laminate exposure requires assessment of its actual composition and subsequent operations."
+    },
+    "sources": [
+      {
+        "lineageId": "derakane-guide",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "INEOS Composites, Derakane Resin Selection Guide.",
+        "url": "https://www.ineos.com/globalassets/ineos-group/businesses/ineos-composites/markets/corrosion/derakane-resin-selection-guide.pdf",
+        "locator": "Safety Precautions, page 11; resin, solvent, accelerator and catalyst handling in DERAKANE fabrication.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The cited substantive material is anonymously readable; no explicit open reuse license was identified. Independently paraphrased.",
+        "sourceId": "comp-derakane-safety-guide",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000111",
+    "sections": {
+      "healthSafetyAndRegulation": "For uncured phenol–formaldehyde formulations, HSE identifies formaldehyde resins and releasers as occupational contact-sensitization concerns. Prevent skin contamination and assess the actual formulation; this does not classify every cured article."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-formaldehyde-resin-skin-2004",
+        "lineageId": "hse-formaldehyde-resin-skin-2004",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. Medical aspects of occupational skin disease. Guidance Note MS24, second edition, 2004.",
+        "url": "https://www.hse.gov.uk/pubns/priced/ms24.pdf",
+        "locator": "Paragraph 19 and Appendix: formaldehyde, releasers and formaldehyde resins as occupational contact-sensitization concerns.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000112",
+    "sections": {
+      "healthSafetyAndRegulation": "For uncured novolac formulations, HSE identifies formaldehyde resins and releasers as occupational contact-sensitization concerns. Prevent skin contamination and assess the actual formulation; this does not classify every cured article."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-formaldehyde-resin-skin-2004",
+        "lineageId": "hse-formaldehyde-resin-skin-2004",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. Medical aspects of occupational skin disease. Guidance Note MS24, second edition, 2004.",
+        "url": "https://www.hse.gov.uk/pubns/priced/ms24.pdf",
+        "locator": "Paragraph 19 and Appendix: formaldehyde, releasers and formaldehyde resins as occupational contact-sensitization concerns.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000113",
+    "sections": {
+      "healthSafetyAndRegulation": "For uncured resole formulations, HSE identifies formaldehyde resins and releasers as occupational contact-sensitization concerns. Prevent skin contamination and assess the actual formulation; this does not classify every cured article."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-formaldehyde-resin-skin-2004",
+        "lineageId": "hse-formaldehyde-resin-skin-2004",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. Medical aspects of occupational skin disease. Guidance Note MS24, second edition, 2004.",
+        "url": "https://www.hse.gov.uk/pubns/priced/ms24.pdf",
+        "locator": "Paragraph 19 and Appendix: formaldehyde, releasers and formaldehyde resins as occupational contact-sensitization concerns.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000114",
+    "sections": {
+      "healthSafetyAndRegulation": "For uncured cresol–formaldehyde formulations, HSE identifies formaldehyde resins and releasers as occupational contact-sensitization concerns. Prevent skin contamination and assess the actual formulation; this does not classify every cured article.",
+      "recyclingAndEndOfLife": "Cured cresol–formaldehyde products fall within the phenolic thermosets described in India’s 2016 CPCB waste-management guidance. The document identifies cement-kiln co-processing as a route for recovering energy and raw-material value from thermoset waste, subject to waste collection and facility controls. This destroys the organic network rather than remelting it; the demonstrated kiln example concerns FRP waste, not isolated cresol-resin monomer recovery."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-formaldehyde-resin-skin-2004",
+        "lineageId": "hse-formaldehyde-resin-skin-2004",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. Medical aspects of occupational skin disease. Guidance Note MS24, second edition, 2004.",
+        "url": "https://www.hse.gov.uk/pubns/priced/ms24.pdf",
+        "locator": "Paragraph 19 and Appendix: formaldehyde, releasers and formaldehyde resins as occupational contact-sensitization concerns.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      },
+      {
+        "sourceId": "comp-cresol-cpcb-end-of-life-2016",
+        "lineageId": "deg-cresol-thermoset-report-2016",
+        "sourceType": "public_report",
+        "citation": "Central Pollution Control Board. Guidelines for disposal of thermoset plastic waste (2016).",
+        "url": "https://optoce.no/wp-content/uploads/2019/03/CPCB-29-Jun-2016Latest-Thermoset-Guidelines.pdf",
+        "locator": "Section 3.3 includes cresol/xylenol resins; Sections 5.2–5.2.2 explain thermoset-waste management and FRP cement-kiln co-processing.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000115",
+    "sections": {
+      "healthSafetyAndRegulation": "For uncured resorcinol–formaldehyde formulations, HSE identifies formaldehyde resins and releasers as occupational contact-sensitization concerns. Prevent skin contamination and assess the actual formulation; this does not classify every cured article."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-formaldehyde-resin-skin-2004",
+        "lineageId": "hse-formaldehyde-resin-skin-2004",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. Medical aspects of occupational skin disease. Guidance Note MS24, second edition, 2004.",
+        "url": "https://www.hse.gov.uk/pubns/priced/ms24.pdf",
+        "locator": "Paragraph 19 and Appendix: formaldehyde, releasers and formaldehyde resins as occupational contact-sensitization concerns.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000116",
+    "sections": {
+      "healthSafetyAndRegulation": "The supplier’s AERODUX 185 safety sheet identifies free phenol, resorcinol and ethanol in the supplied phenol–resorcinol–formaldehyde adhesive. It warns of skin and eye burns and toxicity through skin contact or swallowing, and requires ventilation and contact protection during handling. This historical formulation illustrates why uncured adhesive must be assessed separately from the cured bond line.",
+      "recyclingAndEndOfLife": "AERODUX 185 instructions separate liquid adhesive residues and contaminated wash water from cured glue. Uncured spills are collected in closed containers for reclamation or licensed disposal, while cured adhesive is insoluble and must be mechanically removed from equipment. This supports segregation and controlled waste handling, rather than recovery of the original polymer from a bonded timber product."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-prf-aerodux185-sds-2000",
+        "lineageId": "prf-aerodux185-sds-2000",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Dynea ASA. AERODUX 185 safety data sheet, revision 22 November 2000. Public distributor copy.",
+        "url": "https://www.chemical-supermarket.com/files/Adhesives/Aerodux-185/MSDS_Aerodux185.pdf",
+        "locator": "Sections 2–3, 6–8 and 13; supplied phenol–resorcinol–formaldehyde adhesive containing free phenol, resorcinol and ethanol.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "comp-prf-aerodux185-tds",
+        "lineageId": "prf-aerodux185-tds",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Dynea. AERODUX 185 technical data sheet, 29 March 2004. Public distributor copy.",
+        "url": "https://www.chemical-supermarket.com/files/Adhesives/Aerodux-185/Technical%20Data%20Sheet,%20Aerodux185.pdf",
+        "locator": "Cleaning and Safety precautions, pages 7–8.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000117",
+    "sections": {
+      "healthSafetyAndRegulation": "UF-bonded pressed-wood products can emit formaldehyde into indoor air. EPA identifies eye, throat and respiratory irritation as exposure concerns and recommends ventilation, moderate temperature and humidity control to reduce exposure. Emissions depend on the finished panel and indoor conditions, so the presence of UF adhesive does not establish a universal exposure level."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-epa-uf-indoor-air-2026",
+        "lineageId": "epa-uf-indoor-air-2026",
+        "sourceType": "public_report",
+        "citation": "US Environmental Protection Agency. What should I know about formaldehyde and indoor air quality? Updated 17 August 2026.",
+        "url": "https://www.epa.gov/indoor-air-quality-iaq/what-should-i-know-about-formaldehyde-and-indoor-air-quality",
+        "locator": "UF pressed-wood sources, health effects and steps to reduce exposure.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000118",
+    "sections": {
+      "healthSafetyAndRegulation": "Melamine-resin tableware can contain residual melamine capable of migrating into food, with migration increasing for hot, highly acidic food. FDA advises against heating food or drinks on melamine-based dinnerware in a microwave. This is product-use guidance for tableware, rather than a blanket restriction on every melamine–formaldehyde material or a finished-product compliance determination."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-fda-melamine-tableware",
+        "lineageId": "fda-melamine-tableware",
+        "sourceType": "public_report",
+        "citation": "US Food and Drug Administration. Melamine in Tableware: Questions and Answers. Accessed 8 September 2026.",
+        "url": "https://www.fda.gov/food/economically-motivated-adulteration-food-fraud/melamine-tableware-questions-and-answers",
+        "locator": "Questions on eating from melamine dinnerware and heating food; residual melamine migration under acidic/hot conditions.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000119",
+    "sections": {
+      "healthSafetyAndRegulation": "For uncured melamine–urea–formaldehyde formulations, HSE identifies formaldehyde resins and releasers as occupational contact-sensitization concerns. Prevent skin contamination and assess the actual formulation; this does not classify every cured article."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-formaldehyde-resin-skin-2004",
+        "lineageId": "hse-formaldehyde-resin-skin-2004",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. Medical aspects of occupational skin disease. Guidance Note MS24, second edition, 2004.",
+        "url": "https://www.hse.gov.uk/pubns/priced/ms24.pdf",
+        "locator": "Paragraph 19 and Appendix: formaldehyde, releasers and formaldehyde resins as occupational contact-sensitization concerns.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000120",
+    "sections": {
+      "healthSafetyAndRegulation": "Johns Manville’s MICROLITE AA uncured aerospace insulation provides a formulation-specific example: glass fibers carry a phenol–urea–formaldehyde binder and residual formaldehyde. Its 2021 US/Canadian safety sheet identifies skin sensitization and carcinogenicity hazards for the supplied composite and calls for control of dust, fume and skin contact. These warnings describe the uncured binder-containing insulation, not an intrinsic classification of every cured PUF resin.",
+      "recyclingAndEndOfLife": "For MICROLITE AA uncured glass-fiber insulation containing PUF binder, Johns Manville calls for mechanical collection of waste without raising dust and disposal at an approved facility. This addresses management of the supplied binder–fiber composite. The safety sheet does not describe separation or chemical recovery of PUF resin from cured insulation."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-puf-microlite-aa-sds-2021",
+        "lineageId": "puf-microlite-aa-sds-2021",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Johns Manville. MICROLITE AA Uncured – Water Repellent Phenolic safety data sheet, version 3.2, 5 May 2021.",
+        "url": "https://www.jm.com/content/dam/jm/global/en/MSDS/200000001920_US_EN.pdf",
+        "locator": "Sections 2–3, 6–8 and 13: formulation hazards, dust/contact controls and disposal of uncured PUF-bonded glass-fiber insulation.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000121",
+    "sections": {
+      "healthSafetyAndRegulation": "The 2023 European safety sheet for CYMEL 1123, a modified benzoguanamine–formaldehyde coating resin, identifies skin sensitization and carcinogenicity hazards for the supplied product, which contains residual formaldehyde. It calls for prevention of skin and eye contact and enclosure or local extraction during spraying and hot curing. These classifications concern the uncured commercial formulation rather than all cured benzoguanamine coatings.",
+      "recyclingAndEndOfLife": "For unused CYMEL 1123 coating resin, Allnex encourages reuse or recycling where feasible and recommends treatment at an approved thermal-treatment or incineration facility when those options are unavailable. Contaminated packaging is managed with the product, and releases to drains or soil are avoided. This is documented management of resin waste; the safety sheet does not demonstrate recovery of benzoguanamine resin from a cured coating."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-benzoguanamine-cymel1123-sds-2023",
+        "lineageId": "benzoguanamine-cymel1123-sds-2023",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Allnex. CYMEL 1123 RESIN safety data sheet, SDS 0000150, 10 August 2023. Public distributor copy.",
+        "url": "https://www.tennantsdistribution.com/LinkClick.aspx?fileticket=kqmxcXP1XgI%3D&portalid=0",
+        "locator": "Sections 2–3, 7–8 and 13; modified methylated/ethylated benzoguanamine–formaldehyde coating resin.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000122",
+    "sections": {
+      "healthSafetyAndRegulation": "During thermoset polyurethane manufacture or application, unreacted isocyanate ingredients can irritate skin, eyes and airways and cause sensitization or occupational asthma. NIOSH emphasizes enclosure and ventilation to control vapor or aerosol exposure and protection against skin contact. These ingredient hazards concern reactive formulations and cannot be assigned unchanged to a fully cured article."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-niosh-isocyanates",
+        "lineageId": "niosh-isocyanates",
+        "sourceType": "public_report",
+        "citation": "National Institute for Occupational Safety and Health. Isocyanates. Archived occupational-health topic guidance.",
+        "url": "https://archive.cdc.gov/www_cdc_gov/niosh/topics/isocyanates/default.html",
+        "locator": "Introduction and preventing exposure: reactive isocyanate ingredients, skin/respiratory sensitization and engineering controls.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000123",
+    "sections": {
+      "healthSafetyAndRegulation": "Polyisocyanurate insulation foam remains a combustible cellular-plastic product even when formulated for improved fire performance. HSE’s cellular-plastics guidance emphasizes ignition control, separation of storage from heat-producing operations, and management of smoke and rapid fire spread. These precautions concern storage and fabrication of cellular-plastic products."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-cellular-plastics-fire",
+        "lineageId": "hse-cellular-plastics-fire",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. Safe use and storage of cellular plastics: controlling the fire risk.",
+        "url": "https://www.hse.gov.uk/plastics/fire-safety.htm",
+        "locator": "Fire hazards and storage/processing precautions for cellular plastics including rigid polyurethane/polyisocyanurate insulation.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000124",
+    "sections": {
+      "healthSafetyAndRegulation": "During polyurea manufacture or application, unreacted isocyanate ingredients can irritate skin, eyes and airways and cause sensitization or occupational asthma. NIOSH emphasizes enclosure and ventilation to control vapor or aerosol exposure and protection against skin contact. These ingredient hazards concern reactive formulations and cannot be assigned unchanged to a fully cured article."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-niosh-isocyanates",
+        "lineageId": "niosh-isocyanates",
+        "sourceType": "public_report",
+        "citation": "National Institute for Occupational Safety and Health. Isocyanates. Archived occupational-health topic guidance.",
+        "url": "https://archive.cdc.gov/www_cdc_gov/niosh/topics/isocyanates/default.html",
+        "locator": "Introduction and preventing exposure: reactive isocyanate ingredients, skin/respiratory sensitization and engineering controls.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000125",
+    "sections": {
+      "healthSafetyAndRegulation": "Alkyd manufacture requires assessment of reactive feedstocks separately from the cured coating. A review identifies phthalic anhydride, a common alkyd monomer, as an eye, skin and respiratory irritant during occupational exposure; maleic anhydride also presents contact and eye hazards. These starting-material concerns are not intrinsic hazard classifications of the completed alkyd film."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-alkyd-feedstock-safety-2023",
+        "lineageId": "turkish-journal-chemistry-bio-based-alkyd-2023",
+        "sourceType": "open_journal",
+        "citation": "Dizman, C.; Cerrahoğlu Kaçakgil, E. Alkyd resins produced from bio-based resources for more sustainable and environmentally friendly coating applications. Turkish Journal of Chemistry, 2023, 47(1), 1–23.",
+        "doi": "10.55730/1300-0527.3511",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10507036/",
+        "locator": "Section 4.1, petroleum-based raw materials: phthalic and maleic anhydride occupational exposure.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The PMC-hosted article identifies an open Creative Commons license; the article prose is independently written.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000126",
+    "sections": {
+      "healthSafetyAndRegulation": "Aremco’s CP4000-S1 silicone-resin coating instructions call for ventilation during application and curing because the coating outgasses. Handling therefore needs to consider the complete coating formulation and its cure emissions, alongside the eventual silicone network. The supplier’s instruction concerns this solvent-borne protective-coating system and is not a hazard classification for all silicone resins."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-silicone-resin-cp4000-safety",
+        "lineageId": "aremco-cp4000-silicone-resin-coatings",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Aremco Products, High Temperature Silicone Resin Coatings: CP4000-S1 Series Properties and Processing Data Sheet.",
+        "url": "https://www.aremco.com/wp-content/uploads/2022/12/A06_S3_22-1.pdf",
+        "locator": "CP4000-S1 instructions, surface preparation/application and curing precautions.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Aremco publishes the complete coating data sheet without authentication; no explicit open-reuse license is asserted, so formulation-specific cure and handling data are independently paraphrased.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000127",
+    "sections": {
+      "healthSafetyAndRegulation": "The MATRIMID 5292 A-2 bismaleimide component is supplied as a powder. Huntsman’s safety sheet identifies inhalation toxicity and combustible-dust hazards and notes that airborne powder can irritate eyes, skin and airways. Avoid dust accumulation, ignition sources and inhalation during handling. These precautions concern the uncured diphenylmethane-bismaleimide component rather than a completed composite."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-bmi-matrimid5292-sds-2015",
+        "lineageId": "bmi-matrimid5292-sds-2015",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Huntsman Advanced Materials. MATRIMID 5292 A-2 US safety data sheet, 1 April 2015. Public distributor copy.",
+        "url": "https://spolymers.com/wp-content/uploads/MATRIMID-5292-A-2-US_SDS.pdf",
+        "locator": "Sections 2–3 and 7–8; diphenylmethane bismaleimide powder.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000128",
+    "sections": {
+      "recyclingAndEndOfLife": "Chemical recycling has been demonstrated for cured cyanate-ester networks. Dreyer and coworkers decomposed bisphenol-A, bisphenol-E and novolac polycyanurates with reactive liquid agents, producing phenolic and triazine-containing material. Resin composition, agent and temperature strongly affected dissolution; this is controlled chemical treatment, not environmental degradation. The recovered hydroxyl-containing mixture was incorporated into new polyurethane foams and solid thermosets. Tests on reinforcement fibers found comparatively small effects on carbon and glass fibers, while aramid and flax compatibility depended on the treatment. The study establishes laboratory recovery and reuse options rather than a universal process for every cyanate-ester composite.",
+      "healthSafetyAndRegulation": "Huntsman’s AROCY L 10 safety sheet describes a bisphenol-E dicyanate precursor that is harmful if inhaled or swallowed and can seriously damage eyes. It also warns of organ effects after repeated exposure and aquatic toxicity. Control vapor or mist, protect against splashes and contain spills. These precursor hazards must be distinguished from those of a cured polycyanurate composite."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-cyanate-recycling-dreyer-2014",
+        "lineageId": "cyanate-recycling-dreyer-2014",
+        "sourceType": "open_journal",
+        "citation": "Dreyer, C.; Söthje, D.; Bauer, M. Progress in Recycling of Composites with Polycyanurate Matrix. Advances in Chemical Engineering and Science 4 (2014), 167–183.",
+        "url": "https://www.scirp.org/pdf/ACES_2014041416520733.pdf",
+        "locator": "Sections 2–4.3; Figures 3 and 5–12; Tables 1–2. Conventional B10, L10 and PT15 polycyanurates and copolymers; reagent identities partly anonymized in the article.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The article explicitly states Creative Commons Attribution 4.0 on page 167; independently paraphrased and cited.",
+        "doi": "10.4236/aces.2014.42020",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "comp-cyanate-arocy-l10-sds-2021",
+        "lineageId": "cyanate-arocy-l10-sds-2021",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Huntsman Advanced Materials. AROCY L 10 US safety data sheet, version 1.1, 30 December 2021. Public distributor copy.",
+        "url": "https://spolymers.com/wp-content/uploads/Arocy-L-10-US_SDS.pdf",
+        "locator": "Sections 2–3 and 7–8; 4,4′-ethylidenediphenyl dicyanate precursor.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000129",
+    "sections": {
+      "healthSafetyAndRegulation": "Heated polybenzoxazine processing calls for control of fume and adherence to formulation-specific temperature and dwell-time guidance. HSE recommends ventilation and assessment of additives and degradation products. This process guidance does not assign a universal toxicity classification to the polymer."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-plastics-fume-2015",
+        "lineageId": "hse-plastics-fume-2015",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. Controlling fume during plastics processing. Plastics Processing Sheet 13, revision 1, December 2015.",
+        "url": "https://www.hse.gov.uk/pubns/ppis13.pdf",
+        "locator": "Health hazards, formulation information, temperature/residence-time control and ventilation; guidance for plastics molding, extrusion and related processes.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000130",
+    "sections": {
+      "healthSafetyAndRegulation": "A study of 4-APN phthalonitrile chemistry identified ammonia during thermal cure and precursor volatilization in heated, high-vacuum measurements. Cure-emission assessment therefore needs to consider the catalyst and processing conditions; the results are not a gas inventory for every phthalonitrile resin. HSE plastics-processing guidance supports ventilation to control hot-process emissions."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-phthalonitrile-cure-emission-safety-2020",
+        "lineageId": "doi-10-1039-d0ra07581g",
+        "sourceType": "open_journal",
+        "citation": "Liping Sheng, Kerui Xiang, Rong Qiu, Yuxuan Wang, Shengpei Su, Dulin Yin, and Yongming Chen, “Polymerization Mechanism of 4-APN and a New Catalyst for Phthalonitrile Resin Polymerization,” RSC Advances 10 (2020), 39187–39194.",
+        "doi": "10.1039/D0RA07581G",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9057334/",
+        "locator": "Sections 3.2 and 3.4: TG–IR–GC–MS of 4-APN, high-vacuum volatilization and catalyst-dependent cure gases/voids.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The complete source is anonymously readable under the stated open license; only a citation and precise locator are stored here.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      },
+      {
+        "sourceId": "comp-hse-plastics-fume-2015",
+        "lineageId": "hse-plastics-fume-2015",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. Controlling fume during plastics processing. Plastics Processing Sheet 13, revision 1, December 2015.",
+        "url": "https://www.hse.gov.uk/pubns/ppis13.pdf",
+        "locator": "Health hazards, formulation information, temperature/residence-time control and ventilation; guidance for plastics molding, extrusion and related processes.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000131",
+    "sections": {
+      "healthSafetyAndRegulation": "Acid-catalyzed furfuryl-alcohol polymerization can release heat rapidly. Coimbra and coworkers found that some hotter trial reactions became difficult to control, and used gradual acid addition with external temperature control to moderate the exotherm. This establishes a manufacturing runaway-reaction concern and the need for controlled addition and heat removal, rather than a hazard classification for a cured poly(furfuryl alcohol) article."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-pfa-synthesis-exotherm-safety-2022",
+        "lineageId": "scielo-revista-materia-furfuryl-resin-study-2022",
+        "sourceType": "open_journal",
+        "citation": "Coimbra, M. C. R.; Brazil, T. R.; Morgado, G. F. M.; et al. Establishment of the Synthesis Route of Furfuryl Resin in Acidic Medium to Minimize the Exothermy of Reaction. Matéria 2022, 27(3).",
+        "doi": "10.1590/1517-7076-RMAT-2022-0054",
+        "url": "https://www.scielo.br/j/rmat/a/stt7Y66btDzQKxHyzCqfGzk/?lang=pt",
+        "locator": "Introduction and Section 2.2: reaction exotherm, gradual acid addition and external temperature control.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The complete SciELO article is anonymously readable; it is cited and independently paraphrased because no reusable license was confirmed for this record.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000132",
+    "sections": {
+      "healthSafetyAndRegulation": "Buehler’s 2024 European safety sheet for its mineral-filled diallyl-phthalate mounting compound warns of respirable dust and classifies the mixture as a reproductive toxicant, identifying vinyltris(methoxyethoxy)silane on its hazard label. Avoid dust inhalation and direct contact. These warnings apply to the specified filled formulation and should not be assigned to neat cured poly(diallyl phthalate)."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-pdap-buehler-mineral-sds-2024",
+        "lineageId": "pdap-buehler-mineral-sds-2024",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Buehler. Diallyl Phthalate – Mineral Filled safety data sheet, product 20-3330-080, EU English, version 1.0, 22 October 2024.",
+        "url": "https://www.buehler.com/assets/SDS/EU-English/Diallyl-Phthalate-Mineral-Filled-EU-English.pdf",
+        "locator": "Sections 2–3 and 7–8: formulated compound, vinyltris(methoxyethoxy)silane, dust and exposure controls.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000133",
+    "sections": {
+      "healthSafetyAndRegulation": "The PMR-15 thermosetting-polyimide system illustrates precursor-specific health concerns: NASA identifies its methylenedianiline starting material as a liver toxin and describes special handling to limit exposure during fabrication and waste management. Development of alternative diamines was motivated partly by this issue. The finding applies to MDA-containing PMR formulations and should not be generalized to all thermosetting polyimides."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-nasa-pmr15-precursor-safety-2004",
+        "lineageId": "nasa-pmr15-precursor-safety-2004",
+        "sourceType": "public_report",
+        "citation": "Chuang, K. Development of DMBZ-15 High-Glass-Transition-Temperature Polyimides as PMR-15 Replacements Given R&D 100 Award. NASA Research and Technology 2003, published May 2004.",
+        "url": "https://ntrs.nasa.gov/api/citations/20050192252/downloads/20050192252.pdf",
+        "locator": "Pages 1–2: PMR-15 methylenedianiline exposure and alternative-diamine development.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000134",
+    "sections": {
+      "healthSafetyAndRegulation": "Proteins carried by natural rubber latex can cause allergic reactions ranging from skin symptoms to severe systemic reactions. Processing chemicals can separately cause contact rashes. NIOSH distinguishes these protein allergens from synthetic rubber latex, which does not supply the same natural proteins. Exposure depends on the product and contact route, so material selection must consider users with known latex allergy."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-niosh-natural-latex-allergy",
+        "lineageId": "niosh-natural-latex-allergy",
+        "sourceType": "public_report",
+        "citation": "National Institute for Occupational Safety and Health. Preventing Allergic Reactions to Natural Rubber Latex in the Workplace. Publication 97-135, June 1997; public update 1 April 2021.",
+        "url": "https://archive.cdc.gov/www_cdc_gov/niosh/docs/97-135/default.html",
+        "locator": "Introduction and update: natural-rubber proteins, added processing chemicals and synthetic-latex distinction.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000135",
+    "sections": {
+      "healthSafetyAndRegulation": "When synthetic cis-1,4-polyisoprene is compounded, bag opening and ingredient weighing can release dust. HSE recommends dust-reduced or preweighed additives and local extraction. Ingredient-dependent skin allergy and dermatitis require contact control. This guidance concerns the uncured compound and its additives, rather than establishing a hazard classification for the base polymer."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-rubber-rb2-2019",
+        "lineageId": "hse-rubber-rb2-2019",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. COSHH essentials for rubber manufacturers, RB2: Bag opening and weighing. March 2019.",
+        "url": "https://www.hse.gov.uk/pubns/guidance/rb2.pdf",
+        "locator": "Hazards; Equipment and procedures; personal protection and housekeeping. Scope: occupational manufacture of natural or synthetic rubber compounds, not intrinsic toxicity classification of the base polymer.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000136",
+    "sections": {
+      "healthSafetyAndRegulation": "In compounded trans-1,4-polyisoprene products, heating and conversion can generate rubber fume. HSE identifies dermatitis and skin-allergy risks from such process emissions and recommends ventilation that carries rising fume away from workers. This manufacturing guidance does not assign natural-latex protein allergy to every polyisoprene source or stereoisomer."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-rubber-rb1-2019",
+        "lineageId": "hse-rubber-rb1-2019",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. COSHH essentials for rubber manufacturers, RB1: Fume – general ventilation. March 2019.",
+        "url": "https://www.hse.gov.uk/pubns/guidance/rb1.pdf",
+        "locator": "Hazards; Equipment and procedures; personal protection and housekeeping. Scope: occupational manufacture of natural or synthetic rubber compounds, not intrinsic toxicity classification of the base polymer.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000137",
+    "sections": {
+      "healthSafetyAndRegulation": "When polybutadiene rubber is compounded, bag opening and ingredient weighing can release dust. HSE recommends dust-reduced or preweighed additives and local extraction. Ingredient-dependent skin allergy and dermatitis require contact control. This guidance concerns the uncured compound and its additives, rather than establishing a hazard classification for the base polymer."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-rubber-rb2-2019",
+        "lineageId": "hse-rubber-rb2-2019",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. COSHH essentials for rubber manufacturers, RB2: Bag opening and weighing. March 2019.",
+        "url": "https://www.hse.gov.uk/pubns/guidance/rb2.pdf",
+        "locator": "Hazards; Equipment and procedures; personal protection and housekeeping. Scope: occupational manufacture of natural or synthetic rubber compounds, not intrinsic toxicity classification of the base polymer.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000138",
+    "sections": {
+      "healthSafetyAndRegulation": "Mixing styrene–butadiene rubber family compounds can generate dust and expose skin to sensitizing additives. HSE recommends enclosed or extracted mixing, maintained seals and dust-suppressed ingredient forms. The formulation’s safety sheets determine chemical hazards; the polymer name alone does not identify the risk of a finished rubber article."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-rubber-rb3-2019",
+        "lineageId": "hse-rubber-rb3-2019",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. COSHH essentials for rubber manufacturers, RB3: Mixing ingredients. March 2019.",
+        "url": "https://www.hse.gov.uk/pubns/guidance/rb3.pdf",
+        "locator": "Hazards; Equipment and procedures; personal protection and housekeeping. Scope: occupational manufacture of natural or synthetic rubber compounds, not intrinsic toxicity classification of the base polymer.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000139",
+    "sections": {
+      "healthSafetyAndRegulation": "When emulsion styrene–butadiene rubber is compounded, bag opening and ingredient weighing can release dust. HSE recommends dust-reduced or preweighed additives and local extraction. Ingredient-dependent skin allergy and dermatitis require contact control. This guidance concerns the uncured compound and its additives, rather than establishing a hazard classification for the base polymer."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-rubber-rb2-2019",
+        "lineageId": "hse-rubber-rb2-2019",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. COSHH essentials for rubber manufacturers, RB2: Bag opening and weighing. March 2019.",
+        "url": "https://www.hse.gov.uk/pubns/guidance/rb2.pdf",
+        "locator": "Hazards; Equipment and procedures; personal protection and housekeeping. Scope: occupational manufacture of natural or synthetic rubber compounds, not intrinsic toxicity classification of the base polymer.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000140",
+    "sections": {
+      "healthSafetyAndRegulation": "When solution styrene–butadiene rubber is compounded, bag opening and ingredient weighing can release dust. HSE recommends dust-reduced or preweighed additives and local extraction. Ingredient-dependent skin allergy and dermatitis require contact control. This guidance concerns the uncured compound and its additives, rather than establishing a hazard classification for the base polymer."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-rubber-rb2-2019",
+        "lineageId": "hse-rubber-rb2-2019",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. COSHH essentials for rubber manufacturers, RB2: Bag opening and weighing. March 2019.",
+        "url": "https://www.hse.gov.uk/pubns/guidance/rb2.pdf",
+        "locator": "Hazards; Equipment and procedures; personal protection and housekeeping. Scope: occupational manufacture of natural or synthetic rubber compounds, not intrinsic toxicity classification of the base polymer.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000141",
+    "sections": {
+      "healthSafetyAndRegulation": "Mixing carboxylated styrene–butadiene rubber compounds can generate dust and expose skin to sensitizing additives. HSE recommends enclosed or extracted mixing, maintained seals and dust-suppressed ingredient forms. The formulation’s safety sheets determine chemical hazards; the polymer name alone does not identify the risk of a finished rubber article."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-rubber-rb3-2019",
+        "lineageId": "hse-rubber-rb3-2019",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. COSHH essentials for rubber manufacturers, RB3: Mixing ingredients. March 2019.",
+        "url": "https://www.hse.gov.uk/pubns/guidance/rb3.pdf",
+        "locator": "Hazards; Equipment and procedures; personal protection and housekeeping. Scope: occupational manufacture of natural or synthetic rubber compounds, not intrinsic toxicity classification of the base polymer.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000142",
+    "sections": {
+      "healthSafetyAndRegulation": "Mixing nitrile butadiene rubber compounds can generate dust and expose skin to sensitizing additives. HSE recommends enclosed or extracted mixing, maintained seals and dust-suppressed ingredient forms. The formulation’s safety sheets determine chemical hazards; the polymer name alone does not identify the risk of a finished rubber article."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-rubber-rb3-2019",
+        "lineageId": "hse-rubber-rb3-2019",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. COSHH essentials for rubber manufacturers, RB3: Mixing ingredients. March 2019.",
+        "url": "https://www.hse.gov.uk/pubns/guidance/rb3.pdf",
+        "locator": "Hazards; Equipment and procedures; personal protection and housekeeping. Scope: occupational manufacture of natural or synthetic rubber compounds, not intrinsic toxicity classification of the base polymer.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000143",
+    "sections": {
+      "recyclingAndEndOfLife": "Used HNBR vulcanizate can be mechanically reduced to powder and incorporated into fresh HNBR compounds. A laboratory study froze and roll-ground the scrap, then modified its surface with 5 wt% trans-polyoctenamer before compounding it into HNBR-4307 hose-lining formulations. The modified powder performed better than unmodified powder at the same loading, although increasing powder content generally reduced tensile and tear properties and increased compression set. This route retains crosslinked particles in a new peroxide-cured rubber matrix; it does not recover HNBR monomer or establish unrestricted replacement of virgin rubber.",
+      "healthSafetyAndRegulation": "Freshly molded HNBR rubber articles can remain an exposure source while cooling. HSE recommends extraction at cooling racks, avoiding skin contamination, and gloves suitable for chemical and heat exposure. These are process controls for formulated rubber articles; the cure package and other ingredients determine additional chemical hazards."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hnbr-powder-zhao-2019",
+        "lineageId": "hnbr-powder-zhao-2019",
+        "sourceType": "open_journal",
+        "citation": "Zhao, G.; Wang, Z.; Liu, T.; Zhang, X. Recycling of Used Hydrogenated Nitrile Butadiene Rubber Through Powder Modification by Trans-Polyoctylene Rubber. Annales de Chimie – Science des Matériaux 43(6) (2019), 383–388.",
+        "url": "https://iieta.org/journals/acsm/paper/10.18280/acsm.430604",
+        "locator": "Sections 2.1–2.4 and 3.1–3.4; HNBR-4307, VESTENAMER 8012 and peroxide/TAIC-cured hose-lining compounds.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "doi": "10.18280/acsm.430604",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "comp-hse-rubber-rb7-2019",
+        "lineageId": "hse-rubber-rb7-2019",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. COSHH essentials for rubber manufacturers, RB7: Cooling rack (small finished articles). March 2019.",
+        "url": "https://www.hse.gov.uk/pubns/guidance/rb7.pdf",
+        "locator": "Hazards; Equipment and procedures; personal protection and housekeeping. Scope: occupational manufacture of natural or synthetic rubber compounds, not intrinsic toxicity classification of the base polymer.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000144",
+    "sections": {
+      "healthSafetyAndRegulation": "Mixing carboxylated nitrile butadiene rubber compounds can generate dust and expose skin to sensitizing additives. HSE recommends enclosed or extracted mixing, maintained seals and dust-suppressed ingredient forms. The formulation’s safety sheets determine chemical hazards; the polymer name alone does not identify the risk of a finished rubber article."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-rubber-rb3-2019",
+        "lineageId": "hse-rubber-rb3-2019",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. COSHH essentials for rubber manufacturers, RB3: Mixing ingredients. March 2019.",
+        "url": "https://www.hse.gov.uk/pubns/guidance/rb3.pdf",
+        "locator": "Hazards; Equipment and procedures; personal protection and housekeeping. Scope: occupational manufacture of natural or synthetic rubber compounds, not intrinsic toxicity classification of the base polymer.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000145",
+    "sections": {
+      "healthSafetyAndRegulation": "When butyl rubber compounds are processed on two-roll mills, HSE recommends extraction for dust and hot-process fume. Capture should cover the mill’s emission sources and remain effective during operation. Skin-contact controls and suitable cleaning methods address dermatitis risks from the compound and its additives; these are manufacturing exposure controls."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-rubber-rb4-2019",
+        "lineageId": "hse-rubber-rb4-2019",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. COSHH essentials for rubber manufacturers, RB4: Milling rubber. March 2019.",
+        "url": "https://www.hse.gov.uk/pubns/guidance/rb4.pdf",
+        "locator": "Hazards; Equipment and procedures; personal protection and housekeeping. Scope: occupational manufacture of natural or synthetic rubber compounds, not intrinsic toxicity classification of the base polymer.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000146",
+    "sections": {
+      "healthSafetyAndRegulation": "When bromobutyl rubber compounds are processed on two-roll mills, HSE recommends extraction for dust and hot-process fume. Capture should cover the mill’s emission sources and remain effective during operation. Skin-contact controls and suitable cleaning methods address dermatitis risks from the compound and its additives; these are manufacturing exposure controls."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-rubber-rb4-2019",
+        "lineageId": "hse-rubber-rb4-2019",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. COSHH essentials for rubber manufacturers, RB4: Milling rubber. March 2019.",
+        "url": "https://www.hse.gov.uk/pubns/guidance/rb4.pdf",
+        "locator": "Hazards; Equipment and procedures; personal protection and housekeeping. Scope: occupational manufacture of natural or synthetic rubber compounds, not intrinsic toxicity classification of the base polymer.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000147",
+    "sections": {
+      "healthSafetyAndRegulation": "When chlorobutyl rubber compounds are processed on two-roll mills, HSE recommends extraction for dust and hot-process fume. Capture should cover the mill’s emission sources and remain effective during operation. Skin-contact controls and suitable cleaning methods address dermatitis risks from the compound and its additives; these are manufacturing exposure controls."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-rubber-rb4-2019",
+        "lineageId": "hse-rubber-rb4-2019",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. COSHH essentials for rubber manufacturers, RB4: Milling rubber. March 2019.",
+        "url": "https://www.hse.gov.uk/pubns/guidance/rb4.pdf",
+        "locator": "Hazards; Equipment and procedures; personal protection and housekeeping. Scope: occupational manufacture of natural or synthetic rubber compounds, not intrinsic toxicity classification of the base polymer.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000148",
+    "sections": {
+      "healthSafetyAndRegulation": "When polychloroprene rubber compounds are processed on two-roll mills, HSE recommends extraction for dust and hot-process fume. Capture should cover the mill’s emission sources and remain effective during operation. Skin-contact controls and suitable cleaning methods address dermatitis risks from the compound and its additives; these are manufacturing exposure controls."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-rubber-rb4-2019",
+        "lineageId": "hse-rubber-rb4-2019",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. COSHH essentials for rubber manufacturers, RB4: Milling rubber. March 2019.",
+        "url": "https://www.hse.gov.uk/pubns/guidance/rb4.pdf",
+        "locator": "Hazards; Equipment and procedures; personal protection and housekeeping. Scope: occupational manufacture of natural or synthetic rubber compounds, not intrinsic toxicity classification of the base polymer.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000149",
+    "sections": {
+      "healthSafetyAndRegulation": "Press curing of ethylene–propylene rubber compounds can release rubber fume, especially when a mold opens. HSE recommends source extraction around presses and control of skin contact with process residues. Assessment should use the complete compound formulation because curatives, fillers and processing aids contribute to exposure alongside the elastomer."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-rubber-rb5-2019",
+        "lineageId": "hse-rubber-rb5-2019",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. COSHH essentials for rubber manufacturers, RB5: Rubber press (small articles). March 2019.",
+        "url": "https://www.hse.gov.uk/pubns/guidance/rb5.pdf",
+        "locator": "Hazards; Equipment and procedures; personal protection and housekeeping. Scope: occupational manufacture of natural or synthetic rubber compounds, not intrinsic toxicity classification of the base polymer.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000150",
+    "sections": {
+      "healthSafetyAndRegulation": "Press curing of ethylene–propylene–diene rubber compounds can release rubber fume, especially when a mold opens. HSE recommends source extraction around presses and control of skin contact with process residues. Assessment should use the complete compound formulation because curatives, fillers and processing aids contribute to exposure alongside the elastomer."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-rubber-rb5-2019",
+        "lineageId": "hse-rubber-rb5-2019",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. COSHH essentials for rubber manufacturers, RB5: Rubber press (small articles). March 2019.",
+        "url": "https://www.hse.gov.uk/pubns/guidance/rb5.pdf",
+        "locator": "Hazards; Equipment and procedures; personal protection and housekeeping. Scope: occupational manufacture of natural or synthetic rubber compounds, not intrinsic toxicity classification of the base polymer.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000151",
+    "sections": {
+      "healthSafetyAndRegulation": "Press curing of acrylic rubber compounds can release rubber fume, especially when a mold opens. HSE recommends source extraction around presses and control of skin contact with process residues. Assessment should use the complete compound formulation because curatives, fillers and processing aids contribute to exposure alongside the elastomer."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-rubber-rb5-2019",
+        "lineageId": "hse-rubber-rb5-2019",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. COSHH essentials for rubber manufacturers, RB5: Rubber press (small articles). March 2019.",
+        "url": "https://www.hse.gov.uk/pubns/guidance/rb5.pdf",
+        "locator": "Hazards; Equipment and procedures; personal protection and housekeeping. Scope: occupational manufacture of natural or synthetic rubber compounds, not intrinsic toxicity classification of the base polymer.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000152",
+    "sections": {
+      "healthSafetyAndRegulation": "Celanese’s VAMAC Ultra EV safety sheet distinguishes the supplied AEM bales from hot processing conditions: heated material can emit irritating fumes, while contact with hot material can burn skin. It recommends local exhaust during hot processing, eye protection and gloves. These handling findings describe the specified commercial grade and its formulation, rather than every ethylene–acrylic elastomer compound.",
+      "recyclingAndEndOfLife": "For VAMAC Ultra EV as supplied, Celanese lists recycling, energy-recovery incineration and landfill as disposal options, emphasizing the material’s fuel value when recycling is unavailable. These are grade-specific waste-management options, with treatment subject to local requirements. The safety sheet does not establish a devulcanization process or recovery of AEM from a cured automotive part."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-aem-ultra-ev-safety-2023",
+        "lineageId": "celanese",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Celanese (Shanghai) International Trading Co., Ltd. VAMAC Ultra EV ethylene acrylic elastomer, Safety Data Sheet, version 2.0, revision 9 February 2023, document 130000157728 (issued 12 July 2023).",
+        "url": "https://hongrunplastics.com/public/uploads/images/20250825/Celanese%20AEM%20VAMAC%20ULTRA%20EV%20ethylene%20acrylic%20elastomer.pdf",
+        "locator": "Sections 2, 7–8, 10 and 13: supplied VAMAC Ultra EV, hot-processing and disposal guidance.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The complete manufacturer SDS is anonymously readable on a plastics distributor website. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000153",
+    "sections": {
+      "healthSafetyAndRegulation": "For epichlorohydrin homopolymer rubber articles, trimming and finishing are distinct exposure-generating operations. HSE recommends local extraction for finishing emissions, appropriate protection against skin contamination and cleaning without dispersing dust. These controls address fabricated rubber compounds; any additional chemical hazards must be assessed from the grade’s curatives, fillers and processing conditions.",
+      "recyclingAndEndOfLife": "Laboratory chlorine reclamation has been demonstrated using commercial polyepichlorohydrin (PECH; reported Mw about 700,000). Liu and colleagues reacted this polymer with 7,8-benzoquinoline using Cu/Pd catalysts and sodium nitrate in DMSO under 3 bar oxygen at 140 °C for 15 h, producing 10-chlorobenzoquinoline. This chemical-reclamation route transfers chlorine into a new product; it does not recover intact rubber or epichlorohydrin monomer. The study used purchased pure polymer, so its result does not establish recovery of compounded, vulcanized CO service parts or commercial operation."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-rubber-rb6-2019",
+        "lineageId": "hse-rubber-rb6-2019",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. COSHH essentials for rubber manufacturers, RB6: Trimming and finishing (small articles). March 2019.",
+        "url": "https://www.hse.gov.uk/pubns/guidance/rb6.pdf",
+        "locator": "Hazards; Equipment and procedures; personal protection and housekeeping. Scope: occupational manufacture of natural or synthetic rubber compounds, not intrinsic toxicity classification of the base polymer.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      },
+      {
+        "sourceId": "comp-network-r-153-liu-chlorine-reclamation-2024",
+        "lineageId": "liu-wu-dyson-nature-chemistry-chlorine-reclamation-2024",
+        "sourceType": "open_journal",
+        "citation": "Mingyang Liu, Xinbang Wu and Paul J. Dyson, Tandem catalysis enables chlorine-containing waste as chlorination reagents, Nature Chemistry 16, 700–708 (2024), with Supplementary Information.",
+        "doi": "10.1038/s41557-024-01462-8",
+        "url": "https://www.nature.com/articles/s41557-024-01462-8",
+        "contentUrl": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41557-024-01462-8/MediaObjects/41557_2024_1462_MOESM1_ESM.pdf",
+        "locator": "Results, Scope of the chlorinated waste, Table 1: PECH P3 chlorination experiment; Methods and Supplementary Information, Materials and Methods, p. 2: purchased pure-polymer identity and standard reaction conditions. The source does not report a vulcanized CO/ECO service article for these two entries.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The complete publisher article and supplementary PDF are anonymously accessible under the article’s Creative Commons Attribution 4.0 license; the experiment and its material limitations are independently paraphrased.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000154",
+    "sections": {
+      "healthSafetyAndRegulation": "For epichlorohydrin–ethylene oxide rubber articles, trimming and finishing are distinct exposure-generating operations. HSE recommends local extraction for finishing emissions, appropriate protection against skin contamination and cleaning without dispersing dust. These controls address fabricated rubber compounds; any additional chemical hazards must be assessed from the grade’s curatives, fillers and processing conditions.",
+      "recyclingAndEndOfLife": "Laboratory chlorine reclamation has been demonstrated using commercial poly(epichlorohydrin-co-ethylene oxide) containing 64–69 wt% epichlorohydrin. Liu and colleagues reacted this polymer with 7,8-benzoquinoline using Cu/Pd catalysts and sodium nitrate in DMSO under 3 bar oxygen at 140 °C for 15 h, producing 10-chlorobenzoquinoline. This chemical-reclamation route transfers chlorine into a new product; it does not recover intact rubber or epichlorohydrin monomer. The study used purchased pure polymer, so its result does not establish recovery of compounded, vulcanized ECO service parts or commercial operation."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-rubber-rb6-2019",
+        "lineageId": "hse-rubber-rb6-2019",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. COSHH essentials for rubber manufacturers, RB6: Trimming and finishing (small articles). March 2019.",
+        "url": "https://www.hse.gov.uk/pubns/guidance/rb6.pdf",
+        "locator": "Hazards; Equipment and procedures; personal protection and housekeeping. Scope: occupational manufacture of natural or synthetic rubber compounds, not intrinsic toxicity classification of the base polymer.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      },
+      {
+        "sourceId": "comp-network-r-154-liu-chlorine-reclamation-2024",
+        "lineageId": "liu-wu-dyson-nature-chemistry-chlorine-reclamation-2024",
+        "sourceType": "open_journal",
+        "citation": "Mingyang Liu, Xinbang Wu and Paul J. Dyson, Tandem catalysis enables chlorine-containing waste as chlorination reagents, Nature Chemistry 16, 700–708 (2024), with Supplementary Information.",
+        "doi": "10.1038/s41557-024-01462-8",
+        "url": "https://www.nature.com/articles/s41557-024-01462-8",
+        "contentUrl": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41557-024-01462-8/MediaObjects/41557_2024_1462_MOESM1_ESM.pdf",
+        "locator": "Results, Scope of the chlorinated waste, Table 1: PECHEO P5 chlorination experiment; Methods and Supplementary Information, Materials and Methods, p. 2: purchased pure-polymer identity and standard reaction conditions. The source does not report a vulcanized CO/ECO service article for these two entries.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The complete publisher article and supplementary PDF are anonymously accessible under the article’s Creative Commons Attribution 4.0 license; the experiment and its material limitations are independently paraphrased.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000155",
+    "sections": {
+      "healthSafetyAndRegulation": "For TYRIN CM 3551E CPE powder, Dow identifies combustible-dust and static-ignition hazards during conveying and handling. Dust can mechanically irritate eyes, hot material can burn skin, and thermal degradation can release irritating hydrogen chloride. Prevent dust accumulation, control ignition sources, and use ventilation and task-appropriate eye and thermal protection. The sheet describes the supplied formulated powder.",
+      "recyclingAndEndOfLife": "Dow lists licensed recycling or reclamation among preferred destinations for unused, uncontaminated TYRIN CM 3551E CPE; permitted thermal treatment or landfill are alternatives. This guidance concerns uncured material as supplied and does not demonstrate recycling of a crosslinked CPE part. Waste handling must also account for combustible powder and hydrogen-chloride evolution during thermal degradation."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-cpe-tyrin3551e-sds-2015",
+        "lineageId": "cpe-tyrin3551e-sds-2015",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Dow Chemical Company. TYRIN CM 3551E Chlorinated Polyethylene Elastomer safety data sheet, 10 September 2015. Public distributor copy.",
+        "url": "https://www.harwick.com/files/sds/0371007.pdf",
+        "locator": "Sections 2–3, 5, 7–8, 11 and 13; supplied crosslinkable CPE powder containing calcium stearate and talc.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000156",
+    "sections": {
+      "healthSafetyAndRegulation": "Press curing of chlorosulfonated polyethylene rubber compounds can release rubber fume, especially when a mold opens. HSE recommends source extraction around presses and control of skin contact with process residues. Assessment should use the complete compound formulation because curatives, fillers and processing aids contribute to exposure alongside the elastomer."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-rubber-rb5-2019",
+        "lineageId": "hse-rubber-rb5-2019",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. COSHH essentials for rubber manufacturers, RB5: Rubber press (small articles). March 2019.",
+        "url": "https://www.hse.gov.uk/pubns/guidance/rb5.pdf",
+        "locator": "Hazards; Equipment and procedures; personal protection and housekeeping. Scope: occupational manufacture of natural or synthetic rubber compounds, not intrinsic toxicity classification of the base polymer.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000157",
+    "sections": {
+      "healthSafetyAndRegulation": "Chemours’ Viton A-201C is a vinylidene-fluoride/hexafluoropropylene elastomer supplied with cure chemicals. The manufacturer advises preventing skin contact and washing after handling, while assessing other compounding ingredients separately. This is useful grade-specific guidance: the hazards of an uncured FKM compound depend on its cure package and additives as well as its fluorinated base polymer."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-fkm-a201c-safety",
+        "lineageId": "chemours-viton-a-201c-fkm-technical-data",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Chemours, Viton™ A-201C fluoroelastomer technical information (2016).",
+        "url": "https://www.chemours.com/en/-/media/files/viton/viton-a-201c-tech-info.pdf",
+        "locator": "Safety and Handling; Product Description, page 1: incorporated cure chemicals and contact precautions.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Chemours makes the complete technical document anonymously readable but states no open-reuse license; the grade-specific cure guidance is independently paraphrased.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000158",
+    "sections": {
+      "healthSafetyAndRegulation": "FloDynamix’s Gumlast perfluoroelastomer-parts sheet warns that overheating or burning can generate hazardous fumes, including hydrogen fluoride, and can cause polymer-fume-fever symptoms. Keep fluorinated material away from tobacco and smoking contamination, and control dust and fire-decomposition exposure. These severe-heat hazards are distinct from normal handling of the specified cured sealing parts."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-ffkm-gumlast-safety",
+        "lineageId": "deg-ffkm-sds-gumlast",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "FloDynamix. Gumlast perfluoroelastomer parts: Material Safety Data Sheet (2010).",
+        "url": "https://flodynamix.com/data-sheets-msds.html",
+        "locator": "MSDS sections on hazard identification, toxicology, handling and fire decomposition; Gumlast perfluoroelastomer parts, 2010.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000159",
+    "sections": {
+      "healthSafetyAndRegulation": "Trelleborg’s Style AFLAS sheet safety document warns that its formulated elastomer can cause an allergic skin reaction. Dust can irritate eyes and airways, while combustion can produce hydrogen fluoride and carbon oxides. Control machining dust and skin contact and use suitable protection for fire residues. These statements concern the specified finished sheet formulation, rather than every TFE–propylene elastomer."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-fepm-aflas-sheet-safety",
+        "lineageId": "deg-fepm-aflas-sds",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Trelleborg. Style AFLAS fluoroelastomer sheet, SDS 0693 (2016).",
+        "url": "https://www.trelleborg.com/engineered-coated-fabrics/-/media/engineered-fabrics/industries/manufacturing/gaskets-and-rubber-sealings-images/tecf-aflas-tfe-p-sds.pdf?hash=3F577D9AFA086688AA153BFC51FD5491&rev=c54d3315cd6945db9a464de7ddfa4ad5",
+        "locator": "Sections 2, 5, 7–8 and 11; Style AFLAS sheet, SDS 0693, revision 19 September 2016.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000160",
+    "sections": {
+      "healthSafetyAndRegulation": "WACKER’s silicone-rubber processing guidance identifies flammable low-molecular siloxanes, and sometimes peroxide by-products, in post-cure emissions. A circulating-air oven needs fresh-air supply and effective exhaust to prevent vapor accumulation. Post-cure conditions and contamination control depend on the formulation; the safety of a cured article is not established solely by calling it silicone."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-wacker-silicone-postcure-safety-2025",
+        "lineageId": "wacker-elastosil-product-guide-6709-2025",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Wacker Chemie AG, Solid and Liquid Silicone Rubber: Material and Processing Guidelines, document 6709 en/08.25 (2025).",
+        "url": "https://www.wacker.com/h/medias/6709-EN.pdf",
+        "locator": "Section 6.1, pages 66–67: volatile low-molecular siloxanes, peroxide by-products and ventilated post-curing; ELASTOSIL silicone rubbers.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Wacker publishes the complete guide without authentication but does not provide an open reuse license; only attributed processing guidance and grade- and method-bounded typical data are summarized in original prose.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000161",
+    "sections": {
+      "healthSafetyAndRegulation": "WACKER’s methyl-vinyl silicone-rubber processing guidance identifies flammable low-molecular siloxanes, and sometimes peroxide by-products, in post-cure emissions. A circulating-air oven needs fresh-air supply and effective exhaust to prevent vapor accumulation. Post-cure conditions and contamination control depend on the formulation; the safety of a cured article is not established solely by calling it silicone."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-wacker-silicone-postcure-safety-2025",
+        "lineageId": "wacker-elastosil-product-guide-6709-2025",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Wacker Chemie AG, Solid and Liquid Silicone Rubber: Material and Processing Guidelines, document 6709 en/08.25 (2025).",
+        "url": "https://www.wacker.com/h/medias/6709-EN.pdf",
+        "locator": "Section 6.1, pages 66–67: volatile low-molecular siloxanes, peroxide by-products and ventilated post-curing; ELASTOSIL silicone rubbers.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Wacker publishes the complete guide without authentication but does not provide an open reuse license; only attributed processing guidance and grade- and method-bounded typical data are summarized in original prose.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000162",
+    "sections": {
+      "healthSafetyAndRegulation": "Freshly molded fluorosilicone rubber articles can remain an exposure source while cooling. HSE recommends extraction at cooling racks, avoiding skin contamination, and gloves suitable for chemical and heat exposure. These are process controls for formulated rubber articles; the cure package and other ingredients determine additional chemical hazards."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-rubber-rb7-2019",
+        "lineageId": "hse-rubber-rb7-2019",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. COSHH essentials for rubber manufacturers, RB7: Cooling rack (small finished articles). March 2019.",
+        "url": "https://www.hse.gov.uk/pubns/guidance/rb7.pdf",
+        "locator": "Hazards; Equipment and procedures; personal protection and housekeeping. Scope: occupational manufacture of natural or synthetic rubber compounds, not intrinsic toxicity classification of the base polymer.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000163",
+    "sections": {
+      "healthSafetyAndRegulation": "For the two-part FMC-201 polysulfide molding compound, the supplier warns that components can severely irritate eyes and skin and advises against heating the uncured components. Avoid direct contact and use appropriate eye and hand protection during mixing. These are formulation-specific handling instructions; the hazards of a cured polysulfide seal or mold depend on its remaining additives and service conditions."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-polysulfide-fmc-safety",
+        "lineageId": "smooth-on-fmc-201-polysulfide-product-data",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Smooth-On, FMC-201 Polysulfide Rubber Compound Technical Data Sheet, manufacturer technical document.",
+        "url": "https://www.sculpt.com/2017/Tech/MsdsTechSheets/TechSheets/TECH_SHEET_FMC-201.pdf",
+        "locator": "Safety First and Important sections; uncured FMC-201 two-part molding compound.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The complete manufacturer technical sheet is anonymously readable; no explicit open-reuse license is asserted, so the compound-specific instructions are independently paraphrased.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000164",
+    "sections": {
+      "healthSafetyAndRegulation": "Heated polyisobutylene processing calls for control of fume and adherence to formulation-specific temperature and dwell-time guidance. HSE recommends ventilation and assessment of additives and degradation products. This process guidance does not assign a universal toxicity classification to the polymer."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-plastics-fume-2015",
+        "lineageId": "hse-plastics-fume-2015",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. Controlling fume during plastics processing. Plastics Processing Sheet 13, revision 1, December 2015.",
+        "url": "https://www.hse.gov.uk/pubns/ppis13.pdf",
+        "locator": "Health hazards, formulation information, temperature/residence-time control and ventilation; guidance for plastics molding, extrusion and related processes.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000165",
+    "sections": {
+      "healthSafetyAndRegulation": "Heated ethylene–octene elastomer processing calls for control of fume and adherence to formulation-specific temperature and dwell-time guidance. HSE recommends ventilation and assessment of additives and degradation products. This process guidance does not assign a universal toxicity classification to the polymer."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-plastics-fume-2015",
+        "lineageId": "hse-plastics-fume-2015",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. Controlling fume during plastics processing. Plastics Processing Sheet 13, revision 1, December 2015.",
+        "url": "https://www.hse.gov.uk/pubns/ppis13.pdf",
+        "locator": "Health hazards, formulation information, temperature/residence-time control and ventilation; guidance for plastics molding, extrusion and related processes.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000166",
+    "sections": {
+      "healthSafetyAndRegulation": "Heated SBS processing calls for control of fume and adherence to formulation-specific temperature and dwell-time guidance. HSE recommends ventilation and assessment of additives and degradation products. This process guidance does not assign a universal toxicity classification to the polymer."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-plastics-fume-2015",
+        "lineageId": "hse-plastics-fume-2015",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. Controlling fume during plastics processing. Plastics Processing Sheet 13, revision 1, December 2015.",
+        "url": "https://www.hse.gov.uk/pubns/ppis13.pdf",
+        "locator": "Health hazards, formulation information, temperature/residence-time control and ventilation; guidance for plastics molding, extrusion and related processes.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000167",
+    "sections": {
+      "healthSafetyAndRegulation": "Kraton’s SIS safety sheet identifies static-charge accumulation during handling, which can ignite nearby flammable vapor. Hot polymer can cause burns, and excessive dust or process fumes require exposure control. Avoid dust formation and ignition sources, provide ventilation and use thermal protection when handling melt. The sheet covers the supplied SIS grades and their listed additives."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-kraton-sis-safety-2025",
+        "lineageId": "kraton-sis-safety-2025",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Kraton Corporation. Kraton D Polymers (SIS), safety data sheet 14316, version 6.0, 19 June 2025.",
+        "url": "https://sds.kraton.com/product-sds/shared-files/91221/KRATONTM-D-POLYMERS-SIS_SDS%20US_English_14316.pdf",
+        "locator": "Sections 2–8; supplied SIS polymers, static charge, hot polymer and processing dust/fumes.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000168",
+    "sections": {
+      "healthSafetyAndRegulation": "During SEBS conversion, control exposure to dust and hot-process fumes with effective extraction. HSE identifies eye and airway irritation from plastics fume while emphasizing its variable composition. These manufacturing controls concern the formulated material and process, not a family-wide toxicity classification."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-plastics-lung-control",
+        "lineageId": "hse-plastics-lung-control",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. Lung disease: higher-risk jobs and industries.",
+        "url": "https://www.hse.gov.uk/lung-disease/a-z.htm",
+        "locator": "Plastics: variable hot-process fume composition, respiratory/eye irritation and local-exhaust control of dust and fume.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000169",
+    "sections": {
+      "healthSafetyAndRegulation": "During SEPS conversion, control exposure to dust and hot-process fumes with effective extraction. HSE identifies eye and airway irritation from plastics fume while emphasizing its variable composition. These manufacturing controls concern the formulated material and process, not a family-wide toxicity classification."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-plastics-lung-control",
+        "lineageId": "hse-plastics-lung-control",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. Lung disease: higher-risk jobs and industries.",
+        "url": "https://www.hse.gov.uk/lung-disease/a-z.htm",
+        "locator": "Plastics: variable hot-process fume composition, respiratory/eye irritation and local-exhaust control of dust and fume.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000170",
+    "sections": {
+      "healthSafetyAndRegulation": "During SEEPS conversion, control exposure to dust and hot-process fumes with effective extraction. HSE identifies eye and airway irritation from plastics fume while emphasizing its variable composition. These manufacturing controls concern the formulated material and process, not a family-wide toxicity classification."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-plastics-lung-control",
+        "lineageId": "hse-plastics-lung-control",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. Lung disease: higher-risk jobs and industries.",
+        "url": "https://www.hse.gov.uk/lung-disease/a-z.htm",
+        "locator": "Plastics: variable hot-process fume composition, respiratory/eye irritation and local-exhaust control of dust and fume.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000171",
+    "sections": {
+      "healthSafetyAndRegulation": "During thermoplastic polyolefin conversion, control exposure to dust and hot-process fumes with effective extraction. HSE identifies eye and airway irritation from plastics fume while emphasizing its variable composition. These manufacturing controls concern the formulated material and process, not a family-wide toxicity classification."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-plastics-lung-control",
+        "lineageId": "hse-plastics-lung-control",
+        "sourceType": "public_report",
+        "citation": "Health and Safety Executive. Lung disease: higher-risk jobs and industries.",
+        "url": "https://www.hse.gov.uk/lung-disease/a-z.htm",
+        "locator": "Plastics: variable hot-process fume composition, respiratory/eye irritation and local-exhaust control of dust and fume.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000172",
+    "sections": {
+      "healthSafetyAndRegulation": "The Santoprene general-purpose-grade safety sheet distinguishes pellets from hot processing: process fumes and vapors can irritate the respiratory tract and require adequate ventilation. It also warns that contact with acetal, halogenated polymers or phenolic resins at processing temperatures can promote decomposition, so equipment changeovers require compatible purging procedures. These instructions describe the listed TPV grades."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-tpv-general-grade-safety",
+        "lineageId": "deg-tpv-general-sds",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Advanced Elastomer Systems. Santoprene Thermoplastic Rubber General Purpose Grades, Material Safety Data Sheet.",
+        "url": "https://rubberfeet.us/wp-content/uploads/2018/01/Santoprene-MSD-GeneralPurposeGrades.pdf",
+        "locator": "Sections 3, 7–8, 10–11; hot-process fumes and incompatible resin contact; general-purpose Santoprene grades.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000173",
+    "sections": {
+      "healthSafetyAndRegulation": "Covestro’s TPU processing guide recommends efficient air extraction, especially during extrusion and welding. Excessive heat causes decomposition, with smoke indicating loss of process control; the onset depends on grade. Bonding and coating operations can introduce additional solvent hazards, so their handling requirements belong to the actual adhesive or coating formulation."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-tpu-covestro-safety-2016",
+        "lineageId": "covestro-desmopan-tpu-injection-guide",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Covestro Deutschland AG. Processing of TPU by Injection Molding. Edition 2016, Order No. COV00080631.",
+        "url": "https://solutions.covestro.com/-/media/covestro/solution-center/brands/downloads/imported/1557310236.pdf?hash=7BE9AB7EE628BE678ECDA2292373CCBB&rev=9e9563188b7e4afa8f68bda63776dc46",
+        "contentUrl": "https://solutions.covestro.com/-/media/covestro/solution-center/brands/downloads/imported/1557310236.pdf?hash=7BE9AB7EE628BE678ECDA2292373CCBB&rev=9e9563188b7e4afa8f68bda63776dc46",
+        "locator": "Sections 2.7.1 and 4.2: air extraction, decomposition and solvent-containing bonding systems.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The complete manufacturer processing guide is anonymously readable; no open reuse license is asserted, so its portfolio-specific guidance is cited and independently paraphrased without reproducing supplier prose or figures.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000174",
+    "sections": {
+      "healthSafetyAndRegulation": "DuPont’s Hytrel molding guide identifies hot polymer and drying equipment as burn hazards and decomposing polymer as a source of irritating vapors. Ventilation and control of melt temperature and residence time are central precautions. Flame-retardant grades and additive concentrates need their own handling assessment. Spilled pellets are a slipping hazard and should be collected promptly."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-copolyester-hytrel-safety",
+        "lineageId": "deg-copolyester-degradation-regrind-dupont",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "DuPont. Hytrel Injection Molding Guide (2000).",
+        "url": "https://dupont.materialdatacenter.com/links/processing/Hytrel.pdf",
+        "locator": "Operating Precautions, pages 18–20: hot material, pressure, fume, specialty grades and spills.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000175",
+    "sections": {
+      "healthSafetyAndRegulation": "Arkema’s PEBAX 33 MED-series safety sheet warns that molten material can cause serious skin burns and thermal-decomposition products can irritate the eyes, skin and respiratory tract. Control hot-process emissions and avoid overheating. These findings concern the specified commercial series and its thermal-processing conditions."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-peba-33-med-safety-2015",
+        "lineageId": "deg-peba-33-med-sds-2015",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Arkema. Pebax 33 MED series, Safety Data Sheet 003885-001, version 1.4 (8 January 2015).",
+        "url": "https://hongrunplastics.com/public/uploads/images/20251010/3533SA01MED%20SDS.pdf",
+        "locator": "Sections 2, 7, 8 and 10; PEBAX 33 MED series, version 1.4, 8 January 2015.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000253",
+    "sections": {
+      "healthSafetyAndRegulation": "The source of polyisoprene matters for allergy assessment. Natural-rubber latex contains plant proteins that can cause allergic reactions, while synthetic rubber latex does not supply those proteins. Added processing chemicals can still cause contact rashes. NIOSH’s distinction concerns associated proteins and formulation ingredients, rather than identifying the polyisoprene chain itself as the latex allergen."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-niosh-natural-latex-allergy",
+        "lineageId": "niosh-natural-latex-allergy",
+        "sourceType": "public_report",
+        "citation": "National Institute for Occupational Safety and Health. Preventing Allergic Reactions to Natural Rubber Latex in the Workplace. Publication 97-135, June 1997; public update 1 April 2021.",
+        "url": "https://archive.cdc.gov/www_cdc_gov/niosh/docs/97-135/default.html",
+        "locator": "Introduction and update: natural-rubber proteins, added processing chemicals and synthetic-latex distinction.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000255",
+    "sections": {
+      "healthSafetyAndRegulation": "During polyurethane manufacture or application, unreacted isocyanate ingredients can irritate skin, eyes and airways and cause sensitization or occupational asthma. NIOSH emphasizes enclosure and ventilation to control vapor or aerosol exposure and protection against skin contact. These ingredient hazards concern reactive formulations and cannot be assigned unchanged to a fully cured article."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-niosh-isocyanates",
+        "lineageId": "niosh-isocyanates",
+        "sourceType": "public_report",
+        "citation": "National Institute for Occupational Safety and Health. Isocyanates. Archived occupational-health topic guidance.",
+        "url": "https://archive.cdc.gov/www_cdc_gov/niosh/topics/isocyanates/default.html",
+        "locator": "Introduction and preventing exposure: reactive isocyanate ingredients, skin/respiratory sensitization and engineering controls.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000256",
+    "sections": {
+      "healthSafetyAndRegulation": "WACKER’s silicone-elastomer processing guidance identifies flammable low-molecular siloxanes, and sometimes peroxide by-products, in post-cure emissions. A circulating-air oven needs fresh-air supply and effective exhaust to prevent vapor accumulation. Post-cure conditions and contamination control depend on the formulation; the safety of a cured article is not established solely by calling it silicone."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-wacker-silicone-postcure-safety-2025",
+        "lineageId": "wacker-elastosil-product-guide-6709-2025",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Wacker Chemie AG, Solid and Liquid Silicone Rubber: Material and Processing Guidelines, document 6709 en/08.25 (2025).",
+        "url": "https://www.wacker.com/h/medias/6709-EN.pdf",
+        "locator": "Section 6.1, pages 66–67: volatile low-molecular siloxanes, peroxide by-products and ventilated post-curing; ELASTOSIL silicone rubbers.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Wacker publishes the complete guide without authentication but does not provide an open reuse license; only attributed processing guidance and grade- and method-bounded typical data are summarized in original prose.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000257",
+    "sections": {
+      "healthSafetyAndRegulation": "A styrenic-block-copolymer handling example is Kraton SIS: its supplier highlights static-charge accumulation, hot-melt burns and exposure to dust or process fumes. Packaging discharge near flammable vapor requires ignition control, and melt handling needs thermal protection. These are documented SIS-grade precautions; the complete compounded product may introduce different additives or solvents."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-kraton-sis-safety-2025",
+        "lineageId": "kraton-sis-safety-2025",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Kraton Corporation. Kraton D Polymers (SIS), safety data sheet 14316, version 6.0, 19 June 2025.",
+        "url": "https://sds.kraton.com/product-sds/shared-files/91221/KRATONTM-D-POLYMERS-SIS_SDS%20US_English_14316.pdf",
+        "locator": "Sections 2–8; supplied SIS polymers, static charge, hot polymer and processing dust/fumes.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The substantive public document was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000262",
+    "sections": {
+      "healthSafetyAndRegulation": "Fluoroelastomer handling depends on material form and formulation. Chemours advises avoiding skin contact with Viton A-201C, which includes cure chemicals. For cured Gumlast perfluoroelastomer parts, the supplier emphasizes hazardous fumes from overheating or burning, including hydrogen fluoride. Thus uncured-compound exposure and severe-heat decomposition need separate controls; ordinary sealing performance does not establish a family-wide safety classification."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-fluoro-family-a201c-safety",
+        "lineageId": "chemours-viton-a-201c-fkm-technical-data",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Chemours, Viton™ A-201C fluoroelastomer technical information (2016).",
+        "url": "https://www.chemours.com/en/-/media/files/viton/viton-a-201c-tech-info.pdf",
+        "locator": "Safety and Handling; Product Description, page 1.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The complete supplier document is anonymously readable and independently paraphrased; data remain restricted to its named compound and cure schedule.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      },
+      {
+        "sourceId": "comp-fluoro-family-gumlast-safety",
+        "lineageId": "deg-ffkm-sds-gumlast",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "FloDynamix. Gumlast perfluoroelastomer parts: Material Safety Data Sheet (2010).",
+        "url": "https://flodynamix.com/data-sheets-msds.html",
+        "locator": "MSDS hazards, handling and fire decomposition; perfluoroelastomer sealing parts example.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  }
+]

@@ -5,7 +5,8 @@
 A source may support public content only when its substantive content is
 available anonymously at a stable public HTTP(S) URL. Login-only pages,
 paywalled full text, search snippets, inaccessible citations, private files,
-and unauthorized mirrors are not eligible evidence.
+and unauthorized mirrors are not eligible evidence. An abstract or metadata
+record alone is not `anonymous_full_content`.
 
 "Openly readable" does not mean "openly licensed." Record reuse separately:
 
@@ -16,12 +17,13 @@ and unauthorized mirrors are not eligible evidence.
 
 Never infer a license from free access. Linked sources retain their own terms.
 
-Immediately before publication, open the exact serialized `contentUrl` when
-present, otherwise the exact `url`, without an account. Confirm that the live
-document still matches the cited title, revision, locator, and substantive
-content. Search-result excerpts and cached copies do not validate a dead link.
-For volatile vendor document systems, use a stable product page as `url` and a
-currently working direct document as `contentUrl` when both are available.
+During a population pass, open the exact serialized `contentUrl` when present,
+otherwise the exact `url`, without an account and confirm that the cited
+material is present. This is a lightweight eligibility check, not a requirement
+to create an access receipt or archive the source. For volatile vendor document
+systems, use a stable product page as `url` and a working direct document as
+`contentUrl` when both are available. More systematic link and identity checks
+belong in a later hardening pass.
 
 ## Evidence priority
 
@@ -43,18 +45,31 @@ language as independent evidence.
 ## Claim discipline
 
 - Map a source only to sections it directly supports.
+- Prefer narrower `supports` mappings. Mapping one source to all three core tabs
+  is appropriate only when its cited locator contains synthesis, mechanical,
+  and processing evidence.
+- One document may support several tabs when it genuinely contains the needed
+  evidence; the per-tab breadth rule does not require six unique documents.
 - A populated core tab (`feedstocksAndSynthesis`, `mechanicalProperties`, or
   `processing`) needs at least two distinct documents and two declared source
   lineages. Grade-specific values may still come from one direct primary
   document when the second source establishes context or variability rather
   than reproducing an incomparable number.
-- Distinguish reported facts from cross-source synthesis and inference.
-- Use at least two independent source lineages for an important inference.
+- When readily available, pair explanatory context with a data-bearing source.
+  Two reviews may still support a population draft when better open evidence is
+  not found; do not invent values or leave the tab empty solely to satisfy this
+  preference.
+- A lineage means an independent source origin. Mirrors, republications, copied
+  material, and multiple documents from one supplier do not become independent
+  merely because their URLs differ.
+- Distinguish reported facts from cross-source synthesis and inference when the
+  distinction matters to the reader.
 - Do not convert a composition, conversion, best-case value, or one specimen
   result into a universal family property.
-- Preserve ranges, units, test methods, uncertainty, material grade,
-  additives/fillers, crystallinity, orientation, moisture/conditioning,
-  processing history, and other limitations stated by the source.
+- Preserve the material/grade and the principal conditions needed to keep a
+  quantitative example in scope. Do not delay a population draft to enumerate
+  every unreported condition; detailed measurement-envelope review belongs to
+  later hardening.
 - Processing windows from a manufacturer document apply to the named grade or
   formulation unless broader evidence establishes a family-level range.
 - A permission basis may state only license or copyright facts visible in the
@@ -64,6 +79,14 @@ language as independent evidence.
   current public authorities and record dates and scope.
 - Absence of an open source is a research gap, not evidence that a property,
   process, hazard, or application does not exist.
+
+## Later hardening
+
+When a user requests systematic review or evidence hardening, revisit source
+identity and access, exact claim locators, uncertainty, specimen and test
+conditions, formulation details, conflicts, and representative grade breadth.
+That review may correct or expand a population draft without making the draft
+invalid merely because those details were not exhaustive initially.
 
 ## Search safety and copyright
 

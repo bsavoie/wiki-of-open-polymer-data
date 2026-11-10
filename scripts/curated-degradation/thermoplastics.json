@@ -1,0 +1,1896 @@
+[
+  {
+    "wopId": "wop-000001",
+    "degradationAndStability": "Degradation products and pathways: LDPE and HDPE photo-oxidation produces carbonyl-bearing chains; cleavage and crosslinking compete.\n\nTimescales: Sheet experiments measure changes over weeks under accelerated UVA exposure.\n\nEnvironmental persistence: These are oxidation and property-loss endpoints, not a family mineralization lifetime.",
+    "recyclingAndEndOfLife": "Mechanical reclamation of LDPE-rich film waste uses shredding, extrusion and compression molding. A laboratory study compared segregated LDPE with mixed PE packaging; collection and composition remain constraints on reliable reuse.",
+    "sources": [
+      {
+        "sourceId": "deg-pe-uv-du-2024-1",
+        "lineageId": "deg-pe-uv-du-2024",
+        "sourceType": "open_journal",
+        "citation": "Du et al. Study of Factors Affecting UV-Induced Photo-Degradation in Different Types of Polyethylene Sheets. Polymers 16 (2024), 2709.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11478657/",
+        "locator": "Sections 2.1–2.3 and 3: LDPE and HDPE sheets, UVA exposure, carbonyl formation, molecular mass and depth effects.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-ldpe-film-reuse-2022-1",
+        "lineageId": "deg-ldpe-film-reuse-2022",
+        "sourceType": "open_journal",
+        "citation": "Diverted from Landfill: Reuse of Single-Use Plastic Packaging Waste. Polymers 14 (2022), 5485.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9785204/",
+        "locator": "Experimental and results; segregated LDPE and mixed PE film waste, extrusion and compression molding.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000002",
+    "degradationAndStability": "Degradation products and pathways: LDPE develops oxidized carbonyl groups, chain scission and crosslinks under UV and oxygen.\n\nTimescales: Sinopec LDPE sheets, 0.4–1.2 mm thick, were examined over 2–8 weeks of UVA-340 exposure at a 50 °C black-panel setting.\n\nEnvironmental persistence: Depth-dependent damage and embrittlement do not demonstrate environmental mineralization. No outdoor disappearance time follows from this accelerated test.",
+    "recyclingAndEndOfLife": "Mechanical reclamation of LDPE-rich film waste uses shredding, extrusion and compression molding. A laboratory study compared segregated LDPE with mixed PE packaging; collection and composition remain constraints on reliable reuse.",
+    "sources": [
+      {
+        "sourceId": "deg-pe-uv-du-2024-2",
+        "lineageId": "deg-pe-uv-du-2024",
+        "sourceType": "open_journal",
+        "citation": "Du et al. Study of Factors Affecting UV-Induced Photo-Degradation in Different Types of Polyethylene Sheets. Polymers 16 (2024), 2709.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11478657/",
+        "locator": "Sections 2.1–2.3 and 3: LDPE and HDPE sheets, UVA exposure, carbonyl formation, molecular mass and depth effects.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-ldpe-film-reuse-2022-2",
+        "lineageId": "deg-ldpe-film-reuse-2022",
+        "sourceType": "open_journal",
+        "citation": "Diverted from Landfill: Reuse of Single-Use Plastic Packaging Waste. Polymers 14 (2022), 5485.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9785204/",
+        "locator": "Experimental and results; segregated LDPE and mixed PE film waste, extrusion and compression molding.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000003",
+    "degradationAndStability": "Degradation products and pathways: Gamma-irradiated LLDPE forms carbonyl products including ketones, aldehydes, acids and esters; assignments require care because spectral bands overlap.\n\nTimescales: The cited experiment varies radiation dose and dose rate in thin films; its clock is not an ambient environmental lifetime.\n\nEnvironmental persistence: Oxidized LLDPE remains polymeric material. This source does not establish a transferable mineralization time in soil or water.",
+    "recyclingAndEndOfLife": "LLDPE reclamation uses sorted scrap, grinding and thermal reprocessing; mixing incompatible formulations reduces predictability.",
+    "sources": [
+      {
+        "sourceId": "deg-pe-radio-ferry-2023-3",
+        "lineageId": "deg-pe-radio-ferry-2023",
+        "sourceType": "open_journal",
+        "citation": "Ferry et al. Combining Experimental and Theoretical Tools to Probe Radio-Oxidation Products in Polyethylene. Polymers 15 (2023), 1537.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10057136/",
+        "locator": "Sections 2.1 and 3: LLDPE and peroxide-crosslinked LLDPE films and carbonyl-product assignments.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-pe-recycling-halgan-3",
+        "lineageId": "deg-pe-recycling-halgan",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Halgan. Technical Bulletin: Recycling of Polyethylene.",
+        "url": "https://www.halgantradewaste.com.au/wp-content/uploads/Recycled_Polyethylene_181118.pdf",
+        "locator": "Polyethylene types, grinding and reprocessing, recycled material limitations.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000004",
+    "degradationAndStability": "",
+    "recyclingAndEndOfLife": "The polyethylene recycling bulletin explicitly includes MDPE among rotational-molding resins recoverable through grinding and reprocessing. Contamination, formulation and application requirements constrain reuse.",
+    "sources": [
+      {
+        "sourceId": "deg-pe-recycling-halgan-4",
+        "lineageId": "deg-pe-recycling-halgan",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Halgan. Technical Bulletin: Recycling of Polyethylene.",
+        "url": "https://www.halgantradewaste.com.au/wp-content/uploads/Recycled_Polyethylene_181118.pdf",
+        "locator": "Polyethylene types, grinding and reprocessing, recycled material limitations.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000005",
+    "degradationAndStability": "Degradation products and pathways: HDPE sheets undergo photo-oxidative carbonyl formation and molecular-mass changes, with strong thickness and additive effects.\n\nTimescales: Accelerated UVA experiments monitored the particular sheets over 2–8 weeks.\n\nEnvironmental persistence: Observed damage is not complete biodegradation; environmental mineralization remains unquantified here.",
+    "recyclingAndEndOfLife": "Sorting, grinding and remelting clean HDPE are established reclamation operations. Recyclate suitability remains application-specific.",
+    "sources": [
+      {
+        "sourceId": "deg-pe-uv-du-2024-5",
+        "lineageId": "deg-pe-uv-du-2024",
+        "sourceType": "open_journal",
+        "citation": "Du et al. Study of Factors Affecting UV-Induced Photo-Degradation in Different Types of Polyethylene Sheets. Polymers 16 (2024), 2709.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11478657/",
+        "locator": "Sections 2.1–2.3 and 3: LDPE and HDPE sheets, UVA exposure, carbonyl formation, molecular mass and depth effects.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-pe-recycling-halgan-5",
+        "lineageId": "deg-pe-recycling-halgan",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Halgan. Technical Bulletin: Recycling of Polyethylene.",
+        "url": "https://www.halgantradewaste.com.au/wp-content/uploads/Recycled_Polyethylene_181118.pdf",
+        "locator": "Polyethylene types, grinding and reprocessing, recycled material limitations.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000006",
+    "degradationAndStability": "Degradation products and pathways: For orthopedic UHMWPE, radiation-generated radicals drive hydroperoxide chemistry, producing ketones, alcohols, esters and carboxylic acids. Oxidation lowers molecular mass and promotes embrittlement and wear debris.\n\nTimescales: Post-irradiation oxidation can continue during storage and implantation while oxygen remains available; formulation and sterilization history prevent one transferable lifetime.\n\nEnvironmental persistence: Wear and fracture generate polymer particles; the implant studies do not measure environmental mineralization.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-uhmwpe-sobieraj-rimnac-6",
+        "lineageId": "deg-uhmwpe-sobieraj-rimnac",
+        "sourceType": "open_journal",
+        "citation": "Sobieraj and Rimnac. Ultra High Molecular Weight Polyethylene: Mechanics, Morphology, and Clinical Behavior. Journal of the Mechanical Behavior of Biomedical Materials 2 (2009), 433–443.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3601552/",
+        "locator": "Oxidative Degradation of UHMWPE Components; radiation sterilization, post-irradiation aging and wear particles.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000007",
+    "degradationAndStability": "",
+    "recyclingAndEndOfLife": "",
+    "sources": []
+  },
+  {
+    "wopId": "wop-000008",
+    "degradationAndStability": "Degradation products and pathways: Peroxide-crosslinked LLDPE films develop oxidized carbonyl species under gamma irradiation, including ketones, acids and esters. Crosslinking does not remove susceptibility to oxidation.\n\nTimescales: The radiation-aging experiment is dose-dependent and cannot supply an ambient service or environmental lifetime.\n\nEnvironmental persistence: Carbonyl formation does not prove destruction of the crosslinked network or mineralization. Environmental lifetime evidence remains incomplete.",
+    "recyclingAndEndOfLife": "Grinding crosslinked scrap enables its reuse as particles without remelting the network. A laboratory study milled XLPE waste and dispersed it in rigid polyurethane foams. Supercritical decrosslinking is a different chemical route; this study does not establish industrial viability for it.",
+    "sources": [
+      {
+        "sourceId": "deg-pe-radio-ferry-2023-8",
+        "lineageId": "deg-pe-radio-ferry-2023",
+        "sourceType": "open_journal",
+        "citation": "Ferry et al. Combining Experimental and Theoretical Tools to Probe Radio-Oxidation Products in Polyethylene. Polymers 15 (2023), 1537.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10057136/",
+        "locator": "Sections 2.1 and 3: LLDPE and peroxide-crosslinked LLDPE films and carbonyl-product assignments.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-xlpe-foams-2022-8",
+        "lineageId": "deg-xlpe-foams-2022",
+        "sourceType": "open_journal",
+        "citation": "Bawareth et al. Crosslinked Polyethylene (XLPE) Recycling via Foams. Polymers 14 (2022), 2589.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9268835/",
+        "locator": "Methods and conclusions; grinding XLPE waste and incorporating particles into rigid polyurethane foam.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000009",
+    "degradationAndStability": "Degradation products and pathways: In tested PP grades, repeated melt processing causes molecular and property changes. Homopolymer and rubber-containing block copolymer respond differently; EPR-phase crosslinking can compete with degradation.\n\nTimescales: The cited work compares up to five extrusion passes; these brief processing exposures do not define service life.\n\nEnvironmental persistence: Reprocessing changes do not establish mineralization in soil or water.",
+    "recyclingAndEndOfLife": "Mechanical re-extrusion and remolding are demonstrated for the named commercial homopolymer and block-copolymer grades. Stabilization and formulation affect retained properties.",
+    "sources": [
+      {
+        "sourceId": "deg-pp-reuse-2025-9",
+        "lineageId": "deg-pp-reuse-2025",
+        "sourceType": "open_journal",
+        "citation": "Evaluation of Polypropylene Reusability Using a Simple Mechanical Model Derived from Injection-Molded Products. Polymers 17 (2025), 2107.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12349465/",
+        "locator": "Sections 2.1–2.2 and results; Novatec MA3 homopolymer and BC03AD block PP repeated extrusion and EPR-phase changes.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000010",
+    "degradationAndStability": "Degradation products and pathways: Repeated processing of Novatec MA3 PP homopolymer produces radicals, yellowing and changes in stereoregularity and mechanical behavior; it does not identify a complete small-molecule product inventory.\n\nTimescales: Up to five extrusion passes used an approximately 1 min barrel residence and approximately 210 °C die-exit resin temperature.\n\nEnvironmental persistence: This isotactic-PP processing study does not measure environmental mineralization.",
+    "recyclingAndEndOfLife": "Melt re-extrusion and injection remolding are demonstrated on the named grade; repeated passes progressively change properties.",
+    "sources": [
+      {
+        "sourceId": "deg-pp-reuse-2025-10",
+        "lineageId": "deg-pp-reuse-2025",
+        "sourceType": "open_journal",
+        "citation": "Evaluation of Polypropylene Reusability Using a Simple Mechanical Model Derived from Injection-Molded Products. Polymers 17 (2025), 2107.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12349465/",
+        "locator": "Sections 2.1–2.2 and results; Novatec MA3 homopolymer and BC03AD block PP repeated extrusion and EPR-phase changes.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000011",
+    "degradationAndStability": "Degradation products and pathways: Melt-state oxidation can cleave syndiotactic PP chains. A study of purified polymers showed much less molecular-mass loss for syndiotactic than isotactic PP in air, but increasing oxygen pressure accelerated degradation of syndiotactic PP. Individual volatile products were not resolved.\n\nTimescales: The comparison included 200 °C treatment for 30 min and oxygen-pressure variation. It is a melt-aging experiment, not an outdoor lifetime.\n\nEnvironmental persistence: The measured molecular-mass change does not establish environmental mineralization or a disappearance time.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-spp-mori-1997-11",
+        "lineageId": "deg-spp-mori-1997",
+        "sourceType": "open_journal",
+        "citation": "Mori, H.; Hatanaka, T.; Terano, M. Thermo-Oxidative Degradation of Molten State Polypropylenes with a Variety of Tacticity. Materials Life 9 (1997), 180–187.",
+        "url": "https://www.jstage.jst.go.jp/article/mls1989/9/4/9_4_180/_article/-char/en",
+        "locator": "Sections 2.2, 3.3–3.4 and Figures 6 and 8; purified syndiotactic PP, melt aging and oxygen-pressure dependence.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no open reuse license is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ],
+        "doi": "10.11338/mls1989.9.180",
+        "contentUrl": "https://www.jstage.jst.go.jp/article/mls1989/9/4/9_4_180/_pdf"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000012",
+    "degradationAndStability": "Degradation products and pathways: Hot chlorinated water depletes stabilizers and produces lower-molecular-mass chains in tested PP-R pipe grades. The alpha- and beta-nucleated grades differ in chain loss and embrittlement; a complete small-molecule product inventory was not measured.\n\nTimescales: For 100 µm specimens at 60 °C in water containing 5 mg/L free chlorine, total embrittlement occurred after approximately 1,500 h for the alpha-nucleated grade and 2,000 h for the beta-nucleated grade.\n\nEnvironmental persistence: These accelerated, thin-specimen embrittlement endpoints are not whole-pipe lifetimes or environmental mineralization times.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-ppr-chlorine-2019-12",
+        "lineageId": "deg-ppr-chlorine-2019",
+        "sourceType": "open_journal",
+        "citation": "Fischer, J.; Freudenthaler, P. J.; Lang, R. W.; Buchberger, W.; Mantell, S. C. Chlorinated Water Induced Aging of Pipe Grade Polypropylene Random Copolymers. Polymers 11 (2019), 996.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6631949/",
+        "locator": "Sections 2 and 3.1; 100 µm specimens, 60 °C, 5 mg/L chlorine, molecular-mass distributions and embrittlement.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "Creative Commons Attribution 4.0 applies to this article.",
+        "supports": [
+          "degradationAndStability"
+        ],
+        "doi": "10.3390/polym11060996",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000013",
+    "degradationAndStability": "Degradation products and pathways: In Novatec BC03AD block PP, repeated processing changes the PP matrix while thermo-crosslinking in the ethylene–propylene rubber phase modifies the overall response.\n\nTimescales: The study used up to five extrusion passes with approximately 1 min residence and approximately 210 °C die-exit temperature.\n\nEnvironmental persistence: The measured property changes cannot be converted to an outdoor disappearance or mineralization time.",
+    "recyclingAndEndOfLife": "Re-extrusion and remolding were demonstrated for this heterophasic grade. Rubber-phase changes mean recyclability must be qualified by composition and processing history.",
+    "sources": [
+      {
+        "sourceId": "deg-pp-reuse-2025-13",
+        "lineageId": "deg-pp-reuse-2025",
+        "sourceType": "open_journal",
+        "citation": "Evaluation of Polypropylene Reusability Using a Simple Mechanical Model Derived from Injection-Molded Products. Polymers 17 (2025), 2107.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12349465/",
+        "locator": "Sections 2.1–2.2 and results; Novatec MA3 homopolymer and BC03AD block PP repeated extrusion and EPR-phase changes.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000014",
+    "degradationAndStability": "",
+    "recyclingAndEndOfLife": "PBPSA describes inline recycling of PB-1 production residues during pipe manufacture. This documents production-scrap recovery; it does not establish a broad post-consumer pipe collection stream.",
+    "sources": [
+      {
+        "sourceId": "deg-pb1-recovery-14",
+        "lineageId": "deg-pb1-recovery",
+        "sourceType": "public_report",
+        "citation": "Polybutene Piping Systems Association. PB-1 Manufacturing Process and Sustainability.",
+        "url": "https://www.pbpsa.com/sustainability/manufacturing-pb1",
+        "locator": "Manufacturing and Recycling; inline recovery of PB-1 production residues.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000015",
+    "degradationAndStability": "Degradation products and pathways: A patent demonstrates controlled molecular-mass reduction of PMP during co-extrusion with a selected polypropylene; the recovered material remains a polymer mixture rather than identified environmental metabolites.\n\nTimescales: Its DX820/HP461Y example uses a 4:6 mass ratio, 250 °C outlet temperature and 200 rpm; no environmental degradation time is established.\n\nEnvironmental persistence: Molecular-mass reduction during extrusion is not mineralization or proof of biodegradability.",
+    "recyclingAndEndOfLife": "The patent establishes a controlled chain-reduction method for virgin resins. Application to post-consumer PMP reclamation and commercial waste recycling remains unverified.",
+    "sources": [
+      {
+        "sourceId": "deg-pmp-mw-patent-15",
+        "lineageId": "deg-pmp-mw-patent",
+        "sourceType": "patent",
+        "citation": "US20240335996A1. Method for producing poly-4-methyl-1-pentene with lower molecular weight.",
+        "url": "https://patents.google.com/patent/US20240335996A1/en",
+        "locator": "Example 1; DX820 PMP mixed with polypropylene during extrusion; molecular-mass reduction.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000016",
+    "degradationAndStability": "Degradation products and pathways: A COP-based development adhesive retained bond properties during heat and humidity aging; the supplier does not identify a degradation-product inventory for COP in this document.\n\nTimescales: For the LS adhesive, the supplier reports retained shear/peel performance after 2,000 h under specified heat/humidity tests, and retained shear strength after 2,000 h at 100 °C. These are grade-specific retention tests.\n\nEnvironmental persistence: Resistance to hydrolysis and retained bonds do not establish environmental disappearance or mineralization.",
+    "recyclingAndEndOfLife": "Zeon’s 2024 report records completion of a dedicated COP recycling plant and preparation for operation. This documents industrial development at the report date; it does not demonstrate general post-consumer COP collection.",
+    "sources": [
+      {
+        "sourceId": "deg-cop-zeon-stability-16",
+        "lineageId": "deg-cop-zeon-stability",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Zeon Chemicals. Multi-Material Adhesive Development Products LS.",
+        "url": "https://zeonchemicals.com/products/multi-material-adhesive/",
+        "locator": "COP development adhesive: heat/humidity and heat exposure, shear-bond and peel-strength retention.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-cop-zeon-report-2024-16",
+        "lineageId": "deg-cop-zeon-report-2024",
+        "sourceType": "public_report",
+        "citation": "Zeon Group. Integrated Report 2024.",
+        "url": "https://www.zeon.co.jp/en/ir/library/pdf/index_002.pdf",
+        "locator": "Specialty Materials and COP recycling plant; March 2024 completion and preparations for operation.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000017",
+    "degradationAndStability": "Degradation products and pathways: The TOPAS COC supplier documents adverse effects of prolonged direct sunlight on resin properties, while visible light produces little or no change. The guide does not identify the individual chemical degradation products.\n\nTimescales: The guide supplies no transferable outdoor degradation time; formulation and exposure must be specified.\n\nEnvironmental persistence: Hydrolytic and chemical resistance do not establish environmental mineralization. The cited document leaves a COC-specific mineralization lifetime unresolved.",
+    "recyclingAndEndOfLife": "The supplier describes flotation separation of COC-based shrink sleeves from PET bottles because their densities differ. This is a packaging separation/recycling example; it does not demonstrate closed-loop recovery for every COC article.",
+    "sources": [
+      {
+        "sourceId": "deg-coc-topas-guide-17",
+        "lineageId": "deg-coc-topas-guide",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "TOPAS Advanced Polymers. TOPAS COC Cyclic Olefin Copolymer product brochure, September 2019.",
+        "url": "https://topas.com/wp-content/uploads/2023/05/TOPAS_Product-Brochure.pdf",
+        "locator": "Sections 4.4 (light and weathering resistance) and 6.3.1 (shrink-sleeve separation).",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no open reuse license is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000018",
+    "degradationAndStability": "Degradation products and pathways: EVA thermal breakdown begins with loss of acetic acid and formation of an unsaturated polymer intermediate; further heating breaks the remaining backbone into smaller hydrocarbons. The cited photovoltaic-encapsulant study does not identify every final hydrocarbon.\n\nTimescales: Nitrogen thermogravimetry of the studied waste-module encapsulant used 0.5–5 °C/min heating rates and found two main mass-loss stages spanning approximately 276–372 °C and 372–495 °C. These are programmed-heating results, not environmental lifetimes.\n\nEnvironmental persistence: Thermal mass loss does not establish biodegradation. Crosslinking, vinyl-acetate content and the module construction limit transfer to other EVA materials.",
+    "recyclingAndEndOfLife": "Pyrolytic removal of EVA can enable recovery of glass and other photovoltaic-module components. The cited kinetic study supports process development for destructive delamination; it does not demonstrate recovery of reusable EVA polymer.",
+    "sources": [
+      {
+        "sourceId": "deg-eva-farrell-2021-18",
+        "lineageId": "deg-eva-farrell-2021",
+        "sourceType": "open_journal",
+        "citation": "Farrell, C. et al. Pyrolysis Kinetic Modeling of a Poly(ethylene-co-vinyl acetate) Encapsulant Found in Waste Photovoltaic Modules. Industrial & Engineering Chemistry Research 60 (2021), 13492–13504.",
+        "url": "https://pure.qub.ac.uk/files/248419443/2021_Kinetic_Modelling_of_PVs.pdf",
+        "locator": "Sections 2–3 and conclusions; waste-module EVA, nitrogen TGA, deacetylation and modeled pyrolytic delamination.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no open reuse license is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ],
+        "doi": "10.1021/acs.iecr.1c01989"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000019",
+    "degradationAndStability": "Degradation products and pathways: Heating EVOH forms water, shorter wax-like chains and unsaturated/aromatic products. In catalytic hydrogen treatment these intermediates can be converted to alkanes and water.\n\nTimescales: The cited Ru-catalyst work includes 250 °C, 30 bar hydrogen, 16 h batch experiments; this is reactor conversion, not environmental decay.\n\nEnvironmental persistence: Neither thermal wax production nor hydrogenolysis establishes an ambient mineralization time for EVOH packaging.",
+    "recyclingAndEndOfLife": "Laboratory Ru/ZrO2 hydrogenolysis/hydrodeoxygenation converts EVOH and studied EVOH/LDPE blends into C1–C35 alkanes. Aromatic deposits deactivate catalysts; pressure and regeneration matter. This demonstrates a chemical-recycling route, not widespread collection or commercial closed-loop EVOH recovery.",
+    "sources": [
+      {
+        "sourceId": "deg-evoh-oberhausen-2024-19",
+        "lineageId": "deg-evoh-oberhausen-2024",
+        "sourceType": "open_journal",
+        "citation": "Oberhausen et al. Hydrogenolysis of Poly(Ethylene-co-Vinyl Alcohol) and Related Polymer Blends over Ruthenium Heterogeneous Catalysts. Angewandte Chemie International Edition (2024).",
+        "url": "https://www.osti.gov/servlets/purl/2338152",
+        "locator": "Results and Figures 1–6: EVOH thermal waxes, aromatics, hydrogenolysis products and catalyst regeneration.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000020",
+    "degradationAndStability": "Degradation products and pathways: Repeated melt processing of EAA/cellulose composites can cause discoloration and degradation while improved fiber dispersion changes mechanical properties. The cited thesis does not separate individual EAA degradation products from changes in the cellulosic reinforcement.\n\nTimescales: The reported EAA7 composites were compared over up to three extrusion passes. These are processing exposures, not environmental degradation times.\n\nEnvironmental persistence: Re-extrusion and discoloration do not establish mineralization of the EAA matrix; cellulose degradation cannot be transferred to the whole composite.",
+    "recyclingAndEndOfLife": "A thesis demonstrates repeated melt compounding and shaping of cellulose-reinforced EAA. This establishes reprocessability of the specified laboratory composites; post-consumer EAA collection, separation and closed-loop reclamation remain unverified.",
+    "sources": [
+      {
+        "sourceId": "deg-eaa-venkatesh-thesis-20",
+        "lineageId": "deg-eaa-venkatesh-thesis",
+        "sourceType": "thesis",
+        "citation": "Venkatesh, A. Melt-processing and properties of thermoplastic composites based on ethylene-acrylic acid copolymer reinforced with wood nanocellulose. Doctoral thesis, Chalmers University of Technology, 2020.",
+        "url": "https://research.chalmers.se/publication/520986/file/520986_Fulltext.pdf",
+        "locator": "Sections 4.3–4.4 and end-of-life research outlook; repeated extrusion of EAA7/cellulose composites and component-scope limitations.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no open reuse license is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000021",
+    "degradationAndStability": "Degradation products and pathways: For NUCREL 0910 acid-copolymer resin, the supplier lists possible thermal-decomposition products including carbon monoxide, organic acids, aldehydes and alcohols, with acrylic acid, methacrylic acid, formaldehyde, acetaldehyde and acrolein among the named species. This is an overheating-product list for a specified grade.\n\nTimescales: The SDS states that decomposition depends on both temperature and residence time and accelerates above its 325 °C condition-to-avoid value; it does not report a general degradation lifetime.\n\nEnvironmental persistence: The supplier data do not establish a mineralization time in soil or water. Thermal decomposition and environmental biodegradation require separate evidence.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-emaa-nucrel-sds-21",
+        "lineageId": "deg-emaa-nucrel-sds",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "DuPont. NUCREL 0910 resin Safety Data Sheet, revision 13 May 2015, version 2.0.",
+        "url": "https://www.indfumco.com/wp-content/uploads/2014/labels-and-msds/Shat-R-Shield%20Nucrel%20HP%20Adhesive%20and%20Sealant%20Resin%20SDS%20EPA%20NA%205.13.15.pdf",
+        "locator": "Section 10, page 7: thermal decomposition products and time/temperature dependence.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no open reuse license is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000022",
+    "degradationAndStability": "Degradation products and pathways: For Surlyn ionomer grades, excessive time and temperature cause degradation and yellowing; the guide does not resolve individual chemical degradation products.\n\nTimescales: The guide describes particular UV-stabilized products in weathering service for more than 10 years. That service observation is not a universal lifetime or a mineralization endpoint.\n\nEnvironmental persistence: Long outdoor service of stabilized grades supports durability only; environmental mineralization time remains unestablished.",
+    "recyclingAndEndOfLife": "The supplier permits 15–20% clean, dry, undegraded regrind in the described extrusion operation. This is established production-scrap recovery guidance, qualified by formulation and thermal history.",
+    "sources": [
+      {
+        "sourceId": "deg-surlyn-guide-22",
+        "lineageId": "deg-surlyn-guide",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "DuPont. Surlyn Extrusion Guide.",
+        "url": "https://www.nevicolor.it/produkte/polymer-suchen/dupont/surlyn/documenti/surlyn-extrusion-guide.pdf",
+        "locator": "Regrind and ultraviolet/weather/sunlight-resistant formulations; cleanliness, drying and thermal history.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000023",
+    "degradationAndStability": "Degradation products and pathways: PVC eliminates hydrogen chloride and develops conjugated polyene sequences; oxidation also produces carbonyl- and hydroxyl-bearing material. Heat, UV, oxygen and stabilizer packages alter subsequent breakdown.\n\nTimescales: UV-film experiments follow damage during accelerated irradiation; these conditions do not establish a universal outdoor lifetime.\n\nEnvironmental persistence: Discoloration, embrittlement and fragmentation leave polymer-derived material and are distinct from complete mineralization.",
+    "recyclingAndEndOfLife": "Mechanical sorting, grinding and reprocessing are established for suitable segregated PVC. Solvent separation and dechlorination/chemical conversion are additional routes with process-specific maturity; chlorine and additive separation complicate recovery.",
+    "sources": [
+      {
+        "sourceId": "deg-pvc-photo-2019-23",
+        "lineageId": "deg-pvc-photo-2019",
+        "sourceType": "open_journal",
+        "citation": "Long-Term Effect of Ultraviolet Irradiation on Poly(vinyl chloride) Films Containing Naproxen Diorganotin(IV) Complexes. Polymers (2019).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6650850/",
+        "locator": "PVC control and stabilized films; irradiation, carbonyl, hydroxyl and polyene indices, weight loss.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-pvc-lifecycle-2024-23",
+        "lineageId": "deg-pvc-lifecycle-2024",
+        "sourceType": "open_journal",
+        "citation": "Risks Associated with the Presence of Polyvinyl Chloride in the Environment and Methods for Its Disposal and Utilization. Polymers (2024).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10779931/",
+        "locator": "Sections on thermal degradation, plasticized and rigid PVC, mechanical/chemical recycling and solvent recovery.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000024",
+    "degradationAndStability": "Degradation products and pathways: For CPVC containing 63 wt% chlorine, heating drives hydrogen-chloride elimination, aromatization and polycondensation, leaving a carbon-rich residue.\n\nTimescales: The cited thermogravimetric experiment begins rapid decomposition around 270 °C and follows reactions through 400 °C; this is a heating experiment rather than environmental aging.\n\nEnvironmental persistence: Carbonaceous residue formation does not demonstrate ambient biodegradation; environmental mineralization is not measured.",
+    "recyclingAndEndOfLife": "A laboratory study converts solution-spun CPVC into carbon fibers. This is a precursor-conversion demonstration, not validated reclamation of contaminated CPVC waste or commercial closed-loop recycling.",
+    "sources": [
+      {
+        "sourceId": "deg-cpvc-carbon-2020-24",
+        "lineageId": "deg-cpvc-carbon-2020",
+        "sourceType": "open_journal",
+        "citation": "Liu et al. Highly Chlorinated Polyvinyl Chloride as a Novel Precursor for Carbon Fibres. Polymers 12 (2020), 328.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7077477/",
+        "locator": "Thermal analysis and carbonization of the 63 wt% chlorine CPVC; laboratory carbon-fiber preparation.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000025",
+    "degradationAndStability": "Degradation products and pathways: Heating unstabilized vinylidene-chloride polymer releases hydrogen chloride and forms a discolored, unsaturated chlorinated residue. The historical NBS study includes materials with less than 10% vinyl chloride comonomer; its results are not an inventory of ambient-weathering products.\n\nTimescales: At 176.4 °C under flowing nitrogen, the NBS experiment follows HCl evolution over 1–24 h, with an initial induction period and a changing release rate. These are severe thermal conditions, not an outdoor lifetime.\n\nEnvironmental persistence: Neither the thermal study nor the recycling announcement measures carbon mineralization in soil or water. Discoloration, HCl release and loss of barrier function are different endpoints from complete environmental disappearance.",
+    "recyclingAndEndOfLife": "Solvay reports a proof of concept for recycling and reblending Ixan PVDC bi-oriented post-industrial food-packaging film while retaining high barrier performance. The public announcement does not disclose a complete process design or demonstrate routine post-consumer collection; sorting and recycling infrastructure remain separate requirements.",
+    "sources": [
+      {
+        "sourceId": "deg-pvdc-aging-nbs-1953",
+        "lineageId": "pvdc-aging-nbs-1953",
+        "sourceType": "public_report",
+        "citation": "Havens, C. B. Aging of Vinyl Chloride and Vinylidene Chloride Polymers. In Polymer Degradation Mechanisms, National Bureau of Standards Circular 525 (1953), Chapter 7.",
+        "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/circ/nbscircular525.pdf",
+        "locator": "Chapter 7, PVDC dehydrochlorination and Table 7.1: unstabilized powder, 176.4 °C nitrogen exposure; the chapter includes vinylidene-chloride polymers with less than 10% vinyl chloride.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-pvdc-recycling-solvay-2021",
+        "lineageId": "pvdc-recycling-solvay-2021",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Solvay. Solvay announces groundbreaking solution for recycling PVDC. September 28, 2021.",
+        "url": "https://www.solvay.com/en/press-release/solvay-announces-groundbreaking-solution-recycling-pvdc",
+        "locator": "Manufacturer proof of concept for Ixan PVDC bi-oriented post-industrial food-packaging film.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000026",
+    "degradationAndStability": "Degradation products and pathways: PVAc pyrolysis removes acetic acid and leaves unsaturated chains; higher-temperature breakdown also yields aromatic compounds and small gases. Pigments and additives change light aging.\n\nTimescales: For Mowilith 50, 12 s pyrolysis at 400 °C strongly released acetic acid; higher temperatures produced more breakdown products.\n\nEnvironmental persistence: Short analytical pyrolysis is not ambient degradation. The paint-aging study supplies no transferable environmental mineralization time.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-pvac-wei-2012-26",
+        "lineageId": "deg-pvac-wei-2012",
+        "sourceType": "open_journal",
+        "citation": "Wei et al. Photochemical degradation study of polyvinyl acetate paints used in artworks by Py–GC/MS. Journal of Analytical and Applied Pyrolysis 97 (2012), 158–163.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3438447/",
+        "locator": "Sections 2.2 and 3: Mowilith 50 pyrolysis and xenon-aged paint films; product identification.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000027",
+    "degradationAndStability": "Degradation products and pathways: Adapted bacteria can mineralize dissolved PVA to carbon dioxide; polymer-assay disappearance and measured CO2 evolution are different endpoints.\n\nTimescales: After 20 days at 30 °C in dark mineral-medium cultures containing 0.1% PVA at pH 7, Bacillus subtilis and Pseudomonas aeruginosa isolates gave reported CO2-based mineralization of 45.4% and 28.9%, respectively. These are partial endpoints under the stated culture conditions.\n\nEnvironmental persistence: Dissolution alone does not establish biodegradation. Isolate results cannot establish complete removal in every wastewater plant, river or soil.",
+    "recyclingAndEndOfLife": "A patent claims recovery of highly hydrolyzed unmodified PVA by hot-water dissolution, removal of insoluble contamination and isolation of polymer for reuse. This is a specified patent route, not proof of widespread PVA collection. Adapted biological treatment is a separate destructive wastewater pathway.",
+    "sources": [
+      {
+        "sourceId": "deg-pva-mineralization-2015-27",
+        "lineageId": "deg-pva-mineralization-2015",
+        "sourceType": "open_journal",
+        "citation": "Patil and Bagde. Enrichment and isolation of microbial strains degrading bioplastic polyvinyl alcohol and time course study of their degradation potential. African Journal of Biotechnology 14 (2015), 2216–2226.",
+        "url": "https://www.ajol.info/index.php/ajb/article/download/120461/109931",
+        "locator": "Materials and Methods; CO2 production test and Figures 6–7; separate polymer-assay loss and mineralization endpoints.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-pva-recovery-patent-27",
+        "lineageId": "deg-pva-recovery-patent",
+        "sourceType": "patent",
+        "citation": "EP3197952B1. Biodegradable polymer recycling.",
+        "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP3197952NWB1/document.pdf",
+        "locator": "Paragraphs 0003–0012 and claims; recovery of unmodified PVA with at least 98 mol% hydrolysis through hot-water dissolution.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000028",
+    "degradationAndStability": "Degradation products and pathways: PVB undergoes acetal-ring cleavage and oxidation; reported high-temperature products include butanal, butyric acid, acetic acid and butanol. Heat/shear reprocessing causes chain scission and yellowing.\n\nTimescales: In-situ infrared experiments followed cast PVB films at 100–150 °C for 10 days; these are accelerated chemical-aging measurements.\n\nEnvironmental persistence: Neither these tests nor retained interlayer performance measures outdoor mineralization. Glass protection, plasticizer and prior aging alter behavior.",
+    "recyclingAndEndOfLife": "Retrieved interlayer PVB can be separated, cleaned, remelted and restabilized. A 2025 extrusion study incorporated 40% retrieved PVB with selected antioxidants into new interlayer film. This is an upscaled demonstration; contamination and optical quality constrain broader closed-loop recovery.",
+    "sources": [
+      {
+        "sourceId": "deg-pvb-xu-2023-28",
+        "lineageId": "deg-pvb-xu-2023",
+        "sourceType": "open_journal",
+        "citation": "Xu et al. Application of multi-channel in situ infrared spectroscopy: the case of PVB thermal aging. RSC Advances 13 (2023), 28371–28381.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10520402/",
+        "locator": "Thermal-aging experiments and proposed mechanism, Figure 13; 100–150 °C air aging, acetal cleavage and oxidation.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-pvb-nikitakos-2025-28",
+        "lineageId": "deg-pvb-nikitakos-2025",
+        "sourceType": "open_journal",
+        "citation": "Nikitakos et al. Closed-Loop Recycling of Poly(vinyl butyral) Interlayer Film via Restabilization Technology. Polymers 17 (2025), 317.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11820937/",
+        "locator": "Experimental reprocessing and upscaling sections; chain scission, antioxidant screening and retrieved-PVB interlayer trials.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000029",
+    "degradationAndStability": "Degradation products and pathways: For synthesized poly(vinyl formal), formal rings suppress hydroxyl-elimination behavior relative to PVA in thermogravimetry. The cited study does not identify a complete PVF degradation-product inventory.\n\nTimescales: Neat PVF was compared with PVA during programmed heating; the reported thermal improvement cannot supply an outdoor degradation time.\n\nEnvironmental persistence: The biodegradable character of the PPC blend partner does not establish that the PVF component mineralizes. PVF-specific environmental timing remains unresolved.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-pvfm-stability-2018-29",
+        "lineageId": "deg-pvfm-stability-2018",
+        "sourceType": "open_journal",
+        "citation": "Enhanced Properties of Biodegradable Poly(Propylene Carbonate)/Polyvinyl Formal Blends. Polymers 10 (2018), 771.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6403954/",
+        "locator": "Section 3.2 and supplementary Figure S4; neat synthesized PVF versus PVA thermogravimetry. PPC-derived pyrolysis products are outside this entry’s scope.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000030",
+    "degradationAndStability": "Degradation products and pathways: Controlled depolymerization of polystyrene produces styrene-rich oil that can be distilled to recover styrene monomer. INEOS Styrolution reports this pathway for post-consumer PS in the ResolVe project; the source does not provide a complete inventory of ambient weathering products.\n\nTimescales: The project varied reactor temperature, throughput, residence time and vacuum pressure. Its public summary does not provide a transferable conversion time or environmental lifetime.\n\nEnvironmental persistence: Chemical monomer recovery does not establish a soil, marine or landfill mineralization time. Environmental weathering and fragmentation need separate fate measurements.",
+    "recyclingAndEndOfLife": "Major recovery routes include sorting and mechanical reprocessing, solvent dissolution followed by polymer purification, and thermal depolymerization followed by styrene distillation and repolymerization. The supplier describes these as complementary routes with different maturity and feedstock constraints. Its ResolVe project demonstrated post-consumer PS depolymerization; contamination affected yield, and bromine-containing traces remained when legacy flame-retarded material was treated.",
+    "sources": [
+      {
+        "sourceId": "deg-ps-resolve-2020-30",
+        "lineageId": "deg-ps-resolve-2020",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "INEOS Styrolution. INEOS Styrolution reports final results of research project: post consumer polystyrene waste becomes valuable feedstock. 22 June 2020.",
+        "url": "https://www.ineos.com/businesses/ineos-styrolution/news/ineos-styrolution-reports-final-results-of-research-project-post-consumer-polystyrene-waste-becomes-valuable-feedstock/",
+        "locator": "ResolVe project results: depolymerization, distillation, process variables and contamination limitations.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no open reuse license is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-styrolution-circularity-30",
+        "lineageId": "deg-styrolution-circularity",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "INEOS Styrolution. Driving circularity. Public technology overview, accessed 7 September 2026.",
+        "url": "https://www.ineos.com/businesses/ineos-styrolution/sustainability/driving-circularity/",
+        "locator": "Mechanical recycling, dissolution and depolymerisation sections.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no open reuse license is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000031",
+    "degradationAndStability": "Degradation products and pathways: Repeated melt processing of recovered HIPS changes melt flow and article properties. The cited e-waste study measures processing performance and does not resolve a complete molecular degradation-product inventory.\n\nTimescales: Washed electronic-waste HIPS was followed from first-cycle flakes through fourth-cycle material, with filament extrusion at 195 ± 5 °C. Cycle count is a processing history, not an environmental lifetime.\n\nEnvironmental persistence: Retained printability and changes in material properties do not establish soil or aquatic mineralization.",
+    "recyclingAndEndOfLife": "Mechanical recovery by washing, drying, extrusion and 3D printing was demonstrated for electronic-waste HIPS. Several measured properties remained comparable to commercial filament through the fourth cycle; performance depends on direction, property and waste composition, so this is not a universal four-cycle guarantee.",
+    "sources": [
+      {
+        "sourceId": "deg-hips-hanitio-2023-31",
+        "lineageId": "deg-hips-hanitio-2023",
+        "sourceType": "open_journal",
+        "citation": "Hanitio, E. W.; Lutfhyansyah, N. R.; Efendi, B. M.; Mardiyati, Y.; Steven, S. From Electronic Waste to 3D-Printed Product, How Multiple Recycling Affects High-Impact Polystyrene (HIPS) Filament Performances. Materials 16 (2023), 3412.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10180321/",
+        "locator": "Sections 2.1–2.3, results and conclusions: e-waste HIPS, extrusion conditions and first-to-fourth cycles.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "Creative Commons Attribution 4.0 applies to this article.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ],
+        "doi": "10.3390/ma16093412",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000032",
+    "degradationAndStability": "Degradation products and pathways: Pyrolysis of SAN-dominant printer waste produces oils rich in styrene and toluene, with ethylbenzene, α-methylstyrene, phenol and heavier aromatic products also identified. This waste-specific study characterizes the hydrocarbon oil fraction; it does not provide a complete nitrogen-containing product inventory or natural-weathering leachate profile.\n\nTimescales: The study treats 2 g cryomilled waste portions in a preheated tube furnace at 800, 1000 or 1200 °C under argon flowing at 1 L/min. Collection continues until emissions stop, about 5 min under that apparatus protocol.\n\nEnvironmental persistence: High-temperature oil formation does not determine persistence in soil, freshwater or seawater. No ambient mineralization or disappearance time is established by this experiment.",
+    "recyclingAndEndOfLife": "The study demonstrates laboratory thermochemical conversion of SAN-rich electronic waste into oils requiring subsequent separation or upgrading. It does not demonstrate a closed SAN-to-SAN recycling loop or commercial deployment of that process.",
+    "sources": [
+      {
+        "sourceId": "deg-san-printer-pyrolysis-2018",
+        "lineageId": "san-printer-pyrolysis-2018",
+        "sourceType": "open_journal",
+        "citation": "Kumar, U.; Gaikwad, V.; Mayyas, M.; Bucknall, M.; Sahajwalla, V. Application of High-Resolution NMR and GC–MS to Study Hydrocarbon Oils Derived from Noncatalytic Thermal Transformation of e-Waste Plastics. ACS Omega 3 (2018), 9282–9289.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6645135/",
+        "locator": "Experimental methods and product tables: SAN-dominant printer waste, 2 g portions, argon tube-furnace pyrolysis at 800–1200 °C.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "doi": "10.1021/acsomega.8b01284",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000033",
+    "degradationAndStability": "Degradation products and pathways: ABS can undergo thermo-oxidative degradation during melt processing and heat aging, with the butadiene-rich rubber phase particularly susceptible. In a controlled study of two commercial mass- and emulsion-polymerized ABS resins melt-blended at 220 °C, processing reduced markers of the polybutadiene phase and increased yellowing; antioxidant package and production route changed the response. This is evidence for processing- and formulation-dependent stability, not a universal ABS service-life prediction.\n\nTimescales: Repeated UVA-aging and recycling experiments show exposure- and stabilization-dependent changes; no single ABS service-life or environmental lifetime is established.\n\nEnvironmental persistence: Rubber-phase oxidation and surface embrittlement are not evidence of complete mineralization.",
+    "recyclingAndEndOfLife": "ABS can be mechanically recycled when the incoming stream is identified, sorted, and kept sufficiently compatible for remelting, but prior use, additives, contamination, and cumulative heat and shear history limit direct transfer of virgin-grade expectations. In one open study of black ABS recovered from rigid tablet casings, six extrusion and reinjection cycles increased melt-flow index and affected impact response while tensile, flexural, and thermal results remained broadly stable for that material set. Those outcomes apply to the named WEEE stream and process, not to all recycled ABS or mixed electronic-plastic fractions. Repeated extrusion/injection molding can redistribute damaged surface material and recover some mechanical response. Antioxidant restabilization improves thermal-oxidative resistance in the cited commercial-ABS study.",
+    "sources": [
+      {
+        "sourceId": "deg-abs-aging-2020-33",
+        "lineageId": "deg-abs-aging-2020",
+        "sourceType": "open_journal",
+        "citation": "Influence of Different Stabilization Systems and Multiple Ultraviolet A Aging/Recycling Steps on Physicochemical, Mechanical, Colorimetric, and Thermal-Oxidative Properties of ABS. Materials 13 (2020), 212.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6981387/",
+        "locator": "Commercial mass-polymerized ABS, UVA aging and repeated recycling; rubber oxidation, embrittlement and restabilization.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000034",
+    "degradationAndStability": "Degradation products and pathways: Repeated extrusion of LOTTE WX-9730LE ASA produced progressive discoloration and an increased carbonyl-to-nitrile infrared ratio, consistent with oxidation during reprocessing. The study does not directly identify a complete set of small-molecule products.\n\nTimescales: The study used four total extrusion passes: initial extrusion followed by three recycling passes, with subsequent injection molding. This processing history cannot be converted to an environmental lifetime.\n\nEnvironmental persistence: Changes in color, infrared spectra and rheology are not measurements of mineralization in soil or water.",
+    "recyclingAndEndOfLife": "Mechanical re-extrusion, pelletizing and injection remolding were demonstrated for this ASA grade. The experiments retained useful mechanical performance while showing progressive color changes, making grade, intended appearance and processing history relevant to reuse.",
+    "sources": [
+      {
+        "sourceId": "deg-asa-gong-2025-34",
+        "lineageId": "deg-asa-gong-2025",
+        "sourceType": "open_journal",
+        "citation": "Gong, K. et al. Thermomechanical Recyclability of Acrylonitrile Styrene Acrylate in Successive Extrusion Processes. Journal of Applied Polymer Science 142 (2025), e57891.",
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/app.57891",
+        "locator": "Sections 2.1–2.5 and 3.1, 3.7: WX-9730LE ASA, four extrusion passes, color and FTIR evidence.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no open reuse license is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ],
+        "doi": "10.1002/app.57891"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000035",
+    "degradationAndStability": "Degradation products and pathways: For CLEARSTRENGTH 350 MBS modifier, Arkema lists acrylates, carbon oxides and other organic compounds among products of thermal decomposition. This formulation-specific list does not identify every molecule formed during weathering.\n\nTimescales: The SDS does not provide a transferable degradation time for the MBS polymer.\n\nEnvironmental persistence: The SDS reports biodegradation data for a proprietary component separately; those data cannot establish biodegradability of the whole MBS modifier. Polymer-specific environmental mineralization remains unresolved.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-mbs-clearstrength-sds-35",
+        "lineageId": "deg-mbs-clearstrength-sds",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Arkema Inc. CLEARSTRENGTH 350 Safety Data Sheet, revision 22 July 2016, version 1.1.",
+        "url": "https://media.knowde.com/image/upload/v1733488218/PR-1126234_ZGVUPRAM_EN.PDF20241206-1-1tomds.pdf",
+        "locator": "Sections 10 and 12: thermal decomposition and component-specific environmental data.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no open reuse license is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000036",
+    "degradationAndStability": "Degradation products and pathways: The cited SMA-composite recovery experiment dissolves an SMA-containing polymer phase; it does not identify chemical degradation products or demonstrate chain mineralization.\n\nTimescales: A glass-fiber composite prepared from an SMA/styrene/maleic-anhydride formulation was extracted with acetone for 24 h. This is a dissolution/recovery timescale.\n\nEnvironmental persistence: Dissolution separates material but does not demonstrate biodegradation. Environmental mineralization time remains unresolved.",
+    "recyclingAndEndOfLife": "A patent example recovers polymer mixture by solvent extraction and filtration from the specified SMA-containing composite. The result is a laboratory recovery demonstration, not monomer recovery or established general SMA recycling.",
+    "sources": [
+      {
+        "sourceId": "deg-sma-recovery-patent-36",
+        "lineageId": "deg-sma-recovery-patent",
+        "sourceType": "patent",
+        "citation": "EP4563625A1. Recyclable styrene maleic anhydride and/or at least partially imidized styrene maleic anhydride based composite material by infusion method.",
+        "url": "https://data.epo.org/publication-server/rest/v1.2/patents/EP4563625NWA1/document.pdf",
+        "locator": "Examples A–C; acetone extraction of the SMA-containing glass-fiber composite after 24 h.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000037",
+    "degradationAndStability": "Degradation products and pathways: Ultrasonic stress cleaves styrene–methyl methacrylate copolymer chains into smaller polymer fragments. Block, random and alternating sequences show different limiting molecular masses and degradation rates.\n\nTimescales: The reported time dependence concerns sonicated dilute solutions, not weathering of solid articles.\n\nEnvironmental persistence: Mechanical chain scission is not mineralization; environmental product identities and transferable disappearance times remain unresolved.",
+    "recyclingAndEndOfLife": "The sonication study demonstrates molecular-mass reduction, not monomer recovery or an established recycling process. A material-specific reclamation route is an evidence gap.",
+    "sources": [
+      {
+        "sourceId": "deg-smma-striegel-2012-37",
+        "lineageId": "deg-smma-striegel-2012",
+        "sourceType": "open_journal",
+        "citation": "Morris, M. J.; Striegel, A. M. The effect of styrene-methyl methacrylate monomeric arrangement on the ultrasonic degradation of copolymers. Polymer Degradation and Stability 97 (2012), 2185–2194.",
+        "url": "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=910226",
+        "locator": "Experimental and results: solution sonication of block, random and alternating styrene–methyl methacrylate copolymers.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000038",
+    "degradationAndStability": "Degradation products and pathways: Vacuum pyrolysis of PMMA principally regenerates methyl methacrylate monomer. In the cited original experiments, peroxide-prepared and thermally prepared PMMA both gave nearly all of the volatilized product as monomer, while initiation history affected degradation behavior.\n\nTimescales: The small-sample experiments use controlled high-temperature vacuum treatment; their conversion times do not define a service or environmental lifetime.\n\nEnvironmental persistence: Thermal depolymerization does not show that PMMA mineralizes rapidly outdoors. Ambient biodegradation remains a separate evidence need.",
+    "recyclingAndEndOfLife": "The original study demonstrates thermal monomer recovery from PMMA under vacuum. It establishes the chemical basis of a depolymerization route; collection, purification and industrial process performance require separate evidence.",
+    "sources": [
+      {
+        "sourceId": "deg-pmma-straus-1953-38",
+        "lineageId": "deg-pmma-straus-1953",
+        "sourceType": "open_journal",
+        "citation": "Straus, S.; Madorsky, S. L. Pyrolysis of Styrene, Acrylate, and Isoprene Polymers in a Vacuum. Journal of Research of the National Bureau of Standards 50 (1953), 165–176.",
+        "url": "https://nvlpubs.nist.gov/nistpubs/jres/50/jresv50n3p165_A1b.pdf",
+        "locator": "Sections 2 and 4.1–4.2, Tables 3–4: PMMA samples, volatile fractionation and methyl methacrylate recovery.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no open reuse license is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ],
+        "doi": "10.6028/jres.050.026"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000039",
+    "degradationAndStability": "Degradation products and pathways: PAN thermal breakdown produces nitrogen-bearing volatiles, including hydrogen cyanide and nitrile compounds, together with substantial nonvolatile residue. Product recovery is sensitive to secondary reactions.\n\nTimescales: The original study measures elevated-temperature vacuum pyrolysis; it does not establish ambient aging or mineralization times.\n\nEnvironmental persistence: Thermal volatilization and carbon-rich residue formation are not evidence of environmental biodegradation.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-pan-nist-1958-39",
+        "lineageId": "deg-pan-nist-1958",
+        "sourceType": "open_journal",
+        "citation": "Straus and Madorsky. Thermal Degradation of Polyacrylonitrile, Polybutadiene, and Copolymers of Butadiene With Acrylonitrile and Styrene. Journal of Research of the National Bureau of Standards 61 (1958), 77–87.",
+        "url": "https://nvlpubs.nist.gov/nistpubs/jres/61/jresv61n2p77_a1b.pdf",
+        "locator": "PAN vacuum pyrolysis and volatile-product analyses; nitrogen-bearing volatiles and carbonaceous residue.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000040",
+    "degradationAndStability": "Degradation products and pathways: Poly(methyl acrylate) provides one directly studied alkyl-acrylate example: vacuum pyrolysis yields carbon dioxide, methanol and a mixture of larger fragments. This product distribution must not be assigned to every alkyl ester or crosslinked acrylic formulation.\n\nTimescales: The cited study uses small samples during controlled high-temperature vacuum pyrolysis. It supplies no family-wide environmental degradation time.\n\nEnvironmental persistence: Volatilization and residual polymer fragments are not evidence of ambient mineralization; ester identity and network structure require separate fate studies.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-pma-straus-1953-40",
+        "lineageId": "deg-pma-straus-1953",
+        "sourceType": "open_journal",
+        "citation": "Straus, S.; Madorsky, S. L. Pyrolysis of Styrene, Acrylate, and Isoprene Polymers in a Vacuum. Journal of Research of the National Bureau of Standards 50 (1953), 165–176.",
+        "url": "https://nvlpubs.nist.gov/nistpubs/jres/50/jresv50n3p165_A1b.pdf",
+        "locator": "Sections 2 and 4.3, Table 4: poly(methyl acrylate), volatile-product composition and larger fragments.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no open reuse license is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ],
+        "doi": "10.6028/jres.050.026"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000041",
+    "degradationAndStability": "Degradation products and pathways: A sludge-derived Bacillus strain, HI47, produced an extracellular amidase and transformed PAM, with decreased molecular mass and formation of carboxyl-bearing material. Amidase-mediated loss of amide groups and PAM-assay removal are distinct from complete mineralization.\n\nTimescales: The laboratory culture study followed PAM transformation over five days and found strong dependence on added nutrients; this is a selected-strain experiment rather than a wastewater-plant or soil lifetime.\n\nEnvironmental persistence: The study does not establish complete conversion of PAM carbon to carbon dioxide or a general environmental disappearance time. Dissolution and floc removal alone do not measure mineralization.",
+    "recyclingAndEndOfLife": "The cited culture experiment demonstrates biological treatment of PAM-containing medium. It destroys or transforms PAM instead of reclaiming reusable polymer; material-recycling technology remains an evidence gap for this entry.",
+    "sources": [
+      {
+        "sourceId": "deg-pam-yu-2015-41",
+        "lineageId": "deg-pam-yu-2015",
+        "sourceType": "open_journal",
+        "citation": "Yu, F.; Fu, R.; Xie, Y.; Chen, W. Isolation and Characterization of Polyacrylamide-Degrading Bacteria from Dewatered Sludge. International Journal of Environmental Research and Public Health 12 (2015), 4214–4230.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4410243/",
+        "locator": "Sections 2 and 3.1–3.3: HI47 cultures, PAM assay, molecular-mass and enzyme analyses.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "Creative Commons Attribution 4.0 applies to this article.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ],
+        "doi": "10.3390/ijerph120404214",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000042",
+    "degradationAndStability": "Degradation products and pathways: Purified monooxygenase PCX02514, with NADPH, cleaved low-molecular-weight PAA into shorter chains. Mass spectrometry detected a C6H10O5 product consistent with a hydroxyl-terminated acrylic-acid dimer, although alternative formation mechanisms remained under discussion.\n\nTimescales: For PAA of approximately 2,000 Da, the study incubated enzyme, NADPH and PAA in pH 7.4 phosphate-buffered saline for 5 h at 30 °C. Molecular mass decreased; this was not a complete-mineralization assay.\n\nEnvironmental persistence: These selected-enzyme results do not establish rapid degradation of high-molecular-weight or crosslinked PAA in the environment. A transferable environmental mineralization time remains unresolved.",
+    "recyclingAndEndOfLife": "The enzyme study demonstrates a laboratory depolymerization pathway, not recovery of reusable PAA or a commercial recycling process. Material-reclamation evidence remains to be added.",
+    "sources": [
+      {
+        "sourceId": "deg-paa-feng-enzyme-2024-42",
+        "lineageId": "deg-paa-feng-enzyme-2024",
+        "sourceType": "open_journal",
+        "citation": "Feng, R. et al. Structural and Mechanistic Insights into a Novel Monooxygenase for Poly(acrylic acid) Biodegradation. International Journal of Molecular Sciences 25 (2024), 8871.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11354265/",
+        "locator": "Sections 2.2 and 3.1, 3.4–3.5: approximately 2,000 Da PAA, purified enzyme/NADPH, 5 h at 30 °C and HPLC–MS/GPC results.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "Creative Commons Attribution 4.0 applies to this article.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ],
+        "doi": "10.3390/ijms25168871",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000043",
+    "degradationAndStability": "Degradation products and pathways: Aromatic polyester depolymerization can yield reusable acid/diol-derived products; the cited evidence specifically demonstrates PET, rather than every thermoplastic polyester.\n\nTimescales: Milled PET-bottle material was reacted at 350 °C for 20 min in water with and without alkali.\n\nEnvironmental persistence: This pressurized chemical treatment supplies no family-wide soil, marine or landfill mineralization time.",
+    "recyclingAndEndOfLife": "Reclamation depends on polyester identity and the waste stream. PET provides directly supported examples of several major routes. Industrial mechanical bottle recycling sorts, washes and dries flakes, then uses decontamination, extrusion, melt filtration and pelletizing. Chemical glycolysis yields BHET and oligomers for purification and reuse, while Eastman reports commercial methanolysis operation at Kingsport from early 2024. Laboratory hydrothermal depolymerization is another PET recovery example.\n\nCarbios reports enzymatic PET depolymerization followed by purification of terephthalic acid and ethylene glycol at demonstration scale, with 100 packaging/textile-waste batches reported in July 2026. These PET-specific examples establish a range of recovery technologies; their catalysts, operating conditions, feedstock tolerance and commercial maturity must not be transferred to every thermoplastic polyester.",
+    "sources": [
+      {
+        "sourceId": "deg-htl-passos-2021-43",
+        "lineageId": "deg-htl-passos-2021",
+        "sourceType": "preprint",
+        "citation": "Souza dos Passos, Glasius and Biller. Screening of common synthetic polymers for depolymerization by subcritical hydrothermal liquefaction (2021).",
+        "url": "https://arxiv.org/pdf/2110.09213",
+        "locator": "Materials, HTL procedure and polymer-specific results; 350 °C, 20 min batch tests, water with and without KOH.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-pet-erema-texplast-43",
+        "lineageId": "deg-pet-erema-texplast",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "EREMA. Recycling News 2015/2016. TEXPLAST Germany: High-quality recycling technology – excellent product quality, p. 37.",
+        "url": "https://www.erema.com/assets/media_center/recycling_news/EREMA_Recycling_News_2015_2016_EN.pdf",
+        "locator": "Page 37: operating Texplast PET bottle recycling; sorting, size reduction, washing, drying/crystallization, vacuum treatment, extrusion, melt filtration and pelletizing.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was opened anonymously; no open reuse license is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-pet-glycolysis-amundarain-2024-43",
+        "lineageId": "deg-pet-glycolysis-amundarain-2024",
+        "sourceType": "open_journal",
+        "citation": "Amundarain, I. et al. Improving the Sustainability of Catalytic Glycolysis of Complex PET Waste through Bio-Solvolysis. Polymers 16 (2024), 142.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10780431/",
+        "locator": "Sections 2.1–2.3, 3.2–3.4 and 4: five complex PET waste streams, ethylene-glycol/zinc-acetate glycolysis, BHET/dimer/oligomer identification and purification.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "Creative Commons Attribution 4.0 applies to the article.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ],
+        "doi": "10.3390/polym16010142",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "sourceId": "deg-pet-eastman-prt-43",
+        "lineageId": "deg-pet-eastman-prt",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Eastman. Polyester renewal technology. Public technology description, accessed 7 September 2026.",
+        "url": "https://www.eastman.com/en/sustainability/environmental/circularity/circular-solutions/polyester-renewal",
+        "locator": "Polyester renewal description: methanolysis of polyester waste and Kingsport facility operational in early 2024.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was opened anonymously; no open reuse license is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-pet-eastman-production-2024-43",
+        "lineageId": "deg-pet-eastman-production-2024",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Eastman. Eastman molecular recycling facility achieves on-spec production and is generating revenue. 2024.",
+        "url": "https://www.eastman.com/en/media-center/news-stories/2024/eastman-molecular-recycling-facility-on-spec-production-revenue",
+        "locator": "Opening report of initial on-spec production and revenue from the Kingsport molecular recycling facility.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was opened anonymously; no open reuse license is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-pet-carbios-life-2026-43",
+        "lineageId": "deg-pet-carbios-life-2026",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Carbios. LIFE CYCLE OF PET project: Turning PET waste into circular resources. Project period October 2021–March 2026.",
+        "url": "https://www.carbios.com/en/pet-biorecycling-technology/demonstration-plant/lifeproject/",
+        "locator": "Enzymatic depolymerization, filtration, monomer purification/separation and demonstration-plant achievements; recovered terephthalic acid and monoethylene glycol.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was opened anonymously; no open reuse license is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-pet-carbios-100batches-2026-43",
+        "lineageId": "deg-pet-carbios-100batches-2026",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Carbios. Carbios reaches milestone of 100 batches at its industrial demonstration plant and expands its licensing offering to the textile market. 21 July 2026.",
+        "url": "https://www.carbios.com/en/carbios-reaches-milestone-of-100-batches-at-its-industrial-demonstration-plant-and-expands-its-licensing-offering-to-the-textile-market/",
+        "locator": "Demonstration-plant batch milestone, packaging and textile feedstocks, and extension of the licensing offering; footnote 1 defines the total batch count.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was opened anonymously; no open reuse license is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000044",
+    "degradationAndStability": "Degradation products and pathways: Hydrolysis cleaves PET ester chains to terephthalic-acid- and ethylene-glycol-derived products; further reactions depend on treatment severity. Glycolysis with ethylene glycol instead yields BHET (bis(2-hydroxyethyl) terephthalate), dimers and oligomers. In Carbios’ enzyme-driven recovery process, the isolated monomers are terephthalic acid and ethylene glycol. These are route-qualified treatment products, not a complete inventory of ambient weathering products.\n\nTimescales: The cited milled-bottle study used 350 °C water for 20 min, with and without KOH.\n\nEnvironmental persistence: Pressurized hydrolysis demonstrates chemical conversion, not a transferable environmental mineralization time.",
+    "recyclingAndEndOfLife": "Mechanical recycling of collected PET bottles is an established industrial route: bottles are sorted, reduced to flakes, washed and dried, then decontaminated and reprocessed through extrusion, melt filtration and pelletizing. Commercial vacuum-treatment systems can also restore intrinsic viscosity. The EREMA/Texplast operating example documents this sequence; feedstock quality, decontamination and intended use determine recyclate suitability.\n\nChemical recovery includes glycolysis, methanolysis and hydrolysis. Glycolysis with ethylene glycol produces bis(2-hydroxyethyl) terephthalate (BHET), dimers and oligomers. A laboratory study of coloured bottles, trays and polyester textile wastes used biobased ethylene glycol and zinc acetate, followed by filtration, crystallization and activated-carbon purification. Methanolysis has reached commercial operation: Eastman reports its Kingsport polyester-renewal facility became operational in early 2024 and achieved on-spec production and revenue. The separately cited hydrothermal study demonstrates laboratory monomer-derived product recovery; solvent/catalyst management and product purification remain process-specific requirements.\n\nEnzymatic depolymerization is another recovery route. Carbios describes pretreated PET reacting with water and an enzyme, followed by residue filtration, activated-carbon treatment and separation of terephthalic acid and ethylene glycol. Its July 2026 report documents 100 batches from packaging and textile waste at its Clermont-Ferrand demonstration plant and an expanded licensing offering. This establishes demonstration-scale operation; it does not establish widespread commercial deployment. Reactor conversion and material recycling do not imply rapid biodegradation in the environment.",
+    "sources": [
+      {
+        "sourceId": "deg-htl-passos-2021-44",
+        "lineageId": "deg-htl-passos-2021",
+        "sourceType": "preprint",
+        "citation": "Souza dos Passos, Glasius and Biller. Screening of common synthetic polymers for depolymerization by subcritical hydrothermal liquefaction (2021).",
+        "url": "https://arxiv.org/pdf/2110.09213",
+        "locator": "Materials, HTL procedure and polymer-specific results; 350 °C, 20 min batch tests, water with and without KOH.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-pet-erema-texplast-44",
+        "lineageId": "deg-pet-erema-texplast",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "EREMA. Recycling News 2015/2016. TEXPLAST Germany: High-quality recycling technology – excellent product quality, p. 37.",
+        "url": "https://www.erema.com/assets/media_center/recycling_news/EREMA_Recycling_News_2015_2016_EN.pdf",
+        "locator": "Page 37: operating Texplast PET bottle recycling; sorting, size reduction, washing, drying/crystallization, vacuum treatment, extrusion, melt filtration and pelletizing.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was opened anonymously; no open reuse license is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-pet-glycolysis-amundarain-2024-44",
+        "lineageId": "deg-pet-glycolysis-amundarain-2024",
+        "sourceType": "open_journal",
+        "citation": "Amundarain, I. et al. Improving the Sustainability of Catalytic Glycolysis of Complex PET Waste through Bio-Solvolysis. Polymers 16 (2024), 142.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10780431/",
+        "locator": "Sections 2.1–2.3, 3.2–3.4 and 4: five complex PET waste streams, ethylene-glycol/zinc-acetate glycolysis, BHET/dimer/oligomer identification and purification.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "Creative Commons Attribution 4.0 applies to the article.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ],
+        "doi": "10.3390/polym16010142",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      {
+        "sourceId": "deg-pet-eastman-prt-44",
+        "lineageId": "deg-pet-eastman-prt",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Eastman. Polyester renewal technology. Public technology description, accessed 7 September 2026.",
+        "url": "https://www.eastman.com/en/sustainability/environmental/circularity/circular-solutions/polyester-renewal",
+        "locator": "Polyester renewal description: methanolysis of polyester waste and Kingsport facility operational in early 2024.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was opened anonymously; no open reuse license is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-pet-eastman-production-2024-44",
+        "lineageId": "deg-pet-eastman-production-2024",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Eastman. Eastman molecular recycling facility achieves on-spec production and is generating revenue. 2024.",
+        "url": "https://www.eastman.com/en/media-center/news-stories/2024/eastman-molecular-recycling-facility-on-spec-production-revenue",
+        "locator": "Opening report of initial on-spec production and revenue from the Kingsport molecular recycling facility.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was opened anonymously; no open reuse license is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-pet-carbios-life-2026-44",
+        "lineageId": "deg-pet-carbios-life-2026",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Carbios. LIFE CYCLE OF PET project: Turning PET waste into circular resources. Project period October 2021–March 2026.",
+        "url": "https://www.carbios.com/en/pet-biorecycling-technology/demonstration-plant/lifeproject/",
+        "locator": "Enzymatic depolymerization, filtration, monomer purification/separation and demonstration-plant achievements; recovered terephthalic acid and monoethylene glycol.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was opened anonymously; no open reuse license is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-pet-carbios-100batches-2026-44",
+        "lineageId": "deg-pet-carbios-100batches-2026",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Carbios. Carbios reaches milestone of 100 batches at its industrial demonstration plant and expands its licensing offering to the textile market. 21 July 2026.",
+        "url": "https://www.carbios.com/en/carbios-reaches-milestone-of-100-batches-at-its-industrial-demonstration-plant-and-expands-its-licensing-offering-to-the-textile-market/",
+        "locator": "Demonstration-plant batch milestone, packaging and textile feedstocks, and extension of the licensing offering; footnote 1 defines the total batch count.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was opened anonymously; no open reuse license is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000045",
+    "degradationAndStability": "Degradation products and pathways: Repeated extrusion and printing of PETG changes material properties. The cited recycling study does not chemically resolve a major-product inventory, so property loss is retained as its measured endpoint.\n\nTimescales: The experiment follows successive recycling cycles; cycle count and processing conditions cannot be converted to years of environmental degradation.\n\nEnvironmental persistence: Mechanical property changes do not measure biodegradation or mineralization of PETG.",
+    "recyclingAndEndOfLife": "Shredding, remelt extrusion and filament manufacture provide a demonstrated mechanical recovery route for the studied PETG. Additives and prior processing history affect retained properties; the work is a laboratory study.",
+    "sources": [
+      {
+        "sourceId": "deg-petg-reprocessing-2024-45",
+        "lineageId": "deg-petg-reprocessing-2024",
+        "sourceType": "open_journal",
+        "citation": "Olawumi, Oladapo and Olugbade. Evaluating the impact of recycling on polymer of 3D printing for energy and material sustainability. Resources, Conservation & Recycling (2024), 107769.",
+        "url": "https://discovery.dundee.ac.uk/ws/portalfiles/portal/125228312/1-s2.0-S092134492400363X-main.pdf",
+        "locator": "Experimental PETG recycling and filament/additive trials; scope is material and mechanical processing, not environmental mineralization.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000046",
+    "degradationAndStability": "Degradation products and pathways: PBT alcoholysis with excess 1,4-butanediol cleaves ester chains to hydroxybutyl-terephthalate-derived intermediates and oligomers; catalyst and reactant ratio alter their distribution.\n\nTimescales: The cited synthesized-PBT experiments use 230 °C for 1–3 h, with or without added zinc acetate.\n\nEnvironmental persistence: Deliberately driven alcoholysis does not establish environmental mineralization time.",
+    "recyclingAndEndOfLife": "A laboratory single-reactor sequence depolymerizes PBT then repolymerizes the intermediates without isolating a purified monomer fraction. It demonstrates chemical circularity under controlled conditions; waste-stream collection and industrial scale are separate questions.",
+    "sources": [
+      {
+        "sourceId": "deg-pbt-recycling-2026-46",
+        "lineageId": "deg-pbt-recycling-2026",
+        "sourceType": "open_journal",
+        "citation": "Catalytic Effect on Simplified Chemical Recycling of Poly(butylene terephthalate). ChemSusChem 19 (2026), e70918.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13411085/",
+        "locator": "Sections 2.3 and 3.1 and conclusions; 1,4-butanediol alcoholysis, intermediates and one-pot repolymerization.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000047",
+    "degradationAndStability": "Degradation products and pathways: PTT glycolysis cleaves ester chains into bis(3-hydroxypropyl) terephthalate (BHPT) and oligomers. Product distribution changes with catalyst, temperature and reaction duration.\n\nTimescales: At 220 °C, 0.2 wt% zinc acetate and a 1,3-propanediol/PTT mass ratio of 8:1, the study reports 83 mol% isolated BHPT after 45 min. This is a reactor yield, not environmental lifetime.\n\nEnvironmental persistence: Glycolysis does not demonstrate ambient biodegradation. Environmental mineralization times for PTT fibers or articles remain unestablished in this source.",
+    "recyclingAndEndOfLife": "A laboratory circular route isolates BHPT, then repolymerizes it to PTT. This is direct PTT chemical-recycling evidence, with solvent/catalyst and product recovery requirements; it does not establish widespread PTT waste collection.",
+    "sources": [
+      {
+        "sourceId": "deg-ptt-glycolysis-2025-47",
+        "lineageId": "deg-ptt-glycolysis-2025",
+        "sourceType": "open_journal",
+        "citation": "Efficient Depolymerization and Recycling of Poly(trimethylene terephthalate) Using 1,3-Propanediol as Reaction Media. Journal of Polymers and the Environment 33 (2025), 3443–3453.",
+        "url": "https://d-nb.info/1375889419/34",
+        "locator": "Experimental, glycolysis optimization and repolymerization; BHPT monomer, oligomers and recovered PTT.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000048",
+    "degradationAndStability": "Degradation products and pathways: Methanolysis of PEN ester chains yields dimethyl naphthalenedicarboxylate and ethylene-glycol-derived products under catalyzed reactor conditions.\n\nTimescales: The patent tests heated, pressurized methanol with ground PEN scrap; reactor conversion times do not establish environmental lifetimes.\n\nEnvironmental persistence: No soil, marine or landfill mineralization time follows from these monomer-recovery experiments.",
+    "recyclingAndEndOfLife": "The patent demonstrates methanolysis and separation of recovered naphthalate ester from PEN scrap. This is specific chemical-recovery evidence, not proof of an established municipal PEN recycling stream.",
+    "sources": [
+      {
+        "sourceId": "deg-pen-recovery-patent-48",
+        "lineageId": "deg-pen-recovery-patent",
+        "sourceType": "patent",
+        "citation": "EP0857714A1. Recovery of monomers from polyethylene naphthalate.",
+        "url": "https://patentimages.storage.googleapis.com/b8/ab/a8/855ac2b6e222f2/EP0857714A1.pdf",
+        "locator": "Methanolysis experiments with ground PEN scrap; dimethyl naphthalenedicarboxylate and ethylene glycol.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000049",
+    "degradationAndStability": "Degradation products and pathways: Alkaline depolymerization of waste PCT cleaves ester bonds and yields terephthalate salt; acidification recovers terephthalic acid. The cited patent also describes recovery of the cyclohexanedimethanol-derived component.\n\nTimescales: A worked patent example treats 2 g waste PCT flakes at about 80 °C for 12 h in an ethanol/water/anisole system containing sodium hydroxide. This is a chemical-recovery reaction time.\n\nEnvironmental persistence: Alkaline solvent treatment does not establish biodegradation or a mineralization time in ambient soil or water.",
+    "recyclingAndEndOfLife": "The patent demonstrates chemical recycling through alkaline depolymerization, filtration, acidification and product separation. Its worked examples support a laboratory recovery route for the specified PCT waste; commercial adoption and general collection infrastructure are not established.",
+    "sources": [
+      {
+        "sourceId": "deg-pct-kiet-2025-49",
+        "lineageId": "deg-pct-kiet-2025",
+        "sourceType": "patent",
+        "citation": "Korea Institute of Energy Research. Chemical recycling method for polycyclohexylenedimethylene terephthalate wastes. KR20250085097A, published 12 June 2025.",
+        "url": "https://patents.google.com/patent/KR20250085097A/en",
+        "locator": "Description and Examples 1–10: waste PCT, 80 °C alkaline solvent treatment, terephthalate recovery and product separation.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no open reuse license is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000050",
+    "degradationAndStability": "Degradation products and pathways: In the cited bisphenol-A/terephthalate polyarylate example, ester cleavage enables recovery of monomer-derived components. This narrow composition does not represent every aromatic polyester.\n\nTimescales: The study uses deliberately driven solvolysis; it does not supply a general outdoor degradation time.\n\nEnvironmental persistence: Successful laboratory depolymerization is not evidence of ambient mineralization; composition and exposure remain essential limits.",
+    "recyclingAndEndOfLife": "The recovered polyarylate made by upcycling PET and PC was chemically recycled again in a laboratory closed loop. This is a composition-specific demonstration, not proof of a general commercial polyarylate recycling stream.",
+    "sources": [
+      {
+        "sourceId": "deg-par-upcycling-2025-50",
+        "lineageId": "deg-par-upcycling-2025",
+        "sourceType": "open_journal",
+        "citation": "Upcycling waste commodity polymers into high-performance polyarylate materials with direct utilization of capping agent impurities. Nature Communications (2025).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11903651/",
+        "locator": "Recovered polyarylate composition and Figure 5d closed-loop recycling; methanolysis of the particular recovered polyarylate.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000051",
+    "degradationAndStability": "Degradation products and pathways: For the directly studied HBA/HNA aromatic polyester, ester cleavage recovers 4-hydroxybenzoic acid and 6-hydroxy-2-naphthoic acid or their methyl esters, depending on hydrolysis versus methanolysis. Other thermotropic LCP chemistries need separate evidence.\n\nTimescales: Vectra fibers of 23 µm diameter, cut to about 3 mm, underwent more than 95% methanolysis in 30 h under methanol reflux with one equivalent of TBD per ester bond. At 25 °C, substantial fiber remained after 500 h.\n\nEnvironmental persistence: These reagent-driven conversion rates do not establish degradation in soil or water. The study describes the difficulty of degrading wholly aromatic LC polyesters but does not determine an environmental half-life.",
+    "recyclingAndEndOfLife": "Superbase-assisted methanolysis and hydrolysis provide laboratory monomer recovery. TBD is consumed by association with products in this system and should not be described as a low-loading catalyst; purification is part of the route.",
+    "sources": [
+      {
+        "sourceId": "deg-tlcp-superbase-2024",
+        "lineageId": "tlcp-superbase-2024",
+        "sourceType": "open_journal",
+        "citation": "Watanabe, Y.; Fukushima, K.; Kato, T. Degradation of a Wholly Aromatic Main-Chain Thermotropic Liquid-Crystalline Polymer Mediated by Superbases. JACS Au (2024).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11350567/",
+        "locator": "Sections 2.1–2.2 and Figure 5; Vectra HBA/HNA fibers, superbase-assisted methanolysis/hydrolysis.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "doi": "10.1021/jacsau.4c00286",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000088",
+    "degradationAndStability": "Degradation products and pathways: Batch pyrolysis of alternating ethylene/propylene/carbon-monoxide polyketone generates CO, methane, hydrogen and light hydrocarbons, with ketones, cyclopentenones, furans and aromatic compounds in the liquid fraction. Cyclization competes with chain cleavage.\n\nTimescales: The 250 g laboratory batch was heated from ambient to above 500 °C. Strong vapor production occurred around one hour into heating, near a 400 °C reactor temperature; this is an apparatus-specific process observation.\n\nEnvironmental persistence: No environmental mineralization or disappearance time follows from inert thermal decomposition.",
+    "recyclingAndEndOfLife": "Mechanical recycling was demonstrated for commercial aliphatic-polyketone composites containing 15 or 30 wt% short glass fiber. A 2025 study remolded fully recycled material after one and five recycling cycles; fiber and matrix changes affected retained properties. These results concern the specified composites rather than every neat polyketone grade. The study demonstrates a thermochemical conversion route to liquid, gas and solid fractions. Purification and reuse as chemical feedstock remain distinct from combustion of the gas for energy; this experiment is not evidence of established closed-loop polyketone recycling.",
+    "sources": [
+      {
+        "sourceId": "deg-polyketone-pyrolysis-2026",
+        "lineageId": "polyketone-pyrolysis-2026",
+        "sourceType": "open_journal",
+        "citation": "Dobó, Z.; Kovács, H.; Polyákné Kovács, A. Investigation of ethylene-propylene based aliphatic polyketone thermal pyrolysis. Fuel Processing Technology 290 (2026), 108528.",
+        "url": "https://www.researchgate.net/publication/412066026_Investigation_of_ethylene-propylene_based_aliphatic_polyketone_thermal_pyrolysis",
+        "locator": "Author-uploaded full text; Sections 2–3, 250 g alternating E-P-CO resin batch, gas and liquid products.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "doi": "10.1016/j.fuproc.2026.108528",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-pk-mechanical-2025-88",
+        "lineageId": "deg-pk-mechanical-2025",
+        "sourceType": "open_journal",
+        "citation": "Polyákné Kovács, A.; Minale, Y. F.; Hegedűs, M. É.; Szabó, T. J. Study of the Mechanical Recycling on the Properties of Glass Fiber-Reinforced Aliphatic Polyketone Composites. Polymers 17 (2025), 2743.",
+        "url": "https://www.mdpi.com/2073-4360/17/20/2743",
+        "locator": "Sections 2.1–2.2 and 3: 15/30 wt% glass fiber composites, one/five recycling cycles and property changes.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "Creative Commons Attribution 4.0 applies to this article.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ],
+        "doi": "10.3390/polym17202743",
+        "contentUrl": "https://mdpi-res.com/d_attachment/polymers/polymers-17-02743/article_deploy/polymers-17-02743.pdf",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000089",
+    "degradationAndStability": "Degradation products and pathways: Vacuum pyrolysis of PTFE mainly produces tetrafluoroethylene under the cited controlled conditions. Product distributions in air or poorly controlled thermal treatment may differ.\n\nTimescales: The original study measures high-temperature volatilization kinetics, not ambient weathering.\n\nEnvironmental persistence: Fluoropolymer persistence is a lifecycle concern; thermal monomer generation does not establish an environmental mineralization time.",
+    "recyclingAndEndOfLife": "Clean PTFE scrap is reclaimed by specialist grinding and powder routes; it cannot be processed like an ordinary low-viscosity thermoplastic melt. Pyrolytic monomer recovery is a separate specialist route.",
+    "sources": [
+      {
+        "sourceId": "deg-nist-fluorothermal-1953-89",
+        "lineageId": "deg-nist-fluorothermal-1953",
+        "sourceType": "open_journal",
+        "citation": "Madorsky et al. Thermal Degradation of Tetrafluoroethylene and Hydrofluoroethylene Polymers in a Vacuum. Journal of Research of the National Bureau of Standards 51 (1953), 327–333.",
+        "url": "https://nvlpubs.nist.gov/nistpubs/jres/51/jresv51n6p327_A1b.pdf",
+        "locator": "PTFE and PVDF vacuum pyrolysis experiments, volatile-product analysis and residue formation.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-eea-fluoropolymers-2021-89",
+        "lineageId": "deg-eea-fluoropolymers-2021",
+        "sourceType": "public_report",
+        "citation": "European Topic Centre on Waste and Materials in a Green Economy. Fluorinated polymers in a low carbon, circular and toxic-free economy. Eionet Report 2021/9.",
+        "url": "https://www.eionet.europa.eu/etcs/etc-cm/products/etc-cme-and-etc-wmge-report-9-2021-fluorinated-polymers-in-a-low-carbon-circular-and-toxic-free-economy/%40%40download/file/EEA%20task%20on%20fluoropolymers_Full%20report_December%2014%202021%20%281%29.pdf",
+        "locator": "Sections 6.2 and 6.5 and lifecycle conclusions; PTFE/PVDF mechanical and chemical recycling, fluoropolymer persistence and treatment uncertainties.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000090",
+    "degradationAndStability": "Degradation products and pathways: Daikin identifies hydrogen fluoride and other fluorinated compounds as possible products when its FEP resins are processed at elevated temperature. This is a supplier thermal-decomposition warning, not an ambient product inventory.\n\nTimescales: The stewardship summary gives an elevated-temperature warning above 250 °C but no time-dependent degradation measurement. A temperature warning is not a lifetime.\n\nEnvironmental persistence: Chemical stability and weather resistance do not supply a quantitative environmental mineralization time. FEP-specific environmental timing remains unresolved.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-fep-daikin-2021-90",
+        "lineageId": "deg-fep-daikin-2021",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Daikin. DAIKIN-NEOFLON FEP product stewardship summary, env-pss-fep-001, revision 0, May 2021.",
+        "url": "https://www.daikinchemicals.com/library/pb_common/pdf/dai/env-pss-fep-001_Rev.0-002.pdf",
+        "locator": "Physical/chemical properties and Exposure Effects of Decomposition Products.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no open reuse license is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000091",
+    "degradationAndStability": "Degradation products and pathways: For the specified PFA fluoropolymer resin, the supplier identifies hydrogen fluoride, carbonyl fluoride and acid fluorides as hazardous thermal-decomposition products. These are overheating products, not demonstrated ambient metabolites.\n\nTimescales: The SDS provides no environmental degradation time or temperature-independent decomposition lifetime.\n\nEnvironmental persistence: Environmental persistence must be assessed separately from high-temperature decomposition; a transferable mineralization time is not established in the source.",
+    "recyclingAndEndOfLife": "The supplier directs waste to appropriate permitted treatment and does not validate a resin-recovery process. A PFA-specific reclamation route remains an evidence gap.",
+    "sources": [
+      {
+        "sourceId": "deg-pfa-dupont-sds-91",
+        "lineageId": "deg-pfa-dupont-sds",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "DuPont. PFA Fluoropolymer Resin Material Safety Data Sheet, version 4.0 (12 June 2012).",
+        "url": "https://www.nanofab.utah.edu/wp-content/uploads/2018/08/PFA-Fluoropolymer-Resin-Dupont-12Jun12_v4.pdf",
+        "locator": "Sections 10, 12 and 13; hazardous thermal decomposition, environmental-data limitations and disposal.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000092",
+    "degradationAndStability": "Degradation products and pathways: For its ETFE products, Bohlender identifies carbonyl fluoride, hydrogen fluoride, carbon oxides and perfluoroisobutylene among possible high-temperature decomposition products. This is a supplier hazard inventory for thermal exposure.\n\nTimescales: The SDS associates decomposition with elevated temperature, including exposure above 260 °C, and supplies no general time-to-degradation value.\n\nEnvironmental persistence: The SDS explicitly lacks sufficient persistence/degradability data. It therefore cannot establish an environmental mineralization time for ETFE.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-etfe-bohlender-2016-92",
+        "lineageId": "deg-etfe-bohlender-2016",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Bohlender GmbH. ETFE Safety Data Sheet, revision 1, 12 July 2016.",
+        "url": "https://bohlender-americas.com/msdb/Englisch/MSDS_ETFE_e.pdf?v=1772004084",
+        "locator": "Sections 10.6 and 12.2: thermal decomposition products and environmental evidence gap.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no open reuse license is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000093",
+    "degradationAndStability": "Degradation products and pathways: The Halar ECTFE guide warns of rapid thermal degradation on overheating and of accelerated damage from contamination; it does not identify the major individual degradation products.\n\nTimescales: Its processing guidance warns against temperatures around 350 °C or above; temperature alone is not a degradation timescale or service-life prediction.\n\nEnvironmental persistence: Processing stability does not establish ambient mineralization; environmental timing is not measured by the guide.",
+    "recyclingAndEndOfLife": "The guide describes adding less than 15% suitable regrind, with darkened or contaminated resin rejected. This is established, formulation-qualified production-scrap recovery rather than a general post-consumer route.",
+    "sources": [
+      {
+        "sourceId": "deg-ectfe-halar-guide-93",
+        "lineageId": "deg-ectfe-halar-guide",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Solvay. Halar ECTFE Design and Processing Guide.",
+        "url": "https://www.nevicolor.it/produkte/polymer-suchen/solvay/halar-ectfe/dokumente/halar-ectfe-design-processing-guide.pdf",
+        "locator": "Pages 24–25, thermal limits and regrind; virgin polymer versus darkened or contaminated material.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000094",
+    "degradationAndStability": "Degradation products and pathways: Additive-free PCTFE vacuum pyrolysis produced chlorotrifluoroethylene together with heavier chlorofluorocarbon fragments.\n\nTimescales: A 0.2 mm sheet heated over 45 min and held at 380 °C for 30 min retained 47.5% of its starting mass.\n\nEnvironmental persistence: This volatilization endpoint is not biodegradation or ambient disappearance; environmental mineralization was not measured.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-nist-pctfe-parylene-1955-94",
+        "lineageId": "deg-nist-pctfe-parylene-1955",
+        "sourceType": "open_journal",
+        "citation": "Madorsky and Straus. Thermal Degradation of Polychlorotrifluoroethylene, Poly-alpha,beta,beta-Trifluorostyrene, and Poly-p-Xylylene in a Vacuum. Journal of Research of the National Bureau of Standards 55 (1955), 223–230.",
+        "url": "https://nvlpubs.nist.gov/nistpubs/jres/55/jresv55n4p223_A1b.pdf",
+        "locator": "Sections 2 and 4, Tables 1–2: vacuum pyrolysis products and conditions for additive-free PCTFE and unsubstituted poly(p-xylylene).",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000095",
+    "degradationAndStability": "Degradation products and pathways: PVDF vacuum pyrolysis eliminates hydrogen fluoride and produces wax-like fluorinated fragments and a dark carbonaceous residue.\n\nTimescales: The original experiments followed high-temperature volatilization; their rates cannot be transferred to ambient water or soil.\n\nEnvironmental persistence: Residue formation and mass loss do not demonstrate complete mineralization.",
+    "recyclingAndEndOfLife": "Industrial PVDF scrap can be re-extruded in specialist recycling streams; segregation and contamination govern suitability.",
+    "sources": [
+      {
+        "sourceId": "deg-nist-fluorothermal-1953-95",
+        "lineageId": "deg-nist-fluorothermal-1953",
+        "sourceType": "open_journal",
+        "citation": "Madorsky et al. Thermal Degradation of Tetrafluoroethylene and Hydrofluoroethylene Polymers in a Vacuum. Journal of Research of the National Bureau of Standards 51 (1953), 327–333.",
+        "url": "https://nvlpubs.nist.gov/nistpubs/jres/51/jresv51n6p327_A1b.pdf",
+        "locator": "PTFE and PVDF vacuum pyrolysis experiments, volatile-product analysis and residue formation.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-eea-fluoropolymers-2021-95",
+        "lineageId": "deg-eea-fluoropolymers-2021",
+        "sourceType": "public_report",
+        "citation": "European Topic Centre on Waste and Materials in a Green Economy. Fluorinated polymers in a low carbon, circular and toxic-free economy. Eionet Report 2021/9.",
+        "url": "https://www.eionet.europa.eu/etcs/etc-cm/products/etc-cme-and-etc-wmge-report-9-2021-fluorinated-polymers-in-a-low-carbon-circular-and-toxic-free-economy/%40%40download/file/EEA%20task%20on%20fluoropolymers_Full%20report_December%2014%202021%20%281%29.pdf",
+        "locator": "Sections 6.2 and 6.5 and lifecycle conclusions; PTFE/PVDF mechanical and chemical recycling, fluoropolymer persistence and treatment uncertainties.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000096",
+    "degradationAndStability": "Degradation products and pathways: The THV 500GZ supplier identifies hydrogen fluoride and perfluoroisobutylene among possible products under extreme overheating, with carbon oxides and other fumes. This product-specific hazard list is not an ambient fate inventory.\n\nTimescales: The SDS does not provide a transferable degradation time. Formation under equipment failure or severe heat is distinct from environmental aging.\n\nEnvironmental persistence: Environmental mineralization time is not established for the specified terpolymer grade.",
+    "recyclingAndEndOfLife": "The SDS provides disposal guidance but no demonstrated THV material-reclamation process; a polymer-specific recycling route remains an evidence gap.",
+    "sources": [
+      {
+        "sourceId": "deg-thv-3m-sds-2025-96",
+        "lineageId": "deg-thv-3m-sds-2025",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "3M. Dyneon Fluoroplastic THV 500GZ Safety Data Sheet (10 October 2025).",
+        "url": "https://cdmsweb.3m.com/ingredientcommunication/file/Media/TJxb9_0uZy0",
+        "locator": "Sections 10–13; elevated-temperature decomposition products, environmental-data gaps and disposal.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000097",
+    "degradationAndStability": "Degradation products and pathways: For unsubstituted poly(p-xylylene), vacuum pyrolysis principally yielded larger fragments rather than monomer. Halogenated parylene grades require separate evidence.\n\nTimescales: The original small-sample experiment found 93.3% volatilization after 80 min at 430 °C in vacuum.\n\nEnvironmental persistence: Vacuum volatilization is not an ambient mineralization endpoint; coating lifetime also depends on the specific parylene and substrate.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-nist-pctfe-parylene-1955-97",
+        "lineageId": "deg-nist-pctfe-parylene-1955",
+        "sourceType": "open_journal",
+        "citation": "Madorsky and Straus. Thermal Degradation of Polychlorotrifluoroethylene, Poly-alpha,beta,beta-Trifluorostyrene, and Poly-p-Xylylene in a Vacuum. Journal of Research of the National Bureau of Standards 55 (1955), 223–230.",
+        "url": "https://nvlpubs.nist.gov/nistpubs/jres/55/jresv55n4p223_A1b.pdf",
+        "locator": "Sections 2 and 4, Tables 1–2: vacuum pyrolysis products and conditions for additive-free PCTFE and unsubstituted poly(p-xylylene).",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000254",
+    "degradationAndStability": "Degradation products and pathways: Fluoropolymer decomposition depends strongly on chemistry and treatment atmosphere; PTFE and PVDF provide distinct monomer-generating and HF-eliminating examples.\n\nTimescales: High-temperature treatment times cannot establish family-wide environmental lifetimes.\n\nEnvironmental persistence: Extreme persistence and uncertain lifecycle releases are important concerns; individual fluoropolymers require separate fate data.",
+    "recyclingAndEndOfLife": "Specialist mechanical recovery and pyrolysis exist for selected streams. Complete destruction requires process-specific evidence.",
+    "sources": [
+      {
+        "sourceId": "deg-eea-fluoropolymers-2021-254",
+        "lineageId": "deg-eea-fluoropolymers-2021",
+        "sourceType": "public_report",
+        "citation": "European Topic Centre on Waste and Materials in a Green Economy. Fluorinated polymers in a low carbon, circular and toxic-free economy. Eionet Report 2021/9.",
+        "url": "https://www.eionet.europa.eu/etcs/etc-cm/products/etc-cme-and-etc-wmge-report-9-2021-fluorinated-polymers-in-a-low-carbon-circular-and-toxic-free-economy/%40%40download/file/EEA%20task%20on%20fluoropolymers_Full%20report_December%2014%202021%20%281%29.pdf",
+        "locator": "Sections 6.2 and 6.5 and lifecycle conclusions; PTFE/PVDF mechanical and chemical recycling, fluoropolymer persistence and treatment uncertainties.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000258",
+    "degradationAndStability": "Degradation products and pathways: Selective acetolysis cleaves the PC component to acetylated bisphenol-A products while ABS can be recovered as polymer. This is controlled chemical treatment of the blend.\n\nTimescales: A reported separation experiment uses 0.5 g PC/ABS, acetic acid and 4-pyrrolidinylpyridine at 180 °C for 2 h.\n\nEnvironmental persistence: Selective PC conversion leaves ABS; neither this conversion nor blend fragmentation establishes environmental mineralization.",
+    "recyclingAndEndOfLife": "A laboratory process combines organocatalyzed PC acetolysis with ABS recovery by agglomeration or dialysis, including a studied automotive part. Solvent separation and product purity are necessary; commercial adoption is not demonstrated.",
+    "sources": [
+      {
+        "sourceId": "deg-pcabs-acetolysis-2026-258",
+        "lineageId": "deg-pcabs-acetolysis-2026",
+        "sourceType": "open_journal",
+        "citation": "Chemical Recycling of Polycarbonate Acrylonitrile Butadiene Styrene Blends via Organocatalyzed Acetolysis. ChemSusChem 19 (2026), e202502161.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12766866/",
+        "locator": "Sections 2.2–2.4 and results; Bayblend T65 XF and automotive part, PC acetolysis and ABS recovery.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000259",
+    "degradationAndStability": "Degradation products and pathways: Asahi Kasei reports that maintaining heat/humidity durability and suppressing aging is necessary for recycled PPE alloys; its material-recycling page does not identify a PPE/PS-specific degradation-product inventory.\n\nTimescales: The source does not provide a transferable lifetime for this blend.\n\nEnvironmental persistence: Durability of recycled engineering-plastic grades does not establish environmental mineralization.",
+    "recyclingAndEndOfLife": "The manufacturer describes marketed XYRON PPE-alloy grades containing recovered consumer plastic and technologies to restore durability. Its portfolio includes PPE/PS alloys, but the page does not establish that every recycled formulation has the same PPE/PS composition or recycling behavior.",
+    "sources": [
+      {
+        "sourceId": "deg-ppeps-asahi-recovery-259",
+        "lineageId": "deg-ppeps-asahi-recovery",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Asahi Kasei. Material recycling technologies and XYRON engineering plastics.",
+        "url": "https://www.asahi-kasei-plastics.com/en/sustainability/05-recycle/",
+        "locator": "XYRON PPE alloys and post-consumer recycled grades; compatibility, durability and lifetime-extension technologies.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000260",
+    "degradationAndStability": "Degradation products and pathways: The PVC backbone can lose hydrogen chloride, develop conjugated polyenes and undergo subsequent oxidation and chain breakdown. The absence of a plasticizer does not prevent backbone dehydrochlorination.\n\nTimescales: Rates depend on stabilizers, temperature, light and product geometry; the cited lifecycle assessment does not establish one environmental lifetime for unplasticized PVC.\n\nEnvironmental persistence: Aged PVC and fragments can remain after loss of additives or mechanical integrity; these changes are not complete mineralization.",
+    "recyclingAndEndOfLife": "Sorted unplasticized PVC can be mechanically recycled after size reduction and formulation control. The lifecycle literature also describes solvent separation and chlorine-management routes; additive composition and contamination constrain reuse.",
+    "sources": [
+      {
+        "sourceId": "deg-pvc-lifecycle-2024-260",
+        "lineageId": "deg-pvc-lifecycle-2024",
+        "sourceType": "open_journal",
+        "citation": "Risks Associated with the Presence of Polyvinyl Chloride in the Environment and Methods for Its Disposal and Utilization. Polymers (2024).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10779931/",
+        "locator": "Sections on thermal degradation, plasticized and rigid PVC, mechanical/chemical recycling and solvent recovery.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000261",
+    "degradationAndStability": "Degradation products and pathways: The PVC backbone can lose hydrogen chloride, develop conjugated polyenes and undergo subsequent oxidation and chain breakdown. Plasticizer migration or release is a separate process from cleavage of the PVC backbone.\n\nTimescales: Rates depend on stabilizers, temperature, light and product geometry; the cited lifecycle assessment does not establish one environmental lifetime for plasticized PVC.\n\nEnvironmental persistence: Aged PVC and fragments can remain after loss of additives or mechanical integrity; these changes are not complete mineralization.",
+    "recyclingAndEndOfLife": "Sorted plasticized PVC can be mechanically recycled after size reduction and formulation control. The lifecycle literature also describes solvent separation and chlorine-management routes; additive composition and contamination constrain reuse.",
+    "sources": [
+      {
+        "sourceId": "deg-pvc-lifecycle-2024-261",
+        "lineageId": "deg-pvc-lifecycle-2024",
+        "sourceType": "open_journal",
+        "citation": "Risks Associated with the Presence of Polyvinyl Chloride in the Environment and Methods for Its Disposal and Utilization. Polymers (2024).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10779931/",
+        "locator": "Sections on thermal degradation, plasticized and rigid PVC, mechanical/chemical recycling and solvent recovery.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was checked anonymously; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  }
+]

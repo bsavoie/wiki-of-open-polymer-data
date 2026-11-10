@@ -1,0 +1,2013 @@
+[
+  {
+    "wopId": "wop-000176",
+    "degradationAndStability": "Degradation products and pathways: Alkaline hydrolysis cleaves aromatic amide bonds; PPTA is a representative case yielding terephthalic acid and p-phenylenediamine.\n\nTimescales: No single environmental lifetime applies to the different aramid chemistries.\n\nEnvironmental persistence: The cited recycling experiment does not establish soil, freshwater, or marine mineralization.",
+    "recyclingAndEndOfLife": "Mechanical chopping into pulp is used for aramid waste. Back-to-monomer chemical recycling is under development; success for PPTA cannot be assigned unchanged to every aramid.",
+    "sources": [
+      {
+        "sourceId": "deg-ppta",
+        "lineageId": "deg-ppta",
+        "sourceType": "open_journal",
+        "citation": "Rapid Microwave-Assisted Chemical Recycling of Poly(p-Phenylene Terephthalamide). Journal of the American Chemical Society (2025).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11887048/",
+        "locator": "Introduction, Figure 1, monomer purification, and conclusion.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000177",
+    "degradationAndStability": "Degradation products and pathways: Controlled alkaline hydrolysis yields terephthalic acid and p-phenylenediamine. These are reactor products, not a measured inventory of ambient weathering products.\n\nTimescales: PPTA fibers reached 96% conversion in microwave-assisted alkaline hydrolysis at 260 °C after 15 minutes; this is polymer conversion, not mineralization.\n\nEnvironmental persistence: The source provides no environmental disappearance time or mineralization rate. Its harsh chemical treatment must not be used to imply rapid environmental breakdown.",
+    "recyclingAndEndOfLife": "Fiber waste can be chopped to pulp for lower-value applications. Microwave alkaline hydrolysis recovered purified monomers in a laboratory demonstration; commercial-scale closed-loop operation was not established.",
+    "sources": [
+      {
+        "sourceId": "deg-ppta",
+        "lineageId": "deg-ppta",
+        "sourceType": "open_journal",
+        "citation": "Rapid Microwave-Assisted Chemical Recycling of Poly(p-Phenylene Terephthalamide). Journal of the American Chemical Society (2025).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11887048/",
+        "locator": "Introduction, Figure 1, monomer purification, and conclusion.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000178",
+    "degradationAndStability": "Degradation products and pathways: The technical guide documents strength loss under prolonged heat and chemical exposure and charring during flame exposure. It does not provide a complete molecular product inventory.\n\nTimescales: Temperature, moisture and chemical concentration control strength retention; no environmental mineralization time is established here.\n\nEnvironmental persistence: Service durability is not proof of an environmental half-life, and charring is not biodegradation.",
+    "recyclingAndEndOfLife": "A public patent describes dissolution and separation of waste PMIA-containing aramid–mica paper to recover its components. This is a formulation-specific patented process, not evidence that all meta-aramid textiles are commercially recycled.",
+    "sources": [
+      {
+        "sourceId": "deg-pmia",
+        "lineageId": "deg-pmia",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "DuPont. Technical Guide for NOMEX Brand Fiber.",
+        "url": "https://www.nakedwhiz.com/gasketsafety/nomextechnicalguide.pdf",
+        "locator": "Thermal properties, effect of moisture, and chemical resistance.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-pmia-recycle",
+        "lineageId": "deg-pmia-recycle",
+        "sourceType": "patent",
+        "citation": "US20220340730A1. Method for recycling waste aramid-mica composite paper (2022).",
+        "url": "https://patents.google.com/patent/US20220340730A1/en",
+        "locator": "Detailed description and examples.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000179",
+    "degradationAndStability": "Degradation products and pathways: Amide-link hydrolysis causes chain shortening and acid/amine end groups. Aging also rearranges or removes fiber finish; the finish is distinct from the copolyaramid itself.\n\nTimescales: Technora T240 yarn was studied for up to one year in deionized water and pH 9/pH 11 solutions at 20–80 °C. Detectable chemical changes occurred while tensile properties were largely retained. These are aging endpoints, not complete degradation.\n\nEnvironmental persistence: The study does not provide a soil or aquatic mineralization rate or justify assigning the same durability to all aramids.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-technora-final",
+        "lineageId": "deg-technora-final",
+        "sourceType": "open_journal",
+        "citation": "Derombise, G.; Vouyovitch Van Schoors, L.; Davies, P. Degradation of Technora aramid fibres in alkaline and neutral environments. Polymer Degradation and Stability 94 (2009), 1615–1620.",
+        "url": "https://archimer.ifremer.fr/doc/00002/11289/8052.pdf",
+        "locator": "Methods; FTIR/viscometry and tensile results; Table 1 and conclusions.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000180",
+    "degradationAndStability": "Degradation products and pathways: PBI stability depends on backbone chemistry. The cited original study measures thermal mass loss in 2,5-PBI and aramid-containing derivatives; it does not identify a complete environmental degradation-product inventory.\n\nTimescales: Thermogravimetric heating is an accelerated thermal test and supplies no outdoor, soil or aquatic lifetime.\n\nEnvironmental persistence: Environmental mineralization and persistence times remain unquantified in this entry.",
+    "recyclingAndEndOfLife": "Reversible Diels–Alder links enabled laboratory recycling of a specially modified PBI membrane. This proof of concept depends on deliberately introduced reversible bonds and does not demonstrate recycling of conventional commercial PBI fibers.",
+    "sources": [
+      {
+        "sourceId": "deg-pbi",
+        "lineageId": "deg-pbi",
+        "sourceType": "open_journal",
+        "citation": "Incorporation of Aramids into Polybenzimidazoles to Achieve Ultra-High Thermoresistance and Toughening Effects. Molecules 29 (2024), 1058.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10934712/",
+        "locator": "Thermogravimetry and composition comparisons.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-pbi-recycle",
+        "lineageId": "deg-pbi-recycle",
+        "sourceType": "open_journal",
+        "citation": "Robust and self-healable polybenzimidazole membranes via Diels–Alder chain extension (2025).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12455580/",
+        "locator": "Self-healing and recycling performance.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000181",
+    "degradationAndStability": "Degradation products and pathways: Moisture-assisted chemical change in PBO is associated with loss of benzoxazole integrity and fiber strength. The cited study analyzes polymer chemical changes rather than identifying all released molecules.\n\nTimescales: PBO yarn extracted from body armor lost tensile strength during staged warm, humid chamber exposure (50 °C/60% RH followed by 60 °C/37% RH). Subsequent very dry storage arrested much of the change. This accelerated service-aging experiment does not define an environmental lifetime.\n\nEnvironmental persistence: Dry storage arrested further strength loss in that experiment. Neither accelerated aging nor subsequent dry storage establishes an environmental mineralization time.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-pbo",
+        "lineageId": "deg-pbo",
+        "sourceType": "open_journal",
+        "citation": "Chin, J.; Forster, A.; Clerici, C.; Sung, L.; Oudina, M.; Rice, K. Temperature and humidity aging of poly(p-phenylene-2,6-benzobisoxazole) fibers: Chemical and physical characterization. Polymer Degradation and Stability 92 (2007), 1234–1246.",
+        "url": "https://webster.ncnr.nist.gov/programs/sans/pdf/publications/0599.pdf",
+        "locator": "Exposure conditions, chemical analyses, strength retention and conclusions.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000182",
+    "degradationAndStability": "Degradation products and pathways: PBZT can undergo thermal conversion to carbonized fibers. The experimental report characterizes conversion and the resulting carbon structure, not a complete environmental product inventory.\n\nTimescales: The reported sequential precarbonization and carbonization treatments reach approximately 850 °C and 1550 °C; they do not supply an environmental lifetime.\n\nEnvironmental persistence: No condition-qualified soil or aquatic mineralization rate was established in the cited source.",
+    "recyclingAndEndOfLife": "Carbon-fiber production from PBZT is demonstrated as a high-temperature materials-conversion route. It is not evidence of an established collection-and-recycling system for post-consumer PBZT.",
+    "sources": [
+      {
+        "sourceId": "deg-pbzt",
+        "lineageId": "deg-pbzt",
+        "sourceType": "public_report",
+        "citation": "Jiang, H.; Desai, P.; Kumar, S.; Abhiraman, A. S. Carbon Fibers from Polybenzothiazole. Georgia Institute of Technology research report.",
+        "url": "https://repository.gatech.edu/bitstreams/e09c6673-6e2a-425c-8f35-943a9b149f69/download",
+        "locator": "Continuous carbonization experiments and conclusions.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000183",
+    "degradationAndStability": "Degradation products and pathways: For aromatic para-poly(1,3,4-oxadiazole) fibers, pyrolysis produces carbon dioxide, benzonitrile, terephthalonitrile and aminobenzonitrile, together with char. These high-temperature products must be separated from unknown environmental metabolites.\n\nTimescales: The cited study analyzes pyrolysis at 500–700 °C and programmed thermal mass loss, not environmental aging.\n\nEnvironmental persistence: No soil, freshwater or marine mineralization time was established; high heat resistance does not define outdoor persistence.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-pod",
+        "lineageId": "deg-pod",
+        "sourceType": "open_journal",
+        "citation": "Liu, P.; Dong, L.; Wu, L.; Zeng, L.; Xu, J. Structure and properties of halogen-free flame retardant and phosphorus-containing aromatic poly(1,3,4-oxadiazole)s fiber. RSC Advances 9 (2019), 7147–7155.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9061071/",
+        "locator": "Thermal analysis, evolved-gas analysis and Table 4; unmodified p-POD control.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000184",
+    "degradationAndStability": "Degradation products and pathways: Chlorine-containing modacrylic fibers can release hydrogen chloride during burning and leave a carbonaceous residue. Products depend on the acrylonitrile/comonomer composition and additives.\n\nTimescales: The cited technical proceedings describe fire behavior but provide no condition-qualified environmental degradation time.\n\nEnvironmental persistence: Self-extinguishing behavior is a fire property; it does not demonstrate biological mineralization or specify the lifetime of shed fibers.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-modacrylic",
+        "lineageId": "deg-modacrylic",
+        "sourceType": "public_report",
+        "citation": "United Nations Industrial Development Organization. Papers of the International Conference on Man-Made Fibres for Developing Countries.",
+        "url": "https://downloads.unido.org/ot/47/93/4793138/10001-15000_12237.pdf",
+        "locator": "Discussion of modacrylic composition and fire behavior.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000185",
+    "degradationAndStability": "Degradation products and pathways: Vinyl-chloride-rich fibers are vulnerable to thermal decomposition during melt spinning; the patent studies stabilizer-containing formulations that suppress processing damage. Molecular environmental products remain an evidence gap.\n\nTimescales: Processing stability depends on formulation and time at temperature; no outdoor or biological degradation time is established by these experiments.\n\nEnvironmental persistence: The melt-spinning experiments do not establish biodegradability or mineralization of discarded vinyon fibers.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-vinyon",
+        "lineageId": "deg-vinyon",
+        "sourceType": "patent",
+        "citation": "US6312804B1. Vinyl chloride fibers and process for preparing the same (2001).",
+        "url": "https://patents.google.com/patent/US6312804B1/en",
+        "locator": "Thermal stability, resin composition and spinning examples.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000186",
+    "degradationAndStability": "Degradation products and pathways: Solvent treatment can chemically alter the tested MDI-derived elastane: NMR detected methylenedianiline-containing species as well as carbamate structures. This is treatment chemistry, not an inventory of environmental degradation products.\n\nTimescales: Dissolution and thermal-analysis experiments establish processing behavior; a condition-qualified environmental mineralization time remains unavailable.\n\nEnvironmental persistence: The studied polyester/elastane and polyamide/elastane blends do not establish the lifetime of shed elastane fibers in soil or water.",
+    "recyclingAndEndOfLife": "Selective dissolution removes elastane from mixed textile waste using solvents such as tetrahydrofurfuryl alcohol or γ-valerolactone. Laboratory validation and life-cycle modeling support further scale-up, but solvent-driven polymer changes limit assuming recovery of virgin-equivalent elastane.",
+    "sources": [
+      {
+        "sourceId": "deg-elastane",
+        "lineageId": "deg-elastane",
+        "sourceType": "open_journal",
+        "citation": "Phan, K. et al. Analysing the potential of the selective dissolution of elastane from mixed fiber textile waste. Resources, Conservation and Recycling 191 (2023), 106903.",
+        "url": "https://biblio.ugent.be/publication/01GRR1T4AEYTVZH7BR3VHVQZ6Y/file/01GVFX6KXYPPEGGXTXNR3GAGKN.pdf",
+        "locator": "Solvent selection; textile-blend case studies; NMR characterization and conclusions.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000187",
+    "degradationAndStability": "Degradation products and pathways: The supplier identifies char, water vapor and carbon dioxide as principal flame-exposure products of its cured phenolic novoloid fibers, with carbon monoxide possible under oxygen limitation.\n\nTimescales: The fiber chars without melting during flame exposure. No condition-qualified environmental mineralization time is provided.\n\nEnvironmental persistence: Flame resistance and char formation cannot establish degradation rates in soil or water.",
+    "recyclingAndEndOfLife": "The supplier markets novoloid fibers and textiles as precursors for activated carbon. This is a demonstrated material-conversion application; the bulletin does not establish a post-consumer fiber collection or closed-loop monomer-recycling system.",
+    "sources": [
+      {
+        "sourceId": "deg-novoloid",
+        "lineageId": "deg-novoloid",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Kynol Europa GmbH. Novoloid Fibers product bulletin.",
+        "url": "https://www.kynol.de/pdf/kynol_flyer_en.pdf",
+        "locator": "Smoke Emission and Toxicity; activated carbon applications.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000188",
+    "degradationAndStability": "Degradation products and pathways: Regenerated cellulose is biologically attacked, but visible loss of textile fibers and conversion to carbon dioxide are different endpoints.\n\nTimescales: The cited California seawater study observed disintegration of its regenerated-cellulose textiles in approximately 35 days; this cannot specify the lifetime of thick, coated or blended articles.\n\nEnvironmental persistence: The study separately measured carbon dioxide evolution in closed 30 °C bioreactors; that test must not be treated as the rate of mineralization in the open sea.",
+    "recyclingAndEndOfLife": "Mechanical textile recycling opens and shreds fibers for reuse, but the resulting shorter fibers may need stronger carrier fibers for spinning. Lenzing’s 2025 report describes commercial REFIBRA recycling of cotton or regenerated-cellulose textile waste, blended with virgin pulp to produce new fibers; its ECOVERO viscose example contains at least 20% recycled material. This is a defined manufacturer route rather than a guarantee that every blended garment is accepted.\n\nA laboratory Ioncell study directly redissolved white, black and blue Danufil viscose and white Lenzing modal in the ionic liquid [DBNH][OAc], then regenerated lyocell-type fibers by dry-jet wet spinning. The fibers were made into yarn and knitted demonstrators. This demonstrates reuse of these low-degree-of-polymerization regenerated fibers; mixed textile waste and dye removal remained further development work.",
+    "sources": [
+      {
+        "sourceId": "deg-pla-sea",
+        "lineageId": "deg-pla-sea",
+        "sourceType": "open_journal",
+        "citation": "Royer, S.-J. et al. Not so biodegradable: Polylactic acid and cellulose/plastic blend textiles lack fast biodegradation in marine waters. PLOS ONE 18 (2023), e0284681.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10208507/",
+        "locator": "Methods; in situ exposure, bioreactor carbon dioxide measurements and results.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-lenzing-cellulose-recycling-2025",
+        "lineageId": "deg-lenzing-cellulose-recycling-2025",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Lenzing AG. Annual and Sustainability Report 2025: Resource use and circular economy—Actions (published 2026).",
+        "url": "https://reports.lenzing.com/annual-and-sustainability-report/2025/sustainability/environmental-information/resource-use-and-circular-economy/actions.html",
+        "locator": "Commercial-scale recycling technologies; Chemical recycling and Mechanical recycling.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The full content is publicly accessible; this entry independently paraphrases and cites it without reproducing source material.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-ioncell-viscose-modal-2026",
+        "lineageId": "deg-ioncell-viscose-modal-2026",
+        "sourceType": "open_journal",
+        "citation": "Schlapp-Hackl, I. et al. From Viscose to Lyocell-Type Fibers: Chemical Recycling of Viscose and Modal Fibers Using the Ioncell Process. ChemSusChem 19 (2026), e202502288.",
+        "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cssc.202502288",
+        "locator": "Sections 2.2–2.3, 3.1–3.4 and 4; named Danufil viscose and Lenzing modal starting fibers.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The publisher labels the article open access under a Creative Commons Attribution-NonCommercial-NoDerivs license; this entry independently paraphrases and cites the findings.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ],
+        "doi": "10.1002/cssc.202502288",
+        "contentUrl": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cssc.202502288?af=R"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000189",
+    "degradationAndStability": "Degradation products and pathways: Ester substitution can inhibit cellulase attack; acetyl content matters.\n\nTimescales: The tested highly substituted film showed no visible degradation over 12 weeks in pilot compost reaching 70.7 °C.\n\nEnvironmental persistence: That negative result applies to this film and compost trial, not every acetate grade or environment.",
+    "recyclingAndEndOfLife": "Laboratory recovery from cigarette filters uses washing, dissolution in acetone, filtration and recasting. This recovers polymer; it does not establish an operating collection system or mineralization.",
+    "sources": [
+      {
+        "sourceId": "deg-cell-compost",
+        "lineageId": "deg-cell-compost",
+        "sourceType": "open_journal",
+        "citation": "Leppänen, I.; Vikman, M.; Harlin, A.; Orelma, H. Enzymatic Degradation and Pilot-Scale Composting of Cellulose-Based Films with Different Chemical Structures. Journal of Polymers and the Environment 28 (2020), 458–470.",
+        "url": "https://link.springer.com/article/10.1007/s10924-019-01621-w",
+        "locator": "Enzymatic degradation; composting test and Figures 4–7.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-ca-re",
+        "lineageId": "deg-ca-re",
+        "sourceType": "open_journal",
+        "citation": "A Clean Process for Obtaining High-Quality Cellulose Acetate from Cigarette Butts (2020).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7659942/",
+        "locator": "Waste-filter cleaning, polymer extraction, film formation and characterization.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000190",
+    "degradationAndStability": "Degradation products and pathways: Acid hydrolysis can remove acetyl substituents from triacetate; subsequent cellulose-chain degradation depends on the treatment.\n\nTimescales: No condition-qualified environmental mineralization time was verified.\n\nEnvironmental persistence: The industrial hydrolysis sources do not establish biodegradation of triacetate films in soil or water.",
+    "recyclingAndEndOfLife": "A recycling patent includes triacetate in its feedstock scope for acid treatment and recovery of an acid-containing stream. The broad claim is not proof of a commercial triacetate recycling loop.",
+    "sources": [
+      {
+        "sourceId": "deg-ester-pat",
+        "lineageId": "deg-ester-pat",
+        "sourceType": "patent",
+        "citation": "Combs, M. T.; Woodson, B. R. US20100175691A1. Method of recycling cellulose acetate ester waste (2010).",
+        "url": "https://patents.google.com/patent/US20100175691A1/en",
+        "locator": "Detailed description; Table 1 and waste-ester hydrolysis examples.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-cta",
+        "lineageId": "deg-cta",
+        "sourceType": "open_journal",
+        "citation": "Alfassi, G. et al. Partially Acetylated Cellulose Dissolved in Aqueous Solution: Physical Properties and Enzymatic Hydrolysis (2019).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6918359/",
+        "locator": "Introduction and experimental distinction between triacetate and lightly acetylated water-soluble cellulose.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000191",
+    "degradationAndStability": "Degradation products and pathways: Cellulases hydrolyze cellulose to soluble reducing sugars; accessibility and crystalline form influence conversion.\n\nTimescales: The cited laboratory enzyme study uses 50 °C and 30 FPU per gram; its accelerated hydrolysis does not provide a soil or marine lifetime.\n\nEnvironmental persistence: Results for microcrystalline cellulose and regenerated hydrogel cannot be assigned unchanged to lignified, coated or composite articles.",
+    "recyclingAndEndOfLife": "Established paper recycling reclaims cellulose-rich fibers by repulping sheets in water, screening and cleaning contaminants, and forming new paper. For coated fine papers, Sappi describes flotation deinking, further washing and bleaching, and blending recovered fibers with virgin fiber and mill broke. Fiber damage and contamination affect the resulting paper quality; repulping recovers fibers rather than purified glucose monomer.\n\nCellulosic textiles also enter dissolution-and-regeneration routes. Lenzing reports commercial REFIBRA use of pre- and post-consumer cotton or regenerated-cellulose textile waste together with virgin pulp to make new fibers. Mechanical textile shredding is another route, although fiber shortening can require blending with carrier fibers before spinning. These paper and textile processes apply to selected cellulose-rich waste streams; they do not establish equivalent recyclability for every coated or composite cellulose article.",
+    "sources": [
+      {
+        "sourceId": "deg-cta",
+        "lineageId": "deg-cta",
+        "sourceType": "open_journal",
+        "citation": "Alfassi, G. et al. Partially Acetylated Cellulose Dissolved in Aqueous Solution: Physical Properties and Enzymatic Hydrolysis (2019).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6918359/",
+        "locator": "Methods and Figure 7: microcrystalline-cellulose and regenerated-cellulose controls.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-sappi-cellulose-paper-recycling",
+        "lineageId": "deg-sappi-cellulose-paper-recycling",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Sappi Fine Paper North America. Recycling for Use in Coated Fine Papers. Process diagram and technical explanation, undated.",
+        "url": "https://cdn-s3.sappi.com/s3fs-public/sappietc/Sappi%20Recycling%20Diagram.pdf",
+        "locator": "Page 1: Re-pulping, Deinking, Stock Preparation, Papermaking and Coating.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The full content is publicly accessible; this entry independently paraphrases and cites it without reproducing source material.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-lenzing-cellulose-recycling-2025",
+        "lineageId": "deg-lenzing-cellulose-recycling-2025",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Lenzing AG. Annual and Sustainability Report 2025: Resource use and circular economy—Actions (published 2026).",
+        "url": "https://reports.lenzing.com/annual-and-sustainability-report/2025/sustainability/environmental-information/resource-use-and-circular-economy/actions.html",
+        "locator": "Commercial-scale recycling technologies; Chemical recycling and Mechanical recycling.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The full content is publicly accessible; this entry independently paraphrases and cites it without reproducing source material.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000192",
+    "degradationAndStability": "Degradation products and pathways: Acid treatment of CAB waste is demonstrated in a hydrolysis/recovery patent; a complete environmental product inventory is unavailable.\n\nTimescales: No ambient degradation time was verified.\n\nEnvironmental persistence: Reactor hydrolysis does not establish environmental mineralization.",
+    "recyclingAndEndOfLife": "The patent tests CAB waste in an acid reactor to recover useful acid streams. This is a patented experimental route, not documented commercial collection and closed-loop recycling.",
+    "sources": [
+      {
+        "sourceId": "deg-ester-pat",
+        "lineageId": "deg-ester-pat",
+        "sourceType": "patent",
+        "citation": "Combs, M. T.; Woodson, B. R. US20100175691A1. Method of recycling cellulose acetate ester waste (2010).",
+        "url": "https://patents.google.com/patent/US20100175691A1/en",
+        "locator": "Detailed description; Table 1 and waste-ester hydrolysis examples.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000193",
+    "degradationAndStability": "Degradation products and pathways: Acid treatment of CAP waste is demonstrated in a hydrolysis/recovery patent; a complete environmental product inventory is unavailable.\n\nTimescales: No ambient degradation time was verified.\n\nEnvironmental persistence: Reactor hydrolysis does not establish environmental mineralization.",
+    "recyclingAndEndOfLife": "The patent tests CAP waste in an acid reactor to recover useful acid streams. Scale and operating commercial adoption are not established.",
+    "sources": [
+      {
+        "sourceId": "deg-ester-pat",
+        "lineageId": "deg-ester-pat",
+        "sourceType": "patent",
+        "citation": "Combs, M. T.; Woodson, B. R. US20100175691A1. Method of recycling cellulose acetate ester waste (2010).",
+        "url": "https://patents.google.com/patent/US20100175691A1/en",
+        "locator": "Detailed description; Table 1 and waste-ester hydrolysis examples.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000194",
+    "degradationAndStability": "Degradation products and pathways: Light-induced nitrate-group loss can release nitrogen dioxide radicals; oxidation and cleavage of glycosidic links produce carbonyl-containing structures, including a proposed gluconolactone product. Yellowing and embrittlement accompany chemical change.\n\nTimescales: Thin laboratory films were photoaged at 40 °C with a xenon source, wavelengths at least 280 nm and 800 W/m², for up to 150 hours. These accelerated optical/chemical aging results are not a mineralization time.\n\nEnvironmental persistence: The study of historical and artificial film aging does not quantify soil or aquatic persistence. Formulation and prior storage history alter the observed condition.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-cn-deg",
+        "lineageId": "deg-cn-deg",
+        "sourceType": "open_journal",
+        "citation": "Novel markers to early detect degradation on cellulose nitrate-based heritage at the submicrometer level using synchrotron UV–VIS multispectral luminescence (2021).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8511177/",
+        "locator": "Figure 3; degradation mechanism; reference-film preparation and artificial aging.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000195",
+    "degradationAndStability": "Degradation products and pathways: Cellulase susceptibility falls with substitution; the tested MC had degree of substitution 1.7.\n\nTimescales: Its film completely disintegrated visually after 10 weeks in pilot compost peaking at 70.7 °C.\n\nEnvironmental persistence: Visible disappearance does not measure mineralization or predict cold-water persistence.",
+    "recyclingAndEndOfLife": "Pilot composting demonstrates an organic-treatment route for that film; acceptance of a formulated article requires separate evidence.",
+    "sources": [
+      {
+        "sourceId": "deg-cell-compost",
+        "lineageId": "deg-cell-compost",
+        "sourceType": "open_journal",
+        "citation": "Leppänen, I.; Vikman, M.; Harlin, A.; Orelma, H. Enzymatic Degradation and Pilot-Scale Composting of Cellulose-Based Films with Different Chemical Structures. Journal of Polymers and the Environment 28 (2020), 458–470.",
+        "url": "https://link.springer.com/article/10.1007/s10924-019-01621-w",
+        "locator": "Enzymatic degradation; composting test and Figures 4–7.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000196",
+    "degradationAndStability": "Degradation products and pathways: Ethyl-cellulose film tests show thermal mass loss; the source does not identify a complete molecular product inventory.\n\nTimescales: Programmed heating experiments are thermal stability measurements, not a duration for environmental degradation.\n\nEnvironmental persistence: No condition-qualified soil, marine or freshwater mineralization time was established in the cited work.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-ec",
+        "lineageId": "deg-ec",
+        "sourceType": "open_journal",
+        "citation": "A Simple One-Pot Method for Preparing Transparent Ethyl Cellulose Films with Good Mechanical Properties (2022).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9228318/",
+        "locator": "Thermogravimetric characterization of ethyl-cellulose films.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000197",
+    "degradationAndStability": "Degradation products and pathways: Endoglucanase-mediated cleavage of internal β-1,4 links in hydroxyethyl cellulose lowers viscosity and creates additional reducing ends; this does not demonstrate removal of every hydroxyethyl substituent.\n\nTimescales: The patent establishes an enzyme-activity substrate and reaction mechanism, not an environmental mineralization time.\n\nEnvironmental persistence: Susceptibility in a cellulase assay cannot establish complete biodegradation of every HEC grade in soil or water.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-hec-pat",
+        "lineageId": "deg-hec-pat",
+        "sourceType": "patent",
+        "citation": "WO2015035029A1. Processes for increasing enzymatic hydrolysis of cellulosic material (2015).",
+        "url": "https://patents.google.com/patent/WO2015035029A1/en",
+        "locator": "Definitions of endoglucanase activity and hydroxyethyl cellulose substrate.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000198",
+    "degradationAndStability": "Degradation products and pathways: Dissolution in cold water and precipitation on heating can leave HPC recoverable as polymer. These reversible changes are not backbone degradation; a verified environmental product inventory remains a gap.\n\nTimescales: A precipitation/recovery operation does not supply a chemical degradation time.\n\nEnvironmental persistence: Water dispersal must not be equated with mineralization; soil and aquatic persistence remain unquantified here.",
+    "recyclingAndEndOfLife": "A textile-sizing patent demonstrates cold-water removal, heating to precipitate HPC, separation and reuse as warp size, with comparable reported yarn performance. This is a specific reclamation process, not proof of universal post-consumer recycling.",
+    "sources": [
+      {
+        "sourceId": "deg-hpc-re",
+        "lineageId": "deg-hpc-re",
+        "sourceType": "patent",
+        "citation": "Perkins, W. S. US4106900A. Process for recycling textile warp yarn size (1978).",
+        "url": "https://patents.google.com/patent/US4106900A/en",
+        "locator": "Detailed description; HPC recovery and reuse example.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000199",
+    "degradationAndStability": "Degradation products and pathways: Cavitation can cleave HPMC chains mechanically. Added hydrogen peroxide causes oxidation as well, giving carbonyl-containing chains; formic acid and other small oxidation products were tentatively assigned spectroscopically.\n\nTimescales: For K4M HPMC initially about 335 kg/mol, hydrodynamic cavitation with peroxide at 60 °C reduced weight-average molar mass to about 4 kg/mol in 30 minutes. This is chain shortening, not mineralization.\n\nEnvironmental persistence: These controlled dilute-solution treatments do not establish a soil, freshwater or seawater half-life.",
+    "recyclingAndEndOfLife": "Cavitation is a laboratory method for obtaining shorter-chain HPMC and a possible treatment approach. The study does not establish recovery of equivalent high-molar-mass polymer or commercial post-consumer recycling.",
+    "sources": [
+      {
+        "sourceId": "deg-hpmc",
+        "lineageId": "deg-hpmc",
+        "sourceType": "open_journal",
+        "citation": "Zupanc, A. et al. Degradation of hydroxypropyl methylcellulose (HPMC) by acoustic and hydrodynamic cavitation. Ultrasonics Sonochemistry 109 (2024), 107020.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11365383/",
+        "locator": "Methods; Figures 3–10 and conclusions.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000200",
+    "degradationAndStability": "Degradation products and pathways: Enzymatic cleavage yields soluble reducing carbohydrate fragments; dissolution can also remove visible material.\n\nTimescales: Aluminum-crosslinked CMC film visually disappeared after two weeks in pilot compost peaking at 70.7 °C.\n\nEnvironmental persistence: Disintegration of this formulation does not establish complete CMC mineralization in environmental water.",
+    "recyclingAndEndOfLife": "Pilot composting supports a formulation-specific organic-treatment route; polymer reclamation was not demonstrated.",
+    "sources": [
+      {
+        "sourceId": "deg-cell-compost",
+        "lineageId": "deg-cell-compost",
+        "sourceType": "open_journal",
+        "citation": "Leppänen, I.; Vikman, M.; Harlin, A.; Orelma, H. Enzymatic Degradation and Pilot-Scale Composting of Cellulose-Based Films with Different Chemical Structures. Journal of Polymers and the Environment 28 (2020), 458–470.",
+        "url": "https://link.springer.com/article/10.1007/s10924-019-01621-w",
+        "locator": "Enzymatic degradation; composting test and Figures 4–7.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000201",
+    "degradationAndStability": "Degradation products and pathways: Enzymatic cleavage converts starch to smaller carbohydrates. In the cited experiment, a bacterial neopullulanase preferentially converted its amylose fraction to maltose while leaving much of the amylopectin.\n\nTimescales: Rates depend on enzyme specificity and starch architecture; the cited experiment supplies no environmental lifetime.\n\nEnvironmental persistence: The laboratory result does not establish a soil, freshwater or marine mineralization time.",
+    "recyclingAndEndOfLife": "Enzyme-assisted saccharification recovers soluble carbohydrates. The cited process demonstrates selective conversion of starch fractions, rather than recycling of contaminated post-consumer starch plastics.",
+    "sources": [
+      {
+        "sourceId": "deg-starch",
+        "lineageId": "deg-starch",
+        "sourceType": "open_journal",
+        "citation": "Kamasaka and coauthors. Bacillus stearothermophilus neopullulanase selective hydrolysis of amylose to maltose in the presence of amylopectin. Applied and Environmental Microbiology 68 (2002), 1658–1664.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC123897/",
+        "locator": "Substrate specificity, chromatographic product analysis and discussion.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000202",
+    "degradationAndStability": "Degradation products and pathways: Bacterial neopullulanase hydrolyzed amylose, producing mainly maltose.\n\nTimescales: This is an enzyme-treatment result; it supplies no environmental disappearance time.\n\nEnvironmental persistence: The laboratory result does not establish a soil, freshwater or marine mineralization time.",
+    "recyclingAndEndOfLife": "Selective enzymatic conversion of amylose to maltose is demonstrated. Application to recovered waste requires its own feedstock and process validation.",
+    "sources": [
+      {
+        "sourceId": "deg-starch",
+        "lineageId": "deg-starch",
+        "sourceType": "open_journal",
+        "citation": "Kamasaka and coauthors. Bacillus stearothermophilus neopullulanase selective hydrolysis of amylose to maltose in the presence of amylopectin. Applied and Environmental Microbiology 68 (2002), 1658–1664.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC123897/",
+        "locator": "Substrate specificity, chromatographic product analysis and discussion.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000203",
+    "degradationAndStability": "Degradation products and pathways: Amylopectin response is enzyme-specific: the cited neopullulanase caused limited molecular-weight reduction, whereas other amylolytic enzymes had different substrate preferences.\n\nTimescales: Resistance to one enzyme is not evidence of permanent persistence. No environmental lifetime is assigned.\n\nEnvironmental persistence: The laboratory result does not establish a soil, freshwater or marine mineralization time.",
+    "recyclingAndEndOfLife": "Enzymatic processing is a route to carbohydrate products. Selectivity demonstrated for amylose cannot be assumed to recover an equal yield from branched amylopectin.",
+    "sources": [
+      {
+        "sourceId": "deg-starch",
+        "lineageId": "deg-starch",
+        "sourceType": "open_journal",
+        "citation": "Kamasaka and coauthors. Bacillus stearothermophilus neopullulanase selective hydrolysis of amylose to maltose in the presence of amylopectin. Applied and Environmental Microbiology 68 (2002), 1658–1664.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC123897/",
+        "locator": "Substrate specificity, chromatographic product analysis and discussion.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000204",
+    "degradationAndStability": "Degradation products and pathways: Melt reprocessing can alter the molecular structure and properties of thermoplastic starch formulations. The cited experiment concerns commercial Mater-Bi EI51N0 and its almond-shell composite, not pure starch.\n\nTimescales: Repeated processing cycles are the measured exposure; they cannot be converted to a biodegradation time.\n\nEnvironmental persistence: Biodegradation of a starch-containing product must include its other polymers and additives. The recycling experiment does not measure environmental mineralization.",
+    "recyclingAndEndOfLife": "Mechanical grinding and reinjection were tested on the specified commercial starch-based material and its composite. This supports controlled reuse of production scrap; the effects of repeated processing and filler content must be retained when selecting an application.",
+    "sources": [
+      {
+        "sourceId": "deg-tps",
+        "lineageId": "deg-tps",
+        "sourceType": "open_journal",
+        "citation": "Recyclability Analysis of Starch Thermoplastic/Almond Shell Biocomposite. Polymers (2021).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8038610/",
+        "locator": "Materials, reprocessing procedure and results.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000205",
+    "degradationAndStability": "Degradation products and pathways: Chitinases yield N-acetylglucosamine oligomers, including chitobiose; oxidative enzymes can additionally form oxidized chitin products. Product analysis distinguishes hydrolysis from oxidative cleavage.\n\nTimescales: Enzyme assays have defined reaction times; those times are not environmental decomposition rates.\n\nEnvironmental persistence: Crystallinity and enzyme accessibility matter. The cited analytical protocols do not establish disappearance of an intact chitin article in soil or sea.",
+    "recyclingAndEndOfLife": "Enzymatic depolymerization can recover N-acetylglucosamine-containing carbohydrates. The cited work supplies analytical procedures for these conversions, not evidence of industrial recycling of mixed chitin-containing wastes.",
+    "sources": [
+      {
+        "sourceId": "deg-chitin",
+        "lineageId": "deg-chitin",
+        "sourceType": "open_journal",
+        "citation": "Chromatographic Assays for the Enzymatic Degradation of Chitin (2021).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8161105/",
+        "locator": "Chitin hydrolysis and oxidative cleavage protocols; chromatographic product analysis.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000206",
+    "degradationAndStability": "Degradation products and pathways: A GH46 chitosanase cleaves chitosan into chitooligosaccharides. Degree of deacetylation and enzyme specificity affect the products.\n\nTimescales: The source optimizes an enzyme reaction; it supplies no universal environmental degradation time.\n\nEnvironmental persistence: Activity of an isolated marine-derived enzyme is not equivalent to mineralization of a chitosan article in seawater.",
+    "recyclingAndEndOfLife": "The recombinant chitosanase produced chitooligosaccharides in a laboratory process. This is a potential carbohydrate-recovery route; industrial performance on contaminated waste and closed-loop chitosan regeneration were not demonstrated.",
+    "sources": [
+      {
+        "sourceId": "deg-chitosan",
+        "lineageId": "deg-chitosan",
+        "sourceType": "open_journal",
+        "citation": "Overexpression and Biochemical Properties of a GH46 Chitosanase From Marine Streptomyces hygroscopicus R1 Suitable for Chitosan Oligosaccharides Preparation. Frontiers in Microbiology (2022).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8841797/",
+        "locator": "Substrate specificity, hydrolysis products and oligosaccharide preparation.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000207",
+    "degradationAndStability": "Degradation products and pathways: The tested Bacteroides ovatus isolate degraded alginate using activities toward mannuronate and guluronate sequences, yielding smaller uronate-containing carbohydrates.\n\nTimescales: The experiment uses anaerobic bacterial culture at 37 °C; it supplies no environmental lifetime.\n\nEnvironmental persistence: Gut-culture utilization cannot be transferred to seawater or soil. Dissolution of an ionically crosslinked gel also differs from chain degradation.",
+    "recyclingAndEndOfLife": "Calcium-alginate microgel printing supports were recovered by rehydration and ion exchange using sodium and calcium salts. This is a laboratory reuse route for a controlled formulation, not general monomer recycling.",
+    "sources": [
+      {
+        "sourceId": "deg-marine-carbs",
+        "lineageId": "deg-marine-carbs",
+        "sourceType": "open_journal",
+        "citation": "Degradation of Marine Algae-Derived Carbohydrates by Bacteroidetes Isolated from Human Gut Microbiota. Marine Drugs (2017).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5408238/",
+        "locator": "Bacterial substrate tests, enzyme activities and product analysis.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-alg-re",
+        "lineageId": "deg-alg-re",
+        "sourceType": "open_journal",
+        "citation": "Recyclable and biocompatible microgel-based supporting system for positive 3D freeform printing of silicone rubber (2020).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7655895/",
+        "locator": "Rehydration, calcium recovery and reuse cycles.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000208",
+    "degradationAndStability": "Degradation products and pathways: Agarase activity produces smaller agarose carbohydrates. The cited bacterial study identified beta-agarase activity during agarose utilization.\n\nTimescales: Anaerobic cultures were incubated at 37 °C; their reaction time is not a marine decomposition time.\n\nEnvironmental persistence: The laboratory result does not establish a soil, freshwater or marine mineralization time.",
+    "recyclingAndEndOfLife": "Used electrophoresis agarose was washed to remove diffusible contaminants, dried, ground and recast. The documented laboratory procedure maintained separation performance through at least ten uses; contaminant removal is integral to the method.",
+    "sources": [
+      {
+        "sourceId": "deg-marine-carbs",
+        "lineageId": "deg-marine-carbs",
+        "sourceType": "open_journal",
+        "citation": "Degradation of Marine Algae-Derived Carbohydrates by Bacteroidetes Isolated from Human Gut Microbiota. Marine Drugs (2017).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5408238/",
+        "locator": "Bacterial substrate tests, enzyme activities and product analysis.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-agar-re",
+        "lineageId": "deg-agar-re",
+        "sourceType": "open_journal",
+        "citation": "Sustainable Methodologies for Efficient Gel Electrophoresis and Streamlined Screening of Difficult Plasmids. Methods and Protocols (2023).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10037626/",
+        "locator": "Agarose recycling procedure and repeated-use results.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000209",
+    "degradationAndStability": "Degradation products and pathways: Carrageenase activity cleaves carrageenan-related glycosidic links. The cited experiment directly examines kappa-carrageenan oligosaccharides, so it cannot establish complete breakdown of all carrageenan types.\n\nTimescales: The anaerobic 37 °C culture experiment supplies no environmental mineralization time.\n\nEnvironmental persistence: Evidence from oligosaccharides must not be equated with disappearance of an intact carrageenan gel or composite.",
+    "recyclingAndEndOfLife": "A palladium catalyst supported on iota-carrageenan xerogel was separated and reused in laboratory oxidation reactions. This is reuse of a specific functional composite, not an established recycling stream for carrageenan packaging.",
+    "sources": [
+      {
+        "sourceId": "deg-marine-carbs",
+        "lineageId": "deg-marine-carbs",
+        "sourceType": "open_journal",
+        "citation": "Degradation of Marine Algae-Derived Carbohydrates by Bacteroidetes Isolated from Human Gut Microbiota. Marine Drugs (2017).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5408238/",
+        "locator": "Bacterial substrate tests, enzyme activities and product analysis.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-carr-re",
+        "lineageId": "deg-carr-re",
+        "sourceType": "open_journal",
+        "citation": "Green Procedure for Aerobic Oxidation of Benzylic Alcohols with Palladium Supported on Iota-Carrageenan in Ethanol. Polymers (2021).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7914554/",
+        "locator": "Catalyst recovery and reuse experiments.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000210",
+    "degradationAndStability": "Degradation products and pathways: Alkaline-peroxide depolymerization of the tested lignin produced aromatic compounds including vanillin, vanillic acid, syringaldehyde, acetosyringone and syringic acid. These are controlled oxidation products; lignin composition changes their distribution.\n\nTimescales: Reaction time under chemical oxidation cannot be converted to a natural decomposition lifetime.\n\nEnvironmental persistence: The source does not establish mineralization or disappearance rates in soils, where lignin chemistry and association with other biomass matter.",
+    "recyclingAndEndOfLife": "The study combined chemical depolymerization with engineered microbial conversion to muconic acid and pyrogallol. This is laboratory valorization of lignin, not evidence of a commercial closed-loop lignin-recycling system.",
+    "sources": [
+      {
+        "sourceId": "deg-lignin",
+        "lineageId": "deg-lignin",
+        "sourceType": "open_journal",
+        "citation": "Lignin Valorization: Two Hybrid Biochemical Routes for the Conversion of Polymeric Lignin into Value-added Chemicals. Scientific Reports (2017).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5566326/",
+        "locator": "Alkaline peroxide depolymerization and biochemical conversion results.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000211",
+    "degradationAndStability": "Degradation products and pathways: Proteolysis breaks collagen peptide bonds, producing lower-molecular-weight peptides and amino acids. The distribution depends on protease and treatment conditions.\n\nTimescales: The cited study follows porcine-skin hydrolysis over 24 hours under enzyme-specific controlled conditions; this is processing, not an environmental lifetime.\n\nEnvironmental persistence: No lifetime is assigned to environmental collagen articles; purified collagen, crosslinked biomaterials and tanned leather are not interchangeable substrates.",
+    "recyclingAndEndOfLife": "Hydrolysis of porcine by-products followed by ultrafiltration recovered peptide fractions. This is a laboratory valorization route using commercial proteases; it does not demonstrate treatment of every collagen-containing waste.",
+    "sources": [
+      {
+        "sourceId": "deg-collagen",
+        "lineageId": "deg-collagen",
+        "sourceType": "open_journal",
+        "citation": "Anti-Oxidative and Anti-Aging Activities of Porcine By-Product Collagen Hydrolysates Produced by Commercial Proteases: Effect of Hydrolysis and Ultrafiltration. Molecules (2019).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6472052/",
+        "locator": "Hydrolysis method, peptide analysis and ultrafiltration.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000212",
+    "degradationAndStability": "Degradation products and pathways: Proteolysis of regenerated silk films releases peptide-rich soluble material and can release crystalline particles after susceptible connecting regions are cleaved. Morphology, not just beta-sheet fraction, controls the response.\n\nTimescales: The study compared silk-fibroin film mass loss over hours to days in protease XIV/PBS at 37 °C and pH 7.4. Its methods and discussion report different enzyme concentrations, so a transferable numerical degradation rate is not assigned here.\n\nEnvironmental persistence: Released crystalline fragments can remain after the film loses integrity; laboratory enzymatic degradation does not establish their environmental disappearance time.",
+    "recyclingAndEndOfLife": "Defective cocoons and silk production waste were degummed and dissolved to form regenerated fibroin films. This laboratory route recovers polymer from a defined silk waste stream; coatings, blends and contamination require separate assessment.",
+    "sources": [
+      {
+        "sourceId": "deg-silk",
+        "lineageId": "deg-silk",
+        "sourceType": "open_journal",
+        "citation": "Lu, Q. and coauthors. Degradation Mechanism and Control of Silk Fibroin. Biomacromolecules 12 (2011), 1080–1086.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3404841/",
+        "locator": "Protease-XIV film degradation and particle release.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-silk-re",
+        "lineageId": "deg-silk-re",
+        "sourceType": "open_journal",
+        "citation": "Silk wastes and autoclaved degumming as an alternative for a sustainable silk process. Scientific Reports (2023).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10504296/",
+        "locator": "Waste feedstocks, degumming and regenerated-film preparation.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000213",
+    "degradationAndStability": "Degradation products and pathways: For the PHB member, hydrolysis yields 3-hydroxybutyric acid; dehydration can instead yield crotonic acid. Other PHA monomer compositions require their own product inventories.\n\nTimescales: No single degradation time applies to this chemically diverse family.\n\nEnvironmental persistence: A controlled PHB recycling reaction establishes neither family-wide environmental biodegradation nor the lifetime of all PHA articles.",
+    "recyclingAndEndOfLife": "PHB hydrolysis to recover hydroxy acid is an emerging laboratory route. Its success cannot be assigned to every short- or medium-chain-length PHA.",
+    "sources": [
+      {
+        "sourceId": "deg-phb-re",
+        "lineageId": "deg-phb-re",
+        "sourceType": "open_journal",
+        "citation": "Taurine-catalyzed selective chemical recycling of polyhydroxybutyrate into high-value hydroxy acid (2025).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12264751/",
+        "locator": "Reaction optimization; monomer identification; Figure 5 commercial PHB-based samples.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000214",
+    "degradationAndStability": "Degradation products and pathways: PHB ester hydrolysis yields 3-hydroxybutyric acid; heat/acid-driven dehydration can produce crotonic acid.\n\nTimescales: Taurine-catalyzed experiments used 180 °C aqueous reaction conditions; this is chemical depolymerization, not an environmental timescale.\n\nEnvironmental persistence: No mineralization lifetime follows from those reactor experiments.",
+    "recyclingAndEndOfLife": "Selective hydrolysis can recover a chiral hydroxy-acid building block. The cited work demonstrates laboratory chemical recycling, including biological PHB samples; operating commercial scale was not established.",
+    "sources": [
+      {
+        "sourceId": "deg-phb-re",
+        "lineageId": "deg-phb-re",
+        "sourceType": "open_journal",
+        "citation": "Taurine-catalyzed selective chemical recycling of polyhydroxybutyrate into high-value hydroxy acid (2025).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12264751/",
+        "locator": "Reaction optimization; monomer identification; Figure 5 commercial PHB-based samples.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000215",
+    "degradationAndStability": "Degradation products and pathways: PHBV hydrolysis yields hydroxybutyrate- and hydroxyvalerate-derived products; crotonic acid can form by dehydration during hot recycling treatment.\n\nTimescales: No transferable environmental mineralization time is assigned from reactor data.\n\nEnvironmental persistence: Marine biofilm activity and erosion were observed during the cited seawater study; these endpoints do not quantify complete conversion to carbon dioxide.",
+    "recyclingAndEndOfLife": "Laboratory taurine-catalyzed hydrolysis of a low-hydroxyvalerate PHBV sample recovered hydroxy-acid products. Yield and selectivity depend on copolymer composition and reaction conditions.",
+    "sources": [
+      {
+        "sourceId": "deg-phb-re",
+        "lineageId": "deg-phb-re",
+        "sourceType": "open_journal",
+        "citation": "Taurine-catalyzed selective chemical recycling of polyhydroxybutyrate into high-value hydroxy acid (2025).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12264751/",
+        "locator": "Reaction optimization; monomer identification; Figure 5 commercial PHB-based samples.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-phbv",
+        "lineageId": "deg-phbv",
+        "sourceType": "open_journal",
+        "citation": "Bacterial Abundance, Diversity and Activity During Long-Term Colonization of Non-biodegradable and Biodegradable Plastics in Seawater (2021).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8637277/",
+        "locator": "Materials; seven-month seawater colonization experiment; PHBV-specific results.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000216",
+    "degradationAndStability": "Degradation products and pathways: Microbial attack erodes PHBH film; the cited experiment characterizes organisms and breakdown rather than a complete soluble-product inventory.\n\nTimescales: Approximately 100 μm films showed biofilms and subsequent breakdown over one to two months in nutrient-amended harbor seawater at 23 °C.\n\nEnvironmental persistence: This enriched, shaken incubation is not an open-ocean mineralization time.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-phbh",
+        "lineageId": "deg-phbh",
+        "sourceType": "open_journal",
+        "citation": "Molecular Characterization of Bacterial Communities in Biofilms Formed during the Degradation of Poly(3-Hydroxybutyrate-co-3-Hydroxyhexanoate) Films in Seawater (2018).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5877338/",
+        "locator": "Table 1; seawater-film incubation; biofilm and breakdown results.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000217",
+    "degradationAndStability": "Degradation products and pathways: Ester cleavage yields oligomers and lactic acid; the cited recycling study specifically examines PLLA.\n\nTimescales: PLA textiles remained without visible degradation for 428 days in the cited California marine exposure. This is a specimen-specific persistence observation.\n\nEnvironmental persistence: Compostability does not establish rapid seawater degradation. Fiber construction and blends matter.",
+    "recyclingAndEndOfLife": "Mechanical recycling is constrained by thermal/hydrolytic chain damage. Industrial composting and chemical conversion to lactic acid are distinct end-of-life routes; the cited microwave recycling process is a laboratory demonstration on PLLA, including postconsumer items.",
+    "sources": [
+      {
+        "sourceId": "deg-plla-re",
+        "lineageId": "deg-plla-re",
+        "sourceType": "open_journal",
+        "citation": "Santulli, F. et al. Efficient Microwave-Assisted Hydrolytic Recycling of Poly(L-Lactic Acid). ChemSusChem (2026).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12936649/",
+        "locator": "Homogeneous/heterogeneous hydrolysis experiments; postconsumer product trials and conclusions.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-pla-sea",
+        "lineageId": "deg-pla-sea",
+        "sourceType": "open_journal",
+        "citation": "Royer, S.-J. et al. Not so biodegradable: Polylactic acid and cellulose/plastic blend textiles lack fast biodegradation in marine waters. PLOS ONE 18 (2023), e0284681.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10208507/",
+        "locator": "California surface/seafloor exposure and PLA results.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000218",
+    "degradationAndStability": "Degradation products and pathways: PLLA hydrolysis produces shorter lactyl chains and lactic acid.\n\nTimescales: The cited work compares hours of heated, zinc-catalyzed solution and heterogeneous hydrolysis. Its reactor conversion must not be used as an ambient degradation time.\n\nEnvironmental persistence: The recycling study does not establish a soil, freshwater or marine mineralization rate for PLLA articles.",
+    "recyclingAndEndOfLife": "Controlled hydrolysis offers lactic-acid recovery, including from postconsumer PLLA. This remains a laboratory chemical-recycling demonstration; crystallinity, geometry, catalyst and reaction medium affect conversion.",
+    "sources": [
+      {
+        "sourceId": "deg-plla-re",
+        "lineageId": "deg-plla-re",
+        "sourceType": "open_journal",
+        "citation": "Santulli, F. et al. Efficient Microwave-Assisted Hydrolytic Recycling of Poly(L-Lactic Acid). ChemSusChem (2026).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12936649/",
+        "locator": "Homogeneous/heterogeneous hydrolysis experiments; postconsumer product trials and conclusions.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000219",
+    "degradationAndStability": "Degradation products and pathways: Hydrolysis cleaves PGA to glycolic-acid-containing products. Thermal depolymerization can instead recover cyclic glycolide.\n\nTimescales: Buffer pre-aging and serum studies are biomedical experiments; they cannot specify an environmental lifetime.\n\nEnvironmental persistence: Condition-qualified environmental mineralization data remain a gap in this entry.",
+    "recyclingAndEndOfLife": "A public patent describes heated depolymerization in glycol ethers with distillative glycolide recovery and explicitly includes high-molar-mass PGA waste and molding scrap. This is a patented recovery technology, not proof of an operating municipal recycling stream.",
+    "sources": [
+      {
+        "sourceId": "deg-pga",
+        "lineageId": "deg-pga",
+        "sourceType": "open_journal",
+        "citation": "Ceonzo, K. et al. Polyglycolic acid induced inflammation: Role of hydrolysis and resulting complement activation (2006).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1769522/",
+        "locator": "Hydrolyzed-PGA preparation and serum/implant experiments.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-pga-re",
+        "lineageId": "deg-pga-re",
+        "sourceType": "patent",
+        "citation": "Kureha Corporation. CN104981465A. Method for producing glycolide (2015).",
+        "url": "https://patents.google.com/patent/CN104981465A/en",
+        "locator": "Detailed description and applicability to waste PGA and molding scrap.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000220",
+    "degradationAndStability": "Degradation products and pathways: PLGA hydrolysis releases lactic and glycolic acids through intermediate oligomers; lactate dimers and trimers were observed in the cited experiment.\n\nTimescales: At 25 °C over 53 days in controlled soil respirometry, tested high-glycolate PLGA12/88 and PLGA6/94 particles mineralized about 37% and 53%, respectively.\n\nEnvironmental persistence: These results are specific to particle preparation, copolymer ratios and the studied soil; they do not define a lifetime for implants, all PLGA grades, or marine litter.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-plga-env",
+        "lineageId": "deg-plga-env",
+        "sourceType": "open_journal",
+        "citation": "Biodegradation and Non-Enzymatic Hydrolysis of Poly(Lactic-co-Glycolic Acid) (PLGA12/88 and PLGA6/94) (2022).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8747309/",
+        "locator": "Soil preparation and respirometry; Figures 3–7; NMR hydrolysis products.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000221",
+    "degradationAndStability": "Degradation products and pathways: Methanolysis cleaves ester links and yields methyl 6-hydroxyhexanoate; this alcoholysis product is distinct from environmental hydrolysis products.\n\nTimescales: A bisguanidine-catalyzed experiment obtained 97% methyl 6-hydroxyhexanoate yield at 100 °C within 60 minutes.\n\nEnvironmental persistence: That reactor result establishes neither rapid biodegradation nor a mineralization time in environmental water.",
+    "recyclingAndEndOfLife": "PCL methanolysis is a demonstrated laboratory feedstock-recovery route. The recovered hydroxyester can serve as a monomer; an operating commercial PCL collection loop was not established.",
+    "sources": [
+      {
+        "sourceId": "deg-pcl-re",
+        "lineageId": "deg-pcl-re",
+        "sourceType": "open_journal",
+        "citation": "Open- and Closed-Loop Recycling of Polyesters and Post-Consumer Waste Using Bisguanidine Organocatalysts (2026).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12796559/",
+        "locator": "Table 4; PCL methanolysis and product identification.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000222",
+    "degradationAndStability": "Degradation products and pathways: Methanolysis produces dimethyl succinate and 1,4-butanediol. Ambient breakdown products were not measured by the cited marine-film comparison.\n\nTimescales: The approximately 100 μm PBS film showed no surface change after one month in nutrient-amended seawater at 23 °C.\n\nEnvironmental persistence: That observation neither proves permanent persistence nor complete biodegradability.",
+    "recyclingAndEndOfLife": "Semi-industrial repeated extrusion/injection molding demonstrates scrap reprocessing, with chain scission and branching affecting properties. Organocatalytic methanolysis also recovered monomers and enabled laboratory repolymerization; its optimized PBS test gave 93.1% yield at 100 °C in two hours.",
+    "sources": [
+      {
+        "sourceId": "deg-phbh",
+        "lineageId": "deg-phbh",
+        "sourceType": "open_journal",
+        "citation": "Molecular Characterization of Bacterial Communities in Biofilms Formed during the Degradation of Poly(3-Hydroxybutyrate-co-3-Hydroxyhexanoate) Films in Seawater (2018).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5877338/",
+        "locator": "Table 1; seawater-film incubation; biofilm and breakdown results.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-pbs-re",
+        "lineageId": "deg-pbs-re",
+        "sourceType": "open_journal",
+        "citation": "Closed-Loop Chemical Recycling of Poly(butylene succinate) Using Organocatalysts (2026).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13258939/",
+        "locator": "Methanolysis optimization, product identification and repolymerization.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-pbs-mech-pdf",
+        "lineageId": "deg-pbs-mech-pdf",
+        "sourceType": "open_journal",
+        "citation": "Impact of Multiple Mechanical Recycling Cycles via Semi-Industrial Twin-Screw Extrusion on the Properties of Polybutylene Succinate (PBS). Polymers 17 (2025), 1918.",
+        "url": "https://mdpi-res.com/d_attachment/polymers/polymers-17-01918/article_deploy/polymers-17-01918.pdf?version=1752229431",
+        "locator": "Five-cycle extrusion/molding protocol; rheology and molecular-weight results.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000223",
+    "degradationAndStability": "Degradation products and pathways: Enzymatic ester cleavage releases terephthalic acid and terephthalate-bearing oligomers; adipate and butanediol are the other repeat-unit building blocks.\n\nTimescales: The approximately 100 μm PBAT film showed no surface change after one month in nutrient-amended seawater at 23 °C.\n\nEnvironmental persistence: The seawater result differs from controlled enzyme depolymerization and cannot be replaced by a composting or reactor timescale.",
+    "recyclingAndEndOfLife": "Cutinase-mediated depolymerization followed by acid precipitation recovers terephthalic acid. The cited laboratory work used recovered acid to synthesize PET, an open-loop recovery route for PBAT carbon; purity controlled subsequent polymerization.",
+    "sources": [
+      {
+        "sourceId": "deg-phbh",
+        "lineageId": "deg-phbh",
+        "sourceType": "open_journal",
+        "citation": "Molecular Characterization of Bacterial Communities in Biofilms Formed during the Degradation of Poly(3-Hydroxybutyrate-co-3-Hydroxyhexanoate) Films in Seawater (2018).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5877338/",
+        "locator": "Table 1; seawater-film incubation; biofilm and breakdown results.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-pbat-enzyme",
+        "lineageId": "deg-pbat-enzyme",
+        "sourceType": "open_journal",
+        "citation": "Discovery of Polyesterases from Moss-Associated Microorganisms (2017).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5288828/",
+        "locator": "Figure 3; PBAT-powder and foil hydrolysis; HPLC product analysis.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-pbat-re",
+        "lineageId": "deg-pbat-re",
+        "sourceType": "open_journal",
+        "citation": "Siracusa, C. et al. There and Back Again: Recovery of Terephthalic Acid from Enzymatically Hydrolyzed Polyesters for Resynthesis. ACS Sustainable Resource Management 2 (2025), 334–342.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11874462/",
+        "locator": "PBAT depolymerization, TPA recovery and subsequent PET synthesis.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000224",
+    "degradationAndStability": "Degradation products and pathways: Alcoholysis with propylene glycol shortens PBSA chains and creates hydroxyl-terminated and glycol-ester-containing products. This treatment does not define ambient metabolites.\n\nTimescales: The approximately 100 μm PBSA film showed no surface change after one month in nutrient-amended seawater at 23 °C.\n\nEnvironmental persistence: A laboratory film result is not a universal environmental lifetime.",
+    "recyclingAndEndOfLife": "Microwave-assisted alcoholysis produces lower-molar-mass PBSA for aqueous coating dispersions. Coated paper was repulped experimentally; that demonstrates substrate reclamation and a potential PBSA conversion route, not closed-loop recovery of postconsumer PBSA.",
+    "sources": [
+      {
+        "sourceId": "deg-phbh",
+        "lineageId": "deg-phbh",
+        "sourceType": "open_journal",
+        "citation": "Molecular Characterization of Bacterial Communities in Biofilms Formed during the Degradation of Poly(3-Hydroxybutyrate-co-3-Hydroxyhexanoate) Films in Seawater (2018).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5877338/",
+        "locator": "Table 1; seawater-film incubation; biofilm and breakdown results.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-pbsa-re-bioc",
+        "lineageId": "deg-pbsa-re-bioc",
+        "sourceType": "open_journal",
+        "citation": "Fabrication of Water-Based Alcoholized Poly(butylene succinate-co-adipate) Submicron Particles as Green Coating Agents for Sustainable Paper Packaging (2024).",
+        "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC11653403/unicode",
+        "locator": "Alcoholysis/NMR results; paper-repulping experiment. Public NCBI full-text representation.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000225",
+    "degradationAndStability": "Degradation products and pathways: Glycolysis converts PEF ester chains to bis(2-hydroxyethyl) furan-2,5-dicarboxylate (BHEF). This reactor product is distinct from a measured environmental-degradation inventory.\n\nTimescales: The study examines heated catalyst-assisted depolymerization of thermocompressed films; it does not establish an environmental mineralization time.\n\nEnvironmental persistence: Renewable feedstock origin alone does not establish biodegradability. Soil, freshwater and marine lifetimes remain unquantified here.",
+    "recyclingAndEndOfLife": "Organocatalytic glycolysis recovered BHEF and subsequent polymerization regenerated PEF with similar thermal properties. This demonstrates a laboratory closed loop for the tested films, rather than commercial collection or universal recovery from mixed packaging.",
+    "sources": [
+      {
+        "sourceId": "deg-pef-re",
+        "lineageId": "deg-pef-re",
+        "sourceType": "open_journal",
+        "citation": "Gabirondo, E. et al. Organocatalyzed Closed-Loop Chemical Recycling of Thermo-Compressed Food Packaging Films of Poly(ethylene furanoate). Open author manuscript corresponding to Polymer Chemistry 12 (2021), 1571.",
+        "url": "https://www.cambridge.org/engage/api-gateway/coe/assets/orp/resource/item/60c74e469abda28d7bf8d5f8/original/organocatalyzed-closed-loop-chemical-recycling-of-thermo-compressed-food-packaging-films-of-poly-ethylene-furanoate.pdf",
+        "locator": "Glycolysis experiments, BHEF characterization and PEF resynthesis.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000226",
+    "degradationAndStability": "Degradation products and pathways: Hydroxyl-ended PEG is oxidized from its ends, followed by chain shortening; oxidative chemical treatment can cleave internally.\n\nTimescales: No environmental lifetime is assigned to high-molar-mass PEO from lower-molar-mass PEG experiments.\n\nEnvironmental persistence: Molar mass and end-capping affect biological utilization; dissolution alone is not mineralization.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-polyethers",
+        "lineageId": "deg-polyethers",
+        "sourceType": "open_journal",
+        "citation": "Kawai, F. Biodegradability and Chemical Structure of Polyethers. Kobunshi Ronbunshu 50 (1993), 775–780.",
+        "url": "https://www.jstage.jst.go.jp/article/koron1974/50/10/50_10_775/_pdf",
+        "locator": "Activated-sludge experiments; substrate/end-group specificity; PEG, PPG and PTMG results.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000227",
+    "degradationAndStability": "Degradation products and pathways: Hydroxyl-ended polypropylene glycol can undergo terminal oxidation followed by stepwise ether-chain shortening by selected bacteria.\n\nTimescales: No transferable mineralization time was established.\n\nEnvironmental persistence: Results for the tested PPG cannot be generalized to every molar mass or end-capped PPO grade.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-polyethers",
+        "lineageId": "deg-polyethers",
+        "sourceType": "open_journal",
+        "citation": "Kawai, F. Biodegradability and Chemical Structure of Polyethers. Kobunshi Ronbunshu 50 (1993), 775–780.",
+        "url": "https://www.jstage.jst.go.jp/article/koron1974/50/10/50_10_775/_pdf",
+        "locator": "Activated-sludge experiments; substrate/end-group specificity; PEG, PPG and PTMG results.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000228",
+    "degradationAndStability": "Degradation products and pathways: Selected microorganisms utilize hydroxyl-ended PTMG; terminal oxidation and subsequent chain processing are implicated.\n\nTimescales: No transferable environmental mineralization time was verified.\n\nEnvironmental persistence: End groups, molar mass and organism specificity matter; incorporation into polyurethane changes the material and requires separate evidence.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-polyethers",
+        "lineageId": "deg-polyethers",
+        "sourceType": "open_journal",
+        "citation": "Kawai, F. Biodegradability and Chemical Structure of Polyethers. Kobunshi Ronbunshu 50 (1993), 775–780.",
+        "url": "https://www.jstage.jst.go.jp/article/koron1974/50/10/50_10_775/_pdf",
+        "locator": "Activated-sludge experiments; substrate/end-group specificity; PEG, PPG and PTMG results.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000229",
+    "degradationAndStability": "Degradation products and pathways: PHEMA hydrogels have a carbon-chain network that resists simple hydrolysis. The cited study measures thermal destruction of PHEMA-based composites; it does not identify complete environmental degradation products.\n\nTimescales: Thermal-analysis heating is not an environmental lifetime, and no condition-qualified mineralization time is established.\n\nEnvironmental persistence: Water uptake or release of an incorporated substance does not demonstrate decomposition of the PHEMA network.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-phema",
+        "lineageId": "deg-phema",
+        "sourceType": "open_journal",
+        "citation": "Synthesis and Examination of Nanocomposites Based on Poly(2-hydroxyethyl methacrylate) for Medicinal Use (2017).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5318307/",
+        "locator": "Background, thermogravimetry and distinction between matrix stability and release of active compounds.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000230",
+    "degradationAndStability": "Degradation products and pathways: PNIPAM undergoes thermal mass loss; hydrogel breakup can instead be engineered by introducing cleavable polyester links, leaving PNIPAM-containing fragments. These modified networks are not evidence that ordinary PNIPAM mineralizes.\n\nTimescales: The thermal study investigates programmed heating. The modified-hydrogel experiments use accelerated alkaline hydrolysis; neither supplies an environmental lifetime.\n\nEnvironmental persistence: Collapse and reswelling at the thermal transition are physical changes. Environmental persistence of the remaining carbon-chain polymer is not quantified by those changes.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-pnipam",
+        "lineageId": "deg-pnipam",
+        "sourceType": "open_journal",
+        "citation": "Synthesis, Thermogravimetric Analysis, and Kinetic Study of Poly-N-Isopropylacrylamide with Varied Initiator Content. Polymers (2023).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10255422/",
+        "locator": "Thermal-analysis method and decomposition stages.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-pnipam-mod",
+        "lineageId": "deg-pnipam-mod",
+        "sourceType": "open_journal",
+        "citation": "Synthesis and fabrication of a degradable poly(N-isopropyl acrylamide) scaffold for tissue engineering applications (2013).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3712632/",
+        "locator": "PCL-containing crosslinks and accelerated alkaline degradation.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000231",
+    "degradationAndStability": "Degradation products and pathways: PolyDADMAC is resistant to ordinary hydrolytic and biological degradation. Ozonation can release small nitrogen-containing products, including N-nitrosodimethylamine; this treatment pathway is distinct from natural biodegradation.\n\nTimescales: The Canadian assessment reports failed ready/inherent biodegradability tests, not a measured universal half-life.\n\nEnvironmental persistence: For the assessed polyDADMAC polymers, the authority expects stability in water, soil and sediment and strong binding to negatively charged particles. Settling into sludge or sediment is removal from water, not mineralization.",
+    "recyclingAndEndOfLife": "Use as a flocculant transfers polymer into separated solids. The assessment does not establish recovery of intact polymer or closed-loop monomer recycling from this dilute, contaminated waste stream.",
+    "sources": [
+      {
+        "sourceId": "deg-polyamines",
+        "lineageId": "deg-polyamines",
+        "sourceType": "public_report",
+        "citation": "Environment and Climate Change Canada and Health Canada. Screening assessment: Poly(amines) group (2021).",
+        "url": "https://www.canada.ca/en/environment-climate-change/services/evaluating-existing-substances/screening-assessment-poly-amines-group.html",
+        "locator": "Section 2.5, environmental fate and persistence of polyDADMAC; wastewater fate.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000232",
+    "degradationAndStability": "Degradation products and pathways: Supported PEI adsorbents can lose functionality by thermal and oxygen-induced degradation. The cited study quantifies deactivation rather than completely identifying the resulting molecular products.\n\nTimescales: Deactivation was measured at 50–80 °C under nitrogen and air. These adsorbent-aging experiments provide no soil or water mineralization time.\n\nEnvironmental persistence: Loss of carbon-dioxide capture capacity is not disappearance of the polymer or proof of biodegradability.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-pei",
+        "lineageId": "deg-pei",
+        "sourceType": "open_journal",
+        "citation": "Deactivation Kinetics of Polyethylenimine-based Adsorbents Used for the Capture of Low Concentration CO2 (2019).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6648483/",
+        "locator": "Thermal and air-exposure experiments and deactivation model.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000233",
+    "degradationAndStability": "Degradation products and pathways: Fenton oxidation cleaves PSS backbone C–C bonds and disrupts aromatic rings. Detected low-molar-mass products include organic sulfonic acids and hydrogen sulfite; the product mixture is not solely styrene sulfonate monomer.\n\nTimescales: The cited experiments use iron/peroxide at room temperature. Lower molar mass is the measured endpoint, so no environmental half-life or complete mineralization time is assigned.\n\nEnvironmental persistence: Water solubility and oxidative chain shortening do not establish complete biological mineralization; ambient persistence remains unquantified here.",
+    "recyclingAndEndOfLife": "Fenton chemistry is a laboratory oxidative-treatment route for aqueous PSS. It produces mixed fragments rather than demonstrating recovery of equivalent polymer or a purified monomer for closed-loop recycling.",
+    "sources": [
+      {
+        "sourceId": "deg-pss",
+        "lineageId": "deg-pss",
+        "sourceType": "open_journal",
+        "citation": "Landera, A. et al. Experimental and computational study of polystyrene sulfonate breakdown by a Fenton reaction (2023). Open Sandia author manuscript.",
+        "url": "https://www.osti.gov/servlets/purl/2311395",
+        "locator": "Experimental conditions, molecular-weight/product analyses and conclusions.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000234",
+    "degradationAndStability": "Degradation products and pathways: In Nafion, side-chain cleavage can release fluorinated sulfonate fragments; extensive defluorination requires more severe treatment of the fluorocarbon backbone. Phosphate-assisted mechanochemistry yields recoverable inorganic fluoride.\n\nTimescales: The cited work uses ball milling at room temperature and 30 Hz, with reaction progress followed over hours. Milling without an activator left the membrane largely intact. These are reactor times.\n\nEnvironmental persistence: No environmental half-life is established. Polymer fragmentation and release of fluorinated products must not be called complete mineralization.",
+    "recyclingAndEndOfLife": "Phosphate-assisted milling demonstrates fluoride recovery in a laboratory process. Membrane reuse/redispersion and destructive recovery of fluorine are different aims; this study does not establish commercial throughput for mixed membrane-electrode wastes.",
+    "sources": [
+      {
+        "sourceId": "deg-pfsa",
+        "lineageId": "deg-pfsa",
+        "sourceType": "open_journal",
+        "citation": "Mechanochemical Degradation and Fluoride Recovery of Perfluorosulfonic Acid Polymer Membrane. ChemSusChem (2026).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13432790/",
+        "locator": "Control milling, identified soluble products, phosphate activators and fluoride recovery.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000235",
+    "degradationAndStability": "Degradation products and pathways: SPEEK can lose sulfonic groups during heating and undergo backbone damage under oxidative attack. Higher sulfonation changes water uptake and chemical durability.\n\nTimescales: The source compares Fenton-test damage across sulfonation degrees; those accelerated oxidizing conditions do not supply an environmental lifetime.\n\nEnvironmental persistence: No natural-environment mineralization time is established, and dissolution or loss of a membrane does not prove complete biodegradation.",
+    "recyclingAndEndOfLife": "A study sulfonated recovered PEEK granules to make an adsorbent-coating binder. This valorizes a PEEK feedstock into SPEEK; it does not demonstrate closed-loop recovery of used SPEEK membranes.",
+    "sources": [
+      {
+        "sourceId": "deg-speek",
+        "lineageId": "deg-speek",
+        "sourceType": "open_journal",
+        "citation": "Investigations of the Sulfonated Poly(ether ether ketone) Membranes with Various Degrees of Sulfonation by Considering Durability for the Proton Exchange Membrane Fuel Cell Applications (2025).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12389468/",
+        "locator": "Thermal characterization and Fenton durability.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-speek-re",
+        "lineageId": "deg-speek-re",
+        "sourceType": "open_journal",
+        "citation": "Palamara, D.; Calabrese, L. Sulfonated-Recycled-PEEK as Matrix of Water Vapor Adsorbent SAPO-34 Based Composite Coatings for Adsorption Heat Pumps: Mechanical and Thermochemical Characterization. Materials 15 (2022), 8439.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9737103/",
+        "locator": "Recycled PEEK feedstock, sulfonation and coating preparation.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000236",
+    "degradationAndStability": "Degradation products and pathways: Acid hydrolysis removes acyl side groups from poly(2-oxazoline)s, producing polyethyleneimine-containing chains and the corresponding carboxylic-acid products. Deacylation is not cleavage of the entire carbon–nitrogen backbone.\n\nTimescales: The reported controlled reactions use strong aqueous acid and temperature-dependent reaction periods. No family-wide environmental mineralization time follows.\n\nEnvironmental persistence: Side-chain chemistry strongly affects hydrolysis, and persistence of the residual PEI-containing polymer is a separate question.",
+    "recyclingAndEndOfLife": "Controlled hydrolysis and subsequent functionalization provide laboratory routes to reuse polymer backbones as new functional materials. The paper does not demonstrate a post-consumer collection or closed-loop monomer-recovery system.",
+    "sources": [
+      {
+        "sourceId": "deg-pox",
+        "lineageId": "deg-pox",
+        "sourceType": "open_journal",
+        "citation": "Drain, B. A.; Becer, R. C. Hydrolysis of hydrophobic poly(2-oxazoline)s and their subsequent modification via aza-Michael addition. Designed Monomers and Polymers 26 (2023), 214–222.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10569348/",
+        "locator": "Hydrolysis method, side-group conversion and subsequent functionalization.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000237",
+    "degradationAndStability": "Degradation products and pathways: Hypochlorite aging of PVP-containing membranes generated succinimide functionality and carboxyl-containing products associated with opening of pyrrolidone rings, and could remove PVP from the membrane.\n\nTimescales: Accelerated chemical-cleaning exposure is not an environmental half-life. No condition-qualified natural mineralization time is provided.\n\nEnvironmental persistence: Leaching of water-soluble PVP or its fragments transfers material to water; it does not by itself establish biodegradation.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-pvp",
+        "lineageId": "deg-pvp",
+        "sourceType": "open_journal",
+        "citation": "Effects of Hydrogen Peroxide and Sodium Hypochlorite Aging on Properties and Performance of Polyethersulfone Ultrafiltration Membrane. Polymers (2019).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6843545/",
+        "locator": "Chemical characterization of the PVP additive after oxidant exposure.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000238",
+    "degradationAndStability": "Degradation products and pathways: Poloxamer 407 can suffer sterilization-induced molecular changes; degradation must be distinguished from reversible gel dissolution on cooling or dilution. The source does not establish a complete degradation-product inventory.\n\nTimescales: The cited work examines defined sterilization treatments and subsequent functional properties; no environmental half-life is assigned.\n\nEnvironmental persistence: Disappearance of a poloxamer gel does not show mineralization of its PEO and PPO blocks. Environmental fate depends on block size and formulation.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-polox",
+        "lineageId": "deg-polox",
+        "sourceType": "open_journal",
+        "citation": "Balancing sterilization and functional properties in Poloxamer 407 hydrogels (2025).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11842055/",
+        "locator": "Sterilization methods, molecular characterization and gel performance.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000239",
+    "degradationAndStability": "Degradation products and pathways: In a deliberately crosslinked PAMAM microgel, remaining amines cleave ester-containing links by aminolysis, releasing smaller dendrimer-containing species. This does not show destruction of ordinary PAMAM dendrimers.\n\nTimescales: The modified microgels were followed for up to 72 hours in pH 5.3 or 7.4 buffer at 37 °C; behavior was pH dependent.\n\nEnvironmental persistence: Network breakup and formation of nanoscale fragments are not mineralization. No environmental lifetime is established for the dendrimer family.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-pamam",
+        "lineageId": "deg-pamam",
+        "sourceType": "open_journal",
+        "citation": "Polyamidoamine Dendrimer Microgels: Hierarchical Arrangement of Dendrimers into Micrometer Domains with Expanded Structural Features for Programmable Drug Delivery and Release (2018).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6348485/",
+        "locator": "PEG-diacrylate-crosslinked G5 PAMAM; pH-dependent degradation and product characterization.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000240",
+    "degradationAndStability": "Degradation products and pathways: Si–O bond cleavage can yield silanols, including dimethylsilanediol; this downstream product undergoes microbial conversion to carbon dioxide in the studied soils. Catalyzed recycling instead generates cyclic siloxanes such as D4–D6.\n\nTimescales: The soil study measures dimethylsilanediol fate, not the overall PDMS lifetime. Rapid solvent/catalyst depolymerization is not an ambient-degradation timescale.\n\nEnvironmental persistence: Polymer formulation, crosslinking, soil contact and cleavage to mobile silanols must be distinguished. Biodegradation of isolated dimethylsilanediol does not establish rapid disappearance of an intact silicone article.",
+    "recyclingAndEndOfLife": "Acid/base-catalyzed depolymerization and recovery of cyclics are chemical-recycling routes. A public patent demonstrates fluoride-catalyzed depolymerization in swelling solvents, quenching and repolymerizable cyclic recovery at laboratory scale; it also addresses separating silicone from mixed objects.",
+    "sources": [
+      {
+        "sourceId": "deg-pdms-soil-full",
+        "lineageId": "deg-pdms-soil-full",
+        "sourceType": "open_journal",
+        "citation": "Sabourin, C. L.; Carpenter, J. C.; Leib, T. K.; Spivack, J. L. Biodegradation of Dimethylsilanediol in Soils. Applied and Environmental Microbiology 62 (1996), 4352–4360.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC168263/",
+        "locator": "Radiolabeled dimethylsilanediol experiments and discussion; distinction from prior PDMS hydrolysis.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ],
+        "contentUrl": "https://www.scientificspectator.com/documents/silicone%20spectator/Biodegradation%20of%20dimethylsilanediol%20in%20soils.pdf",
+        "doi": "10.1128/aem.62.12.4352-4360.1996"
+      },
+      {
+        "sourceId": "deg-pdms-pat",
+        "lineageId": "deg-pdms-pat",
+        "sourceType": "patent",
+        "citation": "Furgal, J. C.; Rupasinghe, B. WO2022165305A1. Fluoride catalyzed polysiloxane depolymerization (2022).",
+        "url": "https://patents.google.com/patent/WO2022165305A1/en",
+        "locator": "PDMS/cyclic-siloxane examples, quenching and repolymerization.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000241",
+    "degradationAndStability": "Degradation products and pathways: Air oxidation introduces hydroxyl and carbonyl groups into polyacetylene and destroys electrical conductivity. Oxygen uptake can increase specimen mass despite chemical degradation.\n\nTimescales: The NBS report observed chemical change in films oxidized at 50 °C for 40 hours and continued oxidation during months at room temperature. These are oxidation and conductivity endpoints, not mineralization.\n\nEnvironmental persistence: Loss of conjugation or conductivity does not prove the carbon has been biologically mineralized; soil and aquatic lifetimes remain an evidence gap.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-pa-nbs",
+        "lineageId": "deg-pa-nbs",
+        "sourceType": "public_report",
+        "citation": "National Bureau of Standards. Polymer Science and Standards Division annual report 1982. NBSIR 82-2607 (1983).",
+        "url": "https://www.govinfo.gov/content/pkg/GOVPUB-C13-338e4f79bf289bdfc3af113ba510fa36/pdf/GOVPUB-C13-338e4f79bf289bdfc3af113ba510fa36.pdf",
+        "locator": "Polyacetylene oxidation studies, printed page 48.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000242",
+    "degradationAndStability": "Degradation products and pathways: Oxidative degradation of PANI electrodes produces quinone-containing species, including p-benzoquinone; chain cleavage and hydrolysis differ from reversible doping/dedoping.\n\nTimescales: The cited work follows chemical and electrochemical changes during cycling in aqueous zinc-sulfate electrolyte. Cycle stability is not a calendar time for environmental mineralization.\n\nEnvironmental persistence: Electrolyte composition and operating potential affect electrode degradation; these results do not quantify persistence in soil or natural water.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-pani-deg",
+        "lineageId": "deg-pani-deg",
+        "sourceType": "open_journal",
+        "citation": "Ma, G. et al. Enhancing organic cathodes of aqueous zinc-ion batteries via utilizing steric hindrance and electron cloud equalization. Chemical Science 14 (2023), 12589–12597.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10646929/",
+        "locator": "UV/XPS evidence and Figure 4; zinc-sulfate versus zinc-phytate electrolyte comparison.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ],
+        "doi": "10.1039/d3sc04766k"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000243",
+    "degradationAndStability": "Degradation products and pathways: Overoxidation introduces hydroxy and carbonyl groups into PPy. Removal of chloride dopant by alkali is a separate dedoping process and does not demonstrate destruction of the backbone.\n\nTimescales: The source documents overoxidation during strongly exothermic oxidative preparation; this is not an environmental degradation time.\n\nEnvironmental persistence: The chemical characterization gives no condition-qualified soil or aquatic mineralization rate.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-ppy",
+        "lineageId": "deg-ppy",
+        "sourceType": "open_journal",
+        "citation": "Seike, M. et al. Synthesis of Polypyrrole and Its Derivatives as a Liquid Marble Stabilizer via a Solvent-Free Chemical Oxidative Polymerization Protocol. ACS Omega 7 (2022), 13010–13021.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9026107/",
+        "locator": "FTIR, XPS and dedoping characterization; overoxidation discussion.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ],
+        "doi": "10.1021/acsomega.2c00327"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000244",
+    "degradationAndStability": "",
+    "recyclingAndEndOfLife": "",
+    "sources": []
+  },
+  {
+    "wopId": "wop-000245",
+    "degradationAndStability": "Degradation products and pathways: P3HT photooxidation produces carbonyl-containing structures and oxidized sulfur intermediates; side-chain cleavage and loss of conjugation accompany the changes. Specific sulfur-species assignments include uncertainty.\n\nTimescales: Controlled thin-film experiments vary light spectrum/intensity, oxygen, humidity and temperature; there is no single transferable calendar lifetime.\n\nEnvironmental persistence: The approximately 100 nm film studies measure chemical/optical aging, not complete mineralization of bulk P3HT in soil or water.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-p3ht",
+        "lineageId": "deg-p3ht",
+        "sourceType": "thesis",
+        "citation": "Hintz, H. Photo-oxidation Kinetics of Poly-3-hexylthiophene Thin Films. University of Tübingen doctoral dissertation (2012).",
+        "url": "https://tobias-lib.uni-tuebingen.de/xmlui/bitstream/handle/10900/49656/pdf/Dissertation_Hintz_Photooxidation_Kinetics_of_P3HT_thin_films.pdf?isAllowed=y&sequence=1",
+        "locator": "Photooxidation products, XPS/FTIR assignments, humidity dependence and Summary.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000246",
+    "degradationAndStability": "Degradation products and pathways: Strong oxidant exposure can irreversibly shorten conjugation or chains in PEDOT; sulfur oxidation and ring opening are proposed mechanisms. Reversible gas-induced doping must be distinguished from this irreversible damage.\n\nTimescales: The cited chemiresistor study uses repeated five-minute nitrogen-dioxide exposures with recovery intervals. Electrical resistance change is not a mineralization timescale.\n\nEnvironmental persistence: Device-aging experiments do not establish the lifetime or biological fate of dispersed PEDOT in natural waters or soil.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-pedot",
+        "lineageId": "deg-pedot",
+        "sourceType": "open_journal",
+        "citation": "Lefferts, M. J.; Armitage, B. I.; Murugappan, K.; Castell, M. R. PEDOT percolation networks for reversible chemiresistive sensing of NO2. RSC Advances 11 (2021), 22789–22797.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9034379/",
+        "locator": "NO2 exposure protocol, Figure 1, irreversible resistance change and overoxidation discussion.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ],
+        "doi": "10.1039/d1ra03648c"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000247",
+    "degradationAndStability": "Degradation products and pathways: In the studied PCL composite, solvent separation leaves PEDOT:PSS coatings recoverable on microspheres. This demonstrates physical reclamation, not chemical mineralization of either polymer component.\n\nTimescales: No complete degradation time for PEDOT:PSS was measured in the recycling experiment.\n\nEnvironmental persistence: A degradable surrounding matrix does not by itself establish biodegradation of the retained conductive coating; soil and aquatic persistence remain unquantified.",
+    "recyclingAndEndOfLife": "Selective PCL dissolution in ethyl acetate recovered intact PEDOT:PSS-coated microspheres. Thermal reshaping was also demonstrated for the composite. These are laboratory composite-recycling routes, not back-to-monomer recovery of PEDOT or PSS.",
+    "sources": [
+      {
+        "sourceId": "deg-pedot-re",
+        "lineageId": "deg-pedot-re",
+        "sourceType": "open_journal",
+        "citation": "Petrossian, G. et al. Microsphere-Templated Conductive Syntactic Foams for Recyclable and Additively Manufactured Soft Electronics. Advanced Healthcare Materials 15 (2026), e71364.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13411038/",
+        "locator": "Section 2.5, Chemical and Physical Recycling; recovered coating microscopy.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ],
+        "doi": "10.1002/adhm.71364"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000248",
+    "degradationAndStability": "",
+    "recyclingAndEndOfLife": "",
+    "sources": []
+  },
+  {
+    "wopId": "wop-000249",
+    "degradationAndStability": "Degradation products and pathways: Illumination alters MEH-PPV conjugation and creates optically distinct products. The cited fluorescence study resolves reactant decay and product buildup but does not establish a complete molecular product inventory.\n\nTimescales: Kinetics were measured in o-dichlorobenzene in a cuvette and capillary optical fiber; the local illumination profile strongly affected the apparent rate. No environmental half-life follows.\n\nEnvironmental persistence: Fluorescence loss in a photochemical experiment is not mineralization and cannot predict persistence of a solid film, device or environmental particle.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-meh",
+        "lineageId": "deg-meh",
+        "sourceType": "open_journal",
+        "citation": "Nome, R. A. et al. Characterizing Slow Photochemical Reaction Kinetics by Enhanced Sampling of Rare Events with Capillary Optical Fibers and Kramers’ Theory. ACS Omega 2 (2017), 2719–2727.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6044631/",
+        "locator": "MEH-PPV photochemical experiments, concentration evolution and excitation-profile analysis.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ],
+        "doi": "10.1021/acsomega.7b00004"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000250",
+    "degradationAndStability": "Degradation products and pathways: In the representative poly(9,9-dioctylfluorene) studied here, thermal oxidation produces carbonyl-containing defects and changes blue emission toward green. A proposed radical mechanism includes fluorenone-type defects, alkyl ketones and crosslinking; it is not a complete product inventory for every polyfluorene.\n\nTimescales: Pristine and solvent-aggregated films were aged in an oven at 60 or 90 °C for 1–72 hours. Optical and spectroscopic changes were measured; these accelerated tests do not establish an environmental degradation time.\n\nEnvironmental persistence: Loss of useful luminescence does not demonstrate disappearance of the polymer backbone or biological mineralization. Substitution pattern, morphology and device construction prevent a family-wide lifetime assignment.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-pfo-thermal",
+        "lineageId": "deg-pfo-thermal",
+        "sourceType": "open_journal",
+        "citation": "Chew, K. W. et al. Thermal Degradation of Photoluminescence Poly(9,9-dioctylfluorene) Solvent-Tuned Aggregate Films. Polymers 14 (2022), 1615.",
+        "doi": "10.3390/polym14081615",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9029415/",
+        "locator": "Sections 2.3 and 3; Figures 4–9; pristine and solvent-aggregated PFO films.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The article identifies a Creative Commons Attribution 4.0 license; this entry independently paraphrases and cites it.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  }
+]

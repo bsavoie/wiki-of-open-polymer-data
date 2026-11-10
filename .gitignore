@@ -5,5 +5,10 @@ node_modules/
 .dist-previous-*/
 public-data/.wop-publication-snapshot-v1.next-*/
 public-data/.wop-publication-snapshot-v1.previous-*/
+public-data/.wop-publication-snapshot-v2.next-*/
+public-data/.wop-publication-snapshot-v2.previous-*/
 coverage/
 .DS_Store
+public-data/.research-publication-*/
+public-data/.wop-research-publication.lock
+public-data/.wop-publication-snapshot-v2.import.lock

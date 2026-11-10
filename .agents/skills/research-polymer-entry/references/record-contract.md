@@ -33,7 +33,7 @@ browsing class.
 
 ## Article sections
 
-All section keys are always present as strings: `overview`, `nomenclature`,
+All section keys are always present as strings: `overview`, `history`, `nomenclature`,
 `feedstocksAndSynthesis`, `mechanicalProperties`, `processing`,
 `structureAndMorphology`, `properties`, `applications`,
 `degradationAndStability`, `recyclingAndEndOfLife`,
@@ -41,6 +41,15 @@ All section keys are always present as strings: `overview`, `nomenclature`,
 `mechanicalProperties` field holds measured mechanical behavior;
 `properties` remains available for thermal, electrical, optical, barrier, and
 other non-mechanical properties.
+
+`history` distinguishes discovery or first synthesis, commercial introduction,
+and later technical development; it traces researchers, companies, and major
+historical uses within the record's scope. Natural polymers have histories of
+use, isolation, and scientific understanding rather than invention dates.
+Do not transfer a family invention date to a narrower variant, turn a patent
+filing into proof of first invention, or hide conflicting historical accounts.
+History evidence maps to `supports: ["history"]` and uses the same typed-source
+access, reuse, and pinpoint requirements as other article prose.
 
 Empty strings are explicit gaps. Every non-empty value requires at least one
 article source whose `supports` array names that exact key.
@@ -70,12 +79,27 @@ qualifiers against the cited locator.
 
 ## Quantitative records
 
-Narrative sections may summarize well-supported values, but reusable property
-or processing datasets should be added as typed records in a future schema
-revision. Such a revision should capture value/range, units, material grade and
-composition, specimen and conditioning, test method, process, source and
-pinpoint, plus limitations. Do not put an untyped bag of numbers into a prose
-field and call it machine-readable data.
+Narrative sections may summarize well-supported values. The optional v2
+`evidence` array now holds typed mechanical measurements and processing
+examples with numeric bounds, units, material, conditions, method, source,
+locator and limitations. Optional uncertainty must state its meaning or that
+the source does not specify the statistic. Preserve sequential process
+setpoints as such; do not turn them into a universal operating range.
+
+## Research questions and reviews
+
+Optional `research` metadata holds scoped questions, attempts, resolutions,
+section reviews and public change history. Empty prose, measured evidence,
+question closure, section review and article maturity are distinct states.
+An access-limited search can close as `no_eligible_evidence` while leaving the
+scientific section empty. Reopened questions retain prior outcomes.
+
+Use the [research improvement workflow](../../../../docs/research-workflow.md)
+for exact field contracts and the proposal/review/publication commands.
+Review receipts and author/reviewer identities stay in private work files.
+Section review hashes bind a review to the actual content and become stale
+when that content changes. A bounded evidence extraction does not establish
+that an entire section has been reviewed.
 
 ## Validation
 

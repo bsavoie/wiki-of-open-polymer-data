@@ -57,7 +57,26 @@
     empty.hidden = visible !== 0;
   }
 
-  controls.addEventListener('input', update);
-  controls.addEventListener('change', update);
-  controls.addEventListener('reset', () => requestAnimationFrame(update));
+  const fields = [['q', input], ['class', classFilter], ['behavior', behaviorFilter]];
+  function restore() {
+    const params = new URL(location.href).searchParams;
+    for (const [key, field] of fields) field.value = params.get(key) || '';
+    update();
+  }
+  function save() {
+    const url = new URL(location.href);
+    for (const [key, field] of fields) {
+      if (field.value) url.searchParams.set(key, field.value);
+      else url.searchParams.delete(key);
+    }
+    if (url.href !== location.href) history.replaceState(history.state, '', url);
+    update();
+  }
+  controls.addEventListener('submit', (event) => { event.preventDefault(); save(); });
+  controls.addEventListener('input', save);
+  controls.addEventListener('change', save);
+  controls.addEventListener('reset', () => requestAnimationFrame(save));
+  addEventListener('popstate', restore);
+  addEventListener('pageshow', restore);
+  restore();
 })();

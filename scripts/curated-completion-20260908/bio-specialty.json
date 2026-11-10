@@ -1,0 +1,2155 @@
+[
+  {
+    "wopId": "wop-000176",
+    "sections": {
+      "healthSafetyAndRegulation": "Aramid fiber processing can release dust that irritates eyes and the respiratory tract. Twaron supplier guidance recommends extraction and HEPA-filtered cleanup, while heated fiber finishes and fire decomposition require separate controls. These recommendations concern specified commercial fibers; food-contact and body-fluid-contact uses require application-specific evaluation."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-twaron-sds",
+        "lineageId": "comp-twaron-sds",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Teijin Aramid (2026-03-17). Twaron para-aramid yarn/pulp/fiber, Article Safety Data Sheet TA00101, version 2.0.",
+        "url": "https://www.teijinaramid.com/sites/default/files/2026-04/Twaron%20para-Aramid%20Yarn-Pulp-Fiber%20TA00101%20English%2020260317.pdf",
+        "locator": "Sections 1, 4–8; named yarn/pulp/fiber products, excluding listed special grades.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000177",
+    "sections": {
+      "healthSafetyAndRegulation": "For the Twaron yarn, pulp and fiber products covered by the 2026 supplier sheet, dust can irritate eyes and airways; high-speed yarn can also cause cuts. Local exhaust and HEPA-filtered cleanup control fiber dust. Fire can release carbon monoxide, nitrogen oxides and hydrogen cyanide; heat resistance does not remove the need for fume control."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-twaron-sds",
+        "lineageId": "comp-twaron-sds",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Teijin Aramid (2026-03-17). Twaron para-aramid yarn/pulp/fiber, Article Safety Data Sheet TA00101, version 2.0.",
+        "url": "https://www.teijinaramid.com/sites/default/files/2026-04/Twaron%20para-Aramid%20Yarn-Pulp-Fiber%20TA00101%20English%2020260317.pdf",
+        "locator": "Sections 4–8; product exclusions in section 1.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000178",
+    "sections": {
+      "healthSafetyAndRegulation": "The March 2026 Teijinconex Japan sheet reports dust irritation and residual N-methylpyrrolidone up to 3% in its specified PMIA fibers; the residual solvent is identified as a reproductive toxicant. This is a commercial-product composition, not an intrinsic constituent of all PMIA. Extraction, dust control and assessment of heated finishes are relevant during processing."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-conex-sds",
+        "lineageId": "comp-conex-sds",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Teijin Aramid (2026-03-27). Teijinconex meta-aramid fiber produced in Japan, Article Safety Data Sheet TA00103, version 2.0.",
+        "url": "https://www.teijinaramid.com/sites/default/files/2026-04/Teijinconex%20meta-Aramid%20Fiber%20(Japan)%20TA00103%20English_20260327.pdf",
+        "locator": "Sections 2–3 and 4–8; excludes HG staple, NO tow and L GR7.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000179",
+    "sections": {
+      "healthSafetyAndRegulation": "The March 2026 Technora yarn sheet identifies eye and respiratory irritation from dust and possible skin irritation. It recommends extraction and filtered cleanup; heating can volatilize or decompose applied finishes. High-speed yarn presents a cutting hazard. Its industrial-use guidance does not establish suitability for food or body-fluid contact.",
+      "recyclingAndEndOfLife": "For Technora yarn waste, the supplier specifies segregation according to the licensed collector’s instructions. Wet treatment can remove yarn additives, and the resulting wastewater requires treatment. This is a documented waste-handling route; the sheet does not demonstrate recovery of this copolyaramid into monomers or equivalent new fiber."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-technora-sds",
+        "lineageId": "comp-technora-sds",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Teijin Aramid (2026-03-27). Technora para-aramid yarn, Article Safety Data Sheet TA00102, version 2.0.",
+        "url": "https://www.teijinaramid.com/sites/default/files/2026-04/Technora%20para-Aramid%20Yarn%20TA00102%20English_20260327.pdf",
+        "locator": "Sections 1 and 4–8; excludes listed special yarn grades. Section 10, disposal considerations.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000180",
+    "sections": {
+      "healthSafetyAndRegulation": "The PBI polymer powder safety sheet recommends ventilation and avoidance of generated dust. Strong thermal stability does not eliminate fire or overheating hazards: decomposition can release carbon oxides, nitrogen oxides and other irritating or toxic fumes. These are handling considerations for the named polymer powder, not evidence of implant compatibility."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-pbi-sds",
+        "lineageId": "comp-pbi-sds",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "PBI Performance Products (2015-05-26). PBI Polymer, SDS PBI-002, product code M51050, version 1.",
+        "url": "https://www.boedeker.com/Portals/0/Safety%20Data%20Sheets%20SDS/PBI-U-60-Polymer-Safety-Data-Sheet-Boedeker-Plastics-2015.pdf",
+        "locator": "Sections 5–8 and 10–11.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000181",
+    "sections": {
+      "healthSafetyAndRegulation": "Toyobo’s Zylon guidance identifies cutting and entanglement hazards from moving high-strength yarn and recommends control of fine fibrils during cutting. Fire or severe overheating can release hydrogen cyanide. Its supplier sheet restricts medical-product use and calls for protection from light, heat and humidity to retain mechanical performance.",
+      "recyclingAndEndOfLife": "Zylon waste must be collected so that long fibers do not entangle wildlife; fiber handling also requires protection against cuts. The supplier describes disposal through applicable waste-management arrangements and warns of hydrogen cyanide during incineration. These instructions establish disposal constraints, not a demonstrated PBO-to-fiber recycling process."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-pbo-sds",
+        "lineageId": "comp-pbo-sds",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Toyobo (2016-05-17). PBO fiber Zylon Material Safety Data Sheet 00160F.",
+        "url": "https://www.toyobo-global.com/seihin/kc/pbo/zylon-p/bussei-p/sds.pdf",
+        "locator": "Sections 1–2, 5, 7–8 and 10–11. Sections 6, 10, 12 and 13.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000182",
+    "sections": {
+      "healthSafetyAndRegulation": "PBZT solution spinning uses polyphosphoric-acid dopes, so acid containment and removal during coagulation and washing are central processing concerns. The acid supplier identifies severe skin and eye damage hazards for polyphosphoric acid. Those hazards belong to the processing medium and acid-contaminated material; they are not a toxicological classification of washed PBZT fiber."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-ppa-sds",
+        "lineageId": "comp-ppa-sds",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Sigma-Aldrich (2024-09-08). Polyphosphoric acid 208213 Safety Data Sheet, version 6.10.",
+        "url": "https://www.sigmaaldrich.com/US/en/sds/sigald/208213",
+        "locator": "Sections 2, 6–8 and 11; processing-medium hazard only.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      },
+      {
+        "sourceId": "comp-pbzt-acid-scope",
+        "lineageId": "university-dayton-pbzt-conductive-fiber-patent",
+        "sourceType": "patent",
+        "citation": "Wang, C.-S.; Lee, J.-W.; Vaia, R. A. Method of Making Conductive Metal-Containing Polymer Fibers and Sheets. U.S. Patent US 6,228,922 B1, 2001.",
+        "url": "https://patents.google.com/patent/US6228922B1/en",
+        "locator": "PBZT/polyphosphoric-acid spinning example and coagulation/washing operations.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The complete granted patent is anonymously readable; only its PBZT fiber-forming example is cited and independently paraphrased, separate from its specialized metallization chemistry.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000183",
+    "sections": {
+      "healthSafetyAndRegulation": "Biological response varies with polyoxadiazole structure and formulation. In one study of fluorescent, non-conjugated PODs, encapsulating P6 in DSPE-PEG nanoparticles reduced its cytotoxicity toward 4T1 cells compared with the unencapsulated polymer. These cell-imaging results concern the specially synthesized polymers and do not establish the safety of heat-resistant POD fibers or implanted devices.",
+      "recyclingAndEndOfLife": "Thermal-conversion evidence for aromatic para-POD fibers shows char formation and a mixture of carbon dioxide and aromatic nitriles. These analytical results identify separation and emissions considerations for any proposed thermal recovery, but the study does not demonstrate a recycling process or recovered polymer-quality product. Its phosphorus-containing variants also change the residue composition."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-pod-health",
+        "lineageId": "comp-pod-health",
+        "sourceType": "open_journal",
+        "citation": "Junyao Xie et al. (2022). Catalyst-free synthesis of diverse fluorescent polyoxadiazoles for the facile formation and morphology visualization of microporous films and cell imaging. Chemical Science 14, 903.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9890602/",
+        "locator": "Biological imaging section, Figures 8 and S18–S19.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.1039/d2sc05960f"
+      },
+      {
+        "sourceId": "comp-pod-thermal-recovery",
+        "lineageId": "comp-pod-thermal-recovery",
+        "sourceType": "open_journal",
+        "citation": "Liu, P.; Dong, L.; Wu, L.; Zeng, L.; Xu, J. (2019). Structure and properties of halogen-free flame retardant and phosphorus-containing aromatic poly(1,3,4-oxadiazole)s fiber. RSC Advances 9, 7147–7155.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9061071/",
+        "locator": "Thermogravimetry, char characterization and Table 4 analytical pyrolysis; recovery implications explicitly distinguished from demonstrated recycling.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000184",
+    "sections": {
+      "healthSafetyAndRegulation": "For Cellusuede’s acrylonitrile–vinylidene-chloride modacrylic fiber, the safety sheet treats eye, skin and inhalation exposure as fiber-dust concerns. The specified copolymer composition matters: guidance for this product should not be generalized to every modacrylic blend or finish. Handling should limit dust and follow the actual fiber formulation’s fire precautions.",
+      "recyclingAndEndOfLife": "The Cellusuede modacrylic-fiber sheet recommends reclaiming spilled material for processing when possible. Its disposal discussion concerns the named acrylonitrile–vinylidene-chloride fiber and requires compliance with applicable waste rules. This supports recovery of suitable clean production material, rather than demonstrating closed-loop recycling of blended, dyed or contaminated textiles."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-modacrylic-sds",
+        "lineageId": "comp-modacrylic-sds",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Cellusuede Products (2014-09). Modacrylic Fiber Safety Data Sheet, acrylonitrile–vinylidene chloride copolymer.",
+        "url": "https://www.cellusuede.com/Images/SDSmodacrylic_rev9-29.pdf",
+        "locator": "Sections 3–8, named acrylonitrile–vinylidene chloride copolymer fiber. Sections 6 and 13; September 2014 revision, recovery of spilled fiber.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000185",
+    "sections": {
+      "healthSafetyAndRegulation": "Vinyon is a vinyl-chloride-rich fiber family, so PVC fume guidance is relevant when its formulations overheat: HSE identifies hydrogen chloride as a possible decomposition constituent and recommends controlling temperature, residence time and extraction. Stabilizers, comonomers and finishes vary; a finished textile cannot be evaluated solely from the hazards of its starting monomer.",
+      "recyclingAndEndOfLife": "PVC-family recycling provides context for vinyl-chloride-rich vinyon: segregated material can undergo mechanical size reduction and reprocessing, while dissolution and chlorine/additive separation are investigated recovery routes. The cited review addresses PVC waste generally; it does not validate a dedicated process for every vinyon copolymer fiber, textile blend or finish."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hse-fumes",
+        "lineageId": "comp-hse-fumes",
+        "sourceType": "institutional_reference",
+        "citation": "UK Health and Safety Executive. Controlling fume during plastics processing. Plastics Processing Information Sheet 13.",
+        "url": "https://www.hse.gov.uk/pubns/ppis13.pdf",
+        "locator": "PVC fume constituents and process controls; applicability is qualified to vinyl-chloride-rich fibers.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      },
+      {
+        "sourceId": "comp-vinyon-composition-scope",
+        "lineageId": "kaneka-vinyl-chloride-fiber-patent",
+        "sourceType": "patent",
+        "citation": "Yamane, K.; Yokoyama, H.; Kubo, Y.; Okino, I. Vinyl Chloride Fibers and Process for Preparing the Same. U.S. Patent 6,312,804 B1, issued November 6, 2001; assigned to Kaneka Corporation.",
+        "url": "https://patents.google.com/patent/US6312804B1/en",
+        "contentUrl": "https://patentimages.storage.googleapis.com/88/f0/8b/e8002682f7f00f/US6312804.pdf",
+        "locator": "Vinyl-chloride fiber compositions and thermal decomposition during melt spinning.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The complete expired patent specification is anonymously readable; formulation- and example-specific processing guidance is attributed and independently summarized.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      },
+      {
+        "sourceId": "comp-vinyon-pvc-re",
+        "lineageId": "comp-vinyon-pvc-re",
+        "sourceType": "open_journal",
+        "citation": "Risks Associated with the Presence of Polyvinyl Chloride in the Environment and Methods for Its Disposal and Utilization. Polymers (2024).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10779931/",
+        "locator": "PVC mechanical recycling, dissolution and chlorine/additive-separation sections; family context qualified for vinyon.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000186",
+    "sections": {
+      "healthSafetyAndRegulation": "Elastane separation and recycling can involve DMF or DMAc and therefore requires solvent-specific exposure and emission controls. A study of selective dissolution compares these established solvents with alternatives using health, safety and environmental criteria. These are process-solvent concerns, distinct from the biological response to a washed, finished elastane-containing textile."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-elastane-solvents",
+        "lineageId": "deg-elastane",
+        "sourceType": "open_journal",
+        "citation": "Phan, K. et al. Analysing the potential of the selective dissolution of elastane from mixed fiber textile waste. Resources, Conservation and Recycling 191 (2023), 106903.",
+        "url": "https://biblio.ugent.be/publication/01GRR1T4AEYTVZH7BR3VHVQZ6Y/file/01GVFX6KXYPPEGGXTXNR3GAGKN.pdf",
+        "locator": "Introduction and solvent-selection comparison for elastane separation; health, safety and environment criteria.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000187",
+    "sections": {
+      "healthSafetyAndRegulation": "Kynol novoloid chars rather than melting, but flame resistance does not mean smoke is harmless. The supplier reports carbon monoxide when oxygen is limited, alongside char, water and carbon dioxide. These are fire-exposure considerations for the supplier’s phenolic fiber, and should remain separate from the behavior of coatings, blends and additives."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-novoloid-fire",
+        "lineageId": "kynol-europa-novoloid-fiber-bulletin",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Kynol Europa GmbH. Novoloid Fibers product bulletin.",
+        "url": "https://www.kynol.de/pdf/kynol_flyer_en.pdf",
+        "locator": "Smoke emission and toxicity section.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000188",
+    "sections": {
+      "healthSafetyAndRegulation": "Regenerated cellulose articles can generate cellulose dust during cutting or abrasion. NIOSH identifies eye, skin and respiratory irritation and treats cellulose as a combustible solid. Its powder-handling guidance concerns airborne particles; it does not imply the same exposure from an intact fiber, film or paper article."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-cellulose-niosh",
+        "lineageId": "comp-cellulose-niosh",
+        "sourceType": "institutional_reference",
+        "citation": "NIOSH (2019). NIOSH Pocket Guide to Chemical Hazards: Cellulose.",
+        "url": "https://www.cdc.gov/niosh/npg/npgd0110.html",
+        "locator": "Chemical identity, exposure routes, symptoms and physical description.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000189",
+    "sections": {
+      "healthSafetyAndRegulation": "For cellulose acetate photographic film, the archival term “safety film” distinguishes it from nitrate film, while acidic deterioration remains possible. NARA recommends identifying vinegar syndrome and using controlled cold storage to slow it. The guidance concerns film preservation rather than a general toxicological assessment of every cellulose-ester formulation."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-acetate-film-health",
+        "lineageId": "comp-acetate-film-health",
+        "sourceType": "institutional_reference",
+        "citation": "U.S. National Archives and Records Administration. Film-Based Negatives, Microforms, and Motion Picture Film. Accessed 2026-09-08.",
+        "url": "https://www.archives.gov/preservation/holdings-maintenance/film-based",
+        "locator": "Cellulose acetate film base and cold storage sections; acetate and triacetate scope.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000190",
+    "sections": {
+      "healthSafetyAndRegulation": "For cellulose triacetate photographic film, the archival term “safety film” distinguishes it from nitrate film, while acidic deterioration remains possible. NARA recommends identifying vinegar syndrome and using controlled cold storage to slow it. The guidance concerns film preservation rather than a general toxicological assessment of every cellulose-ester formulation."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-acetate-film-health",
+        "lineageId": "comp-acetate-film-health",
+        "sourceType": "institutional_reference",
+        "citation": "U.S. National Archives and Records Administration. Film-Based Negatives, Microforms, and Motion Picture Film. Accessed 2026-09-08.",
+        "url": "https://www.archives.gov/preservation/holdings-maintenance/film-based",
+        "locator": "Cellulose acetate film base and cold storage sections; acetate and triacetate scope.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000191",
+    "sections": {
+      "healthSafetyAndRegulation": "Cellulose powder presents an occupational dust exposure. NIOSH identifies eye, skin and respiratory irritation and treats cellulose as a combustible solid. Its powder-handling guidance concerns airborne particles; it does not imply the same exposure from an intact fiber, film or paper article."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-cellulose-niosh",
+        "lineageId": "comp-cellulose-niosh",
+        "sourceType": "institutional_reference",
+        "citation": "NIOSH (2019). NIOSH Pocket Guide to Chemical Hazards: Cellulose.",
+        "url": "https://www.cdc.gov/niosh/npg/npgd0110.html",
+        "locator": "Chemical identity, exposure routes, symptoms and physical description.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000192",
+    "sections": {
+      "healthSafetyAndRegulation": "Eastman CAB-321-0.1 powder can form combustible dust concentrations in air; the supplier calls for ignition and static-control precautions. Molten material can cause serious thermal burns. These process hazards apply to the named cellulose acetate butyrate grade and are distinct from the additional solvent, pigment or plasticizer hazards of a formulated coating."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-cab-sds",
+        "lineageId": "comp-cab-sds",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Eastman Chemical Company (2014-12-09). Eastman Cellulose Acetate Butyrate CAB-321-0.1 Safety Data Sheet, version 2.2.",
+        "url": "https://www.chempoint.com/products/download?grade=3679&type=sds",
+        "locator": "Sections 2, 4–8 and 10.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000193",
+    "sections": {
+      "healthSafetyAndRegulation": "The supplier sheet for Eastman CAP-482-0.5 identifies combustible dust as a processing hazard. It calls for control of ignition sources and static discharge and for approved waste handling. These considerations apply to the supplied resin; solvents, plasticizers and colorants in a finished cellulose acetate propionate article require their own assessment."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-cap-sds",
+        "lineageId": "comp-cap-sds",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Eastman Chemical Company (2021-05-12). Cellulose Acetate Propionate CAP-482-0.5 Safety Data Sheet, version 2.3.",
+        "url": "https://www.chempoint.com/products/download?doctype=sds&documentid=0103000257072307150106&grade=3696&language=English",
+        "locator": "Sections 2, 5–8 and 13.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000194",
+    "sections": {
+      "healthSafetyAndRegulation": "Cellulose nitrate photographic film can become unstable as it ages and presents a serious fire hazard under unsuitable storage. NARA recommends separating it from other collections and using specialized storage and trained handlers. These precautions concern nitrate film; nitrogen content and formulation also distinguish other cellulose nitrate materials.",
+      "recyclingAndEndOfLife": "For historic cellulose nitrate film, specialist duplication preserves the image rather than recovering the polymer. NARA recommends transfer to an institution able to store nitrate safely; where controlled storage is unavailable, its U.S. guidance directs disposal under the applicable regulations. Ordinary paper or plastic recycling is not the preservation route described."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-acetate-film-health",
+        "lineageId": "comp-acetate-film-health",
+        "sourceType": "institutional_reference",
+        "citation": "U.S. National Archives and Records Administration. Film-Based Negatives, Microforms, and Motion Picture Film. Accessed 2026-09-08.",
+        "url": "https://www.archives.gov/preservation/holdings-maintenance/film-based",
+        "locator": "Cellulose nitrate film base section. Cellulose nitrate film base: duplication, deposit and disposal; accessed 2026-09-08.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000195",
+    "sections": {
+      "healthSafetyAndRegulation": "EFSA’s 2018 EU assessment of methylcellulose (E461) found no safety concern at reported food uses and levels and no need for a numerical acceptable daily intake. This conclusion concerns specified food additives, not all industrial or medical applications."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-cellulose-efsa",
+        "lineageId": "comp-cellulose-efsa",
+        "sourceType": "open_journal",
+        "citation": "EFSA Panel on Food Additives and Nutrient Sources added to Food (ANS) et al. (2018). Re‐evaluation of celluloses E 460(i), E 460(ii), E 461, E 462, E 463, E 464, E 465, E 466, E 468 and E 469 as food additives. EFSA Journal 16, e05047.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7009359/",
+        "locator": "Summary and conclusions; evaluated cellulose food-additive identities.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.2903/j.efsa.2018.5047"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000196",
+    "sections": {
+      "healthSafetyAndRegulation": "EFSA’s 2018 EU assessment of ethylcellulose (E462) found no safety concern at reported food uses and levels and no need for a numerical acceptable daily intake. This conclusion concerns specified food additives, not all industrial or medical applications.",
+      "recyclingAndEndOfLife": "A 1977 EPA research report demonstrated solvent removal of ethyl-cellulose textile size and partial recovery of both size and solvent by distillation for reuse. The laboratory work also identified brittleness after thermal recovery as a limitation. This is a historical process demonstration, not evidence of modern commercial adoption or an endorsement of its chlorinated solvents."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-cellulose-efsa",
+        "lineageId": "comp-cellulose-efsa",
+        "sourceType": "open_journal",
+        "citation": "EFSA Panel on Food Additives and Nutrient Sources added to Food (ANS) et al. (2018). Re‐evaluation of celluloses E 460(i), E 460(ii), E 461, E 462, E 463, E 464, E 465, E 466, E 468 and E 469 as food additives. EFSA Journal 16, e05047.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7009359/",
+        "locator": "Summary and conclusions; evaluated cellulose food-additive identities.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.2903/j.efsa.2018.5047"
+      },
+      {
+        "sourceId": "comp-ec-re",
+        "lineageId": "comp-ec-re",
+        "sourceType": "public_report",
+        "citation": "Perkins, W. S.; Hall, D. M.; Slaten, B. L.; Walker, R. P.; Farrow, J. C. (1977). Use of Organic Solvents in Textile Sizing and Desizing. U.S. EPA report EPA-600/2-77-126.",
+        "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=9101VMBI.TXT",
+        "locator": "Sections 1–4: process schematic, conclusions, laboratory-scale status, recovered ethyl-cellulose film brittleness; foreword solvent qualification.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000197",
+    "sections": {
+      "healthSafetyAndRegulation": "Ashland’s Natrosol 250HX PHARM HEC powder may irritate eyes, skin and airways and can form combustible dust–air mixtures. The supplier recommends ventilation, grounded transfer equipment and removal of accumulated dust. Pharmaceutical-grade identity does not remove powder-handling hazards or establish every finished formulation’s suitability for a particular medical route.",
+      "recyclingAndEndOfLife": "For Natrosol 250HX PHARM HEC spills, the supplier recommends collecting the powder without generating dust and keeping it in closed containers for disposal. This is controlled waste handling, not polymer reclamation. The same sheet’s poor ready-biodegradability result cautions against assuming that dissolved HEC waste will rapidly disappear in treatment."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-hec-sds",
+        "lineageId": "comp-hec-sds",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Ashland (2020-12-09). Natrosol 250HX PHARM Hydroxyethylcellulose Safety Data Sheet, version 1.6.",
+        "url": "https://www.chempoint.com/products/download?grade=38120&type=sds",
+        "locator": "Sections 2, 6–8 and 11. Sections 6, 12 and 13.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000198",
+    "sections": {
+      "healthSafetyAndRegulation": "EFSA’s 2018 EU assessment of hydroxypropyl cellulose (E463) found no safety concern at reported food uses and levels and no need for a numerical acceptable daily intake. This conclusion concerns specified food additives, not all industrial or medical applications."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-cellulose-efsa",
+        "lineageId": "comp-cellulose-efsa",
+        "sourceType": "open_journal",
+        "citation": "EFSA Panel on Food Additives and Nutrient Sources added to Food (ANS) et al. (2018). Re‐evaluation of celluloses E 460(i), E 460(ii), E 461, E 462, E 463, E 464, E 465, E 466, E 468 and E 469 as food additives. EFSA Journal 16, e05047.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7009359/",
+        "locator": "Summary and conclusions; evaluated cellulose food-additive identities.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.2903/j.efsa.2018.5047"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000199",
+    "sections": {
+      "healthSafetyAndRegulation": "EFSA’s 2018 EU assessment of hydroxypropyl methylcellulose (E464) found no safety concern at reported food uses and levels and no need for a numerical acceptable daily intake. This conclusion concerns specified food additives, not all industrial or medical applications."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-cellulose-efsa",
+        "lineageId": "comp-cellulose-efsa",
+        "sourceType": "open_journal",
+        "citation": "EFSA Panel on Food Additives and Nutrient Sources added to Food (ANS) et al. (2018). Re‐evaluation of celluloses E 460(i), E 460(ii), E 461, E 462, E 463, E 464, E 465, E 466, E 468 and E 469 as food additives. EFSA Journal 16, e05047.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7009359/",
+        "locator": "Summary and conclusions; evaluated cellulose food-additive identities.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.2903/j.efsa.2018.5047"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000200",
+    "sections": {
+      "healthSafetyAndRegulation": "EFSA’s 2018 EU assessment of sodium carboxymethylcellulose (E466) found no safety concern at reported food uses and levels and no need for a numerical acceptable daily intake. This conclusion concerns specified food additives, not all industrial or medical applications."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-cellulose-efsa",
+        "lineageId": "comp-cellulose-efsa",
+        "sourceType": "open_journal",
+        "citation": "EFSA Panel on Food Additives and Nutrient Sources added to Food (ANS) et al. (2018). Re‐evaluation of celluloses E 460(i), E 460(ii), E 461, E 462, E 463, E 464, E 465, E 466, E 468 and E 469 as food additives. EFSA Journal 16, e05047.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7009359/",
+        "locator": "Summary and conclusions; evaluated cellulose food-additive identities.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.2903/j.efsa.2018.5047"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000201",
+    "sections": {
+      "healthSafetyAndRegulation": "Starch powder involves dust exposure. NIOSH identifies irritation of the eyes, skin and respiratory tract and an explosion hazard when starch dust disperses in air. This guidance addresses starch powder, rather than establishing the toxicology of every isolated fraction or finished blend."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-starch-niosh",
+        "lineageId": "comp-starch-niosh",
+        "sourceType": "institutional_reference",
+        "citation": "NIOSH (2019). NIOSH Pocket Guide to Chemical Hazards: Starch.",
+        "url": "https://www.cdc.gov/niosh/npg/npgd0567.html",
+        "locator": "Identity note on amylose and amylopectin; symptoms and incompatibilities.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000202",
+    "sections": {
+      "healthSafetyAndRegulation": "Amylose is a constituent of starch; general starch-powder handling involves dust exposure. NIOSH identifies irritation of the eyes, skin and respiratory tract and an explosion hazard when starch dust disperses in air. This guidance addresses starch powder, rather than establishing the toxicology of every isolated fraction or finished blend."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-starch-niosh",
+        "lineageId": "comp-starch-niosh",
+        "sourceType": "institutional_reference",
+        "citation": "NIOSH (2019). NIOSH Pocket Guide to Chemical Hazards: Starch.",
+        "url": "https://www.cdc.gov/niosh/npg/npgd0567.html",
+        "locator": "Identity note on amylose and amylopectin; symptoms and incompatibilities.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000203",
+    "sections": {
+      "healthSafetyAndRegulation": "Amylopectin is a constituent of starch; general starch-powder handling involves dust exposure. NIOSH identifies irritation of the eyes, skin and respiratory tract and an explosion hazard when starch dust disperses in air. This guidance addresses starch powder, rather than establishing the toxicology of every isolated fraction or finished blend."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-starch-niosh",
+        "lineageId": "comp-starch-niosh",
+        "sourceType": "institutional_reference",
+        "citation": "NIOSH (2019). NIOSH Pocket Guide to Chemical Hazards: Starch.",
+        "url": "https://www.cdc.gov/niosh/npg/npgd0567.html",
+        "locator": "Identity note on amylose and amylopectin; symptoms and incompatibilities.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000204",
+    "sections": {
+      "healthSafetyAndRegulation": "Raw starch feeding and mixing in thermoplastic-starch manufacture involves dust exposure. NIOSH identifies irritation of the eyes, skin and respiratory tract and an explosion hazard when starch dust disperses in air. This guidance addresses starch powder, rather than establishing the toxicology of every isolated fraction or finished blend."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-starch-niosh",
+        "lineageId": "comp-starch-niosh",
+        "sourceType": "institutional_reference",
+        "citation": "NIOSH (2019). NIOSH Pocket Guide to Chemical Hazards: Starch.",
+        "url": "https://www.cdc.gov/niosh/npg/npgd0567.html",
+        "locator": "Identity note on amylose and amylopectin; symptoms and incompatibilities.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000205",
+    "sections": {
+      "healthSafetyAndRegulation": "Chitin particles can stimulate innate and adaptive immunity. The reviewed animal and cell studies show that particle size, purity, acetylation and exposure route alter whether inflammatory or immunomodulatory responses predominate. Results for purified particles, intact biological structures and chitosan are consequently different evidence categories; natural origin does not imply immune inertness."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-chitin-health",
+        "lineageId": "comp-chitin-health",
+        "sourceType": "open_journal",
+        "citation": "Daniel Elieh Ali Komi et al. (2018). Chitin and Its Effects on Inflammatory and Immune Responses. Clinical reviews in allergy & immunology 54, 213.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5680136/",
+        "locator": "Chitin sensing and size-/route-dependent inflammatory responses.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.1007/s12016-017-8600-0"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000206",
+    "sections": {
+      "healthSafetyAndRegulation": "Chitosan’s immune effects depend on molecular weight, degree of deacetylation, physical form and biological setting. Residual endotoxins and other impurities can confound apparent pro- or anti-inflammatory effects. Purified material and the complete formulation therefore require evaluation for the intended exposure; natural origin alone does not establish compatibility with tissue."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-chitosan-health",
+        "lineageId": "comp-chitosan-health",
+        "sourceType": "open_journal",
+        "citation": "Sophie L Reay et al. (2024). The Paradoxical Immunomodulatory Effects of Chitosan in Biomedicine. Polymers 17, 19.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11723117/",
+        "locator": "Discussion of molecular characteristics, impurities and immunomodulation.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.3390/polym17010019"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000207",
+    "sections": {
+      "healthSafetyAndRegulation": "Alginate implant responses depend on purification and formulation. The review identifies endotoxins, proteins, polyphenols and heavy metals as potential contaminants that can complicate interpretation of inflammatory responses. Results for highly purified alginate should therefore remain distinct from technical-grade material and from modified or cell-containing gels."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-alginate-health",
+        "lineageId": "comp-alginate-health",
+        "sourceType": "open_journal",
+        "citation": "Kuen Yong Lee et al. (2012). Alginate: properties and biomedical applications. Progress in polymer science 37, 106.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3223967/",
+        "locator": "Section 2.3, biocompatibility.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.1016/j.progpolymsci.2011.06.003"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000208",
+    "sections": {
+      "healthSafetyAndRegulation": "Agarose hydrogels are studied as cell-supporting and drug-delivery materials, but heating during gel preparation can damage temperature-sensitive cargo. Chemically modified gels and composites introduce distinct components and biological responses. The reviewed biomedical examples support formulation-specific investigation rather than unrestricted suitability of laboratory electrophoresis agarose for implantation."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-agarose-health",
+        "lineageId": "comp-agarose-health",
+        "sourceType": "open_journal",
+        "citation": "Feng Jiang et al. (2023). Extraction, Modification and Biomedical Application of Agarose Hydrogels: A Review. Marine Drugs 21, 299.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10220669/",
+        "locator": "Biomedical applications: drug delivery and tissue engineering; low-gelling-temperature derivatives.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.3390/md21050299"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000209",
+    "sections": {
+      "healthSafetyAndRegulation": "Carrageenan safety assessment requires distinguishing food-grade carrageenan from deliberately degraded, lower-molecular-weight poligeenan. EFSA’s 2018 EU assessment did not identify genotoxicity or carcinogenicity concerns for the evaluated food additives, but retained uncertainties and a temporary group ADI pending better data. This historical assessment is neither a blanket safety finding for every carrageenan preparation nor a current-use authorization for poligeenan."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-carr-health",
+        "lineageId": "comp-carr-health",
+        "sourceType": "public_report",
+        "citation": "EFSA ANS Panel (2018). Re-evaluation of carrageenan (E407) and processed Eucheuma seaweed (E407a) as food additives. EFSA Journal 16, 5238.",
+        "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2018.5238",
+        "locator": "Summary, discussion and conclusions; food-grade identity and poligeenan distinction.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000210",
+    "sections": {
+      "healthSafetyAndRegulation": "Biomedical lignin studies concern selected purified lignins, derivatives or nanoparticles. Cytotoxicity can change with lignin source, isolation chemistry, particle size, concentration and surface functionality. A favorable cell assay for one preparation does not establish the safety of technical lignin mixtures or a finished drug-delivery formulation."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-lignin-health",
+        "lineageId": "comp-lignin-health",
+        "sourceType": "open_journal",
+        "citation": "Dr Mika Henrikki Sipponen et al. (2019). Lignin for Nano‐ and Microscaled Carrier Systems: Applications, Trends, and Challenges. Chemsuschem 12, 2039.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6593669/",
+        "locator": "Biomedical applications and biocompatibility/cytotoxicity discussion.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.1002/cssc.201900480"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000211",
+    "sections": {
+      "healthSafetyAndRegulation": "Collagen immune responses depend on molecular conformation, accessible telopeptides and source. For extracellular-matrix scaffolds, residual cellular DNA and other non-collagen constituents can also cause adverse responses after incomplete decellularization. Clinical suitability therefore depends on purification and the complete biomaterial, not simply on collagen being a natural component of human tissue."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-collagen-health",
+        "lineageId": "comp-collagen-health",
+        "sourceType": "open_journal",
+        "citation": "Rémi Parenteau-Bareil et al. (2010). Collagen-Based Biomaterials for Tissue Engineering Applications. Materials 3, 1863.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5445871/",
+        "locator": "Section 2.2, immunogenicity and biocompatibility.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.3390/ma3031863"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000212",
+    "sections": {
+      "healthSafetyAndRegulation": "Silk fibroin responses depend on material format and processing. The review distinguishes fibroin from residual sericin and other processing-associated constituents, whose contributions to inflammation are not uniform across studies. Degumming and a favorable cell test do not by themselves establish the safety of a specific implanted silk device."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-silk-health",
+        "lineageId": "comp-silk-health",
+        "sourceType": "open_journal",
+        "citation": "Thang Phan Nguyen et al. (2019). Silk Fibroin-Based Biomaterials for Biomedical Applications: A Review. Polymers 11, 1933.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6960760/",
+        "locator": "Biocompatibility, immune responses and degumming discussion.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.3390/polym11121933"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000213",
+    "sections": {
+      "healthSafetyAndRegulation": "PHA intended for biomedical use requires control of impurities from microbial production, especially bacterial endotoxin released during recovery. The PHA review emphasizes purification and material-dependent host responses. Reported compatibility of selected films or scaffolds is evidence for those preparations, not authorization of every polymer grade or device."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-pha-health",
+        "lineageId": "comp-pha-health",
+        "sourceType": "open_journal",
+        "citation": "Martin Koller et al. (2018). Biodegradable and Biocompatible Polyhydroxy-alkanoates (PHA): Auspicious Microbial Macromolecules for Pharmaceutical and Therapeutic Applications. Molecules : A Journal of Synthetic Chemistry and Natural Product Chemistry 23, 362.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6017587/",
+        "locator": "Biomedical suitability, PHA recovery/purification and endotoxin discussion; PHB, PHBHV and PHBHHx examples.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.3390/molecules23020362"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000214",
+    "sections": {
+      "healthSafetyAndRegulation": "PHB intended for biomedical use requires control of impurities from microbial production, especially bacterial endotoxin released during recovery. The PHA review emphasizes purification and material-dependent host responses. Reported compatibility of selected films or scaffolds is evidence for those preparations, not authorization of every polymer grade or device."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-pha-health",
+        "lineageId": "comp-pha-health",
+        "sourceType": "open_journal",
+        "citation": "Martin Koller et al. (2018). Biodegradable and Biocompatible Polyhydroxy-alkanoates (PHA): Auspicious Microbial Macromolecules for Pharmaceutical and Therapeutic Applications. Molecules : A Journal of Synthetic Chemistry and Natural Product Chemistry 23, 362.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6017587/",
+        "locator": "Biomedical suitability, PHA recovery/purification and endotoxin discussion; PHB, PHBHV and PHBHHx examples.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.3390/molecules23020362"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000215",
+    "sections": {
+      "healthSafetyAndRegulation": "PHBV intended for biomedical use requires control of impurities from microbial production, especially bacterial endotoxin released during recovery. The PHA review emphasizes purification and material-dependent host responses. Reported compatibility of selected films or scaffolds is evidence for those preparations, not authorization of every polymer grade or device."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-pha-health",
+        "lineageId": "comp-pha-health",
+        "sourceType": "open_journal",
+        "citation": "Martin Koller et al. (2018). Biodegradable and Biocompatible Polyhydroxy-alkanoates (PHA): Auspicious Microbial Macromolecules for Pharmaceutical and Therapeutic Applications. Molecules : A Journal of Synthetic Chemistry and Natural Product Chemistry 23, 362.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6017587/",
+        "locator": "Biomedical suitability, PHA recovery/purification and endotoxin discussion; PHB, PHBHV and PHBHHx examples.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.3390/molecules23020362"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000216",
+    "sections": {
+      "healthSafetyAndRegulation": "PHBH intended for biomedical use requires control of impurities from microbial production, especially bacterial endotoxin released during recovery. The PHA review emphasizes purification and material-dependent host responses. Reported compatibility of selected films or scaffolds is evidence for those preparations, not authorization of every polymer grade or device.",
+      "recyclingAndEndOfLife": "Kaneka reported reusable PHBH-based food containers in 2024 and separately announced an on-site composting demonstration for its Green Planet straws in Japanese schools. These are article-specific reuse and biological-treatment routes. The composting announcement does not report completion or a universal composting time; neither example demonstrates recovery of PHBH monomers from mixed waste."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-pha-health",
+        "lineageId": "comp-pha-health",
+        "sourceType": "open_journal",
+        "citation": "Martin Koller et al. (2018). Biodegradable and Biocompatible Polyhydroxy-alkanoates (PHA): Auspicious Microbial Macromolecules for Pharmaceutical and Therapeutic Applications. Molecules : A Journal of Synthetic Chemistry and Natural Product Chemistry 23, 362.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6017587/",
+        "locator": "Biomedical suitability, PHA recovery/purification and endotoxin discussion; PHB, PHBHV and PHBHHx examples.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.3390/molecules23020362"
+      },
+      {
+        "sourceId": "comp-phbh-reuse",
+        "lineageId": "comp-phbh-reuse",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Kaneka Corporation (2024-04-11). KANEKA Biodegradable Polymer Green Planet’s First Reusable Food Containers Adopted by JAL for International In-flight Meals.",
+        "url": "https://www.kaneka.co.jp/en/topics/news/2024/ennr_2404251.html",
+        "locator": "Reusable side-dish containers and Green Planet/PHBH identity; published April 11, 2024.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "comp-phbh-loop",
+        "lineageId": "comp-phbh-loop",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Kaneka Corporation (2024-08-29). Kaneka Launches Demonstration Project of Resource Circulation Model with KANEKA Biodegradable Polymer Green Planet.",
+        "url": "https://www.kaneka.co.jp/en/topics/news/2024/ennr2408291.html",
+        "locator": "Project description: announced on-site straw composting at Hatsukaichi model schools; period through March 31, 2025.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000217",
+    "sections": {
+      "healthSafetyAndRegulation": "For implanted PLA, hydrolysis and accumulation of acidic degradation products can affect local tissue responses. Stereochemistry, crystallinity, geometry and degradation rate influence the exposure. The biomaterials literature therefore treats compatibility as a property of a particular device and degradation environment, rather than an unconditional property of the polymer name."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-pla-health",
+        "lineageId": "comp-pla-health",
+        "sourceType": "open_journal",
+        "citation": "Dana da Silva et al. (2018). Biocompatibility, biodegradation and excretion of polylactic acid (PLA) in medical implants and theranostic systems. Chemical engineering journal (Lausanne, Switzerland : 1996) 340, 9.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6682490/",
+        "locator": "Introduction and discussion of degradation, stereochemistry and host response.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.1016/j.cej.2018.01.010"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000218",
+    "sections": {
+      "healthSafetyAndRegulation": "For implanted PLLA, hydrolysis and accumulation of acidic degradation products can affect local tissue responses. Stereochemistry, crystallinity, geometry and degradation rate influence the exposure. The biomaterials literature therefore treats compatibility as a property of a particular device and degradation environment, rather than an unconditional property of the polymer name."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-pla-health",
+        "lineageId": "comp-pla-health",
+        "sourceType": "open_journal",
+        "citation": "Dana da Silva et al. (2018). Biocompatibility, biodegradation and excretion of polylactic acid (PLA) in medical implants and theranostic systems. Chemical engineering journal (Lausanne, Switzerland : 1996) 340, 9.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6682490/",
+        "locator": "Introduction and discussion of degradation, stereochemistry and host response.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.1016/j.cej.2018.01.010"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000219",
+    "sections": {
+      "healthSafetyAndRegulation": "PGA biomaterials require evaluation of the complete implant and its degradation products. The reviewed polyester studies link degradation rate and local acidic products to inflammation and cell response; scaffold architecture and release rate change the exposure. Biodegradability alone is not evidence of compatibility for every site, dose or formulation."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-polyester-health",
+        "lineageId": "comp-polyester-health",
+        "sourceType": "open_journal",
+        "citation": "Henry Chen et al. (2022). Biomaterials-Driven Sterile Inflammation. Tissue Engineering. Part B, Reviews 28, 22.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8892963/",
+        "locator": "Host responses and degradation products of PGA/PLGA/PCL scaffolds.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.1089/ten.teb.2020.0253"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000220",
+    "sections": {
+      "healthSafetyAndRegulation": "PLGA biomaterials require evaluation of the complete implant and its degradation products. The reviewed polyester studies link degradation rate and local acidic products to inflammation and cell response; scaffold architecture and release rate change the exposure. Biodegradability alone is not evidence of compatibility for every site, dose or formulation.",
+      "recyclingAndEndOfLife": "PLGA used in drug delivery follows the waste category of the complete formulation. WHO guidance separates pharmaceutical and infectious waste from ordinary refuse; biodegradability does not replace that assessment. This is healthcare waste management, not PLGA recycling."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-polyester-health",
+        "lineageId": "comp-polyester-health",
+        "sourceType": "open_journal",
+        "citation": "Henry Chen et al. (2022). Biomaterials-Driven Sterile Inflammation. Tissue Engineering. Part B, Reviews 28, 22.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8892963/",
+        "locator": "Host responses and degradation products of PGA/PLGA/PCL scaffolds.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.1089/ten.teb.2020.0253"
+      },
+      {
+        "sourceId": "comp-who-healthcare-waste",
+        "lineageId": "comp-who-healthcare-waste",
+        "sourceType": "institutional_reference",
+        "citation": "World Health Organization (2024-10-24). Health-care waste.",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/health-care-waste",
+        "locator": "Types of health-care waste and waste-management measures; applied only to healthcare formulations/articles.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000221",
+    "sections": {
+      "healthSafetyAndRegulation": "PCL biomaterials require evaluation of the complete implant and its degradation products. The reviewed polyester studies link degradation rate and local acidic products to inflammation and cell response; scaffold architecture and release rate change the exposure. Biodegradability alone is not evidence of compatibility for every site, dose or formulation."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-polyester-health",
+        "lineageId": "comp-polyester-health",
+        "sourceType": "open_journal",
+        "citation": "Henry Chen et al. (2022). Biomaterials-Driven Sterile Inflammation. Tissue Engineering. Part B, Reviews 28, 22.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8892963/",
+        "locator": "Host responses and degradation products of PGA/PLGA/PCL scaffolds.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.1089/ten.teb.2020.0253"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000222",
+    "sections": {
+      "healthSafetyAndRegulation": "In a study that included PBS raw materials and finished products, methanol-extract bioassays showed that chemical activity varied by product and formulation. These laboratory extracts do not reproduce ordinary food-contact exposure, but demonstrate why biodegradability and resin identity alone cannot establish the safety of additives and other extractable constituents."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-bioplastics-health",
+        "lineageId": "comp-bioplastics-health",
+        "sourceType": "open_journal",
+        "citation": "Zimmermann, L.; Dombrowski, A.; Völker, C.; Wagner, M. (2020). Are bioplastics and plant-based materials safer than conventional plastics? In vitro toxicity and chemical composition. Environment International 145, 106066.",
+        "url": "https://beyondplastic.bm/wp-content/uploads/2022/06/Bioplastics_Toxicity.pdf",
+        "locator": "Table 1, sample extraction, bioassay results and limitations.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000223",
+    "sections": {
+      "healthSafetyAndRegulation": "In a study that included PBAT raw materials and finished products, methanol-extract bioassays showed that chemical activity varied by product and formulation. These laboratory extracts do not reproduce ordinary food-contact exposure, but demonstrate why biodegradability and resin identity alone cannot establish the safety of additives and other extractable constituents."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-bioplastics-health",
+        "lineageId": "comp-bioplastics-health",
+        "sourceType": "open_journal",
+        "citation": "Zimmermann, L.; Dombrowski, A.; Völker, C.; Wagner, M. (2020). Are bioplastics and plant-based materials safer than conventional plastics? In vitro toxicity and chemical composition. Environment International 145, 106066.",
+        "url": "https://beyondplastic.bm/wp-content/uploads/2022/06/Bioplastics_Toxicity.pdf",
+        "locator": "Table 1, sample extraction, bioassay results and limitations.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000224",
+    "sections": {
+      "healthSafetyAndRegulation": "The supplier sheet for BioPBS FD grades, including FD92PM and FD92PB PBSA, identifies hot-polymer burns, dust-related eye irritation and irritating processing fumes. It recommends ventilation, dust control and prevention of pellet release to waterways. The guidance addresses these industrial grades and does not replace evaluation of a finished food-contact or biomedical formulation."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-pbsa-health",
+        "lineageId": "comp-pbsa-health",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "PTTMCC Biochem (2021-05-21). BioPBS FD Type Safety Data Sheet MT-E-TD-0003, version 5.",
+        "url": "https://www.pttmcc.com/file_upload/sds/SDS-FD-Type.pdf",
+        "locator": "Sections 1, 3–8 and 11–12.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000225",
+    "sections": {
+      "healthSafetyAndRegulation": "The U.S. food-contact assessment for Avantium’s PEF notification 2383 is explicitly use-limited: the July 2024 submission covers specified food-contact articles under room-temperature, refrigerated and frozen-storage conditions and excludes foods above 15% alcohol. It is evidence for that supplier’s notified use and conditions, not unrestricted permission for every PEF grade, hot-fill application or medical device."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-pef-fda",
+        "lineageId": "comp-pef-fda",
+        "sourceType": "public_report",
+        "citation": "Avantium Renewable Polymers (2024-07-30). Environmental Assessment for Food Contact Notification 2383, published by the U.S. Food and Drug Administration.",
+        "url": "https://www.fda.gov/media/183704/download?attachment=",
+        "locator": "Section 4, description of proposed action and conditions E–G; applicant identity.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000226",
+    "sections": {
+      "healthSafetyAndRegulation": "Polyether immune recognition depends on chemical form and exposure. The PEG-immunity review discusses PEG, the lower-molecular-weight naming convention for the same ethylene-oxide backbone in antibody-recognition studies. This parenteral-carrier context warrants attention to formulation and molecular weight; it does not supply a universal occupational or oral safety threshold for the entire polymer family."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-peg-health",
+        "lineageId": "comp-peg-health",
+        "sourceType": "open_journal",
+        "citation": "Da Shi et al. (2021). To PEGylate or not to PEGylate: immunological properties of nanomedicine’s most popular component, poly(ethylene) glycol and its alternatives. Advanced drug delivery reviews 180, 114079.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8899923/",
+        "locator": "Anti-PEG antibody specificity and alternative polymers: PEG, PPG and PTMEG.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.1016/j.addr.2021.114079"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000227",
+    "sections": {
+      "healthSafetyAndRegulation": "Polyether immune recognition depends on chemical form and exposure. The PEG-immunity review discusses polypropylene glycol, a hydroxyl-terminated PPO form in antibody-recognition studies. This parenteral-carrier context warrants attention to formulation and molecular weight; it does not supply a universal occupational or oral safety threshold for the entire polymer family."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-peg-health",
+        "lineageId": "comp-peg-health",
+        "sourceType": "open_journal",
+        "citation": "Da Shi et al. (2021). To PEGylate or not to PEGylate: immunological properties of nanomedicine’s most popular component, poly(ethylene) glycol and its alternatives. Advanced drug delivery reviews 180, 114079.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8899923/",
+        "locator": "Anti-PEG antibody specificity and alternative polymers: PEG, PPG and PTMEG.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.1016/j.addr.2021.114079"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000228",
+    "sections": {
+      "healthSafetyAndRegulation": "Polyether immune recognition depends on chemical form and exposure. The PEG-immunity review discusses polytetramethylene ether glycol in antibody-recognition studies. This parenteral-carrier context warrants attention to formulation and molecular weight; it does not supply a universal occupational or oral safety threshold for the entire polymer family."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-peg-health",
+        "lineageId": "comp-peg-health",
+        "sourceType": "open_journal",
+        "citation": "Da Shi et al. (2021). To PEGylate or not to PEGylate: immunological properties of nanomedicine’s most popular component, poly(ethylene) glycol and its alternatives. Advanced drug delivery reviews 180, 114079.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8899923/",
+        "locator": "Anti-PEG antibody specificity and alternative polymers: PEG, PPG and PTMEG.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.1016/j.addr.2021.114079"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000229",
+    "sections": {
+      "healthSafetyAndRegulation": "PHEMA is established in hydrogel contact-lens research and use, while the review distinguishes the polymer’s biological properties from those of the HEMA monomer. Water content, crosslinking and copolymer formulation affect oxygen transport and lens performance. Compatibility of a finished contact lens is consequently more specific than the polymer identity.",
+      "recyclingAndEndOfLife": "For PHEMA-containing clinical materials, contamination and the complete article determine the disposal stream. WHO guidance separates infectious and chemical healthcare waste from ordinary refuse. This is a disposal framework for medical use, not demonstrated hydrogel recovery."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-phema-health",
+        "lineageId": "comp-phema-health",
+        "sourceType": "open_journal",
+        "citation": "Mina Zare et al. (2021). pHEMA: An Overview for Biomedical Applications. International Journal of Molecular Sciences 22, 6376.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8232190/",
+        "locator": "Introduction and contact lens/oxygen permeability sections.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.3390/ijms22126376"
+      },
+      {
+        "sourceId": "comp-who-healthcare-waste",
+        "lineageId": "comp-who-healthcare-waste",
+        "sourceType": "institutional_reference",
+        "citation": "World Health Organization (2024-10-24). Health-care waste.",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/health-care-waste",
+        "locator": "Types of health-care waste and waste-management measures; applied only to healthcare formulations/articles.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000230",
+    "sections": {
+      "healthSafetyAndRegulation": "A study of prepared PNIPAM hydrogel surfaces found no cytotoxic or genotoxic effects in its tested 3T3-L1, HEK293 and A549 cell assays. This is evidence for those hydrogel surfaces and exposure conditions; it does not establish the safety of soluble polymer, unreacted NIPAM, injected particles or an implanted device.",
+      "recyclingAndEndOfLife": "Reversible salting-out permits recovery of physically crosslinked PNIPAM printed objects: immersion in water dissolves the structure, and the collected polymer can be reprinted. The study demonstrated recovery with optional drying at 70 °C. This applies to the reported physical PNIPAM networks; calcium-crosslinked PNIPAM/alginate composites did not completely dissolve, and permanently crosslinked hydrogels require separate assessment."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-pnipam-health",
+        "lineageId": "comp-pnipam-health",
+        "sourceType": "open_journal",
+        "citation": "Virginia Capella et al. (2019). Cytotoxicity and bioadhesive properties of poly-N-isopropylacrylamide hydrogel. Heliyon 5, e01474.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6458465/",
+        "locator": "Cell viability, comet assay and conclusions.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.1016/j.heliyon.2019.e01474"
+      },
+      {
+        "sourceId": "comp-pnipam-re",
+        "lineageId": "comp-pnipam-re",
+        "sourceType": "open_journal",
+        "citation": "Donghwan Ji et al. (2024). Sustainable 3D printing by reversible salting-out effects with aqueous salt solutions. Nature Communications 15, 3925.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11082145/",
+        "locator": "Results: Various 3D printing approaches and applications, Figure 5d and Supplementary Figure 12; PNIPAM/Alg exception.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ],
+        "doi": "10.1038/s41467-024-48121-7"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000231",
+    "sections": {
+      "healthSafetyAndRegulation": "Canada’s August 2020 assessment included PDADMAC homopolymer and concluded low human-health risk for the assessed uses. Its ecological conclusion assumed significant treatment overdosing was avoided: free cationic polymer can affect aquatic organisms, while binding to anionic solids lowers availability. This is a use- and exposure-based assessment, not permission for uncontrolled discharge."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-polyamines-health",
+        "lineageId": "comp-polyamines-health",
+        "sourceType": "public_report",
+        "citation": "Environment and Climate Change Canada and Health Canada (2020). Screening Assessment: Poly(amines) Group.",
+        "url": "https://www.canada.ca/en/environment-climate-change/services/evaluating-existing-substances/screening-assessment-poly-amines-group.html",
+        "locator": "Synopsis and sections 2.1, 2.4–2.8; CAS 26062-79-3.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000232",
+    "sections": {
+      "healthSafetyAndRegulation": "PEI’s high cationic charge can disrupt cell membranes; cytotoxicity depends on molecular weight, branching, concentration and formulation. Biomedical work therefore modifies PEI or incorporates degradable and shielding components to balance delivery efficiency with tolerance. Favorable results for a selected carrier do not establish safety of unmodified bulk PEI at other doses or exposure routes.",
+      "recyclingAndEndOfLife": "PEI-containing carbon-dioxide sorbents can be regenerated by heating to desorb captured gas. Oxidative and thermal deactivation gradually reduce performance, so service regeneration and eventual polymer recovery are different questions. The cited study examines PEI adsorbent deactivation; it does not demonstrate depolymerization or recycling of mixed PEI waste."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-pei-bio",
+        "lineageId": "comp-pei-bio",
+        "sourceType": "open_journal",
+        "citation": "Chong Zhao et al. (2022). Polyethyleneimine-Based Drug Delivery Systems for Cancer Theranostics. Journal of Functional Biomaterials 14, 12.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9862060/",
+        "locator": "PEI cytotoxicity and chemical-modification sections.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.3390/jfb14010012"
+      },
+      {
+        "sourceId": "comp-pei-health",
+        "lineageId": "comp-pei-health",
+        "sourceType": "open_journal",
+        "citation": "Wenting Si et al. (2019). Deactivation Kinetics of Polyethylenimine-based Adsorbents Used for the Capture of Low Concentration CO2. ACS Omega 4, 11237.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6648483/",
+        "locator": "Introduction on thermal regeneration and Results on oxidative/thermal deactivation of supported PEI adsorbents.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ],
+        "doi": "10.1021/acsomega.9b00792"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000233",
+    "sections": {
+      "healthSafetyAndRegulation": "For the linear sodium polystyrenesulfonate reagent of average molecular weight 70,000, the supplier recommends avoiding airborne dust, skin and eye contact, and release into drains. Heating can yield sulfur and sodium oxides as well as carbon oxides. This research reagent is distinct from crosslinked medicinal ion-exchange resins."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-pss-fisher",
+        "lineageId": "comp-pss-fisher",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Thermo Fisher Scientific (2025-12-19). Poly(sodium-p-styrenesulfonate), average molecular weight 70,000: Safety Data Sheet, revision 5.",
+        "url": "https://www.fishersci.com/store/msds?countryCode=US&language=en&partNumber=AC222270050&productDescription=POLY+SODIUM-P-STYRENESULFON+5G&vendorId=VN00032119",
+        "locator": "Sections 6–8 and 10; CAS 25704-18-1 and product identity.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000234",
+    "sections": {
+      "healthSafetyAndRegulation": "For reinforced Nafion N-324 PFSA membrane, the supplier lists skin and eye irritation and advises ventilation and avoidance of dust. Thermal decomposition can release hydrogen fluoride and sulfur oxides. These are membrane-product handling hazards; flammable alcohol hazards in some ionomer dispersions belong to those solvent formulations and should be assessed separately."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-nafion-sds",
+        "lineageId": "comp-nafion-sds",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Thermo Fisher Scientific (2024-03-17). Nafion N-324 membrane, Teflon fabric reinforced: Safety Data Sheet.",
+        "url": "https://www.fishersci.ie/store/msds?countryCode=IE&language=en&partNumber=15432467&productDescription%3DNafionr+N-324+membrane%2C+0.15mm+%280.006in%29+thick%2C+Teflonr+fabric+reinforced=",
+        "locator": "Sections 2, 5–8, 10 and 11; N-324 reinforced membrane.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000235",
+    "sections": {
+      "healthSafetyAndRegulation": "Biomedical surface-sulfonated PEEK studies emphasize removing residual sulfuric acid after treatment; incomplete removal can impair cellular responses. Sulfonation level, post-treatment and added antibacterial components change the interface. This evidence concerns modified PEEK implant surfaces and does not establish the biological suitability of bulk SPEEK fuel-cell membranes."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-speek-biomed",
+        "lineageId": "comp-speek-biomed",
+        "sourceType": "open_journal",
+        "citation": "Zhi Zheng et al. (2022). Strategies to improve bioactive and antibacterial properties of polyetheretherketone (PEEK) for use as orthopedic implants. Materials Today Bio 16, 100402.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9466655/",
+        "locator": "Section 2.1.2.1, sulfonation modification and residual acid removal.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.1016/j.mtbio.2022.100402"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000236",
+    "sections": {
+      "healthSafetyAndRegulation": "Poly(2-oxazoline) is not uniformly invisible to the immune system. The PEG-immunity review describes complement activation by particular poly(2-methyl-2-oxazoline)-coated nanoparticles in human serum. Polymer substitution, architecture and carrier surface matter; results for one PMOXA coating should not be extended to every polyoxazoline or administration route."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-peg-health",
+        "lineageId": "comp-peg-health",
+        "sourceType": "open_journal",
+        "citation": "Da Shi et al. (2021). To PEGylate or not to PEGylate: immunological properties of nanomedicine’s most popular component, poly(ethylene) glycol and its alternatives. Advanced drug delivery reviews 180, 114079.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8899923/",
+        "locator": "Alternative hydrophilic polymers and complement activation by PMOXA-coated nanoparticles.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.1016/j.addr.2021.114079"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000237",
+    "sections": {
+      "healthSafetyAndRegulation": "Water-soluble PVP can elicit immune recognition in some parenteral contexts. The review discusses antibodies following intramuscular administration of high-molecular-weight PVP and supporting animal studies. These results concern molecular weight and administration route; they are not evidence of the same response to all oral, topical or technical PVP uses.",
+      "recyclingAndEndOfLife": "PVP-containing healthcare formulations require disposal according to their drug, chemical or infectious contents. WHO guidance classifies these waste hazards separately from ordinary refuse. This concerns the complete formulation; it does not establish a process for recovering PVP."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-pox-health",
+        "lineageId": "comp-pox-health",
+        "sourceType": "open_journal",
+        "citation": "Peng Zhang et al. (2016). Anti-PEG antibodies in the clinic: current issues and beyond PEGylation. Journal of controlled release : official journal of the Controlled Release Society 244, 184.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5747248/",
+        "locator": "Section 5.1, PVP as a non-PEG polymer and immunogenicity.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.1016/j.jconrel.2016.06.040"
+      },
+      {
+        "sourceId": "comp-who-healthcare-waste",
+        "lineageId": "comp-who-healthcare-waste",
+        "sourceType": "institutional_reference",
+        "citation": "World Health Organization (2024-10-24). Health-care waste.",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/health-care-waste",
+        "locator": "Types of health-care waste and waste-management measures; applied only to healthcare formulations/articles.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000238",
+    "sections": {
+      "healthSafetyAndRegulation": "Poloxamer behavior depends on block lengths, formulation and route. The review reports generally favorable results for several nanoparticle coatings but also discusses complement activation and possible hypersensitivity associated with PEO-containing carriers. A low-toxicity cell result for one poloxamer formulation does not establish equivalent tolerance for every Pluronic grade or injection."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-poloxamer-health",
+        "lineageId": "comp-poloxamer-health",
+        "sourceType": "open_journal",
+        "citation": "Hernán Cortés et al. (2021). Non-Ionic Surfactants for Stabilization of Polymeric Nanoparticles for Biomedical Uses. Materials 14, 3197.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8226872/",
+        "locator": "Section 5.4, toxicity and biocompatibility of poloxamers.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.3390/ma14123197"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000239",
+    "sections": {
+      "healthSafetyAndRegulation": "PAMAM dendrimer cytotoxicity depends strongly on generation, concentration and terminal groups. Cationic amine-terminated dendrimers can disrupt cell membranes; neutralization, PEGylation and other surface modifications can change this response. Results for one modified dendrimer are therefore insufficient to classify the entire family as biocompatible.",
+      "recyclingAndEndOfLife": "Functional reuse is demonstrated for a generation-zero PAMAM–palladium catalyst attached to magnetic iron oxide: magnetic separation allowed six Suzuki or Heck reaction cycles, with less than 1% total palladium leaching reported. This recovers a dendrimer-containing catalytic composite for repeated service; it is not monomer recovery from free PAMAM or mixed pharmaceutical waste."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-dendrimer-health",
+        "lineageId": "comp-dendrimer-health",
+        "sourceType": "open_journal",
+        "citation": "Anna Janaszewska et al. (2019). Cytotoxicity of Dendrimers. Biomolecules 9, 330.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6723213/",
+        "locator": "PAMAM surface charge, generation-dependent toxicity and surface modification sections.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.3390/biom9080330"
+      },
+      {
+        "sourceId": "comp-pamam-re",
+        "lineageId": "comp-pamam-re",
+        "sourceType": "open_journal",
+        "citation": "Safoora Sheikh et al. (2022). Dendritic structured palladium complexes: magnetically retrievable, highly efficient heterogeneous nanocatalyst for Suzuki and Heck cross-coupling reactions. RSC Advances 12, 8833.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8985118/",
+        "locator": "Results: catalytic recyclability, Figure 7, TEM/SEM/FTIR characterization and conclusions.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ],
+        "doi": "10.1039/d2ra00487a"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000240",
+    "sections": {
+      "healthSafetyAndRegulation": "Cured PDMS can release uncrosslinked oligomers and absorb small hydrophobic molecules. A microfluidic study detected oligomers in channel liquid and showed reduced availability of estrogen to cultured cells. These observations concern the studied elastomer devices and culture conditions; curing alone does not establish biological inertness or preserve intended drug concentrations."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-pdms-health",
+        "lineageId": "comp-pdms-health",
+        "sourceType": "open_journal",
+        "citation": "Keil J Regehr et al. (2009). Biological implications of polydimethylsiloxane-based microfluidic cell culture. Lab on a chip 9, 2132.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2792742/",
+        "locator": "Results: uncrosslinked oligomers, estrogen absorption and cell-response experiments.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.1039/b903043c"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000241",
+    "sections": {
+      "healthSafetyAndRegulation": "Polyacetylene requires protection from oxygen to preserve its structure and conductivity; the open review also describes spontaneous crosslinking and the material’s intractability. Handling therefore depends on atmosphere, catalyst residues and whether the material is doped. These chemical-stability observations are not a toxicological clearance for laboratory films or human-contact applications.",
+      "recyclingAndEndOfLife": "Polyacetylene’s insolubility and tendency to crosslink limit ordinary solvent recovery; this is a recovery constraint inferred from the review’s material characterization. Its discussion does not establish repeated remelting or a closed-loop monomer recovery process. Doped films and residual synthesis chemicals must be distinguished from nominally undoped polymer waste."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-pa-health",
+        "lineageId": "comp-pa-health",
+        "sourceType": "open_journal",
+        "citation": "Bruce S Hudson et al. (2018). Polyacetylene: Myth and Reality. Materials 11, 242.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5848939/",
+        "locator": "Introduction and discussions of reactivity, crosslinking, doping and oxygen exclusion. Introduction and material-reactivity/solubility discussion; recovery limitation is an inference.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation",
+          "recyclingAndEndOfLife"
+        ],
+        "doi": "10.3390/ma11020242"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000242",
+    "sections": {
+      "healthSafetyAndRegulation": "PANI tissue-engineering studies use selected dopants and material architectures; their host responses cannot be assigned to every aniline polymer preparation. The review’s experimental examples are not generic medical-device authorization.",
+      "recyclingAndEndOfLife": "For PANI-containing electronics, EPA guidance supports device reuse or collection through electronics-recycling programs. This addresses the complete article and recoverable components; it does not demonstrate PANI monomer recovery."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-conducting-health",
+        "lineageId": "comp-conducting-health",
+        "sourceType": "open_journal",
+        "citation": "Krishna Feron et al. (2018). Organic Bioelectronics: Materials and Biocompatibility. International Journal of Molecular Sciences 19, 2382.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6121695/",
+        "locator": "Biocompatibility discussion and Table 2; named conducting polymer examples.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.3390/ijms19082382"
+      },
+      {
+        "sourceId": "comp-electronics-re",
+        "lineageId": "comp-electronics-re",
+        "sourceType": "institutional_reference",
+        "citation": "U.S. Environmental Protection Agency (updated 2025-12-19). Electronics Donation and Recycling.",
+        "url": "https://www.epa.gov/recycle/electronics-donation-and-recycling",
+        "locator": "Before donating or recycling and Where to donate or recycle; explicitly device-level context.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000243",
+    "sections": {
+      "healthSafetyAndRegulation": "PPy studies show that dopants, substrates and material preparation influence cellular response; the conjugated backbone alone does not determine implant suitability. The review’s experimental examples are not generic medical-device authorization.",
+      "recyclingAndEndOfLife": "For PPy-containing electronics, EPA guidance supports device reuse or collection through electronics-recycling programs. This addresses the complete article and recoverable components; it does not demonstrate PPy monomer recovery."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-conducting-health",
+        "lineageId": "comp-conducting-health",
+        "sourceType": "open_journal",
+        "citation": "Krishna Feron et al. (2018). Organic Bioelectronics: Materials and Biocompatibility. International Journal of Molecular Sciences 19, 2382.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6121695/",
+        "locator": "Biocompatibility discussion and Table 2; named conducting polymer examples.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.3390/ijms19082382"
+      },
+      {
+        "sourceId": "comp-electronics-re",
+        "lineageId": "comp-electronics-re",
+        "sourceType": "institutional_reference",
+        "citation": "U.S. Environmental Protection Agency (updated 2025-12-19). Electronics Donation and Recycling.",
+        "url": "https://www.epa.gov/recycle/electronics-donation-and-recycling",
+        "locator": "Before donating or recycling and Where to donate or recycle; explicitly device-level context.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000244",
+    "sections": {
+      "degradationAndStability": "Degradation products and pathways: Pyrolysis-GC-MS of unsubstituted polythiophene identified hydrogen sulfide, thiophene and thiophene oligomers, with additional sulfur-containing fragments. These are high-temperature analytical products, not an ambient weathering inventory.\n\nTimescales: The study optimized analytical pyrolysis near 900 °C; it did not determine a soil, water or service-life degradation time.\n\nEnvironmental persistence: Thermal fragmentation and synthesis-related overoxidation were characterized, but environmental mineralization was not established. Results for alkyl-substituted polythiophenes should not be substituted for this unsubstituted backbone.",
+      "healthSafetyAndRegulation": "Analytical pyrolysis of unsubstituted polythiophene generates hydrogen sulfide, a toxic inhalation hazard identified by NIOSH. High-temperature treatment therefore introduces a different exposure problem from handling an intact film. The thesis’s pyrolysis products do not quantify routine airborne exposure or establish biocompatibility of the polymer.",
+      "recyclingAndEndOfLife": "Functional-composite regeneration provides one demonstrated reuse route. Kamel and co-workers prepared a polythiophene coating from unsubstituted thiophene on magnetic copper ferrite particles and used the composite to remove mercury(II) from water. After adsorption, an external magnet recovered the particles; hydrochloric-acid treatment followed by water washing regenerated the adsorbent. Five adsorption–desorption cycles retained high mercury-removal efficiency. This is laboratory reuse of the complete polythiophene-containing adsorbent, with a separate mercury-bearing regenerant stream. It does not establish recovery of neat polythiophene or thiophene monomer from discarded electronics."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-pt-thesis-full",
+        "lineageId": "comp-pt-thesis-full",
+        "sourceType": "thesis",
+        "citation": "Tang, Shu (1999). Characterization of Thiophene-Based Conducting Polymers by Pyrolysis-Gas Chromatography-Mass Spectrometry. MSc thesis, Memorial University of Newfoundland.",
+        "url": "https://memorial.scholaris.ca/bitstreams/121ab32a-ee29-4e31-b82f-d00067a453f8/download",
+        "locator": "Sections 3.3 and 5.2, Table 3.2, and chapter 6 conclusions; unsubstituted PT.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "comp-niosh-h2s",
+        "lineageId": "comp-niosh-h2s",
+        "sourceType": "institutional_reference",
+        "citation": "NIOSH (2019). NIOSH Pocket Guide to Chemical Hazards: Hydrogen sulfide.",
+        "url": "https://www.cdc.gov/niosh/npg/npgd0337.html",
+        "locator": "Exposure routes, symptoms and physical description; hazard of evolved H2S, not polymer classification.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      },
+      {
+        "sourceId": "comp-pt-thermal-exposure",
+        "lineageId": "comp-pt-thesis-full",
+        "sourceType": "thesis",
+        "citation": "Tang, Shu (1999). Characterization of Thiophene-Based Conducting Polymers by Pyrolysis-Gas Chromatography-Mass Spectrometry. MSc thesis, Memorial University of Newfoundland.",
+        "url": "https://memorial.scholaris.ca/bitstreams/121ab32a-ee29-4e31-b82f-d00067a453f8/download",
+        "locator": "Section 3.3, Table 3.2 and chapter 6: H2S from unsubstituted PT analytical pyrolysis.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      },
+      {
+        "sourceId": "comp-pth-composite-regeneration-2020",
+        "lineageId": "comp-pth-composite-regeneration-2020",
+        "sourceType": "open_journal",
+        "citation": "Kamel, A. H.; Hassan, A. A.; Amr, A. E.-G. E.; El-Shalakany, H. H.; Al-Omar, M. A. (2020). Synthesis and Characterization of CuFe2O4 Nanoparticles Modified with Polythiophene: Applications to Mercuric Ions Removal. Nanomaterials 10(3), 586.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7153709/",
+        "locator": "Sections 2.2.2, 2.7 and 3.2.6: thiophene-derived coating, magnetic recovery, acid regeneration and five adsorption–desorption cycles of the composite.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "Public full content was read without an account; the entry independently paraphrases and cites the reported experiment.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ],
+        "doi": "10.3390/nano10030586",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000245",
+    "sections": {
+      "healthSafetyAndRegulation": "P3HT retinal-interface studies concern prepared films and specific biological models; their favorable responses do not establish general safety of powder, solvents or all device formulations. The review’s experimental examples are not generic medical-device authorization.",
+      "recyclingAndEndOfLife": "Selective dissolution and recasting have been demonstrated for P3HT in deliberately separable organic transistors. In the cited 2022 preprint, Park and co-workers used regioregular P3HT nanofibril films with PEDOT:PSS electrodes and a removable ion-gel dielectric. After removing the dielectric, acetone washing reduced residual ionic liquid, chloroform selectively dissolved the P3HT layer, and rotary evaporation recovered the semiconductor for new devices. Recycled-material transistors operated, although their mobility and current on/off ratio decreased relative to the original devices; the authors attributed changes partly to residual ionic liquid and altered P3HT aggregation. This is experimental polymer recovery from a specified device stack, rather than depolymerization to monomer or demonstrated recovery from mixed electronic waste."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-conducting-health",
+        "lineageId": "comp-conducting-health",
+        "sourceType": "open_journal",
+        "citation": "Krishna Feron et al. (2018). Organic Bioelectronics: Materials and Biocompatibility. International Journal of Molecular Sciences 19, 2382.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6121695/",
+        "locator": "Biocompatibility discussion and Table 2; named conducting polymer examples.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.3390/ijms19082382"
+      },
+      {
+        "sourceId": "comp-p3ht-device-recovery-2022",
+        "lineageId": "comp-p3ht-device-recovery-2022",
+        "sourceType": "preprint",
+        "citation": "Park, H.; Kim, S.; Lee, J.; Lee, I.; Bontapalle, S.; Na, Y.; Sim, K. (2022). Entirely recyclable all-organic electronics enabled by closed-loop recycling for the sustainable future wearable systems. Research Square, version 1 preprint, posted July 7.",
+        "url": "https://www.researchsquare.com/article/rs-1680147/v1",
+        "locator": "ROF transistors and ROF inverters, manuscript pages 11–12; Materials; Recycle procedure for the P3HT-NFs semiconducting layer. The preprint reports functional devices but reduced mobility and on/off ratio after recycling.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "Public full content was read without an account; the entry independently paraphrases and cites the reported experiment.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ],
+        "doi": "10.21203/rs.3.rs-1680147/v1",
+        "contentUrl": "https://assets-eu.researchsquare.com/files/rs-1680147/v1_covered.pdf",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000246",
+    "sections": {
+      "healthSafetyAndRegulation": "PEDOT electrode-coating studies concern particular dopants and substrates; coating stability and the complete electrode interface remain part of biological evaluation. The review’s experimental examples are not generic medical-device authorization.",
+      "recyclingAndEndOfLife": "For PEDOT-containing electronics, EPA guidance supports device reuse or collection through electronics-recycling programs. This addresses the complete article and recoverable components; it does not demonstrate PEDOT monomer recovery."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-conducting-health",
+        "lineageId": "comp-conducting-health",
+        "sourceType": "open_journal",
+        "citation": "Krishna Feron et al. (2018). Organic Bioelectronics: Materials and Biocompatibility. International Journal of Molecular Sciences 19, 2382.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6121695/",
+        "locator": "Biocompatibility discussion and Table 2; named conducting polymer examples.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.3390/ijms19082382"
+      },
+      {
+        "sourceId": "comp-electronics-re",
+        "lineageId": "comp-electronics-re",
+        "sourceType": "institutional_reference",
+        "citation": "U.S. Environmental Protection Agency (updated 2025-12-19). Electronics Donation and Recycling.",
+        "url": "https://www.epa.gov/recycle/electronics-donation-and-recycling",
+        "locator": "Before donating or recycling and Where to donate or recycle; explicitly device-level context.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000247",
+    "sections": {
+      "healthSafetyAndRegulation": "PEDOT:PSS biological studies concern particular films or device interfaces. Changes to additives, processing and the PEDOT-to-PSS formulation can change the material presented to tissue. The review’s experimental examples are not generic medical-device authorization."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-conducting-health",
+        "lineageId": "comp-conducting-health",
+        "sourceType": "open_journal",
+        "citation": "Krishna Feron et al. (2018). Organic Bioelectronics: Materials and Biocompatibility. International Journal of Molecular Sciences 19, 2382.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6121695/",
+        "locator": "Biocompatibility discussion and Table 2; named conducting polymer examples.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.3390/ijms19082382"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000248",
+    "sections": {
+      "healthSafetyAndRegulation": "A documented PPV precursor-conversion route evolves hydrogen chloride and a sulfur-containing volatile during heating under inert conditions. Capturing conversion effluent and distinguishing precursor residues from the final PPV film are therefore relevant handling considerations. The film-patterning study does not establish biocompatibility or the toxicology of long-term exposure to unsubstituted PPV.",
+      "recyclingAndEndOfLife": "For PPV-containing electronics, EPA guidance supports device reuse or collection through electronics-recycling programs. This addresses the complete article and recoverable components; it does not demonstrate PPV monomer recovery."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-ppv-writing",
+        "lineageId": "comp-ppv-writing",
+        "sourceType": "open_journal",
+        "citation": "Wang, D.; Kim, S.; Underwood, W. D. II; et al. (2009). Direct Writing and Characterization of Poly(p-phenylene Vinylene) Nanostructures. Applied Physics Letters 95, 233108.",
+        "url": "https://repository.gatech.edu/server/api/core/bitstreams/07451fa1-c069-4a96-86ea-1d959f87586a/content",
+        "locator": "Discussion of precursor thermal conversion and evolved products.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ]
+      },
+      {
+        "sourceId": "comp-electronics-re",
+        "lineageId": "comp-electronics-re",
+        "sourceType": "institutional_reference",
+        "citation": "U.S. Environmental Protection Agency (updated 2025-12-19). Electronics Donation and Recycling.",
+        "url": "https://www.epa.gov/recycle/electronics-donation-and-recycling",
+        "locator": "Before donating or recycling and Where to donate or recycle; explicitly device-level context.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000249",
+    "sections": {
+      "healthSafetyAndRegulation": "Oxidized MEH-PPV nanoparticles in PSMA and Pluronic F127 coatings showed coating- and exposure-dependent cell effects. In the reported imaging study, longer incubation revealed cytotoxicity that was reduced by the F127 coating. Fluorescence and cellular uptake therefore do not establish biological inertness; formulation and exposure duration remain essential qualifiers.",
+      "recyclingAndEndOfLife": "For MEH-PPV-containing electronics, U.S. EPA guidance supports reuse of serviceable devices or collection through electronics-recycling programs. This concerns the complete device and its recoverable components; it does not establish recovery of MEH-PPV itself."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-meh-health",
+        "lineageId": "comp-meh-health",
+        "sourceType": "open_journal",
+        "citation": "Struan Bourke et al. (2019). Cellular imaging using emission-tuneable conjugated polymer nanoparticles. RSC Advances 9, 37971.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9075778/",
+        "locator": "Results and discussion: cell imaging and cytotoxicity; conclusion.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.1039/c9ra07983a"
+      },
+      {
+        "sourceId": "comp-meh-ppv-device-end-of-life",
+        "lineageId": "comp-meh-ppv-device-end-of-life",
+        "sourceType": "institutional_reference",
+        "citation": "U.S. Environmental Protection Agency (updated December 19, 2025). Electronics Donation and Recycling.",
+        "url": "https://www.epa.gov/recycle/electronics-donation-and-recycling",
+        "locator": "Before Donating or Recycling Your Used Electronics and Where to Donate or Recycle; device-level guidance, without polymer-specific recovery evidence.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full guidance was read without an account; the entry independently paraphrases and cites the source.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000250",
+    "sections": {
+      "healthSafetyAndRegulation": "For one hydroxyquinoline-functionalized polyfluorene nanoparticle, normal and cancer cell lines responded differently in viability tests, and drug-loaded particles deliberately increased cancer-cell toxicity. This illustrates the importance of side-chain chemistry, nanoparticle formulation and cargo; results for this derivative cannot establish family-wide biocompatibility of polyfluorene films or devices.",
+      "recyclingAndEndOfLife": "Designed fluorene-containing copolymers illustrate recovery through cleavable backbone linkages. Lei and co-workers made PF-PD, a conjugated copolymer of a dialkylfluorene dialdehyde and p-phenylenediamine joined by imine bonds, for carbon-nanotube sorting. Dilute trifluoroacetic acid and water cleaved those imine bonds, releasing the nanotubes. The fluorene dialdehyde was collected from both the sorted suspension and sorting sediment, purified by chromatography, and reused for polymer synthesis; its isolated recovery yield after purification was 93% in that experiment. This route depends on the engineered imine links. It does not establish acid depolymerization of ordinary polyfluorenes whose fluorene units are joined by carbon–carbon bonds, or recovery from mixed electronic waste."
+    },
+    "sources": [
+      {
+        "sourceId": "comp-pfo-health",
+        "lineageId": "comp-pfo-health",
+        "sourceType": "open_journal",
+        "citation": "Sayan Roy Chowdhury et al. (2017). Multifunctional (3-in-1) cancer theranostics applications of hydroxyquinoline-appended polyfluorene nanoparticles. Chemical Science 8, 7566.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5848823/",
+        "locator": "Cell viability and CAM assays; PF-HQ versus doxorubicin-loaded PF-HQ.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was accessed without an account; this entry independently paraphrases and cites the source.",
+        "supports": [
+          "healthSafetyAndRegulation"
+        ],
+        "doi": "10.1039/c7sc03321d"
+      },
+      {
+        "sourceId": "comp-fluorene-imine-recovery-2016",
+        "lineageId": "comp-fluorene-imine-recovery-2016",
+        "sourceType": "open_journal",
+        "citation": "Lei, T.; Chen, X.; Pitner, G.; Wong, H.-S. P.; Bao, Z. (2016). Removable and Recyclable Conjugated Polymers for Highly Selective and High-Yield Dispersion and Release of Low-Cost Carbon Nanotubes. Journal of the American Chemical Society 138, 802–805.",
+        "url": "https://leigroup.cn/docs/Lei-2016-JACS.pdf",
+        "locator": "Pages 803–804, Figure 1 and the polymer removal/recycling discussion: PF-PD imine-linked fluorene copolymer, fluorene dialdehyde recovery from both sorting fractions and resynthesis.",
+        "accessedDate": "2026-09-08",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Public full content was read without an account; the entry independently paraphrases and cites the reported experiment.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ],
+        "doi": "10.1021/jacs.5b12797"
+      }
+    ]
+  }
+]

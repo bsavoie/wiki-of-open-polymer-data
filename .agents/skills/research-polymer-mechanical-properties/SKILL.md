@@ -1,6 +1,6 @@
 ---
 name: research-polymer-mechanical-properties
-description: Research or review mechanical-property evidence for a Wiki of Open Polymer Data entry, preserving grade, composition, specimen, conditioning, test-method, and processing limitations. Use for the Mechanical properties tab; do not generalize a datasheet or one experiment to an entire polymer family.
+description: Populate a Wiki of Open Polymer Data entry’s mechanical properties section with material- and test-qualified evidence.
 ---
 
 # Research Polymer Mechanical Properties
@@ -11,52 +11,57 @@ behavior. First read and follow
 [the shared polymer-entry skill](../research-polymer-entry/SKILL.md) and its two
 linked references.
 
-## Evidence target
+## Population target
 
-Use at least two distinct documents from two independent source lineages. Seek
-one source that explains the material-level behavior and a second that provides
-independent measurements or a comparably scoped dataset. Public manufacturer
-documents are acceptable for a named grade, but label them as vendor evidence
-and do not use two documents from the same supplier as independent
-corroboration.
+Use at least two distinct open documents from two source lineages. When
+possible, pair a source explaining family-level behavior with an open paper or
+public manufacturer document containing measured examples. If broad evidence
+is scarce, two independently bounded examples are still useful population
+coverage. Two qualitative reviews may still be used when no suitable open
+measurement source is found in the pass; keep the resulting gap visible.
 
-## Preserve the measurement envelope
+## Useful mechanical coverage
 
-For every quantitative value or range, retain as much of the following as the
-source reports:
+Aim to report the important mechanical character of the polymer and relevant
+endpoints such as tensile modulus or strength, elongation, impact response,
+hardness, creep, fatigue, compression, or tear behavior. A useful population
+draft normally contains:
+
+- a concise account of the material's characteristic mechanical response and
+  the main structural or formulation variables that change it;
+- one focused attempt to find a bounded measured endpoint; include it when an
+  open data-bearing source is readily available, otherwise state that this pass
+  found only qualitative or neighboring-formulation evidence;
+- enough context to show whether the example is a neat polymer, grade,
+  compound, composite, fiber, film, gel, or cured network.
+
+For quantitative examples, retain the most consequential information the
+source provides without building a full evidence ledger:
 
 - exact polymer, grade, formulation, reinforcement, additives, and morphology;
 - specimen form, orientation, preparation process, and dimensions when
   consequential;
 - dry/as-molded/conditioned state, humidity, moisture content, and temperature;
 - test method, loading mode, speed or strain rate, and direction;
-- statistic, range, uncertainty, or sample limitation.
+- statistic, range, or uncertainty when readily available.
 
-Run an explicit unreported-fields pass. If the source omits grade identity,
-composition, conditioning protocol, specimen geometry, direction or rate, or
-replicate/statistical basis, state that omission beside the affected numbers.
-Do not decode a formulation or filler fraction from a material designator such
-as `PA6-GB30` unless a separate source defines it.
+Do not turn a grade value into a family constant or decode a formulation from a
+trade designator without support. A population pass does not require listing
+every absent specimen or test field; reserve that exhaustive envelope audit for
+later hardening.
 
-Prioritize tensile modulus, tensile strength and yield behavior, elongation,
-flexural response, impact response, compressive or tear behavior, creep,
-fatigue, and hardness only as relevant to the material. Mechanical properties
-are distinct from thermal, electrical, optical, barrier, and rheological data;
-do not fill this tab with a general property catalog.
+Mechanical properties are distinct from thermal, electrical, optical, barrier,
+and rheological data; keep those outside this tab.
 
 ## Draft and review
 
-Lead with qualitative structure–mechanics relationships that survive across
-the claimed scope. Put grade-specific numbers in explicitly bounded examples,
-not family-wide ranges. Say when methods or conditioning differ so values
-should not be compared directly. Map every used source to
-`mechanicalProperties` and add `grade_variation_not_captured` unless the
-evidence genuinely compares a representative breadth of the entry.
+Lead with qualitative structure–mechanics relationships, then give explicitly
+bounded measured examples when available. Say when values from different
+grades or methods should not be treated as one family range. Map a source to
+`mechanicalProperties` only when its cited material contains mechanical
+behavior or measurements; a synthesis or processing mention alone is not
+enough. Normally retain `grade_variation_not_captured` and
+`property_data_needed` during population. Detailed supplement, footnote,
+conditioning, and uncertainty review is a later hardening task.
 
-Before publication, run an adversarial pass for hidden filler, reinforcement,
-orientation, crystallinity, moisture, temperature, strain-rate, and process
-history effects. If a paper reports only two tests, ambiguous specimen
-conditioning, or internally non-monotonic results, retain those limitations and
-do not promote the trend to a family rule. State explicitly which material and
-process subsets were actually varied before reporting a trend. Run
-`npm run check` after updating the authoritative snapshot.
+Run `npm run check` once after completing the requested article or batch.

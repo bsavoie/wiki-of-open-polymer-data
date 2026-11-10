@@ -1,0 +1,1321 @@
+[
+  {
+    "wopId": "wop-000052",
+    "degradationAndStability": "Degradation products and pathways: Amide-bond cleavage produces shorter chains and, under deliberate hydrolysis, material-specific monomers. The cited experiments distinguish caprolactam-rich PA6 products from diamine/diacid recovery for PA66 and PA1010 and amino-acid recovery for PA11 and PA12.\n\nTimescales: The tested polyamides respond differently to hot acid and hydrothermal treatment. Their reactor residence times are not interchangeable and do not define a family lifetime.\n\nEnvironmental persistence: The cited chemical-recovery experiments do not measure environmental mineralization. No soil, freshwater or marine disappearance time is established here.",
+    "recyclingAndEndOfLife": "Mechanical reprocessing and dissolution/reprecipitation retain polymer, whereas chemical routes recover monomers. The open room-temperature dissolution study demonstrates PA6/PA66 waste recovery with formic-acid/cosolvent mixtures. Its scope does not establish compatibility with every aliphatic or aromatic polyamide.",
+    "sources": [
+      {
+        "sourceId": "deg-pa-microwave-2020",
+        "lineageId": "national-institute-chemistry-slovenia",
+        "sourceType": "open_journal",
+        "citation": "Česarek, U.; Pahovnik, D.; Žagar, E. Chemical Recycling of Aliphatic Polyamides by Microwave-Assisted Hydrolysis for Efficient Monomer Recovery. ACS Sustainable Chemistry & Engineering 8 (2020), 16274–16282.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7662757/",
+        "locator": "Experimental Section, Tables 1–2 and Scheme 1: PA66, PA11, PA12 and PA1010 pellets; microwave HCl hydrolysis and isolated monomers.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "doi": "10.1021/acssuschemeng.0c05706",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-nylon-dissolution-2025",
+        "lineageId": "nylon-dissolution-2025",
+        "sourceType": "open_journal",
+        "citation": "Tanks, J.; Tamura, K. Room-Temperature Material Recycling/Upcycling of Polyamide Waste Enabled by Cosolvent-Tunable Dissolution Kinetics. Angewandte Chemie International Edition (2025), e202502474.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12304792/",
+        "locator": "Results and methods: formic-acid/cosolvent dissolution of PA6 and PA66, recovery and remanufacturing.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-htl-screening-2021",
+        "lineageId": "htl-screening-2021",
+        "sourceType": "preprint",
+        "citation": "Souza dos Passos, J.; Glasius, M.; Biller, P. Screening of common synthetic polymers for depolymerization by subcritical hydrothermal liquefaction. Preprint (2021).",
+        "url": "https://arxiv.org/pdf/2110.09213",
+        "locator": "Experimental screening and product characterization for PA6, PA66 and bisphenol-A PC: 350 °C, 20 min in water, with and without KOH.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000053",
+    "degradationAndStability": "Degradation products and pathways: In the cited subcritical-water experiment, PA6 gives a caprolactam-rich liquid through amide cleavage and cyclization. That product mixture describes reactor treatment, not a measured outdoor-weathering leachate.\n\nTimescales: The screening used 350 °C and a 20 min residence time in water, with parallel KOH-assisted trials. Product conversion and recovery at those conditions are distinct from biodegradation.\n\nEnvironmental persistence: The cited chemical-recovery experiments do not measure environmental mineralization. No soil, freshwater or marine disappearance time is established here.",
+    "recyclingAndEndOfLife": "PA6 can be reclaimed as polymer by dissolution and precipitation; the cited study uses formic-acid/cosolvent mixtures and remanufactures recovered material. Depolymerization provides a separate caprolactam-recovery route, with purification needed before reuse.",
+    "sources": [
+      {
+        "sourceId": "deg-htl-screening-2021",
+        "lineageId": "htl-screening-2021",
+        "sourceType": "preprint",
+        "citation": "Souza dos Passos, J.; Glasius, M.; Biller, P. Screening of common synthetic polymers for depolymerization by subcritical hydrothermal liquefaction. Preprint (2021).",
+        "url": "https://arxiv.org/pdf/2110.09213",
+        "locator": "Experimental screening and product characterization for PA6, PA66 and bisphenol-A PC: 350 °C, 20 min in water, with and without KOH.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-nylon-dissolution-2025",
+        "lineageId": "nylon-dissolution-2025",
+        "sourceType": "open_journal",
+        "citation": "Tanks, J.; Tamura, K. Room-Temperature Material Recycling/Upcycling of Polyamide Waste Enabled by Cosolvent-Tunable Dissolution Kinetics. Angewandte Chemie International Edition (2025), e202502474.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12304792/",
+        "locator": "Results and methods: formic-acid/cosolvent dissolution of PA6 and PA66, recovery and remanufacturing.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000054",
+    "degradationAndStability": "Degradation products and pathways: Acid hydrolysis yields adipic acid and protonated hexamethylenediamine; the latter is isolated as free diamine after neutralization.\n\nTimescales: Microwave treatment of unfilled pellets at 200 °C and HCl/amide ratio 1.25 reached complete conversion in 10 min. This is laboratory depolymerization.\n\nEnvironmental persistence: The cited chemical-recovery experiments do not measure environmental mineralization. No soil, freshwater or marine disappearance time is established here.",
+    "recyclingAndEndOfLife": "Monomer separation, neutralization and distillation were demonstrated. Polymer-preserving dissolution/reprecipitation is another demonstrated route; mixed wastes require separation and formulation control.",
+    "sources": [
+      {
+        "sourceId": "deg-pa-microwave-2020",
+        "lineageId": "national-institute-chemistry-slovenia",
+        "sourceType": "open_journal",
+        "citation": "Česarek, U.; Pahovnik, D.; Žagar, E. Chemical Recycling of Aliphatic Polyamides by Microwave-Assisted Hydrolysis for Efficient Monomer Recovery. ACS Sustainable Chemistry & Engineering 8 (2020), 16274–16282.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7662757/",
+        "locator": "Experimental Section, Tables 1–2 and Scheme 1: PA66, PA11, PA12 and PA1010 pellets; microwave HCl hydrolysis and isolated monomers.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "doi": "10.1021/acssuschemeng.0c05706",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-nylon-dissolution-2025",
+        "lineageId": "nylon-dissolution-2025",
+        "sourceType": "open_journal",
+        "citation": "Tanks, J.; Tamura, K. Room-Temperature Material Recycling/Upcycling of Polyamide Waste Enabled by Cosolvent-Tunable Dissolution Kinetics. Angewandte Chemie International Edition (2025), e202502474.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12304792/",
+        "locator": "Results and methods: formic-acid/cosolvent dissolution of PA6 and PA66, recovery and remanufacturing.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000058",
+    "degradationAndStability": "Degradation products and pathways: Hydrochloric-acid cleavage produces 11-aminoundecanoic acid hydrochloride.\n\nTimescales: Unfilled PA11 pellets required 40 min at 200 °C with HCl/amide ratio 1.25 for complete conversion in the microwave study.\n\nEnvironmental persistence: The cited chemical-recovery experiments do not measure environmental mineralization. No soil, freshwater or marine disappearance time is established here.",
+    "recyclingAndEndOfLife": "Acid depolymerization recovers amino-acid feedstock. A separate repeated-melt-processing study demonstrates recycling of specified PA11/basalt-fiber/flame-retardant formulations, with properties and fire behavior checked after processing; bio-based origin alone does not establish biodegradability.",
+    "sources": [
+      {
+        "sourceId": "deg-pa-microwave-2020",
+        "lineageId": "national-institute-chemistry-slovenia",
+        "sourceType": "open_journal",
+        "citation": "Česarek, U.; Pahovnik, D.; Žagar, E. Chemical Recycling of Aliphatic Polyamides by Microwave-Assisted Hydrolysis for Efficient Monomer Recovery. ACS Sustainable Chemistry & Engineering 8 (2020), 16274–16282.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7662757/",
+        "locator": "Experimental Section, Tables 1–2 and Scheme 1: PA66, PA11, PA12 and PA1010 pellets; microwave HCl hydrolysis and isolated monomers.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "doi": "10.1021/acssuschemeng.0c05706",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-pa11-reprocess-2024",
+        "lineageId": "pa11-reprocess-2024",
+        "sourceType": "open_journal",
+        "citation": "The Recyclability of Fire-Retarded Biobased Polyamide 11 (PA11) Composites Reinforced with Basalt Fibers (BFs): The Influence of Reprocessing on Structure, Properties, and Fire Behavior. Molecules 29 (2024), 3233.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11243124/",
+        "locator": "Experimental materials, repeated processing and conclusions: PA11 formulations with basalt fibers and intumescent flame retardant.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "doi": "10.3390/molecules29133233",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000059",
+    "degradationAndStability": "Degradation products and pathways: Hydrochloric-acid cleavage yields 12-aminododecanoic acid hydrochloride.\n\nTimescales: PA12 pellets reached complete conversion at 200 °C in 10 min with HCl/amide ratio 2.5 in the microwave study.\n\nEnvironmental persistence: The cited chemical-recovery experiments do not measure environmental mineralization. No soil, freshwater or marine disappearance time is established here.",
+    "recyclingAndEndOfLife": "Monomer recovery by acid hydrolysis is demonstrated. Separately, used selective-laser-sintering PA12 powder was extruded into filament for fused-deposition printing, providing a polymer-reuse route for that powder stream rather than proof that indefinitely aged powder remains suitable.",
+    "sources": [
+      {
+        "sourceId": "deg-pa-microwave-2020",
+        "lineageId": "national-institute-chemistry-slovenia",
+        "sourceType": "open_journal",
+        "citation": "Česarek, U.; Pahovnik, D.; Žagar, E. Chemical Recycling of Aliphatic Polyamides by Microwave-Assisted Hydrolysis for Efficient Monomer Recovery. ACS Sustainable Chemistry & Engineering 8 (2020), 16274–16282.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7662757/",
+        "locator": "Experimental Section, Tables 1–2 and Scheme 1: PA66, PA11, PA12 and PA1010 pellets; microwave HCl hydrolysis and isolated monomers.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "doi": "10.1021/acssuschemeng.0c05706",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-pa12-powder-2019",
+        "lineageId": "pa12-powder-2019",
+        "sourceType": "open_journal",
+        "citation": "Feng, L.; Wang, Y.; Wei, Q. PA12 Powder Recycled from SLS for FDM. Polymers 11 (2019), 727.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6523659/",
+        "locator": "Methods and results: reused SLS PA12 powder converted into extrusion filament and FDM specimens.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "doi": "10.3390/polym11040727",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000060",
+    "degradationAndStability": "Degradation products and pathways: Microwave-assisted acid hydrolysis yields sebacic acid and protonated 1,10-decanediamine.\n\nTimescales: The tested PA1010 pellets reached complete conversion in 17 min at 200 °C and HCl/amide ratio 2.5.\n\nEnvironmental persistence: The cited chemical-recovery experiments do not measure environmental mineralization. No soil, freshwater or marine disappearance time is established here.",
+    "recyclingAndEndOfLife": "The laboratory process separates the diacid and diamine for feedstock recovery. This establishes chemical feasibility, not a commercial collection system for PA1010.",
+    "sources": [
+      {
+        "sourceId": "deg-pa-microwave-2020",
+        "lineageId": "national-institute-chemistry-slovenia",
+        "sourceType": "open_journal",
+        "citation": "Česarek, U.; Pahovnik, D.; Žagar, E. Chemical Recycling of Aliphatic Polyamides by Microwave-Assisted Hydrolysis for Efficient Monomer Recovery. ACS Sustainable Chemistry & Engineering 8 (2020), 16274–16282.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7662757/",
+        "locator": "Experimental Section, Tables 1–2 and Scheme 1: PA66, PA11, PA12 and PA1010 pellets; microwave HCl hydrolysis and isolated monomers.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "doi": "10.1021/acssuschemeng.0c05706",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000068",
+    "degradationAndStability": "Degradation products and pathways: Deliberate carbonate hydrogenation produces bisphenol A and methanol. These are products of the hydrogen/catalyst treatment and should not be treated as a complete inventory of ambient-weathering products.\n\nTimescales: An iron-pincer experiment on approximately 3 mm pellets used THF, 45 bar H2 and 120 °C for 24 h; catalyst loading affected bisphenol-A yield.\n\nEnvironmental persistence: The cited chemical-recovery experiments do not measure environmental mineralization. No soil, freshwater or marine disappearance time is established here.",
+    "recyclingAndEndOfLife": "Mechanical reuse and remolding retain the polymer when quality permits. The cited primary study demonstrates chemical recovery from PC and selected end-of-life articles by iron-catalyzed hydrogenation; it does not establish commercial operation of that process.",
+    "sources": [
+      {
+        "sourceId": "deg-pc-iron-2020",
+        "lineageId": "pc-iron-2020",
+        "sourceType": "open_journal",
+        "citation": "Alberti, C.; Fedorenko, E.; Enthaler, S. Hydrogenative Depolymerization of End-of-Life Polycarbonates by an Iron Pincer Complex. ChemistryOpen 9 (2020), 818–821.",
+        "url": "https://d-nb.info/1261352726/34",
+        "locator": "Tables 1–2 and Schemes 2–4: bisphenol-A PC and PPC hydrogenation; product identity and laboratory recovery.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "doi": "10.1002/open.202000161",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000069",
+    "degradationAndStability": "Degradation products and pathways: Hot pressing atactic PPC can form cyclic propylene carbonate by cyclodepolymerization. A separate iron-catalyzed hydrogenation converts PPC to 1,2-propanediol and methanol; the product set depends on the treatment.\n\nTimescales: Solvent-cast neat PPC films lost 10.7% mass after 24 months in sandy soil at 22 ± 2 °C. In PBS at 37 °C, the same study reports 14.5% mass loss after 12 months.\n\nEnvironmental persistence: Substantial material remained in these tests. They measure mass loss, not complete carbon mineralization; formulation, molar mass, geometry and environment limit transfer to other PPC articles.",
+    "recyclingAndEndOfLife": "Iron-catalyzed hydrogenation demonstrates recovery of diol feedstock. Thermal conversion to cyclic carbonate is a different recovery target and does not by itself demonstrate a closed polymer-to-polymer loop. These cited experiments do not establish routine post-consumer collection.",
+    "sources": [
+      {
+        "sourceId": "deg-pc-iron-2020",
+        "lineageId": "pc-iron-2020",
+        "sourceType": "open_journal",
+        "citation": "Alberti, C.; Fedorenko, E.; Enthaler, S. Hydrogenative Depolymerization of End-of-Life Polycarbonates by an Iron Pincer Complex. ChemistryOpen 9 (2020), 818–821.",
+        "url": "https://d-nb.info/1261352726/34",
+        "locator": "Tables 1–2 and Schemes 2–4: bisphenol-A PC and PPC hydrogenation; product identity and laboratory recovery.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "doi": "10.1002/open.202000161",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-ppc-thermal-2024",
+        "lineageId": "ppc-thermal-2024",
+        "sourceType": "open_journal",
+        "citation": "Trofimchuk et al. Novel Simple Approach for Production of Elastic Poly(propylene carbonate). Polymers (2024).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11644618/",
+        "locator": "Hot pressing of atactic PPC at 110–140 °C; measured cyclic propylene carbonate formation and resulting plasticization.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-ppc-soil-2024",
+        "lineageId": "ppc-soil-2024",
+        "sourceType": "open_journal",
+        "citation": "Szymanek et al. Degradation of Polylactic Acid/Polypropylene Carbonate Films in Soil and Phosphate Buffer and Their Potential Usefulness in Agriculture and Agrochemistry. International Journal of Molecular Sciences 25 (2024), 653.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10779558/",
+        "locator": "Sections 2.1 and 4.1–4.5: solvent-cast neat PPC control; 24-month soil burial at 22 ± 2 °C and 12-month PBS incubation at 37 °C; weight loss, not mineralization.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "doi": "10.3390/ijms25010653",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000071",
+    "degradationAndStability": "Degradation products and pathways: The NIST study directly measures yellowing and gloss change in an unpigmented PC–siloxane material containing approximately 20 mass% PDMS. It does not identify a complete molecular degradation-product inventory.\n\nTimescales: The 3.2 mm specimens were exposed to controlled UV at 35, 55 and 70 °C with irradiance and humidity varied. Results are exposure-dependent optical aging, not a single destruction time.\n\nEnvironmental persistence: The study provides no mineralization or field-disappearance measurement. Its accelerated color/gloss response should not be converted to a litter lifetime.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-pc-copolymers-weather-2020",
+        "lineageId": "nist-pickett-weathering",
+        "sourceType": "open_journal",
+        "citation": "Pickett, J. E.; Kuvshinnikova, O.; Sung, L.-P.; Ermi, B. D. Accelerated weathering parameters for some aromatic engineering thermoplastics. Part 2: Polycarbonate copolymers, polyarylate and ABS. Polymer Degradation and Stability 181 (2020), 109330.",
+        "url": "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=929383",
+        "locator": "Sections 2.1–2.3 and 3: PC-1 with about 20 mass% PDMS and PC-2 with about 15 mass% aliphatic-diacid ester; 3.2 mm chips, controlled UV/temperature/humidity; color and gloss endpoints.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "doi": "10.1016/j.polymdegradstab.2020.109330",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000072",
+    "degradationAndStability": "Degradation products and pathways: The NIST study directly measures yellowing and gloss change in an unpigmented PC copolymer containing approximately 15 mass% bisphenol-A ester of a long-chain aliphatic diacid. It does not identify a complete molecular degradation-product inventory.\n\nTimescales: The 3.2 mm specimens were exposed to controlled UV at 35, 55 and 70 °C with irradiance and humidity varied. Results are exposure-dependent optical aging, not a single destruction time.\n\nEnvironmental persistence: The study provides no mineralization or field-disappearance measurement. Its accelerated color/gloss response should not be converted to a litter lifetime.",
+    "recyclingAndEndOfLife": "A patent demonstrates mechanical reuse of defined multilayer film scrap containing a resorcinol arylate/bisphenol-A polyester–carbonate outer layer and a PC/PCTG base. Regrind is repelletized and returned to the base layer beneath a virgin outer layer, with rheological and mechanical properties examined. The result is specific to that film architecture and composition; it does not establish recycling of every polyester–carbonate or routine municipal acceptance.",
+    "sources": [
+      {
+        "sourceId": "deg-pc-copolymers-weather-2020",
+        "lineageId": "nist-pickett-weathering",
+        "sourceType": "open_journal",
+        "citation": "Pickett, J. E.; Kuvshinnikova, O.; Sung, L.-P.; Ermi, B. D. Accelerated weathering parameters for some aromatic engineering thermoplastics. Part 2: Polycarbonate copolymers, polyarylate and ABS. Polymer Degradation and Stability 181 (2020), 109330.",
+        "url": "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=929383",
+        "locator": "Sections 2.1–2.3 and 3: PC-1 with about 20 mass% PDMS and PC-2 with about 15 mass% aliphatic-diacid ester; 3.2 mm chips, controlled UV/temperature/humidity; color and gloss endpoints.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "doi": "10.1016/j.polymdegradstab.2020.109330",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-polyestercarbonate-film-regrind-2009",
+        "lineageId": "polyestercarbonate-film-regrind-2009",
+        "sourceType": "patent",
+        "citation": "WO2009006167A1. Recyclable multilayer thermoplastic films and methods of making (2009).",
+        "url": "https://patents.google.com/patent/WO2009006167A1/en",
+        "locator": "Example 2, paragraphs 0133–0144: resorcinol arylate/BPA polyester–carbonate outer layer and PC/PCTG base; regrind and repeated extrusion.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000073",
+    "degradationAndStability": "Degradation products and pathways: Formaldehyde is the characteristic decomposition product documented for POM. The copolymer guide distinguishes stabilization by comonomer interruptions from homopolymer behavior.\n\nTimescales: Temperature, contamination and residence time govern processing decomposition. The cited guides do not provide an environmental half-life.\n\nEnvironmental persistence: Processing instability does not establish rapid degradation in soil or water; no environmental mineralization timescale is reported in these guides.",
+    "recyclingAndEndOfLife": "The manufacturer guides describe clean scrap regrinding and blending with virgin material. Repeated heat history, stabilization, contamination and feed consistency constrain recovery; these instructions concern controlled manufacturing streams.",
+    "sources": [
+      {
+        "sourceId": "deg-delrin-recovery-guide",
+        "lineageId": "delrin",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Delrin. Delrin Acetal Homopolymer Thermoplastic Resin: Technical Molding Guide (2024).",
+        "url": "https://www.delrin.com/wp-content/uploads/2024/11/Delrin-Technical-Molding-Guide-NA-FNL.pdf",
+        "locator": "Thermal stability and decomposition precautions; regrind chapter, mechanical-property retention and handling.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-hostaform-recovery-guide",
+        "lineageId": "celanese",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Celanese. Hostaform POM Polyoxymethylene Copolymer Product Manual.",
+        "url": "https://explore.celanese.com/rs/139-DBZ-834/images/POM-Hostaform-Product-Manual.pdf?version=0",
+        "locator": "Polyacetal copolymer backbone and thermal/hydrolytic stabilization; environmental/material-recycling section and repeated processing.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000074",
+    "degradationAndStability": "Degradation products and pathways: The Delrin homopolymer guide identifies formaldehyde as the principal gaseous decomposition product during overheating; emissions can also occur during normal processing.\n\nTimescales: The guide treats degradation as a coupled melt-temperature/residence-time problem, not a fixed time independent of processing conditions.\n\nEnvironmental persistence: No environmental mineralization duration is established by the molding guide. Thermal decomposition and outdoor persistence are different evidence questions.",
+    "recyclingAndEndOfLife": "Regrinding and remolding clean homopolymer scrap are documented in the guide. Regrind composition and prior processing history must be controlled, with resulting mechanical properties checked for the intended article.",
+    "sources": [
+      {
+        "sourceId": "deg-delrin-recovery-guide",
+        "lineageId": "delrin",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Delrin. Delrin Acetal Homopolymer Thermoplastic Resin: Technical Molding Guide (2024).",
+        "url": "https://www.delrin.com/wp-content/uploads/2024/11/Delrin-Technical-Molding-Guide-NA-FNL.pdf",
+        "locator": "Thermal stability and decomposition precautions; regrind chapter, mechanical-property retention and handling.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000075",
+    "degradationAndStability": "Degradation products and pathways: The Celanese guide explains formaldehyde-releasing POM degradation and the stabilizing role of comonomer units that interrupt unzipping.\n\nTimescales: Repeated processing can cause degradation and property deterioration; the guide does not establish an outdoor decay time.\n\nEnvironmental persistence: Hydrolytic and processing stabilization are not measurements of environmental mineralization. No soil or water lifetime is assigned.",
+    "recyclingAndEndOfLife": "The guide documents dry, clean, dust-free regrind blended with virgin copolymer. It distinguishes manufacturing scrap from less predictable post-consumer material and warns that multiple recycling loops can reduce quality.",
+    "sources": [
+      {
+        "sourceId": "deg-hostaform-recovery-guide",
+        "lineageId": "celanese",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Celanese. Hostaform POM Polyoxymethylene Copolymer Product Manual.",
+        "url": "https://explore.celanese.com/rs/139-DBZ-834/images/POM-Hostaform-Product-Manual.pdf?version=0",
+        "locator": "Polyacetal copolymer backbone and thermal/hydrolytic stabilization; environmental/material-recycling section and repeated processing.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000077",
+    "degradationAndStability": "Degradation products and pathways: Selective hydroxylation of the aryl–oxygen backbone produces bisphenol A and bisphenol S, alongside incompletely cleaved oligomers when conditions are insufficient.\n\nTimescales: The cited laboratory work uses concentrated hydroxide in DMI at 150 °C, with reaction duration and water control affecting conversion.\n\nEnvironmental persistence: The cited chemical-recovery experiments do not measure environmental mineralization. No soil, freshwater or marine disappearance time is established here.",
+    "recyclingAndEndOfLife": "Hydroxylation is a demonstrated chemical-recovery route for PSU pellets. Thiol/base cleavage provides a second laboratory conversion to functionalized aromatic products. Neither experiment is evidence of an established municipal PSU recycling stream.",
+    "sources": [
+      {
+        "sourceId": "deg-sulfones-hydroxylation-2023",
+        "lineageId": "aist-minami-depolymerization",
+        "sourceType": "open_journal",
+        "citation": "Minami, Y.; Inagaki, Y.; Tsuyuki, T.; Sato, K.; Nakajima, Y. Hydroxylation-Depolymerization of Oxyphenylene-Based Super Engineering Plastics To Regenerate Arenols. JACS Au 3 (2023), 2323–2332.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10466334/",
+        "locator": "Results, Table 1 and Schemes 2–6: PSU, PESU and PPSU; CsOH/CaH2 in DMI, selective aryl–oxygen cleavage and arenol products.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "doi": "10.1021/jacsau.3c00357",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-sulfones-thiolation-2024",
+        "lineageId": "aist-minami-depolymerization",
+        "sourceType": "open_journal",
+        "citation": "Minami et al. Catalytic thiolation-depolymerization-like decomposition of oxyphenylene-type super engineering plastics via selective carbon–oxygen main chain cleavages. Communications Chemistry 7 (2024), 37.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10879179/",
+        "locator": "Results, substrate scope and Figure 7: thiol/base treatment of PEEK, PSU, PPSU and PEI; model products and reinforced/consumer articles.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "doi": "10.1038/s42004-024-01120-7",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000078",
+    "degradationAndStability": "Degradation products and pathways: Hydroxylation of PESU cleaves aryl–oxygen bonds and recovers bisphenol S.\n\nTimescales: PESU pellets treated with three equivalents of CsOH monohydrate for 4 h under the study’s 150 °C DMI conditions gave 92% bisphenol-S yield.\n\nEnvironmental persistence: The cited chemical-recovery experiments do not measure environmental mineralization. No soil, freshwater or marine disappearance time is established here.",
+    "recyclingAndEndOfLife": "Chemical recovery is demonstrated in that laboratory experiment. The supplier design guide also describes controlled drying and regrind handling for its sulfone molding resins, a polymer-preserving route whose applicability depends on grade and contamination.",
+    "sources": [
+      {
+        "sourceId": "deg-sulfones-hydroxylation-2023",
+        "lineageId": "aist-minami-depolymerization",
+        "sourceType": "open_journal",
+        "citation": "Minami, Y.; Inagaki, Y.; Tsuyuki, T.; Sato, K.; Nakajima, Y. Hydroxylation-Depolymerization of Oxyphenylene-Based Super Engineering Plastics To Regenerate Arenols. JACS Au 3 (2023), 2323–2332.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10466334/",
+        "locator": "Results, Table 1 and Schemes 2–6: PSU, PESU and PPSU; CsOH/CaH2 in DMI, selective aryl–oxygen cleavage and arenol products.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "doi": "10.1021/jacsau.3c00357",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-sulfones-design-guide",
+        "lineageId": "solvay-specialty-polymers",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Solvay Specialty Polymers. Radel PPSU, Veradel PESU and Acudel Modified PPSU: Design Guide.",
+        "url": "https://www.solvay.com/sites/g/files/srpend616/files/tridion/documents/Radel-PPSU-Veradel-PESU-Acudel-PPSU-Design-Guide_EN.pdf",
+        "locator": "Hydrolytic stability, steam sterilization and processing/regrind sections; named PPSU and PESU grades.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000079",
+    "degradationAndStability": "Degradation products and pathways: The hydroxylation study recovers bisphenol S and 4,4′-dihydroxybiphenyl from PPSU powder by selective ether cleavage.\n\nTimescales: Reaction times under strong-base, hot-solvent treatment are process-specific; the cited experiments do not establish an ambient half-life.\n\nEnvironmental persistence: The cited chemical-recovery experiments do not measure environmental mineralization. No soil, freshwater or marine disappearance time is established here.",
+    "recyclingAndEndOfLife": "Laboratory hydroxylation and thiolation recover aromatic feedstocks; thiolation was also applied to pieces of a PPSU baby bottle. The supplier guide separately documents clean regrind handling for its PPSU grades.",
+    "sources": [
+      {
+        "sourceId": "deg-sulfones-hydroxylation-2023",
+        "lineageId": "aist-minami-depolymerization",
+        "sourceType": "open_journal",
+        "citation": "Minami, Y.; Inagaki, Y.; Tsuyuki, T.; Sato, K.; Nakajima, Y. Hydroxylation-Depolymerization of Oxyphenylene-Based Super Engineering Plastics To Regenerate Arenols. JACS Au 3 (2023), 2323–2332.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10466334/",
+        "locator": "Results, Table 1 and Schemes 2–6: PSU, PESU and PPSU; CsOH/CaH2 in DMI, selective aryl–oxygen cleavage and arenol products.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "doi": "10.1021/jacsau.3c00357",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-sulfones-thiolation-2024",
+        "lineageId": "aist-minami-depolymerization",
+        "sourceType": "open_journal",
+        "citation": "Minami et al. Catalytic thiolation-depolymerization-like decomposition of oxyphenylene-type super engineering plastics via selective carbon–oxygen main chain cleavages. Communications Chemistry 7 (2024), 37.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10879179/",
+        "locator": "Results, substrate scope and Figure 7: thiol/base treatment of PEEK, PSU, PPSU and PEI; model products and reinforced/consumer articles.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "doi": "10.1038/s42004-024-01120-7",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-sulfones-design-guide",
+        "lineageId": "solvay-specialty-polymers",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Solvay Specialty Polymers. Radel PPSU, Veradel PESU and Acudel Modified PPSU: Design Guide.",
+        "url": "https://www.solvay.com/sites/g/files/srpend616/files/tridion/documents/Radel-PPSU-Veradel-PESU-Acudel-PPSU-Design-Guide_EN.pdf",
+        "locator": "Hydrolytic stability, steam sterilization and processing/regrind sections; named PPSU and PESU grades.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000081",
+    "degradationAndStability": "Degradation products and pathways: A directly studied family example is PEEK: Cs2CO3-assisted ethanol/water treatment yields phenol and dibenzofuran. Other PAEKs are not assigned the same product distribution.\n\nTimescales: For the studied PEEK system, decomposition was achieved at 623 K within 30 min. This is a pressurized-solvent recovery test, not a family degradation lifetime.\n\nEnvironmental persistence: No family-wide environmental mineralization time is established. PEEK reactor results do not determine PEKK or other PAEK persistence.",
+    "recyclingAndEndOfLife": "The PEEK example demonstrates matrix destruction to release carbon fibers and recover chemical products. Applicability to other ketone/ether sequences needs separate evidence.",
+    "sources": [
+      {
+        "sourceId": "deg-peek-solvolysis-2015",
+        "lineageId": "birmingham-dandy",
+        "sourceType": "open_journal",
+        "citation": "Dandy, L. O.; Oliveux, G.; Wood, J.; Jenkins, M. J.; Leeke, G. A. Accelerated degradation of Polyetheretherketone (PEEK) composite materials for recycling applications. Polymer Degradation and Stability 112 (2015), 52–62.",
+        "url": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/18303050/Dandy_et_al_Accelerated_degradation_PEEK_Polymer_Degradation_Stability_2015.pdf",
+        "locator": "Experimental, Sections 3.3–3.4 and proposed product scheme: ethanol/water/Cs2CO3 at 623 K; phenol/dibenzofuran and carbon-fiber recovery.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "doi": "10.1016/j.polymdegradstab.2014.12.012",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000082",
+    "degradationAndStability": "Degradation products and pathways: Cs2CO3-assisted ethanol/water decomposition gives phenol and dibenzofuran; this identifies high-temperature treatment products.\n\nTimescales: The laboratory process achieved decomposition at 623 K within 30 min.\n\nEnvironmental persistence: A separate artificial-seawater study measured absorption, crystallinity and wear changes under hydrostatic pressures up to 40 MPa. Those changes establish material deterioration, not mineralization or disappearance in the ocean.",
+    "recyclingAndEndOfLife": "Pressurized-solvent treatment releases carbon fibers from PEEK composites. This is a laboratory composite-reclamation route; fiber recovery and matrix conversion should be distinguished from recovery of intact PEEK.",
+    "sources": [
+      {
+        "sourceId": "deg-peek-solvolysis-2015",
+        "lineageId": "birmingham-dandy",
+        "sourceType": "open_journal",
+        "citation": "Dandy, L. O.; Oliveux, G.; Wood, J.; Jenkins, M. J.; Leeke, G. A. Accelerated degradation of Polyetheretherketone (PEEK) composite materials for recycling applications. Polymer Degradation and Stability 112 (2015), 52–62.",
+        "url": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/18303050/Dandy_et_al_Accelerated_degradation_PEEK_Polymer_Degradation_Stability_2015.pdf",
+        "locator": "Experimental, Sections 3.3–3.4 and proposed product scheme: ethanol/water/Cs2CO3 at 623 K; phenol/dibenzofuran and carbon-fiber recovery.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "doi": "10.1016/j.polymdegradstab.2014.12.012",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-peek-seawater-2018",
+        "lineageId": "peek-seawater-2018",
+        "sourceType": "open_journal",
+        "citation": "Liu, H.; Wang, J.; Jiang, P.; Yan, F. Accelerated degradation of polyetheretherketone and its composites in the deep sea. Royal Society Open Science (2018).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5936910/",
+        "locator": "Sections 2.2–2.4 and 3: artificial seawater, hydrostatic pressure to 40 MPa; absorption, crystallinity and wear rather than mineralization.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000084",
+    "degradationAndStability": "Degradation products and pathways: The thiolation study cleaves aryl–oxygen bonds of PEI pellets, yielding bisphenol A and a dithiofunctionalized phenylene-bisphthalimide. It does not establish an ambient degradation-product inventory.\n\nTimescales: The reaction is an imposed hot-solvent catalytic treatment; its kinetics cannot be used as an environmental lifetime.\n\nEnvironmental persistence: The cited chemical-recovery experiments do not measure environmental mineralization. No soil, freshwater or marine disappearance time is established here.",
+    "recyclingAndEndOfLife": "Thiol-assisted backbone cleavage is an experimentally demonstrated chemical-conversion route for the studied PEI. Recovery performance for filled, contaminated or differently formulated PEI needs its own qualification; no commercial status is inferred.",
+    "sources": [
+      {
+        "sourceId": "deg-sulfones-thiolation-2024",
+        "lineageId": "aist-minami-depolymerization",
+        "sourceType": "open_journal",
+        "citation": "Minami et al. Catalytic thiolation-depolymerization-like decomposition of oxyphenylene-type super engineering plastics via selective carbon–oxygen main chain cleavages. Communications Chemistry 7 (2024), 37.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10879179/",
+        "locator": "Results, substrate scope and Figure 7: thiol/base treatment of PEEK, PSU, PPSU and PEI; model products and reinforced/consumer articles.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "doi": "10.1038/s42004-024-01120-7",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000086",
+    "degradationAndStability": "Degradation products and pathways: In the studied PMDA/ODA film, ethanolamine breaks imide rings and releases 4,4′-oxydianiline; subsequent hydrolysis and ring reconstruction yields a hydroxyethyl-substituted pyromellitic diimide. These are deliberately generated recovery products.\n\nTimescales: The reported film experiment used a 3 h aminolysis stage at 120 °C, followed by a separate hydrolysis stage. It is not a total environmental decay time.\n\nEnvironmental persistence: The cited chemical-recovery experiments do not measure environmental mineralization. No soil, freshwater or marine disappearance time is established here.",
+    "recyclingAndEndOfLife": "The study demonstrates aminolysis followed by hydrolysis and product isolation, with separate treatment of crosslinked formulations. Results from the PMDA/ODA film cannot define the recovery chemistry of every aromatic, aliphatic or network polyimide.",
+    "sources": [
+      {
+        "sourceId": "deg-polyimide-recovery-2025",
+        "lineageId": "polyimide-recovery-2025",
+        "sourceType": "open_journal",
+        "citation": "Chen et al. Full Recovery of Polyimide Wastes Into High-Value Products Through Break and Reconstruction of Imide Ring. Advanced Science 12 (2025), 2414416.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11967771/",
+        "locator": "Section 2.1, aminolysis of PMDA/ODA Kapton film and subsequent hydrolysis; Section 2.2, separately identified crosslinked polyimides.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "doi": "10.1002/advs.202414416",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000251",
+    "degradationAndStability": "Degradation products and pathways: The family spans distinct product chemistries. A primary hydrogenation study gives bisphenol A from aromatic BPA-PC and 1,2-propanediol from aliphatic PPC, with methanol also formed.\n\nTimescales: Catalyst, hydrogen pressure and temperature govern the laboratory conversions. A single family degradation timescale would conflate materially different polymers.\n\nEnvironmental persistence: These reactor experiments do not determine ambient persistence. In particular, evidence for aliphatic PPC must not be transferred to BPA-PC or its copolymers.",
+    "recyclingAndEndOfLife": "The cited study demonstrates chemical feedstock recovery for BPA-PC and PPC. Polymer identity and additives determine whether physical reprocessing or selective chemical treatment is appropriate; neither success proves a common collection route for the entire family.",
+    "sources": [
+      {
+        "sourceId": "deg-pc-iron-2020",
+        "lineageId": "pc-iron-2020",
+        "sourceType": "open_journal",
+        "citation": "Alberti, C.; Fedorenko, E.; Enthaler, S. Hydrogenative Depolymerization of End-of-Life Polycarbonates by an Iron Pincer Complex. ChemistryOpen 9 (2020), 818–821.",
+        "url": "https://d-nb.info/1261352726/34",
+        "locator": "Tables 1–2 and Schemes 2–4: bisphenol-A PC and PPC hydrogenation; product identity and laboratory recovery.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "doi": "10.1002/open.202000161",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000252",
+    "degradationAndStability": "Degradation products and pathways: Direct hydroxylation experiments distinguish PSU, PESU and PPSU: recovered arenols depend on the backbone, including bisphenol A, bisphenol S and dihydroxybiphenyl.\n\nTimescales: The studies require deliberate hydroxide or thiol/base treatment in hot solvent. Their durations describe recovery operations, not environmental persistence.\n\nEnvironmental persistence: The cited chemical-recovery experiments do not measure environmental mineralization. No soil, freshwater or marine disappearance time is established here.",
+    "recyclingAndEndOfLife": "Both intact-polymer regrind and laboratory chemical cleavage are documented for named members. The manufacturer guide concerns controlled sulfone-grade streams; chemical studies recover different aromatic products for different backbones.",
+    "sources": [
+      {
+        "sourceId": "deg-sulfones-hydroxylation-2023",
+        "lineageId": "aist-minami-depolymerization",
+        "sourceType": "open_journal",
+        "citation": "Minami, Y.; Inagaki, Y.; Tsuyuki, T.; Sato, K.; Nakajima, Y. Hydroxylation-Depolymerization of Oxyphenylene-Based Super Engineering Plastics To Regenerate Arenols. JACS Au 3 (2023), 2323–2332.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10466334/",
+        "locator": "Results, Table 1 and Schemes 2–6: PSU, PESU and PPSU; CsOH/CaH2 in DMI, selective aryl–oxygen cleavage and arenol products.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "doi": "10.1021/jacsau.3c00357",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-sulfones-design-guide",
+        "lineageId": "solvay-specialty-polymers",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Solvay Specialty Polymers. Radel PPSU, Veradel PESU and Acudel Modified PPSU: Design Guide.",
+        "url": "https://www.solvay.com/sites/g/files/srpend616/files/tridion/documents/Radel-PPSU-Veradel-PESU-Acudel-PPSU-Design-Guide_EN.pdf",
+        "locator": "Hydrolytic stability, steam sterilization and processing/regrind sections; named PPSU and PESU grades.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000055",
+    "degradationAndStability": "Degradation products and pathways: An acid-hydrolysis patent names PA46 in its scope, targeting diamine and diacid recovery. It does not establish this material’s major environmental degradation products.\n\nTimescales: No material-specific conversion time is demonstrated in that patent; its worked examples use PA66.\n\nEnvironmental persistence: Environmental persistence remains an evidence gap for this specific material.",
+    "recyclingAndEndOfLife": "The patent proposes acid hydrolysis and feedstock purification for PA46. This is claimed scope, not a demonstrated material-specific process or evidence of commercial recycling.",
+    "sources": [
+      {
+        "sourceId": "deg-pa-acid-patent-2026",
+        "lineageId": "asahi-kasei",
+        "sourceType": "patent",
+        "citation": "Asahi Kasei. US20260225993A1, Method for producing diamine and dicarboxylic acid, method for recycling polyamide, and polyamide (2026).",
+        "url": "https://patents.justia.com/patent/20260225993",
+        "locator": "Polyamide scope list and PA66 examples; proposed acid-hydrolysis and purification process.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000061",
+    "degradationAndStability": "Degradation products and pathways: An acid-hydrolysis patent names PA1012 in its scope, targeting diamine and diacid recovery. It does not establish this material’s major environmental degradation products.\n\nTimescales: No material-specific conversion time is demonstrated in that patent; its worked examples use PA66.\n\nEnvironmental persistence: Environmental persistence remains an evidence gap for this specific material.",
+    "recyclingAndEndOfLife": "The patent proposes acid hydrolysis and feedstock purification for PA1012. This is claimed scope, not a demonstrated material-specific process or evidence of commercial recycling.",
+    "sources": [
+      {
+        "sourceId": "deg-pa-acid-patent-2026",
+        "lineageId": "asahi-kasei",
+        "sourceType": "patent",
+        "citation": "Asahi Kasei. US20260225993A1, Method for producing diamine and dicarboxylic acid, method for recycling polyamide, and polyamide (2026).",
+        "url": "https://patents.justia.com/patent/20260225993",
+        "locator": "Polyamide scope list and PA66 examples; proposed acid-hydrolysis and purification process.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000062",
+    "degradationAndStability": "Degradation products and pathways: An acid-hydrolysis patent names PA6T in its scope, targeting diamine and diacid recovery. It does not establish this material’s major environmental degradation products.\n\nTimescales: No material-specific conversion time is demonstrated in that patent; its worked examples use PA66.\n\nEnvironmental persistence: Environmental persistence remains an evidence gap for this specific material.",
+    "recyclingAndEndOfLife": "The patent proposes acid hydrolysis and feedstock purification for PA6T. This is claimed scope, not a demonstrated material-specific process or evidence of commercial recycling.",
+    "sources": [
+      {
+        "sourceId": "deg-pa-acid-patent-2026",
+        "lineageId": "asahi-kasei",
+        "sourceType": "patent",
+        "citation": "Asahi Kasei. US20260225993A1, Method for producing diamine and dicarboxylic acid, method for recycling polyamide, and polyamide (2026).",
+        "url": "https://patents.justia.com/patent/20260225993",
+        "locator": "Polyamide scope list and PA66 examples; proposed acid-hydrolysis and purification process.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000063",
+    "degradationAndStability": "Degradation products and pathways: An acid-hydrolysis patent names PA9T in its scope, targeting diamine and diacid recovery. It does not establish this material’s major environmental degradation products.\n\nTimescales: No material-specific conversion time is demonstrated in that patent; its worked examples use PA66.\n\nEnvironmental persistence: Environmental persistence remains an evidence gap for this specific material.",
+    "recyclingAndEndOfLife": "The patent proposes acid hydrolysis and feedstock purification for PA9T. This is claimed scope, not a demonstrated material-specific process or evidence of commercial recycling.",
+    "sources": [
+      {
+        "sourceId": "deg-pa-acid-patent-2026",
+        "lineageId": "asahi-kasei",
+        "sourceType": "patent",
+        "citation": "Asahi Kasei. US20260225993A1, Method for producing diamine and dicarboxylic acid, method for recycling polyamide, and polyamide (2026).",
+        "url": "https://patents.justia.com/patent/20260225993",
+        "locator": "Polyamide scope list and PA66 examples; proposed acid-hydrolysis and purification process.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000056",
+    "degradationAndStability": "Degradation products and pathways: The primary thermal study measures mass loss of PA610 but does not directly identify its volatile products. Acid hydrolysis is separately documented as a recovery pathway.\n\nTimescales: A patent example reports 97% hydrolysis conversion after 24 h for unfilled, recycled 3–5 mm pellets refluxed in hydrochloric acid with a 120 °C oil bath. The thermal study reports 5% mass loss near 417 °C while heating 5–7.5 mg samples in air at 10 °C/min; this is a temperature-ramp endpoint.\n\nEnvironmental persistence: Neither experiment establishes PA610 mineralization in soil or water.",
+    "recyclingAndEndOfLife": "The patent demonstrates acid treatment of recycled PA610 pellets, targeting diamine/diacid recovery. Conversion is distinct from isolated monomer yield and does not establish industrial deployment.",
+    "sources": [
+      {
+        "sourceId": "deg-pa-acid-patent-2024",
+        "lineageId": "solvay-specialty-polymers",
+        "sourceType": "patent",
+        "citation": "Touraud, F.; Servel, C.; Jeol, S. WO2024002975A1, Method for recycling a polyamide under acidic conditions (2024).",
+        "url": "https://patents.google.com/patent/WO2024002975A1/en",
+        "locator": "Paragraphs 0033–0034; Examples 17–20, PA66/6T and PA610 hydrolysis.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-pa610-tga-2020",
+        "lineageId": "pa610-tga-2020",
+        "sourceType": "open_journal",
+        "citation": "Injection-Molded Parts of Partially Biobased Polyamide 610 and Biobased Halloysite Nanotubes. Polymers (2020).",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7407294/",
+        "locator": "Thermal characterization methods and Table 4: neat PA610 control, 5–7.5 mg, air, 10 °C/min.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000057",
+    "degradationAndStability": "Degradation products and pathways: The supplier processing guide identifies degradation risks under excessive melt pressure; it does not quantify a PA612-specific product mixture.\n\nTimescales: No PA612 environmental degradation duration is established by the processing guidance.\n\nEnvironmental persistence: Environmental mineralization and persistence remain unquantified here. Processing failure cannot be substituted for those endpoints.",
+    "recyclingAndEndOfLife": "The Evonik guide covering PA12 and PA612 documents regrind processing with appropriate melt filtration and controlled pressure. Acid recovery is additionally proposed for PA612 in a patent scope list, without a worked PA612 example.",
+    "sources": [
+      {
+        "sourceId": "deg-vestamid-processing",
+        "lineageId": "evonik",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Evonik. VESTAMID: Processing Guidelines.",
+        "url": "https://s3.amazonaws.com/amcopolymers.com/v3/VESTAMID-Processing-Guidelines-EN.pdf",
+        "locator": "PA12 and PA612 injection/extrusion guidelines; breaker plates, screen packs and regrind.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-pa-acid-patent-2026",
+        "lineageId": "asahi-kasei",
+        "sourceType": "patent",
+        "citation": "Asahi Kasei. US20260225993A1, Method for producing diamine and dicarboxylic acid, method for recycling polyamide, and polyamide (2026).",
+        "url": "https://patents.justia.com/patent/20260225993",
+        "locator": "Polyamide scope list and PA66 examples; proposed acid-hydrolysis and purification process.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000066",
+    "degradationAndStability": "Degradation products and pathways: The Amodel PPA guide documents thermal degradation during excessive melt residence and changes from repeated processing. Chemical hydrolysis is demonstrated for a named PA66/6T copolyamide in a separate patent; the broad family does not have one product distribution.\n\nTimescales: The patent treats the 35/65 PA66/6T composition under acid reflux for 24 h with a 120 °C oil bath. These are recovery conditions, not an environmental timescale.\n\nEnvironmental persistence: Neither source establishes mineralization or a family-wide environmental lifetime.",
+    "recyclingAndEndOfLife": "Mechanical reuse of dry, clean regrind is documented for named Amodel formulations. The guide requires control of contamination, heat history and regrind proportion. Acid hydrolysis is a separate patent-demonstrated route for the specified PA66/6T composition.",
+    "sources": [
+      {
+        "sourceId": "deg-amodel-processing",
+        "lineageId": "solvay-specialty-polymers",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Solvay. Amodel PPA Processing Guide.",
+        "url": "https://www.albis.com/dam/jcr%3Aad6d73cc-fde2-4efc-9d85-caac93c1e58a/Amodel-PPA-Processing-Guide_EN-199443.pdf",
+        "locator": "Melt residence time and Chapter 6, regrind; named filled Amodel formulations.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-pa-acid-patent-2024",
+        "lineageId": "solvay-specialty-polymers",
+        "sourceType": "patent",
+        "citation": "Touraud, F.; Servel, C.; Jeol, S. WO2024002975A1, Method for recycling a polyamide under acidic conditions (2024).",
+        "url": "https://patents.google.com/patent/WO2024002975A1/en",
+        "locator": "Paragraphs 0033–0034; Examples 17–20, PA66/6T and PA610 hydrolysis.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000065",
+    "degradationAndStability": "Degradation products and pathways: Repeated melt processing changes MXD6 chain structure. In a thesis studying pure MXD6 alongside PET and their blends, viscosity changes were interpreted as competition between chain scission and branching/crosslinking. This is a rheological interpretation, not a resolved inventory of released molecules.\n\nTimescales: Pure MXD6 was extruded through three recycling cycles. Separate isothermal rheology followed behavior for 1,200 s at 270 °C in air or nitrogen; these are processing and accelerated thermal tests.\n\nEnvironmental persistence: These experiments do not measure biodegradation, mineralization or disappearance in soil or water. No ambient lifetime is assigned.",
+    "recyclingAndEndOfLife": "The thesis demonstrates three melt-reprocessing cycles for pure MXD6 at laboratory scale, with structural and rheological changes that constrain reuse. A manufacturer collaboration reports recycling-compatible polypropylene barrier packaging incorporating MXD6 and supported by APR testing. This is compatibility of the specified multilayer packaging with a PP stream, not recovery of pure MXD6 or blanket acceptance of all MXD6-containing articles. An acid-hydrolysis patent also names MXD6, without demonstrating an MXD6 example.",
+    "sources": [
+      {
+        "sourceId": "deg-mxd6-packaging-2024",
+        "lineageId": "berry-mgc",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Berry Global and Mitsubishi Gas Chemical. New Barrier Innovation Improves Recyclability of Food Packaging (19 March 2024).",
+        "url": "https://packagingsolutions.amcor.com/en/news/articles/new-barrier-innovation-from-berry-mitsubishi-improves-recyclability-of-food-packaging",
+        "locator": "MXD6-containing polypropylene barrier packaging and APR testing; technology-specific compatibility.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-pa-acid-patent-2024",
+        "lineageId": "solvay-specialty-polymers",
+        "sourceType": "patent",
+        "citation": "Touraud, F.; Servel, C.; Jeol, S. WO2024002975A1, Method for recycling a polyamide under acidic conditions (2024).",
+        "url": "https://patents.google.com/patent/WO2024002975A1/en",
+        "locator": "Paragraphs 0033–0034; Examples 17–20, PA66/6T and PA610 hydrolysis.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-mxd6-reprocessing-thesis-2017",
+        "lineageId": "mxd6-reprocessing-thesis-2017",
+        "sourceType": "thesis",
+        "citation": "Jalilian, M. Impact of MXD6 on the Structure and Properties of Mechanically Recycled PET Blends. MS thesis, University of Toledo (2017).",
+        "url": "https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=toledo1513354154142392&disposition=inline",
+        "locator": "Chapters 3–5: pure MXD6, PET and 95/5 PET/MXD6 blends, three extrusion cycles; isothermal rheology in air and nitrogen.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000070",
+    "degradationAndStability": "Degradation products and pathways: Vacuum pyrolysis produces hydrogen fluoride, low-volatility chain fragments and a darkening residue. The historical experiment detected SiF4 and water partly because released HF attacked the glass apparatus; those are not an intrinsic PVF product pair.\n\nTimescales: The NBS product experiments used 45 min of heating followed by 30 min at the selected pyrolysis temperature. These high-temperature measurements do not establish ambient persistence.\n\nEnvironmental persistence: No environmental mineralization time is established by the pyrolysis or separation experiments. Dissolving a film preserves material rather than demonstrating destruction of its carbon backbone.",
+    "recyclingAndEndOfLife": "A patent demonstrates PVF-film separation using acid/amine ionic-liquid mixtures with DMF, followed by recovery on cooling. Its example dissolves PVF in a 1:3 acetic-acid/tributylamine ionic-liquid-to-DMF mixture at 70 °C in 10 min. This is a patent-reported solvent recovery route.",
+    "sources": [
+      {
+        "sourceId": "deg-pvf-pyrolysis-1953",
+        "lineageId": "nist-madorsky",
+        "sourceType": "open_journal",
+        "citation": "Madorsky, S. L.; Hart, V. E.; Straus, S.; Sedlak, V. A. Thermal Degradation of Tetrafluoroethylene and Hydrofluoroethylene Polymers in a Vacuum. Journal of Research of the National Bureau of Standards 51 (1953), 327–333.",
+        "url": "https://nvlpubs.nist.gov/nistpubs/jres/51/jresv51n6p327_A1b.pdf",
+        "locator": "Section 6 and Table 4, PVF samples; HF/glass reaction and condensed fractions.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-pvf-recovery-patent",
+        "lineageId": "pvf-recovery-patent",
+        "sourceType": "patent",
+        "citation": "AU2023229502, Method for separating fluoropolymer layers from a substrate; amended specification (23 October 2024).",
+        "url": "https://production.api.ipaustralia.gov.au/public/ipright-search-api/v1/patents/2023229502/documents/content?documents=35399513",
+        "locator": "PVF-film dissolution examples, pp. 10–12; ionic liquid/DMF mixtures and cooling recovery.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000076",
+    "degradationAndStability": "Degradation products and pathways: In inert-atmosphere pyrolysis, identified monomeric fragments include o-cresol, 2,6-xylenol, 2,4-xylenol and 2,4,6-trimethylphenol. Ether-linked and methylene-linked two-ring fragments were also analyzed.\n\nTimescales: The study concerns rapid thermal decomposition and rearrangement at elevated temperature; it does not determine an outdoor lifetime.\n\nEnvironmental persistence: The thermal products are not a measured environmental leachate inventory, and no soil or aquatic mineralization time is established.",
+    "recyclingAndEndOfLife": "Mechanical reclamation is documented for modified PPE blends. Asahi Kasei’s XYRON molding guidance, which explicitly includes PPE/PS grades, permits clean, undegraded sprues, runners and molded articles to be ground, dried and remolded, with regrind levels up to 20%. It discourages regrind where surface appearance is critical. These instructions concern controlled scrap from the listed commercial blends; they do not demonstrate separation of neat PPE from mixed waste, monomer recovery or a general post-consumer collection system.",
+    "sources": [
+      {
+        "sourceId": "deg-ppe-thermal-1996",
+        "lineageId": "ppe-thermal-1996",
+        "sourceType": "open_journal",
+        "citation": "Takayama, S.; Arai, T.; Kinoshita, M.; Takeda, K. Molecular Rearrangement by Thermal Degradation of Poly(oxy-2,6-dimethyl-1,4-phenylene). Kobunshi Ronbunshu 53 (1996), 284–293.",
+        "url": "https://www.jstage.jst.go.jp/article/koron1974/53/5/53_5_284/_article",
+        "locator": "Full paper, thermal degradation experiments, product analysis and rearrangement mechanism.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "doi": "10.1295/koron.53.284",
+        "supports": [
+          "degradationAndStability"
+        ],
+        "contentUrl": "https://www.jstage.jst.go.jp/article/koron1974/53/5/53_5_284/_pdf"
+      },
+      {
+        "sourceId": "deg-ppe-xyron-regrind-guide",
+        "lineageId": "asahi-kasei",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Asahi Kasei. XYRON: Molding conditions. Official engineering-plastics technical guidance, accessed 7 September 2026.",
+        "url": "https://www.asahi-kasei-plastics.com/en/products/forming/xyron/",
+        "locator": "PPE/PS grade tables and Note, regrind paragraph: clean undegraded sprues, runners and molded articles, drying/remolding, up to 20% regrind and appearance limitation.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The complete official technical guidance was anonymously readable. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000080",
+    "degradationAndStability": "Degradation products and pathways: Iron-photocatalyzed cleavage of PPS produces 1,4-dichlorobenzene, with sulfur, sulfur dioxide and sulfate detected in mechanistic work. Chloroacetic acid arises from the 1,2-dichloroethane co-reagent, not solely from PPS.\n\nTimescales: The study follows irradiation-driven breakdown over hours at room temperature. Added catalyst, oxygen, light and chlorinated co-reagent distinguish this from natural weathering.\n\nEnvironmental persistence: No environmental half-life or mineralization time is established by this deliberately driven process.",
+    "recyclingAndEndOfLife": "The laboratory study converts commercial resins and selected post-consumer PPS composites, including gram-scale demonstrations. It is a chemical-recovery proof of concept; industrial collection and deployment are not established by the paper.",
+    "sources": [
+      {
+        "sourceId": "deg-pps-photocatalysis-2026",
+        "lineageId": "pps-photocatalysis-2026",
+        "sourceType": "open_journal",
+        "citation": "Gu, B.; Li, C.; Jiang, X. Chemical Upcycling of Polyphenylene Sulfide at Room Temperature. Advanced Science 13 (2026), e19090; first published 2025.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13088349/",
+        "locator": "Sections 2.2–2.3 and Figures 3–5: PPS plastics, photocatalytic desulfurizing chlorination and sulfur products.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "doi": "10.1002/advs.202519090",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000083",
+    "degradationAndStability": "Degradation products and pathways: Thermogravimetry of Kimya PEKK-A filament shows two stages of thermal mass loss and a carbonaceous residue. The experiment does not collect or identify the evolved molecules; its discussion of possible molecular products draws on other work.\n\nTimescales: The stated filament reaches 5% mass loss at 557 °C during a 10 °C/min ramp in dry synthetic air containing 80% nitrogen and 20% oxygen. This temperature-ramp endpoint is not an isothermal service life or an environmental degradation time.\n\nEnvironmental persistence: Neither this thermal experiment nor composite reprocessing establishes soil, freshwater or marine mineralization. No ambient disappearance time is assigned.",
+    "recyclingAndEndOfLife": "A conference study mechanically recycles 60 wt% carbon-fiber/PEKK laminate material by shredding and compression molding. Adding shaped laminate cutouts improves the tested bracket geometry. This demonstrates reuse of a specified composite stream, not depolymerization or indefinite retention of fiber length and properties.",
+    "sources": [
+      {
+        "sourceId": "deg-pekk-mechanical-2023",
+        "lineageId": "pekk-mechanical-2023",
+        "sourceType": "public_report",
+        "citation": "Kim, G. et al. Enhancing Recycled Thermoplastic Composite Parts Using Recycled Composite Laminate Cutouts. SPE Automotive Composites Conference (2023).",
+        "url": "https://speautomotive.com/wp-content/uploads/2023/09/Enhancing-Recycled-Thermoplastic-Composite-Parts-Using-Recycled-Composite-Laminate-Cutouts_Kim_Garam.pdf",
+        "locator": "Materials, compression molding and bracket tests: 60 wt% carbon-fiber/PEKK shredded material with laminate cutouts.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-pekk-thermal-2023",
+        "lineageId": "pekk-thermal-2023",
+        "sourceType": "open_journal",
+        "citation": "Paszkiewicz, S. et al. The Mechanical, Thermal, and Biological Properties of Materials Intended for Dental Implants: A Comparison of Three Types of Poly(aryl-ether-ketones) (PEEK and PEKK). Polymers 15 (2023), 3706.",
+        "url": "https://www.mdpi.com/2073-4360/15/18/3706",
+        "locator": "Sections 2.1–2.2 and 3.1.3, Table 4: Kimya PEKK-A filament; TGA in dry synthetic air at 10 °C/min, 20–700 °C.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "doi": "10.3390/polym15183706",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "contentUrl": "https://mdpi-res.com/d_attachment/polymers/polymers-15-03706/article_deploy/polymers-15-03706.pdf",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000085",
+    "degradationAndStability": "Degradation products and pathways: Thermal ageing of PAI enamel on copper wire first involves additional crosslinking, followed by decomposition attributed to amide and then imide groups. The study reports copper migration into the enamel and accelerated degradation; it does not identify individual evolved molecules.\n\nTimescales: The wire study uses cyclic ageing at 260, 270, 280, 290 and 300 °C, with failure determined by a 900 V, 2 s electrical proof test. This endpoint concerns the specified wire insulation, not a universal PAI degradation duration.\n\nEnvironmental persistence: Electrical failure under severe thermal ageing does not demonstrate environmental mineralization. No soil, freshwater or marine lifetime is established.",
+    "recyclingAndEndOfLife": "The Torlon guide permits clean sprues and runners to be reground before post-curing; post-cured material cannot be reprocessed by that route. Torlon 4203L tests show increasing melt viscosity and declining elongation with repeated processing. These results concern specified manufacturing scrap and do not establish recycling of all cured PAI articles.",
+    "sources": [
+      {
+        "sourceId": "deg-torlon-processing",
+        "lineageId": "solvay-specialty-polymers",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Solvay. Torlon PAI Processing Guide.",
+        "url": "https://www.solvay.com/sites/g/files/srpend616/files/2018-08/Torlon-PAI-Processing-Guide_EN-v3.0_0.pdf",
+        "locator": "Regrind, p. 17; pre-cure versus post-cure material, Torlon 4203L repeated processing.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-pai-enamel-aging-2010",
+        "lineageId": "pai-enamel-aging-2010",
+        "sourceType": "open_journal",
+        "citation": "Gornicka, B.; Gorecki, L. TGA/DTG/DSC investigation of thermal ageing effects on polyamide–imide enamel. Journal of Thermal Analysis and Calorimetry 101 (2010), 647–650.",
+        "url": "https://link.springer.com/article/10.1007/s10973-010-0883-9",
+        "locator": "Experimental and results: PAI enamel on copper winding wire, cyclic ageing at 260–300 °C and electrical failure criterion.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "doi": "10.1007/s10973-010-0883-9",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000087",
+    "degradationAndStability": "Degradation products and pathways: The AURUM technical note documents thermally induced weight loss but does not identify the evolved molecular products. Its evidence applies to that thermoplastic-polyimide product family.\n\nTimescales: The note reports a temperature-ramp weight-loss curve, without specifying atmosphere or heating rate; it cannot supply a transferable degradation rate or duration.\n\nEnvironmental persistence: No soil, freshwater or marine mineralization time is established by the thermal note.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-aurum-thermal",
+        "lineageId": "mitsui-chemicals",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Mitsui Chemicals. Thermal Decomposition Properties of AURUM, Technical Literature B-01.",
+        "url": "https://eu.mitsuichemicals.com/content/dam/mitsuichemicals/sites/mce/documents/sites/default/files/media/document/2018/b-01_thermal_decomposition_properties.pdf.coredownload.inline.pdf",
+        "locator": "Thermal weight-loss curve and tabulated loss thresholds; unspecified atmosphere/heating rate.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000064",
+    "degradationAndStability": "Degradation products and pathways: A patent examines ageing of a PA10T formulation containing epoxy-functional additive, ferric sulfate and antioxidant. It measures strength and melt-flow changes rather than identifying degradation molecules.\n\nTimescales: The patent exposure is 1,000 h at 135 °C in equal proportions of ethylene glycol and water, with tensile testing of 4 mm specimens. This is accelerated coolant ageing of the stated formulation.\n\nEnvironmental persistence: The accelerated test does not establish outdoor lifetime, biodegradation or mineralization of neat PA10T.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-pa10t-aging-patent",
+        "lineageId": "pa10t-aging-patent",
+        "sourceType": "patent",
+        "citation": "CN113999522A, Polyamide composite material and preparation method and application thereof (2022).",
+        "url": "https://patents.google.com/patent/CN113999522A/en",
+        "locator": "Example 2 and test methods: epoxy-modified PA10T formulation, hot aqueous glycol exposure and strength/melt-index endpoints.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000067",
+    "degradationAndStability": "Degradation products and pathways: The SAMPE study compares thermal decomposition of neat PA6/66 copolyamide with flame-retarded and nanofilled formulations. It measures mass loss and residual char; individual evolved molecules are not identified.\n\nTimescales: The TGA protocol uses approximately 17–18 mg samples heated in nitrogen at 20 °C/min. Its thermal thresholds cannot be converted into a soil or water lifetime.\n\nEnvironmental persistence: No environmental mineralization or disappearance time is established in the thermal or film-recycling sources.",
+    "recyclingAndEndOfLife": "Nurel reports mechanical-recycling compatibility of specified coextruded PE/PA6/66 packaging in a PE film stream, based on cyclos-HTP tests with up to 30% copolyamide. This is a packaging-structure result, not universal collection acceptance or isolation of pure PA6/66.",
+    "sources": [
+      {
+        "sourceId": "deg-pa666-thermal-2020",
+        "lineageId": "pa666-thermal-2020",
+        "sourceType": "public_report",
+        "citation": "Kim, S. D.; Kafi, A.; Wu, H.; Bateman, S.; Koo, J. H. Additive Manufacturing of Polyamide 6/66 Copolymer Nanocomposites: Thermal and Flammability Properties. SAMPE Conference Proceedings (2020).",
+        "url": "https://digitallibrarynasampe.org/data/pdfs/s2020_pdfs/TP20-0000000128.pdf",
+        "locator": "Sections 2.1–2.2, Table 4 and Figures 7–8: neat copolyamide control and filled formulations; nitrogen TGA at 20 °C/min.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-pa666-recycle-2025",
+        "lineageId": "nurel",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Nurel. Polyamide 6 and Copolyamides for Packaging and Film (2025).",
+        "url": "https://nurel.com/wp-content/uploads/2023/03/WEB_CATALOGO_PROMYDE_FILM_2025.pdf",
+        "locator": "PROMYDE BF540 and PA6/66 recyclability, p. 10: coextruded polyethylene multilayer film and cyclos-HTP testing.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  }
+]

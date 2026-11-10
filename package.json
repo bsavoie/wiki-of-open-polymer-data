@@ -10,10 +10,21 @@
     "build": "node scripts/build.mjs",
     "import:snapshot": "node scripts/import-snapshot.mjs",
     "coverage": "node scripts/coverage.mjs",
-    "check": "npm run validate && npm test && npm run build"
+    "structures:migrate-v2": "node scripts/migrate-structures-v2.mjs",
+    "structures:validate": "node scripts/validate-structures.mjs",
+    "structures:preview": "node scripts/preview-structure.mjs",
+    "structures:review-batch": "node scripts/review-structure-batch.mjs",
+    "structures:contact-sheet": "node scripts/structure-contact-sheet.mjs",
+    "structures:update-goldens": "node scripts/update-structure-goldens.mjs",
+    "structures:coverage": "node scripts/structure-coverage.mjs",
+    "check": "npm run validate && npm run structures:validate && npm run structures:coverage -- --strict && npm test && npm run build",
+    "research": "node scripts/research.mjs"
   },
   "engines": {
     "node": ">=20"
   },
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@rdkit/rdkit": "2025.3.4-1.0.0"
+  }
 }

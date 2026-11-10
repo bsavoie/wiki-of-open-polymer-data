@@ -1,0 +1,151 @@
+{
+  "rendererVersion": "rdkit-js-2025.03.4",
+  "styleVersion": "wop-structure-style-v5",
+  "cases": [
+    {
+      "category": "carbon-only",
+      "outputs": [
+        {
+          "structureId": "polyethylene-sru",
+          "filename": "carbon-only--polyethylene-sru.svg",
+          "sha256": "e76625ddaa89483a55f50189a03abaa489c2b0b8f3382aed13a73a5b8819a952"
+        }
+      ]
+    },
+    {
+      "category": "heteroatom-rich",
+      "outputs": [
+        {
+          "structureId": "polyethylene-terephthalate-sru",
+          "filename": "heteroatom-rich--polyethylene-terephthalate-sru.svg",
+          "sha256": "9e0ee8f1d47ddc8c7a11af400b0b8e07131353b72e6533dcb9960a52e372ffb2"
+        }
+      ]
+    },
+    {
+      "category": "stereoregular",
+      "outputs": [
+        {
+          "structureId": "isotactic-polypropylene-dyad",
+          "filename": "stereoregular--isotactic-polypropylene-dyad.svg",
+          "sha256": "1bb21ba18a83febd651c03fe25ecfdaf04d4f816e16de48fcb8b5ea8b4191afb"
+        }
+      ]
+    },
+    {
+      "category": "copolymer",
+      "outputs": [
+        {
+          "structureId": "pedot-neutral-unit",
+          "filename": "copolymer--pedot-neutral-unit.svg",
+          "sha256": "6c907ff5cf500103cd4051d217741bf95ee84104650de9200f22f829da4f5db7"
+        },
+        {
+          "structureId": "polystyrene-sulfonic-acid-unit",
+          "filename": "copolymer--polystyrene-sulfonic-acid-unit.svg",
+          "sha256": "5d2c1488d923adf969e0750b4b39b7b248f921129dd241eaedc00c43d1834b9b"
+        },
+        {
+          "structureId": "sbs-connected-aba-block-architecture",
+          "filename": "copolymer--sbs-connected-aba-block-architecture.svg",
+          "sha256": "ecc650c39bb65fbef56b4e340c83d594f5ac9da8a39563b8e4f7303a7b1861b1"
+        },
+        {
+          "structureId": "cop-sgroup",
+          "filename": "copolymer--cop-sgroup.svg",
+          "sha256": "6ef4f6e66aec8761ed92b9a326646293d159c5c6b516889000fff3a35d65d9cf"
+        }
+      ]
+    },
+    {
+      "category": "ionic",
+      "outputs": [
+        {
+          "structureId": "sodium-polystyrenesulfonate-unit",
+          "filename": "ionic--sodium-polystyrenesulfonate-unit.svg",
+          "sha256": "4c8c98f3b21c859a6c91585567d2677e1bdaa65a5ad03e2c26fd84d92ea96a74"
+        }
+      ]
+    },
+    {
+      "category": "silicon-containing",
+      "outputs": [
+        {
+          "structureId": "polydimethylsiloxane-sru",
+          "filename": "silicon-containing--polydimethylsiloxane-sru.svg",
+          "sha256": "22f2357148be5fbcd50fc7b4209cd00a21e87cf1a2e96adc4823b8e429a0a61d"
+        }
+      ]
+    },
+    {
+      "category": "generic-markush",
+      "outputs": [
+        {
+          "structureId": "poly-2-oxazoline-markush-unit",
+          "filename": "generic-markush--poly-2-oxazoline-markush-unit.svg",
+          "sha256": "d430791c357a5cb11f973f186c67463bb462dffc26a7b3ee5d8ed57cb6cfb3f4"
+        },
+        {
+          "structureId": "poly-r-3-hydroxyalkanoate-markush-unit",
+          "filename": "generic-markush--poly-r-3-hydroxyalkanoate-markush-unit.svg",
+          "sha256": "7937e83a6ddd9744a73c01b63a02deee4ec6b352ed25ff4bf42a41c09814232f"
+        }
+      ]
+    },
+    {
+      "category": "numbered-markush",
+      "outputs": [
+        {
+          "structureId": "cellulose-trisubstitution-markush-motif",
+          "filename": "numbered-markush--cellulose-trisubstitution-markush-motif.svg",
+          "sha256": "285a4088b6a42a17036c9feace2780a43a4a75a6af930455164282f438cb0c59"
+        }
+      ]
+    },
+    {
+      "category": "network",
+      "outputs": [
+        {
+          "structureId": "pex-carbon-carbon-junction",
+          "filename": "network--pex-carbon-carbon-junction.svg",
+          "sha256": "da81617d982b50aca0a23964aa0701930dd2e231ad7ab88cf8f915f153206817"
+        }
+      ]
+    },
+    {
+      "category": "blend",
+      "outputs": [
+        {
+          "structureId": "bisphenol-a-polycarbonate-sru",
+          "filename": "blend--bisphenol-a-polycarbonate-sru.svg",
+          "sha256": "807a75cda15d1ebf28b3337b8174e49dc139ed608a2b0247ad4b1828f1387219"
+        },
+        {
+          "structureId": "polystyrene-sru",
+          "filename": "blend--polystyrene-sru.svg",
+          "sha256": "4ad7901be3546a8119d4e6df9cbd36d0d61797245a921b20d6c5a64f5f487aef"
+        },
+        {
+          "structureId": "polyacrylonitrile-sru",
+          "filename": "blend--polyacrylonitrile-sru.svg",
+          "sha256": "ec43270715aa101d977d16a6f1a234023e0026f3c911dd23ed81213e5178d76b"
+        },
+        {
+          "structureId": "polybutadiene-1-4-sru",
+          "filename": "blend--polybutadiene-1-4-sru.svg",
+          "sha256": "4a37b76733a27fc5de20c523f0efd1d3ba1150f1ea1eca74665eb0770f799e8a"
+        }
+      ]
+    },
+    {
+      "category": "irregular-motif",
+      "outputs": [
+        {
+          "structureId": "lignin-guaiacyl-beta-o-4-open-macromolecular-motif",
+          "filename": "irregular-motif--lignin-guaiacyl-beta-o-4-open-macromolecular-motif.svg",
+          "sha256": "2d96fd73e42b7299e9aa3a29d8f1d340868546b372c7603bb34931728cbda119"
+        }
+      ]
+    }
+  ]
+}

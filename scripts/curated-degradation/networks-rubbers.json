@@ -1,0 +1,2206 @@
+[
+  {
+    "wopId": "wop-000098",
+    "degradationAndStability": "Degradation products and pathways: A bisphenol-A epoxy example undergoing hydrothermal liquefaction yielded bisphenol A in the oil and phenols in water; these are reactor products, not an ambient-weathering inventory.\n\nTimescales: Milled commercial bisphenol-A epoxy was treated in water, with or without potassium hydroxide, in a sealed batch reactor at 350 °C for 20 minutes. This is a conversion experiment, not a natural lifetime.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Hydrothermal liquefaction is a laboratory chemical-recovery route for the tested epoxy. Product purification and hardener compatibility remain necessary before resin-to-resin recycling.",
+    "sources": [
+      {
+        "sourceId": "deg-htl-epoxy-2021",
+        "lineageId": "deg-htl-epoxy-2021",
+        "sourceType": "preprint",
+        "citation": "Souza dos Passos, J.; Glasius, M.; Biller, P. Screening of common synthetic polymers for depolymerization by subcritical hydrothermal liquefaction (2021), author preprint.",
+        "url": "https://arxiv.org/pdf/2110.09213",
+        "locator": "Materials; HTL procedure; epoxy products and conclusions.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000099",
+    "degradationAndStability": "Degradation products and pathways: A bisphenol-A epoxy example undergoing hydrothermal liquefaction yielded bisphenol A in the oil and phenols in water; these are reactor products, not an ambient-weathering inventory.\n\nTimescales: Milled commercial bisphenol-A epoxy was treated in water, with or without potassium hydroxide, in a sealed batch reactor at 350 °C for 20 minutes. This is a conversion experiment, not a natural lifetime.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Hydrothermal liquefaction is a laboratory chemical-recovery route for the tested epoxy. Product purification and hardener compatibility remain necessary before resin-to-resin recycling.",
+    "sources": [
+      {
+        "sourceId": "deg-htl-epoxy-2021",
+        "lineageId": "deg-htl-epoxy-2021",
+        "sourceType": "preprint",
+        "citation": "Souza dos Passos, J.; Glasius, M.; Biller, P. Screening of common synthetic polymers for depolymerization by subcritical hydrothermal liquefaction (2021), author preprint.",
+        "url": "https://arxiv.org/pdf/2110.09213",
+        "locator": "Materials; HTL procedure; epoxy products and conclusions.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000100",
+    "degradationAndStability": "Degradation products and pathways: The patent tests methyl-tetrahydrophthalic-anhydride-cured bisphenol-F epoxy. Solvothermal ester cleavage gives small molecules and oligomers while retaining much of the bisphenol-F backbone; amine-cured grades need separate evidence.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "The demonstrated patent route uses solvent pre-swelling, amine-mediated treatment, precipitation and solvent recovery. This is a disclosed recovery experiment, not evidence of established municipal or commercial collection.",
+    "sources": [
+      {
+        "sourceId": "deg-bpf-solvolysis-patent",
+        "lineageId": "deg-bpf-solvolysis-patent",
+        "sourceType": "patent",
+        "citation": "Shanghai Jiao Tong University and Shanghai Pujiang Specialty Gases. High-efficiency method for pretreatment, degradation and recovery of thermosetting epoxy resin based on mixed reaction type solvothermal method. CN119144047A (2024).",
+        "url": "https://patents.google.com/patent/CN119144047A/en",
+        "locator": "Bisphenol-F epoxy example and recovered-resin infrared and glass-transition analysis.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000101",
+    "degradationAndStability": "Degradation products and pathways: For the patent’s phenol-formaldehyde polyglycidyl-ether networks, thermogravimetry in air shows mass loss and a carbonaceous residue; added cardanol-derived flexibilizers alter char yield. Identified low-molecular-weight products and ambient fate remain gaps.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "A separate patent includes epoxy novolacs in ground epoxy/fiber material compounded into polyolefins. This recovers composite material as a blend ingredient; it does not regenerate epoxy monomer and the broad claim is not a novolac-specific industrial validation.",
+    "sources": [
+      {
+        "sourceId": "deg-novolac-thermal-patent",
+        "lineageId": "deg-novolac-thermal-patent",
+        "sourceType": "patent",
+        "citation": "Epoxy novolac composites. US10808118B2 (2020).",
+        "url": "https://patents.google.com/patent/US10808118B2/en",
+        "locator": "Thermogravimetry in air; Figures 3a–3b and Tables 2a–2b.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-epoxy-composite-filler-patent",
+        "lineageId": "deg-epoxy-composite-filler-patent",
+        "sourceType": "patent",
+        "citation": "Dow Global Technologies. Method for recycling epoxy-fiber composites into polyolefins. WO2019236377A1 (2019).",
+        "url": "https://patents.google.com/patent/WO2019236377A1/en",
+        "locator": "Epoxy-resin scope and composite grinding/polyolefin blending process.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000104",
+    "degradationAndStability": "Degradation products and pathways: Polyester-composite hydrolysis generates soluble organic mixtures and frees reinforcement. Product identities depend on resin chemistry.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "EURECOMP demonstrated water solvolysis and fiber reuse at laboratory and prototype scale. Separation of individual organic products remained difficult; this was not demonstrated as an established closed-loop resin process.",
+    "sources": [
+      {
+        "sourceId": "deg-eurecomp-2013",
+        "lineageId": "deg-eurecomp-2013",
+        "sourceType": "public_report",
+        "citation": "European Commission, EURECOMP consortium. Final Report Summary: Recycling Thermoset Composites of the SST (2013).",
+        "url": "https://cordis.europa.eu/project/id/218609/reporting/it",
+        "locator": "Laboratory solvolysis of polyester composites; prototype-scale reactor; liquid solution recycling.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000105",
+    "degradationAndStability": "Degradation products and pathways: Subcritical-water treatment of the tested orthophthalic polyester recovered phthalic acid; glycols underwent secondary conversion.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "EURECOMP demonstrated water solvolysis and fiber reuse at laboratory and prototype scale. Separation of individual organic products remained difficult; this was not demonstrated as an established closed-loop resin process.",
+    "sources": [
+      {
+        "sourceId": "deg-eurecomp-2013",
+        "lineageId": "deg-eurecomp-2013",
+        "sourceType": "public_report",
+        "citation": "European Commission, EURECOMP consortium. Final Report Summary: Recycling Thermoset Composites of the SST (2013).",
+        "url": "https://cordis.europa.eu/project/id/218609/reporting/it",
+        "locator": "Laboratory solvolysis of polyester composites; prototype-scale reactor; liquid solution recycling.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000106",
+    "degradationAndStability": "Degradation products and pathways: The tested isophthalic polyester composite underwent hydrolysis sufficiently to release glass fibers. Its product distribution was not interchangeable with orthophthalic resin.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "EURECOMP demonstrated water solvolysis and fiber reuse at laboratory and prototype scale. Separation of individual organic products remained difficult; this was not demonstrated as an established closed-loop resin process.",
+    "sources": [
+      {
+        "sourceId": "deg-eurecomp-2013",
+        "lineageId": "deg-eurecomp-2013",
+        "sourceType": "public_report",
+        "citation": "European Commission, EURECOMP consortium. Final Report Summary: Recycling Thermoset Composites of the SST (2013).",
+        "url": "https://cordis.europa.eu/project/id/218609/reporting/it",
+        "locator": "Laboratory solvolysis of polyester composites; prototype-scale reactor; liquid solution recycling.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000107",
+    "degradationAndStability": "Degradation products and pathways: Hydrolysis of the tested DCPD-modified polyester produced a more complex organic mixture because DCPD-derived structures also decomposed.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "EURECOMP demonstrated water solvolysis and fiber reuse at laboratory and prototype scale. Separation of individual organic products remained difficult; this was not demonstrated as an established closed-loop resin process.",
+    "sources": [
+      {
+        "sourceId": "deg-eurecomp-2013",
+        "lineageId": "deg-eurecomp-2013",
+        "sourceType": "public_report",
+        "citation": "European Commission, EURECOMP consortium. Final Report Summary: Recycling Thermoset Composites of the SST (2013).",
+        "url": "https://cordis.europa.eu/project/id/218609/reporting/it",
+        "locator": "Laboratory solvolysis of polyester composites; prototype-scale reactor; liquid solution recycling.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000134",
+    "degradationAndStability": "Degradation products and pathways: Purified latex-clearing protein cleaves cis-polyisoprene into oligomers with aldehyde and ketone ends. This establishes a biochemical pathway for natural rubber, not the fate of all compounded rubber articles.\n\nTimescales: Products were isolated after 20 hours at 30 °C from latex in pH-7 buffer with purified enzyme; the endpoint was oligomer formation, not mineralization.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Sulfur-cured natural rubber is included in patented thermochemical devulcanization followed by reuse in rubber compounds. Enzyme cleavage is a laboratory route; vulcanization, fillers and additives complicate recovery.",
+    "sources": [
+      {
+        "sourceId": "deg-isoprene-lcp-2014",
+        "lineageId": "deg-isoprene-lcp-2014",
+        "sourceType": "open_journal",
+        "citation": "Hiessl, S.; Böse, D.; Oetermann, S.; Eggers, J.; Pietruszka, J.; Steinbüchel, A. Latex Clearing Protein—an Oxygenase Cleaving Poly(cis-1,4-Isoprene) Rubber at the cis Double Bonds. Applied and Environmental Microbiology 80 (2014), 5231–5240.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4136117/",
+        "locator": "Isolation of degradation products; substrate specificity; Results and Discussion.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-rubber-devulcanization-2019",
+        "lineageId": "deg-rubber-devulcanization-2019",
+        "sourceType": "patent",
+        "citation": "A method of devulcanizing a rubber vulcanizate. EP3514200B1 (2019).",
+        "url": "https://patents.google.com/patent/EP3514200B1/en",
+        "locator": "Rubber scope; sulfur-crosslink cleavage and processing-temperature discussion; examples.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000135",
+    "degradationAndStability": "Degradation products and pathways: Synthetic cis-polyisoprene is cleaved by purified latex-clearing protein into carbonyl-terminated oligomers.\n\nTimescales: Purified synthetic-rubber granules in pH-7 buffer were incubated for five days with daily enzyme addition; this does not define outdoor lifetime.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Sulfur-cured isoprene rubber is within the patent’s devulcanization scope. Recovery aims at reusable chains rather than pure isoprene; the cited enzyme study is laboratory proof of depolymerization.",
+    "sources": [
+      {
+        "sourceId": "deg-isoprene-lcp-2014",
+        "lineageId": "deg-isoprene-lcp-2014",
+        "sourceType": "open_journal",
+        "citation": "Hiessl, S.; Böse, D.; Oetermann, S.; Eggers, J.; Pietruszka, J.; Steinbüchel, A. Latex Clearing Protein—an Oxygenase Cleaving Poly(cis-1,4-Isoprene) Rubber at the cis Double Bonds. Applied and Environmental Microbiology 80 (2014), 5231–5240.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4136117/",
+        "locator": "Isolation of degradation products; substrate specificity; Results and Discussion.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-rubber-devulcanization-2019",
+        "lineageId": "deg-rubber-devulcanization-2019",
+        "sourceType": "patent",
+        "citation": "A method of devulcanizing a rubber vulcanizate. EP3514200B1 (2019).",
+        "url": "https://patents.google.com/patent/EP3514200B1/en",
+        "locator": "Rubber scope; sulfur-crosslink cleavage and processing-temperature discussion; examples.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000136",
+    "degradationAndStability": "Degradation products and pathways: The tested trans-polyisoprene resisted the latex-clearing protein that cleaved cis-polyisoprene. No positive major-product inventory for environmental degradation was established.\n\nTimescales: No cleavage was detected in the reported five-day, pH-7 enzyme-incubation experiment; this is not evidence for indefinite persistence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "No trans-polyisoprene-specific reclamation process was established by this enzyme experiment; cis-rubber devulcanization should not be assumed equivalent.",
+    "sources": [
+      {
+        "sourceId": "deg-trans-isoprene-lcp",
+        "lineageId": "deg-trans-isoprene-lcp",
+        "sourceType": "open_journal",
+        "citation": "Hiessl, S.; Böse, D.; Oetermann, S.; Eggers, J.; Pietruszka, J.; Steinbüchel, A. Latex Clearing Protein—an Oxygenase Cleaving Poly(cis-1,4-Isoprene) Rubber at the cis Double Bonds. Applied and Environmental Microbiology 80 (2014), 5231–5240.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4136117/",
+        "locator": "Substrate-specificity experiments with trans-polyisoprene.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000253",
+    "degradationAndStability": "Degradation products and pathways: Cis-polyisoprene can yield aldehyde/ketone-terminated oligomers enzymatically; the same enzyme did not cleave trans-polyisoprene. Stereochemistry therefore changes the demonstrated pathway.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Patented devulcanization covers sulfur-cured isoprene rubber; the enzyme study is a laboratory alternative for cis material. Neither establishes one recycling process for every stereoisomer or formulation.",
+    "sources": [
+      {
+        "sourceId": "deg-isoprene-lcp-2014",
+        "lineageId": "deg-isoprene-lcp-2014",
+        "sourceType": "open_journal",
+        "citation": "Hiessl, S.; Böse, D.; Oetermann, S.; Eggers, J.; Pietruszka, J.; Steinbüchel, A. Latex Clearing Protein—an Oxygenase Cleaving Poly(cis-1,4-Isoprene) Rubber at the cis Double Bonds. Applied and Environmental Microbiology 80 (2014), 5231–5240.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4136117/",
+        "locator": "Isolation of degradation products; substrate specificity; Results and Discussion.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-rubber-devulcanization-2019",
+        "lineageId": "deg-rubber-devulcanization-2019",
+        "sourceType": "patent",
+        "citation": "A method of devulcanizing a rubber vulcanizate. EP3514200B1 (2019).",
+        "url": "https://patents.google.com/patent/EP3514200B1/en",
+        "locator": "Rubber scope; sulfur-crosslink cleavage and processing-temperature discussion; examples.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000157",
+    "degradationAndStability": "Degradation products and pathways: VDF/HFP fluoroelastomer undergoes alkaline defluorination followed by chain cleavage, yielding fluoride and carbon-rich residues. Complete fluorine removal is distinct from complete carbon mineralization.\n\nTimescales: About 30 mg of VDF/HFP 78/22 copolymer, uncrosslinked or peroxide-cured with carbon black, gave complete fluoride recovery after 18 hours in 0.20 M KOH at 200 °C under argon.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Milling/reuse and devulcanization are established options discussed for compatible FKM streams. The paper demonstrates laboratory hydrothermal fluorine recovery followed by calcium-fluoride precipitation.",
+    "sources": [
+      {
+        "sourceId": "deg-fkm-hydrothermal-2023",
+        "lineageId": "deg-fkm-hydrothermal-2023",
+        "sourceType": "open_journal",
+        "citation": "Hamaura, J.; Hori, H.; Fujishima, A.; Mukae, H. Efficient Mineralization of Fluoroelastomers Using Superheated Water in the Presence of Potassium Hydroxide. Molecules 28 (2023), 7057.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10608947/",
+        "locator": "Table 1; proposed reaction mechanism; crosslinked FKM decomposition; calcium fluoride recovery.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000262",
+    "degradationAndStability": "Degradation products and pathways: A VDF/HFP member of this family can be defluorinated to fluoride and carbonaceous residue in alkaline superheated water. Perfluoroelastomers and other comonomer systems are outside that demonstrated scope.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "The cited laboratory route recovers fluorine as calcium fluoride. It should not be read as a commercially universal fluoroelastomer recycling technology.",
+    "sources": [
+      {
+        "sourceId": "deg-fkm-hydrothermal-2023",
+        "lineageId": "deg-fkm-hydrothermal-2023",
+        "sourceType": "open_journal",
+        "citation": "Hamaura, J.; Hori, H.; Fujishima, A.; Mukae, H. Efficient Mineralization of Fluoroelastomers Using Superheated Water in the Presence of Potassium Hydroxide. Molecules 28 (2023), 7057.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10608947/",
+        "locator": "Table 1; proposed reaction mechanism; crosslinked FKM decomposition; calcium fluoride recovery.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000122",
+    "degradationAndStability": "Degradation products and pathways: The studied rigid polyurethane foam can be chemically cleaved by glycolysis to a hydroxyl-containing liquid suitable as recycled polyol. This chemical treatment is distinct from environmental biodegradation.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "The paper demonstrates catalyst-assisted glycolysis of rigid foam and characterization of recycled polyols. Applicability to a particular crosslinked elastomer or coating requires testing its own network and additives.",
+    "sources": [
+      {
+        "sourceId": "deg-pu-glycolysis-catalysts-2021",
+        "lineageId": "deg-pu-glycolysis-catalysts-2021",
+        "sourceType": "open_journal",
+        "citation": "Glycolysis Recycling of Waste Polyurethane Rigid Foam Using Different Catalysts. Journal of Renewable Materials 9 (2021).",
+        "url": "https://file.techscience.com/ueditor/files/jrm/TSP_JRM-9-7/TSP_JRM_14876/TSP_JRM_14876.pdf",
+        "locator": "Materials and glycolysis experiments; catalyst comparisons; recycled-polyol characterization.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000255",
+    "degradationAndStability": "Degradation products and pathways: Rigid polyurethane foam provides a documented example of urethane cleavage during glycolysis, producing recycled polyol-containing mixtures. Polyester-, polyether-, foam and elastomer formulations do not share a universal product distribution.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Glycolysis is demonstrated for rigid-foam feedstock in the cited study. Sorting by chemistry and qualifying the recovered polyol are necessary; this evidence does not validate one process for every polyurethane.",
+    "sources": [
+      {
+        "sourceId": "deg-pu-glycolysis-catalysts-2021",
+        "lineageId": "deg-pu-glycolysis-catalysts-2021",
+        "sourceType": "open_journal",
+        "citation": "Glycolysis Recycling of Waste Polyurethane Rigid Foam Using Different Catalysts. Journal of Renewable Materials 9 (2021).",
+        "url": "https://file.techscience.com/ueditor/files/jrm/TSP_JRM-9-7/TSP_JRM_14876/TSP_JRM_14876.pdf",
+        "locator": "Materials and glycolysis experiments; catalyst comparisons; recycled-polyol characterization.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000123",
+    "degradationAndStability": "Degradation products and pathways: The patent discloses glycolysis of rigid polyurethane/polyisocyanurate foam to polyol-containing mixtures, with unwanted primary aromatic amines requiring subsequent treatment. These are chemical-recycling products; ambient decomposition products remain unresolved.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Patented glycolysis followed by organic-acid treatment makes recovered polyols for new rigid foams. The disclosed route does not establish complete cleavage of every isocyanurate-rich formulation or commercial adoption.",
+    "sources": [
+      {
+        "sourceId": "deg-pir-glycolysis-patent",
+        "lineageId": "deg-pir-glycolysis-patent",
+        "sourceType": "patent",
+        "citation": "Process for the preparation of recycled polyols from rigid foam residues of polyurethane and/or polyisocyanurate. ES2277554B1 (2008).",
+        "url": "https://patents.google.com/patent/ES2277554B1/en",
+        "locator": "Description of glycolysis, aromatic amine treatment and reuse of polyols.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000130",
+    "degradationAndStability": "Degradation products and pathways: The resorcinol-based phthalonitrile example undergoes high-temperature oxidative mass loss; alumina addition changes its thermal stability. The experiment does not identify a complete inventory of environmental breakdown molecules.\n\nTimescales: The paper uses a 10 °C/min thermogravimetric ramp in air; a ramp-decomposition temperature is not an environmental residence time.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-phthalonitrile-alumina-2022",
+        "lineageId": "deg-phthalonitrile-alumina-2022",
+        "sourceType": "open_journal",
+        "citation": "Tay, Y. S.; Phua, E. J. R.; Chen, Z.; Gan, C. L. Simultaneous Enhancement of Polymerization Kinetics and Properties of Phthalonitrile Using Alumina Fillers. ACS Omega 7 (2022), 32996–33003.",
+        "url": "https://dr.ntu.edu.sg/server/api/core/bitstreams/59e553c8-e704-4a21-ad78-0f636138262b/content",
+        "locator": "Experimental characterization; thermal degradation in Figure 1 and associated discussion.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000111",
+    "degradationAndStability": "Degradation products and pathways: Cured phenolic-resin thermal treatment produces a carbonaceous solid and a liquid rich in phenolic derivatives.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "The patent separates char for molded carbon products and reuses the phenolic fraction in gels. This is disclosed recovery technology; no universal commercial recycling rate is established.",
+    "sources": [
+      {
+        "sourceId": "deg-phenolic-recycling-patent",
+        "lineageId": "deg-phenolic-recycling-patent",
+        "sourceType": "patent",
+        "citation": "Suzuki, M.; Ueno, T.; Onishi, H.; Ono, Y. Recycling of cured phenolic resin. EP0940239B1 (2004).",
+        "url": "https://patents.google.com/patent/EP0940239B1/en",
+        "locator": "Detailed description: cured resol/novolak scope, thermal products and carbon/phenolic-liquid reuse.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000112",
+    "degradationAndStability": "Degradation products and pathways: The recycling patent explicitly includes cured novolac. Thermal cleavage gives carbonaceous residue and phenolic liquids; this is not an ambient product inventory.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "The patent separates char for molded carbon products and reuses the phenolic fraction in gels. This is disclosed recovery technology; no universal commercial recycling rate is established.",
+    "sources": [
+      {
+        "sourceId": "deg-phenolic-recycling-patent",
+        "lineageId": "deg-phenolic-recycling-patent",
+        "sourceType": "patent",
+        "citation": "Suzuki, M.; Ueno, T.; Onishi, H.; Ono, Y. Recycling of cured phenolic resin. EP0940239B1 (2004).",
+        "url": "https://patents.google.com/patent/EP0940239B1/en",
+        "locator": "Detailed description: cured resol/novolak scope, thermal products and carbon/phenolic-liquid reuse.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000113",
+    "degradationAndStability": "Degradation products and pathways: Cured resol is explicitly within the patent’s feedstock scope. Its thermal treatment yields carbonaceous material and a phenolic liquid fraction.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "The patent separates char for molded carbon products and reuses the phenolic fraction in gels. This is disclosed recovery technology; no universal commercial recycling rate is established.",
+    "sources": [
+      {
+        "sourceId": "deg-phenolic-recycling-patent",
+        "lineageId": "deg-phenolic-recycling-patent",
+        "sourceType": "patent",
+        "citation": "Suzuki, M.; Ueno, T.; Onishi, H.; Ono, Y. Recycling of cured phenolic resin. EP0940239B1 (2004).",
+        "url": "https://patents.google.com/patent/EP0940239B1/en",
+        "locator": "Detailed description: cured resol/novolak scope, thermal products and carbon/phenolic-liquid reuse.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000115",
+    "degradationAndStability": "Degradation products and pathways: Resorcinol-formaldehyde aerogels undergo oxidation and pyrolysis to fused aromatic carbon structures. Their carbonaceous residue is a transformation product, not evidence of biodegradation.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Carbonization is an established route to carbon aerogels; the cited study tests controlled precursor aerogels rather than mixed end-of-life adhesive waste. Conversion to carbon therefore provides a technical possibility, not a demonstrated general waste-recycling chain.",
+    "sources": [
+      {
+        "sourceId": "deg-rf-pyrolysis-2017",
+        "lineageId": "deg-rf-pyrolysis-2017",
+        "sourceType": "open_journal",
+        "citation": "Air-oxidation of phenolic resin aerogels: backbone reorganization, formation of ring-fused pyrylium cations, and the effect on microporous carbons with enhanced surface areas. RSC Advances (2017).",
+        "url": "https://pubs.rsc.org/en/content/articlepdf/2017/ra/c7ra10958j",
+        "locator": "Results on RF and PF aerogel oxidation and subsequent carbonization.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000116",
+    "degradationAndStability": "Degradation products and pathways: Evolved-gas and pyrolysis analyses of cured Aerodux 185/HRP 150 show thermally released and decomposed organic fractions. Cure and wood extractives affect the resulting network; the paper does not establish a complete environmental product inventory.\n\nTimescales: The analytical heating ramp spans 50–600 °C at 10 °C/min; it measures thermal release and decomposition, not a field degradation lifetime.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-prf-pyrolysis-2022",
+        "lineageId": "deg-prf-pyrolysis-2022",
+        "sourceType": "open_journal",
+        "citation": "Özparpucu, M.; Windeisen-Holzhauser, E.; Wegener, G.; Richter, K. A new analytical approach to investigate the influence of wood extracts on the curing properties of phenol-resorcinol–formaldehyde adhesives. Wood Science and Technology 56 (2022), 349–365.",
+        "url": "https://d-nb.info/1260036952/34",
+        "locator": "Evolved gas analysis and double-shot pyrolysis methods and results for cured Aerodux 185/HRP 150 adhesive.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000118",
+    "degradationAndStability": "Degradation products and pathways: Patented aqueous sulfite-based digestion breaks the melamine resin matrix into methylolmelamine-containing and sulfur-modified products that can be separated. Product chemistry depends on the chosen reagent.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "The process recovers melamine-derived solids for resin synthesis, formaldehyde scavenging or hardening. It is patent-stage evidence for sorted wood-panel and laminate wastes, not proof that all melamine articles are routinely recycled.",
+    "sources": [
+      {
+        "sourceId": "deg-mf-hydrolysis-patent",
+        "lineageId": "deg-mf-hydrolysis-patent",
+        "sourceType": "patent",
+        "citation": "Method of recycling melamine-formaldehyde resin from wastes that occur during production and processing of woodbase material boards. WO2024104889A1 (2024).",
+        "url": "https://patents.google.com/patent/WO2024104889A1/en",
+        "locator": "Hydrolytic digestion, precipitated methylolmelamine derivatives, and Examples 1–10.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000117",
+    "degradationAndStability": "Degradation products and pathways: The cited process uses steam hydrolysis to break urea-formaldehyde binder in coated HDF. It does not provide a complete molecular inventory of that separated binder fraction.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Steam-assisted binder removal can reclaim wood fibers and expose the melamine-coated fraction for further treatment. This is substrate reclamation; it is not demonstrated regeneration of pure urea-formaldehyde resin.",
+    "sources": [
+      {
+        "sourceId": "deg-uf-steam-panel-recovery",
+        "lineageId": "deg-mf-hydrolysis-patent",
+        "sourceType": "patent",
+        "citation": "Method of recycling melamine-formaldehyde resin from wastes that occur during production and processing of woodbase material boards. WO2024104889A1 (2024).",
+        "url": "https://patents.google.com/patent/WO2024104889A1/en",
+        "locator": "Steam pretreatment of urea-formaldehyde-bonded HDF before separate melamine digestion.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000121",
+    "degradationAndStability": "Degradation products and pathways: Benzoguanamine-formaldehyde crosslinkers in coatings can undergo hydrolytic breakdown and migrant release. The thesis distinguishes crosslinker chemistry and curing-dependent release; coating results do not define bulk molded-resin fate.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-benzoguanamine-migrants-thesis",
+        "lineageId": "deg-benzoguanamine-migrants-thesis",
+        "sourceType": "thesis",
+        "citation": "Magami, S. M. Melamino migrants as breakdown products of applied coatings. University of Leeds, PhD thesis (2013).",
+        "url": "https://etheses.whiterose.ac.uk/id/eprint/5329/1/Magami_SM_Chemistry_PhD_2013.pdf",
+        "locator": "Benzoguanamine crosslinker chemistry; coating hydrolysis and migrant comparisons in Chapters 5–7.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000126",
+    "degradationAndStability": "Degradation products and pathways: Silicone resins are explicitly within a patent’s catalytic-depolymerization scope, producing cyclic siloxanes and residue. This broad disclosure does not establish yields for every T/Q-rich resin.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "The disclosed process combines catalytic heating, volatile-siloxane recovery and residue processing. Its patent scope is broader than the demonstrated feedstocks; commercial applicability requires formulation-specific qualification.",
+    "sources": [
+      {
+        "sourceId": "deg-silicone-recycling-patent",
+        "lineageId": "deg-silicone-recycling-patent",
+        "sourceType": "patent",
+        "citation": "Julian, D. J.; Katsoulis, D.; Link, B. A.; Peitz, T. A.; Zhu, B. Method of recycling silicone waste with the use of organic polymer and depolymerization catalyst. WO2014130948A1 (2014).",
+        "url": "https://patents.google.com/patent/WO2014130948A1/en",
+        "locator": "Definitions of silicone resin, methylvinyl and fluoroalkyl silicones; catalytic depolymerization and product separation.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000160",
+    "degradationAndStability": "Degradation products and pathways: Catalytic cleavage of waste silicone rubber can yield cyclic siloxanes plus nonvolatile residue.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "The disclosed process combines catalytic heating, volatile-siloxane recovery and residue processing. Its patent scope is broader than the demonstrated feedstocks; commercial applicability requires formulation-specific qualification.",
+    "sources": [
+      {
+        "sourceId": "deg-silicone-recycling-patent",
+        "lineageId": "deg-silicone-recycling-patent",
+        "sourceType": "patent",
+        "citation": "Julian, D. J.; Katsoulis, D.; Link, B. A.; Peitz, T. A.; Zhu, B. Method of recycling silicone waste with the use of organic polymer and depolymerization catalyst. WO2014130948A1 (2014).",
+        "url": "https://patents.google.com/patent/WO2014130948A1/en",
+        "locator": "Definitions of silicone resin, methylvinyl and fluoroalkyl silicones; catalytic depolymerization and product separation.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000161",
+    "degradationAndStability": "Degradation products and pathways: Methylvinylsiloxane materials are explicitly included in the silicone-depolymerization patent; cyclic siloxane recovery is the proposed route.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "The disclosed process combines catalytic heating, volatile-siloxane recovery and residue processing. Its patent scope is broader than the demonstrated feedstocks; commercial applicability requires formulation-specific qualification.",
+    "sources": [
+      {
+        "sourceId": "deg-silicone-recycling-patent",
+        "lineageId": "deg-silicone-recycling-patent",
+        "sourceType": "patent",
+        "citation": "Julian, D. J.; Katsoulis, D.; Link, B. A.; Peitz, T. A.; Zhu, B. Method of recycling silicone waste with the use of organic polymer and depolymerization catalyst. WO2014130948A1 (2014).",
+        "url": "https://patents.google.com/patent/WO2014130948A1/en",
+        "locator": "Definitions of silicone resin, methylvinyl and fluoroalkyl silicones; catalytic depolymerization and product separation.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000162",
+    "degradationAndStability": "Degradation products and pathways: Fluoroalkyl silicones are explicitly included in the patent’s feedstock scope. A fluorosilicone-specific product balance and environmental degradation inventory remain unestablished.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "The disclosed process combines catalytic heating, volatile-siloxane recovery and residue processing. Its patent scope is broader than the demonstrated feedstocks; commercial applicability requires formulation-specific qualification.",
+    "sources": [
+      {
+        "sourceId": "deg-silicone-recycling-patent",
+        "lineageId": "deg-silicone-recycling-patent",
+        "sourceType": "patent",
+        "citation": "Julian, D. J.; Katsoulis, D.; Link, B. A.; Peitz, T. A.; Zhu, B. Method of recycling silicone waste with the use of organic polymer and depolymerization catalyst. WO2014130948A1 (2014).",
+        "url": "https://patents.google.com/patent/WO2014130948A1/en",
+        "locator": "Definitions of silicone resin, methylvinyl and fluoroalkyl silicones; catalytic depolymerization and product separation.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000256",
+    "degradationAndStability": "Degradation products and pathways: PDMS, one polysiloxane member, can hydrolyze in soil to dimethylsilanediol and smaller silanol-terminated oligomers. This must not be generalized to every substituted or crosslinked polysiloxane.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: Soil moisture, mineral surfaces and product volatilization affect observed PDMS disappearance. Fluid-PDMS soil results do not supply a degradation lifetime for bulk silicone rubber or resin.",
+    "recyclingAndEndOfLife": "Catalytic depolymerization to cyclic siloxanes is a patented recovery route for selected silicone wastes, with separation of nonvolatile fillers and residue.",
+    "sources": [
+      {
+        "sourceId": "deg-pdms-environment-agency-2009",
+        "lineageId": "deg-pdms-environment-agency-2009",
+        "sourceType": "public_report",
+        "citation": "UK Environment Agency. Environmental Risk Assessment Report: Decamethylcyclopentasiloxane (2009).",
+        "url": "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/290561/scho0309bpqx-e-e.pdf",
+        "locator": "Environmental fate: PDMS soil studies and silanol degradation products.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-silicone-recycling-patent",
+        "lineageId": "deg-silicone-recycling-patent",
+        "sourceType": "patent",
+        "citation": "Julian, D. J.; Katsoulis, D.; Link, B. A.; Peitz, T. A.; Zhu, B. Method of recycling silicone waste with the use of organic polymer and depolymerization catalyst. WO2014130948A1 (2014).",
+        "url": "https://patents.google.com/patent/WO2014130948A1/en",
+        "locator": "Definitions of silicone resin, methylvinyl and fluoroalkyl silicones; catalytic depolymerization and product separation.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000137",
+    "degradationAndStability": "Degradation products and pathways: Air oxidation produces epoxide, peroxide and carbonyl-bearing structures. A primary study of 1,4- and 1,2-polybutadiene films identified epoxide-rich oxidized chains; subsequent hot-air analysis detected alcohols, aldehydes, ketones and acids, including 2-butenal, 2-butanone and acetic acid.\n\nTimescales: The films were aged at 100 °C over hours; the 1,2 material became insoluble after 8 h. Volatile-product analysis covered 130–400 °C at a 10 °C/min ramp, a separate thermal protocol.\n\nEnvironmental persistence: Insolubility and oxidation do not demonstrate mineralization. These accelerated results supply no environmental disappearance time.",
+    "recyclingAndEndOfLife": "The patent proposes controlled devulcanization and reincorporation into rubber compounds. Listed applicability alone does not prove performance for every cure system; peroxide- and sulfur-cured materials need separate qualification.",
+    "sources": [
+      {
+        "sourceId": "deg-rubber-devulcanization-pathway",
+        "lineageId": "deg-rubber-devulcanization-2019",
+        "sourceType": "patent",
+        "citation": "A method of devulcanizing a rubber vulcanizate. EP3514200B1 (2019).",
+        "url": "https://patents.google.com/patent/EP3514200B1/en",
+        "locator": "Rubber scope and distinction between sulfur-crosslink cleavage and main-chain damage.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-br-thermooxidation-2017",
+        "lineageId": "br-thermooxidation-2017",
+        "sourceType": "open_journal",
+        "citation": "Nguyen, Q. H.; Chu, V. H.; Hoang, N. C.; Pham, V. H. Studies on thermo-oxidative degradation of synthetic rubbers 1-4 and 1-2 polybutadienes. Vietnam Journal of Science, Technology and Engineering 59(3) (2017).",
+        "url": "https://vietnamscience.vjst.vn/index.php/vjste/article/download/280/266/1088",
+        "locator": "100 °C air-aged films, NMR/FTIR, and 130–400 °C evolved VOC analysis, Figures 3–9.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000142",
+    "degradationAndStability": "Degradation products and pathways: NBR O-ring pyrolysis produces butadiene and acrylonitrile, with additional nitriles such as benzonitrile and aromatic fragments. Separately, an 80 °C ageing study finds increased crosslinking; its ketone/aldehyde mechanism is supported by molecular simulations rather than direct product collection.\n\nTimescales: The O-ring analysis flash-pyrolyzed 100–200 µg portions at 700 °C in helium. The ageing experiment used 10 mm cylinders compressed 30%, sampled over 19–228 h at 80 °C. Neither is a natural mineralization test.\n\nEnvironmental persistence: These heat-driven endpoints do not establish disappearance in soil, freshwater or seawater. The ageing formulation was proprietary, further limiting transfer to other NBR grades.",
+    "recyclingAndEndOfLife": "The patent proposes controlled devulcanization and reincorporation into rubber compounds. Listed applicability alone does not prove performance for every cure system; peroxide- and sulfur-cured materials need separate qualification.",
+    "sources": [
+      {
+        "sourceId": "deg-rubber-devulcanization-pathway",
+        "lineageId": "deg-rubber-devulcanization-2019",
+        "sourceType": "patent",
+        "citation": "A method of devulcanizing a rubber vulcanizate. EP3514200B1 (2019).",
+        "url": "https://patents.google.com/patent/EP3514200B1/en",
+        "locator": "Rubber scope and distinction between sulfur-crosslink cleavage and main-chain damage.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-nbr-pyrolysis-kusch",
+        "lineageId": "nbr-pyrolysis-kusch",
+        "sourceType": "public_report",
+        "citation": "Kusch, P. Application of Pyrolysis–Gas Chromatography/Mass Spectrometry in Failure Analysis in the Automotive Industry. In Automobiles and the Automotive Industry (2015), Chapter 3.",
+        "url": "https://d-nb.info/1203628072/34",
+        "locator": "Case study 2 and Table 1: four NBR O-rings, 100–200 µg portions, helium pyrolysis at 700 °C.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The public full text was anonymously readable. No reuse license is asserted; this entry independently paraphrases and cites it.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-nbr-aging-2025",
+        "lineageId": "nbr-aging-2025",
+        "sourceType": "open_journal",
+        "citation": "Zhu, M. et al. A Study on the Aging Mechanism and Anti-Aging Properties of Nitrile Butadiene Rubber: Experimental Characterization and Molecular Simulation. Polymers 17 (2025), 1446.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12158080/",
+        "locator": "Methods 2.1 and experimental results: commercial NBR cylinders, 80 °C air ageing under 30% compression, 19–228 h. Molecular products are modeled separately.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "open_licensed",
+        "permissionBasis": "The full text explicitly provides a Creative Commons license; this entry independently paraphrases the study.",
+        "doi": "10.3390/polym17111446",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000145",
+    "degradationAndStability": "Degradation products and pathways: Butyl rubber is explicitly listed in a thermochemical devulcanization patent. The intended breakdown is crosslink cleavage yielding reusable rubber chains; excessive heating can also damage the backbone. A complete ambient degradation-product inventory remains a gap.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "The patent proposes controlled devulcanization and reincorporation into rubber compounds. Listed applicability alone does not prove performance for every cure system; peroxide- and sulfur-cured materials need separate qualification.",
+    "sources": [
+      {
+        "sourceId": "deg-rubber-devulcanization-pathway",
+        "lineageId": "deg-rubber-devulcanization-2019",
+        "sourceType": "patent",
+        "citation": "A method of devulcanizing a rubber vulcanizate. EP3514200B1 (2019).",
+        "url": "https://patents.google.com/patent/EP3514200B1/en",
+        "locator": "Rubber scope and distinction between sulfur-crosslink cleavage and main-chain damage.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000146",
+    "degradationAndStability": "Degradation products and pathways: Bromobutyl rubber is explicitly listed in a thermochemical devulcanization patent. The intended breakdown is crosslink cleavage yielding reusable rubber chains; excessive heating can also damage the backbone. A complete ambient degradation-product inventory remains a gap.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "The patent proposes controlled devulcanization and reincorporation into rubber compounds. Listed applicability alone does not prove performance for every cure system; peroxide- and sulfur-cured materials need separate qualification.",
+    "sources": [
+      {
+        "sourceId": "deg-rubber-devulcanization-pathway",
+        "lineageId": "deg-rubber-devulcanization-2019",
+        "sourceType": "patent",
+        "citation": "A method of devulcanizing a rubber vulcanizate. EP3514200B1 (2019).",
+        "url": "https://patents.google.com/patent/EP3514200B1/en",
+        "locator": "Rubber scope and distinction between sulfur-crosslink cleavage and main-chain damage.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000147",
+    "degradationAndStability": "Degradation products and pathways: Chlorobutyl rubber is explicitly listed in a thermochemical devulcanization patent. The intended breakdown is crosslink cleavage yielding reusable rubber chains; excessive heating can also damage the backbone. A complete ambient degradation-product inventory remains a gap.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "The patent proposes controlled devulcanization and reincorporation into rubber compounds. Listed applicability alone does not prove performance for every cure system; peroxide- and sulfur-cured materials need separate qualification.",
+    "sources": [
+      {
+        "sourceId": "deg-rubber-devulcanization-pathway",
+        "lineageId": "deg-rubber-devulcanization-2019",
+        "sourceType": "patent",
+        "citation": "A method of devulcanizing a rubber vulcanizate. EP3514200B1 (2019).",
+        "url": "https://patents.google.com/patent/EP3514200B1/en",
+        "locator": "Rubber scope and distinction between sulfur-crosslink cleavage and main-chain damage.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000148",
+    "degradationAndStability": "Degradation products and pathways: Polychloroprene is explicitly listed in a thermochemical devulcanization patent. The intended breakdown is crosslink cleavage yielding reusable rubber chains; excessive heating can also damage the backbone. A complete ambient degradation-product inventory remains a gap.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "The patent proposes controlled devulcanization and reincorporation into rubber compounds. Listed applicability alone does not prove performance for every cure system; peroxide- and sulfur-cured materials need separate qualification.",
+    "sources": [
+      {
+        "sourceId": "deg-rubber-devulcanization-pathway",
+        "lineageId": "deg-rubber-devulcanization-2019",
+        "sourceType": "patent",
+        "citation": "A method of devulcanizing a rubber vulcanizate. EP3514200B1 (2019).",
+        "url": "https://patents.google.com/patent/EP3514200B1/en",
+        "locator": "Rubber scope and distinction between sulfur-crosslink cleavage and main-chain damage.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000149",
+    "degradationAndStability": "Degradation products and pathways: Ethylene-propylene rubber is explicitly listed in a thermochemical devulcanization patent. The intended breakdown is crosslink cleavage yielding reusable rubber chains; excessive heating can also damage the backbone. A complete ambient degradation-product inventory remains a gap.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "The patent proposes controlled devulcanization and reincorporation into rubber compounds. Listed applicability alone does not prove performance for every cure system; peroxide- and sulfur-cured materials need separate qualification.",
+    "sources": [
+      {
+        "sourceId": "deg-rubber-devulcanization-pathway",
+        "lineageId": "deg-rubber-devulcanization-2019",
+        "sourceType": "patent",
+        "citation": "A method of devulcanizing a rubber vulcanizate. EP3514200B1 (2019).",
+        "url": "https://patents.google.com/patent/EP3514200B1/en",
+        "locator": "Rubber scope and distinction between sulfur-crosslink cleavage and main-chain damage.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000150",
+    "degradationAndStability": "Degradation products and pathways: EPDM is explicitly listed in a thermochemical devulcanization patent. The intended breakdown is crosslink cleavage yielding reusable rubber chains; excessive heating can also damage the backbone. A complete ambient degradation-product inventory remains a gap.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "The patent proposes controlled devulcanization and reincorporation into rubber compounds. Listed applicability alone does not prove performance for every cure system; peroxide- and sulfur-cured materials need separate qualification.",
+    "sources": [
+      {
+        "sourceId": "deg-rubber-devulcanization-pathway",
+        "lineageId": "deg-rubber-devulcanization-2019",
+        "sourceType": "patent",
+        "citation": "A method of devulcanizing a rubber vulcanizate. EP3514200B1 (2019).",
+        "url": "https://patents.google.com/patent/EP3514200B1/en",
+        "locator": "Rubber scope and distinction between sulfur-crosslink cleavage and main-chain damage.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000138",
+    "degradationAndStability": "Degradation products and pathways: For sulfur-cured SBR, the patent uses chloramines to disrupt crosslinks and produce reclaimable rubber rather than purified styrene and butadiene.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Grinding and reuse in rubber-containing products provide material recovery. Chloramine treatment followed by revulcanization is a patented chemical alternative; commercial scale and grade-specific performance remain unestablished.",
+    "sources": [
+      {
+        "sourceId": "deg-sbr-chloramine-patent",
+        "lineageId": "deg-sbr-chloramine-patent",
+        "sourceType": "patent",
+        "citation": "Willing, G. A.; Kroeger, P. Recycling of styrene butadiene rubber and like materials. US9458303B1 (2016).",
+        "url": "https://patents.google.com/patent/US9458303B1/en",
+        "locator": "Emulsion SBR and sulfur-crosslinked tread examples; chloramine diffusion and crosslink cleavage; reclamation.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000139",
+    "degradationAndStability": "Degradation products and pathways: The patent explicitly describes emulsion-polymerized SBR and subsequent sulfur vulcanization. Chloramine treatment targets the sulfur-linked matrix.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Grinding and reuse in rubber-containing products provide material recovery. Chloramine treatment followed by revulcanization is a patented chemical alternative; commercial scale and grade-specific performance remain unestablished.",
+    "sources": [
+      {
+        "sourceId": "deg-sbr-chloramine-patent",
+        "lineageId": "deg-sbr-chloramine-patent",
+        "sourceType": "patent",
+        "citation": "Willing, G. A.; Kroeger, P. Recycling of styrene butadiene rubber and like materials. US9458303B1 (2016).",
+        "url": "https://patents.google.com/patent/US9458303B1/en",
+        "locator": "Emulsion SBR and sulfur-crosslinked tread examples; chloramine diffusion and crosslink cleavage; reclamation.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000140",
+    "degradationAndStability": "Degradation products and pathways: Family-level SBR evidence supports chloramine-assisted crosslink disruption. The cited patent does not separately validate a solution-SBR grade or its particular microstructure.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Grinding and reuse in rubber-containing products provide material recovery. Chloramine treatment followed by revulcanization is a patented chemical alternative; commercial scale and grade-specific performance remain unestablished.",
+    "sources": [
+      {
+        "sourceId": "deg-sbr-chloramine-patent",
+        "lineageId": "deg-sbr-chloramine-patent",
+        "sourceType": "patent",
+        "citation": "Willing, G. A.; Kroeger, P. Recycling of styrene butadiene rubber and like materials. US9458303B1 (2016).",
+        "url": "https://patents.google.com/patent/US9458303B1/en",
+        "locator": "Emulsion SBR and sulfur-crosslinked tread examples; chloramine diffusion and crosslink cleavage; reclamation.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000166",
+    "degradationAndStability": "Degradation products and pathways: In the tested SBS grades, thermal oxidation produced ketone-containing structures; composition changed resistance to processing damage.\n\nTimescales: Repeated laboratory heating/cooling cycles assess processing stability; they are not a soil, marine or landfill degradation clock.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Thermoplastic reprocessing is possible, but repeated heating changes the material. The study compares recycling-related thermal cycling; it does not demonstrate unlimited recycling or validate every block-copolymer grade.",
+    "sources": [
+      {
+        "sourceId": "deg-sbc-recyclability-2024",
+        "lineageId": "deg-sbc-recyclability-2024",
+        "sourceType": "open_journal",
+        "citation": "Bumbac, M.; Zaharescu, T.; Nicolescu, C. M.; Borbath, T.; Borbath, I. Chemiluminescence-based evaluation of styrene block copolymers’ recyclability. Scientific Reports 14 (2024), 28221.",
+        "url": "https://www.nature.com/articles/s41598-024-79193-6.pdf",
+        "locator": "Thermal cycling, infrared oxidation products, chemiluminescence and recycling implications.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000167",
+    "degradationAndStability": "Degradation products and pathways: The tested SIS formed oxidation-related volatile products during repeated high-temperature cycling.\n\nTimescales: Repeated laboratory heating/cooling cycles assess processing stability; they are not a soil, marine or landfill degradation clock.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Thermoplastic reprocessing is possible, but repeated heating changes the material. The study compares recycling-related thermal cycling; it does not demonstrate unlimited recycling or validate every block-copolymer grade.",
+    "sources": [
+      {
+        "sourceId": "deg-sbc-recyclability-2024",
+        "lineageId": "deg-sbc-recyclability-2024",
+        "sourceType": "open_journal",
+        "citation": "Bumbac, M.; Zaharescu, T.; Nicolescu, C. M.; Borbath, T.; Borbath, I. Chemiluminescence-based evaluation of styrene block copolymers’ recyclability. Scientific Reports 14 (2024), 28221.",
+        "url": "https://www.nature.com/articles/s41598-024-79193-6.pdf",
+        "locator": "Thermal cycling, infrared oxidation products, chemiluminescence and recycling implications.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000168",
+    "degradationAndStability": "Degradation products and pathways: The tested SEBS also formed oxidation-related volatiles, although its hydrogenated structure changed the onset and progression of thermal damage.\n\nTimescales: Repeated laboratory heating/cooling cycles assess processing stability; they are not a soil, marine or landfill degradation clock.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Thermoplastic reprocessing is possible, but repeated heating changes the material. The study compares recycling-related thermal cycling; it does not demonstrate unlimited recycling or validate every block-copolymer grade.",
+    "sources": [
+      {
+        "sourceId": "deg-sbc-recyclability-2024",
+        "lineageId": "deg-sbc-recyclability-2024",
+        "sourceType": "open_journal",
+        "citation": "Bumbac, M.; Zaharescu, T.; Nicolescu, C. M.; Borbath, T.; Borbath, I. Chemiluminescence-based evaluation of styrene block copolymers’ recyclability. Scientific Reports 14 (2024), 28221.",
+        "url": "https://www.nature.com/articles/s41598-024-79193-6.pdf",
+        "locator": "Thermal cycling, infrared oxidation products, chemiluminescence and recycling implications.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000257",
+    "degradationAndStability": "Degradation products and pathways: SBS, SIS and SEBS examples show composition-dependent thermal oxidation; ketone-containing structures and volatile oxidation products are reported.\n\nTimescales: Repeated laboratory heating/cooling cycles assess processing stability; they are not a soil, marine or landfill degradation clock.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Thermoplastic reprocessing is possible, but repeated heating changes the material. The study compares recycling-related thermal cycling; it does not demonstrate unlimited recycling or validate every block-copolymer grade.",
+    "sources": [
+      {
+        "sourceId": "deg-sbc-recyclability-2024",
+        "lineageId": "deg-sbc-recyclability-2024",
+        "sourceType": "open_journal",
+        "citation": "Bumbac, M.; Zaharescu, T.; Nicolescu, C. M.; Borbath, T.; Borbath, I. Chemiluminescence-based evaluation of styrene block copolymers’ recyclability. Scientific Reports 14 (2024), 28221.",
+        "url": "https://www.nature.com/articles/s41598-024-79193-6.pdf",
+        "locator": "Thermal cycling, infrared oxidation products, chemiluminescence and recycling implications.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000120",
+    "degradationAndStability": "Degradation products and pathways: Hot-water ageing of a commercial mineral-wool PUF binder releases soluble phenol/urea/formaldehyde-derived fragments. Ether-like bridges are more hydrolysis-sensitive than methylene bridges; mass spectra also indicate cleavage of urea units to amino-terminated fragments. Cure history changes resistance.\n\nTimescales: The study tested 125–250 µm binder powders, cured at 200 °C for 15 or 60 minutes, in 80 °C water for 3 hours; mineral-wool products were also aged for 7 days at 70 °C and 91% relative humidity. These are chemical and surface-ageing endpoints, not complete mineralization.\n\nEnvironmental persistence: Moisture can detach binder from mineral fibers and release soluble organic fragments. The study provides no transferable lifetime in soil, freshwater, seawater or landfill.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-puf-hydrolysis-2018",
+        "lineageId": "deg-puf-hydrolysis-2018",
+        "sourceType": "open_journal",
+        "citation": "Okhrimenko, D. V. et al. Impact of curing time on ageing and degradation of phenol-urea-formaldehyde binder. Polymer Degradation and Stability 152 (2018), 86–94; accepted manuscript.",
+        "url": "https://findresearcher.sdu.dk/ws/portalfiles/portal/140508706/Impact_of_curing_time_on_ageing_and_degradation_of_phenol_urea_formaldehyde_binder.pdf",
+        "locator": "Methods 2.2.1; results 3.1–3.3: cured binder powders, hydrolysis and soluble fragments.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000124",
+    "degradationAndStability": "Degradation products and pathways: Acetic-anhydride/sulfuric-acid activation followed by alkaline hydrolysis cleaves urea bonds in tested MDI-based linear and crosslinked polyureas. Recovered products include the original polyether or silicone amines and methylenedianiline; these are deliberate chemical-treatment products.\n\nTimescales: Cut LPU-PDMS film (4.5 g) was activated in DMAc with acetic anhydride and sulfuric acid by microwave heating at 100 °C for 20 minutes, followed by aqueous 1 M NaOH/ethanol treatment at 80 °C for 2 hours. This recovery schedule is not an environmental degradation time.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "A laboratory process recovers amine monomers and repolymerizes them into polyureas. Both linear and crosslinked formulations were demonstrated, including gram-scale recovery; this does not establish commercial collection or recycling capacity.",
+    "sources": [
+      {
+        "sourceId": "deg-polyurea-acylation-2025",
+        "lineageId": "deg-polyurea-acylation-2025",
+        "sourceType": "open_journal",
+        "citation": "Yu, E. et al. Mild and metal-free chemical recycling of polyureas via acylation-activated bond cleavage. National Science Review 12 (2025), nwaf430.",
+        "url": "https://academic.oup.com/nsr/article/12/12/nwaf430/8281975",
+        "locator": "Depolymerization and recycling of polyureas; gram-scale recycling method.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000125",
+    "degradationAndStability": "Degradation products and pathways: A patented process hydrolyzes ester crosslinks in selected infusible alkyds to a mixture of acid/alcohol-terminated oligomers and monomers. The examples concern glycerol–maleate material; they do not define the product mixture from every oil-modified coating.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Water-assisted reactive extrusion followed by water removal and recondensation is a patented route to reshape selected alkyd networks. General applicability to oxidatively crosslinked paints, additives and mixed coating waste remains to be demonstrated.",
+    "sources": [
+      {
+        "sourceId": "deg-alkyd-reprocessing-patent",
+        "lineageId": "deg-alkyd-reprocessing-patent",
+        "sourceType": "patent",
+        "citation": "Reprocessing of Alkyd Resins. US20110195626A1 (2011).",
+        "url": "https://patents.google.com/patent/US20110195626A1/en",
+        "locator": "Detailed description: ester hydrolysis/condensation and extrusion; glycerol-maleate examples.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000127",
+    "degradationAndStability": "Degradation products and pathways: Specially designed disulfide-containing bismaleimide networks can be disassembled by thiol exchange into soluble fragments, with a polyaryletherketone additive recovered as a solid. This is evidence for a modified BMI formulation, not the degradation-product inventory of conventional BMI.\n\nTimescales: For 120–130 mg blocks of the four modified resins, disappearance took 14–22 minutes in 10 mL DMF/beta-mercaptoethanol (2:1 by volume) at 120 °C with stirring. Disappearance into solution is not mineralization.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "The patent demonstrates hot pressing of crushed dynamic BMI resin and chemical disassembly using DMF/beta-mercaptoethanol. These are formulation-specific patented laboratory methods; ordinary permanently crosslinked BMI requires separate evidence.",
+    "sources": [
+      {
+        "sourceId": "deg-bmi-disulfide-recycling-patent",
+        "lineageId": "deg-bmi-disulfide-recycling-patent",
+        "sourceType": "patent",
+        "citation": "Remodelable degradable bismaleimide resin and preparation method thereof. CN119505237B (2025).",
+        "url": "https://patents.google.com/patent/CN119505237B/en",
+        "locator": "Examples 1–6: disulfide-containing BMI networks, hot pressing and thiol-assisted disassembly.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000129",
+    "degradationAndStability": "Degradation products and pathways: A sulfur-modified polybenzoxazine example undergoes sulfur–sulfur bond cleavage and reformation on heating. Spectroscopy retained the main network components after recycling, while mechanical changes indicated altered crosslinking; this is network rearrangement, not monomer recovery.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Chopping and thermal remolding was demonstrated for a specific 40/40/20 wt% poly(propylene oxide)-benzoxazine/diallylbenzoxazine/sulfur formulation. Repeated cycles changed toughness. This laboratory strategy depends on deliberately installed dynamic bonds and cannot be assumed for conventional polybenzoxazines.",
+    "sources": [
+      {
+        "sourceId": "deg-polybenzoxazine-dynamic-2017",
+        "lineageId": "deg-polybenzoxazine-dynamic-2017",
+        "sourceType": "open_journal",
+        "citation": "Arslan, M.; Kiskan, B.; Yagci, Y. Recycling and Self-Healing of Polybenzoxazines with Dynamic Sulfide Linkages. Scientific Reports 7 (2017), 5207.",
+        "url": "https://www.nature.com/articles/s41598-017-05608-2.pdf",
+        "locator": "Results: PPOB40-B-al40-S20 films, dynamic sulfur bonds and five chopping/healing cycles.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000131",
+    "degradationAndStability": "Degradation products and pathways: Controlled pyrolysis of poly(furfuryl alcohol) forms carbonaceous residue; subsequent atmosphere and heat treatment determine activated, glassy or graphitic carbon structures. This thermal conversion does not identify its ambient weathering products.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Carbonization is an established patented use of furfuryl-alcohol resin as a carbon precursor. The cited process starts from deliberately prepared formulations; it does not demonstrate recovery of monomers or an operating recycling system for contaminated waste resin.",
+    "sources": [
+      {
+        "sourceId": "deg-pfa-carbonization-patent",
+        "lineageId": "deg-pfa-carbonization-patent",
+        "sourceType": "patent",
+        "citation": "Method of making activated carbon and graphite structures. US5215690A (1993).",
+        "url": "https://patents.google.com/patent/US5215690A/en",
+        "locator": "Description and examples: acid-polymerized furfuryl alcohol binders converted to carbon.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000128",
+    "degradationAndStability": "Degradation products and pathways: Cured cyanate esters first undergo chain scission and further crosslinking on strong heating, followed by breakdown of cyanurate rings. Pyrolysis experiments found cyanate-containing volatiles, substituted benzenes, phenols, methane, ammonia and carbon dioxide, together with nitrogen/oxygen-containing char. Substituents change the product distribution.\n\nTimescales: For nine cured polycyanurates, nitrogen TGA at 10 °C/min showed major mass loss near 450 °C. This heating-rate-dependent decomposition endpoint is not an environmental lifetime.\n\nEnvironmental persistence: The experiment establishes high-temperature breakdown and a substantial carbonaceous residue. It does not establish complete biodegradation or a soil, marine or landfill mineralization time.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-cyanate-pyrolysis-faa-2001",
+        "lineageId": "deg-cyanate-pyrolysis-faa-2001",
+        "sourceType": "public_report",
+        "citation": "Ramirez, M. L.; Walters, R.; Savitski, E. P.; Lyon, R. E. Thermal Decomposition of Cyanate Ester Resins. FAA report DOT/FAA/AR-01/32 (2001).",
+        "url": "https://rosap.ntl.bts.gov/view/dot/15466/dot_15466_DS1.pdf",
+        "locator": "Sections 2 and 3; Tables 1–4: nine cured polycyanurates and pyrolysis products.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000133",
+    "degradationAndStability": "Degradation products and pathways: Aminolysis followed by acid hydrolysis of the studied phenylethynyl-end-capped polyimide (PETI) breaks imide/amide bonds. Recovered products include the original diamines TFMB and 1,3-bis(4-aminophenoxy)benzene and hydroxyl-bearing aromatic oligomers retaining some imide structure.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Laboratory aminolysis-coupled hydrolysis recovers diamines and converts remaining PETI fragments into a flame-retardant component for polyester synthesis. This is demonstrated for the reported PETI chemistry, with incomplete diamine recovery, rather than a universal route for every thermoset polyimide.",
+    "sources": [
+      {
+        "sourceId": "deg-thermoset-polyimide-recovery-2025",
+        "lineageId": "deg-thermoset-polyimide-recovery-2025",
+        "sourceType": "open_journal",
+        "citation": "Chen et al. Full Recovery of Polyimide Wastes Into High-Value Products Through Break and Reconstruction of Imide Ring. Advanced Science (2025), 2414416.",
+        "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202414416",
+        "locator": "Sections 2.2–2.3: PETI aminolysis/hydrolysis, diamines and DPETI reuse.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000102",
+    "degradationAndStability": "Degradation products and pathways: A degradable-hardener patent explicitly includes glycidylamine epoxy resins. Acid treatment of these specially designed networks produces soluble resin fragments and separates reinforcement. This depends on the curing agent; it does not establish degradability or a major-product inventory for conventional glycidylamine epoxy networks.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Acid/solvent disassembly followed by separation of reinforcement and precipitation of resin-derived material is a patented recovery approach for deliberately cleavable epoxy formulations. Ordinary cured material and each reinforcement/filler combination require separate validation.",
+    "sources": [
+      {
+        "sourceId": "deg-cleavable-epoxy-hardener-patent",
+        "lineageId": "deg-cleavable-epoxy-hardener-patent",
+        "sourceType": "patent",
+        "citation": "Degrading and recovering method of epoxy resin composite material. CN103524784A (2014).",
+        "url": "https://patents.google.com/patent/CN103524784A/en",
+        "locator": "Description and claim 11: specialty cleavable curing agents, explicitly listed glycidylamine/alicyclic resin scope and recovery.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000103",
+    "degradationAndStability": "Degradation products and pathways: A degradable-hardener patent explicitly includes cycloaliphatic epoxy resins. Acid treatment of these specially designed networks produces soluble resin fragments and separates reinforcement. This depends on the curing agent; it does not establish degradability or a major-product inventory for conventional cycloaliphatic epoxy networks.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Acid/solvent disassembly followed by separation of reinforcement and precipitation of resin-derived material is a patented recovery approach for deliberately cleavable epoxy formulations. Ordinary cured material and each reinforcement/filler combination require separate validation.",
+    "sources": [
+      {
+        "sourceId": "deg-cleavable-epoxy-hardener-patent",
+        "lineageId": "deg-cleavable-epoxy-hardener-patent",
+        "sourceType": "patent",
+        "citation": "Degrading and recovering method of epoxy resin composite material. CN103524784A (2014).",
+        "url": "https://patents.google.com/patent/CN103524784A/en",
+        "locator": "Description and claim 11: specialty cleavable curing agents, explicitly listed glycidylamine/alicyclic resin scope and recovery.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000114",
+    "degradationAndStability": "Degradation products and pathways: Cresol-based phenolic mouldings are reported to resist sodium-hydroxide attack more strongly than simple phenol–formaldehyde mouldings. A resin-specific inventory of weathering or thermal-degradation products remains unresolved.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: Chemical resistance supports caution about environmental breakdown, but is not a measured mineralization rate. Filler and cure chemistry affect the resistance of a finished moulding.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-cresol-thermoset-report-2016",
+        "lineageId": "deg-cresol-thermoset-report-2016",
+        "sourceType": "public_report",
+        "citation": "Central Pollution Control Board. Guidelines for disposal of thermoset plastic waste (2016).",
+        "url": "https://optoce.no/wp-content/uploads/2019/03/CPCB-29-Jun-2016Latest-Thermoset-Guidelines.pdf",
+        "locator": "Section 3.3: cresol-based resins and chemical resistance; thermoset disposal context.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000119",
+    "degradationAndStability": "Degradation products and pathways: Waste MUF-bonded boards can be mechanically disintegrated into adhesive-containing wood particles. Residual formaldehyde is a relevant recovered-material constituent; the study does not resolve complete MUF breakdown into specific molecular products.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Mechanical size reduction and recovery of wood particles for further board manufacture were studied directly for MUF-bonded waste. This recovers the wood fraction while retaining adhesive residues; it is not closed-loop recovery of melamine, urea and formaldehyde.",
+    "sources": [
+      {
+        "sourceId": "deg-muf-wood-particle-recovery-2017",
+        "lineageId": "deg-muf-wood-particle-recovery-2017",
+        "sourceType": "open_journal",
+        "citation": "Ihnát, V.; Lübke, H.; Russ, A.; Borůvka, V. Waste agglomerated wood materials as a secondary raw material for chipboards and fibreboards. Part I. Wood Research 62 (2017), 45–56.",
+        "url": "https://www.woodresearch.sk/wr/201701/05.pdf",
+        "locator": "Methods and results comparing disintegration of MUF- and UF-bonded waste boards.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000141",
+    "degradationAndStability": "Degradation products and pathways: Specially formulated carboxylated SBR carpet adhesive can detach from fibers under shear in alkaline surfactant solution while the adhesive remains insoluble. This is physical separation of an adhesive-containing fraction, not molecular depolymerization. A complete environmental product inventory remains unresolved.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "A patented process combines size reduction, wet granulation and hydrocyclone separation to reclaim carpet face fibers. Performance depends on the acid-comonomer formulation: the conventional XSB comparator was not removed under the same treatment.",
+    "sources": [
+      {
+        "sourceId": "deg-xsbr-carpet-separation-patent",
+        "lineageId": "deg-xsbr-carpet-separation-patent",
+        "sourceType": "patent",
+        "citation": "Carpet backing adhesive and its use in recycling carpet. US6610769B1 (2003).",
+        "url": "https://patents.google.com/patent/US6610769B1/en",
+        "locator": "Detailed description and Examples 1–3: modified carboxylated SBR adhesives, wet granulation and fiber separation.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000143",
+    "degradationAndStability": "Degradation products and pathways: Thermo-oxidative ageing of peroxide-cured HNBR involves both chain scission and additional crosslinking; the balance changes with ageing. Broken load-bearing chains and network changes explain loss of elastic recovery. The experiment does not identify a complete small-molecule product inventory.\n\nTimescales: A commercial peroxide-cured HNBR containing 36 wt% acrylonitrile was studied as O-ring segments and 2 mm sheets in circulating air at 125 °C for 2 hours to 31 days. Compression relaxation and compression set measured network damage, not mass disappearance or mineralization.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-hnbr-ageing-2019",
+        "lineageId": "deg-hnbr-ageing-2019",
+        "sourceType": "open_journal",
+        "citation": "Zaghdoudi, M.; Kömmling, A.; Jaunich, M.; Wolff, D. Scission, Cross-Linking, and Physical Relaxation during Thermal Degradation of Elastomers. Polymers 11 (2019), 1280.",
+        "url": "https://pdfs.semanticscholar.org/69ad/98f53922d5a3a55ac46ada431dcafac89b27.pdf",
+        "locator": "Sections 2–3: peroxide-cured HNBR and EPDM ageing and compression relaxation.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000144",
+    "degradationAndStability": "Degradation products and pathways: For sulfur-cured carboxylated nitrile rubber, a patent proposes preferential cleavage of sulfur crosslinks at crumb surfaces while retaining a cured core and much of the backbone. This scope does not cover every ionic or peroxide-cured XNBR formulation; ambient products remain unresolved.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Patented options include surface devulcanization and blending ground waste XNBR into PVC, with optional graft modification. These sources demonstrate or propose material recovery, not recovery of pure acrylonitrile/butadiene monomers or verified commercial throughput.",
+    "sources": [
+      {
+        "sourceId": "deg-xnbr-surface-devulcanization-patent",
+        "lineageId": "deg-xnbr-surface-devulcanization-patent",
+        "sourceType": "patent",
+        "citation": "Surface devulcanization of cured rubber crumb. US6462099B1 (2002).",
+        "url": "https://patents.google.com/patent/US6462099B1/en",
+        "locator": "Detailed description: explicit sulfur-cured XNBR scope, sulfur-bond cleavage, residual cured core and recompounding.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-xnbr-pvc-reuse-patent",
+        "lineageId": "deg-xnbr-pvc-reuse-patent",
+        "sourceType": "patent",
+        "citation": "Preparation method of waste carboxyl nitrile rubber powder and PVC blend. CN101260215A (2008).",
+        "url": "https://patents.google.com/patent/CN101260215A/zh",
+        "locator": "Examples 1–6: ground waste XNBR/PVC blends and graft modification.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000158",
+    "degradationAndStability": "Degradation products and pathways: The cited cured-perfluoroelastomer compound can release hydrogen fluoride, carbonyl fluoride, carbon monoxide and low-molecular-weight fluorocarbons under fire conditions. These are severe thermal-decomposition products, not demonstrated ambient leachates.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The cured compound is water-insoluble and stable under ordinary handling. Those properties do not provide a measured environmental lifetime; complete mineralization in natural environments is not established by this source.",
+    "recyclingAndEndOfLife": "The manufacturer provides disposal guidance but no validated monomer-recovery or material-recycling process. A polymer-specific reclaiming technology and its maturity remain an evidence gap in this entry.",
+    "sources": [
+      {
+        "sourceId": "deg-ffkm-sds-gumlast",
+        "lineageId": "deg-ffkm-sds-gumlast",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "FloDynamix. Gumlast perfluoroelastomer parts: Material Safety Data Sheet (2010).",
+        "url": "https://flodynamix.com/data-sheets-msds.html",
+        "locator": "MSDS sections 2, 5, 9–13: cured FFKM composition, fire products, stability and end-of-life data limitations.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000159",
+    "degradationAndStability": "Degradation products and pathways: For the cited tetrafluoroethylene–propylene rubber sheet, the manufacturer lists carbon monoxide, carbon dioxide and hydrogen fluoride as hazardous decomposition products. This concerns overheating or combustion of a formulated sheet, not natural-environment product measurements.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The source describes a stable rubber solid with negligible solubility. It provides no measured biodegradation endpoint or transferable soil, freshwater, marine or landfill lifetime.",
+    "recyclingAndEndOfLife": "The manufacturer identifies controlled incineration as its disposal route; this is destruction, not recovery of polymer or monomers. A directly supported FEPM recycling process remains unresolved.",
+    "sources": [
+      {
+        "sourceId": "deg-fepm-aflas-sds",
+        "lineageId": "deg-fepm-aflas-sds",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Trelleborg. Style AFLAS fluoroelastomer sheet, SDS 0693 (2016).",
+        "url": "https://www.trelleborg.com/engineered-coated-fabrics/-/media/engineered-fabrics/industries/manufacturing/gaskets-and-rubber-sealings-images/tecf-aflas-tfe-p-sds.pdf?hash=3F577D9AFA086688AA153BFC51FD5491&rev=c54d3315cd6945db9a464de7ddfa4ad5",
+        "locator": "Sections 3, 5, 9, 10 and 13: TFE/propylene compound, decomposition and disposal.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000108",
+    "degradationAndStability": "Degradation products and pathways: Vinyl ester composites can undergo water uptake, plasticization, leaching and irreversible hydrolytic damage, including fiber–matrix debonding. The cited review explicitly covers BPA- and novolac-based matrices. It does not establish a complete molecular product inventory for this resin.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: Hydrothermal damage and detached resin layers do not establish complete biodegradation. Cure, voids, reinforcement and exposure temperature strongly affect persistence; a transferable environmental mineralization time remains unresolved.",
+    "recyclingAndEndOfLife": "Granulating cured fiber-reinforced waste and compounding it with a thermoplastic matrix is a patented material-recovery option, explicitly including these vinyl ester chemistries. It retains thermoset fragments as a composite constituent; it does not regenerate the original resin monomers.",
+    "sources": [
+      {
+        "sourceId": "deg-vinylester-hydrothermal-review-2023",
+        "lineageId": "deg-vinylester-hydrothermal-review-2023",
+        "sourceType": "open_journal",
+        "citation": "Thomason, J.; Xypolias, G. Hydrothermal Ageing of Glass Fibre Reinforced Vinyl Ester Composites: A Review. Polymers 15 (2023), 835.",
+        "url": "https://strathprints.strath.ac.uk/84085/1/Thomason_Xypolias_Polymers_2023_Hydrothermal_ageing_of_glass_fibre.pdf",
+        "locator": "Sections 3 and 6; explicit comparison of BPA- and novolac-based matrices, hydrolysis, leaching and limits of accelerated ageing.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-vinylester-granulation-patent",
+        "lineageId": "deg-vinylester-granulation-patent",
+        "sourceType": "patent",
+        "citation": "Phillips, T. E.; Krishnaswamy, P. Structural recycled plastic lumber. US6497956B1 (2002).",
+        "url": "https://patents.google.com/patent/US6497956B1/en",
+        "locator": "Detailed description: cured reinforced thermoset granulation; BPA- and phenol-novolac-derived vinyl esters in scope.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000109",
+    "degradationAndStability": "Degradation products and pathways: Bisphenol-A epoxy vinyl ester composites can undergo water uptake, plasticization, leaching and irreversible hydrolytic damage, including fiber–matrix debonding. The cited review explicitly covers BPA- and novolac-based matrices. It does not establish a complete molecular product inventory for this resin.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: Hydrothermal damage and detached resin layers do not establish complete biodegradation. Cure, voids, reinforcement and exposure temperature strongly affect persistence; a transferable environmental mineralization time remains unresolved.",
+    "recyclingAndEndOfLife": "Granulating cured fiber-reinforced waste and compounding it with a thermoplastic matrix is a patented material-recovery option, explicitly including these vinyl ester chemistries. It retains thermoset fragments as a composite constituent; it does not regenerate the original resin monomers.",
+    "sources": [
+      {
+        "sourceId": "deg-vinylester-hydrothermal-review-2023",
+        "lineageId": "deg-vinylester-hydrothermal-review-2023",
+        "sourceType": "open_journal",
+        "citation": "Thomason, J.; Xypolias, G. Hydrothermal Ageing of Glass Fibre Reinforced Vinyl Ester Composites: A Review. Polymers 15 (2023), 835.",
+        "url": "https://strathprints.strath.ac.uk/84085/1/Thomason_Xypolias_Polymers_2023_Hydrothermal_ageing_of_glass_fibre.pdf",
+        "locator": "Sections 3 and 6; explicit comparison of BPA- and novolac-based matrices, hydrolysis, leaching and limits of accelerated ageing.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-vinylester-granulation-patent",
+        "lineageId": "deg-vinylester-granulation-patent",
+        "sourceType": "patent",
+        "citation": "Phillips, T. E.; Krishnaswamy, P. Structural recycled plastic lumber. US6497956B1 (2002).",
+        "url": "https://patents.google.com/patent/US6497956B1/en",
+        "locator": "Detailed description: cured reinforced thermoset granulation; BPA- and phenol-novolac-derived vinyl esters in scope.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000110",
+    "degradationAndStability": "Degradation products and pathways: Epoxy-novolac vinyl ester composites can undergo water uptake, plasticization, leaching and irreversible hydrolytic damage, including fiber–matrix debonding. The cited review explicitly covers BPA- and novolac-based matrices. It does not establish a complete molecular product inventory for this resin.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: Hydrothermal damage and detached resin layers do not establish complete biodegradation. Cure, voids, reinforcement and exposure temperature strongly affect persistence; a transferable environmental mineralization time remains unresolved.",
+    "recyclingAndEndOfLife": "Granulating cured fiber-reinforced waste and compounding it with a thermoplastic matrix is a patented material-recovery option, explicitly including these vinyl ester chemistries. It retains thermoset fragments as a composite constituent; it does not regenerate the original resin monomers.",
+    "sources": [
+      {
+        "sourceId": "deg-vinylester-hydrothermal-review-2023",
+        "lineageId": "deg-vinylester-hydrothermal-review-2023",
+        "sourceType": "open_journal",
+        "citation": "Thomason, J.; Xypolias, G. Hydrothermal Ageing of Glass Fibre Reinforced Vinyl Ester Composites: A Review. Polymers 15 (2023), 835.",
+        "url": "https://strathprints.strath.ac.uk/84085/1/Thomason_Xypolias_Polymers_2023_Hydrothermal_ageing_of_glass_fibre.pdf",
+        "locator": "Sections 3 and 6; explicit comparison of BPA- and novolac-based matrices, hydrolysis, leaching and limits of accelerated ageing.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-vinylester-granulation-patent",
+        "lineageId": "deg-vinylester-granulation-patent",
+        "sourceType": "patent",
+        "citation": "Phillips, T. E.; Krishnaswamy, P. Structural recycled plastic lumber. US6497956B1 (2002).",
+        "url": "https://patents.google.com/patent/US6497956B1/en",
+        "locator": "Detailed description: cured reinforced thermoset granulation; BPA- and phenol-novolac-derived vinyl esters in scope.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000132",
+    "degradationAndStability": "Degradation products and pathways: A microwave-prepared poly(diallyl phthalate) example shows thermal mass loss on heating. The cited characterization does not identify the evolved molecules; a full breakdown-product inventory for the cured network remains unresolved.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "A patent lists diallyl phthalate resin among carbon-fiber matrices suitable for heated drawing and fiber recovery. This route seeks to soften the matrix while limiting decomposition; listed scope is not a DAP-specific demonstration or proof of commercial recycling.",
+    "sources": [
+      {
+        "sourceId": "deg-diallylphthalate-thermal-characterization-patent",
+        "lineageId": "deg-diallylphthalate-thermal-characterization-patent",
+        "sourceType": "patent",
+        "citation": "Methods for converting glycerol to allyl compounds. US10633316B2 (2020).",
+        "url": "https://patents.google.com/patent/US10633316B2/en",
+        "locator": "Polymerization of diallyl phthalate; Figures 24–28 and thermal characterization.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-diallylphthalate-fiber-recovery-patent",
+        "lineageId": "deg-diallylphthalate-fiber-recovery-patent",
+        "sourceType": "patent",
+        "citation": "Method of recycling carbon fiber. US12370724B2 (2025).",
+        "url": "https://patents.google.com/patent/US12370724B2/en",
+        "locator": "Resin scope and drawing-under-heating step; diallyl phthalate resin explicitly listed.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000153",
+    "degradationAndStability": "Degradation products and pathways: Epichlorohydrin homopolymer rubber is explicitly included in a heat-stabilization patent describing hydrogen chloride release during curing or severe heating. A complete inventory of environmental breakdown products remains unresolved.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The cited chlorine-containing elastomers resist weathering and ozone. This resistance is not a measured mineralization lifetime; stabilizers and cure chemistry influence the finished compound.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-chlorine-rubber-stability-patent",
+        "lineageId": "deg-chlorine-rubber-stability-patent",
+        "sourceType": "patent",
+        "citation": "The Gates Corporation. Chlorine-containing polyethylene- and polyether-based elastomers stabilized with barium sulfate. US5683773 (1997).",
+        "url": "https://patents.justia.com/patent/5683773",
+        "locator": "Background; preferred elastomers; Tables 1–4: HCl cleavage, explicit CO/ECO/CPE/CSM scope and CPE ageing.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000154",
+    "degradationAndStability": "Degradation products and pathways: Epichlorohydrin–ethylene oxide rubber is explicitly included in a heat-stabilization patent describing hydrogen chloride release during curing or severe heating. A complete inventory of environmental breakdown products remains unresolved.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The cited chlorine-containing elastomers resist weathering and ozone. This resistance is not a measured mineralization lifetime; stabilizers and cure chemistry influence the finished compound.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-chlorine-rubber-stability-patent",
+        "lineageId": "deg-chlorine-rubber-stability-patent",
+        "sourceType": "patent",
+        "citation": "The Gates Corporation. Chlorine-containing polyethylene- and polyether-based elastomers stabilized with barium sulfate. US5683773 (1997).",
+        "url": "https://patents.justia.com/patent/5683773",
+        "locator": "Background; preferred elastomers; Tables 1–4: HCl cleavage, explicit CO/ECO/CPE/CSM scope and CPE ageing.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000155",
+    "degradationAndStability": "Degradation products and pathways: Chlorinated polyethylene rubber is explicitly included in a heat-stabilization patent describing hydrogen chloride release during curing or severe heating. A complete inventory of environmental breakdown products remains unresolved.\n\nTimescales: Filled, peroxide-cured CPE specimens based on Tyrin CM 0836 were aged for 168 hours in dry air at 150 °C. Elongation retention was 49–62%, depending on stabilizer loading. This is accelerated property loss, not mineralization.\n\nEnvironmental persistence: The cited chlorine-containing elastomers resist weathering and ozone. This resistance is not a measured mineralization lifetime; stabilizers and cure chemistry influence the finished compound.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-chlorine-rubber-stability-patent",
+        "lineageId": "deg-chlorine-rubber-stability-patent",
+        "sourceType": "patent",
+        "citation": "The Gates Corporation. Chlorine-containing polyethylene- and polyether-based elastomers stabilized with barium sulfate. US5683773 (1997).",
+        "url": "https://patents.justia.com/patent/5683773",
+        "locator": "Background; preferred elastomers; Tables 1–4: HCl cleavage, explicit CO/ECO/CPE/CSM scope and CPE ageing.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000156",
+    "degradationAndStability": "Degradation products and pathways: Chlorosulfonated polyethylene rubber is explicitly included in a heat-stabilization patent describing hydrogen chloride release during curing or severe heating. A complete inventory of environmental breakdown products remains unresolved.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The cited chlorine-containing elastomers resist weathering and ozone. This resistance is not a measured mineralization lifetime; stabilizers and cure chemistry influence the finished compound.",
+    "recyclingAndEndOfLife": "A hydrothermal-devulcanization patent explicitly lists CSM for reuse in rubber compounds. Its mechanism targets sulfur crosslinks; applicability to other CSM cure systems needs validation. The listing does not establish a CSM-specific demonstration or commercial deployment.",
+    "sources": [
+      {
+        "sourceId": "deg-chlorine-rubber-stability-patent",
+        "lineageId": "deg-chlorine-rubber-stability-patent",
+        "sourceType": "patent",
+        "citation": "The Gates Corporation. Chlorine-containing polyethylene- and polyether-based elastomers stabilized with barium sulfate. US5683773 (1997).",
+        "url": "https://patents.justia.com/patent/5683773",
+        "locator": "Background; preferred elastomers; Tables 1–4: HCl cleavage, explicit CO/ECO/CPE/CSM scope and CPE ageing.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-sulfur-rubber-hydrothermal-patent",
+        "lineageId": "deg-sulfur-rubber-hydrothermal-patent",
+        "sourceType": "patent",
+        "citation": "A method of devulcanizing waste rubber in hydrothermal environment. WO2023080859A1 (2023).",
+        "url": "https://patents.google.com/patent/WO2023080859A1/en",
+        "locator": "Description and claims: sulfur-crosslink cleavage; explicit ACM, CSM and HNBR scope.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000151",
+    "degradationAndStability": "Degradation products and pathways: A hydrothermal-devulcanization patent explicitly lists acrylic rubber and targets sulfur crosslinks while seeking to preserve the backbone. This is proposed network breakdown for applicable cure systems; the source does not identify ambient acrylic-rubber degradation products.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Hot, pressurized-water devulcanization followed by recompounding is a patented route explicitly including acrylic rubber. Its sulfur-bond mechanism must not be generalized to every ACM cure chemistry; an ACM-specific recovery yield and commercial implementation are not established.",
+    "sources": [
+      {
+        "sourceId": "deg-sulfur-rubber-hydrothermal-patent",
+        "lineageId": "deg-sulfur-rubber-hydrothermal-patent",
+        "sourceType": "patent",
+        "citation": "A method of devulcanizing waste rubber in hydrothermal environment. WO2023080859A1 (2023).",
+        "url": "https://patents.google.com/patent/WO2023080859A1/en",
+        "locator": "Description and claims: sulfur-crosslink cleavage; explicit ACM, CSM and HNBR scope.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000169",
+    "degradationAndStability": "Degradation products and pathways: Hydrogenated SEPS grades have improved heat, UV and weathering resistance compared with unsaturated styrenic block copolymers. The manufacturer does not identify their degradation products.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: Weathering resistance does not establish a natural-environment lifetime. Complete soil or marine mineralization remains unquantified.",
+    "recyclingAndEndOfLife": "Remelting and remoulding enable mechanical recycling of thermoplastic styrenic elastomers. The manufacturer explicitly includes this polymer family; collection, compounding and property retention require application-specific qualification.",
+    "sources": [
+      {
+        "sourceId": "deg-seps-seeps-manufacturer-stability",
+        "lineageId": "deg-seps-seeps-manufacturer-stability",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Kuraray. SEPTON hydrogenated styrenic block copolymer: standard SEPS and SEEPS grades.",
+        "url": "https://elastomer.kuraray.com/us-en/products/septon/",
+        "locator": "Introduction, features, standard grades, SEPS 2000 and SEEPS 4000 sections.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-sbc-remelting-manufacturer",
+        "lineageId": "deg-sbc-remelting-manufacturer",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Conrad, R. What are styrenic block copolymers? Kuraray.",
+        "url": "https://www.elastomer.kuraray.com/blog/styrenic-block-copolymer/",
+        "locator": "Processability and hydrogenated SBC sections; SEPS and SEEPS scope.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000170",
+    "degradationAndStability": "Degradation products and pathways: Hydrogenated SEEPS grades have improved heat, UV and weathering resistance compared with unsaturated styrenic block copolymers. The manufacturer does not identify their degradation products.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: Weathering resistance does not establish a natural-environment lifetime. Complete soil or marine mineralization remains unquantified.",
+    "recyclingAndEndOfLife": "Remelting and remoulding enable mechanical recycling of thermoplastic styrenic elastomers. The manufacturer explicitly includes this polymer family; collection, compounding and property retention require application-specific qualification.",
+    "sources": [
+      {
+        "sourceId": "deg-seps-seeps-manufacturer-stability",
+        "lineageId": "deg-seps-seeps-manufacturer-stability",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Kuraray. SEPTON hydrogenated styrenic block copolymer: standard SEPS and SEEPS grades.",
+        "url": "https://elastomer.kuraray.com/us-en/products/septon/",
+        "locator": "Introduction, features, standard grades, SEPS 2000 and SEEPS 4000 sections.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      },
+      {
+        "sourceId": "deg-sbc-remelting-manufacturer",
+        "lineageId": "deg-sbc-remelting-manufacturer",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Conrad, R. What are styrenic block copolymers? Kuraray.",
+        "url": "https://www.elastomer.kuraray.com/blog/styrenic-block-copolymer/",
+        "locator": "Processability and hydrogenated SBC sections; SEPS and SEEPS scope.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000152",
+    "degradationAndStability": "Degradation products and pathways: The manufacturer lists alcohols, aldehydes, ketones, esters and organic acids among the possible thermal decomposition products of VAMAC Ultra EV. Named examples include acetaldehyde, formaldehyde, acrolein, acrylic acid and maleic anhydride; carbon oxides and phosphorus-containing products are also listed. These are formulation-specific thermal products, not a measured inventory from neat AEM weathering.\n\nTimescales: The SDS states that thermal decomposition accelerates above 282 °C and depends on both temperature and time at temperature. This is not a measured complete-decomposition duration or an environmental rate.\n\nEnvironmental persistence: The supplied grade is water-insoluble and stable under normal handling. The SDS supplies no persistence or degradability data; these physical characteristics do not establish a soil, water or landfill lifetime.",
+    "recyclingAndEndOfLife": "",
+    "sources": [
+      {
+        "sourceId": "deg-aem-ultra-ev-sds-2023",
+        "lineageId": "celanese",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Celanese (Shanghai) International Trading Co., Ltd. VAMAC Ultra EV ethylene acrylic elastomer, Safety Data Sheet, version 2.0, revision 9 February 2023, document 130000157728 (issued 12 July 2023).",
+        "url": "https://hongrunplastics.com/public/uploads/images/20250825/Celanese%20AEM%20VAMAC%20ULTRA%20EV%20ethylene%20acrylic%20elastomer.pdf",
+        "locator": "Sections 9–10 and 12, pp. 4–6: grade-specific thermal decomposition products, temperature/time dependence, water insolubility and absence of persistence data.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "The complete manufacturer SDS is anonymously readable on a plastics distributor website. No reuse license is asserted; independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000163",
+    "degradationAndStability": "Degradation products and pathways: Conventional cured polysulfide rubber can undergo irreversible chain breakdown or reversion to a permanent liquid during excessive heating. The cited patent does not identify the resulting molecular products.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Special formulations cured using zinc oxide and selected sulfur-containing accelerators can be extruded hot and recover rubber-like properties on cooling. This is demonstrated reprocessability of a designed formulation, not evidence for a general post-consumer polysulfide recycling industry.",
+    "sources": [
+      {
+        "sourceId": "deg-polysulfide-hot-reprocessing-patent",
+        "lineageId": "deg-polysulfide-hot-reprocessing-patent",
+        "sourceType": "patent",
+        "citation": "Polysulfide rubbers suitable for hot application. US4314920A (1982).",
+        "url": "https://patents.google.com/patent/US4314920A/en",
+        "locator": "Background and preferred embodiment: irreversible degradation of conventional cured polysulfides and specially cured hot-flow formulations.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000164",
+    "degradationAndStability": "Degradation products and pathways: Vacuum pyrolysis of polyisobutylene produces lower-molecular-weight chains and volatile material through predominantly random initiation with chain transfer. Isobutylene monomer is a reported component of thermal products, with strongly preparation-dependent yield.\n\nTimescales: For 4–5 mg purified samples at 298.5 °C under high vacuum, roughly 68–84% volatilization occurred after 23–25 hours, depending on molecular-weight fraction. This is controlled pyrolysis, not environmental mineralization.\n\nEnvironmental persistence: Rapid molecular-weight reduction during pyrolysis cannot be converted to a soil, seawater or landfill lifetime; no transferable natural-environment mineralization time is established here.",
+    "recyclingAndEndOfLife": "Thermal/catalytic fragmentation followed by reaction with elemental sulfur in an extruder is proposed in a patent explicitly listing PIB. Its worked examples do not establish PIB-specific product yield or commercial recycling maturity.",
+    "sources": [
+      {
+        "sourceId": "deg-pib-thermal-degradation-nbs-1964",
+        "lineageId": "deg-pib-thermal-degradation-nbs-1964",
+        "sourceType": "open_journal",
+        "citation": "McIntyre, D.; O’Mara, J. H.; Straus, S. Thermal Degradation of Fractionated High and Low Molecular Weight Polyisobutylene. Journal of Research of the National Bureau of Standards 68A (1964), 153–157.",
+        "url": "https://nvlpubs.nist.gov/nistpubs/jres/68A/jresv68An2p153_A1b.pdf",
+        "locator": "Sections 2–4 and Tables 1–2: vacuum pyrolysis, molecular-weight reduction and monomer-yield variability.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-pib-sulfur-upcycling-patent",
+        "lineageId": "deg-pib-sulfur-upcycling-patent",
+        "sourceType": "patent",
+        "citation": "Producing copolymers of elemental sulfur and comonomers recovered from post-consumer polymer stream. WO2023239994A1 (2023).",
+        "url": "https://patents.google.com/patent/WO2023239994A1/en",
+        "locator": "Description paragraphs 22–24: explicit polyisobutylene scope and reactive extrusion; worked examples use other feedstocks.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000165",
+    "degradationAndStability": "Degradation products and pathways: Extrusion of ethylene–octene grades caused small melt-flow changes interpreted as competing crosslinking and degradation, with composition affecting the balance. The experiment did not identify small-molecule products.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Ethylene–octene elastomers were melt blended with LLDPE and ground tire rubber to produce useful elastomeric composites in a laboratory study. Here EOC improves compatibility of recovered rubber; the experiment does not demonstrate recovery of EOC itself from a mixed waste stream.",
+    "sources": [
+      {
+        "sourceId": "deg-eoc-llpde-tire-recovery-2014",
+        "lineageId": "deg-eoc-llpde-tire-recovery-2014",
+        "sourceType": "open_journal",
+        "citation": "Rocha, M. C. G.; Leyva, M. E.; de Oliveira, M. G. Thermoplastic elastomers blends based on linear low density polyethylene, ethylene-1-octene copolymers and ground rubber tire. Polímeros 24 (2014).",
+        "url": "https://www.scielo.br/j/po/a/StHMNyPSHMBThFhP8Ld3CVt/?format=html&lang=en",
+        "locator": "Experimental and Results: Engage 8480, 8003 and 8100 extrusion, flow changes and LLDPE/EOC/ground-tire blends.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ],
+        "doi": "10.4322/polimeros.2014.033"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000171",
+    "degradationAndStability": "Degradation products and pathways: For LLDPE/ethylene–octene thermoplastic-elastomer blends, melt processing can change flow through competing chain breakdown and crosslinking. A full chemical product inventory for this composition, and for the broader TPO family, remains unresolved.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: The reported treatment or ageing endpoint does not establish complete biodegradation in soil, freshwater, seawater, or landfill.",
+    "recyclingAndEndOfLife": "Melt compounding with ground tire rubber was demonstrated for LLDPE/ethylene–octene blends. This recovers rubber particles into a TPO-containing material; it is not closed-loop monomer recovery or evidence that every TPO formulation is compatible with the same waste stream.",
+    "sources": [
+      {
+        "sourceId": "deg-eoc-llpde-tire-recovery-2014",
+        "lineageId": "deg-eoc-llpde-tire-recovery-2014",
+        "sourceType": "open_journal",
+        "citation": "Rocha, M. C. G.; Leyva, M. E.; de Oliveira, M. G. Thermoplastic elastomers blends based on linear low density polyethylene, ethylene-1-octene copolymers and ground rubber tire. Polímeros 24 (2014).",
+        "url": "https://www.scielo.br/j/po/a/StHMNyPSHMBThFhP8Ld3CVt/?format=html&lang=en",
+        "locator": "Experimental and Results: Engage 8480, 8003 and 8100 extrusion, flow changes and LLDPE/EOC/ground-tire blends.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ],
+        "doi": "10.4322/polimeros.2014.033"
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000175",
+    "degradationAndStability": "Degradation products and pathways: For Pebax 33 MED polyether block amide, the manufacturer identifies monomer/oligomer fumes during severe heating, followed by carbon monoxide, ammonia and amine derivatives; more severe combustion can produce traces of hydrogen cyanide. These are thermal products, not ambient leachates.\n\nTimescales: The SDS associates monomer/oligomer formation with 300–350 °C and additional gaseous products with higher temperatures. It does not supply a degradation duration or environmental mineralization time.\n\nEnvironmental persistence: The SDS classifies the listed grades as non-biodegradable in water based on polymer structure, rather than a reported mineralization test. The polymer is water-insoluble; soil and marine lifetimes remain unquantified.",
+    "recyclingAndEndOfLife": "Commercial mechanical recycling through Arkema’s Virtucycle/Agiplast program accepts qualified PEBA scrap and used materials for reprocessing and recompounding into certified recycled grades. Collection and formulation qualification remain necessary for a particular finished product.",
+    "sources": [
+      {
+        "sourceId": "deg-peba-33-med-sds-2015",
+        "lineageId": "deg-peba-33-med-sds-2015",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Arkema. Pebax 33 MED series, Safety Data Sheet 003885-001, version 1.4 (8 January 2015).",
+        "url": "https://hongrunplastics.com/public/uploads/images/20251010/3533SA01MED%20SDS.pdf",
+        "locator": "Sections 9–13: thermal products and structure-based water-biodegradability assessment.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-peba-commercial-virtucycle",
+        "lineageId": "deg-peba-commercial-virtucycle",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Arkema. Virtucycle Recycling Program.",
+        "url": "https://hpp.arkema.com/en/sustainability/virtucycle/",
+        "locator": "Collection, certified recycled grades and Agiplast reprocessing of PEBA.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000174",
+    "degradationAndStability": "Degradation products and pathways: PBT/long-chain-glycol copolyester elastomers such as Hytrel can undergo hydrolysis during wet melt processing, causing embrittlement. Severe thermal decomposition produces tetrahydrofuran, acetaldehyde and acrolein; additional products depend on heating and oxygen exposure.\n\nTimescales: The manufacturer evaluates processing-scale stability and repeated remoulding, not a natural-environment mineralization time. A numerical environmental lifetime cannot be inferred from these tests.\n\nEnvironmental persistence: The guide distinguishes ordinary moisture absorption from hydrolysis at elevated processing temperatures. Neither water absorption nor embrittlement establishes complete biodegradation; environmental mineralization remains unquantified.",
+    "recyclingAndEndOfLife": "Grinding, drying, blending with virgin resin and remoulding are established processing-scrap recovery practices for the cited Hytrel grades. Contaminated or severely degraded scrap requires separate handling; repeated thermal history limits property retention.",
+    "sources": [
+      {
+        "sourceId": "deg-copolyester-degradation-regrind-dupont",
+        "lineageId": "deg-copolyester-degradation-regrind-dupont",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "DuPont. Hytrel Injection Molding Guide (2000).",
+        "url": "https://dupont.materialdatacenter.com/links/processing/Hytrel.pdf",
+        "locator": "Printed pp. 6–8 and 18–20: moisture-induced hydrolysis, regrind, thermal fumes and disposal.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability",
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000172",
+    "degradationAndStability": "Degradation products and pathways: The cited general-purpose Santoprene TPV compounds can evolve smoke, carbon monoxide and hydrocarbons during excessive heating or combustion. These formulated-material thermal products do not establish an ambient environmental product inventory.\n\nTimescales: No transferable environmental mineralization time was established by the cited evidence.\n\nEnvironmental persistence: These TPV compounds are stable under ordinary handling and insoluble in water. The sources do not provide a natural-environment mineralization test or justify a numerical environmental lifetime.",
+    "recyclingAndEndOfLife": "Regrinding and remoulding of clean production scrap are established routes for the cited TPV. Celanese reports repeated regrinding/moulding of 101-80 ECO-R plaques with limited changes in tensile strength and hardness. Its 2023 report describes wider post-consumer collection schemes as still developing; recycled-content grades alone do not demonstrate closed-loop recovery of used TPV.",
+    "sources": [
+      {
+        "sourceId": "deg-tpv-general-sds",
+        "lineageId": "deg-tpv-general-sds",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Advanced Elastomer Systems. Santoprene Thermoplastic Rubber General Purpose Grades, Material Safety Data Sheet.",
+        "url": "https://rubberfeet.us/wp-content/uploads/2018/01/Santoprene-MSD-GeneralPurposeGrades.pdf",
+        "locator": "Physical properties and Stability/Reactivity sections: formulated TPV thermal products.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-tpv-regrind-celanese-2023",
+        "lineageId": "deg-tpv-regrind-celanese-2023",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "Kloth, O. Helping Industry Value Chains Reduce the Carbon Footprint Using Thermoplastic Vulcanizates. Celanese white paper (2023).",
+        "url": "https://www.celanese.com/-/media/cewebjssapp/project/productdocuments/santoprene-tpv/tpv---sustainability-santoprene-eco-r---white-paper.pdf",
+        "locator": "Pages 1–4: processing-scrap recycling, 101-80 ECO-R regrind study, limitations of post-consumer schemes.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  },
+  {
+    "wopId": "wop-000173",
+    "degradationAndStability": "Degradation products and pathways: Polyester TPU can undergo ester hydrolysis; resistance depends strongly on soft-segment chemistry. In hot-nitrogen analysis, the studied polyether and polyester commercial TPUs produced MDI, methylenediphenylamino isocyanate, hard-segment fragments and hydroxyl-terminated soft-segment oligomers. These pyrolysis products must be distinguished from environmental leachates and additive desorption.\n\nTimescales: For experimental TPUs from Priplast polyester polyols, HDI and 1,3-propanediol, 10 × 10 × 2 mm specimens were exposed for 28 days at 37 °C to 5 M NaOH or 2 M HCl. Spectroscopic changes and slight mass loss in alkali were reported; this is not complete biodegradation or a general TPU lifetime.\n\nEnvironmental persistence: The acid/base study found substantial residual material after exposure. Renewable feedstock does not itself demonstrate biodegradability; no transferable soil, seawater or landfill mineralization time is established by these sources.",
+    "recyclingAndEndOfLife": "Commercial mechanical recycling of sorted post-industrial TPU includes collection, shredding, regranulation and formulation into new grades. BASF reports this for Elastollan RC, including a footwear manufacturing loop. Suitability depends on composition, contamination and thermal history; recovery of pure monomers is a separate process.",
+    "sources": [
+      {
+        "sourceId": "deg-tpu-pyrolysis-ms-2023",
+        "lineageId": "deg-tpu-pyrolysis-ms-2023",
+        "sourceType": "open_journal",
+        "citation": "Alawani, N.; Barrère-Mangote, C.; Wesdemiotis, C. Analysis of Thermoplastic Copolymers by Mild Thermal Degradation Coupled to Ion Mobility Mass Spectrometry. Macromolecular Rapid Communications 44 (2023), 2200306.",
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/marc.202200306",
+        "locator": "Section 2.1: Elastollan, Pellethane and Estane thermal products; experimental hot-nitrogen analysis.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-tpu-hydrolysis-2024",
+        "lineageId": "deg-tpu-hydrolysis-2024",
+        "sourceType": "open_journal",
+        "citation": "Głowińska, E.; Smorawska, J.; Niesiobędzka, J.; Datta, J. Structure versus hydrolytic and thermal stability of bio-based thermoplastic polyurethane elastomers composed of hard and soft building blocks with high content of green carbon. Journal of Thermal Analysis and Calorimetry 149 (2024), 2147–2160.",
+        "url": "https://link.springer.com/article/10.1007/s10973-023-12817-7",
+        "locator": "Short-term degradation methods and results: polyester/HDI/1,3-propanediol TPU, acid/base ageing.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "degradationAndStability"
+        ]
+      },
+      {
+        "sourceId": "deg-tpu-mechanical-recycling-basf",
+        "lineageId": "deg-tpu-mechanical-recycling-basf",
+        "sourceType": "manufacturer_technical_document",
+        "citation": "BASF. A second life for plastics: How Elastollan RC is driving circularity.",
+        "url": "https://plastics-rubber.basf.com/global/en/performance_polymers/news-events/stories/A-second-life-for-plastics-Elastollan--RC",
+        "locator": "Post-industrial TPU collection, sorting, shredding, reprocessing and footwear-loop example.",
+        "accessedDate": "2026-09-07",
+        "accessStatus": "anonymous_full_content",
+        "reuseStatus": "publicly_accessible_citation_only",
+        "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+        "supports": [
+          "recyclingAndEndOfLife"
+        ]
+      }
+    ]
+  }
+]

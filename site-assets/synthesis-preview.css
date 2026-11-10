@@ -1,0 +1,23 @@
+* { box-sizing: border-box; }
+body { margin: 0; font: 15px/1.45 system-ui, sans-serif; color: #183b48; background: #edf0ec; }
+header { padding: 1.1rem 2rem; background: #183b48; color: white; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+h1 { margin: .2rem 0; font: 600 1.65rem Georgia, serif; }
+header p { margin: .2rem 0; font-size: .85rem; }
+.eyebrow { letter-spacing: .1em; text-transform: uppercase; font-size: .7rem; color: #c6d9d4; }
+header a { color: white; }
+main { padding: 1rem 1.5rem; }
+.review-controls { display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 1rem; }
+label { font-size: .8rem; font-weight: 600; }
+select { display: block; max-width: 100%; padding: .6rem .8rem; margin-top: .2rem; border: 1px solid #b5c5c0; border-radius: 5px; background: white; color: #183b48; font: inherit; }
+.review-stage { overflow: auto; border: 1px solid #b5c5c0; border-radius: 8px; background: #dce4e0; padding: .5rem; }
+iframe { display: block; width: 100%; height: 72vh; min-height: 500px; border: 0; margin: auto; background: white; }
+details { margin-top: 1rem; max-width: 80ch; }
+summary { cursor: pointer; font-weight: 600; }
+@media(max-width:600px) { header { padding: 1rem; } main { padding: .6rem; } .review-controls { flex-direction: column; } }
+input, button { padding: .6rem .8rem; border: 1px solid #b5c5c0; border-radius: 5px; background: white; color: #183b48; font: inherit; }
+input { display: block; margin-top: .2rem; }
+button { cursor: pointer; }
+button:disabled { cursor: default; opacity: .45; }
+.review-navigation { display: flex; align-items: end; gap: .5rem; flex-wrap: wrap; }
+#review-count { align-self: center; font-size: .8rem; }
+.review-controls > label { min-width: 0; }
