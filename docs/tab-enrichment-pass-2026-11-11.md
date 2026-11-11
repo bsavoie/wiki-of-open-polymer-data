@@ -1,0 +1,11 @@
+# Enrichment pass after the three-tab review
+
+Updated 2026-11-11. The [per-record change ledger](tab-enrichment-pass-2026-11-11.csv) compares the authoritative v2 snapshot against the snapshot reviewed in [the preceding review](tab-enrichment-review-2026-11-11.md), whose SHA-256 was `f04c44562a6164005bc84ac04685e6c0a3528251e6464002aa7f7e8b4c5e1c80`. The resulting v2 snapshot SHA-256 is `21ba6134c159cff1717eca68dbdd3db2167b417363b906c26b130b188b5e41da`.
+
+The pass changed 258 of 262 records. Overview prose changed in 217 records, Applications in 158, and Degradation or reclamation in 207; these counts overlap. The unchanged records are wop-000001, wop-000068, wop-000200, wop-000244: the three approved pilots and bisphenol A polycarbonate, which was reviewed and retained. The ledger reports changed fields, not whether every unchanged field received a fresh source audit or has identical depth to the pilots.
+
+A punctuation-based screen found 0 single-sentence labeled topics in Applications and Degradation, and no empty or single-sentence whole reclamation subsection. Sentence counting is a structural check, not proof that an explanation is sufficiently detailed or that every claim has been independently verified. The agents also reviewed short passages qualitatively, but their work was selective: some records received a focused change in only one tab, and exact equivalence to the pilots has not been established across every field.
+
+Specific corrections include the distinction between the polyfluorene family and PFO, preserving the former search term as ambiguous; a PBSA enzyme-study timing inconsistency; and the exact-rubber scope of selected recycling and ageing examples. Laboratory treatments, measured mass or strength loss, and environmental mineralization are kept separate. Material-specific environmental lifetimes, recycling infrastructure and market totals remain open evidence gaps where the sources did not establish them.
+
+Validation: the v2 snapshot passed schema and import checks, `npm run check` passed the repository test suite and site build, and local previews were opened for PVAc Overview, alkyd Applications, and polypyrrole Degradation.

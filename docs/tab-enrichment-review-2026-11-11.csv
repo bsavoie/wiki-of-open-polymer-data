@@ -1,0 +1,263 @@
+id,name,slug,applications_single_sentence_topics,degradation_single_sentence_topics,recycling_empty,recycling_single_sentence_paragraphs,overview_short_screen_fields
+wop-000001,Polyethylene family,polyethylene-family,,,False,0,
+wop-000002,Low-density polyethylene,low-density-polyethylene,,,False,0,nomenclature; structureAndMorphology; limitationsAndVariability
+wop-000003,Linear low-density polyethylene,linear-low-density-polyethylene,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000004,Medium-density polyethylene,medium-density-polyethylene,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000005,High-density polyethylene,high-density-polyethylene,,,False,0,overview; nomenclature; properties; limitationsAndVariability
+wop-000006,Ultra-high-molecular-weight polyethylene,ultra-high-molecular-weight-polyethylene,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000007,Very-low-density polyethylene,very-low-density-polyethylene,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000008,Cross-linked polyethylene,cross-linked-polyethylene,,,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000009,Polypropylene family,polypropylene-family,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000010,Isotactic polypropylene,isotactic-polypropylene,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000011,Syndiotactic polypropylene,syndiotactic-polypropylene,,Environmental persistence,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000012,Random propylene–ethylene copolymer,random-propylene-ethylene-copolymer,,,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000013,Heterophasic polypropylene copolymer,heterophasic-polypropylene-copolymer,,,False,1,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000014,Poly(1-butene),poly-1-butene,,,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000015,Poly(4-methyl-1-pentene),poly-4-methyl-1-pentene,,Environmental persistence,False,1,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000016,Cyclo-olefin polymer,cyclo-olefin-polymer,,,False,1,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000017,Cyclic olefin copolymer,cyclic-olefin-copolymer,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000018,Ethylene–vinyl acetate copolymer,ethylene-vinyl-acetate-copolymer,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000019,Ethylene–vinyl alcohol copolymer,ethylene-vinyl-alcohol-copolymer,,Timescales; Environmental persistence,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000020,Ethylene–acrylic acid copolymer,ethylene-acrylic-acid-copolymer,,,False,1,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000021,Ethylene–methacrylic acid copolymer,ethylene-methacrylic-acid-copolymer,,,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000022,Polyolefin ionomer,polyolefin-ionomer,,Environmental persistence,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000023,Poly(vinyl chloride),poly-vinyl-chloride,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000024,Chlorinated poly(vinyl chloride),chlorinated-poly-vinyl-chloride,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000025,Poly(vinylidene chloride),poly-vinylidene-chloride,,,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000026,Poly(vinyl acetate),poly-vinyl-acetate,,,False,0,nomenclature; structureAndMorphology; properties
+wop-000027,Poly(vinyl alcohol),poly-vinyl-alcohol,,,False,1,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000028,Poly(vinyl butyral),poly-vinyl-butyral,,,False,0,nomenclature; structureAndMorphology; properties
+wop-000029,Poly(vinyl formal),poly-vinyl-formal,Purchasing,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000030,Polystyrene,polystyrene,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000031,High-impact polystyrene,high-impact-polystyrene,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000032,Styrene–acrylonitrile copolymer,styrene-acrylonitrile-copolymer,,,False,0,nomenclature; structureAndMorphology; limitationsAndVariability
+wop-000033,Acrylonitrile–butadiene–styrene copolymer,acrylonitrile-butadiene-styrene-copolymer,,Timescales; Environmental persistence,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000034,Acrylonitrile–styrene–acrylate copolymer,acrylonitrile-styrene-acrylate-copolymer,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000035,Methacrylate–butadiene–styrene copolymer,methacrylate-butadiene-styrene-copolymer,,Timescales,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000036,Styrene–maleic anhydride copolymer,styrene-maleic-anhydride-copolymer,,,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000037,Styrene–methyl methacrylate copolymer,styrene-methyl-methacrylate-copolymer,,,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000038,Poly(methyl methacrylate),poly-methyl-methacrylate,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000039,Polyacrylonitrile,polyacrylonitrile,,Environmental persistence,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000040,Poly(alkyl acrylate) family,poly-alkyl-acrylate-family,,Environmental persistence,False,0,nomenclature; structureAndMorphology; limitationsAndVariability
+wop-000041,Polyacrylamide,polyacrylamide,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000042,Poly(acrylic acid),poly-acrylic-acid,Scale and evidence limits,Environmental persistence,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000043,Thermoplastic polyester family,thermoplastic-polyester-family,,Environmental persistence,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000044,Poly(ethylene terephthalate),poly-ethylene-terephthalate,,,False,0,nomenclature
+wop-000045,Glycol-modified poly(ethylene terephthalate),glycol-modified-poly-ethylene-terephthalate,,Environmental persistence,False,1,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000046,Poly(butylene terephthalate),poly-butylene-terephthalate,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000047,Poly(trimethylene terephthalate),poly-trimethylene-terephthalate,,,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000048,Poly(ethylene naphthalate),poly-ethylene-naphthalate,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000049,Poly(cyclohexylenedimethylene terephthalate),poly-cyclohexylenedimethylene-terephthalate,,Environmental persistence,False,1,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000050,Polyarylate,polyarylate,,,False,1,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000051,Thermotropic aromatic copolyester,thermotropic-aromatic-copolyester,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000052,Polyamide family,polyamide-family,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000053,Polyamide 6,polyamide-6,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000054,Polyamide 66,polyamide-66,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000055,Polyamide 46,polyamide-46,,Environmental persistence,False,0,nomenclature; structureAndMorphology; limitationsAndVariability
+wop-000056,Polyamide 610,polyamide-610,,Environmental persistence,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000057,Polyamide 612,polyamide-612,,Timescales; Environmental persistence,False,0,nomenclature; structureAndMorphology; limitationsAndVariability
+wop-000058,Polyamide 11,polyamide-11,,,False,1,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000059,Polyamide 12,polyamide-12,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000060,Polyamide 1010,polyamide-1010,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000061,Polyamide 1012,polyamide-1012,,Timescales; Environmental persistence,False,0,nomenclature; structureAndMorphology; limitationsAndVariability
+wop-000062,Polyamide 6T,polyamide-6t,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000063,Polyamide 9T,polyamide-9t,,Environmental persistence,False,0,nomenclature; structureAndMorphology; limitationsAndVariability
+wop-000064,Polyamide 10T,polyamide-10t,,Environmental persistence,False,0,nomenclature; structureAndMorphology; limitationsAndVariability
+wop-000065,Poly(m-xylylene adipamide),poly-m-xylylene-adipamide,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000066,Polyphthalamide family,polyphthalamide-family,,Environmental persistence,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000067,Polyamide 6/66,polyamide-6-66,,Environmental persistence,False,0,nomenclature; structureAndMorphology; limitationsAndVariability
+wop-000068,Bisphenol A polycarbonate,bisphenol-a-polycarbonate,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000069,Poly(propylene carbonate),poly-propylene-carbonate,Scale and evidence limits,,False,0,nomenclature; structureAndMorphology; properties
+wop-000070,Poly(vinyl fluoride),poly-vinyl-fluoride,,,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000071,Polycarbonate–siloxane copolymer,polycarbonate-siloxane-copolymer,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000072,Polyester–polycarbonate copolymer,polyester-polycarbonate-copolymer,,Environmental persistence,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000073,Polyoxymethylene family,polyoxymethylene-family,,,False,1,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000074,Polyoxymethylene homopolymer,polyoxymethylene-homopolymer,,Timescales,False,1,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000075,Polyoxymethylene copolymer,polyoxymethylene-copolymer,,,False,1,nomenclature; properties; limitationsAndVariability
+wop-000076,Poly(phenylene ether),poly-phenylene-ether,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000077,Bisphenol A polysulfone,bisphenol-a-polysulfone,,Environmental persistence,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000078,Poly(ether sulfone),poly-ether-sulfone,,Environmental persistence,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000079,Polyphenylsulfone,polyphenylsulfone,,Environmental persistence,False,1,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000080,Poly(phenylene sulfide),poly-phenylene-sulfide,,,False,0,nomenclature; structureAndMorphology; limitationsAndVariability
+wop-000081,Poly(aryl ether ketone) family,poly-aryl-ether-ketone-family,,,False,1,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000082,Poly(ether ether ketone),poly-ether-ether-ketone,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000083,Poly(ether ketone ketone),poly-ether-ketone-ketone,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000084,Polyetherimide,polyetherimide,,Environmental persistence,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000085,Polyamide-imide,polyamide-imide,,,False,1,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000086,Polyimide family,polyimide-family,,Environmental persistence,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000087,Thermoplastic polyimide,thermoplastic-polyimide,,Timescales; Environmental persistence,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000088,Alternating ethylene–carbon monoxide polyketone,alternating-ethylene-carbon-monoxide-polyketone,,,False,0,nomenclature
+wop-000089,Poly(tetrafluoroethylene),poly-tetrafluoroethylene,,,False,0,nomenclature; structureAndMorphology
+wop-000090,Fluorinated ethylene propylene copolymer,fluorinated-ethylene-propylene-copolymer,Scale and evidence limits,,False,0,nomenclature
+wop-000091,Perfluoroalkoxy alkane polymer,perfluoroalkoxy-alkane-polymer,,Environmental persistence,False,0,nomenclature
+wop-000092,Ethylene–tetrafluoroethylene copolymer,ethylene-tetrafluoroethylene-copolymer,,,False,0,nomenclature; structureAndMorphology; limitationsAndVariability
+wop-000093,Ethylene–chlorotrifluoroethylene copolymer,ethylene-chlorotrifluoroethylene-copolymer,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000094,Poly(chlorotrifluoroethylene),poly-chlorotrifluoroethylene,,Pathways; Environmental persistence,False,0,nomenclature; structureAndMorphology; limitationsAndVariability
+wop-000095,Poly(vinylidene fluoride),poly-vinylidene-fluoride,,Environmental persistence,False,0,nomenclature; limitationsAndVariability
+wop-000096,Tetrafluoroethylene–hexafluoropropylene–vinylidene fluoride terpolymer,tetrafluoroethylene-hexafluoropropylene-vinylidene-fluoride-terpolymer,,,False,0,nomenclature; properties; limitationsAndVariability
+wop-000097,Poly(p-xylylene) family,poly-p-xylylene-family,,Timescales,False,0,nomenclature; structureAndMorphology
+wop-000098,Epoxy resin family,epoxy-resin-family,,,False,0,nomenclature
+wop-000099,Bisphenol A diglycidyl ether epoxy,bisphenol-a-diglycidyl-ether-epoxy,,,False,0,nomenclature
+wop-000100,Bisphenol F diglycidyl ether epoxy,bisphenol-f-diglycidyl-ether-epoxy,,,False,0,nomenclature; healthSafetyAndRegulation
+wop-000101,Epoxy novolac resin family,epoxy-novolac-resin-family,,,False,0,nomenclature; healthSafetyAndRegulation
+wop-000102,Glycidyl amine epoxy resin,glycidyl-amine-epoxy-resin,,,False,0,nomenclature; healthSafetyAndRegulation
+wop-000103,Cycloaliphatic epoxy resin,cycloaliphatic-epoxy-resin,,,False,0,nomenclature
+wop-000104,Unsaturated polyester resin family,unsaturated-polyester-resin-family,Purchasing,Environmental persistence,False,0,nomenclature; healthSafetyAndRegulation
+wop-000105,Orthophthalic unsaturated polyester resin,orthophthalic-unsaturated-polyester-resin,,Environmental persistence,False,0,nomenclature; healthSafetyAndRegulation
+wop-000106,Isophthalic unsaturated polyester resin,isophthalic-unsaturated-polyester-resin,Purchasing,Environmental persistence,False,0,nomenclature; healthSafetyAndRegulation
+wop-000107,Dicyclopentadiene-modified unsaturated polyester resin,dicyclopentadiene-modified-unsaturated-polyester-resin,Purchasing,Environmental persistence,False,0,nomenclature; healthSafetyAndRegulation
+wop-000108,Vinyl ester resin family,vinyl-ester-resin-family,Purchasing,Environmental persistence,False,0,nomenclature; healthSafetyAndRegulation
+wop-000109,Bisphenol A epoxy vinyl ester,bisphenol-a-epoxy-vinyl-ester,Purchasing,Environmental persistence,False,0,nomenclature
+wop-000110,Epoxy-novolac vinyl ester,epoxy-novolac-vinyl-ester,Purchasing,Environmental persistence,False,0,nomenclature
+wop-000111,Phenol–formaldehyde resin family,phenol-formaldehyde-resin-family,Purchasing,,False,0,nomenclature; healthSafetyAndRegulation
+wop-000112,Novolac phenolic resin,novolac-phenolic-resin,Purchasing,Environmental persistence,False,0,nomenclature; healthSafetyAndRegulation
+wop-000113,Resole phenolic resin,resole-phenolic-resin,Purchasing,Environmental persistence,False,0,nomenclature; healthSafetyAndRegulation
+wop-000114,Cresol–formaldehyde resin,cresol-formaldehyde-resin,,Timescales,False,0,nomenclature; limitationsAndVariability; healthSafetyAndRegulation
+wop-000115,Resorcinol–formaldehyde resin,resorcinol-formaldehyde-resin,Purchasing,Environmental persistence,False,1,nomenclature; limitationsAndVariability; healthSafetyAndRegulation
+wop-000116,Phenol–resorcinol–formaldehyde resin,phenol-resorcinol-formaldehyde-resin,Scale and evidence limits,Timescales,False,0,nomenclature; limitationsAndVariability
+wop-000117,Urea–formaldehyde resin,urea-formaldehyde-resin,Purchasing,Environmental persistence,False,0,nomenclature; structureAndMorphology
+wop-000118,Melamine–formaldehyde resin,melamine-formaldehyde-resin,Purchasing,Environmental persistence,False,0,nomenclature
+wop-000119,Melamine–urea–formaldehyde resin,melamine-urea-formaldehyde-resin,Purchasing,Environmental persistence,False,0,nomenclature; healthSafetyAndRegulation
+wop-000120,Phenol–urea–formaldehyde resin,phenol-urea-formaldehyde-resin,,,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000121,Benzoguanamine–formaldehyde resin,benzoguanamine-formaldehyde-resin,Purchasing,Timescales; Environmental persistence,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000122,Thermoset polyurethane,thermoset-polyurethane,,Environmental persistence,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000123,Polyisocyanurate,polyisocyanurate,Purchasing,Environmental persistence,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000124,Polyurea,polyurea,Purchasing,Environmental persistence,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000125,Alkyd resin,alkyd-resin,,Environmental persistence,False,0,structureAndMorphology; properties; limitationsAndVariability
+wop-000126,Silicone resin,silicone-resin,,,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000127,Bismaleimide resin,bismaleimide-resin,,Environmental persistence,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000128,Cyanate ester resin,cyanate-ester-resin,Purchasing,,False,0,overview; nomenclature; structureAndMorphology; limitationsAndVariability
+wop-000129,Polybenzoxazine,polybenzoxazine,,Timescales; Environmental persistence,False,1,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000130,Phthalonitrile resin,phthalonitrile-resin,,Timescales; Environmental persistence,True,0,overview; nomenclature; structureAndMorphology; limitationsAndVariability; healthSafetyAndRegulation
+wop-000131,Poly(furfuryl alcohol) resin,poly-furfuryl-alcohol-resin,Purchasing,Timescales; Environmental persistence,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000132,Poly(diallyl phthalate),poly-diallyl-phthalate,Purchasing,Timescales; Environmental persistence,False,0,nomenclature; limitationsAndVariability
+wop-000133,Thermosetting polyimide,thermosetting-polyimide,,Timescales; Environmental persistence,False,0,overview; nomenclature; structureAndMorphology
+wop-000134,Natural rubber,natural-rubber,,,False,0,nomenclature
+wop-000135,"Synthetic cis-1,4-polyisoprene",synthetic-cis-1-4-polyisoprene,Purchasing,,False,0,nomenclature; healthSafetyAndRegulation
+wop-000136,"Trans-1,4-polyisoprene",trans-1-4-polyisoprene,,,False,0,nomenclature; healthSafetyAndRegulation
+wop-000137,Polybutadiene rubber,polybutadiene-rubber,Purchasing,,False,0,nomenclature; healthSafetyAndRegulation
+wop-000138,Styrene–butadiene rubber family,styrene-butadiene-rubber-family,,,False,0,nomenclature; healthSafetyAndRegulation
+wop-000139,Emulsion styrene–butadiene rubber,emulsion-styrene-butadiene-rubber,,,False,0,nomenclature
+wop-000140,Solution styrene–butadiene rubber,solution-styrene-butadiene-rubber,,,False,0,nomenclature
+wop-000141,Carboxylated styrene–butadiene rubber,carboxylated-styrene-butadiene-rubber,,Environmental persistence,False,1,nomenclature; healthSafetyAndRegulation
+wop-000142,Nitrile butadiene rubber,nitrile-butadiene-rubber,,,False,0,nomenclature; healthSafetyAndRegulation
+wop-000143,Hydrogenated nitrile butadiene rubber,hydrogenated-nitrile-butadiene-rubber,Purchasing,,False,0,nomenclature; structureAndMorphology; healthSafetyAndRegulation
+wop-000144,Carboxylated nitrile butadiene rubber,carboxylated-nitrile-butadiene-rubber,,Timescales,False,0,nomenclature; healthSafetyAndRegulation
+wop-000145,Butyl rubber,butyl-rubber,,,False,0,nomenclature; healthSafetyAndRegulation
+wop-000146,Bromobutyl rubber,bromobutyl-rubber,,,False,0,nomenclature; structureAndMorphology; healthSafetyAndRegulation
+wop-000147,Chlorobutyl rubber,chlorobutyl-rubber,,,False,0,nomenclature; healthSafetyAndRegulation
+wop-000148,Polychloroprene rubber,polychloroprene-rubber,Purchasing,Timescales; Environmental persistence,False,0,overview; nomenclature; structureAndMorphology; healthSafetyAndRegulation
+wop-000149,Ethylene–propylene rubber,ethylene-propylene-rubber,Purchasing,Timescales; Environmental persistence,False,0,overview; nomenclature; structureAndMorphology; healthSafetyAndRegulation
+wop-000150,Ethylene–propylene–diene rubber,ethylene-propylene-diene-rubber,,,False,0,nomenclature; healthSafetyAndRegulation
+wop-000151,Acrylic rubber,acrylic-rubber,,Environmental persistence,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000152,Ethylene–acrylic elastomer,ethylene-acrylic-elastomer,,,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000153,Epichlorohydrin homopolymer rubber,epichlorohydrin-homopolymer-rubber,Purchasing,Timescales,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000154,Epichlorohydrin–ethylene oxide rubber,epichlorohydrin-ethylene-oxide-rubber,,Timescales,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000155,Chlorinated polyethylene elastomer,chlorinated-polyethylene-elastomer,,,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000156,Chlorosulfonated polyethylene rubber,chlorosulfonated-polyethylene-rubber,Scale and evidence limits,Timescales,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000157,FKM fluoroelastomer family,fkm-fluoroelastomer-family,,Timescales; Environmental persistence,False,0,overview; nomenclature; structureAndMorphology; limitationsAndVariability
+wop-000158,Perfluoroelastomer,perfluoroelastomer,,Timescales,False,0,nomenclature; structureAndMorphology; limitationsAndVariability
+wop-000159,Tetrafluoroethylene–propylene elastomer,tetrafluoroethylene-propylene-elastomer,Purchasing,Environmental persistence,False,0,overview; nomenclature; structureAndMorphology; limitationsAndVariability
+wop-000160,Silicone rubber family,silicone-rubber-family,,Environmental persistence,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000161,Methyl-vinyl silicone rubber,methyl-vinyl-silicone-rubber,,Environmental persistence,False,0,overview; nomenclature; structureAndMorphology; limitationsAndVariability
+wop-000162,Fluorosilicone rubber,fluorosilicone-rubber,,Timescales; Environmental persistence,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000163,Polysulfide rubber,polysulfide-rubber,Scale and evidence limits,Timescales; Environmental persistence,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000164,Polyisobutylene,polyisobutylene,,Environmental persistence,False,0,overview; nomenclature; structureAndMorphology; limitationsAndVariability; healthSafetyAndRegulation
+wop-000165,Ethylene–octene elastomer,ethylene-octene-elastomer,Purchasing,Timescales; Environmental persistence,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000166,Styrene–butadiene–styrene block copolymer,styrene-butadiene-styrene-block-copolymer,,,False,0,nomenclature; healthSafetyAndRegulation
+wop-000167,Styrene–isoprene–styrene block copolymer,styrene-isoprene-styrene-block-copolymer,Scale and evidence limits,,False,0,nomenclature
+wop-000168,Styrene–ethylene/butylene–styrene block copolymer,styrene-ethylene-butylene-styrene-block-copolymer,,,False,0,nomenclature; healthSafetyAndRegulation
+wop-000169,Styrene–ethylene/propylene–styrene block copolymer,styrene-ethylene-propylene-styrene-block-copolymer,Purchasing,,False,0,nomenclature; healthSafetyAndRegulation
+wop-000170,Styrene–ethylene/ethylene-propylene–styrene block copolymer,styrene-ethylene-ethylene-propylene-styrene-block-copolymer,Purchasing,,False,0,nomenclature; healthSafetyAndRegulation
+wop-000171,Thermoplastic polyolefin elastomer,thermoplastic-polyolefin-elastomer,Purchasing,,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000172,Thermoplastic vulcanizate,thermoplastic-vulcanizate,Purchasing,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000173,Thermoplastic polyurethane elastomer,thermoplastic-polyurethane-elastomer,Purchasing,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000174,Thermoplastic copolyester elastomer,thermoplastic-copolyester-elastomer,Purchasing,,False,1,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000175,Polyether block amide elastomer,polyether-block-amide-elastomer,Purchasing,,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000176,Aramid family,aramid-family,Scale and evidence limits,Environmental persistence,False,1,overview; nomenclature; structureAndMorphology; limitationsAndVariability; healthSafetyAndRegulation
+wop-000177,Poly(p-phenylene terephthalamide),poly-p-phenylene-terephthalamide,Scale and evidence limits,Timescales,False,1,overview; nomenclature; structureAndMorphology; limitationsAndVariability
+wop-000178,Poly(m-phenylene isophthalamide),poly-m-phenylene-isophthalamide,Scale and evidence limits,,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000179,"Poly(p-phenylene/3,4′-oxydiphenylene terephthalamide)",poly-p-phenylene-3-4-oxydiphenylene-terephthalamide,Scale and evidence limits,Environmental persistence,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000180,Polybenzimidazole,polybenzimidazole,Scale and evidence limits,Timescales; Environmental persistence,False,0,overview; nomenclature; structureAndMorphology; limitationsAndVariability
+wop-000181,Poly(p-phenylene benzobisoxazole),poly-p-phenylene-benzobisoxazole,Scale and evidence limits,Environmental persistence,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000182,Poly(p-phenylene benzobisthiazole),poly-p-phenylene-benzobisthiazole,,Timescales; Environmental persistence,False,1,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000183,Polyoxadiazole,polyoxadiazole,,Timescales; Environmental persistence,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000184,Modacrylic fiber polymer family,modacrylic-fiber-polymer-family,Scale and evidence limits,Timescales; Environmental persistence,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000185,Vinyon fiber polymer family,vinyon-fiber-polymer-family,,Timescales; Environmental persistence,False,0,nomenclature; structureAndMorphology; limitationsAndVariability
+wop-000186,Elastane (spandex) polymer family,elastane-spandex-polymer-family,,Timescales; Environmental persistence,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000187,Novoloid fiber polymer family,novoloid-fiber-polymer-family,Scale and evidence limits,Environmental persistence,False,0,overview; nomenclature
+wop-000188,Regenerated cellulose,regenerated-cellulose,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000189,Cellulose acetate,cellulose-acetate,,,False,0,nomenclature; healthSafetyAndRegulation
+wop-000190,Cellulose triacetate,cellulose-triacetate,,,False,0,nomenclature; structureAndMorphology; healthSafetyAndRegulation
+wop-000191,Cellulose,cellulose,,,False,0,nomenclature; structureAndMorphology; healthSafetyAndRegulation
+wop-000192,Cellulose acetate butyrate,cellulose-acetate-butyrate,,,False,0,nomenclature; structureAndMorphology; limitationsAndVariability
+wop-000193,Cellulose acetate propionate,cellulose-acetate-propionate,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000194,Cellulose nitrate,cellulose-nitrate,,,False,0,nomenclature; properties; healthSafetyAndRegulation
+wop-000195,Methyl cellulose,methyl-cellulose,Scale and evidence limits,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000196,Ethyl cellulose,ethyl-cellulose,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000197,Hydroxyethyl cellulose,hydroxyethyl-cellulose,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000198,Hydroxypropyl cellulose,hydroxypropyl-cellulose,,,False,1,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000199,Hydroxypropyl methylcellulose,hydroxypropyl-methylcellulose,Scale and evidence limits,,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000200,Carboxymethyl cellulose,carboxymethyl-cellulose,,,False,0,
+wop-000201,Starch,starch,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000202,Amylose,amylose,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000203,Amylopectin,amylopectin,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000204,Thermoplastic starch,thermoplastic-starch,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000205,Chitin,chitin,,,False,0,nomenclature; structureAndMorphology; limitationsAndVariability
+wop-000206,Chitosan,chitosan,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000207,Alginate,alginate,,,False,1,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000208,Agarose,agarose,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000209,Carrageenan,carrageenan,,,False,1,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000210,Lignin,lignin,,,False,1,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000211,Collagen,collagen,,,False,1,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000212,Silk fibroin,silk-fibroin,,,False,1,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000213,Polyhydroxyalkanoate family,polyhydroxyalkanoate-family,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000214,Poly(3-hydroxybutyrate),poly-3-hydroxybutyrate,,,False,0,nomenclature; structureAndMorphology; limitationsAndVariability; healthSafetyAndRegulation
+wop-000215,Poly(3-hydroxybutyrate-co-3-hydroxyvalerate),poly-3-hydroxybutyrate-co-3-hydroxyvalerate,,,False,1,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000216,Poly(3-hydroxybutyrate-co-3-hydroxyhexanoate),poly-3-hydroxybutyrate-co-3-hydroxyhexanoate,,,False,0,nomenclature; structureAndMorphology; limitationsAndVariability; healthSafetyAndRegulation
+wop-000217,Polylactide family,polylactide-family,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000218,Poly(L-lactide),poly-l-lactide,,,False,1,nomenclature; structureAndMorphology; limitationsAndVariability; healthSafetyAndRegulation
+wop-000219,Poly(glycolic acid),poly-glycolic-acid,,,False,1,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000220,Poly(lactide-co-glycolide),poly-lactide-co-glycolide,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000221,Polycaprolactone,polycaprolactone,,,False,1,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000222,Poly(butylene succinate),poly-butylene-succinate,,,False,0,nomenclature; structureAndMorphology; limitationsAndVariability; healthSafetyAndRegulation
+wop-000223,Poly(butylene adipate-co-terephthalate),poly-butylene-adipate-co-terephthalate,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000224,Poly(butylene succinate-co-adipate),poly-butylene-succinate-co-adipate,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000225,"Poly(ethylene 2,5-furandicarboxylate)",poly-ethylene-2-5-furandicarboxylate,,,False,0,nomenclature; structureAndMorphology; limitationsAndVariability
+wop-000226,Poly(ethylene oxide),poly-ethylene-oxide,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000227,Poly(propylene oxide),poly-propylene-oxide,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000228,Poly(tetramethylene ether glycol),poly-tetramethylene-ether-glycol,,,False,0,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000229,Poly(2-hydroxyethyl methacrylate),poly-2-hydroxyethyl-methacrylate,,,False,1,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000230,Poly(N-isopropylacrylamide),poly-n-isopropylacrylamide,,,False,1,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000231,Poly(diallyldimethylammonium chloride),poly-diallyldimethylammonium-chloride,,,False,1,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000232,Polyethyleneimine,polyethyleneimine,,,False,1,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000233,Poly(sodium 4-styrenesulfonate),poly-sodium-4-styrenesulfonate,,,False,1,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000234,Perfluorosulfonic acid ionomer family,perfluorosulfonic-acid-ionomer-family,,,False,1,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000235,Sulfonated poly(ether ether ketone),sulfonated-poly-ether-ether-ketone,,,False,1,nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000236,Poly(2-oxazoline) family,poly-2-oxazoline-family,,,False,1,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000237,Poly(vinylpyrrolidone),poly-vinylpyrrolidone,,,False,1,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000238,Poly(ethylene oxide)-block-poly(propylene oxide)-block-poly(ethylene oxide),poly-ethylene-oxide-block-poly-propylene-oxide-block-poly-ethylene-oxide,,,False,1,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000239,Poly(amidoamine) dendrimer family,poly-amidoamine-dendrimer-family,,,False,1,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000240,Polydimethylsiloxane,polydimethylsiloxane,,,False,0,nomenclature
+wop-000241,Polyacetylene,polyacetylene,,,False,0,nomenclature; structureAndMorphology; limitationsAndVariability; healthSafetyAndRegulation
+wop-000242,Polyaniline,polyaniline,Scale and evidence limits,,False,0,nomenclature; healthSafetyAndRegulation
+wop-000243,Polypyrrole,polypyrrole,Scale and evidence limits,Environmental persistence,False,0,nomenclature; properties; limitationsAndVariability; healthSafetyAndRegulation
+wop-000244,Polythiophene,polythiophene,,,False,0,
+wop-000245,Poly(3-hexylthiophene),poly-3-hexylthiophene,,,False,0,nomenclature; structureAndMorphology; healthSafetyAndRegulation
+wop-000246,"Poly(3,4-ethylenedioxythiophene)",poly-3-4-ethylenedioxythiophene,,,False,0,nomenclature; structureAndMorphology; limitationsAndVariability; healthSafetyAndRegulation
+wop-000247,"Poly(3,4-ethylenedioxythiophene):poly(styrenesulfonate)",poly-3-4-ethylenedioxythiophene-poly-styrenesulfonate,,,False,0,nomenclature; structureAndMorphology; healthSafetyAndRegulation
+wop-000248,Poly(p-phenylene vinylene),poly-p-phenylene-vinylene,,Environmental persistence,False,0,nomenclature; limitationsAndVariability
+wop-000249,"Poly[2-methoxy-5-(2-ethylhexyloxy)-1,4-phenylenevinylene]",poly-2-methoxy-5-2-ethylhexyloxy-1-4-phenylenevinylene,,,False,0,nomenclature; limitationsAndVariability; healthSafetyAndRegulation
+wop-000250,Polyfluorene family,polyfluorene-family,,,False,0,nomenclature; healthSafetyAndRegulation
+wop-000251,Polycarbonate family,polycarbonate-family,,,False,0,nomenclature; structureAndMorphology
+wop-000252,Polysulfone family,polysulfone-family,,,False,0,nomenclature; structureAndMorphology; limitationsAndVariability
+wop-000253,Polyisoprene family,polyisoprene-family,,,False,0,nomenclature; structureAndMorphology; properties
+wop-000254,Fluoropolymer family,fluoropolymer-family,,,False,0,nomenclature
+wop-000255,Polyurethane family,polyurethane-family,,,False,0,nomenclature; structureAndMorphology; limitationsAndVariability
+wop-000256,Polysiloxane family,polysiloxane-family,,,False,0,nomenclature; structureAndMorphology; properties; limitationsAndVariability
+wop-000257,Styrenic block copolymer family,styrenic-block-copolymer-family,,,False,0,nomenclature; structureAndMorphology
+wop-000258,Polycarbonate/ABS blend,polycarbonate-abs-blend,,,False,0,nomenclature; limitationsAndVariability
+wop-000259,Poly(phenylene ether)/polystyrene blend,polyphenylene-ether-polystyrene-blend,,,False,0,nomenclature; properties; limitationsAndVariability
+wop-000260,Unplasticized poly(vinyl chloride),unplasticized-polyvinyl-chloride,,,False,0,nomenclature; limitationsAndVariability
+wop-000261,Plasticized poly(vinyl chloride),plasticized-polyvinyl-chloride,,,False,0,nomenclature
+wop-000262,Fluoroelastomer family,fluoroelastomer-family,,,False,0,nomenclature; structureAndMorphology

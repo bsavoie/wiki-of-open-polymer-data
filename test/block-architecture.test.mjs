@@ -60,7 +60,8 @@ test('article displays sourced ordered blocks alongside, not as, a chemical stru
   const html = renderArticle(article, copy);
   const start = html.indexOf('<figure class="block-architecture">');
   const end = html.indexOf('</figure>', start);
-  assert.ok(start >= 0 && end > start, 'architecture is visible in the article hero');
+  assert.ok(start > html.indexOf('id="overview" data-article-panel') && end < html.indexOf('id="history" data-article-panel'), 'architecture is visible in the Overview tab');
+  assert.match(html.slice(html.indexOf('id="structural-depictions"'), start), /<h3 id="structural-depictions-title">Structure<\/h3>/);
   const diagram = html.slice(start, end);
   assert.match(diagram, /role="img" aria-label="A polystyrene block joined to a hydrogenated polyisoprene block and a second polystyrene block\./);
   assert.match(diagram, /<ol class="block-architecture__blocks" aria-hidden="true">/);
@@ -69,7 +70,7 @@ test('article displays sourced ordered blocks alongside, not as, a chemical stru
   assert.match(diagram, new RegExp(`href="#source-${article.structuralDepictions.architecture.sourceIds[0]}"`));
   assert.doesNotMatch(diagram, /\.mol|assets\/structures|<img/);
   assert.ok(html.indexOf('structure-card__image', end) > end, 'chemical items remain separate');
-  assert.match(html, /Download V3000 molfile/, 'canonical chemical downloads remain available');
+  assert.doesNotMatch(html, /Download V3000 molfile/, 'canonical chemical records remain in the repository rather than the reader view');
   // The diagram is rendered from escaped text, not markup authored in the snapshot.
   article.structuralDepictions.architecture.blocks[1] = '<script>alert(1)</script>';
   assert.match(renderArticle(article, copy), /&lt;script&gt;alert\(1\)&lt;\/script&gt;/);

@@ -70,3 +70,13 @@ test('structural-reference routes require a visible, valid boundary', () => {
     validateSynthesisRoutes(article,article.wopId,errors);assert.ok(errors.length);
   }
 });
+
+test('synthesis presents material-specific limitations without editorial boilerplate', () => {
+  const article = pilot();
+  article.synthesisRoutes[0].limitations = 'Only the specified grade and conditions apply.';
+  const html = renderArticle(article, snapshot);
+  assert.match(html, /Only the specified grade and conditions apply\./);
+  assert.doesNotMatch(html, /Scope and limits\./);
+  const generic = snapshot.polymers.find(p => p.synthesisRoutes?.some(r => r.limitations.startsWith('This outline does not specify a universal recipe')));
+  assert.doesNotMatch(renderArticle(generic, snapshot), /This outline does not specify a universal recipe/);
+});

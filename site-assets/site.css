@@ -614,7 +614,6 @@ main { min-height: 70vh; }
   margin: 0;
   padding: clamp(1.4rem, 3.5vw, 2.35rem) 0;
   border: 0;
-  border-bottom: 1px solid var(--line);
   border-radius: 0;
   background: transparent;
   box-shadow: none;
@@ -702,10 +701,14 @@ main { min-height: 70vh; }
 .contextual-structure-preview .structure-card__image { min-height: 92px; padding: 0.2rem; }
 .contextual-structure-preview .structure-card__image img { max-height: 112px; }
 .contextual-structure-preview .structure-card__compact-caption { margin: 0.55rem 0 0; padding-top: 0.5rem; border-top: 1px solid var(--line); color: var(--ink-soft); font-size: 0.7rem; line-height: 1.45; }
-.overview-subsection { max-width: 78ch; margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--line); }
+.overview-subsection { max-width: 78ch; margin-top: 1.5rem; }
 .overview-subsection h4 { margin: 0 0 0.65rem; color: var(--blue-dark); font-size: 0.78rem; font-weight: 820; letter-spacing: 0.075em; text-transform: uppercase; }
 .overview-subsection p { margin: 0; line-height: 1.75; }
 .overview-subsection p + p { margin-top: 1rem; }
+.overview-structure__passage { max-width: 78ch; scroll-margin-top: 150px; }
+.overview-structure__passage + .overview-structure__passage { margin-top: 1rem; }
+.overview-structure__passage p { margin: 0; line-height: 1.75; }
+.overview-structure__passage p + p { margin-top: 1rem; }
 .article-profile__surface .article-tab-panel--overview > .coverage-gaps { padding: clamp(1.15rem, 2.8vw, 1.5rem); border-left: 3px solid var(--amber); background: var(--amber-soft); }
 .coverage-gaps h3 { color: #655536; }
 .coverage-gaps > p { max-width: 72ch; margin: 0.4rem 0 0; color: #655536; font-size: 0.82rem; line-height: 1.55; }

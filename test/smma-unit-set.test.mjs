@@ -25,7 +25,8 @@ test('SMMA constituent units are open and do not assert homopolymer blocks', asy
   assert.ok(!entry.synthesisRoutes[0].sourceIds.includes('smma-aqueous-suspension-us6502621'));
   assert.ok(entry.synthesisRoutes[0].steps.every(step => !step.sourceIds.includes('smma-aqueous-suspension-us6502621')));
   const mbs = snapshot.polymers.find(item => item.wopId === 'wop-000035');
-  assert.deepEqual(mbs.structuralDepictions.items.map(item => item.structureId), ['smma-open-mma-unit', 'sbr-open-styrene-unit']);
-  assert.match(mbs.structuralDepictions.scopeNote, /rubber core is not depicted/i);
+  assert.deepEqual(mbs.structuralDepictions.items.map(item => item.structureId), ['smma-open-mma-unit', 'sbr-open-styrene-unit', 'abs-butadiene-rich-local-segment']);
+  assert.match(mbs.structuralDepictions.items[2].caption, /1,4-butadiene/i);
+  assert.match(mbs.structuralDepictions.scopeNote, /graft sites/i);
   assert.match(mbs.synthesisRoutes[0].productNote, /rubber core is not depicted/i);
 });

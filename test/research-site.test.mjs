@@ -17,23 +17,13 @@ function researchArticle() {
   return article;
 }
 
-test('articles distinguish population, evidence, review, outcomes, and inherited flags', () => {
+test('articles omit internal research status while retaining sourced content', () => {
   const article = researchArticle();
-  let html = renderArticle(article, snapshot);
-  assert.match(html, /Source Backed Draft|Source-backed Draft|Agent Corrected|Open Source Reviewed/);
-  assert.match(html, /1 structured measurement record/);
-  assert.match(html, /Reviewed at this revision · 2026-09-25/);
-  assert.match(html, /id="question-test-question"/);
-  assert.match(html, /Only the specified grade/);
-  assert.match(html, /Checked the table/);
-  assert.match(html, /Qualified value recorded/);
-  assert.match(html, /Added one qualified record/);
-  for (const flag of article.maturity.reviewFlags) assert.ok(html.includes(flag.replaceAll('_', ' ').replace(/\b\w/g, (character) => character.toUpperCase())));
-  assert.match(html, /not individual research assignments/);
-  article.sections.mechanicalProperties += '\n\nA changed section.';
-  html = renderArticle(article, snapshot);
-  assert.match(html, /Content changed since review/);
-  assert.doesNotMatch(html, /Reviewed at this revision/);
+  const html = renderArticle(article, snapshot);
+  for (const metadata of ['structured measurement record', 'Reviewed at this revision', 'No recorded section review', 'id="question-test-question"', 'Evidence and review history', 'Added one qualified record']) {
+    assert.ok(!html.includes(metadata), metadata);
+  }
+  assert.ok(html.includes('Specified test grade'));
 });
 
 test('evidence renders scoped values with source links before technical prose', () => {
@@ -55,31 +45,6 @@ test('homepage presents the catalog without a public research queue', () => {
   assert.match(html, /data-catalog-expand/);
   assert.match(html, /WOPD/);
   assert.doesNotMatch(html, /Completeness before perfection/);
-});
-
-test('a reopened question retains dated prior outcomes without claiming it remains resolved', () => {
-  const article = researchArticle();
-  const question = article.research.questions[0];
-  question.previousResolutions = [{ date: '2026-09-24', status: 'no_eligible_evidence', summary: 'Earlier bounded search found no qualifying source.', sourceIds: [], evidenceIds: [] }, { ...question.resolution, status: question.status }];
-  question.status = 'open';
-  delete question.resolution;
-  const html = renderArticle(article, snapshot);
-  const renderedQuestion = html.slice(html.indexOf('id="question-test-question"'), html.indexOf('<h3>Broad review needs'));
-  assert.match(renderedQuestion, /<span>Open<\/span>/);
-  assert.match(renderedQuestion, /Prior recorded outcomes/);
-  assert.match(renderedQuestion, /Prior outcome · Resolved · 2026-09-25/);
-  assert.match(renderedQuestion, /Prior outcome · No eligible evidence found · 2026-09-24/);
-  assert.match(renderedQuestion, /Earlier bounded search found no qualifying source/);
-  assert.match(renderedQuestion, /href="#evidence-test-measurement"/);
-  assert.doesNotMatch(renderedQuestion, /<strong>Recorded outcome/);
-});
-
-test('article retains review history without a reader-facing research submission form', () => {
-  const article = researchArticle();
-  const html = renderArticle(article, snapshot);
-  assert.match(html, /Evidence and review history/);
-  assert.match(html, /id="question-test-question"/);
-  assert.doesNotMatch(html, /data-research-request|href="#research-request"|assets\/research\.js/);
 });
 
 test('catalog search restores shareable URL state and preserves unrelated parameters', async () => {

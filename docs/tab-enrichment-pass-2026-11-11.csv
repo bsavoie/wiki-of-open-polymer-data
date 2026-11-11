@@ -1,0 +1,263 @@
+id,name,slug,overview_fields_changed,applications_fields_changed,degradation_fields_changed,sources_changed,record_changed
+wop-000001,Polyethylene family,polyethylene-family,,,,False,False
+wop-000002,Low-density polyethylene,low-density-polyethylene,nomenclature; structureAndMorphology,,degradationAndStability,False,True
+wop-000003,Linear low-density polyethylene,linear-low-density-polyethylene,nomenclature; limitationsAndVariability,,degradationAndStability,True,True
+wop-000004,Medium-density polyethylene,medium-density-polyethylene,nomenclature; structureAndMorphology; properties,,degradationAndStability,True,True
+wop-000005,High-density polyethylene,high-density-polyethylene,nomenclature; properties,applications,,True,True
+wop-000006,Ultra-high-molecular-weight polyethylene,ultra-high-molecular-weight-polyethylene,nomenclature; limitationsAndVariability,,,True,True
+wop-000007,Very-low-density polyethylene,very-low-density-polyethylene,properties; limitationsAndVariability,,degradationAndStability,False,True
+wop-000008,Cross-linked polyethylene,cross-linked-polyethylene,structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000009,Polypropylene family,polypropylene-family,nomenclature,applications,degradationAndStability,True,True
+wop-000010,Isotactic polypropylene,isotactic-polypropylene,structureAndMorphology; limitationsAndVariability,,,False,True
+wop-000011,Syndiotactic polypropylene,syndiotactic-polypropylene,structureAndMorphology; properties; limitationsAndVariability,,degradationAndStability,True,True
+wop-000012,Random propylene–ethylene copolymer,random-propylene-ethylene-copolymer,nomenclature; properties; limitationsAndVariability,,,True,True
+wop-000013,Heterophasic polypropylene copolymer,heterophasic-polypropylene-copolymer,nomenclature; structureAndMorphology; limitationsAndVariability,,,True,True
+wop-000014,Poly(1-butene),poly-1-butene,structureAndMorphology; properties; limitationsAndVariability,,,True,True
+wop-000015,Poly(4-methyl-1-pentene),poly-4-methyl-1-pentene,structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000016,Cyclo-olefin polymer,cyclo-olefin-polymer,nomenclature,,degradationAndStability,True,True
+wop-000017,Cyclic olefin copolymer,cyclic-olefin-copolymer,nomenclature; structureAndMorphology; properties,,degradationAndStability,True,True
+wop-000018,Ethylene–vinyl acetate copolymer,ethylene-vinyl-acetate-copolymer,structureAndMorphology; properties; limitationsAndVariability,,,False,True
+wop-000019,Ethylene–vinyl alcohol copolymer,ethylene-vinyl-alcohol-copolymer,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability,,degradationAndStability,True,True
+wop-000020,Ethylene–acrylic acid copolymer,ethylene-acrylic-acid-copolymer,nomenclature; structureAndMorphology; properties,,,False,True
+wop-000021,Ethylene–methacrylic acid copolymer,ethylene-methacrylic-acid-copolymer,properties; limitationsAndVariability,,,True,True
+wop-000022,Polyolefin ionomer,polyolefin-ionomer,properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000023,Poly(vinyl chloride),poly-vinyl-chloride,nomenclature; structureAndMorphology; properties; limitationsAndVariability,,degradationAndStability,True,True
+wop-000024,Chlorinated poly(vinyl chloride),chlorinated-poly-vinyl-chloride,nomenclature; structureAndMorphology,,degradationAndStability,True,True
+wop-000025,Poly(vinylidene chloride),poly-vinylidene-chloride,properties; limitationsAndVariability,,degradationAndStability,False,True
+wop-000026,Poly(vinyl acetate),poly-vinyl-acetate,properties,,,True,True
+wop-000027,Poly(vinyl alcohol),poly-vinyl-alcohol,properties,,,True,True
+wop-000028,Poly(vinyl butyral),poly-vinyl-butyral,properties,,,True,True
+wop-000029,Poly(vinyl formal),poly-vinyl-formal,structureAndMorphology; properties; limitationsAndVariability,applications,,True,True
+wop-000030,Polystyrene,polystyrene,structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000031,High-impact polystyrene,high-impact-polystyrene,properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000032,Styrene–acrylonitrile copolymer,styrene-acrylonitrile-copolymer,,,degradationAndStability,True,True
+wop-000033,Acrylonitrile–butadiene–styrene copolymer,acrylonitrile-butadiene-styrene-copolymer,properties,applications,degradationAndStability,True,True
+wop-000034,Acrylonitrile–styrene–acrylate copolymer,acrylonitrile-styrene-acrylate-copolymer,properties,applications,,False,True
+wop-000035,Methacrylate–butadiene–styrene copolymer,methacrylate-butadiene-styrene-copolymer,properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000036,Styrene–maleic anhydride copolymer,styrene-maleic-anhydride-copolymer,properties; limitationsAndVariability,,degradationAndStability,True,True
+wop-000037,Styrene–methyl methacrylate copolymer,styrene-methyl-methacrylate-copolymer,properties,applications,degradationAndStability,True,True
+wop-000038,Poly(methyl methacrylate),poly-methyl-methacrylate,properties,,,False,True
+wop-000039,Polyacrylonitrile,polyacrylonitrile,,applications,degradationAndStability,True,True
+wop-000040,Poly(alkyl acrylate) family,poly-alkyl-acrylate-family,,applications,degradationAndStability,True,True
+wop-000041,Polyacrylamide,polyacrylamide,properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000042,Poly(acrylic acid),poly-acrylic-acid,structureAndMorphology; properties,applications,degradationAndStability,True,True
+wop-000043,Thermoplastic polyester family,thermoplastic-polyester-family,properties,,degradationAndStability,True,True
+wop-000044,Poly(ethylene terephthalate),poly-ethylene-terephthalate,properties; limitationsAndVariability,,,False,True
+wop-000045,Glycol-modified poly(ethylene terephthalate),glycol-modified-poly-ethylene-terephthalate,properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000046,Poly(butylene terephthalate),poly-butylene-terephthalate,properties,,,True,True
+wop-000047,Poly(trimethylene terephthalate),poly-trimethylene-terephthalate,properties,,,True,True
+wop-000048,Poly(ethylene naphthalate),poly-ethylene-naphthalate,properties,applications,degradationAndStability,True,True
+wop-000049,Poly(cyclohexylenedimethylene terephthalate),poly-cyclohexylenedimethylene-terephthalate,properties,applications,degradationAndStability,True,True
+wop-000050,Polyarylate,polyarylate,properties,,degradationAndStability,False,True
+wop-000051,Thermotropic aromatic copolyester,thermotropic-aromatic-copolyester,,,degradationAndStability,False,True
+wop-000052,Polyamide family,polyamide-family,properties,,,False,True
+wop-000053,Polyamide 6,polyamide-6,properties,applications,degradationAndStability,True,True
+wop-000054,Polyamide 66,polyamide-66,properties,,,True,True
+wop-000055,Polyamide 46,polyamide-46,structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000056,Polyamide 610,polyamide-610,structureAndMorphology; properties,applications,degradationAndStability,True,True
+wop-000057,Polyamide 612,polyamide-612,structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000058,Polyamide 11,polyamide-11,properties,,degradationAndStability,False,True
+wop-000059,Polyamide 12,polyamide-12,properties,,degradationAndStability,False,True
+wop-000060,Polyamide 1010,polyamide-1010,properties,,,False,True
+wop-000061,Polyamide 1012,polyamide-1012,,applications,degradationAndStability,True,True
+wop-000062,Polyamide 6T,polyamide-6t,properties,,degradationAndStability,True,True
+wop-000063,Polyamide 9T,polyamide-9t,limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000064,Polyamide 10T,polyamide-10t,,applications,degradationAndStability,True,True
+wop-000065,Poly(m-xylylene adipamide),poly-m-xylylene-adipamide,properties,,degradationAndStability,True,True
+wop-000066,Polyphthalamide family,polyphthalamide-family,properties,applications,degradationAndStability,True,True
+wop-000067,Polyamide 6/66,polyamide-6-66,structureAndMorphology,applications,degradationAndStability,False,True
+wop-000068,Bisphenol A polycarbonate,bisphenol-a-polycarbonate,,,,False,False
+wop-000069,Poly(propylene carbonate),poly-propylene-carbonate,properties,applications,degradationAndStability,False,True
+wop-000070,Poly(vinyl fluoride),poly-vinyl-fluoride,properties; limitationsAndVariability,,,False,True
+wop-000071,Polycarbonate–siloxane copolymer,polycarbonate-siloxane-copolymer,properties,,,False,True
+wop-000072,Polyester–polycarbonate copolymer,polyester-polycarbonate-copolymer,properties,applications,degradationAndStability,False,True
+wop-000073,Polyoxymethylene family,polyoxymethylene-family,properties,,,False,True
+wop-000074,Polyoxymethylene homopolymer,polyoxymethylene-homopolymer,properties,applications,degradationAndStability,True,True
+wop-000075,Polyoxymethylene copolymer,polyoxymethylene-copolymer,properties,,,False,True
+wop-000076,Poly(phenylene ether),poly-phenylene-ether,properties,,degradationAndStability,True,True
+wop-000077,Bisphenol A polysulfone,bisphenol-a-polysulfone,properties; limitationsAndVariability,,degradationAndStability,True,True
+wop-000078,Poly(ether sulfone),poly-ether-sulfone,properties; limitationsAndVariability,,degradationAndStability,True,True
+wop-000079,Polyphenylsulfone,polyphenylsulfone,properties; limitationsAndVariability,,degradationAndStability,True,True
+wop-000080,Poly(phenylene sulfide),poly-phenylene-sulfide,structureAndMorphology,,,False,True
+wop-000081,Poly(aryl ether ketone) family,poly-aryl-ether-ketone-family,properties,,degradationAndStability,True,True
+wop-000082,Poly(ether ether ketone),poly-ether-ether-ketone,properties,,,True,True
+wop-000083,Poly(ether ketone ketone),poly-ether-ketone-ketone,properties,,degradationAndStability,True,True
+wop-000084,Polyetherimide,polyetherimide,properties; limitationsAndVariability,,degradationAndStability,True,True
+wop-000085,Polyamide-imide,polyamide-imide,properties,,degradationAndStability,True,True
+wop-000086,Polyimide family,polyimide-family,properties,,degradationAndStability,True,True
+wop-000087,Thermoplastic polyimide,thermoplastic-polyimide,properties,,degradationAndStability,True,True
+wop-000088,Alternating ethylene–carbon monoxide polyketone,alternating-ethylene-carbon-monoxide-polyketone,structureAndMorphology; properties; limitationsAndVariability,,degradationAndStability,False,True
+wop-000089,Poly(tetrafluoroethylene),poly-tetrafluoroethylene,properties,,,False,True
+wop-000090,Fluorinated ethylene propylene copolymer,fluorinated-ethylene-propylene-copolymer,structureAndMorphology; properties,applications,degradationAndStability,True,True
+wop-000091,Perfluoroalkoxy alkane polymer,perfluoroalkoxy-alkane-polymer,structureAndMorphology; properties,,degradationAndStability,True,True
+wop-000092,Ethylene–tetrafluoroethylene copolymer,ethylene-tetrafluoroethylene-copolymer,properties,,degradationAndStability,True,True
+wop-000093,Ethylene–chlorotrifluoroethylene copolymer,ethylene-chlorotrifluoroethylene-copolymer,properties,,degradationAndStability,True,True
+wop-000094,Poly(chlorotrifluoroethylene),poly-chlorotrifluoroethylene,nomenclature; structureAndMorphology; properties; limitationsAndVariability,,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000095,Poly(vinylidene fluoride),poly-vinylidene-fluoride,nomenclature; structureAndMorphology; properties; limitationsAndVariability,,degradationAndStability,True,True
+wop-000096,Tetrafluoroethylene–hexafluoropropylene–vinylidene fluoride terpolymer,tetrafluoroethylene-hexafluoropropylene-vinylidene-fluoride-terpolymer,properties,,degradationAndStability,True,True
+wop-000097,Poly(p-xylylene) family,poly-p-xylylene-family,structureAndMorphology; properties,applications,degradationAndStability,True,True
+wop-000098,Epoxy resin family,epoxy-resin-family,,applications,degradationAndStability,False,True
+wop-000099,Bisphenol A diglycidyl ether epoxy,bisphenol-a-diglycidyl-ether-epoxy,,applications,degradationAndStability,False,True
+wop-000100,Bisphenol F diglycidyl ether epoxy,bisphenol-f-diglycidyl-ether-epoxy,,applications,degradationAndStability,False,True
+wop-000101,Epoxy novolac resin family,epoxy-novolac-resin-family,,applications,degradationAndStability,False,True
+wop-000102,Glycidyl amine epoxy resin,glycidyl-amine-epoxy-resin,,applications,degradationAndStability,True,True
+wop-000103,Cycloaliphatic epoxy resin,cycloaliphatic-epoxy-resin,,applications,degradationAndStability,False,True
+wop-000104,Unsaturated polyester resin family,unsaturated-polyester-resin-family,properties,applications,degradationAndStability,True,True
+wop-000105,Orthophthalic unsaturated polyester resin,orthophthalic-unsaturated-polyester-resin,properties,applications,degradationAndStability,True,True
+wop-000106,Isophthalic unsaturated polyester resin,isophthalic-unsaturated-polyester-resin,properties,applications,degradationAndStability,True,True
+wop-000107,Dicyclopentadiene-modified unsaturated polyester resin,dicyclopentadiene-modified-unsaturated-polyester-resin,properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000108,Vinyl ester resin family,vinyl-ester-resin-family,properties,applications,degradationAndStability,True,True
+wop-000109,Bisphenol A epoxy vinyl ester,bisphenol-a-epoxy-vinyl-ester,properties,applications,degradationAndStability,True,True
+wop-000110,Epoxy-novolac vinyl ester,epoxy-novolac-vinyl-ester,properties,applications,degradationAndStability,True,True
+wop-000111,Phenol–formaldehyde resin family,phenol-formaldehyde-resin-family,properties,applications,degradationAndStability,True,True
+wop-000112,Novolac phenolic resin,novolac-phenolic-resin,,applications,degradationAndStability,True,True
+wop-000113,Resole phenolic resin,resole-phenolic-resin,structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000114,Cresol–formaldehyde resin,cresol-formaldehyde-resin,healthSafetyAndRegulation,,degradationAndStability,True,True
+wop-000115,Resorcinol–formaldehyde resin,resorcinol-formaldehyde-resin,healthSafetyAndRegulation,applications,degradationAndStability,True,True
+wop-000116,Phenol–resorcinol–formaldehyde resin,phenol-resorcinol-formaldehyde-resin,,applications,degradationAndStability,True,True
+wop-000117,Urea–formaldehyde resin,urea-formaldehyde-resin,,applications,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000118,Melamine–formaldehyde resin,melamine-formaldehyde-resin,properties,applications,degradationAndStability,True,True
+wop-000119,Melamine–urea–formaldehyde resin,melamine-urea-formaldehyde-resin,healthSafetyAndRegulation,applications,degradationAndStability,True,True
+wop-000120,Phenol–urea–formaldehyde resin,phenol-urea-formaldehyde-resin,overview; structureAndMorphology; properties; limitationsAndVariability,applications,,True,True
+wop-000121,Benzoguanamine–formaldehyde resin,benzoguanamine-formaldehyde-resin,overview; structureAndMorphology; properties,applications,degradationAndStability,True,True
+wop-000122,Thermoset polyurethane,thermoset-polyurethane,overview; structureAndMorphology; properties; limitationsAndVariability,,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000123,Polyisocyanurate,polyisocyanurate,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000124,Polyurea,polyurea,overview; structureAndMorphology; limitationsAndVariability,applications,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000125,Alkyd resin,alkyd-resin,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability,,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000126,Silicone resin,silicone-resin,structureAndMorphology; properties; limitationsAndVariability,,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000127,Bismaleimide resin,bismaleimide-resin,overview; structureAndMorphology; properties,,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000128,Cyanate ester resin,cyanate-ester-resin,overview; structureAndMorphology; properties,applications,degradationAndStability,True,True
+wop-000129,Polybenzoxazine,polybenzoxazine,structureAndMorphology; properties; limitationsAndVariability,,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000130,Phthalonitrile resin,phthalonitrile-resin,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation,applications,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000131,Poly(furfuryl alcohol) resin,poly-furfuryl-alcohol-resin,properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000132,Poly(diallyl phthalate),poly-diallyl-phthalate,,applications,degradationAndStability,True,True
+wop-000133,Thermosetting polyimide,thermosetting-polyimide,,,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000134,Natural rubber,natural-rubber,,,recyclingAndEndOfLife,False,True
+wop-000135,"Synthetic cis-1,4-polyisoprene",synthetic-cis-1-4-polyisoprene,,applications,degradationAndStability,False,True
+wop-000136,"Trans-1,4-polyisoprene",trans-1-4-polyisoprene,,applications,,False,True
+wop-000137,Polybutadiene rubber,polybutadiene-rubber,,applications,degradationAndStability,False,True
+wop-000138,Styrene–butadiene rubber family,styrene-butadiene-rubber-family,,applications,,True,True
+wop-000139,Emulsion styrene–butadiene rubber,emulsion-styrene-butadiene-rubber,,applications,,False,True
+wop-000140,Solution styrene–butadiene rubber,solution-styrene-butadiene-rubber,,applications,,False,True
+wop-000141,Carboxylated styrene–butadiene rubber,carboxylated-styrene-butadiene-rubber,,,degradationAndStability,True,True
+wop-000142,Nitrile butadiene rubber,nitrile-butadiene-rubber,,,recyclingAndEndOfLife,True,True
+wop-000143,Hydrogenated nitrile butadiene rubber,hydrogenated-nitrile-butadiene-rubber,,applications,,False,True
+wop-000144,Carboxylated nitrile butadiene rubber,carboxylated-nitrile-butadiene-rubber,,,degradationAndStability,True,True
+wop-000145,Butyl rubber,butyl-rubber,,,recyclingAndEndOfLife,True,True
+wop-000146,Bromobutyl rubber,bromobutyl-rubber,properties,,,True,True
+wop-000147,Chlorobutyl rubber,chlorobutyl-rubber,,,recyclingAndEndOfLife,True,True
+wop-000148,Polychloroprene rubber,polychloroprene-rubber,overview; structureAndMorphology; properties,applications,degradationAndStability,True,True
+wop-000149,Ethylene–propylene rubber,ethylene-propylene-rubber,overview; structureAndMorphology,applications,degradationAndStability,True,True
+wop-000150,Ethylene–propylene–diene rubber,ethylene-propylene-diene-rubber,,applications,,False,True
+wop-000151,Acrylic rubber,acrylic-rubber,overview; structureAndMorphology; properties,,degradationAndStability,True,True
+wop-000152,Ethylene–acrylic elastomer,ethylene-acrylic-elastomer,overview; structureAndMorphology; properties,,,True,True
+wop-000153,Epichlorohydrin homopolymer rubber,epichlorohydrin-homopolymer-rubber,overview; structureAndMorphology; properties,applications,degradationAndStability,True,True
+wop-000154,Epichlorohydrin–ethylene oxide rubber,epichlorohydrin-ethylene-oxide-rubber,overview; structureAndMorphology; properties,applications,degradationAndStability,True,True
+wop-000155,Chlorinated polyethylene elastomer,chlorinated-polyethylene-elastomer,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000156,Chlorosulfonated polyethylene rubber,chlorosulfonated-polyethylene-rubber,overview; structureAndMorphology,applications,degradationAndStability,True,True
+wop-000157,FKM fluoroelastomer family,fkm-fluoroelastomer-family,overview; structureAndMorphology,,degradationAndStability,True,True
+wop-000158,Perfluoroelastomer,perfluoroelastomer,overview; structureAndMorphology,applications,degradationAndStability,True,True
+wop-000159,Tetrafluoroethylene–propylene elastomer,tetrafluoroethylene-propylene-elastomer,overview; structureAndMorphology,applications,degradationAndStability,False,True
+wop-000160,Silicone rubber family,silicone-rubber-family,overview; structureAndMorphology; properties,,degradationAndStability,True,True
+wop-000161,Methyl-vinyl silicone rubber,methyl-vinyl-silicone-rubber,overview; structureAndMorphology,applications,degradationAndStability,True,True
+wop-000162,Fluorosilicone rubber,fluorosilicone-rubber,overview; structureAndMorphology,,degradationAndStability,True,True
+wop-000163,Polysulfide rubber,polysulfide-rubber,overview; structureAndMorphology,applications,degradationAndStability,True,True
+wop-000164,Polyisobutylene,polyisobutylene,overview; structureAndMorphology,applications,degradationAndStability,True,True
+wop-000165,Ethylene–octene elastomer,ethylene-octene-elastomer,overview; structureAndMorphology,applications,degradationAndStability,True,True
+wop-000166,Styrene–butadiene–styrene block copolymer,styrene-butadiene-styrene-block-copolymer,,,recyclingAndEndOfLife,True,True
+wop-000167,Styrene–isoprene–styrene block copolymer,styrene-isoprene-styrene-block-copolymer,,applications,,False,True
+wop-000168,Styrene–ethylene/butylene–styrene block copolymer,styrene-ethylene-butylene-styrene-block-copolymer,,,recyclingAndEndOfLife,True,True
+wop-000169,Styrene–ethylene/propylene–styrene block copolymer,styrene-ethylene-propylene-styrene-block-copolymer,,applications,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000170,Styrene–ethylene/ethylene-propylene–styrene block copolymer,styrene-ethylene-ethylene-propylene-styrene-block-copolymer,,applications,degradationAndStability,True,True
+wop-000171,Thermoplastic polyolefin elastomer,thermoplastic-polyolefin-elastomer,overview; structureAndMorphology; properties; limitationsAndVariability,applications,,True,True
+wop-000172,Thermoplastic vulcanizate,thermoplastic-vulcanizate,structureAndMorphology; limitationsAndVariability,applications,,True,True
+wop-000173,Thermoplastic polyurethane elastomer,thermoplastic-polyurethane-elastomer,structureAndMorphology; limitationsAndVariability,applications,recyclingAndEndOfLife,True,True
+wop-000174,Thermoplastic copolyester elastomer,thermoplastic-copolyester-elastomer,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000175,Polyether block amide elastomer,polyether-block-amide-elastomer,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation,applications,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000176,Aramid family,aramid-family,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000177,Poly(p-phenylene terephthalamide),poly-p-phenylene-terephthalamide,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000178,Poly(m-phenylene isophthalamide),poly-m-phenylene-isophthalamide,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000179,"Poly(p-phenylene/3,4′-oxydiphenylene terephthalamide)",poly-p-phenylene-3-4-oxydiphenylene-terephthalamide,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000180,Polybenzimidazole,polybenzimidazole,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000181,Poly(p-phenylene benzobisoxazole),poly-p-phenylene-benzobisoxazole,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability; healthSafetyAndRegulation,applications,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000182,Poly(p-phenylene benzobisthiazole),poly-p-phenylene-benzobisthiazole,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability,,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000183,Polyoxadiazole,polyoxadiazole,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability,,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000184,Modacrylic fiber polymer family,modacrylic-fiber-polymer-family,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000185,Vinyon fiber polymer family,vinyon-fiber-polymer-family,overview; nomenclature; structureAndMorphology; healthSafetyAndRegulation,applications,degradationAndStability,True,True
+wop-000186,Elastane (spandex) polymer family,elastane-spandex-polymer-family,overview; nomenclature; structureAndMorphology; limitationsAndVariability,applications,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000187,Novoloid fiber polymer family,novoloid-fiber-polymer-family,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000188,Regenerated cellulose,regenerated-cellulose,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,False,True
+wop-000189,Cellulose acetate,cellulose-acetate,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000190,Cellulose triacetate,cellulose-triacetate,overview; structureAndMorphology; properties; limitationsAndVariability,,degradationAndStability,True,True
+wop-000191,Cellulose,cellulose,properties; limitationsAndVariability,applications,degradationAndStability,False,True
+wop-000192,Cellulose acetate butyrate,cellulose-acetate-butyrate,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,False,True
+wop-000193,Cellulose acetate propionate,cellulose-acetate-propionate,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000194,Cellulose nitrate,cellulose-nitrate,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,False,True
+wop-000195,Methyl cellulose,methyl-cellulose,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000196,Ethyl cellulose,ethyl-cellulose,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000197,Hydroxyethyl cellulose,hydroxyethyl-cellulose,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000198,Hydroxypropyl cellulose,hydroxypropyl-cellulose,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000199,Hydroxypropyl methylcellulose,hydroxypropyl-methylcellulose,overview; nomenclature; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000200,Carboxymethyl cellulose,carboxymethyl-cellulose,,,,False,False
+wop-000201,Starch,starch,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000202,Amylose,amylose,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,False,True
+wop-000203,Amylopectin,amylopectin,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,False,True
+wop-000204,Thermoplastic starch,thermoplastic-starch,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,False,True
+wop-000205,Chitin,chitin,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000206,Chitosan,chitosan,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,False,True
+wop-000207,Alginate,alginate,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,False,True
+wop-000208,Agarose,agarose,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000209,Carrageenan,carrageenan,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,False,True
+wop-000210,Lignin,lignin,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,False,True
+wop-000211,Collagen,collagen,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000212,Silk fibroin,silk-fibroin,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000213,Polyhydroxyalkanoate family,polyhydroxyalkanoate-family,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000214,Poly(3-hydroxybutyrate),poly-3-hydroxybutyrate,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,False,True
+wop-000215,Poly(3-hydroxybutyrate-co-3-hydroxyvalerate),poly-3-hydroxybutyrate-co-3-hydroxyvalerate,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000216,Poly(3-hydroxybutyrate-co-3-hydroxyhexanoate),poly-3-hydroxybutyrate-co-3-hydroxyhexanoate,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,False,True
+wop-000217,Polylactide family,polylactide-family,properties; limitationsAndVariability,,,True,True
+wop-000218,Poly(L-lactide),poly-l-lactide,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000219,Poly(glycolic acid),poly-glycolic-acid,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000220,Poly(lactide-co-glycolide),poly-lactide-co-glycolide,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000221,Polycaprolactone,polycaprolactone,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000222,Poly(butylene succinate),poly-butylene-succinate,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,False,True
+wop-000223,Poly(butylene adipate-co-terephthalate),poly-butylene-adipate-co-terephthalate,properties; limitationsAndVariability,,,True,True
+wop-000224,Poly(butylene succinate-co-adipate),poly-butylene-succinate-co-adipate,,,degradationAndStability,True,True
+wop-000225,"Poly(ethylene 2,5-furandicarboxylate)",poly-ethylene-2-5-furandicarboxylate,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000226,Poly(ethylene oxide),poly-ethylene-oxide,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000227,Poly(propylene oxide),poly-propylene-oxide,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000228,Poly(tetramethylene ether glycol),poly-tetramethylene-ether-glycol,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000229,Poly(2-hydroxyethyl methacrylate),poly-2-hydroxyethyl-methacrylate,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000230,Poly(N-isopropylacrylamide),poly-n-isopropylacrylamide,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000231,Poly(diallyldimethylammonium chloride),poly-diallyldimethylammonium-chloride,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000232,Polyethyleneimine,polyethyleneimine,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000233,Poly(sodium 4-styrenesulfonate),poly-sodium-4-styrenesulfonate,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000234,Perfluorosulfonic acid ionomer family,perfluorosulfonic-acid-ionomer-family,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000235,Sulfonated poly(ether ether ketone),sulfonated-poly-ether-ether-ketone,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000236,Poly(2-oxazoline) family,poly-2-oxazoline-family,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000237,Poly(vinylpyrrolidone),poly-vinylpyrrolidone,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000238,Poly(ethylene oxide)-block-poly(propylene oxide)-block-poly(ethylene oxide),poly-ethylene-oxide-block-poly-propylene-oxide-block-poly-ethylene-oxide,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000239,Poly(amidoamine) dendrimer family,poly-amidoamine-dendrimer-family,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000240,Polydimethylsiloxane,polydimethylsiloxane,overview; structureAndMorphology; properties; limitationsAndVariability,,,True,True
+wop-000241,Polyacetylene,polyacetylene,overview; structureAndMorphology; properties; limitationsAndVariability,,,True,True
+wop-000242,Polyaniline,polyaniline,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000243,Polypyrrole,polypyrrole,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000244,Polythiophene,polythiophene,,,,False,False
+wop-000245,Poly(3-hexylthiophene),poly-3-hexylthiophene,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000246,"Poly(3,4-ethylenedioxythiophene)",poly-3-4-ethylenedioxythiophene,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000247,"Poly(3,4-ethylenedioxythiophene):poly(styrenesulfonate)",poly-3-4-ethylenedioxythiophene-poly-styrenesulfonate,properties; limitationsAndVariability,applications,degradationAndStability,True,True
+wop-000248,Poly(p-phenylene vinylene),poly-p-phenylene-vinylene,overview; structureAndMorphology; properties; limitationsAndVariability,applications,degradationAndStability; recyclingAndEndOfLife,True,True
+wop-000249,"Poly[2-methoxy-5-(2-ethylhexyloxy)-1,4-phenylenevinylene]",poly-2-methoxy-5-2-ethylhexyloxy-1-4-phenylenevinylene,healthSafetyAndRegulation,applications,,True,True
+wop-000250,Polyfluorene family,polyfluorene-family,nomenclature,,degradationAndStability,True,True
+wop-000251,Polycarbonate family,polycarbonate-family,properties,,,True,True
+wop-000252,Polysulfone family,polysulfone-family,properties,,,False,True
+wop-000253,Polyisoprene family,polyisoprene-family,properties,,,False,True
+wop-000254,Fluoropolymer family,fluoropolymer-family,,applications,recyclingAndEndOfLife,True,True
+wop-000255,Polyurethane family,polyurethane-family,properties,,,False,True
+wop-000256,Polysiloxane family,polysiloxane-family,properties,,,False,True
+wop-000257,Styrenic block copolymer family,styrenic-block-copolymer-family,,applications,degradationAndStability,True,True
+wop-000258,Polycarbonate/ABS blend,polycarbonate-abs-blend,,applications,degradationAndStability; recyclingAndEndOfLife,False,True
+wop-000259,Poly(phenylene ether)/polystyrene blend,polyphenylene-ether-polystyrene-blend,properties,,degradationAndStability,True,True
+wop-000260,Unplasticized poly(vinyl chloride),unplasticized-polyvinyl-chloride,properties,,recyclingAndEndOfLife,True,True
+wop-000261,Plasticized poly(vinyl chloride),plasticized-polyvinyl-chloride,properties,,,False,True
+wop-000262,Fluoroelastomer family,fluoroelastomer-family,,applications,degradationAndStability,False,True

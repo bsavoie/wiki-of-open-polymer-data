@@ -20,6 +20,36 @@ const depictionGroups = (polymer) => [
 ];
 const depictionItems = (polymer) => depictionGroups(polymer).flatMap(({ items }) => items);
 
+test('catalog distinguishes ABS and ASA by showing their separately labeled components', () => {
+  const home = renderHome(snapshot);
+  const card = (id) => home.match(new RegExp(`<article class="polymer-card[^\\"]*"[^>]*data-wop-id="${id}"[\\s\\S]*?<\\/article>`))?.[0];
+  const abs = card('wop-000033');
+  const asa = card('wop-000034');
+  assert.ok(abs && asa);
+  for (const html of [abs, asa]) {
+    assert.match(html, />Separate components<\/span>/);
+    assert.match(html, /san-styrene-acrylonitrile-local-segment\.svg/);
+    assert.match(html, /<figcaption>Styrene\/acrylonitrile-rich/);
+    assert.equal((html.match(/class="polymer-card__component"/g) || []).length, 2);
+  }
+  assert.match(abs, /abs-butadiene-rich-local-segment\.svg/);
+  assert.match(abs, /<figcaption>Butadiene-rich rubber segment<\/figcaption>/);
+  assert.doesNotMatch(abs, /asa-n-butyl-acrylate-local-segment\.svg/);
+  assert.match(asa, /asa-n-butyl-acrylate-local-segment\.svg/);
+  assert.match(asa, /<figcaption>Representative acrylic-rubber segment<\/figcaption>/);
+  assert.doesNotMatch(asa, /abs-butadiene-rich-local-segment\.svg/);
+});
+
+test('overview structure lead and citations survive when morphology is empty', () => {
+  const polymer = structuredClone(snapshot.polymers.find(({ wopId }) => wopId === 'wop-000033'));
+  polymer.sections.structureAndMorphology = '';
+  const html = renderArticle(polymer, snapshot);
+  const passage = html.match(/<div class="overview-structure__passage" id="properties">([\s\S]*?)<\/div>/)?.[1];
+  assert.ok(passage);
+  assert.match(passage, /<strong>Thermal and other properties\.<\/strong> /);
+  assert.match(passage, /class="citation-ref"/);
+});
+
 async function listFiles(directory, prefix = '') {
   const files = [];
   for (const entry of await fs.readdir(directory, { withFileTypes: true })) {
@@ -85,11 +115,13 @@ test('the static build emits canonical pages, unique aliases, local search, data
   assert.doesNotMatch(home, /primary browsing class|Primary class|browsing classes/i);
   assert.doesNotMatch(home, /Source Backed Draft|Content maturity|<span>Confidence<\/span>|<dt>Review flags<\/dt>/);
   assert.doesNotMatch(home, /polymer-card__tags/);
+  assert.match(home, /<figcaption class="visually-hidden">[^<]+<\/figcaption>/);
+  assert.doesNotMatch(home, /<figcaption>(?:Structural depiction|1 of \d+ depictions)/);
   assert.match(polyethylene, /id="structural-depictions"/);
   assert.match(polyethylene, /structure-card__image/);
   assert.match(polyethylene, /loading="eager"/);
   assert.match(polyethylene, /<img src="\.\.\/\.\.\/assets\/structures\/[^"]+\.svg" width="\d+" height="\d+" loading="eager" decoding="async" alt="[^"]+">/);
-  assert.match(polyethylene, /Download V3000 molfile/);
+  assert.doesNotMatch(polyethylene, /Download V3000 molfile|Figure notes and downloads/);
   assert.match(polyethylene, /Definition and classification/);
   assert.match(polyethylene, /data-article-tablist/);
   assert.doesNotMatch(polyethylene, /role="tablist"/);
@@ -99,7 +131,8 @@ test('the static build emits canonical pages, unique aliases, local search, data
   assert.equal((polyethylene.match(/id="feedstocksAndSynthesis"/g) || []).length, 1);
   assert.equal((polyethylene.match(/id="mechanicalProperties"/g) || []).length, 1);
   assert.ok(polyethylene.indexOf('id="overview"') < polyethylene.indexOf('id="nomenclature"'));
-  assert.ok(polyethylene.indexOf('id="structural-depictions"') < polyethylene.indexOf('id="overview"'));
+  assert.ok(polyethylene.indexOf('id="overview"') < polyethylene.indexOf('id="structural-depictions"'));
+  assert.ok(polyethylene.indexOf('id="structural-depictions"') < polyethylene.indexOf('id="feedstocksAndSynthesis"'));
   assert.ok(polyethylene.indexOf('id="nomenclature"') < polyethylene.indexOf('id="feedstocksAndSynthesis"'));
   assert.ok(polyethylene.indexOf('id="structureAndMorphology"') < polyethylene.indexOf('id="feedstocksAndSynthesis"'));
   assert.match(polyethylene, /assets\/article\.js/);
@@ -107,12 +140,11 @@ test('the static build emits canonical pages, unique aliases, local search, data
   assert.match(polyethylene, /hdpe-elastoviscoplastic-tensile-rate-model-2012/);
   assert.doesNotMatch(polyethylene, /No article sources yet/);
   assert.match(abs, /<article class="article-shell article-shell--tabbed article-profile" data-article-profile>/);
-  assert.match(abs, /<header class="article-profile__hero article-profile__hero--pair">/);
+  assert.match(abs, /<header class="article-profile__hero">/);
   assert.doesNotMatch(abs, /class="canonical-definition" id="overview"/);
   assert.doesNotMatch(abs, /contextual-structure-preview/);
-  assert.match(abs, /class="structure-showcase structure-showcase--hero(?:\s|\")/);
-  const absHeroFigures = abs.slice(abs.indexOf('<header class="article-profile__hero'), abs.indexOf('</header>', abs.indexOf('<header class="article-profile__hero')));
-  assert.match(absHeroFigures, /Waves across bond ends mark connections to omitted portions/);
+  assert.match(abs, /class="structure-showcase structure-showcase--overview(?:\s|\")/);
+  const absHeroFigures = abs.slice(abs.indexOf('id="structural-depictions"'), abs.indexOf('<section class="overview-group'));
   assert.match(abs, /Short waves across bond ends mark connections to omitted portions; they are not wavy stereobonds/);
   assert.equal((absHeroFigures.match(/structure-card structure-card--compact/g) || []).length, 2);
   assert.match(abs, /aria-label="Structural depiction gallery with 2 items; scroll horizontally to view each item"/);
@@ -122,9 +154,7 @@ test('the static build emits canonical pages, unique aliases, local search, data
   assert.match(abs, /data-structure-gallery-controls/);
   assert.match(abs, /data-structure-gallery-previous/);
   assert.match(abs, /data-structure-gallery-next/);
-  assert.match(abs, /id="structural-depiction-notes"/);
-  assert.match(abs, /<details class="structural-details" id="structural-depiction-notes"><summary>/);
-  assert.doesNotMatch(abs, /<details class="structural-details"[^>]* open/);
+  assert.doesNotMatch(abs, /id="structural-depiction-notes"|Figure notes and downloads|Download V3000 molfile/);
   assert.match(abs, /Schematic unbracketed SAN-matrix segment/);
   assert.match(abs, /A crossed double bond means that E\/Z geometry is intentionally unspecified/);
   assert.match(abs, /<nav class="article-profile__tab-grid article-tabs__list" aria-label="Polymer article sections" data-article-tablist>/);
@@ -138,11 +168,11 @@ test('the static build emits canonical pages, unique aliases, local search, data
   }
   assert.match(abs, /<dt>Class<\/dt><dd>Commodity thermoplastics<\/dd>/);
   const absHero = abs.slice(abs.indexOf('<header class="article-profile__hero'), abs.indexOf('data-article-tablist'));
-  assert.match(absHero, /<h2 id="structural-depictions-title">Structure<\/h2>/);
+  assert.doesNotMatch(absHero, /id="structural-depictions"/);
+  assert.match(abs, /<h3 id="structural-depictions-title">Structure<\/h3>/);
   assert.doesNotMatch(absHero, />Chemical structure<\/h2>|Structural depiction<\/h2>|Depiction metadata|Component Set depiction|structure-showcase__badges|structure-showcase__evidence|>Reviewed<|>Schematic<|>Representative<|<div class="article-tags">/);
   assert.doesNotMatch(abs, /Primary browsing class|Content maturity|<dt>Confidence<\/dt>|<dt>Review flags<\/dt>/);
-  assert.match(absHero, /class="article-maturity"><span class="status-chip">Source Backed Draft<\/span><a href="#research-progress">Evidence and review status<\/a>/);
-  assert.match(abs, /id="research-progress"><summary>Evidence and review history<\/summary>/);
+  assert.doesNotMatch(abs, /article-maturity|research-progress|Evidence and review history|No recorded section review|structured measurement records/);
   assert.match(abs, /class="reference-document__citation" href="https:\/\/pubs\.rsc\.org\/en\/content\/articlelanding\/2024\/lp\/d4lp00238e"/);
   assert.match(abs, /class="reference-document__full-text" href="https:\/\/backoffice\.biblio\.ugent\.be\/download\/01JJKQP3EHHYEYTTR4D2K7FHNX\/01JKASZ885V5C54GSPYNK4RXK4"/);
   const absRecord = snapshot.polymers.find(({ wopId }) => wopId === 'wop-000033');
@@ -171,10 +201,18 @@ test('the static build emits canonical pages, unique aliases, local search, data
   assert.equal((abs.match(/class="overview-group overview-group--(?:definition|structure|use)"/g) || []).length, absRecord.sections.healthSafetyAndRegulation.trim() ? 3 : 2);
   assert.match(abs, /<section class="overview-group overview-group--definition"><h3>Definition and classification<\/h3>/);
   assert.match(abs, /<section class="overview-group overview-group--structure"><h3>Structure, properties, and variability<\/h3>/);
+  const structureGroup = abs.slice(abs.indexOf('<section class="overview-group overview-group--structure">'), abs.indexOf('<section class="overview-group overview-group--use">'));
+  assert.match(structureGroup, /<strong>Structure and morphology\.<\/strong> /);
+  assert.match(structureGroup, /<strong>Thermal and other properties\.<\/strong> /);
+  assert.match(structureGroup, /<strong>Limitations and variability\.<\/strong> /);
+  assert.doesNotMatch(structureGroup, /<h4>|class="section-sources"/);
+  for (const key of ['structureAndMorphology', 'properties', 'limitationsAndVariability']) {
+    assert.match(structureGroup, new RegExp(`id="${key}"[\\s\\S]*?class="citation-ref"`));
+  }
   if (absRecord.sections.healthSafetyAndRegulation.trim()) assert.match(abs, /<section class="overview-group overview-group--use"><h3>Health and safety<\/h3>/);
   assert.doesNotMatch(abs, /class="overview-group overview-group--gaps coverage-gaps"/);
   assert.ok(abs.indexOf('<header class="article-profile__hero') < abs.indexOf('id="structural-depictions"'));
-  assert.ok(abs.indexOf('id="structural-depictions"') < abs.indexOf('data-article-tablist'));
+  assert.ok(abs.indexOf('data-article-tablist') < abs.indexOf('id="structural-depictions"'));
   assert.ok(abs.indexOf('data-article-tablist') < abs.indexOf('class="article-profile__surface"'));
   assert.ok(abs.indexOf('class="article-profile__surface"') < abs.indexOf('id="overview"'));
   assert.equal((abs.match(/class="article-profile__surface"/g) || []).length, 1);
@@ -185,16 +223,13 @@ test('the static build emits canonical pages, unique aliases, local search, data
     assert.ok(abs.indexOf(`id="${id}"`) < abs.indexOf('id="references"'));
   }
   assert.ok(abs.indexOf('id="references"') < abs.indexOf('id="sources"'));
-  assert.ok(abs.indexOf('id="structureAndMorphology"') < abs.indexOf('id="structural-depiction-notes"'));
-  assert.ok(abs.indexOf('id="structural-depiction-notes"') < abs.indexOf('id="properties"'));
+  assert.ok(abs.indexOf('id="structural-depictions"') < abs.indexOf('id="structureAndMorphology"'));
   for (const [page, id] of [[hdpe, 'wop-000005'], [pa6, 'wop-000053']]) {
-    assert.match(page, new RegExp(id, 'i'));
+    assert.ok(snapshot.polymers.some(({ wopId }) => wopId === id));
     assert.match(page, /<dt>Class<\/dt><dd>[^<]+<\/dd>/);
     assert.doesNotMatch(page, /<div class="article-tags">/);
     assert.doesNotMatch(page, /Primary browsing class|Content maturity|<span>Confidence<\/span>|<dt>Review flags<\/dt>/);
-    const maturityLabel = snapshot.polymers.find(({ wopId }) => wopId === id).maturity.contentMaturity
-      .replaceAll('_', ' ').replace(/\b\w/g, (letter) => letter.toUpperCase());
-    assert.ok(page.includes(`<p class="article-maturity"><span class="status-chip">${maturityLabel}</span>`));
+    assert.doesNotMatch(page, /article-maturity|research-progress|No recorded section review|structured measurement records/);
     assert.equal((page.match(/ data-article-panel(?=[ >])/g) || []).length, 8);
     assert.match(page, /section-sources/);
     assert.doesNotMatch(page, /This stub does not yet publish|Open-source research stub for/);
@@ -264,7 +299,10 @@ test('the static build emits canonical pages, unique aliases, local search, data
   assert.match(style, /@media \(max-width: 900px\)[\s\S]*\.article-nav--tabbed \{ display: none; \}/);
   assert.match(style, /@media \(max-width: 600px\)[\s\S]*\.article-tabs__list \{[^}]*grid-auto-flow: column;[^}]*grid-auto-columns: minmax\(138px, 1fr\);/);
   assert.match(articleStyle, /@media \(max-width: 600px\)[\s\S]*\.article-profile__tab-grid \{[^}]*overflow-x: auto;/);
-  assert.match(catalogStyle, /@media \(max-width: 600px\)[\s\S]*\.polymer-grid \{ grid-template-columns: minmax\(0, 1fr\); \}/);
+  assert.match(catalogStyle, /\.polymer-grid \{[^}]*grid-template-columns: repeat\(auto-fit, minmax\(min\(100%, 24rem\), 1fr\)\)/);
+  assert.match(catalogStyle, /\.polymer-card:focus-within \{[^}]*transform: scale\(1\.08\)/);
+  assert.match(catalogStyle, /@media \(hover: hover\)[\s\S]*\.polymer-card:hover \{[^}]*transform: scale\(1\.08\)/);
+  assert.doesNotMatch(catalogStyle, /\.polymer-card:hover \.polymer-card__structure/);
   assert.match(style, /@media \(max-width: 720px\)[\s\S]*\.article-profile__hero \{[^}]*grid-template-areas: "identity" "structure";/);
   assert.doesNotMatch(style, /\.wordmark small, \.site-nav \{ display: none; \}/);
   assert.match(style, /@media print[\s\S]*\.article-tab-panel\[hidden\] \{ display: block !important; \}/);
@@ -275,7 +313,7 @@ test('the static build emits canonical pages, unique aliases, local search, data
   assert.match(style, /@media print[\s\S]*\.structure-card \{ break-inside: avoid; \}/);
   const withoutJavaScript = polyethylene.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '');
   assert.match(withoutJavaScript, /id="structural-depictions"/);
-  assert.match(withoutJavaScript, /<figure class="structure-card">/);
+  assert.match(withoutJavaScript, /<figure class="structure-card structure-card--compact">/);
   assert.match(withoutJavaScript, /class="structure-showcase__scope(?: |")/);
   const tabbedWithoutJavaScript = abs.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '');
   assert.equal((tabbedWithoutJavaScript.match(/ data-article-panel(?=[ >])/g) || []).length, 8);
@@ -309,23 +347,16 @@ test('the static build emits canonical pages, unique aliases, local search, data
       path.join(output, 'polymers', polymer.canonicalSlug, 'index.html'),
       'utf8'
     );
-    if (isArticleProfilePilot(polymer)) {
-      const tabsPosition = article.indexOf('data-article-tablist');
-      const structurePosition = article.indexOf('id="structural-depictions"');
-      assert.ok(structurePosition < tabsPosition, `${polymer.wopId} structural depiction must be incorporated into the profile header`);
-      assert.ok(tabsPosition < article.indexOf('id="overview"'), `${polymer.wopId} tabs must sit directly before the shared article surface`);
-    } else {
-      assert.ok(
-        article.indexOf('id="structural-depictions"') < article.indexOf('id="overview"'),
-        `${polymer.wopId} structural showcase must precede article content`
-      );
-    }
+    const tabsPosition = article.indexOf('data-article-tablist');
+    const overviewPosition = article.indexOf('id="overview"');
+    const structurePosition = article.indexOf('id="structural-depictions"');
+    assert.ok(tabsPosition < overviewPosition && overviewPosition < structurePosition, `${polymer.wopId} must place its structure in Overview after the tabs`);
+    assert.ok(structurePosition < article.indexOf('id="feedstocksAndSynthesis"'), `${polymer.wopId} structure must remain in Overview`);
+    assert.doesNotMatch(article, /Figure notes and downloads|Download V3000 molfile|No recorded section review|structured measurement records/, `${polymer.wopId} must not expose internal status or downloads`);
     assert.ok(items.length > 0, `${polymer.wopId} ${polymer.canonicalName} must publish a hero or contextual structure item`);
     for (const { structureId } of items) {
       const svgReference = `../../assets/structures/${structureId}.svg`;
-      const molReference = `../../assets/structures/${structureId}.mol`;
       assert.ok(article.includes(svgReference), `${polymer.wopId} article must embed ${structureId}.svg`);
-      assert.ok(article.includes(molReference), `${polymer.wopId} article must link ${structureId}.mol`);
       assert.match(
         await fs.readFile(path.join(output, 'assets', 'structures', `${structureId}.svg`), 'utf8'),
         /^<svg\b/,
@@ -347,15 +378,7 @@ test('the static build emits canonical pages, unique aliases, local search, data
     );
     assert.match(article, /article-shell--tabbed article-profile/, `${polymer.wopId} must use the reusable article profile`);
     assert.match(article, /data-article-profile/, `${polymer.wopId} must expose the profile interaction boundary`);
-    const structuralItemCount = polymer.structuralDepictions.items.length;
-    const expectedHeroVariant = polymer.structuralDepictions.representationType === 'no_unique_repeat' || structuralItemCount === 0
-      ? 'boundary'
-      : structuralItemCount === 1
-        ? 'single'
-        : structuralItemCount === 2
-          ? 'pair'
-          : 'gallery';
-    assert.match(article, new RegExp(`<header class="article-profile__hero article-profile__hero--${expectedHeroVariant}">`), `${polymer.wopId} must expose its structural hero modifier`);
+    assert.match(article, /<header class="article-profile__hero">/, `${polymer.wopId} must use the compact profile header`);
     assert.equal((article.match(/ data-article-tab(?=[ >])/g) || []).length, 8, `${polymer.wopId} must have eight article tabs`);
     assert.equal((article.match(/ data-article-panel(?=[ >])/g) || []).length, 8, `${polymer.wopId} must have eight article panels`);
     assert.equal((article.match(/id="overview"/g) || []).length, 1, `${polymer.wopId} must render its canonical definition once`);
@@ -364,10 +387,9 @@ test('the static build emits canonical pages, unique aliases, local search, data
     const profileHero = article.slice(article.indexOf('<header class="article-profile__hero'), article.indexOf('data-article-tablist'));
     assert.doesNotMatch(profileHero, />Chemical structure<\/h2>|Structural depiction<\/h2>|Depiction metadata|structure-showcase__badges|structure-showcase__evidence|<div class="article-tags">/, `${polymer.wopId} must keep the profile summary free of redundant or internal structure labels`);
     assert.match(article, /id="references"[^>]*data-article-panel/, `${polymer.wopId} must consolidate citations in References`);
-    assert.match(article, /id="structural-depiction-notes"/, `${polymer.wopId} must provide a target for the hero scope link`);
-    const structureNotes = article.slice(article.indexOf('id="structural-depiction-notes"'), article.indexOf('id="properties"'));
+    const structure = article.slice(article.indexOf('id="structural-depictions"'), article.indexOf('<section class="overview-group'));
     for (const sourceId of polymer.structuralDepictions.sourceIds) {
-      assert.ok(structureNotes.includes(`href="#source-${sourceId}"`), `${polymer.wopId} must retain structure source ${sourceId} with its detailed notes`);
+      assert.ok(structure.includes(`href="#source-${sourceId}"`), `${polymer.wopId} must retain structure source ${sourceId}`);
     }
     for (const source of polymer.sources) {
       assert.ok(article.includes(`id="source-${source.sourceId}"`), `${polymer.wopId} must retain source ${source.sourceId}`);
@@ -548,9 +570,8 @@ test('Degradation keeps both evidence sections in one tab and shows explicit gap
   copy.polymers[0].sections.degradationAndStability = 'Previously authored prose remains readable.';
   const legacySection = renderArticle(copy.polymers[0], copy).match(/id="degradationAndStability"[^>]*>([\s\S]*?)<\/section>/)?.[1];
   assert.ok(legacySection);
-  assert.match(legacySection, /^<h3>Degradation and stability<\/h3><div class="section-status"/);
-  assert.match(legacySection, /<span>Populated<\/span>/);
-  assert.match(legacySection, /Section evidence status/);
+  assert.match(legacySection, /^<h3>Degradation and stability<\/h3>/);
+  assert.doesNotMatch(legacySection, /section-status|Populated|Section evidence status/);
   assert.match(legacySection, /<p>Previously authored prose remains readable\.<\/p>/);
 });
 
