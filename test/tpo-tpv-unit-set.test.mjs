@@ -8,7 +8,9 @@ test('TPO and TPV distinguish the PP phase from open rubber constituents', async
   for (const id of ['wop-000171', 'wop-000172']) {
     const entry = snapshot.polymers.find(item => item.wopId === id);
     const ids = entry.structuralDepictions.items.map(item => item.structureId);
-    assert.deepEqual(ids, ['polypropylene-unspecified-sru', 'epm-open-ethylene-unit', 'fluoro-open-propylene-unit']);
+    const expected = ['polypropylene-unspecified-sru', 'epm-open-ethylene-unit', 'fluoro-open-propylene-unit'];
+    if (id === 'wop-000172') expected.push('epdm-enb-open-local-unit');
+    assert.deepEqual(ids, expected);
     assert.deepEqual(entry.synthesisRoutes[0].products.map(item => item.structureId), ids);
     for (const sid of ids.slice(1)) {
       const definition = snapshot.chemicalStructures.find(item => item.structureId === sid);
@@ -16,7 +18,7 @@ test('TPO and TPV distinguish the PP phase from open rubber constituents', async
     }
   }
   const tpv = snapshot.polymers.find(item => item.wopId === 'wop-000172');
-  assert.match(tpv.structuralDepictions.scopeNote, /diene-derived cure-site unit is not depicted/i);
+  assert.match(tpv.structuralDepictions.scopeNote, /not a guaranteed residual double bond after vulcanization/i);
   assert.match(tpv.synthesisRoutes[0].steps[0].body, /before adding polypropylene/i);
   assert.match(tpv.synthesisRoutes[0].steps[1].body, /add polypropylene/i);
   assert.ok(!tpv.synthesisRoutes[0].sourceIds.includes('tpv-sulfur-dynamic-network-innes-2022'));

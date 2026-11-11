@@ -1210,6 +1210,10 @@
     {
       "structureId": "fvmq-open-trifluoropropylmethyl-unit",
       "molfileV3000": "\n  -INDIGO-11102623332D\n\n  0  0  0  0  0  0  0  0  0  0  0 V3000\nM  V30 BEGIN CTAB\nM  V30 COUNTS 11 10 0 0 0\nM  V30 BEGIN ATOM\nM  V30 1 * 19.1839 -9.76308 0.0 0\nM  V30 2 O 20.0499 -9.26308 0.0 0\nM  V30 3 Si 21.4659 -9.76308 0.0 0\nM  V30 4 C 21.0832 -10.6869 0.0 0\nM  V30 5 C 22.3319 -9.26308 0.0 0\nM  V30 6 C 23.198 -9.76308 0.0 0\nM  V30 7 C 24.064 -9.26308 0.0 0\nM  V30 8 F 24.064 -8.26306 0.0 0\nM  V30 9 F 24.93 -9.76308 0.0 0\nM  V30 10 F 24.93 -8.76307 0.0 0\nM  V30 11 * 21.8486 -10.6869 0.0 0\nM  V30 END ATOM\nM  V30 BEGIN BOND\nM  V30 1 1 1 2\nM  V30 2 1 2 3\nM  V30 3 1 3 4\nM  V30 4 1 3 5\nM  V30 5 1 5 6\nM  V30 6 1 6 7\nM  V30 7 1 7 8\nM  V30 8 1 7 9\nM  V30 9 1 7 10\nM  V30 10 1 3 11\nM  V30 END BOND\nM  V30 END CTAB\nM  END\n"
+    },
+    {
+      "structureId": "epdm-enb-open-local-unit",
+      "molfileV3000": "ENB-derived open local segment\n     RDKit          2D\n\n  0  0  0  0  0  0  0  0  0  0999 V3000\nM  V30 BEGIN CTAB\nM  V30 COUNTS 11 12 0 0 0\nM  V30 BEGIN ATOM\nM  V30 1 * -1.631678 -0.000000 0.000000 0\nM  V30 2 C -0.750000 1.213525 0.000000 0\nM  V30 3 C -1.213525 2.640110 0.000000 0\nM  V30 4 C -0.750000 4.066695 0.000000 0\nM  V30 5 C 0.750000 4.066695 0.000000 0\nM  V30 6 C 1.631678 5.280221 0.000000 0\nM  V30 7 C 3.123461 5.123428 0.000000 0\nM  V30 8 C 1.213525 2.640110 0.000000 0\nM  V30 9 C -0.000000 1.758432 0.000000 0\nM  V30 10 C 0.750000 1.213525 0.000000 0\nM  V30 11 * 1.631678 0.000000 0.000000 0\nM  V30 END ATOM\nM  V30 BEGIN BOND\nM  V30 1 1 1 2\nM  V30 2 1 2 3\nM  V30 3 1 3 4\nM  V30 4 1 4 5\nM  V30 5 2 5 6 CFG=2\nM  V30 6 1 6 7\nM  V30 7 1 5 8\nM  V30 8 1 8 9\nM  V30 9 1 8 10\nM  V30 10 1 10 11\nM  V30 11 1 10 2\nM  V30 12 1 9 3\nM  V30 END BOND\nM  V30 END CTAB\nM  END\n"
     }
   ],
   "polymers": [
@@ -69595,7 +69599,7 @@
       "structuralDepictions": {
         "reviewStatus": "reviewed",
         "representationType": "copolymer_unit_set",
-        "scopeNote": "The separate open ethylene- and propylene-derived motifs illustrate two constituent types; adjacency, sequence, composition, propylene tacticity, chain ends and cure state are unspecified. EPDM also contains a diene-derived cure site, which is not depicted here; diene identity varies.",
+        "scopeNote": "The separate open ethylene-, propylene- and representative 5-ethylidene-2-norbornene (ENB)-derived motifs illustrate constituent types in an EPDM example. The ENB motif shows a residual double bond that can participate in curing; other diene identities occur. Adjacency, sequence, composition, tacticity, chain ends and cure state are unspecified.",
         "sourceIds": [
           "de-roo-epdm-enb-structure-2021"
         ],
@@ -69613,6 +69617,13 @@
             "fidelity": "representative",
             "altText": "Open saturated propylene-derived chain segment with methyl branch.",
             "caption": "Propylene-derived local unit; sequence, abundance and stereochemistry are unspecified."
+          },
+          {
+            "structureId": "epdm-enb-open-local-unit",
+            "label": "Representative ENB-derived diene unit",
+            "fidelity": "representative",
+            "altText": "Open ethylidene norbornene-derived bicyclic unit with an exocyclic carbon–carbon double bond of unspecified geometry.",
+            "caption": "Illustrative uncrosslinked 5-ethylidene-2-norbornene-derived local unit. The crossed exocyclic double bond leaves its E/Z geometry unspecified; stereochemistry, abundance and sequence are not fixed."
           }
         ]
       },
@@ -78911,11 +78922,13 @@
           "locator": "Figure 1 and adjacent text: EPDM is drawn with ethylene-, propylene-, and ENB-derived constituents; polymerization consumes the endocyclic ENB double bond while retaining exocyclic ethylidene unsaturation.",
           "accessedDate": "2026-08-31",
           "accessStatus": "anonymous_full_content",
-          "reuseStatus": "publicly_accessible_citation_only",
-          "permissionBasis": "The complete source is anonymously readable; this record stores only a citation and a precise locator.",
+          "reuseStatus": "open_licensed",
+          "permissionBasis": "Anonymously readable article declares CC BY-NC 3.0. Molecular facts independently encoded; source figures are not reused.",
           "supports": [
             "structuralDepictions"
-          ]
+          ],
+          "contentUrl": "https://pure.rug.nl/ws/portalfiles/portal/195699205/d1ra06222k.pdf",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc/3.0/"
         },
         {
           "lineageId": "eneos-tpv",
@@ -79054,7 +79067,7 @@
       "structuralDepictions": {
         "reviewStatus": "reviewed",
         "representationType": "component_set",
-        "scopeNote": "The separate cards illustrate polypropylene and ethylene- and propylene-derived local units of an EPDM rubber phase in a TPV example. The diene-derived cure-site unit is not depicted. The set does not assign adjacency, sequence, phase ratio, cure chemistry, crosslink topology, oil, filler or morphology.",
+        "scopeNote": "The separate cards illustrate polypropylene and ethylene-, propylene- and representative 5-ethylidene-2-norbornene (ENB)-derived local units of an EPDM rubber phase in a TPV example. The uncrosslinked ENB motif shows a potential cure site, not a guaranteed residual double bond after vulcanization. The set does not assign adjacency, sequence, phase ratio, cure chemistry, crosslink topology, oil, filler or morphology.",
         "sourceIds": [
           "tpv-dynamic-vulcanization-chemistry-lehel-2020",
           "de-roo-epdm-enb-structure-2021",
@@ -79082,6 +79095,13 @@
             "fidelity": "representative",
             "altText": "Open saturated propylene-derived chain unit with a methyl side group.",
             "caption": "One local constituent type in an ethylene–propylene rubber; stereochemistry, sequence and fraction are unspecified."
+          },
+          {
+            "structureId": "epdm-enb-open-local-unit",
+            "label": "Representative ENB-derived diene unit",
+            "fidelity": "representative",
+            "altText": "Open ethylidene norbornene-derived bicyclic unit with an exocyclic carbon–carbon double bond of unspecified geometry.",
+            "caption": "Illustrative uncrosslinked 5-ethylidene-2-norbornene-derived local unit. The crossed exocyclic double bond leaves its E/Z geometry unspecified; stereochemistry, abundance and sequence are not fixed."
           }
         ]
       },
@@ -79118,10 +79138,14 @@
             {
               "label": "Propylene-derived elastomer local unit",
               "structureId": "fluoro-open-propylene-unit"
+            },
+            {
+              "label": "Illustrative uncrosslinked ENB-derived rubber unit",
+              "structureId": "epdm-enb-open-local-unit"
             }
           ],
           "productMode": "structural_reference",
-          "productNote": "Separate polypropylene and EPDM ethylene/propylene constituent examples are structural references; the EPDM diene-derived cure-site unit is not depicted. The figures do not assign adjacency, sample composition or the cured network.",
+          "productNote": "The separate polypropylene and EPDM local units are structural references. The ENB-derived example depicts a potential cure site before reaction; it does not establish the fraction remaining after vulcanization. The figures do not assign adjacency, sample composition or the cured network.",
           "reagents": [
             {
               "name": "Dicumyl peroxide",

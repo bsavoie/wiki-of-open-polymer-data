@@ -43,7 +43,7 @@ test('homepage presents the catalog without a public research queue', () => {
   const html = renderHome(local);
   assert.doesNotMatch(html, /id="research-queue"|data-research-question|Research queue/);
   assert.match(html, /data-catalog-expand/);
-  assert.match(html, /WOPD/);
+  assert.match(html, /aria-label="Wiki of Open Polymer Data home"/);
   assert.doesNotMatch(html, /Completeness before perfection/);
 });
 
