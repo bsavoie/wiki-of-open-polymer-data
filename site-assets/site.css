@@ -189,10 +189,14 @@ main { min-height: 70vh; }
 .research-request-form button { justify-self: start; }
 .evidence-summary { margin: 1.25rem 0 2rem; }
 .evidence-summary > p { font-size: 0.9rem; color: var(--ink-soft); }
-.evidence-table-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 0.4rem; }
-.evidence-table { width: 100%; min-width: 740px; border-collapse: collapse; font-size: 0.85rem; line-height: 1.5; }
+.evidence-table-scroll { min-width: 0; max-width: 100%; overflow-x: auto; overscroll-behavior-inline: contain; border: 1px solid var(--line); border-radius: 0.4rem; }
+.evidence-table { width: 100%; min-width: 68rem; table-layout: fixed; border-collapse: collapse; font-size: 0.85rem; line-height: 1.5; }
+.evidence-table thead th:nth-child(1) { width: 16%; }
+.evidence-table thead th:nth-child(2) { width: 10%; }
+.evidence-table thead th:nth-child(3) { width: 24%; }
+.evidence-table thead th:nth-child(4), .evidence-table thead th:nth-child(5) { width: 25%; }
 .evidence-table caption { text-align: left; padding: 0.75rem; font-weight: 700; }
-.evidence-table th, .evidence-table td { text-align: left; vertical-align: top; padding: 0.75rem; border-top: 1px solid var(--line); overflow-wrap: anywhere; }
+.evidence-table th, .evidence-table td { text-align: left; vertical-align: top; padding: 0.75rem; border-top: 1px solid var(--line); overflow-wrap: break-word; }
 .evidence-table thead, .evidence-table tbody th { background: var(--surface); }
 .evidence-table small { display: block; margin-top: 0.4rem; color: var(--ink-soft); font-weight: 400; }
 .eyebrow { color: var(--blue); font-size: 0.75rem; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; }
