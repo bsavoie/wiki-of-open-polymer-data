@@ -37,6 +37,8 @@ const INTENTIONAL_CROSSED_DOUBLE_IDS = [
   'bromobutyl-endo-local-segment',
   'butyl-rubber-isoprene-site-local-segment',
   'chlorobutyl-endo-local-segment',
+  'epdm-11-ethyl-tridecadiene-feedstock',
+  'epdm-11-ethyl-tridecadiene-open-unit',
   'epdm-enb-open-local-unit',
   'ethylene-maleate-polyester-motif',
   'polybutadiene-1-4-sru',

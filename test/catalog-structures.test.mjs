@@ -26,6 +26,19 @@ test('catalog retains every reviewed multi-item structure and its scientific sco
   }
 });
 
+test('every catalog card has a visible description and a qualified illustration', () => {
+  for (const polymer of snapshot.polymers) {
+    const rendered = card(polymer.wopId);
+    assert.ok(rendered.includes(escapeHtml(polymer.structuralDepictions.scopeNote)), `${polymer.wopId}: missing visible scope`);
+    assert.match(rendered, /<figure class="polymer-card__component">/);
+    assert.match(rendered, /<figcaption>[^<]+<\/figcaption>/);
+    assert.match(rendered, /class="polymer-card__component-notation"/);
+    if (polymer.structuralDepictions.representationType === 'no_unique_repeat') {
+      assert.match(rendered, /(?:Synthesis|Processing) example; not a complete polymer structure/);
+    }
+  }
+});
+
 test('catalog labels distinguish copolymer units, family alternatives and local modifications', () => {
   for (const id of ['wop-000138', 'wop-000142']) assert.match(card(id), /Illustrative local units/);
   assert.match(card('wop-000137'), /Representative structures/);

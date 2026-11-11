@@ -1214,6 +1214,14 @@
     {
       "structureId": "epdm-enb-open-local-unit",
       "molfileV3000": "ENB-derived open local segment\n     RDKit          2D\n\n  0  0  0  0  0  0  0  0  0  0999 V3000\nM  V30 BEGIN CTAB\nM  V30 COUNTS 11 12 0 0 0\nM  V30 BEGIN ATOM\nM  V30 1 * -1.631678 -0.000000 0.000000 0\nM  V30 2 C -0.750000 1.213525 0.000000 0\nM  V30 3 C -1.213525 2.640110 0.000000 0\nM  V30 4 C -0.750000 4.066695 0.000000 0\nM  V30 5 C 0.750000 4.066695 0.000000 0\nM  V30 6 C 1.631678 5.280221 0.000000 0\nM  V30 7 C 3.123461 5.123428 0.000000 0\nM  V30 8 C 1.213525 2.640110 0.000000 0\nM  V30 9 C -0.000000 1.758432 0.000000 0\nM  V30 10 C 0.750000 1.213525 0.000000 0\nM  V30 11 * 1.631678 0.000000 0.000000 0\nM  V30 END ATOM\nM  V30 BEGIN BOND\nM  V30 1 1 1 2\nM  V30 2 1 2 3\nM  V30 3 1 3 4\nM  V30 4 1 4 5\nM  V30 5 2 5 6 CFG=2\nM  V30 6 1 6 7\nM  V30 7 1 5 8\nM  V30 8 1 8 9\nM  V30 9 1 8 10\nM  V30 10 1 10 11\nM  V30 11 1 10 2\nM  V30 12 1 9 3\nM  V30 END BOND\nM  V30 END CTAB\nM  END\n"
+    },
+    {
+      "structureId": "epdm-11-ethyl-tridecadiene-feedstock",
+      "molfileV3000": "\n     RDKit          2D\n\n  0  0  0  0  0  0  0  0  0  0999 V3000\nM  V30 BEGIN CTAB\nM  V30 COUNTS 15 14 0 0 0\nM  V30 BEGIN ATOM\nM  V30 1 C 15.556800 -11.887500 0.000000 0\nM  V30 2 C 15.556800 -10.887500 0.000000 0\nM  V30 3 C 16.422800 -10.387500 0.000000 0\nM  V30 4 C 16.422800 -9.387500 0.000000 0\nM  V30 5 C 15.556800 -8.887500 0.000000 0\nM  V30 6 C 17.288800 -10.887500 0.000000 0\nM  V30 7 C 18.154800 -10.387500 0.000000 0\nM  V30 8 C 19.020900 -10.887500 0.000000 0\nM  V30 9 C 19.886900 -10.387500 0.000000 0\nM  V30 10 C 20.752900 -10.887500 0.000000 0\nM  V30 11 C 21.618900 -10.387500 0.000000 0\nM  V30 12 C 22.485000 -10.887500 0.000000 0\nM  V30 13 C 23.351000 -10.387500 0.000000 0\nM  V30 14 C 24.217000 -10.887500 0.000000 0\nM  V30 15 C 25.083100 -10.387500 0.000000 0\nM  V30 END ATOM\nM  V30 BEGIN BOND\nM  V30 1 1 1 2\nM  V30 2 1 2 3\nM  V30 3 2 3 4 CFG=2\nM  V30 4 1 4 5\nM  V30 5 1 3 6\nM  V30 6 1 6 7\nM  V30 7 1 7 8\nM  V30 8 1 8 9\nM  V30 9 1 9 10\nM  V30 10 1 10 11\nM  V30 11 1 11 12\nM  V30 12 1 12 13\nM  V30 13 1 13 14\nM  V30 14 2 14 15\nM  V30 END BOND\nM  V30 END CTAB\nM  END\n"
+    },
+    {
+      "structureId": "epdm-11-ethyl-tridecadiene-open-unit",
+      "molfileV3000": "\n     RDKit          2D\n\n  0  0  0  0  0  0  0  0  0  0999 V3000\nM  V30 BEGIN CTAB\nM  V30 COUNTS 17 16 0 0 0\nM  V30 BEGIN ATOM\nM  V30 1 C 15.556800 -11.887500 0.000000 0\nM  V30 2 C 15.556800 -10.887500 0.000000 0\nM  V30 3 C 16.422800 -10.387500 0.000000 0\nM  V30 4 C 16.422800 -9.387500 0.000000 0\nM  V30 5 C 15.556800 -8.887500 0.000000 0\nM  V30 6 C 17.288800 -10.887500 0.000000 0\nM  V30 7 C 18.154800 -10.387500 0.000000 0\nM  V30 8 C 19.020900 -10.887500 0.000000 0\nM  V30 9 C 19.886900 -10.387500 0.000000 0\nM  V30 10 C 20.752900 -10.887500 0.000000 0\nM  V30 11 C 21.618900 -10.387500 0.000000 0\nM  V30 12 C 22.485000 -10.887500 0.000000 0\nM  V30 13 C 23.351000 -10.387500 0.000000 0\nM  V30 14 C 24.217000 -10.887500 0.000000 0\nM  V30 15 C 25.083100 -10.387500 0.000000 0\nM  V30 16 * 24.217000 -11.887500 0.000000 0\nM  V30 17 * 25.949100 -10.887500 0.000000 0\nM  V30 END ATOM\nM  V30 BEGIN BOND\nM  V30 1 1 1 2\nM  V30 2 1 2 3\nM  V30 3 2 3 4 CFG=2\nM  V30 4 1 4 5\nM  V30 5 1 3 6\nM  V30 6 1 6 7\nM  V30 7 1 7 8\nM  V30 8 1 8 9\nM  V30 9 1 9 10\nM  V30 10 1 10 11\nM  V30 11 1 11 12\nM  V30 12 1 12 13\nM  V30 13 1 13 14\nM  V30 14 1 14 15\nM  V30 15 1 14 16\nM  V30 16 1 15 17\nM  V30 END BOND\nM  V30 END CTAB\nM  END\n"
     }
   ],
   "polymers": [
@@ -69584,6 +69592,38 @@
             "structureAndMorphology",
             "recyclingAndEndOfLife"
           ]
+        },
+        {
+          "sourceId": "epdm-ethyltridecadiene-pubchem-54001842",
+          "lineageId": "pubchem-ethyltridecadiene-cid54001842",
+          "sourceType": "public_dataset",
+          "citation": "PubChem, 11-Ethyltrideca-1,11-diene, CID 54001842, National Center for Biotechnology Information.",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/54001842",
+          "contentUrl": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/54001842/SDF?record_type=2d",
+          "locator": "2D structure record and compound identity: 15-carbon diene with a terminal alkene and a substituted internal alkene; internal alkene geometry is not assigned.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The public PubChem 2D connection table is used as a factual connectivity reference; the depiction is independently laid out.",
+          "supports": [
+            "structuralDepictions"
+          ]
+        },
+        {
+          "sourceId": "epdm-us3963802-diene-incorporation",
+          "lineageId": "dupont-us3963802-diene-incorporation",
+          "sourceType": "patent",
+          "citation": "Shih, K. S. Blend of ethylene copolymer elastomer and a copolyetherester elastomer. U.S. Patent 3,963,802 A (1976).",
+          "url": "https://patents.google.com/patent/US3963802A/en",
+          "locator": "Description, ETHYLENE COPOLYMER (A): open-chain diolefins with one terminal and one alkyl-shielded internal double bond; 11-ethyl-1,11-tridecadiene is named, and the internal bond is described as retained for sulfur vulcanization.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The published patent is publicly readable and its discussion is independently paraphrased.",
+          "supports": [
+            "structuralDepictions",
+            "feedstocksAndSynthesis"
+          ]
         }
       ],
       "maturity": {
@@ -69599,9 +69639,11 @@
       "structuralDepictions": {
         "reviewStatus": "reviewed",
         "representationType": "copolymer_unit_set",
-        "scopeNote": "The separate open ethylene-, propylene- and representative 5-ethylidene-2-norbornene (ENB)-derived motifs illustrate constituent types in an EPDM example. The ENB motif shows a residual double bond that can participate in curing; other diene identities occur. Adjacency, sequence, composition, tacticity, chain ends and cure state are unspecified.",
+        "scopeNote": "The separate open ethylene-, propylene- and diene-derived motifs illustrate constituent types in EPDM examples. ENB and 11-ethyl-1,11-tridecadiene illustrate different possible dienes, and the retained double bond in each example can provide a curing site. Adjacency, sequence, composition, tacticity, chain ends and cure state are unspecified.",
         "sourceIds": [
-          "de-roo-epdm-enb-structure-2021"
+          "de-roo-epdm-enb-structure-2021",
+          "epdm-ethyltridecadiene-pubchem-54001842",
+          "epdm-us3963802-diene-incorporation"
         ],
         "items": [
           {
@@ -69624,6 +69666,13 @@
             "fidelity": "representative",
             "altText": "Open ethylidene norbornene-derived bicyclic unit with an exocyclic carbon–carbon double bond of unspecified geometry.",
             "caption": "Illustrative uncrosslinked 5-ethylidene-2-norbornene-derived local unit. The crossed exocyclic double bond leaves its E/Z geometry unspecified; stereochemistry, abundance and sequence are not fixed."
+          },
+          {
+            "structureId": "epdm-11-ethyl-tridecadiene-open-unit",
+            "label": "Representative 11-ethyl-1,11-tridecadiene-derived unit",
+            "fidelity": "representative",
+            "altText": "Open diene-derived polymer unit bearing a long alkyl branch with an internal carbon–carbon double bond of unspecified geometry.",
+            "caption": "Representative unbracketed local unit formed by terminal-alkene incorporation; the crossed internal double bond is retained, with E/Z geometry, sequence and cure state unspecified."
           }
         ]
       },
@@ -69635,7 +69684,8 @@
             "feedstock-6325-pubchem",
             "feedstock-8252-pubchem",
             "nist-webbook-ethylene-structure",
-            "nist-webbook-propene-structure"
+            "nist-webbook-propene-structure",
+            "epdm-ethyltridecadiene-pubchem-54001842"
           ],
           "items": [
             {
@@ -69651,6 +69701,13 @@
               "fidelity": "exact",
               "altText": "prop-1-ene; finite feedstock molecule.",
               "caption": "Finite feedstock molecule; this drawing does not assign formulation, concentration, or reaction conditions."
+            },
+            {
+              "structureId": "epdm-11-ethyl-tridecadiene-feedstock",
+              "label": "11-Ethyl-1,11-tridecadiene",
+              "fidelity": "exact",
+              "altText": "Finite branched diene with a terminal alkene and a substituted internal alkene of unspecified geometry.",
+              "caption": "Finite diene feedstock in the selected historical route; the crossed internal double bond does not specify E/Z geometry."
             }
           ]
         }
@@ -69663,7 +69720,8 @@
           "scopeNote": "One historical patent-described terpolymer route; other diene, catalyst and processing choices vary.",
           "sourceIds": [
             "epdm-uniroyal-us3402140-1968",
-            "comp-mechanism-coord-150"
+            "comp-mechanism-coord-150",
+            "epdm-us3963802-diene-incorporation"
           ],
           "inputs": [
             {
@@ -69675,7 +69733,8 @@
               "structureId": "propylene-monomer"
             },
             {
-              "label": "11-Ethyl-1,11-tridecadiene"
+              "label": "11-Ethyl-1,11-tridecadiene",
+              "structureId": "epdm-11-ethyl-tridecadiene-feedstock"
             }
           ],
           "products": [
@@ -69686,10 +69745,14 @@
             {
               "label": "Propylene-derived local unit",
               "structureId": "fluoro-open-propylene-unit"
+            },
+            {
+              "label": "11-Ethyl-1,11-tridecadiene-derived local unit",
+              "structureId": "epdm-11-ethyl-tridecadiene-open-unit"
             }
           ],
           "productMode": "structural_reference",
-          "productNote": "The separate open ethylene and propylene motifs illustrate two constituent types without specifying adjacency, sequence, ratio or tacticity. The diene-derived cure site is not depicted; the selected patent uses 11-ethyl-1,11-tridecadiene, while other EPDM grades can use different dienes.",
+          "productNote": "The separate open ethylene-, propylene- and 11-ethyl-1,11-tridecadiene-derived motifs illustrate constituent types without specifying adjacent sequence, ratio, tacticity or a cured network. The representative diene motif retains an internal double bond as a potential curing site; other EPDM grades may use different dienes.",
           "reagents": [
             {
               "name": "Vanadium oxychloride / triisobutylaluminum",
@@ -69712,7 +69775,8 @@
               "body": "Follow repeated olefin coordination and insertion at the activated catalyst. Each insertion adds carbon atoms to the chain and regenerates a metal-bound growth site. Apply the catalyst and comonomer choices of this route when interpreting branching or stereoregularity.",
               "sourceIds": [
                 "epdm-uniroyal-us3402140-1968",
-                "comp-mechanism-coord-150"
+                "comp-mechanism-coord-150",
+                "epdm-us3963802-diene-incorporation"
               ]
             },
             {
@@ -72415,8 +72479,8 @@
         "structureAndMorphology": "FKM chains contain fluorinated monomer units, with composition varying across the family. A vinylidene fluoride–hexafluoropropylene dipolymer differs from a terpolymer that also contains tetrafluoroethylene. Cure-site monomers or reactive chain ends may be introduced for a particular cure system. The finished rubber contains crosslinks and frequently fillers in addition to the base polymer. One documented peroxide-curable group contains reactive cure-site monomers in addition to VDF and HFP; peroxide and a multifunctional coagent can then form crosslinks. Other FKM grades use bisphenol or diamine cure chemistry, so a cure package suitable for one grade cannot automatically be transferred to another. Fillers and cure conditions further determine the final network.",
         "properties": "FKM compounds are used for resistance to heat, fuels, oils and many chemicals, but their fluid resistance and low-temperature flexibility can pull in opposite directions. Chemours reports that increasing fluorine content among its standard A, B and F types improves resistance to some fluids while reducing low-temperature flexibility. In typical 30-phr carbon-black-filled, 75-durometer vulcanizates, A and F showed 90% and 5% volume increase respectively after 168 hours in methanol at 23 °C, and TR-10 retraction temperatures of −17 °C and −6 °C. These formulation-specific values illustrate a tradeoff, not a universal FKM rule or a service specification.",
         "applications": "Products and industries. FKM is used for automotive fuel-system seals and hoses, chemical-processing gaskets and aerospace seals. Chemours identifies its low-temperature GLT types for fuel, chemical and petroleum-industry seals, while GFLT types are intended for fuel-system parts needing both low-temperature flexibility and resistance to oxygenated fuels. The application and fluid exposure determine which compound is suitable.\n\nPurchasing. Chemours distinguishes gum polymers from curative-containing precompounds and matches grades to molding, extrusion or coatings. Buyers specify the polymer grade or finished compound, cure system and fluid compatibility rather than selecting by the family name alone.\n\nScale and evidence limits. No reliable, separately reported purchase or consumption tonnage was established. The catalog documents product availability and intended uses, not market size.",
-        "degradationAndStability": "Degradation products and pathways: VDF/HFP fluoroelastomer undergoes alkaline defluorination followed by chain cleavage, yielding fluoride and carbon-rich residues. Complete fluorine removal is distinct from complete carbon mineralization.\n\nTimescales: About 30 mg of VDF/HFP 78/22 copolymer, uncrosslinked or peroxide-cured with carbon black, gave complete fluoride recovery after 18 hours in 0.20 M KOH at 200 °C under argon. This is a measured fluorine-recovery endpoint under deliberately applied chemical conditions, not a natural-weathering or carbon-mineralization time.\n\nEnvironmental persistence: In a separate study of two ternary VDF/HFP/TFE fluoroelastomer hose materials, heat exposure increased compression set and hardness while elongation declined. Those changes in sealing-related properties are not a measurement of carbon mineralization. Neither this ageing experiment nor alkaline fluoride recovery establishes complete biodegradation in soil, freshwater, seawater or landfill.",
-        "recyclingAndEndOfLife": "In a laboratory study, alkaline hydrothermal treatment of VDF/HFP copolymer and its peroxide-cured, carbon-black-filled counterpart released fluoride, and calcium hydroxide added to the aqueous phase formed calcium fluoride. This recovers fluorine as an inorganic compound rather than the intact elastomer or its original monomers. The result pertains to the tested small samples and controlled reaction conditions; it does not establish a commercial recovery route or complete mineralization of the carbon-containing residues.",
+        "degradationAndStability": "Degradation products and pathways: FKM formulations can age through more than one mechanism. In hot-air tests of a bisphenol-cured VDF/HFP O-ring, the authors interpreted infrared changes as initial loss of hydrogen fluoride, forming double bonds that can undergo further crosslinking or oxidation. They associated subsequent carbonyl formation with chain scission; the balance of these reactions depends on temperature and material. A separate hydrothermal experiment proposed hydroxide attack on VDF units, followed by fluoride release and chain cleavage. Its detected fluoride, dissolved organic carbon and carbon-rich solids were products of that deliberately alkaline treatment, not a list of products established for ordinary outdoor weathering.\n\nTimescales: One study aged type-1 FKM Vi655 O-rings, initially compressed by approximately 25%, in circulating air at 200, 225 and 250 °C. At 250 °C the tested O-rings had changed from blue to grey after two days and were brown with greater deformation after eight days; pigment and polymer changes could both contribute to colour. Using a 75% equilibrium compression-set criterion linked to the authors’ leakage tests and time–temperature superposition, they estimated 73, 17 and 4 days to that criterion at 200, 225 and 250 °C, respectively. These are model-based estimates for that seal, geometry and test procedure, not times to complete chemical decomposition. In a separate forced-air study of two ternary FKM hose compounds, one compound took 577–805 hours at 160 °C and 87–97 hours at 200 °C to reach a 10% hardness-change criterion; the comparison shows that the observed endpoint depends on both temperature and the measure selected.\n\nEnvironmental persistence: Neither the hot-air sealing tests nor alkaline treatment measured biodegradation in soil, fresh water or seawater, so they do not establish an ambient environmental lifetime for FKM. In the chemical-treatment study, both uncrosslinked VDF/HFP 78/22 copolymer and a peroxide-cured, carbon-black-filled version gave approximately 100% fluoride yield after 18 hours at 200 °C in 0.20 M KOH under argon. At that endpoint, the uncrosslinked sample also left measurable dissolved organic carbon and a carbon-rich solid. Fluoride recovery therefore measures conversion of fluorine to inorganic fluoride, not disappearance or complete mineralization of all carbon-containing material.",
+        "recyclingAndEndOfLife": "Hamaura and coauthors investigated laboratory-scale fluorine recovery from a VDF/HFP 78/22 copolymer and a peroxide-cured, carbon-black-filled version. Treating approximately 30 mg samples in 0.50 M aqueous KOH at 250 °C for six hours converted the measured fluorine to dissolved fluoride; subsequent addition of calcium hydroxide produced calcium fluoride. The reported calcium-fluoride yields were 100% for the uncrosslinked material and 93% for the cured compound. The product is an inorganic fluorine feedstock, not recovered intact rubber or its original monomers.\n\nThe results are for two specified samples and controlled hydrothermal conditions. The study does not establish collection infrastructure, commercial treatment of mixed FKM waste, or complete conversion of all carbon-containing residues. Crosslink chemistry, fillers and contamination in other compounds would require separate evaluation.",
         "healthSafetyAndRegulation": "Chemours’ Viton A-201C is a vinylidene-fluoride/hexafluoropropylene elastomer supplied with cure chemicals. The manufacturer advises preventing skin contact and washing after handling, while assessing other compounding ingredients separately. This is useful grade-specific guidance: the hazards of an uncured FKM compound depend on its cure package and additives as well as its fluorinated base polymer.",
         "limitationsAndVariability": "FKM grades differ in monomer composition and cure chemistry. Resistance to a fluid depends on the compound, temperature and exposure time. Cure chemistry and fillers also change the response of a finished compound. Selection therefore requires compound-specific data for the intended conditions."
       },
@@ -72574,15 +72638,17 @@
           "sourceType": "open_journal",
           "citation": "Hamaura, J.; Hori, H.; Fujishima, A.; Mukae, H. Efficient Mineralization of Fluoroelastomers Using Superheated Water in the Presence of Potassium Hydroxide. Molecules 28 (2023), 7057.",
           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10608947/",
-          "locator": "Table 1; proposed reaction mechanism; crosslinked FKM decomposition; calcium fluoride recovery.",
+          "locator": "Sections 2.1–2.3 and Table 1: VDF/HFP 78/22 copolymer and its peroxide-cured, carbon-black-filled variant, KOH hydrothermal defluorination, carbon residues, and CaF₂ recovery.",
           "accessedDate": "2026-09-07",
           "accessStatus": "anonymous_full_content",
-          "reuseStatus": "publicly_accessible_citation_only",
-          "permissionBasis": "Full content is publicly readable; no reuse permission is asserted. Independently paraphrased and cited.",
+          "reuseStatus": "open_licensed",
+          "permissionBasis": "The full article identifies a CC BY 4.0 license; findings are independently paraphrased.",
           "supports": [
             "degradationAndStability",
             "recyclingAndEndOfLife"
-          ]
+          ],
+          "doi": "10.3390/molecules28207057",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
         },
         {
           "sourceId": "comp-mechanism-radical-157",
@@ -72687,7 +72753,7 @@
           "sourceType": "open_journal",
           "citation": "Lee P.-C. et al. Durability and Service Life Prediction of Fluorocarbon Elastomer under Thermal Environments. Polymers 14 (2022), 2047.",
           "url": "https://www.mdpi.com/2073-4360/14/10/2047",
-          "locator": "Sections 2–3: two identified VDF/HFP/TFE hose rubbers, hot-air test and trends in elongation, hardness and compression set.",
+          "locator": "Sections 2.1–2.2 and 3.3: two ternary VDF/HFP/TFE hose compounds, forced-air aging at 160–200 °C, tensile, compression-set and hardness observations and threshold times.",
           "accessedDate": "2026-11-11",
           "accessStatus": "anonymous_full_content",
           "reuseStatus": "open_licensed",
@@ -72695,7 +72761,25 @@
           "supports": [
             "degradationAndStability"
           ],
-          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "contentUrl": "https://pdfs.semanticscholar.org/4075/a49582be99ca66529152d3ff796dad0b91a1.pdf"
+        },
+        {
+          "sourceId": "fkm-vega-puga-o-ring-thermo-oxidation-2025",
+          "lineageId": "doi-10-1016-j-polymertesting-2025-108820",
+          "sourceType": "open_journal",
+          "citation": "Estefanía Vega Puga, Volker Wachtendorf, Anja Kommling, Stefan Brendelberger, Matthias Jaunich, and Christian Sattler, Lifetime prediction and degradation assessment of FKM and FFKM O-rings under high temperature thermo-oxidative ageing, Polymer Testing 147 (2025), 108820.",
+          "doi": "10.1016/j.polymertesting.2025.108820",
+          "url": "https://elib.dlr.de/220694/1/1-s2.0-S0142941825001345-main.pdf",
+          "locator": "Sections 2.1–2.2, 3.1–3.2 and 3.5–3.6; Table 3: bisphenol-cured type-1 VDF/HFP FKM, compressed O-ring hot-air ageing, infrared interpretation, leakage/compression-set criterion and temperature-specific estimated lives.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "open_licensed",
+          "permissionBasis": "Full text is anonymously available and identifies a CC BY-NC-ND 4.0 license; results are independently paraphrased.",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "supports": [
+            "degradationAndStability"
+          ]
         }
       ],
       "maturity": {
@@ -109810,6 +109894,39 @@
             "properties",
             "limitationsAndVariability"
           ]
+        },
+        {
+          "sourceId": "meh-ppv-ribeiro-fluorescent-2018",
+          "lineageId": "ribeiro-mehppv-solvent-selected-2018",
+          "sourceType": "open_journal",
+          "citation": "Ribeiro et al., Photoluminescence of Solvent-Selected Fluorescent Moieties in MEH-PPV Solutions and Films, Journal of the Brazilian Chemical Society 29 (2018).",
+          "doi": "10.21577/0103-5053.20170167",
+          "url": "https://www.scielo.br/j/jbchs/a/rNksDJ8dkfRHwR79Lcwt4Nt/?lang=en",
+          "locator": "Figure 1: MEH-PPV local phenylene-vinylene connectivity and alkoxy substituents.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "open_licensed",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "permissionBasis": "Publisher full article and Figure 1 were directly inspected; the independently authored indexed structure does not copy artwork.",
+          "supports": [
+            "structuralDepictions"
+          ]
+        },
+        {
+          "sourceId": "meh-ppv-nayyar-all-trans-model-2011",
+          "lineageId": "nayyar-dft-conjugated-polymer-excitations-2011",
+          "sourceType": "open_journal",
+          "citation": "Nayyar et al., Localization of Electronic Excitations in Conjugated Polymers Studied by DFT, Journal of Physical Chemistry Letters 2 (2011), 566–571.",
+          "doi": "10.1021/jz101740w",
+          "url": "https://cnls.lanl.gov/~serg/postscript/jz101740w.pdf",
+          "locator": "Methods, printed p. 568 / PDF p. 3: ideal all-trans ten-unit MEH-PPV backbone model; branched alkoxy group replaced by methoxy for computation.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "Full author-hosted article directly read; the abbreviated computational model supports the idealized backbone only.",
+          "supports": [
+            "structuralDepictions"
+          ]
         }
       ],
       "maturity": {
@@ -109825,13 +109942,23 @@
       },
       "structuralDepictions": {
         "reviewStatus": "reviewed",
-        "representationType": "no_unique_repeat",
-        "scopeNote": "PPV includes substituted and unsubstituted backbone examples with varying vinylene geometry and sequence. No single structure represents the family. Previously shown ideal unsubstituted cis and trans repeats are omitted pending direct graphical evidence for each; the absence is an evidence gap, not proof that those structures cannot exist.",
+        "representationType": "family_representative_set",
+        "scopeNote": "PPV includes substituted and unsubstituted examples with varying vinylene geometry and sequence. The drawing shows an ideal all-trans repeat of MEH-PPV, one substituted family member, rather than unsubstituted PPV or every derivative. The side-chain stereochemistry, sample-specific defects and chain ends are not assigned. Direct structural evidence for separate ideal unsubstituted cis and trans repeats remains a gap.",
         "sourceIds": [
           "ppv-motorola-wessling-background-ep0707022",
-          "ppv-mcguire-bath-2020"
+          "ppv-mcguire-bath-2020",
+          "meh-ppv-ribeiro-fluorescent-2018",
+          "meh-ppv-nayyar-all-trans-model-2011"
         ],
-        "items": []
+        "items": [
+          {
+            "structureId": "meh-ppv-ideal-all-trans-repeat",
+            "label": "Representative substituted PPV: ideal all-trans MEH-PPV",
+            "fidelity": "representative",
+            "altText": "Substituted phenylene-vinylene unit with methoxy and branched 2-ethylhexyloxy side groups",
+            "caption": "Ideal all-trans MEH-PPV repeat illustrates one substituted PPV derivative; it does not depict the unsubstituted parent or prescribe the geometry of every PPV chain."
+          }
+        ]
       },
       "synthesisRoutes": [
         {

@@ -115,7 +115,7 @@ test('the static build emits canonical pages, unique aliases, local search, data
   assert.doesNotMatch(home, /primary browsing class|Primary class|browsing classes/i);
   assert.doesNotMatch(home, /Source Backed Draft|Content maturity|<span>Confidence<\/span>|<dt>Review flags<\/dt>/);
   assert.doesNotMatch(home, /polymer-card__tags/);
-  assert.match(home, /<figcaption class="visually-hidden">[^<]+<\/figcaption>/);
+  assert.match(home, /<figcaption>[^<]+<\/figcaption>/);
   assert.doesNotMatch(home, /<figcaption>(?:Structural depiction|1 of \d+ depictions)/);
   assert.match(polyethylene, /id="structural-depictions"/);
   assert.match(polyethylene, /structure-card__image/);

@@ -4,7 +4,7 @@ import test from 'node:test';
 import initializeRDKit from '@rdkit/rdkit';
 import { validateV3000Molfile } from '../lib/structure-renderer.mjs';
 
-test('ethylene–propylene examples use open units and keep the patent diene distinct from the omitted cure-site drawing', async () => {
+test('ethylene–propylene examples use open units and identify the patent diene cure site', async () => {
   const snapshot = JSON.parse(await fs.readFile('public-data/wop-publication-snapshot-v2/snapshot.json', 'utf8'));
   const expected = new Map([['epm-open-ethylene-unit', '*CC*'], ['fluoro-open-propylene-unit', '*CC(*)C']]);
   const rdkit = await initializeRDKit();
@@ -24,5 +24,6 @@ test('ethylene–propylene examples use open units and keep the patent diene dis
   }
   const route = snapshot.polymers.find(item => item.wopId === 'wop-000150').synthesisRoutes[0];
   assert.equal(route.inputs[2].label, '11-Ethyl-1,11-tridecadiene');
-  assert.match(route.productNote, /diene-derived cure site is not depicted/i);
+  assert.equal(route.products[2].structureId, 'epdm-11-ethyl-tridecadiene-open-unit');
+  assert.match(route.productNote, /internal double bond as a potential curing site/i);
 });
