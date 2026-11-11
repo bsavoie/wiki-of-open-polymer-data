@@ -167,7 +167,7 @@
   background: transparent;
 }
 .article-profile__tab-grid a:hover { background: var(--aqua-soft); color: var(--blue-dark); }
-.article-profile__tab-grid a[aria-selected="true"] { color: var(--blue-dark); background: var(--aqua-soft); font-weight: 600; }
+.article-profile__tab-grid a[aria-selected="true"] { color: var(--blue-dark); background: var(--amber-soft); font-weight: 600; }
 .article-profile__tab-grid a::before { height: 3px; background: var(--blue); }
 .article-profile__surface {
   border-color: var(--line);

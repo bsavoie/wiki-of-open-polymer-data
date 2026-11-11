@@ -42,7 +42,7 @@
   text-decoration: none;
 }
 .home-tabs a:hover { color: var(--blue); }
-.home-tabs a[aria-selected="true"] { border-bottom-color: var(--amber); background: var(--amber-soft); color: #805400; }
+.home-tabs a[aria-selected="true"] { border-bottom-color: var(--blue); background: var(--amber-soft); color: var(--blue-dark); }
 .home-tabs:not([hidden]) ~ .methodology { border-top: 0; padding-top: 1.5rem; }
 
 .catalog {
