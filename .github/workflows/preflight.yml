@@ -1,0 +1,54 @@
+name: Linux release preflight
+
+on:
+  push:
+    branches: ['codex/release-preflight-*']
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: preflight-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Validate and build without deployment
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out reviewed source
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Test structure-audit release gate
+        run: python3 test/test_structure_audit_attestation.py
+      - name: Verify structure-audit attestation
+        run: python3 scripts/verify-structure-audit-attestation.py
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Record platform and reviewed snapshot
+        run: |
+          uname -a
+          node --version
+          npm --version
+          python3 --version
+          sha256sum public-data/wop-publication-snapshot-v2/snapshot.json
+      - name: Install dependencies
+        run: npm ci
+      - name: Validate, test, and build
+        run: npm run check
+        env:
+          WOP_SITE_URL: https://bsavoie.github.io/wiki-of-open-polymer-data/
+      - name: Save preflight build for inspection
+        uses: actions/upload-artifact@v4
+        with:
+          name: wiki-preflight-${{ github.sha }}
+          path: dist
+          if-no-files-found: error
+          retention-days: 7

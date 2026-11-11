@@ -23,9 +23,6 @@ const GLYCAN_SRU_IDS = [
   'cellulose-anhydroglucose-unit',
   'alpha-1-4-glucan-unit',
   'chitin-n-acetylglucosamine-unit',
-  'chitosan-glucosamine-unit',
-  'sodium-mannuronate-unit',
-  'sodium-guluronate-unit',
   'kappa-carrageenan-sru',
   'iota-carrageenan-sru',
   'lambda-carrageenan-sru',
@@ -41,14 +38,10 @@ const INTENTIONAL_CROSSED_DOUBLE_IDS = [
   'butyl-rubber-isoprene-site-local-segment',
   'chlorobutyl-endo-local-segment',
   'ethylene-maleate-polyester-motif',
-  'epdm-enb-cure-site-motif',
   'polybutadiene-1-4-sru',
   'polyisoprene-1-4-unspecified-unit',
   'sbs-connected-aba-block-architecture',
-  'sis-connected-aba-block-architecture',
-  'tpv-epdm-enb-connected-local-motif',
-  'xnbr-acrylonitrile-butadiene-methacrylic-acid-local-segment',
-  'xsbr-styrene-butadiene-acrylic-acid-local-segment'
+  'sis-ideal-14-midblock-architecture'
 ].sort();
 
 const allStructureSpecs = {
@@ -349,14 +342,80 @@ test('V3000 validator requires explicit curated coordinates and expanded superat
   }
 });
 
+test('absolute stereo labels are suppressed only in the verified display copy', async () => {
+  const fixture = await fs.readFile('test/fixtures/structures/enhanced-stereo-mixed.mol', 'utf8');
+  const absolute = 'M  V30 MDLV30/STEABS ATOMS=(5 17 18 19 20 21)';
+  const and = 'M  V30 MDLV30/STERAC1 ATOMS=(5 22 23 24 26 27)';
+  const or = 'M  V30 MDLV30/STEREL1 ATOMS=(5 28 29 30 31 32)';
+  assert.ok(fixture.includes(absolute) && fixture.includes(and) && fixture.includes(or));
+
+  const before = await renderChemicalStructure({ structureId: 'stereo-mixed', molfileV3000: fixture });
+  const withoutAbs = fixture.replace(`${absolute}\n`, '');
+  const expected = await renderChemicalStructure({ structureId: 'stereo-without-abs', molfileV3000: withoutAbs });
+  const withoutGroups = withoutAbs.replace(`${and}\n`, '').replace(`${or}\n`, '');
+  const noGroups = await renderChemicalStructure({ structureId: 'stereo-without-groups', molfileV3000: withoutGroups });
+  assert.equal(before.svg, expected.svg, 'rendering removes only redundant absolute labels');
+  assert.notEqual(before.svg, noGroups.svg, 'AND/OR labels remain visible');
+  assert.equal(before.molfile, fixture, 'canonical download retains every collection');
+  assert.deepEqual(before.diagnostics.displayOnly.suppressedAbsoluteStereoAtoms, [17,18,19,20,21]);
+  assert.equal(before.diagnostics.stereoRendering.length, 15);
+  assert.deepEqual(before.diagnostics.stereoRendering, expected.diagnostics.stereoRendering);
+  const output = await fs.mkdtemp(path.join(os.tmpdir(), 'wop-stereo-download-'));
+  try {
+    await renderChemicalStructures([{ structureId: 'stereo-download', molfileV3000: fixture }], output);
+    assert.equal(await fs.readFile(path.join(output, 'stereo-download.mol'), 'utf8'), fixture);
+  } finally {
+    await fs.rm(output, { recursive: true, force: true });
+  }
+
+  const allAbsolute = fixture.replace(`${absolute}\n${and}\n${or}`,
+    'M  V30 MDLV30/STEABS ATOMS=(15 17 18 19 20 21 22 23 24 26 27 28 29 30 31 32)');
+  const all = await renderChemicalStructure({ structureId: 'stereo-all-absolute', molfileV3000: allAbsolute });
+  assert.equal(all.molfile, allAbsolute);
+  assert.equal(all.diagnostics.displayOnly.suppressedAbsoluteStereoAtoms.length, 15);
+  assert.equal(all.svg, noGroups.svg);
+
+  const wrapped = fixture.replace(absolute, 'M  V30 MDLV30/STEABS ATOMS=(5 17 18 -\nM  V30 19 20 21)');
+  const continuation = await renderChemicalStructure({ structureId: 'stereo-wrapped', molfileV3000: wrapped });
+  assert.equal(continuation.svg, before.svg);
+  assert.equal(continuation.molfile, wrapped);
+  const invalid = fixture.replace(absolute, 'M  V30 MDLV30/STEABS ATOMS=(1 1)');
+  await assert.rejects(renderChemicalStructure({ structureId: 'stereo-unassigned', molfileV3000: invalid }), /absolute-stereo collection does not match assigned canonical stereocenters/);
+});
+
+test('wrapped S-group CONNECT is suppressed only in the display copy', async () => {
+  const output = await fs.mkdtemp(path.join(os.tmpdir(), 'wop-wrapped-connect-'));
+  try {
+    for (const connect of ['HT', 'HH', 'EU']) {
+      const plain = SRU_MOLFILE.replace('CONNECT=HT', `CONNECT=${connect}`);
+      const splitValue = plain.replace(`CONNECT=${connect}`, `CONNECT=${connect[0]}-\nM  V30 ${connect[1]}`);
+      const splitToken = plain.replace('CONNECT=', 'CONNEC-\nM  V30 T=');
+      const splitElsewhere = plain.replace('XBONDS=(2 1 3)', 'XBONDS=(2 1 -\nM  V30 3)');
+      const baseline = await renderChemicalStructure({ structureId: 'wrapped-connect', molfileV3000: plain });
+      for (const candidate of [splitValue, splitToken, splitElsewhere]) {
+        const rendered = await renderChemicalStructure({ structureId: 'wrapped-connect', molfileV3000: candidate });
+        assert.equal(rendered.svg, baseline.svg, `${connect} line folding must not affect the drawing`);
+        assert.equal(rendered.molfile, candidate, 'canonical V3000 retains its original physical lines');
+        assert.deepEqual(rendered.diagnostics.displayOnly.suppressedConnectLabels, [connect]);
+        await renderChemicalStructures([{ structureId: 'wrapped-connect', molfileV3000: candidate }], output);
+        assert.equal(await fs.readFile(path.join(output, 'wrapped-connect.mol'), 'utf8'), candidate);
+      }
+    }
+    const malformed = SRU_MOLFILE.replace('CONNECT=HT', 'CONNECT=H-\nnot a continuation');
+    await assert.rejects(renderChemicalStructure({ structureId: 'bad-continuation', molfileV3000: malformed }), /continuation/);
+  } finally {
+    await fs.rm(output, { recursive: true, force: true });
+  }
+});
+
 test('RDKit rendering is deterministic, tightly normalized, colored, and style-pinned', async () => {
   const definition = { structureId: 'heteroatom-smoke', molfileV3000: HETEROATOM_MOLFILE };
   const first = await renderChemicalStructure(definition);
   const second = await renderChemicalStructure(definition);
   assert.equal(STRUCTURE_RENDERER_VERSION, 'rdkit-js-2025.03.4');
-  assert.equal(STRUCTURE_STYLE_ID, 'wop-structure-style-v5');
+  assert.equal(STRUCTURE_STYLE_ID, 'wop-structure-style-v9');
   assert.deepEqual(STRUCTURE_STYLE, {
-    id: 'wop-structure-style-v5',
+    id: 'wop-structure-style-v9',
     bondLengthPx: 48,
     bondLineWidthPx: 2,
     annotationFontScale: 1.2,
@@ -371,8 +430,9 @@ test('RDKit rendering is deterministic, tightly normalized, colored, and style-p
     background: 'transparent',
     coordinatePolicy: 'preserve-authored-v3000',
     superatomPolicy: 'expanded-only',
-    attachmentPolicy: 'unlabeled-terminal-pseudoatom',
+    attachmentPolicy: 'sru-boundary-or-perpendicular-open-attachment',
     sgroupConnectivityLabelPolicy: 'suppress-ht-hh-eu',
+    absoluteStereoLabelPolicy: 'suppress-validated-abs-labels-only',
     markushPolicy: 'visible-generic-and-numbered-r-with-authored-notation'
   });
   assert.equal(first.svg, second.svg);
@@ -417,6 +477,7 @@ test('RDKit rendering is deterministic, tightly normalized, colored, and style-p
   });
   assert.deepEqual(genericR.diagnostics.displayOnly.visibleGenericRAtomIndices, [2]);
   assert.deepEqual(genericR.conventions, {
+    openAttachmentCount: 0,
     genericRAtomCount: 1,
     numberedRAtomCount: 0,
     unknownSingleBondCount: 0,
@@ -525,10 +586,51 @@ test('all corpus repeat brackets cross only their declared continuation bonds', 
   }
 });
 
+test('PHEMA repeat retains its side-chain chemistry and clears its repeat subscript', async () => {
+  const snapshot = await readPublicationSnapshot();
+  const entry = snapshot.polymers.find((item) => item.wopId === 'wop-000229');
+  const definition = definitionsById(snapshot).get('polyhema-unit');
+  const record = validateV3000Molfile(definition.molfileV3000);
+  const [group] = record.groups;
+  assert.equal(group.type, 'SRU');
+  assert.equal(group.connect, 'HT');
+  assert.equal(group.xbondIds.length, 2);
+  assert.ok(entry.structuralDepictions.sourceIds.includes('evlyukhin-phema-repeat-2015'));
+  assert.ok(entry.sources.some((source) => source.sourceId === 'evlyukhin-phema-repeat-2015' && source.supports.includes('structuralDepictions')));
+  // Both carbonyl atoms lie above the repeat bracket so the n subscript is
+  // below the backbone, away from the carbonyl bond and oxygen label.
+  const top = Math.max(...group.bracketCoordinates.flatMap((b) => [b[1], b[4]]));
+  assert.ok(record.atoms.get(5).y > top);
+  assert.ok(record.atoms.get(6).y > top);
+  const rdkit = await initializeRDKit();
+  const molecule = rdkit.get_mol(definition.molfileV3000);
+  assert.ok(molecule?.is_valid());
+  try { assert.equal(molecule.get_smiles(), '*CC(*)(C)C(=O)OCCO'); }
+  finally { molecule.delete(); }
+});
+
+test('PVP repeat retains its N-linked lactam and independent structure source', async () => {
+  const snapshot = await readPublicationSnapshot();
+  const entry = snapshot.polymers.find((item) => item.wopId === 'wop-000237');
+  const definition = definitionsById(snapshot).get('polyvinylpyrrolidone-unit');
+  const record = validateV3000Molfile(definition.molfileV3000);
+  const [group] = record.groups;
+  assert.equal(group.type, 'SRU');
+  assert.equal(group.connect, 'HT');
+  assert.equal(group.xbondIds.length, 2);
+  assert.ok(entry.structuralDepictions.sourceIds.includes('gonzalez-ortiz-pvp-repeat-2022'));
+  assert.ok(entry.sources.some((source) => source.sourceId === 'gonzalez-ortiz-pvp-repeat-2022' && source.supports.includes('structuralDepictions')));
+  const rdkit = await initializeRDKit();
+  const molecule = rdkit.get_mol(definition.molfileV3000);
+  assert.ok(molecule?.is_valid());
+  try { assert.equal(molecule.get_smiles(), '*CC(*)N1CCCC1=O'); }
+  finally { molecule.delete(); }
+});
+
 test('repeat labels clear their own bracket tips and preserve canonical downloads', async () => {
   const snapshot = await readPublicationSnapshot();
   for (const id of ['polystyrene-sru', 'polymethyl-methacrylate-sru', 'polyethylene-terephthalate-sru',
-    'isotactic-polypropylene-dyad', 'sbs-connected-aba-block-architecture']) {
+    'isotactic-polypropylene-corrected-dyad', 'sbs-connected-aba-block-architecture']) {
     const definition = snapshot.chemicalStructures.find(d => d.structureId === id);
     const rendered = await renderChemicalStructure(definition);
     const labels = rendered.diagnostics.repeatLabelRendering;
@@ -558,15 +660,57 @@ test('glycan SRU virtual stitches join carbon to oxygen rather than oxygen to ox
   }
 });
 
+test('PEBA soft block stitches carbon to oxygen at a PA12 ester junction', async () => {
+  const snapshot = await readPublicationSnapshot();
+  const definition = definitionsById(snapshot).get('peba-pa12-ptmeg-corrected-architecture');
+  const structure = validateV3000Molfile(definition.molfileV3000, { structureId: definition.structureId });
+  const soft = structure.groups.find((group) => group.label === 'y');
+  assert.ok(soft);
+  const symbols = soft.atomIds.map((id) => structure.atoms.get(id).symbol).sort();
+  assert.deepEqual(symbols, ['C', 'C', 'C', 'C', 'O']);
+  const atoms = new Set(soft.atomIds);
+  const endpoints = soft.xbondIds.map((id) => {
+    const bond = structure.bonds.get(id);
+    assert.notEqual(atoms.has(bond.left), atoms.has(bond.right));
+    return structure.atoms.get(atoms.has(bond.left) ? bond.left : bond.right).symbol;
+  }).sort();
+  assert.deepEqual(endpoints, ['C', 'O'], 'adjacent PTMEG repeats must join through C–O, not O–O');
+  const hard = structure.groups.find((group) => group.label === 'x');
+  assert.ok(hard);
+  const hardAtoms = new Set(hard.atomIds);
+  const bridgingO = [...structure.atoms.values()].find((atom) => atom.symbol === 'O' && !atoms.has(atom.atomId) && !hardAtoms.has(atom.atomId));
+  assert.ok(bridgingO, 'the ester oxygen lies between the two repeat blocks');
+  const bonds = [...structure.bonds.values()];
+  const esterBond = bonds.find((bond) => [bond.left, bond.right].includes(bridgingO.atomId) && hardAtoms.has(bond.left === bridgingO.atomId ? bond.right : bond.left));
+  assert.ok(esterBond);
+  const carbonyl = esterBond.left === bridgingO.atomId ? esterBond.right : esterBond.left;
+  assert.equal(structure.atoms.get(carbonyl).symbol, 'C');
+  assert.ok(bonds.some((bond) => bond.order === 2 && [bond.left, bond.right].includes(carbonyl) && structure.atoms.get(bond.left === carbonyl ? bond.right : bond.left).symbol === 'O'));
+});
+
+test('the PMDA–ODA polyimide example joins repeat units through nitrogen and carbon', async () => {
+  const snapshot = await readPublicationSnapshot();
+  const definition = definitionsById(snapshot).get('pmda-oda-polyimide-sru');
+  assert.ok(definition);
+  assert.deepEqual(internalSruAttachmentSymbols(definition).sort(), ['C', 'N']);
+  const structure = validateV3000Molfile(definition.molfileV3000, { structureId: definition.structureId });
+  const atoms = [...structure.atoms.values()];
+  assert.equal(atoms.filter((atom) => atom.symbol === 'N').length, 2);
+  assert.equal(atoms.filter((atom) => atom.symbol === 'O').length, 5);
+  const polymer = snapshot.polymers.find((entry) => entry.wopId === 'wop-000086');
+  assert.match(polymer.synthesisRoutes[0].productNote, /not a claim that it is the product/);
+});
+
 test('finite motifs explicitly marked polymerSgroup false contain no V3000 S-group', async () => {
   const snapshot = await readPublicationSnapshot();
   const byId = definitionsById(snapshot);
-  const finiteMotifIds = explicitlyFiniteMotifIds();
+  // The migration specifications include historical definitions which may
+  // have been retired. The publication snapshot is the live registry.
+  const finiteMotifIds = explicitlyFiniteMotifIds().filter((id) => byId.has(id));
   assert.ok(finiteMotifIds.length > 0, 'expected at least one explicitly finite motif');
 
   for (const structureId of finiteMotifIds) {
     const definition = byId.get(structureId);
-    assert.ok(definition, `missing finite motif structure ${structureId}`);
     assert.doesNotMatch(
       definition.molfileV3000,
       /^M  V30 BEGIN SGROUP$/m,
@@ -612,6 +756,96 @@ test('canonical corpus has no unintended single-bond CFG=2 and preserves explain
       rendered.diagnostics.stereoRendering.some(({ geometry }) => geometry === 'crossed-double-bond'),
       `${structureId} must render its intentional CFG=2 double bond as crossed geometry`
     );
+  }
+});
+
+test('open attachment marks preserve stereo, suppress SRU crossings, and stay inside SVG bounds', async () => {
+  const snapshot = await readPublicationSnapshot();
+  const byId = definitionsById(snapshot);
+  const cases = [
+    ['amylopectin-branched-triglucosyl-motif', 3, null],
+    ['cellulose-trisubstitution-corrected-markush-motif', 2, 9],
+    ['isotactic-polypropylene-corrected-dyad', 0, null],
+    ['sbs-connected-aba-block-architecture', 0, null]
+  ];
+  for (const [id, markerCount, stereoBond] of cases) {
+    const definition = byId.get(id);
+    const rendered = await renderChemicalStructure(definition);
+    assert.equal(rendered.molfile, definition.molfileV3000, `${id} canonical download must remain unchanged`);
+    assert.equal(rendered.conventions.openAttachmentCount, markerCount, id);
+    assert.equal(rendered.diagnostics.attachmentRendering.length, markerCount, id);
+    if (stereoBond) {
+      assert.ok(rendered.diagnostics.stereoRendering.some(b => b.bondId === stereoBond && b.geometry === 'solid-wedge' && b.verified));
+      assert.ok(rendered.diagnostics.attachmentRendering.some(a => a.bondId === stereoBond && a.verified));
+    }
+    const [, minX, minY, width, height] = rendered.svg.match(/viewBox="(-?\d+) (-?\d+) (\d+) (\d+)"/).map(Number);
+    for (const marker of rendered.diagnostics.attachmentRendering) {
+      assert.equal(marker.geometry, 'perpendicular-open-attachment');
+      assert.ok(marker.bounds.minX >= minX && marker.bounds.maxX <= minX + width, `${id} mark must fit horizontally`);
+      assert.ok(marker.bounds.minY >= minY && marker.bounds.maxY <= minY + height, `${id} mark must fit vertically`);
+    }
+  }
+});
+
+test('polypropylene tactic dyads stitch into propylene chains with the claimed relative stereo', async () => {
+  const snapshot = await readPublicationSnapshot();
+  const byId = definitionsById(snapshot);
+  const rdkit = await initializeRDKit();
+  const cases = [
+    ['isotactic-polypropylene-corrected-dyad', '*C[C@H](C)C[C@@H](*)C'],
+    ['syndiotactic-polypropylene-corrected-dyad', '*C[C@H](C)C[C@H](*)C']
+  ];
+  for (const [id, expectedSmiles] of cases) {
+    const definition = byId.get(id);
+    const record = validateV3000Molfile(definition.molfileV3000, { structureId: id });
+    const [group] = record.groups;
+    assert.equal(group.type, 'SRU');
+    assert.equal(group.connect, 'HT');
+    assert.equal(group.xbondIds.length, 2);
+    const inside = new Set(group.atomIds);
+    assert.equal(inside.size, 6, `${id} must contain two C3 propylene units`);
+    const adjacency = new Map([...inside].map(atom => [atom, []]));
+    for (const bond of record.bonds.values()) {
+      if (inside.has(bond.left) && inside.has(bond.right)) {
+        assert.equal(bond.order, 1);
+        adjacency.get(bond.left).push(bond.right);
+        adjacency.get(bond.right).push(bond.left);
+      }
+    }
+    const endpoints = group.xbondIds.map(id => {
+      const bond = record.bonds.get(id);
+      assert.notEqual(inside.has(bond.left), inside.has(bond.right));
+      return inside.has(bond.left) ? bond.left : bond.right;
+    });
+    const queue = [[endpoints[0]]];
+    let path;
+    while (queue.length) {
+      const candidate = queue.shift();
+      const tail = candidate.at(-1);
+      if (tail === endpoints[1]) { path = candidate; break; }
+      for (const next of adjacency.get(tail)) if (!candidate.includes(next)) queue.push([...candidate, next]);
+    }
+    assert.ok(path);
+    assert.equal(path.length, 4, `${id} must have four backbone atoms per dyad`);
+    const backbone = new Set(path);
+    const substitution = path.map(atom => {
+      assert.equal(record.atoms.get(atom).symbol, 'C');
+      const branches = adjacency.get(atom).filter(other => !backbone.has(other));
+      for (const branch of branches) {
+        assert.equal(record.atoms.get(branch).symbol, 'C');
+        assert.equal(adjacency.get(branch).length, 1, `${id} pendant group must be methyl`);
+      }
+      return branches.length;
+    });
+    // Two stitched copies must alternate unsubstituted and methyl-bearing
+    // carbon even at the junction: no extra methylene at an SRU boundary.
+    const stitched = [...substitution, ...substitution];
+    assert.equal(stitched.filter(Boolean).length, 4);
+    for (let i = 0; i < stitched.length; i++) assert.notEqual(stitched[i], stitched[(i + 1) % stitched.length], `${id} has an incorrect repeat junction`);
+    const molecule = rdkit.get_mol(definition.molfileV3000);
+    assert.ok(molecule?.is_valid());
+    try { assert.equal(molecule.get_smiles(), expectedSmiles, `${id} must preserve its specified local stereochemistry`); }
+    finally { molecule.delete(); }
   }
 });
 
@@ -692,7 +926,7 @@ test('normalized SVG hashes and visual goldens cover the required chemistry clas
         : byId.get(expected.structureId);
       assert.ok(definition, `${goldenCase.category} / ${expected.structureId}`);
       const rendered = await renderChemicalStructure(definition);
-      if (expected.structureId === 'isotactic-polypropylene-dyad') {
+      if (expected.structureId === 'isotactic-polypropylene-corrected-dyad') {
         assert.ok(rendered.diagnostics.stereoRendering.some(({ geometry }) => geometry === 'solid-wedge'));
         assert.ok(rendered.diagnostics.stereoRendering.some(({ geometry }) => geometry === 'hashed-wedge'));
       }

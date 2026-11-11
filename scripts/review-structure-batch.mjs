@@ -96,6 +96,9 @@ export async function buildStructureReviewBatch({
         const scrollAttributes = isWide ? ' tabindex="0" aria-label="Wide chemical structure; scroll horizontally on a small screen"' : '';
         const notation = [
           item.notation,
+          structure.conventions?.openAttachmentCount
+            ? 'Short waves across bond ends mark connections to omitted portions; they are not wavy stereobonds.'
+            : null,
           structure.conventions?.unknownSingleBondCount
             ? 'A wavy single bond means that configuration is intentionally unspecified; it is not a polymer-continuation bond.'
             : null,

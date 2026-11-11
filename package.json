@@ -6,7 +6,7 @@
   "description": "A completeness-first, open-source-grounded reference for polymer families and materials.",
   "scripts": {
     "validate": "node scripts/validate-snapshot.mjs",
-    "test": "node --test",
+    "test": "node scripts/run-tests.mjs",
     "build": "node scripts/build.mjs",
     "import:snapshot": "node scripts/import-snapshot.mjs",
     "coverage": "node scripts/coverage.mjs",
@@ -17,7 +17,8 @@
     "structures:contact-sheet": "node scripts/structure-contact-sheet.mjs",
     "structures:update-goldens": "node scripts/update-structure-goldens.mjs",
     "structures:coverage": "node scripts/structure-coverage.mjs",
-    "check": "npm run validate && npm run structures:validate && npm run structures:coverage -- --strict && npm test && npm run build",
+    "history:validate": "python3 scripts/validate-structure-history.py --bundle public-data/structure-history/2026-11-10",
+    "check": "npm run validate && npm run history:validate && npm run structures:validate && npm run structures:coverage -- --strict && npm test && npm run build",
     "research": "node scripts/research.mjs"
   },
   "engines": {

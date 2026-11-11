@@ -1,0 +1,8 @@
+{
+  "schema": "wop-structure-audit-attestation-v2",
+  "snapshot_sha256": "ceebf0e27134c9f4a5db81bc935f11651f9c7d46408439843805d377c7b25ac2",
+  "presentation_sha256": "36a0258a96349d57bf13ed567619f588a62b7a37c482ba562b5c97eb84ddc2f3",
+  "live_uses": 1084,
+  "accepted_uses": 1084,
+  "review_complete": true
+}

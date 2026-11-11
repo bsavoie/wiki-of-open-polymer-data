@@ -21,6 +21,7 @@ representationType: undetermined | constitutional_repeat_unit |
 scopeNote: string
 sourceIds: string[]
 items: [{ structureId, label, fidelity, altText, caption, notation? }]
+architecture?: { kind: linear_blocks, blocks: string[], caption, altText, sourceIds }
 fidelity: exact | representative | schematic
 ```
 
@@ -49,6 +50,26 @@ duplicate an identical definition for formulation, grade, or article variants;
 do not share a definition when stereo, charge, constitution, coordinates, or
 S-group semantics differ. Audit all referencing entries before modifying a
 shared definition.
+
+## Optional block architecture schematic
+
+A sourced `block_or_graft_architecture` depiction may include an optional
+`architecture` annotation for a **representative linear sequence of blocks**.
+Its `kind` is `linear_blocks`; `blocks` is an ordered array of 2–6 non-empty
+labels (each at most 100 characters); `caption` and `altText` describe the
+chosen example and its limits. `sourceIds` is non-empty, identifies article
+sources supporting `structuralDepictions`, and is also a subset of the parent
+structural depiction source IDs. Research and review each architecture, its
+scope and all cited sources just as carefully as the structure items. Do not
+use the annotation for a pending record or to assert that one architecture
+represents every member of a broad family.
+
+The diagram is a non-chemical schematic, not a V3000 connection table or a
+replacement for the separately sourced chemical motifs and their canonical
+V3000 downloads. Block width does not convey length or composition. Do not
+infer a covalent atom-by-atom junction, middle-block sequence, proportion,
+branching or degree of polymerization from the diagram. Check caption, source
+links, assistive text, and desktop/mobile presentation for each new use.
 
 ## Review-state invariants
 

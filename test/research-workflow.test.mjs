@@ -3,8 +3,8 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
-import { prepareProposal, candidateForProposal, requestToPatch, reviewProposal, verifyReview, publishProposal, researchHash } from '../lib/research-workflow.mjs';
-import { importSnapshot } from '../lib/importer.mjs';
+import { prepareProposal, candidateForProposal, requestToPatch, reviewProposal, verifyReview, publishProposal, researchHash, researchHistoryDirectory } from '../lib/research-workflow.mjs';
+import { importSnapshot, SNAPSHOT_IMPORT_LOCK } from '../lib/importer.mjs';
 import { buildSite } from '../lib/site.mjs';
 
 const fixtureDirectory = path.resolve('fixtures/wop-publication-snapshot-v2');
@@ -91,6 +91,56 @@ async function storage(t) {
   return { snapshotDirectory, outputDirectory };
 }
 
+test('canonical research publication always selects the historical archive', () => {
+  const canonical = path.resolve('public-data/wop-publication-snapshot-v2');
+  const history = path.resolve('public-data/structure-history/2026-11-10');
+  assert.equal(researchHistoryDirectory(canonical), history);
+  assert.equal(researchHistoryDirectory(canonical, null), history);
+  assert.equal(researchHistoryDirectory(canonical, '/unrelated/history'), history);
+  assert.equal(researchHistoryDirectory(fixtureDirectory), null);
+  assert.equal(researchHistoryDirectory(fixtureDirectory, '/disposable/history'), '/disposable/history');
+});
+
+test('a symlinked canonical snapshot parent still selects the historical archive', async t => {
+  const root = await fs.mkdtemp(path.join(os.tmpdir(), 'wop-history-parent-'));
+  t.after(() => fs.rm(root, { recursive: true, force: true }));
+  const alias = path.join(root, 'public-data-alias');
+  await fs.symlink(path.resolve('public-data'), alias, 'dir');
+  assert.equal(
+    researchHistoryDirectory(path.join(alias, 'wop-publication-snapshot-v2')),
+    path.resolve('public-data/structure-history/2026-11-10')
+  );
+});
+
+test('research publication forwards its selected archive to the staged builder', async t => {
+  const paths = await storage(t);
+  const p = proposal();
+  const historyDirectory = path.join(path.dirname(paths.outputDirectory), 'history');
+  let actual;
+  await assert.rejects(publishProposal({ ...paths, proposal: p, review: approval(p), historyDirectory }, {
+    builder: async (_candidate, _output, options) => {
+      actual = options.historyDirectory;
+      throw new Error('Stopped before publication');
+    }
+  }), /Stopped before publication/);
+  assert.equal(actual, historyDirectory);
+});
+
+test('invalid research history archive leaves prior snapshot and site intact', async t => {
+  const paths = await storage(t);
+  const originalSnapshot = await fs.readFile(path.join(paths.snapshotDirectory, 'snapshot.json'));
+  const originalSite = await fs.readFile(path.join(paths.outputDirectory, 'index.html'));
+  const historyDirectory = path.join(path.dirname(paths.outputDirectory), 'corrupt-history');
+  await fs.cp(path.resolve('public-data/structure-history/2026-11-10'), historyDirectory, { recursive: true });
+  await fs.appendFile(path.join(historyDirectory, 'historical-structures.zip'), 'invalid');
+  const p = proposal();
+  await assert.rejects(publishProposal({ ...paths, proposal: p, review: approval(p), historyDirectory }, {
+    builder: (candidate, output, options) => buildSite(candidate, output, { ...options, allowExternal: true })
+  }), /historical structure archive or digest/i);
+  assert.deepEqual(await fs.readFile(path.join(paths.snapshotDirectory, 'snapshot.json')), originalSnapshot);
+  assert.deepEqual(await fs.readFile(path.join(paths.outputDirectory, 'index.html')), originalSite);
+});
+
 test('reviewed publication builds first and atomically publishes the candidate plus question history', async t => {
   const paths = await storage(t);
   const p = proposal();
@@ -103,6 +153,112 @@ test('reviewed publication builds first and atomically publishes the candidate p
   assert.equal(researchHash(published), researchHash(built));
   assert.equal(published.polymers[0].research.questions.length, 1);
   await assert.rejects(publishProposal({ ...paths, proposal: p, review: approval(p) }), /Snapshot changed/);
+});
+
+test('output-lock cleanup failure after a successful swap does not roll back the published snapshot', async t => {
+  const paths = await storage(t);
+  const p = proposal();
+  const lockPath = path.join(await fs.realpath(path.dirname(paths.outputDirectory)), `.${path.basename(paths.outputDirectory)}.wop-build.lock`);
+  const unlink = fs.unlink;
+  const warn = console.warn;
+  const warnings = [];
+  fs.unlink = async (file, ...args) => {
+    if (file === lockPath) throw Object.assign(new Error('Injected lock cleanup failure'), { code: 'EACCES' });
+    return unlink(file, ...args);
+  };
+  console.warn = message => warnings.push(message);
+  let result;
+  try {
+    result = await publishProposal({ ...paths, proposal: p, review: approval(p) }, {
+      builder: (candidate, output, options) => buildSite(candidate, output, { ...options, allowExternal: true })
+    });
+  } finally {
+    fs.unlink = unlink;
+    console.warn = warn;
+  }
+  const published = JSON.parse(await fs.readFile(path.join(paths.snapshotDirectory, 'snapshot.json'), 'utf8'));
+  const built = JSON.parse(await fs.readFile(path.join(paths.outputDirectory, 'data/wop-publication-snapshot-v2/snapshot.json'), 'utf8'));
+  assert.equal(result.proposalId, p.proposalId);
+  assert.equal(researchHash(published), researchHash(built));
+  assert.equal(published.polymers[0].research.questions.length, 1);
+  assert.match(warnings.join('\n'), /output-lock cleanup was incomplete/);
+  assert.ok((await fs.lstat(lockPath)).isFile());
+});
+
+for (const lockKind of ['snapshot import', 'research publication']) {
+  test(`${lockKind} lock cleanup failure preserves a successful snapshot/site publication`, async t => {
+    const paths = await storage(t);
+    const p = proposal();
+    const parent = lockKind === 'snapshot import'
+      ? await fs.realpath(path.dirname(paths.snapshotDirectory)) : path.dirname(paths.snapshotDirectory);
+    const lockPath = path.join(parent, lockKind === 'snapshot import' ? SNAPSHOT_IMPORT_LOCK : '.wop-research-publication.lock');
+    const unlink = fs.unlink, warn = console.warn, warnings = [];
+    fs.unlink = async (file, ...args) => {
+      if (file === lockPath) throw Object.assign(new Error('Injected lock cleanup failure'), { code: 'EACCES' });
+      return unlink(file, ...args);
+    };
+    console.warn = message => warnings.push(message);
+    let result;
+    try {
+      result = await publishProposal({ ...paths, proposal: p, review: approval(p) }, {
+        builder: (candidate, output, options) => buildSite(candidate, output, { ...options, allowExternal: true })
+      });
+    } finally {
+      fs.unlink = unlink;
+      console.warn = warn;
+    }
+    const published = JSON.parse(await fs.readFile(path.join(paths.snapshotDirectory, 'snapshot.json'), 'utf8'));
+    const built = JSON.parse(await fs.readFile(path.join(paths.outputDirectory, 'data/wop-publication-snapshot-v2/snapshot.json'), 'utf8'));
+    assert.equal(result.proposalId, p.proposalId);
+    assert.equal(researchHash(published), researchHash(built));
+    assert.equal(published.polymers[0].research.questions.length, 1);
+    assert.match(warnings.join('\n'), /lock cleanup was incomplete/);
+    assert.ok((await fs.lstat(lockPath)).isFile());
+  });
+}
+
+test('research lock cleanup failure preserves an earlier publication error and prior data', async t => {
+  const paths = await storage(t), p = proposal();
+  const original = await fs.readFile(path.join(paths.snapshotDirectory, 'snapshot.json'));
+  const html = await fs.readFile(path.join(paths.outputDirectory, 'index.html'));
+  const lockPath = path.join(path.dirname(paths.snapshotDirectory), '.wop-research-publication.lock');
+  const unlink = fs.unlink, warn = console.warn, warnings = [];
+  fs.unlink = async (file, ...args) => {
+    if (file === lockPath) throw Object.assign(new Error('Injected lock cleanup failure'), { code: 'EACCES' });
+    return unlink(file, ...args);
+  };
+  console.warn = message => warnings.push(message);
+  try {
+    await assert.rejects(publishProposal({ ...paths, proposal: p, review: approval(p) }, {
+      builder: async () => { throw new Error('Injected publication failure'); }
+    }), /Injected publication failure/);
+  } finally {
+    fs.unlink = unlink;
+    console.warn = warn;
+  }
+  assert.deepEqual(await fs.readFile(path.join(paths.snapshotDirectory, 'snapshot.json')), original);
+  assert.deepEqual(await fs.readFile(path.join(paths.outputDirectory, 'index.html')), html);
+  assert.match(warnings.join('\n'), /Research publication lock cleanup was incomplete/);
+});
+
+test('research publication does not remove a replaced lock', async t => {
+  const paths = await storage(t), p = proposal();
+  const lockPath = path.join(path.dirname(paths.snapshotDirectory), '.wop-research-publication.lock');
+  const warn = console.warn, warnings = [];
+  console.warn = message => warnings.push(message);
+  try {
+    await assert.rejects(publishProposal({ ...paths, proposal: p, review: approval(p) }, {
+      builder: async () => {
+        await fs.unlink(lockPath);
+        await fs.writeFile(lockPath, 'replacement lock');
+        throw new Error('Injected publication failure');
+      }
+    }), /Injected publication failure/);
+  } finally {
+    console.warn = warn;
+  }
+  assert.equal(await fs.readFile(lockPath, 'utf8'), 'replacement lock');
+  assert.match(warnings.join('\n'), /Research publication lock cleanup was incomplete/);
 });
 
 test('failed build or post-import site swap retains the prior snapshot bytes and site', async t => {
@@ -120,6 +276,52 @@ test('failed build or post-import site swap retains the prior snapshot bytes and
     assert.equal(await fs.readFile(path.join(paths.snapshotDirectory, 'snapshot.json'), 'utf8'), original);
     assert.equal(await fs.readFile(path.join(paths.outputDirectory, 'index.html'), 'utf8'), html);
   }
+});
+
+test('research publication holds the import lock between its snapshot import and site swap', async t => {
+  const paths = await storage(t), p = proposal();
+  const competingSource = path.join(path.dirname(paths.snapshotDirectory), 'competing-source');
+  await fs.mkdir(competingSource);
+  const competing = candidateForProposal(snapshot, p);
+  competing.methodology.scope += ' Additional independent import.';
+  await fs.writeFile(path.join(competingSource, 'snapshot.json'), JSON.stringify(competing));
+  const rename = fs.rename;
+  let attempted = false;
+  fs.rename = async (source, destination, ...args) => {
+    if (!attempted && source === paths.outputDirectory) {
+      attempted = true;
+      await assert.rejects(importSnapshot(competingSource, paths.snapshotDirectory), /Another snapshot import holds the lock/);
+    }
+    return rename(source, destination, ...args);
+  };
+  try {
+    await publishProposal({ ...paths, proposal: p, review: approval(p) }, {
+      builder: (candidate, output, options) => buildSite(candidate, output, { ...options, allowExternal: true })
+    });
+  } finally {
+    fs.rename = rename;
+  }
+  assert.equal(attempted, true);
+  const published = JSON.parse(await fs.readFile(path.join(paths.snapshotDirectory, 'snapshot.json'), 'utf8'));
+  const built = JSON.parse(await fs.readFile(path.join(paths.outputDirectory, 'data/wop-publication-snapshot-v2/snapshot.json'), 'utf8'));
+  assert.equal(researchHash(published), researchHash(built));
+  await importSnapshot(competingSource, paths.snapshotDirectory);
+});
+
+test('research publication retains its import lock through snapshot rollback', async t => {
+  const paths = await storage(t), p = proposal();
+  const original = await fs.readFile(path.join(paths.snapshotDirectory, 'snapshot.json'));
+  const html = await fs.readFile(path.join(paths.outputDirectory, 'index.html'));
+  await assert.rejects(publishProposal({ ...paths, proposal: p, review: approval(p) }, {
+    builder: async (_candidate, _output, { beforePublish }) => {
+      await beforePublish();
+      await assert.rejects(importSnapshot(fixtureDirectory, paths.snapshotDirectory), /Another snapshot import holds the lock/);
+      throw new Error('Injected site swap failure');
+    }
+  }), /Injected site swap failure/);
+  assert.deepEqual(await fs.readFile(path.join(paths.snapshotDirectory, 'snapshot.json')), original);
+  assert.deepEqual(await fs.readFile(path.join(paths.outputDirectory, 'index.html')), html);
+  await importSnapshot(fixtureDirectory, paths.snapshotDirectory);
 });
 
 test('an edit made during rendering cancels publication without overwriting it', async t => {

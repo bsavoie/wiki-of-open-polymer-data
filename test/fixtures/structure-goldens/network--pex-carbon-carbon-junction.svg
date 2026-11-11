@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="318" height="224" viewBox="1889 1936 318 224">
+<svg xmlns="http://www.w3.org/2000/svg" width="324" height="242" viewBox="1886 1925 324 242">
   <path d="M 2010.5 1961.7 L 2034 1966.6" fill="none" fill-rule="evenodd" stroke="#191919" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"/>
   <path d="M 2034 1966.6 L 2057.5 1971.5" fill="none" fill-rule="evenodd" stroke="#000000" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"/>
   <path d="M 2057.5 1971.5 L 2072.5 2017.1" fill="none" fill-rule="evenodd" stroke="#000000" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"/>
@@ -20,4 +20,8 @@
   <path d="M 1995.9 2043.6 L 1993.5 2043.1 L 1991.9 2044.9" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1"/>
   <path d="M 1963.1 2077.1 L 1961.5 2078.9 L 1960.3 2078.6" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1"/>
   <path d="M 2054.7 2096.2 L 2055.5 2098.5 L 2054.7 2099.4" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-opacity="1"/>
+  <path d="M 2008.254673 1972.468403 Q 2006.368641 1969.266001 2009.377337 1967.084202 Q 2012.386033 1964.902402 2010.5 1961.7 Q 2008.613967 1958.497598 2011.622663 1956.315798 Q 2014.631359 1954.133999 2012.745327 1950.931597" fill="none" stroke="#191919" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 2183.767269 2071.636195 Q 2185.646771 2074.842435 2182.633635 2077.018098 Q 2179.620498 2079.19376 2181.5 2082.4 Q 2183.379502 2085.60624 2180.366365 2087.781902 Q 2177.353229 2089.957565 2179.232731 2093.163805" fill="none" stroke="#191919" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 1912.254673 2079.868403 Q 1910.368641 2076.666001 1913.377337 2074.484202 Q 1916.386033 2072.302402 1914.5 2069.1 Q 1912.613967 2065.897598 1915.622663 2063.715798 Q 1918.631359 2061.533999 1916.745327 2058.331597" fill="none" stroke="#191919" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 2031.701248 2141.630725 Q 2027.984862 2141.661964 2027.600624 2137.965362 Q 2027.216386 2134.268761 2023.5 2134.3 Q 2019.783614 2134.331239 2019.399376 2130.634638 Q 2019.015138 2126.938036 2015.298752 2126.969275" fill="none" stroke="#191919" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

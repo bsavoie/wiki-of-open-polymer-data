@@ -1,8 +1,11 @@
 dist/
 outputs/
 node_modules/
+__pycache__/
+*.py[cod]
 .dist-build-*/
 .dist-previous-*/
+.dist.wop-build.lock
 public-data/.wop-publication-snapshot-v1.next-*/
 public-data/.wop-publication-snapshot-v1.previous-*/
 public-data/.wop-publication-snapshot-v2.next-*/

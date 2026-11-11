@@ -1,0 +1,422 @@
+{
+  "acrylic-rubber-alkyl-acrylate-markush-segment": {
+    "reason": "The adjacent acrylate combinations and regiochemistry were more specific than the cited evidence established.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "alkyd-glycerol-phthalate-fatty-motif": {
+    "reason": "The prior structure attached a specific cis-oleate ester to a terminal glycerol carbon without a source establishing that precise joint connectivity. The successor is a source-illustrated central-glycerol local example with the fatty chain truncated.",
+    "status": "withdrawn",
+    "successorStructureId": "alkyd-central-glycerol-phthalate-open-fragment"
+  },
+  "amylopectin-alpha-1-6-branch-motif": {
+    "reason": "The previous one-residue picture did not show a connected alpha-1,6 branch bond.",
+    "status": "withdrawn",
+    "successorStructureId": "amylopectin-branched-triglucosyl-motif"
+  },
+  "aromatic-polyamide-imide-motif": {
+    "reason": "The former n-bracketed repeat implied a uniform chain sequence despite the source showing multiple local linkage patterns; a source-bounded open local example now illustrates this specific connection.",
+    "status": "withdrawn",
+    "successorStructureId": "pai-meta-phenylene-open-example"
+  },
+  "aromatic-polybenzimidazole-motif": {
+    "reason": "The structure differed from the named reference example selected in the audit.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "aromatic-polyetherimide-motif": {
+    "reason": "The former repeat boundary made a direct aromatic junction inconsistent with the named source example.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "aromatic-polyimide-motif": {
+    "reason": "The former repeat boundary produced an aromatic junction inconsistent with the cited PMDA–ODA example.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "aromatic-polyoxadiazole-motif": {
+    "reason": "The former repeated structure implied a specific biphenyl connection not established by the mapped example; source-bounded open local fragments now illustrate distinct examples.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "cellulose-trisubstitution-markush-motif": {
+    "reason": "The former diagram assigned substituent sites differently from the corrected structure.",
+    "status": "withdrawn",
+    "successorStructureId": "cellulose-trisubstitution-corrected-markush-motif"
+  },
+  "chitosan-glucosamine-unit": {
+    "reason": "The former n-bracketed glucosamine repeat implied a uniform homopolymer within a chitosan entry that describes variable acetylation and sequence; an open local residue now represents that constituent.",
+    "status": "withdrawn",
+    "successorStructureId": "chitosan-glucosamine-open-residue"
+  },
+  "cis-ppv-unit": {
+    "reason": "Accessible source diagrams were insufficient to establish this precise ideal unsubstituted stereochemical repeat. The entry explicitly discloses the figure gap; withdrawal does not assert that the former structure is chemically impossible.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "cpe-mixed-chlorination-local-segment": {
+    "reason": "The longer chlorinated arrangement was more specific than the cited evidence established.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "cpvc-variable-chlorination-local-segment": {
+    "reason": "The particular five-carbon arrangement was not established by the mapped source.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "cspe-chlorine-chlorosulfonyl-local-segment": {
+    "reason": "The source supported constituent units but not the specific adjacent sequence shown.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "dimethylolbenzoguanamine-precursor": {
+    "reason": "The former dimethylolbenzoguanamine structure assigned specific hydroxymethyl positions not established by its mapped source; a separately sourced substituted precursor example is shown instead.",
+    "status": "withdrawn",
+    "successorStructureId": "tetramethylol-ortho-hydroxybenzoguanamine-example"
+  },
+  "elastane-mdi-urea-ptmeg-connected-architecture": {
+    "reason": "The former connected chemical architecture was replaced by a schematic and separate source-qualified constituent motifs.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "epdm-enb-cure-site-motif": {
+    "reason": "The former cure-site depiction was withdrawn; a source-qualified replacement remains a figure gap.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "epoxy-novolac-glycidyl-motif": {
+    "reason": "The former local ring linkage positions were not established by its source; the successor is a source-bounded open schematic example with positional and preparation limitations.",
+    "status": "withdrawn",
+    "successorStructureId": "epoxy-cresol-li-fig1-open-motif"
+  },
+  "four-aminophenoxy-phthalonitrile-cure-promoter": {
+    "reason": "The former role-specific label was not directly established by retained accessible sources. The same finite molecule is retained under a role-neutral identifier; a patent lists it as a reactive diluent and cites a prior self-cure study.",
+    "status": "withdrawn",
+    "successorStructureId": "four-aminophenoxy-phthalonitrile"
+  },
+  "hdi-urethane-motif": {
+    "reason": "The corrected record is an open local segment rather than an n-fold repeat.",
+    "status": "withdrawn",
+    "successorStructureId": "hdi-urethane-open-segment"
+  },
+  "isotactic-polypropylene-dyad": {
+    "reason": "The corrected stereodyad uses revised connectivity and stereochemical representation.",
+    "status": "withdrawn",
+    "successorStructureId": "isotactic-polypropylene-corrected-dyad"
+  },
+  "mdi-urethane-hard-segment-motif": {
+    "reason": "The corrected record is an open local segment rather than an n-fold repeat.",
+    "status": "withdrawn",
+    "successorStructureId": "mdi-urethane-hard-open-segment"
+  },
+  "meh-ppv-trans-unit": {
+    "reason": "The former description of a trans local unit obscured that the n-bracket encodes an ideal all-trans repeat. The successor explicitly identifies this idealized reference and does not claim uniform geometry in an experimental sample.",
+    "status": "withdrawn",
+    "successorStructureId": "meh-ppv-ideal-all-trans-repeat"
+  },
+  "melamine-formaldehyde-network-junction": {
+    "reason": "The former simultaneous three-arm network junction was more specific than the mapped evidence; a finite methylolated melamine precursor example is shown instead.",
+    "status": "withdrawn",
+    "successorStructureId": "hexamethylolmelamine-precursor-example"
+  },
+  "methyl-trifluoropropyl-siloxane-unit": {
+    "reason": "The former n-bracketed homopolymer unit implied a uniform repeat within a fluorosilicone composition. The successor is an open constituent example that does not assign co-occurrence on one chain, adjacency, sequence, ratio, or cured-network structure.",
+    "status": "withdrawn",
+    "successorStructureId": "fvmq-open-trifluoropropylmethyl-unit"
+  },
+  "methyl-vinyl-siloxane-unit": {
+    "reason": "The former n-bracketed homopolymer unit implied a uniform repeat within a fluorosilicone composition. The successor is an open constituent example that does not assign co-occurrence on one chain, adjacency, sequence, ratio, or cured-network structure.",
+    "status": "withdrawn",
+    "successorStructureId": "vmq-open-methylvinyl-unit"
+  },
+  "novolac-phenolic-network-motif": {
+    "reason": "The former two-ring segment encoded an extended combination of methylene-bridge positions not directly established by the mapped evidence; it was replaced by bounded examples.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "novoloid-phenolic-network-fragment": {
+    "reason": "The former three-continuation phenolic network junction was more specific than the mapped novoloid source; a generic open novolac precursor example is shown instead.",
+    "status": "withdrawn",
+    "successorStructureId": "novolac-ortho-para-open-phenol"
+  },
+  "o-cresol-epoxy-novolac-vinyl-ester-source-motif": {
+    "reason": "The former depiction asserted aromatic bridge positions not unambiguously established by the source. The successor retains only the source-visible methacrylate side chain with its aromatic attachment and other omitted topology explicitly bounded.",
+    "status": "withdrawn",
+    "successorStructureId": "novolac-methacrylate-open-side-chain"
+  },
+  "oda-ppta-unit": {
+    "reason": "A bracketed homopolymer repeat implied uniform repetition in a copolymer example.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "p3ht-head-to-tail-dyad": {
+    "reason": "The former drawing included an n-bracket despite describing a local dyad.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "pamam-amidoamine-branching-motif": {
+    "reason": "The former motif assigned secondary amine valence to both distal nitrogen endpoints even though the source did not establish those states. The successor truncates the arms before the ambiguous nitrogens.",
+    "status": "withdrawn",
+    "successorStructureId": "pamam-truncated-open-branch-environment"
+  },
+  "pdadmac-pyrrolidinium-chloride-unit": {
+    "reason": "The former repeat omitted methylene connectivity and placed a single chloride outside the n-fold charged group.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "pdap-network-fragment": {
+    "reason": "The four-continuation local network junction was not verified for its precise connectivity by a directly illustrated source. The successor is the separately source-verified finite diallyl phthalate precursor; variable prepolymer and cured network are not depicted.",
+    "status": "withdrawn",
+    "successorStructureId": "diallyl-phthalate-monomer"
+  },
+  "peba-pa12-ptmeg-connected-architecture": {
+    "reason": "The polyether repeat membership and crossing bonds were corrected.",
+    "status": "withdrawn",
+    "successorStructureId": "peba-pa12-ptmeg-corrected-architecture"
+  },
+  "peo-ppo-peo-connected-aba-architecture": {
+    "reason": "The prior schematic did not disclose that its repeated PPO segment assumes a uniform connection sense and omits the two-ended starter junction. The same connection table is now explicitly limited as an ideal block-order reference.",
+    "status": "withdrawn",
+    "successorStructureId": "poloxamer-ideal-peo-ppo-peo-block-schematic"
+  },
+  "pfsa-long-side-chain-sulfonic-acid-unit": {
+    "reason": "The separate bracketed side-chain-bearing repeat appeared to represent a homopolymer in a copolymer example.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "poly-1-octene-sru": {
+    "reason": "The separate bracketed repeat appeared to represent a homopolymer in a copolymer example.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "poly-3-hexylthiophene-unit": {
+    "reason": "The former family-example drawing was replaced with a more legible, scope-qualified local fragment.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "poly-3-hydroxybutyrate-unit": {
+    "reason": "The current structure has a different V3000 chiral flag; the earlier and current records are separately identified.",
+    "status": "withdrawn",
+    "successorStructureId": "poly-3-hydroxybutyrate-chiral-unit"
+  },
+  "poly-3-hydroxyhexanoate-unit": {
+    "reason": "The separate n-fold homopolymer-like card was replaced in a copolymer example by a bounded connected local segment.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "poly-3-hydroxyvalerate-unit": {
+    "reason": "The separate n-fold homopolymer-like card was replaced in a copolymer example by a bounded connected local segment.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "poly-9-9-dimethylfluorene-motif": {
+    "reason": "The former general motif description did not disclose that its n-bracketed structure encodes a uniform 2,7-linked 9,9-dimethylfluorene repeat. The successor explicitly identifies this ideal reference; actual copolymers and other substitution patterns can differ.",
+    "status": "withdrawn",
+    "successorStructureId": "poly-9-9-dimethylfluorene-ideal-27-repeat"
+  },
+  "poly-d-lactide-unit": {
+    "reason": "The current structure has a different V3000 chiral flag; the earlier and current records are separately identified.",
+    "status": "withdrawn",
+    "successorStructureId": "poly-d-lactide-chiral-unit"
+  },
+  "poly-hydroxynaphthoate-sru": {
+    "reason": "The n-bracketed homopolymer repeat overstated a particular uniform chain for a copolyester with variable constituent proportions and sequence; an open local residue now illustrates that constituent.",
+    "status": "withdrawn",
+    "successorStructureId": "lcp-hydroxynaphthoate-open-residue"
+  },
+  "poly-l-lactide-unit": {
+    "reason": "The current structure has a different V3000 chiral flag; the earlier and current records are separately identified.",
+    "status": "withdrawn",
+    "successorStructureId": "poly-l-lactide-chiral-unit"
+  },
+  "poly-p-hydroxybenzoate-sru": {
+    "reason": "The n-bracketed homopolymer repeat overstated a particular uniform chain for a copolyester with variable constituent proportions and sequence; an open local residue now illustrates that constituent.",
+    "status": "withdrawn",
+    "successorStructureId": "lcp-hydroxybenzoate-open-residue"
+  },
+  "poly-perfluoromethyl-vinyl-ether-sru": {
+    "reason": "A bracketed homopolymer repeat was replaced by an open constituent motif in copolymer examples.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "poly-r-3-hydroxyalkanoate-markush-unit": {
+    "reason": "The current structure has a different V3000 chiral flag; the earlier and current records are separately identified.",
+    "status": "withdrawn",
+    "successorStructureId": "poly-r-3-hydroxyalkanoate-chiral-markush-unit"
+  },
+  "polyaniline-benzenoid-amine-motif": {
+    "reason": "The former record was described as a local motif despite its n-bracketed fully reduced uniform repeat. The same connection table is now identified as an ideal leucoemeraldine repeat with its limiting oxidation and protonation scope explicit.",
+    "status": "withdrawn",
+    "successorStructureId": "polyaniline-ideal-leucoemeraldine-repeat"
+  },
+  "polybenzoxazine-mannich-network-motif": {
+    "reason": "The former network fragment encoded an ortho/para substitution arrangement whose precise connected local pattern was not established by mapped sources. The successor is a bounded ortho/ortho fragment from a directly illustrated example; full sample and network are not depicted.",
+    "status": "withdrawn",
+    "successorStructureId": "polybenzoxazine-ortho-mannich-open-fragment"
+  },
+  "polybutylene-adipate-unit": {
+    "reason": "A bracketed homopolymer repeat was replaced by open local constituent representations in copolymer examples.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "polyfluorene-unsubstituted-motif": {
+    "reason": "The precise continuation positions of the former unsubstituted n-repeat were not established by accessible source diagrams. The entry now explicitly discloses this figure gap; this withdrawal does not assert that the former graph is chemically impossible.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "polyfurfuryl-alcohol-network-motif": {
+    "reason": "The specific three-methylene furan junction was not established by the mapped structural source.",
+    "status": "withdrawn",
+    "successorStructureId": "pfa-open-linear-furan-methylene-fragment"
+  },
+  "polyhema-unit": {
+    "reason": "This historical file has the same indexed structure semantics as the current record but uses earlier depiction coordinates.",
+    "status": "historical-layout",
+    "successorStructureId": "polyhema-unit"
+  },
+  "polyhexafluoropropylene-sru": {
+    "reason": "A bracketed homopolymer repeat was replaced by open constituent motifs in copolymer examples.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "polylactide-unspecified-unit": {
+    "reason": "A bracketed homopolymer repeat was replaced by open constituent representations in a copolymer example.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "polymaleic-anhydride-sru": {
+    "reason": "A bracketed homopolymer repeat was replaced with a source-qualified open local constituent for the copolymer example.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "polymethacrylic-acid-sru": {
+    "reason": "The separate bracketed repeat appeared to represent a homopolymer in a copolymer example.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "polyurea-linkage-motif": {
+    "reason": "The corrected record is an open local linkage rather than an n-fold repeat.",
+    "status": "withdrawn",
+    "successorStructureId": "polyurea-open-linkage"
+  },
+  "polyvinyl-butyral-acetal-motif": {
+    "reason": "The corrected record is an open local acetal segment rather than an n-fold repeat.",
+    "status": "withdrawn",
+    "successorStructureId": "polyvinyl-butyral-acetal-open-motif"
+  },
+  "polyvinyl-formal-acetal-motif": {
+    "reason": "The corrected record is an open local acetal segment rather than an n-fold repeat.",
+    "status": "withdrawn",
+    "successorStructureId": "polyvinyl-formal-acetal-open-motif"
+  },
+  "resole-phenolic-network-motif": {
+    "reason": "The former ring encoded a hydroxymethyl group and two specific methylene continuations that were not established together by the cited source.",
+    "status": "withdrawn",
+    "successorStructureId": "resole-ortho-methylol-open-phenol"
+  },
+  "san-styrene-acrylonitrile-local-segment": {
+    "reason": "This historical file has the same indexed structure semantics as the current record but uses earlier depiction coordinates.",
+    "status": "historical-layout",
+    "successorStructureId": "san-styrene-acrylonitrile-local-segment"
+  },
+  "sebs-connected-aba-block-architecture": {
+    "reason": "The former middle-block SRU encoded a periodic sequence beyond the scope of the family illustration.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "sebs-saturated-midblock-motif": {
+    "reason": "The uniform bracketed segment implied a microstructure not established across the family.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "seeps-connected-multiblock-architecture": {
+    "reason": "The former middle-block SRU encoded a periodic sequence beyond the scope of the family illustration.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "seps-connected-aba-block-architecture": {
+    "reason": "The former middle-block SRU encoded a periodic sequence and did not match the cited hydrogenated 1,4-isoprene constituent.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "silk-fibroin-gagags-motif": {
+    "reason": "The former motif wording did not disclose that its n-bracket encodes a uniform GAGAGS sequence. The successor explicitly identifies an ideal repeat; natural fibroin contains varied sequences and the illustrated chain is not an asserted exact extract.",
+    "status": "withdrawn",
+    "successorStructureId": "silk-fibroin-ideal-gagags-repeat"
+  },
+  "sis-connected-aba-block-architecture": {
+    "reason": "The former general architecture description obscured that its n-bracketed middle block encodes a uniform 1,4-isoprene connection sense. The successor explicitly labels that idealized scope; actual SIS isoprene microstructure can vary.",
+    "status": "withdrawn",
+    "successorStructureId": "sis-ideal-14-midblock-architecture"
+  },
+  "sodium-guluronate-unit": {
+    "reason": "The n-fold anionic repeat excluded the single sodium ion from its repeating group and did not express arbitrary-n charge balance.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "sodium-mannuronate-unit": {
+    "reason": "The n-fold anionic repeat excluded the single sodium ion from its repeating group and did not express arbitrary-n charge balance.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "sodium-polyacrylate-sru": {
+    "reason": "The n-fold anionic repeat excluded the single sodium ion from its repeating group; separate homopolymer cards also failed to depict the copolymer.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "sodium-polystyrenesulfonate-unit": {
+    "reason": "The n-fold anionic repeat excluded the single sodium ion from its repeating group and did not express arbitrary-n charge balance.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "sulfonated-peek-motif": {
+    "reason": "The former n-bracketed sulfonated repeat implied uniform substitution despite the entry describing variable sulfonation; an open local fragment now makes the chain-wide distribution unspecified.",
+    "status": "withdrawn",
+    "successorStructureId": "speek-sulfonated-open-local-fragment"
+  },
+  "syndiotactic-polypropylene-dyad": {
+    "reason": "The corrected stereodyad uses revised connectivity and stereochemical representation.",
+    "status": "withdrawn",
+    "successorStructureId": "syndiotactic-polypropylene-corrected-dyad"
+  },
+  "thermoset-polyurethane-junction": {
+    "reason": "The former general network-junction description exceeded the directly illustrated source, which depicts a glycerol-derived three-urethane fragment of a separate isocyanate-capped precursor. The successor explicitly identifies that narrower precursor scope; the selected oligoether-triol network is not depicted.",
+    "status": "withdrawn",
+    "successorStructureId": "glycerol-trisurethane-precursor-fragment"
+  },
+  "tpc-pbt-ptmeg-connected-architecture": {
+    "reason": "The former polyether repeat boundary joined oxygen to oxygen when repeated, inconsistent with the cited PTMEG structure.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "tpu-ptmeg-mdi-ptmeg-connected-architecture": {
+    "reason": "The corrected architecture depicts an extended connected segment.",
+    "status": "withdrawn",
+    "successorStructureId": "tpu-ptmeg-mdi-extended-connected-architecture"
+  },
+  "tpv-epdm-enb-connected-local-motif": {
+    "reason": "The connected rubber segment encoded a specific local constituent adjacency not established by the source.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "trans-ppv-unit": {
+    "reason": "Accessible source diagrams were insufficient to establish this precise ideal unsubstituted stereochemical repeat. The entry explicitly discloses the figure gap; withdrawal does not assert that the former structure is chemically impossible.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "urea-formaldehyde-network-junction": {
+    "reason": "The former three-continuation urea junction was more specific than the available UF and MUF structural evidence; it was replaced by a bounded finite methylolurea example.",
+    "status": "withdrawn",
+    "successorStructureId": "dimethylolurea-precursor-example"
+  },
+  "xnbr-acrylonitrile-butadiene-methacrylic-acid-local-segment": {
+    "reason": "The connected triad encoded a specific adjacent order beyond the available evidence.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  },
+  "xsbr-styrene-butadiene-acrylic-acid-local-segment": {
+    "reason": "The connected triad encoded a specific adjacent order beyond the available evidence.",
+    "status": "withdrawn",
+    "successorStructureId": null
+  }
+}

@@ -18,6 +18,7 @@ and record-contract references. Then read both references for this skill:
   fields, evidence mapping, review states, and canonical V3000 requirements.
 - [Style guide](references/style-guide.md) defines representation choices,
   drawing conventions, captions, accessibility text, and the renderer boundary.
+- For a careful redraw or corpus audit, read [drawing and corpus review](references/drawing-and-corpus-review.md) for the inventory, chemistry checks, independent inspection, and goal–inspect–improve loop.
 
 Edit only the authoritative publication snapshot. Generated SVG, `.mol`, and
 `dist/` files are build products, never authoring sources.
@@ -88,6 +89,11 @@ Keep the independently accepted isotactic-polypropylene dyad, PEDOT:PSS
 two-component presentation, and connected PS_x–PB_y–PS_z architecture in the
 renderer golden set. Any future renderer or style version must pass all three
 again; a normalized hash match does not replace chemical and visual review.
+
+The accepted style v6 adds a perpendicular free-valence mark at each terminal
+attachment that is not already identified by a repeat-group boundary. It does not
+change a stereobond or canonical V3000; see the style guide for the trial and
+visible notation.
 
 The synthesis-pilot bracket review established style v5: readable repeat
 subscripts are positioned independently below/right of their own exit bracket,

@@ -1,4 +1,25 @@
 (() => {
+  // With JavaScript disabled the regions remain focusable. Once enhanced,
+  // avoid a tab stop and scroll hint when the visible figure actually fits.
+  const structureScrollRegions = [...document.querySelectorAll('[data-structure-scroll]')];
+  let refreshStructureScroll = () => {};
+  if (structureScrollRegions.length) {
+    const syncStructureScroll = (region) => {
+      const overflowing = region.clientWidth > 0 && region.scrollWidth > region.clientWidth + 1;
+      region.tabIndex = overflowing ? 0 : -1;
+      region.classList.toggle('is-not-overflowing', !overflowing);
+    };
+    refreshStructureScroll = () => structureScrollRegions.forEach(syncStructureScroll);
+    if (typeof ResizeObserver === 'function') {
+      const observer = new ResizeObserver((entries) => entries.forEach(({ target }) => syncStructureScroll(target)));
+      structureScrollRegions.forEach((region) => observer.observe(region));
+    }
+    addEventListener('resize', refreshStructureScroll);
+    document.addEventListener('click', () => requestAnimationFrame(refreshStructureScroll));
+    addEventListener('load', refreshStructureScroll, { once: true });
+    refreshStructureScroll();
+  }
+
   const systems = [
     ...[...document.querySelectorAll('[data-article-tabs]')].map((root) => ({
       root,
@@ -60,6 +81,7 @@
         tab.tabIndex = selected ? 0 : -1;
       }
       for (const panel of panels) panel.hidden = panel.id !== targetId;
+      requestAnimationFrame(refreshStructureScroll);
       bringTabIntoView(nextTab);
       if (restoreFocus) nextTab.focus({ preventScroll: true });
       if (surfaceTop !== null) {
@@ -253,6 +275,8 @@
     previous.addEventListener('click', () => goTo(activeIndex - 1));
     next.addEventListener('click', () => goTo(activeIndex + 1));
     track.addEventListener('keydown', (event) => {
+      // Nested structure scroll regions have their own native arrow-key behavior.
+      if (event.target !== track) return;
       if (event.key === 'ArrowRight') goTo(activeIndex + 1);
       else if (event.key === 'ArrowLeft') goTo(activeIndex - 1);
       else if (event.key === 'Home') goTo(0);

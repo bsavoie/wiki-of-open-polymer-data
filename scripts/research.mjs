@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { validateSnapshot } from '../lib/schema.mjs';
 import { summarizeResearch } from '../lib/research.mjs';
 import { buildSite } from '../lib/site.mjs';
-import { prepareProposal, candidateForProposal, requestToPatch, reviewProposal, publishProposal } from '../lib/research-workflow.mjs';
+import { prepareProposal, candidateForProposal, requestToPatch, reviewProposal, publishProposal, researchHistoryDirectory } from '../lib/research-workflow.mjs';
 
 const repository = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const snapshotDirectory = path.join(repository, 'public-data/wop-publication-snapshot-v2');
@@ -82,7 +82,10 @@ try {
         if (!options.out) throw new Error('--out is required');
         const output = path.resolve(options.out);
         if (path.dirname(output) !== path.join(repository, 'outputs')) throw new Error('Preview must be a direct child of outputs/');
-        const result = await buildSite(candidateForProposal(snapshot, document), output, { siteUrl: process.env.WOP_SITE_URL || null });
+        const result = await buildSite(candidateForProposal(snapshot, document), output, {
+          siteUrl: process.env.WOP_SITE_URL || null,
+          historyDirectory: researchHistoryDirectory(snapshotDirectory)
+        });
         console.log(`Candidate preview: ${result.output}`);
       } else if (command === 'review') {
         await write(reviewProposal(snapshot, document, options));

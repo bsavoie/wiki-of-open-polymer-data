@@ -29,6 +29,49 @@
   letter-spacing: -.025em;
   line-height: 1.14;
 }
+.article-profile__identity h1.article-title--long { font-size: clamp(1.65rem, 2.2vw, 2rem); }
+
+/* Preserve readable labels in chemically dense figures without enlarging simple repeats. */
+.article-profile__hero .structure-card__image--complex img { max-height: 420px; }
+.reaction-scheme .structure-card__image--complex { height: auto; min-height: 205px; }
+.reaction-scheme .structure-card__image--complex img { max-height: 420px; width: 100%; max-width: 100%; }
+.complex-scroll-hint { display: none; }
+.contextual-structure-preview .structure-card__image--complex-scroll,
+.section-structures .structure-card__image--complex-scroll,
+.reaction-reagents .structure-card__image--complex-scroll,
+.reaction-scheme .structure-card__image--complex-scroll { justify-content: start; justify-items: start; overflow-x: auto; overscroll-behavior-inline: contain; scrollbar-width: thin; }
+.section-structures .structure-card__image--complex-scroll,
+.reaction-reagents .structure-card__image--complex-scroll,
+.reaction-scheme .structure-card__image--complex-scroll { height: auto; min-height: 205px; }
+.contextual-structure-preview .structure-card__image--complex-scroll img,
+.section-structures .structure-card__image--complex-scroll img,
+.reaction-reagents .structure-card__image--complex-scroll img,
+.reaction-scheme .structure-card__image--complex-scroll img { width: var(--complex-min-width); min-width: var(--complex-min-width); max-width: none; max-height: none; }
+.contextual-structure-preview .complex-scroll-hint,
+.section-structures .complex-scroll-hint,
+.reaction-reagents .complex-scroll-hint,
+.reaction-scheme .complex-scroll-hint { display: block; margin: .3rem 0; color: var(--ink-soft); font-size: .72rem; }
+.contextual-structure-preview .structure-card__image--complex-scroll.is-not-overflowing + .complex-scroll-hint,
+.section-structures .structure-card__image--complex-scroll.is-not-overflowing + .complex-scroll-hint,
+.reaction-reagents .structure-card__image--complex-scroll.is-not-overflowing + .complex-scroll-hint,
+.reaction-scheme .structure-card__image--complex-scroll.is-not-overflowing + .complex-scroll-hint { display: none; }
+.contextual-structure-preview .structure-card__heading { flex-wrap: wrap; gap: .35rem; }
+.contextual-structure-preview .structure-card__heading :is(h4, h5) { flex: 1 1 100%; }
+@media (max-width: 720px) {
+  .article-profile__hero .structure-card__image--complex img { max-height: none; }
+  .structure-card__image--complex-scroll { justify-content: start; justify-items: start; overflow-x: auto; overscroll-behavior-inline: contain; scrollbar-width: thin; }
+  .article-profile__hero .structure-card--compact .structure-card__image--complex-scroll img,
+  .reaction-scheme .structure-card__image--complex-scroll img { width: var(--complex-min-width); min-width: var(--complex-min-width); max-width: none; max-height: none; }
+  .reaction-scheme .structure-card__image--complex-scroll { height: auto; min-height: 205px; }
+  .reaction-scheme .structure-card__image--complex img { max-height: none; }
+  .complex-scroll-hint { display: block; margin: .3rem 0; color: var(--ink-soft); font-size: .72rem; }
+  .structure-card__image--complex-scroll.is-not-overflowing + .complex-scroll-hint { display: none; }
+}
+/* Tall structures keep their authored scale when the card is wide enough. */
+.article-profile__hero .structure-card__image--tall,
+.reaction-scheme .structure-card__image--tall { height: auto; }
+.article-profile__hero .structure-card__image--tall img,
+.reaction-scheme .structure-card__image--tall img { width: auto; height: auto; max-width: 100%; max-height: none; }
 .article-profile__identity .article-aliases { color: var(--ink-soft); line-height: 1.55; }
 .article-profile__identity .article-maturity { order: 2; margin-top: 1.2rem; }
 .article-profile__identity .status-chip {
@@ -85,6 +128,7 @@
 .article-profile__hero .structure-card figcaption,
 .article-profile__hero .structure-card figcaption p,
 .article-profile__hero .structure-card__download { font-size: .8rem; line-height: 1.5; }
+.structure-card__continuation { margin: .65rem 0 0; color: var(--ink-soft); font-size: .75rem; line-height: 1.4; }
 .structure-card__notation, .structure-state { border-color: var(--blue); background: var(--aqua-soft); }
 .structure-state--research { border-color: var(--amber); background: var(--amber-soft); }
 .structure-gallery__controls button { border-color: var(--line); color: var(--ink); }
@@ -162,6 +206,49 @@
 .reaction-mechanism { border-color: var(--line); background: var(--paper); }
 .synthesis-route__limits { background: var(--amber-soft); }
 
+.block-architecture {
+  margin: 0 0 1rem;
+  padding: .9rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+}
+.block-architecture__blocks {
+  display: flex;
+  gap: .55rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.block-architecture__block {
+  position: relative;
+  display: grid;
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: 3rem;
+  place-items: center;
+  padding: .55rem;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--paper);
+  color: var(--ink);
+  font-size: .78rem;
+  line-height: 1.3;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+.block-architecture__block:not(:last-child)::after {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: .55rem;
+  border-top: 1px solid var(--ink-soft);
+  content: '';
+}
+.block-architecture figcaption { margin-top: .75rem; color: var(--ink-soft); font-size: .8rem; line-height: 1.45; }
+.block-architecture figcaption strong { color: var(--ink); }
+.block-architecture__scale, .block-architecture__sources { display: block; margin-top: .25rem; }
+
 @media (max-width: 900px) {
   .article-profile__hero--boundary { grid-template-columns: minmax(0, 1fr); }
 }
@@ -173,6 +260,16 @@
   .article-profile__hero--boundary > .structure-showcase--hero { padding: 1rem; }
 }
 @media (max-width: 600px) {
+  .block-architecture__blocks { flex-direction: column; }
+  .block-architecture__block { flex: 0 0 auto; min-height: 0; }
+  .block-architecture__block:not(:last-child)::after {
+    top: 100%;
+    left: 50%;
+    width: 0;
+    height: .55rem;
+    border-top: 0;
+    border-left: 1px solid var(--ink-soft);
+  }
   .breadcrumb--article-profile { margin-top: 1rem; }
   .article-profile__identity { padding: 0; }
   .article-profile__class { margin-top: .85rem; }

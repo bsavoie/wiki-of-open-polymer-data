@@ -47,20 +47,14 @@ test('evidence renders scoped values with source links before technical prose', 
   assert.ok(renderArticle(article, snapshot).includes('&lt;script&gt;alert(1)&lt;/script&gt;'));
 });
 
-test('homepage exposes specific queue questions without manufacturing tasks from flags', () => {
+test('homepage presents the catalog without a public research queue', () => {
   const article = researchArticle();
   const local = { ...snapshot, polymers: [article] };
   const html = renderHome(local);
-  assert.equal((html.match(/data-research-question /g) || []).length, 1);
-  assert.match(html, /data-status="resolved" data-priority="high" data-section="mechanicalProperties"/);
-  assert.ok(html.includes(`polymers/${article.canonicalSlug}/#question-test-question`));
-  assert.match(html, /Sections reviewed at current revision<\/dt><dd>1/);
-  assert.match(html, /Articles with tracked questions<\/dt><dd>1 \/ 1/);
-  delete article.research;
-  const legacy = renderHome(local);
-  assert.doesNotMatch(legacy, /data-research-question /);
-  assert.match(legacy, /Broad review needs remain visible/);
-  assert.match(legacy, /Articles with tracked questions<\/dt><dd>0 \/ 1/);
+  assert.doesNotMatch(html, /id="research-queue"|data-research-question|Research queue/);
+  assert.match(html, /data-catalog-expand/);
+  assert.match(html, /WOPD/);
+  assert.doesNotMatch(html, /Completeness before perfection/);
 });
 
 test('a reopened question retains dated prior outcomes without claiming it remains resolved', () => {
@@ -80,15 +74,12 @@ test('a reopened question retains dated prior outcomes without claiming it remai
   assert.doesNotMatch(renderedQuestion, /<strong>Recorded outcome/);
 });
 
-test('correction links retain section context and a local-only downloadable form', () => {
+test('article retains review history without a reader-facing research submission form', () => {
   const article = researchArticle();
   const html = renderArticle(article, snapshot);
-  assert.match(html, /href="#research-request" data-request-section="mechanicalProperties"/);
-  assert.ok(html.includes(`data-research-request data-wop-id="${article.wopId}"`));
-  assert.match(html, /name="question"[^>]*required/);
-  assert.match(html, /name="scope"[^>]*required/);
-  assert.match(html, /name="acceptanceCriteria"[^>]*required/);
-  assert.match(html, /This form sends nothing/);
+  assert.match(html, /Evidence and review history/);
+  assert.match(html, /id="question-test-question"/);
+  assert.doesNotMatch(html, /data-research-request|href="#research-request"|assets\/research\.js/);
 });
 
 test('catalog search restores shareable URL state and preserves unrelated parameters', async () => {
@@ -114,6 +105,54 @@ test('catalog search restores shareable URL state and preserves unrelated parame
   assert.equal(classFilter.value, 'thermoset');
   assert.equal(cards[0].hidden, false);
   assert.equal(cards[1].hidden, true);
+});
+
+test('catalog limits initial results and expands matching entries without losing filters', async () => {
+  const fields = { '[data-search-input]': { value: '' }, '[data-class-filter]': { value: '' }, '[data-behavior-filter]': { value: '' } };
+  const listeners = {}, mediaListeners = {}, count = {}, displayed = {}, empty = {};
+  const cards = Array.from({ length: 8 }, (_, index) => ({ dataset: { search: `polymer ${index}`, wopId: `wop-${index}`, primaryClass: 'thermoset', behaviors: 'thermoset' } }));
+  const expand = { hidden: true, attrs: {}, setAttribute(name, value) { this.attrs[name] = value; }, addEventListener(type, fn) { listeners[type] = fn; } };
+  const controls = { querySelector: (key) => fields[key], addEventListener() {} };
+  const media = { matches: false, addEventListener(type, fn) { mediaListeners[type] = fn; } };
+  const location = { href: 'https://example.org/' };
+  const doc = { querySelector: (key) => ({ '[data-catalog-controls]': controls, '[data-result-count]': count, '[data-displayed-count]': displayed, '[data-catalog-expand]': expand, '[data-empty-state]': empty, '#catalog-index': { textContent: '{}' } })[key], querySelectorAll: () => cards };
+  const context = { URL, Set, document: doc, location, history: { state: null, replaceState() {} }, addEventListener() {}, matchMedia: () => media, requestAnimationFrame: (fn) => fn() };
+  vm.runInNewContext(await fs.readFile(new URL('../site-assets/search.js', import.meta.url), 'utf8'), context);
+  assert.equal(count.textContent, '8');
+  assert.equal(cards.filter((card) => !card.hidden).length, 6);
+  assert.equal(expand.attrs['aria-expanded'], 'false');
+  listeners.click();
+  assert.equal(cards.filter((card) => !card.hidden).length, 8);
+  assert.equal(expand.attrs['aria-expanded'], 'true');
+  listeners.click();
+  media.matches = true;
+  mediaListeners.change();
+  assert.equal(cards.filter((card) => !card.hidden).length, 3);
+  fields['[data-search-input]'].value = '7';
+  mediaListeners.change();
+  assert.equal(count.textContent, '1');
+  assert.equal(cards[7].hidden, false);
+  assert.equal(expand.hidden, true);
+});
+
+test('collapsed search puts a direct family match ahead of alphabetically earlier derivatives', async () => {
+  const fields = { '[data-search-input]': { value: '' }, '[data-class-filter]': { value: '' }, '[data-behavior-filter]': { value: '' } };
+  const names = ['Chlorinated polyethylene', 'Cross-linked polyethylene', 'High-density polyethylene', 'Linear low-density polyethylene', 'Low-density polyethylene', 'Medium-density polyethylene', 'Polyethylene family'];
+  const cards = names.map((name, index) => ({ dataset: { search: name, wopId: `wop-${index}`, primaryClass: 'commodity', behaviors: 'thermoplastic' }, querySelector: () => ({ textContent: name }) }));
+  const ordered = [];
+  const grid = { appendChild(card) { const index = ordered.indexOf(card); if (index >= 0) ordered.splice(index, 1); ordered.push(card); } };
+  const count = {}, empty = {}, listeners = {};
+  const expand = { setAttribute() {}, addEventListener() {} };
+  const controls = { querySelector: (key) => fields[key], addEventListener: (type, fn) => { listeners[type] = fn; } };
+  const location = { href: 'https://example.org/?q=polyethylene' };
+  const document = { querySelector: (key) => ({ '[data-catalog-controls]': controls, '[data-polymer-grid]': grid, '[data-result-count]': count, '[data-catalog-expand]': expand, '[data-empty-state]': empty, '#catalog-index': { textContent: '{}' } })[key], querySelectorAll: () => cards };
+  const context = { URL, Set, document, location, history: { state: null, replaceState(_, __, value) { location.href = String(value); } }, addEventListener() {}, requestAnimationFrame: (fn) => fn() };
+  vm.runInNewContext(await fs.readFile(new URL('../site-assets/search.js', import.meta.url), 'utf8'), context);
+  assert.equal(ordered[0], cards[6]);
+  assert.equal(cards[6].hidden, false);
+  fields['[data-search-input]'].value = '';
+  listeners.input();
+  assert.deepEqual(ordered, cards);
 });
 
 test('request download trims content, rejects blanks, and creates the CLI handoff contract', async () => {

@@ -184,13 +184,14 @@ to the depiction. Specified cis/trans alkenes may encode E/Z through authored
 2D V3000 geometry when a strict parser recovers the intended stereoisomer;
 `CFG=2` remains reserved for deliberately crossed, unspecified double bonds.
 
-## Renderer authority: `wop-structure-style-v5`
+## Renderer authority: `wop-structure-style-v9`
 
 The renderer code, not this guide or individual records, is the machine
-authority for visual style. `wop-structure-style-v5` uses the pinned RDKit JS
+authority for visual style. `wop-structure-style-v9` uses the pinned RDKit JS
 MolDraw2D renderer on curated V3000 coordinates and applies one repository-wide
 style: 48 px average bond length, approximately 2 px bond strokes, 24 px visual
-margins, standard heteroatom colors, heteroatom and necessary terminal labels,
+margins, standard heteroatom colors with fluorine darkened to #00777A and sulfur
+darkened to #806400 for legibility on white, heteroatom and necessary terminal labels,
 a transparent background, conventional wedge/hash/wavy stereo, expanded
 superatoms, and a maximum 960 x 480 canvas. Scale and crop the SVG viewBox so
 the chemistry is prominent without clipping; do not leave a small structure in
@@ -210,16 +211,25 @@ single-bond `CFG=2` records; any future exception must be source-material,
 captioned, and independently reviewed. The site explains each explicit wavy
 or crossed-unknown convention beside the corresponding figure.
 
-For the generated SVG only, the renderer adapter may display a terminal `*`
-pseudoatom as an unlabeled continuation endpoint and may suppress the internal
-SRU `CONNECT=HT`, `HH`, or `EU` text label. It may also convert a validated
+For the generated SVG only, the renderer adapter may suppress the `*` on a
+validated terminal attachment pseudoatom. A crossing already identified by an
+SRU/COP boundary needs no additional marker. Otherwise it adds a short wavy
+free-valence mark perpendicular to the bond end, with a visible explanation
+that the connection leads to an omitted portion. This mark is distinct from a
+wavy stereobond along the bond axis and is not encoded as a bond or atom in the
+canonical V3000. The adapter may suppress the internal SRU `CONNECT=HT`, `HH`,
+or `EU` text label. It may also convert a validated
 `R#` atom to plain `R` in the display-only copy solely to replace RDKit's
 duplicate isotope-like output with the intended superscript group number. The
 continuation bond, polymer bracket, repeat subscript, stereo, and all
-chemically meaningful atom labels must remain visible. These presentation
-transforms must be deterministic, restricted to validated terminal attachment
-pseudoatoms, S-group connectivity labels, and numbered R labels, and must not
-change the canonical V3000 or downloadable `.mol` file.
+chemically meaningful atom labels must remain visible. For an explicitly
+assigned V3000 `STEABS` group, style v7 suppresses redundant `abs` text only
+in the transient display copy, retaining wedge/hash bonds and every atom
+stereotag. Before rendering, the adapter checks that every listed ABS atom is
+an assigned center, atom and bond stereo are unchanged, and enhanced AND/OR
+group membership survives unchanged. AND/OR labels remain visible. These
+presentation transforms must be deterministic and must not change the
+canonical V3000 or downloadable `.mol` file.
 
 Composite presentations must calculate containment from each normalized child
 viewBox. No child geometry may extend beyond the parent viewport, and captions,
@@ -272,3 +282,33 @@ Ketcher reviewed the atom geometry but its tested export regenerated BRKXYZ and
 dropped XBONDS. For this coordinate-only correction, retain the audited
 canonical record and validate final bracket intersections and the rendered
 figure; do not claim a lossless editor round trip or overwrite with that export.
+
+### Open-attachment review: style v6
+
+Style v6 retains style v5's molecular rendering and adds an independently
+reviewed, perpendicular free-valence mark at a validated terminal attachment
+not identified by an SRU/COP boundary. A reader-visible note explains the
+mark. In contrast, a `CFG=2` wavy bond follows the bond axis and represents
+unknown stereochemistry, not this continuation convention. The attachment mark
+is an independently generated path, leaves all RDKit bond and stereo paths
+intact, fits within normalized SVG bounds, and does not modify the source or
+downloaded V3000. Mark geometry is computed from the rendered attachment bond,
+validated against the canonical coordinate direction, and fails closed on
+unsupported or ambiguous path/stereo geometry.
+
+This convention follows the IUPAC graphical guidance for an explicit external
+connection point and its preferred perpendicular free-valence example:
+https://iupac.qmul.ac.uk/drawing/drawing.html (GR-9, external connection
+points). It distinguishes open local motifs from actual SRU brackets rather
+than creating a false repeat.
+
+The controlled trial used identical V3000 for each before/after pair. The
+isotactic polypropylene, PEDOT:PSS parent-connectivity components, and
+connected SBS reference output remained byte-identical; independent reviewer
+scores (truthfulness/legibility/balance/consistency/hero readiness) were
+5/5/5/5/5, 5/4/4/5/4 and 5/4/5/5/4, respectively. The reviewer also inspected
+open polyurea, PVB acetal, polyurethane, and a cellulose stereobond attachment,
+as well as the contact sheet of affected definitions. The v6 pilot rendered
+all 243 current definitions, including the three solid-wedge attachment cases,
+without a semantic or geometry error. This mechanical pass does not establish
+that every corpus structure's chemistry or evidence is correct.

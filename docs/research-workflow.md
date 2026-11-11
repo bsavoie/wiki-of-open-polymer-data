@@ -10,19 +10,16 @@ structured evidence are optional additions; existing entries remain valid.
 Stable polymer identities, chemical connection tables, and frozen v1 data are
 unchanged by this workflow. No new service, account, or deployment is required.
 
-## Reader and curator handoff
+## Curator handoff
 
-The catalog offers a research queue with section, priority and status filters.
-It includes explicit questions only. Broad inherited review flags remain
-visible in each article, and absence of a tracked question does not imply that
-an article is complete. Catalog search and filters survive navigation through
-URL state.
+The published static wiki shows article evidence and recorded review history;
+it does not offer a live research queue or submit requests. Broad inherited
+review flags remain visible in each article, and absence of a tracked question
+does not imply that an article is complete. Catalog search and filters survive
+navigation through URL state.
 
-Every article section can open a correction/research request form with its
-stable article ID and section selected. The form downloads a JSON request;
-it does not transmit or submit anything. Transfer that file to a maintainer
-through the project's normal collaboration channel. A maintainer prepares it
-for review using:
+A maintainer may prepare a request received through the project's normal
+collaboration channel for review using:
 
 ```sh
 npm run research -- request request.json --author researcher --out outputs/request-proposal.json
@@ -118,7 +115,10 @@ changing the snapshot. A guarded import runs immediately before the site swap.
 Failures restore the prior snapshot and generated site; stale proposals and
 concurrent publication attempts are rejected. Private proposal/review files are
 never copied into the public site. `publish` updates local files only; normal
-hosting/deployment remains a separate operation. Use `WOP_SITE_URL` as with the
+hosting/deployment remains a separate operation. The canonical preview and
+publication also validate and include the warning-bearing historical-structure
+archive; if it is missing or stale, publication leaves the prior snapshot and
+site intact. Use `WOP_SITE_URL` as with the
 existing build command when preparing a deployed build.
 
 Run `npm run check` after a completed implementation/content batch. Review the

@@ -112,6 +112,8 @@ test('the static build emits canonical pages, unique aliases, local search, data
   assert.doesNotMatch(abs, /contextual-structure-preview/);
   assert.match(abs, /class="structure-showcase structure-showcase--hero(?:\s|\")/);
   const absHeroFigures = abs.slice(abs.indexOf('<header class="article-profile__hero'), abs.indexOf('</header>', abs.indexOf('<header class="article-profile__hero')));
+  assert.match(absHeroFigures, /Waves across bond ends mark connections to omitted portions/);
+  assert.match(abs, /Short waves across bond ends mark connections to omitted portions; they are not wavy stereobonds/);
   assert.equal((absHeroFigures.match(/structure-card structure-card--compact/g) || []).length, 2);
   assert.match(abs, /aria-label="Structural depiction gallery with 2 items; scroll horizontally to view each item"/);
   assert.match(abs, /data-structure-gallery/);
@@ -137,10 +139,10 @@ test('the static build emits canonical pages, unique aliases, local search, data
   assert.match(abs, /<dt>Class<\/dt><dd>Commodity thermoplastics<\/dd>/);
   const absHero = abs.slice(abs.indexOf('<header class="article-profile__hero'), abs.indexOf('data-article-tablist'));
   assert.match(absHero, /<h2 id="structural-depictions-title">Structure<\/h2>/);
-  assert.doesNotMatch(absHero, /Chemical structure|Structural depiction<\/h2>|Depiction metadata|Component Set depiction|structure-showcase__badges|structure-showcase__evidence|>Reviewed<|>Schematic<|>Representative<|<div class="article-tags">/);
+  assert.doesNotMatch(absHero, />Chemical structure<\/h2>|Structural depiction<\/h2>|Depiction metadata|Component Set depiction|structure-showcase__badges|structure-showcase__evidence|>Reviewed<|>Schematic<|>Representative<|<div class="article-tags">/);
   assert.doesNotMatch(abs, /Primary browsing class|Content maturity|<dt>Confidence<\/dt>|<dt>Review flags<\/dt>/);
   assert.match(absHero, /class="article-maturity"><span class="status-chip">Source Backed Draft<\/span><a href="#research-progress">Evidence and review status<\/a>/);
-  assert.match(abs, /id="research-progress"><summary>Research questions and review history<\/summary>/);
+  assert.match(abs, /id="research-progress"><summary>Evidence and review history<\/summary>/);
   assert.match(abs, /class="reference-document__citation" href="https:\/\/pubs\.rsc\.org\/en\/content\/articlelanding\/2024\/lp\/d4lp00238e"/);
   assert.match(abs, /class="reference-document__full-text" href="https:\/\/backoffice\.biblio\.ugent\.be\/download\/01JJKQP3EHHYEYTTR4D2K7FHNX\/01JKASZ885V5C54GSPYNK4RXK4"/);
   const absRecord = snapshot.polymers.find(({ wopId }) => wopId === 'wop-000033');
@@ -286,7 +288,7 @@ test('the static build emits canonical pages, unique aliases, local search, data
     generator: 'wiki-of-open-polymer-data',
     polymerCount: snapshot.polymers.length,
     rendererVersion: 'rdkit-js-2025.03.4',
-    styleVersion: 'wop-structure-style-v5',
+    styleVersion: 'wop-structure-style-v9',
     structureDefinitionCount: snapshot.chemicalStructures.length,
     renderedItemCount: snapshot.polymers.reduce((count, polymer) => count + depictionItems(polymer).length, 0)
   });
@@ -360,7 +362,7 @@ test('the static build emits canonical pages, unique aliases, local search, data
     assert.doesNotMatch(article, /data-core-attributes|data-core-panel/, `${polymer.wopId} must not nest the legacy core tabs`);
     assert.doesNotMatch(article, /Primary browsing class|Content maturity|<dt>Confidence<\/dt>|<dt>Review flags<\/dt>/, `${polymer.wopId} must not expose internal maturity metadata`);
     const profileHero = article.slice(article.indexOf('<header class="article-profile__hero'), article.indexOf('data-article-tablist'));
-    assert.doesNotMatch(profileHero, /Chemical structure|Structural depiction<\/h2>|Depiction metadata|structure-showcase__badges|structure-showcase__evidence|<div class="article-tags">/, `${polymer.wopId} must keep the profile summary free of redundant or internal structure labels`);
+    assert.doesNotMatch(profileHero, />Chemical structure<\/h2>|Structural depiction<\/h2>|Depiction metadata|structure-showcase__badges|structure-showcase__evidence|<div class="article-tags">/, `${polymer.wopId} must keep the profile summary free of redundant or internal structure labels`);
     assert.match(article, /id="references"[^>]*data-article-panel/, `${polymer.wopId} must consolidate citations in References`);
     assert.match(article, /id="structural-depiction-notes"/, `${polymer.wopId} must provide a target for the hero scope link`);
     const structureNotes = article.slice(article.indexOf('id="structural-depiction-notes"'), article.indexOf('id="properties"'));
@@ -393,7 +395,7 @@ test('the static build emits canonical pages, unique aliases, local search, data
   assert.match(cycloaliphaticPreview, /<h5>Representative cycloaliphatic diepoxide precursor<\/h5>/);
   assert.match(cycloaliphaticPreview, /data-structure-fidelity="representative"/);
   assert.match(cycloaliphaticPreview, /Representative depiction/);
-  assert.match(cycloaliphaticPreview, /Representative synthesis precursor; other ring systems and functionalities and the formulation-dependent cured network are not shown/);
+  assert.match(cycloaliphaticPreview, /Representative cycloaliphatic diepoxide constitution; stereochemistry, other precursor chemistries and the cured network are not specified/);
   assert.doesNotMatch(cycloaliphaticPreview, /Download V3000 molfile|Figure sources/);
   const cycloaliphaticHero = cycloaliphaticEpoxy.slice(
     cycloaliphaticEpoxy.indexOf('<header class="article-profile__hero'),
@@ -427,17 +429,18 @@ test('the static build emits canonical pages, unique aliases, local search, data
     'utf8'
   );
   assert.match(epoxyNovolacVinylEster, /No single canonical structure/);
-  assert.match(epoxyNovolacVinylEster, /o-Cresol vinyl-ester local motif/);
-  assert.match(epoxyNovolacVinylEster, /one illustrated ortho–para local connection/);
-  assert.match(epoxyNovolacVinylEster, /o-cresol-epoxy-novolac-vinyl-ester-source-motif\.svg/);
+  assert.match(epoxyNovolacVinylEster, /One open methacrylate side chain/);
+  assert.match(epoxyNovolacVinylEster, /aromatic ring, bridges and cured network are not depicted/);
+  assert.match(epoxyNovolacVinylEster, /novolac-methacrylate-open-side-chain\.svg/);
+  assert.doesNotMatch(epoxyNovolacVinylEster, /o-cresol-epoxy-novolac-vinyl-ester-source-motif\.svg/);
   assert.doesNotMatch(epoxyNovolacVinylEster, /novolac-epoxy-vinyl-ester-motif/);
   const epoxyNovolacPreview = epoxyNovolacVinylEster.slice(
     epoxyNovolacVinylEster.indexOf('class="contextual-structure-preview"'),
     epoxyNovolacVinylEster.indexOf('</aside>', epoxyNovolacVinylEster.indexOf('class="contextual-structure-preview"'))
   );
-  assert.match(epoxyNovolacPreview, /data-structure-fidelity="schematic"/);
-  assert.match(epoxyNovolacPreview, /Schematic depiction/);
-  assert.match(epoxyNovolacPreview, /not the resin’s full linkage distribution or cured network/);
+  assert.match(epoxyNovolacPreview, /data-structure-fidelity="representative"/);
+  assert.match(epoxyNovolacPreview, /Representative depiction/);
+  assert.match(epoxyNovolacPreview, /aromatic ring, bridges and cured network are not depicted/);
   const phthalonitrile = await fs.readFile(
     path.join(output, 'polymers', 'phthalonitrile-resin', 'index.html'),
     'utf8'
@@ -447,13 +450,13 @@ test('the static build emits canonical pages, unique aliases, local search, data
   assert.match(phthalonitrile, /class="contextual-structure-preview"/);
   assert.match(phthalonitrile, /Processing context/);
   assert.doesNotMatch(phthalonitrile, /Open Processing tab/);
-  assert.match(phthalonitrile, /4-\(4-Aminophenoxy\)phthalonitrile cure promoter/);
+  assert.match(phthalonitrile, /4-\(4-Aminophenoxy\)phthalonitrile example/);
   const phthalonitrilePreview = phthalonitrile.slice(
     phthalonitrile.indexOf('class="contextual-structure-preview"'),
     phthalonitrile.indexOf('</aside>', phthalonitrile.indexOf('class="contextual-structure-preview"'))
   );
   assert.match(phthalonitrilePreview, /<h4 id="representative-chemistry-title">Representative chemistry<\/h4>/);
-  assert.match(phthalonitrilePreview, /<h5>4-\(4-Aminophenoxy\)phthalonitrile cure promoter<\/h5>/);
+  assert.match(phthalonitrilePreview, /<h5>4-\(4-Aminophenoxy\)phthalonitrile example<\/h5>/);
   assert.doesNotMatch(phthalonitrilePreview, /<h3 id="representative-chemistry-title">/);
   assert.ok(
     phthalonitrile.indexOf('id="overview"') < phthalonitrile.indexOf('class="contextual-structure-preview"'),
@@ -547,7 +550,7 @@ test('Degradation keeps both evidence sections in one tab and shows explicit gap
   assert.ok(legacySection);
   assert.match(legacySection, /^<h3>Degradation and stability<\/h3><div class="section-status"/);
   assert.match(legacySection, /<span>Populated<\/span>/);
-  assert.match(legacySection, /data-request-section="degradationAndStability"/);
+  assert.match(legacySection, /Section evidence status/);
   assert.match(legacySection, /<p>Previously authored prose remains readable\.<\/p>/);
 });
 
@@ -618,7 +621,7 @@ test('article rendering distinguishes multiple depictions from an honest no-uniq
   assert.doesNotMatch(multipleHtml, /structure-grid--single/);
   assert.equal((multipleHtml.match(/<figure class="structure-card structure-card--compact">/g) || []).length, 2);
   assert.equal((multipleHtml.match(/structure-card__image--wide/g) || []).length, 1);
-  assert.match(multipleHtml, /tabindex="0" aria-label="Wide chemical structure; scroll horizontally on a small screen"/);
+  assert.match(multipleHtml, /tabindex="0" aria-label="Chemical structure; scroll horizontally to see the full structure" data-structure-scroll/);
 
   const noUnique = structuredClone(fixture);
   noUnique.polymers[0].structuralDepictions = {
@@ -737,6 +740,20 @@ test('the importer refuses unowned destinations and stable-route reassignment', 
   await fs.writeFile(path.join(removedStructureDirectory, 'snapshot.json'), JSON.stringify(removedStructure));
   await assert.rejects(
     importSnapshot(removedStructureDirectory, releasedDestination),
+    /remove stable chemical structure pex-carbon-carbon-junction/
+  );
+
+  // A single draft must not disable the structure-ID guard for all articles.
+  const draftSource = path.join(root, 'draft-source');
+  const draftDestination = path.join(root, 'draft-owned', 'wop-publication-snapshot-v2');
+  await fs.mkdir(draftSource);
+  await fs.mkdir(path.dirname(draftDestination));
+  const draftBaseline = structuredClone(snapshot);
+  draftBaseline.polymers.find((polymer) => polymer.wopId === 'wop-000096').structuralDepictions.reviewStatus = 'draft';
+  await fs.writeFile(path.join(draftSource, 'snapshot.json'), JSON.stringify(draftBaseline));
+  await importSnapshot(draftSource, draftDestination);
+  await assert.rejects(
+    importSnapshot(removedStructureDirectory, draftDestination),
     /remove stable chemical structure pex-carbon-carbon-junction/
   );
 });

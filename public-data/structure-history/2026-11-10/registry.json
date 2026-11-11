@@ -1,0 +1,2031 @@
+{
+  "schema": "wop-structure-history-v1",
+  "warning": "Historical records may be inaccurate, incomplete, or superseded. Do not use them as current scientific references.",
+  "baseline": {
+    "commit": "8e9720c4433cd116cd716c6dcb22a819e0d5d337",
+    "snapshotSha256": "e4ebd225b4ca1446e2198307025d39840504a17bdb43bdeff2504020df32a0b7",
+    "publishedAt": "2026-11-10T23:22:15Z"
+  },
+  "baselineStructures": [
+    {
+      "structureId": "1-2-polybutadiene-unit",
+      "sha256": "02b05fd5eb6211e33a563f35363d376e8e430a5ba2f3949751a8ba1c0213f44f"
+    },
+    {
+      "structureId": "abs-butadiene-rich-local-segment",
+      "sha256": "da4c336aa169707dc8804b990062258c6ae925e4da0e50b95e4abff0e0f90c61"
+    },
+    {
+      "structureId": "acrylic-acid-monomer",
+      "sha256": "35c1c9958ff650148cd2ec4db3df42b7cd662dd0b3c52f7b74e4a112de6640b9"
+    },
+    {
+      "structureId": "acrylic-rubber-alkyl-acrylate-markush-segment",
+      "sha256": "bfa408904d57bb51f8b5e16bb1df11f06a48f4a746bc9b1d35af5d477eca29c3"
+    },
+    {
+      "structureId": "acrylonitrile-monomer",
+      "sha256": "2ffe20265669afc07d46c1ec1de6921cf8436e2b5ae47af21092f6d8b8071625"
+    },
+    {
+      "structureId": "addition-polynorbornene-sru",
+      "sha256": "40735e2ac260e6fb94ec66a29ba4a93183c1effa6b6974447edaf922993f3b01"
+    },
+    {
+      "structureId": "adipic-acid-monomer",
+      "sha256": "1edb8519eca6d71adb31499d8fe34755515ed561608846d9e54b8903a257975c"
+    },
+    {
+      "structureId": "agarose-sru",
+      "sha256": "2b722be9a768e5d56ae458a1f73b4f007fa75e85c6d80718486c2a371f6c2452"
+    },
+    {
+      "structureId": "alkyd-glycerol-phthalate-fatty-motif",
+      "sha256": "b171033529c29b6d0d63f16740c969f451d2bc07e352d1a5381f6aefe98a42ec"
+    },
+    {
+      "structureId": "alkyl-acrylate-markush-unit",
+      "sha256": "b3a62844e6c6b79606dc9026b0a23508e3fd6728d811f99f40b73afb3c6d6272"
+    },
+    {
+      "structureId": "alpha-1-4-glucan-unit",
+      "sha256": "c649d9142f7b734b76153e645008f2f31f5e808df0db0679c1e578b6ded57d82"
+    },
+    {
+      "structureId": "alternating-ethylene-carbon-monoxide-sru",
+      "sha256": "4a4cad5aee5efe8daeb551c11aa6b18d673f4d55bea8186d4bf947f5918ff9d2"
+    },
+    {
+      "structureId": "amylopectin-alpha-1-6-branch-motif",
+      "sha256": "79d7920066c0f6200685b237ae1ca4abad76eb2bd246aeb00697151ecb3351dc"
+    },
+    {
+      "structureId": "aromatic-polyamide-imide-motif",
+      "sha256": "5d294de62fd376c03cbe862aabfbd772c9e83cd90fe41b095611d767ea3b214c"
+    },
+    {
+      "structureId": "aromatic-polybenzimidazole-motif",
+      "sha256": "56fd0abbabe2b4dbcf28c331d4b937e9074481584e2911dea24d49c7f8bcb1a4"
+    },
+    {
+      "structureId": "aromatic-polyetherimide-motif",
+      "sha256": "119a2b63832ef5894b44a4fadf64cc287fff5ff44f0cd34ff606525518fc0f45"
+    },
+    {
+      "structureId": "aromatic-polyimide-motif",
+      "sha256": "709abe10549138da0a752ba0c0f111fbe6188e5d35d392729a7cc98c9b322f80"
+    },
+    {
+      "structureId": "aromatic-polyoxadiazole-motif",
+      "sha256": "6dc4fb6842708745be63874947fd6512c3076e2964d8377561d16545b53169c3"
+    },
+    {
+      "structureId": "asa-n-butyl-acrylate-local-segment",
+      "sha256": "d0b53dc5b9357e2db19f801d649267a5d205ed371f4f25c2b8f22f6ef60250e7"
+    },
+    {
+      "structureId": "benzoyl-peroxide-initiator",
+      "sha256": "7c904a6581837137220c14ee96c3dba0f9023a99c06f6358def1fca7ea6cb97e"
+    },
+    {
+      "structureId": "bismaleimidodiphenylmethane-precursor",
+      "sha256": "22841c74bac935b73ca2262aeb190604f132d457c6987c98e773cee6ae0104c7"
+    },
+    {
+      "structureId": "bisphenol-a-epoxy-vinyl-ester-precursor",
+      "sha256": "b9ffaeb41d3061d1116ed0937df37faf32567c5beb1566a60dd9449c55c53a73"
+    },
+    {
+      "structureId": "bisphenol-a-feedstock",
+      "sha256": "c1d48c8211f68b5a00eae4a17e17102b87e223d9df4579e9ca63f55e5a902f51"
+    },
+    {
+      "structureId": "bisphenol-a-polycarbonate-sru",
+      "sha256": "b894dfdf87e56c8b839dacc5c4bf01a27b6ba3062b3a68022e6dc2a568462bde"
+    },
+    {
+      "structureId": "bisphenol-a-polysulfone-sru",
+      "sha256": "a5947d002cadcb23840d093d915a2688200c61b9a15131d450eac1066db1f88e"
+    },
+    {
+      "structureId": "bpa-polyarylate-terephthalate-sru",
+      "sha256": "560fb7c02d8f984d20fad90cb176f2ebf18ce474674620abc0d9953f5150b76d"
+    },
+    {
+      "structureId": "branched-polyethyleneimine-junction",
+      "sha256": "c358ae0499f3935ea19729112b38d42e86c1ad8d0ab40e5775a3dd02a18976a0"
+    },
+    {
+      "structureId": "bromobutyl-endo-local-segment",
+      "sha256": "0f3fc957904d0571afa9667f655e65e759fb642e7f4593132a092c1c8bc8150b"
+    },
+    {
+      "structureId": "bromobutyl-exo-local-segment",
+      "sha256": "6c76c1655b1b2328ba2f37e433848b00aaef6d1df99f8dc7e518f6e7b75bc7ff"
+    },
+    {
+      "structureId": "butadiene-monomer",
+      "sha256": "2eefa79b6f43aa6c959092f60b8d4169d55dc56cadf690783e5a0d6e4240df2d"
+    },
+    {
+      "structureId": "butene-monomer",
+      "sha256": "e91939857b7a6f9d42c1114b2521f4d4be1cc7830b496065eb389f5985829527"
+    },
+    {
+      "structureId": "butyl-rubber-isoprene-site-local-segment",
+      "sha256": "3d41cb36cc4e081cc71a20b0c1d3fbd91c25c37d542250e4584ca20b2b220a3b"
+    },
+    {
+      "structureId": "caprolactam-monomer",
+      "sha256": "3401e35c79f9af13db0a3f5acb670968e7c69a9c799537a0639ce177f4f36b79"
+    },
+    {
+      "structureId": "carboxymethyl-cellulose-motif",
+      "sha256": "9a2ab2ee7ecc26c34086762f34d06ec33577ce69777b8a59bade31e4d9a5d809"
+    },
+    {
+      "structureId": "cellulose-anhydroglucose-unit",
+      "sha256": "6ce4908783251d887e30a160a53fda9f7cadf02dbe0054f124387a7f2a9aa0f1"
+    },
+    {
+      "structureId": "cellulose-triacetate-unit",
+      "sha256": "0bf86e20c0c4c478f011bf58a711c6757522ed398bb1056527800ca8b1ed0833"
+    },
+    {
+      "structureId": "cellulose-trisubstitution-markush-motif",
+      "sha256": "ce79b8b4405aab89ff17bd89ccfb9691fd04b4465ec72995a60dd9a96196f7f1"
+    },
+    {
+      "structureId": "chitin-n-acetylglucosamine-unit",
+      "sha256": "3fb40c5180469dcf7230fcd8bfdadc7f1efba39a133f71503b36ffb98bf14741"
+    },
+    {
+      "structureId": "chitosan-glucosamine-unit",
+      "sha256": "0f5c29510a529e53fc9425af5bdf7cd92730e5c831949e3f1cc333b5a3e16ec6"
+    },
+    {
+      "structureId": "chlorobutyl-endo-local-segment",
+      "sha256": "bfd8ebb9671842bc3cd8ca79a482b75705e98f172e16dd229d6f1b3e8de16312"
+    },
+    {
+      "structureId": "chlorobutyl-exo-local-segment",
+      "sha256": "373da8347699b8d87ec4ab165d07efd49a7ad9571fb15aa22a531b34998a3f37"
+    },
+    {
+      "structureId": "cis-1-4-polybutadiene-unit",
+      "sha256": "6f2c29506b48f74fa64ffa20c933fb227456b9208815224edf4536e30b3c9e08"
+    },
+    {
+      "structureId": "cis-1-4-polyisoprene-unit",
+      "sha256": "79fab0cccc08ecf5851a736596ea5ff9763b271f70879ebede2eb7617f0e4f65"
+    },
+    {
+      "structureId": "cis-polyacetylene-unit",
+      "sha256": "8c8ff2d70e543eabd1922276d3f6b3e0fa8c6806bd385d4c84b512859e7bedcc"
+    },
+    {
+      "structureId": "cis-ppv-unit",
+      "sha256": "c4d58ab0a5a9201fd7bf12b01cd11028ee8c0c1a54e13b4bc2e00cd05f34dc9f"
+    },
+    {
+      "structureId": "coc-ethylene-norbornene-local-segment",
+      "sha256": "3c8b726f66139cdbf0e365d2f82475a16c50727d6fbd2a61c4a8663f4483fc85"
+    },
+    {
+      "structureId": "collagen-gly-pro-hyp-motif",
+      "sha256": "3de40f77b8ad068508c6c856b2846354194c9b346c02a501ad1430b5d060ead9"
+    },
+    {
+      "structureId": "cpe-mixed-chlorination-local-segment",
+      "sha256": "7ad6b6eec762217cd7b34e370ed6d4a30aee62fa5ccac641e7193df76ac9d33f"
+    },
+    {
+      "structureId": "cpvc-variable-chlorination-local-segment",
+      "sha256": "030dd7818a0bc4396c5ae88e17d4944a19c9850274e28bb69538456d2443a570"
+    },
+    {
+      "structureId": "cresol-formaldehyde-network-motif",
+      "sha256": "9e68642d08cdc17852012cc103549495215a7f008a08ed652e7634758861bcb0"
+    },
+    {
+      "structureId": "cspe-chlorine-chlorosulfonyl-local-segment",
+      "sha256": "3eec9aeed151dcfd382e16ce87c623b0f336cebb68f91ccf1ab9415201fcb39d"
+    },
+    {
+      "structureId": "cumene-hydroperoxide-initiator",
+      "sha256": "a767424f74fb29368ef84927c07be468861c2063ac8a5e7ef69bdee2a738a098"
+    },
+    {
+      "structureId": "cycloaliphatic-diepoxide-precursor",
+      "sha256": "e8b96b5a27ab3279553847a2b588fc4407ad6f24a69e0d36d52f7deff9ee89de"
+    },
+    {
+      "structureId": "dgeba-diepoxide-precursor",
+      "sha256": "d73cf72bb78946d72d7b482697839f21e4d951eb9fbb8d4a75ec1a4e5dc2bd96"
+    },
+    {
+      "structureId": "dgebf-ortho-ortho-diepoxide-precursor",
+      "sha256": "7fe4478e72d5fec2f814464e429780b0203a669ced3a7fff378ca0d49ce71f38"
+    },
+    {
+      "structureId": "dgebf-para-ortho-diepoxide-precursor",
+      "sha256": "810b5f110bd0eb69259986df347e63bee1b7587803aa3736c4f951993252193e"
+    },
+    {
+      "structureId": "dgebf-para-para-diepoxide-precursor",
+      "sha256": "d26b88724e92919bba574ec35706310dd50c09d0a0127dbf9b2f915039ed8553"
+    },
+    {
+      "structureId": "diaminodiphenyl-sulfone-hardener",
+      "sha256": "4bf151496226bb27f1d73c2c5133fc252efe50a32737cabfd2ebaa56cb48221f"
+    },
+    {
+      "structureId": "dicyclopentadiene-feedstock",
+      "sha256": "d450502155b4ee0479a88e7f035d45537c7d71ce89da27209f556af8a2e46cf8"
+    },
+    {
+      "structureId": "dimethyl-terephthalate-monomer",
+      "sha256": "77562f738c16b4a0ab3343d30366e4776d308fe9adf15dd91261a573d2bf5c71"
+    },
+    {
+      "structureId": "dimethylolbenzoguanamine-precursor",
+      "sha256": "e10f6be2894bd2556c049726b4c72affcb66b80f90154b8e37c381f7e9cf8376"
+    },
+    {
+      "structureId": "elastane-mdi-urea-ptmeg-connected-architecture",
+      "sha256": "bc78ce56278ff82385f181f104567926dd23ae69c1ad1c625b3f78c76beb7373"
+    },
+    {
+      "structureId": "epdm-enb-cure-site-motif",
+      "sha256": "75348719187e0b3f1331bc30c4b13e173aa8e058535a52d9d1fa11bd14632412"
+    },
+    {
+      "structureId": "epichlorohydrin-feedstock",
+      "sha256": "591bc78c1faa5587a1da22355e5ba319ef34d16c570908968a7af928914d2172"
+    },
+    {
+      "structureId": "epoxy-novolac-glycidyl-motif",
+      "sha256": "d1e231579eca288e00186ecf79557b76101066b05c21a9a362b04deaa26f884d"
+    },
+    {
+      "structureId": "ethyl-bromoisobutyrate-initiator",
+      "sha256": "f6f40de174a387c1f41fe7eef13498f041c6ee2e95d836a026fb8ddaa1bc3c23"
+    },
+    {
+      "structureId": "ethylene-glycol-monomer",
+      "sha256": "c47025d489eb6fe1e6ae2999da1fd891667cfa0cb9afbb252a482f11af7fa835"
+    },
+    {
+      "structureId": "ethylene-isophthalate-polyester-motif",
+      "sha256": "98f5c5fbf67d5950f85ed14dd192eafbc2ae687f50e96a9f75ca895d7f1a7aca"
+    },
+    {
+      "structureId": "ethylene-maleate-polyester-motif",
+      "sha256": "6669dbc590312d8b63fe801be2f76b42799cdea0843b10780186fdb91d085dc9"
+    },
+    {
+      "structureId": "ethylene-monomer",
+      "sha256": "24f6f3570e81ad5e010a1bdb8ff238ac00b3ac87cc29949b64fe5bc648f9c411"
+    },
+    {
+      "structureId": "ethylene-ortho-phthalate-polyester-motif",
+      "sha256": "d4cfd4315ba69339650cfd1213ae2ce29d159765673b1bc35c61a499432fa09b"
+    },
+    {
+      "structureId": "ethylene-oxide-monomer",
+      "sha256": "de8dff8683e4bb5dea8f5e9a33d4c1e6af2ac3b4db221744a83886fa39c7f222"
+    },
+    {
+      "structureId": "formaldehyde-feedstock",
+      "sha256": "d7aa0ba9e18120945da78a9043caba38868052b1b2bc2037828e9a5037abcd62"
+    },
+    {
+      "structureId": "four-aminophenoxy-phthalonitrile-cure-promoter",
+      "sha256": "a33c26fa533b14c70d4309a9ac43d46aaf4137107f0a13f0f56e0d716d03a898"
+    },
+    {
+      "structureId": "furfuryl-alcohol-monomer",
+      "sha256": "65f0439be84e66d65c604ff2af43263a79407a965a554b5a7dd6384fea024944"
+    },
+    {
+      "structureId": "hdi-urethane-motif",
+      "sha256": "583224fd73c5b6addef68652920c5abe34936d2f1b86d7835697f2bb703a6027"
+    },
+    {
+      "structureId": "iota-carrageenan-sru",
+      "sha256": "9eb2becab89df4e5109710b8b1436278fda13cdb95da0c0ecd2934b3e3adf5a8"
+    },
+    {
+      "structureId": "isoprene-monomer",
+      "sha256": "8198fda314905eec1df89f92e380f1cd65ad838f941107732b64be7cd4559f3e"
+    },
+    {
+      "structureId": "isotactic-polypropylene-dyad",
+      "sha256": "5ad195500f5dee3ec3a1aa17d2e9ff32cf95be022caf6e6dff8c010f9131a929"
+    },
+    {
+      "structureId": "kappa-carrageenan-sru",
+      "sha256": "845be6aaf9bb30086cb0b5b63dc72b67c5582e93e41593409c8cd333e87f00ad"
+    },
+    {
+      "structureId": "lambda-carrageenan-sru",
+      "sha256": "a8227bcaaa7fe7dd674a14d2463332ad0d70f4b603c237309bf6ed243325efe6"
+    },
+    {
+      "structureId": "lignin-guaiacyl-beta-o-4-open-macromolecular-motif",
+      "sha256": "52e59edde70946e5eebb8fc2df49ce118681cf2361b966cdeba2967f3c7d70f2"
+    },
+    {
+      "structureId": "linear-polyethyleneimine-unit",
+      "sha256": "28cd1d4cb5a5ad3e4763c12f96f4be636367b3d44083f8a2cd026217fbd76575"
+    },
+    {
+      "structureId": "mdi-urethane-hard-segment-motif",
+      "sha256": "83b6b79017d94c8fd423c5466114d21e3c30bbf647e79ddc01f8a2aaa436f551"
+    },
+    {
+      "structureId": "meh-ppv-trans-unit",
+      "sha256": "bf17ac089b753fb98bca0014bab20ea188ebb42a2e87b1a5033d30146844a91f"
+    },
+    {
+      "structureId": "melamine-formaldehyde-network-junction",
+      "sha256": "aa2565ea722542e5959c72d906f0d987f42274622b216d52320cf95cf0f35ef4"
+    },
+    {
+      "structureId": "methacrylic-acid-monomer",
+      "sha256": "429061c0e7227350c3b1926727cee39887bad2db56750c21b0a30e271957bbd9"
+    },
+    {
+      "structureId": "methyl-methacrylate-monomer",
+      "sha256": "54e77074e7b39c7770668020edc8edfa29b7a62fb0bb7f889b1aea7cf238a38c"
+    },
+    {
+      "structureId": "methyl-siloxane-t-junction",
+      "sha256": "7fd910b29246d557ba5dcfe37627d23e7548c874be11a74c8d668a6138bd0892"
+    },
+    {
+      "structureId": "methyl-trifluoropropyl-siloxane-unit",
+      "sha256": "3c8a021b8efa114b1ff11a8e406cd3cc56ece009a84bdd33a03d58c1776a6a7b"
+    },
+    {
+      "structureId": "methyl-vinyl-siloxane-unit",
+      "sha256": "8c1d91440b179ee593737b15e2f992a4d0c1b3d90c924188737c6d3ca1ff5e4d"
+    },
+    {
+      "structureId": "monoethyl-four-phenylethynylphthalate-endcapper",
+      "sha256": "6b12c9eb277f30eac42dd44704fcc01e6a055cc084b8550017c684b51bb00be8"
+    },
+    {
+      "structureId": "novolac-phenolic-network-motif",
+      "sha256": "9150e60fc4e2168d675be39f57158becaa497f21909f94be5012229c281ab4f5"
+    },
+    {
+      "structureId": "novoloid-phenolic-network-fragment",
+      "sha256": "09441fb0919764d1c91f237d92be1319f69e09cbf7b18813d5bb6b9705937230"
+    },
+    {
+      "structureId": "o-cresol-epoxy-novolac-vinyl-ester-source-motif",
+      "sha256": "5d2bde48b34af35ed0d4994e37d06bf04762ce8d350c384474208963d356aeef"
+    },
+    {
+      "structureId": "oda-ppta-unit",
+      "sha256": "806536653b8f63703ed19271383d8453f45e275d714388069afd8b59146f81a5"
+    },
+    {
+      "structureId": "organic-polysulfide-chain-motif",
+      "sha256": "884d52b8320a6d445b9a60cdebf732cadb75b7f7882c1b344092cb0d8349ae92"
+    },
+    {
+      "structureId": "organosiloxane-r2sio-markush-sru",
+      "sha256": "3771de7be6ecefd6fe3b645ebb7a3f65a2324849a461ae1fc16fe64e2720eb35"
+    },
+    {
+      "structureId": "p3ht-head-to-tail-dyad",
+      "sha256": "523c3cd5ea955ab50fde76e098696b6ef04a8763de51d3f8e19d8130b5ac38bc"
+    },
+    {
+      "structureId": "pamam-amidoamine-branching-motif",
+      "sha256": "84c305e0798b4ac54081cae8b307a86234172afa450ac74bf7ae63ec8db2ed5b"
+    },
+    {
+      "structureId": "pbo-benzobisoxazole-sru",
+      "sha256": "382750f46c75ba71f91371379b74556a5b7cc29db72849e73448863904161dec"
+    },
+    {
+      "structureId": "pbzt-benzobisthiazole-sru",
+      "sha256": "6dff7a36a42fe0fa4560756b2762bf219d03e17cd8105b979cb6121b544dd883"
+    },
+    {
+      "structureId": "pdadmac-pyrrolidinium-chloride-unit",
+      "sha256": "c53bb25d9aecc98879a7f3d6fbf7de8c6667dcce2be27045f1770e15424cb2cd"
+    },
+    {
+      "structureId": "pdap-network-fragment",
+      "sha256": "b64c7747f64ba5a8ab81adf6fabac89db6b5137bd8ffffbc849143bf3f947af6"
+    },
+    {
+      "structureId": "peba-pa12-ptmeg-connected-architecture",
+      "sha256": "d8c0486ee9de12200446012ca873e2e2df8d421993a80f21ff4a64dd683abe1f"
+    },
+    {
+      "structureId": "pedot-neutral-unit",
+      "sha256": "6b0b1dc44a6d84c3574e0d35fe65d3d0d987de6b3623e04b9777866c988eec6b"
+    },
+    {
+      "structureId": "peo-ppo-peo-connected-aba-architecture",
+      "sha256": "ced6d6016ce07e4ea364753f3071584568cf2f0bfbdcfb0354f227d87779fd0a"
+    },
+    {
+      "structureId": "pex-carbon-carbon-junction",
+      "sha256": "944bd8acee3ce585addf2a105238ff2449e77c6fa88af53ab422cd023982b4e4"
+    },
+    {
+      "structureId": "pfsa-long-side-chain-sulfonic-acid-unit",
+      "sha256": "22ca20cd261bdd8e6c330631c70931e2c2b3eaf1dcc2ac27748ec6270d66cf3b"
+    },
+    {
+      "structureId": "phenol-feedstock",
+      "sha256": "6496714831da0f385a3119cfd521171331f518a3708ce9bcf55f9650e2e1c9d3"
+    },
+    {
+      "structureId": "phenyl-siloxane-t-junction",
+      "sha256": "1a3db8f30deeeeabfb8b756fc5ad342705a400082b3ae0850d6aa3a9e7094cc0"
+    },
+    {
+      "structureId": "pmia-unit",
+      "sha256": "63830c4dca32f1d7dccd542a9925de5bfa3dcac67f19a27fbabb2e99176acd9e"
+    },
+    {
+      "structureId": "pnipam-unit",
+      "sha256": "fa72424d6b6a6838fb94bfb3f18f6c3350044d066c4dda28394a452dbe48ccd9"
+    },
+    {
+      "structureId": "poly-1-butene-sru",
+      "sha256": "99b9feab02919e2e7400fe5880383a1c0fea1bf86f526e8b3d92570d3af48911"
+    },
+    {
+      "structureId": "poly-1-octene-sru",
+      "sha256": "c9ff05d5c4972b9d2fab99e3334cda5d97c48bbd6afbff39627e64ed22a52ddc"
+    },
+    {
+      "structureId": "poly-2-6-dimethyl-phenylene-ether-sru",
+      "sha256": "7eff194c8f082abafcc7385c366daa11e60d7c597a6265bef6153748613d9367"
+    },
+    {
+      "structureId": "poly-2-oxazoline-markush-unit",
+      "sha256": "790b0009ec40eed6127d016c7300e248c676af475b22e9f0ef12edc06cee0a2d"
+    },
+    {
+      "structureId": "poly-3-hexylthiophene-unit",
+      "sha256": "2999164ab8c10525aafc776ef06693ff2866ba35edddd91a5bc8101748643eb2"
+    },
+    {
+      "structureId": "poly-3-hydroxybutyrate-unit",
+      "sha256": "31753043283b6678f527bcc457a16c09e29deda8a77bbd1eb266577865e03229"
+    },
+    {
+      "structureId": "poly-3-hydroxyhexanoate-unit",
+      "sha256": "077c8ec58ac4d0b733d46c0596a4ab976690db704de17fa81f5357474b559b2d"
+    },
+    {
+      "structureId": "poly-3-hydroxyvalerate-unit",
+      "sha256": "7434e8802c32101c74b26cb531d325f3b0997b79c60e1a8ca20194f0c264ae3c"
+    },
+    {
+      "structureId": "poly-4-methyl-1-pentene-sru",
+      "sha256": "24333eeb0644892714ffd3d214ce01156547867846871b6db7eab8ba7c438e52"
+    },
+    {
+      "structureId": "poly-9-9-dimethylfluorene-motif",
+      "sha256": "15145b7f21da801487a0221856b12a1ac1bbdf5e67ed50278dda41503363b671"
+    },
+    {
+      "structureId": "poly-chdm-terephthalate-sru",
+      "sha256": "204d752a4ba13eae17ea393ecf33ee52b887047f2b984ccf8e28df4cc7e7b502"
+    },
+    {
+      "structureId": "poly-d-lactide-unit",
+      "sha256": "51c8c301b8563ce939664205f46d83244173be938ea5b4420943a13959500d74"
+    },
+    {
+      "structureId": "poly-hydroxynaphthoate-sru",
+      "sha256": "f9d30cc495d2e635d899b91956a5093fd9abe0e63df787839f774dbe8c0d2cc3"
+    },
+    {
+      "structureId": "poly-l-lactide-unit",
+      "sha256": "8a2d8ca6569bd281008a76ae88d350d75b5a4bf701a3304567ece8ccc4a00d00"
+    },
+    {
+      "structureId": "poly-m-xylylene-adipamide-sru",
+      "sha256": "da04750e4a3f431e896a51384f396e5aca8c30191eef72a1f6095616eb08e9b0"
+    },
+    {
+      "structureId": "poly-p-hydroxybenzoate-sru",
+      "sha256": "37a359475283b55f5a2e569e376b12f6210fb944fbfde77a5ecd35d9a2ec1663"
+    },
+    {
+      "structureId": "poly-para-xylylene-sru",
+      "sha256": "0a763a04914bbe6ebd65aebe7f28c9b5b101fe781ce6e3447dada7524c63113f"
+    },
+    {
+      "structureId": "poly-perfluoromethyl-vinyl-ether-sru",
+      "sha256": "6be93bcae76f3b37600687f218931146cd278c80643a4b524709fa4e983abcbb"
+    },
+    {
+      "structureId": "poly-r-3-hydroxyalkanoate-markush-unit",
+      "sha256": "6237517c4292c25e2df4534b465e4255f987789ecc32f93e852634a85f0f79a4"
+    },
+    {
+      "structureId": "polyacrylamide-sru",
+      "sha256": "22af98ef5192a18864bb05c28c34f346473b0c06911b88ad7126c4bf0b42a9dc"
+    },
+    {
+      "structureId": "polyacrylic-acid-sru",
+      "sha256": "3fc1f8129a5c0897f1c18929e0e37841698c5d82ce1b27333d745e3e4c822ab9"
+    },
+    {
+      "structureId": "polyacrylonitrile-sru",
+      "sha256": "b88b7f2042e8684408dc65258f92cfe6c7d883e4b35761cc0c1e5d8e2fbd1928"
+    },
+    {
+      "structureId": "polyamide-1010-sru",
+      "sha256": "2ae71cc1cea4be7662a0aa85281d0eeb5909a4d990864ffe606efe2d65ed77aa"
+    },
+    {
+      "structureId": "polyamide-1012-sru",
+      "sha256": "d2692f487f4b070640c96f167848faab61817b499f9b7874a808d05409d025fb"
+    },
+    {
+      "structureId": "polyamide-10t-sru",
+      "sha256": "0bafef555c2e28e95dd31f589275847d75a1b92b4d203a2b84f31529ff80eae1"
+    },
+    {
+      "structureId": "polyamide-11-sru",
+      "sha256": "1beda4b4d9cd3928ec06856a08bb5f2a451f982b181d482554460a6a4bc93e3c"
+    },
+    {
+      "structureId": "polyamide-12-sru",
+      "sha256": "0b9b46d07b9c07463e503dcf424c799164b52ca8839ff9bbd14349a8eb3b3012"
+    },
+    {
+      "structureId": "polyamide-46-sru",
+      "sha256": "c2c4bdfe8333c0614b29bf0647605c9e0daaa4f5900875e3837392fa4ebbbc11"
+    },
+    {
+      "structureId": "polyamide-6-sru",
+      "sha256": "f2b052d6b852ef41d3f04cad0052e873fd7012494f3bccb6bf512c8c1ec0a30b"
+    },
+    {
+      "structureId": "polyamide-610-sru",
+      "sha256": "319e40ac8e58c2ca7971836064b402100ddb316ef8619446832283e886ae3e38"
+    },
+    {
+      "structureId": "polyamide-612-sru",
+      "sha256": "bfd1c4b3e1d69b4be181ce4982a8389e3844a7af78937d058ee876bfe2975861"
+    },
+    {
+      "structureId": "polyamide-66-sru",
+      "sha256": "39b574e02ae0d12ac2deac4419744e7c106dfe3006025f3c77dcd2e704f10766"
+    },
+    {
+      "structureId": "polyamide-6i-sru",
+      "sha256": "a8f20f46835b0a1abe625684c4359eef5d4ac0241f8fb1c1390df5cb2a19dbf2"
+    },
+    {
+      "structureId": "polyamide-6t-sru",
+      "sha256": "e1f194061a275a1122f6f199562341ac250c319d72dbc5000e80d636597d405a"
+    },
+    {
+      "structureId": "polyamide-9t-sru",
+      "sha256": "2f0102d36b2a985edfdff5d64ca32ee330a73870160f2525ae2310b615791be8"
+    },
+    {
+      "structureId": "polyaniline-benzenoid-amine-motif",
+      "sha256": "04153906d9a790bcb598bd798ea37857894562dfae4dc732515ab47a4ffb3c64"
+    },
+    {
+      "structureId": "polybenzoxazine-mannich-network-motif",
+      "sha256": "7e8c7bb3a9301ea075aa16dc9e9e77a57a67b8f2d6e5893973e538903d1eda15"
+    },
+    {
+      "structureId": "polybutadiene-1-4-sru",
+      "sha256": "7fcddc34ceccf9e95450298997c510ad0d86bd5b51450ed18afb5a0c00d42e50"
+    },
+    {
+      "structureId": "polybutylene-adipate-unit",
+      "sha256": "613bd88922883eb09acf75a70084b74d6410b0a52ed1393d0370570167830b07"
+    },
+    {
+      "structureId": "polybutylene-succinate-unit",
+      "sha256": "69cac7efc53da1840f26a5860ec4d19557aa66ea171079347baf2e32c92b25be"
+    },
+    {
+      "structureId": "polybutylene-terephthalate-sru",
+      "sha256": "dc192a79517609d6830a7fa1c2477e1fc3ea3a4f44a7934d21016840503551a4"
+    },
+    {
+      "structureId": "polycaprolactone-unit",
+      "sha256": "d2ab18896926e0a5efd04bafcd2cf561f3482ab1f0c96e138e5e1e3663785e2b"
+    },
+    {
+      "structureId": "polychloroprene-z-1-4-sru",
+      "sha256": "1c1220b555fdebe57d33fe6309524505fc04de68b50dcf53c24eb39b81e43f48"
+    },
+    {
+      "structureId": "polychlorotrifluoroethylene-sru",
+      "sha256": "d80902721659ab440acfbafa787e474f86f1dadee28b19020751a876bf34a80b"
+    },
+    {
+      "structureId": "polycyanurate-triazine-junction",
+      "sha256": "eea4ec8d872d47e1297c3662bcd0ef80b8e9279972cea17ee0c2e5a3920b0f12"
+    },
+    {
+      "structureId": "polydimethylsiloxane-sru",
+      "sha256": "2c7546cdad20df59836b4360c31f4d0c1f3d63b9cb376893ef4d8ea648819eab"
+    },
+    {
+      "structureId": "polyepichlorohydrin-unit",
+      "sha256": "7200633ed42e964994d241a6b7f63cb2952c06ba844af6dee27445e5148e4eb6"
+    },
+    {
+      "structureId": "polyether-ether-ketone-sru",
+      "sha256": "712697975be0e2a056240d1fa89a7f2c5c0fbdef190cfeb3f9d1986d5bb4c74c"
+    },
+    {
+      "structureId": "polyether-ketone-ketone-para-sru",
+      "sha256": "fd21965fd852eeb889253c3a94b6b3d17ac39f1001f373d2d64b73742bd61c50"
+    },
+    {
+      "structureId": "polyether-sulfone-sru",
+      "sha256": "5f9081f7c593c7282f2ecb0c986d3029866a51de12292dcf25cb1d76685dc0ac"
+    },
+    {
+      "structureId": "polyethylene-furanoate-unit",
+      "sha256": "64b0df0e13559981474eedaf8509c39413b760cb24c5be87c2c6aad8f59ce7bb"
+    },
+    {
+      "structureId": "polyethylene-naphthalate-sru",
+      "sha256": "92cb71f5c5df7daa03a5e787f6f05902e924354abc324d7e67f5cf815d616504"
+    },
+    {
+      "structureId": "polyethylene-oxide-sru",
+      "sha256": "507c33577875d9855f600fa5d6245a2ce4f1de3e9a4d5c809db635a76a3120ac"
+    },
+    {
+      "structureId": "polyethylene-sru",
+      "sha256": "134fc9b399596ae203251931cda969fd3637a1b5f9d67cc2f35e70f38b80f06a"
+    },
+    {
+      "structureId": "polyethylene-terephthalate-sru",
+      "sha256": "fbf8bba340062e428118d071695579ed1db3fe71f83ae13d71320051e7dd4168"
+    },
+    {
+      "structureId": "polyfluorene-unsubstituted-motif",
+      "sha256": "3f29d3e8136365e6de44af9b68e38dd815f5b5440e4ecc944503e94d53a930b2"
+    },
+    {
+      "structureId": "polyfurfuryl-alcohol-network-motif",
+      "sha256": "53d0e9c120845e0cabad67bddb38d45f90795d69df88a3830184c696012bab52"
+    },
+    {
+      "structureId": "polyglycolide-unit",
+      "sha256": "c3f1b6b34d17e2cdddb886bdbac61830e9b998023a4eb5c45b0ace3d33cb3561"
+    },
+    {
+      "structureId": "polyhema-unit",
+      "sha256": "c04576c5b970ee249a35011319a688a7501478ab6071bddef803a39ef8d423e2"
+    },
+    {
+      "structureId": "polyhexafluoropropylene-sru",
+      "sha256": "f11afc613f3c7f2d7ef3ed185471a48fcc126991832396f6499585d532767929"
+    },
+    {
+      "structureId": "polyisobutylene-unit",
+      "sha256": "1daea165bc6785ceea225b60b9bebb035cb3b65aa9b51025f0ae33835259b1f2"
+    },
+    {
+      "structureId": "polyisocyanurate-network-junction",
+      "sha256": "e9befcdbd241bd5d8cf3483f925110e763abac53a0024bad9f0a97ac16533e0d"
+    },
+    {
+      "structureId": "polyisoprene-1-4-unspecified-unit",
+      "sha256": "35685ecac2b77053615ea4dfecf7a79930907c23638aea56f169c8711c10b8c7"
+    },
+    {
+      "structureId": "polylactide-unspecified-unit",
+      "sha256": "42ebb79d81c062c597831777bb460041df38ebb36b1157f885e66424a096b859"
+    },
+    {
+      "structureId": "polymaleic-anhydride-sru",
+      "sha256": "da80748142175fed5effaef98a2aa95289db7d51d73ca42701f00c95252189ba"
+    },
+    {
+      "structureId": "polymethacrylic-acid-sru",
+      "sha256": "38a098a44f41703cd9534dbc1c8c1f35acb63280fa2c0790039da48c9e184c2d"
+    },
+    {
+      "structureId": "polymethyl-methacrylate-sru",
+      "sha256": "d4e974a87a096fecbdc79dce99e75fe8fec0960ad25e17b8606b835b132262b6"
+    },
+    {
+      "structureId": "polyoxymethylene-sru",
+      "sha256": "4f1610b7e098fd0fa781f58f5cc3a226ad7ca312bf6e57513ed11f6433a0c0ba"
+    },
+    {
+      "structureId": "polyphenylene-sulfide-sru",
+      "sha256": "8564137d386ec8f6df3fb78bafc4cbed09212beae2d345a84fc22ef4e07ecdf1"
+    },
+    {
+      "structureId": "polyphenylsulfone-sru",
+      "sha256": "ad67ff135ed6909b2e437570b3e227a2a6492a10db1cd9d6c878224d7723db6f"
+    },
+    {
+      "structureId": "polypropylene-carbonate-sru",
+      "sha256": "b2aa424eb413088e6501d89d372d593f5f2b7a710cfe1aee81bc08925be7977f"
+    },
+    {
+      "structureId": "polypropylene-oxide-unit",
+      "sha256": "eecddbdc3eb3a356375dbe3abcf93231630a69a81690b6c0cef66d942a3b6371"
+    },
+    {
+      "structureId": "polypropylene-unspecified-sru",
+      "sha256": "4210cbd9528cdb6b349b832c6a1ef84fe252d4aae7242e4d460c778479ace5f7"
+    },
+    {
+      "structureId": "polypyrrole-2-5-unit",
+      "sha256": "e782b50c75fcb9dc56b77ab9a5e8a5d69f837c4e777b91bc5593b6b1e4685c52"
+    },
+    {
+      "structureId": "polystyrene-sru",
+      "sha256": "5f2eb249111fdebc33650d6794963598c77c34d0e020bf995c749653d11b86c3"
+    },
+    {
+      "structureId": "polystyrene-sulfonic-acid-unit",
+      "sha256": "fdba53ebcf85d147975ec657ef701bcb8e100d1c8863e8136bdf224a7a644b97"
+    },
+    {
+      "structureId": "polytetrafluoroethylene-sru",
+      "sha256": "dd3b2f33bff3d2c933755ff00a8b52b414560f601ada204f1f84338179fe66f6"
+    },
+    {
+      "structureId": "polytetramethylene-ether-unit",
+      "sha256": "c27272ae8f15590be950d3bc29ddfdd149b09d811d2232add34e7afd77c57bae"
+    },
+    {
+      "structureId": "polythiophene-2-5-unit",
+      "sha256": "19b594b56c84d72eac4c21320a640339d014c8b99fb032623f64acddfe978b8c"
+    },
+    {
+      "structureId": "polytrimethylene-terephthalate-sru",
+      "sha256": "ca160682d168cf0e1daba1cf3dde2207977e97131ad5fb314cda86171c0dd363"
+    },
+    {
+      "structureId": "polyurea-linkage-motif",
+      "sha256": "4ab66ca8f5ee3eeb79f490061793374ef132057f642559935a454abba0afce4f"
+    },
+    {
+      "structureId": "polyvinyl-acetate-sru",
+      "sha256": "e876c9a45d55a67d74c381714f4469eb031dcd55b6533667cc0a4fbefd911713"
+    },
+    {
+      "structureId": "polyvinyl-alcohol-sru",
+      "sha256": "077c3276888f1bd96173878186285fb6fd21523e88d1c53896d2b159e73ff2ec"
+    },
+    {
+      "structureId": "polyvinyl-butyral-acetal-motif",
+      "sha256": "d50ba23cda169452f7fdce201a7d09f30b2619f670def41af6be93597a3e4ad2"
+    },
+    {
+      "structureId": "polyvinyl-chloride-sru",
+      "sha256": "b071f712bba0bf4d3e765aaad598ac00a13f98bf49359a3aa729811865990108"
+    },
+    {
+      "structureId": "polyvinyl-fluoride-sru",
+      "sha256": "91f62dfcf25802ed3b57c1370e1ce269abd32a00070fe0a9673169bfb485be48"
+    },
+    {
+      "structureId": "polyvinyl-formal-acetal-motif",
+      "sha256": "b724ced3ad663ed1a357f09d2a0c17885d8228e05865b8c02c6bc78c2418edbf"
+    },
+    {
+      "structureId": "polyvinylidene-chloride-sru",
+      "sha256": "3a5fb6242f944a93b18d2656500ec88c5eee10de6b973e1b40700696121377eb"
+    },
+    {
+      "structureId": "polyvinylidene-fluoride-sru",
+      "sha256": "107727bf521e3626407ae5858a8c0cf2bb7d5ee4598fdc67e275ee0ab148ce4d"
+    },
+    {
+      "structureId": "polyvinylpyrrolidone-unit",
+      "sha256": "56e5bd37b6961dcffa9b261d7ad6a1e82474881909d9899f85caddab2fb7b2b7"
+    },
+    {
+      "structureId": "ppta-unit",
+      "sha256": "36035cd58e7f504a736d63f4e5ee4f0562b7f90a93dcf04d65450c8e8e7c6816"
+    },
+    {
+      "structureId": "propylene-itaconate-polyester-motif",
+      "sha256": "ed260f6c1ec4b21fe3e7f60d2ae03e409be229963c84098c3c4fca667f5a22de"
+    },
+    {
+      "structureId": "propylene-monomer",
+      "sha256": "89e329103f8c740df02fd4d3fd9f6b338827c7b5179e9875b3f7321037cae553"
+    },
+    {
+      "structureId": "propylene-oxide-monomer",
+      "sha256": "f4131c70f7591c9dfbc393b84432ea8935fb0fb4df070807b6a3781a8cfe1cdd"
+    },
+    {
+      "structureId": "propylene-succinate-polyester-motif",
+      "sha256": "5af4314789fc9cf240cc4d5a4b2aea995290e8c0f31fe1932ad3a872d17afa28"
+    },
+    {
+      "structureId": "resole-phenolic-network-motif",
+      "sha256": "07297b3a82478a79850a8fea3b4b7f6a846a0a264cf2023fbe4dcc64f0b0a3af"
+    },
+    {
+      "structureId": "resorcinol-formaldehyde-network-motif",
+      "sha256": "2f5a53934db8a55a75c5538dac2d59a093a69b1342534182d670d76954b174b7"
+    },
+    {
+      "structureId": "san-styrene-acrylonitrile-local-segment",
+      "sha256": "18965b1c5432596bb7f72558f36d39d62d7b7a3d84bb56f34ae45279bf2eb399"
+    },
+    {
+      "structureId": "sbs-connected-aba-block-architecture",
+      "sha256": "0d1d9fa5d3684477a503733828e521fb4660f162ae52c89f580f010de2b9bc77"
+    },
+    {
+      "structureId": "sebs-connected-aba-block-architecture",
+      "sha256": "2ffeef00b9a06afe90f6091dea5b042524b13f91693d7991d3d662e58037404d"
+    },
+    {
+      "structureId": "sebs-saturated-midblock-motif",
+      "sha256": "2a1acf146dd5cc08602e0d95c918add4c6bafa4c0d139bac2af9eeede189b841"
+    },
+    {
+      "structureId": "seeps-connected-multiblock-architecture",
+      "sha256": "33d32b2df3c9c69afea1d28d12e737ab1958d573d3fd53256554eb5bd51e5595"
+    },
+    {
+      "structureId": "seps-connected-aba-block-architecture",
+      "sha256": "9b523a4663aac7718c7ea8b8de0e31e5b1daea7ba8c5fe32f77266ef15dc5e66"
+    },
+    {
+      "structureId": "silk-fibroin-gagags-motif",
+      "sha256": "c02f03233fe1b357bc55b4d5f381547dd616ad39ed1575b494c13ee03df00c80"
+    },
+    {
+      "structureId": "sis-connected-aba-block-architecture",
+      "sha256": "5b35f7b8b36d60c5d7952e3e25970d0833457e5c3e1ae657e0b70e4e826ad45f"
+    },
+    {
+      "structureId": "sodium-carboxymethyl-cellulose-motif",
+      "sha256": "e469b627d535123cfd015ffeeedbd0bd6902d80952bdd742daacfc0ef414a875"
+    },
+    {
+      "structureId": "sodium-guluronate-unit",
+      "sha256": "32295b842f5ae680ce5bd09882a686585b4f6944657eac33f376cee701832a03"
+    },
+    {
+      "structureId": "sodium-mannuronate-unit",
+      "sha256": "7f999e464ad82c2f42f51d8630f0b08e48c164455a880ea29ab94f903b063c58"
+    },
+    {
+      "structureId": "sodium-polyacrylate-sru",
+      "sha256": "9f301ebb233d4f8db366b6e4816c8fecb078559fdb3d6388065b1d6025bab0cc"
+    },
+    {
+      "structureId": "sodium-polystyrenesulfonate-unit",
+      "sha256": "fb7c609286af20671f3ddbcbc2fd6ddc74941c8a7c33dd1b929fba950b5fe4c6"
+    },
+    {
+      "structureId": "styrene-monomer",
+      "sha256": "c3f64e0b8c8150834d2c88f1d90535c183b48907f4195440946c06f42e86cad2"
+    },
+    {
+      "structureId": "sulfonated-peek-motif",
+      "sha256": "f471281cd9eb7cffe9c8648d9b9d56da070211f8e8f467811a54d55c62497a52"
+    },
+    {
+      "structureId": "syndiotactic-polypropylene-dyad",
+      "sha256": "cc0e1d81c0cfb02b222b2d7ed3ac447d06321091ecf60cbd563d0ea6c313bcf4"
+    },
+    {
+      "structureId": "terephthalic-acid-monomer",
+      "sha256": "a3a93a4ee7fe514c2b0fbadedb22baad9540bea834911b63f3a29158827837be"
+    },
+    {
+      "structureId": "tetraglycidyl-methylenedianiline-precursor",
+      "sha256": "e7ed0329fc2dba0bcf9f42ec732d1f917ee8a91396a064e9e7477cda6ed21c70"
+    },
+    {
+      "structureId": "tetrahydrofuran-monomer",
+      "sha256": "5b20988e7b62f9bb6e5685e7d5480463a3b2e2a286df455d044f71b6fd98259e"
+    },
+    {
+      "structureId": "thermoset-polyurethane-junction",
+      "sha256": "8f873949f46ceb13cf6c8eb64a6244844559f4356b6845834ad4443b36771426"
+    },
+    {
+      "structureId": "tpc-pbt-ptmeg-connected-architecture",
+      "sha256": "7a7f751c1570ab5fd3291b6122a7cbf3deac86edc944dfd185766056d29ff509"
+    },
+    {
+      "structureId": "tpo-ethylene-propylene-elastomer-local-segment",
+      "sha256": "4be97a3324e79635f6d7824b138551365825b5401b1eee27b642b3b32d1f0279"
+    },
+    {
+      "structureId": "tpu-ptmeg-mdi-ptmeg-connected-architecture",
+      "sha256": "dde6774d8e2c86b6f2cdf0df824bf5c2c6e0133a7281248f8ddc40c8cb1237a8"
+    },
+    {
+      "structureId": "tpv-epdm-enb-connected-local-motif",
+      "sha256": "784ad0bc93a19b212d5b18772a3e23c6609ea102eb5f3fe52905b25f9f550875"
+    },
+    {
+      "structureId": "trans-1-4-polybutadiene-unit",
+      "sha256": "0eea9eea287e39256e6d673d8aabff12fde473a6c41203f9ceb4d6ccf661a42e"
+    },
+    {
+      "structureId": "trans-1-4-polyisoprene-unit",
+      "sha256": "7c807326d353fcf09df0f5f8f127e7c81e723e82d55df8d32cd1748ab8665328"
+    },
+    {
+      "structureId": "trans-polyacetylene-unit",
+      "sha256": "e1fcb8ba16d8ea36e5a6e7992e304c886a664a1412b8310872a424412aef5e0f"
+    },
+    {
+      "structureId": "trans-ppv-unit",
+      "sha256": "57a38a27e39ab819dea8d72868c8eca1e3de3916476a8454749f005fd4c3fbb7"
+    },
+    {
+      "structureId": "urea-formaldehyde-network-junction",
+      "sha256": "13b0f9dca5533b87601b6fc4f5ebd5e88b24a43d32101b6c15319dbfa0bd2110"
+    },
+    {
+      "structureId": "vinyl-acetate-monomer",
+      "sha256": "b41e9cf452e57114b5a3f48916deedbe3b29905d7b9a45f4038ac116d42478a2"
+    },
+    {
+      "structureId": "vinyl-chloride-monomer",
+      "sha256": "bb9b6ea70089316e841df1b0e89f60d3675945171ce069a2d03ce42babf7c090"
+    },
+    {
+      "structureId": "xnbr-acrylonitrile-butadiene-methacrylic-acid-local-segment",
+      "sha256": "6086dba7d90425106ee3019765b98a9af04a1fe1626e5c21661d158a7ad1b61a"
+    },
+    {
+      "structureId": "xsbr-styrene-butadiene-acrylic-acid-local-segment",
+      "sha256": "8d2442b21c783945cc43f1cc7dd55780748fc69b28cce5130773e1eacbc280b4"
+    }
+  ],
+  "comparedSnapshotSha256": "ceebf0e27134c9f4a5db81bc935f11651f9c7d46408439843805d377c7b25ac2",
+  "archive": {
+    "path": "historical-structures.zip",
+    "sha256": "e82aa0b593f582bfda5d72b7af4654a16f1cf3522292e957169f691566d2743c"
+  },
+  "entries": [
+    {
+      "structureId": "acrylic-rubber-alkyl-acrylate-markush-segment",
+      "status": "withdrawn",
+      "reason": "The adjacent acrylate combinations and regiochemistry were more specific than the cited evidence established.",
+      "successorStructureId": null,
+      "historicalSha256": "bfa408904d57bb51f8b5e16bb1df11f06a48f4a746bc9b1d35af5d477eca29c3",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000151"
+      ],
+      "archiveMember": "molfiles/acrylic-rubber-alkyl-acrylate-markush-segment.mol"
+    },
+    {
+      "structureId": "alkyd-glycerol-phthalate-fatty-motif",
+      "status": "withdrawn",
+      "reason": "The prior structure attached a specific cis-oleate ester to a terminal glycerol carbon without a source establishing that precise joint connectivity. The successor is a source-illustrated central-glycerol local example with the fatty chain truncated.",
+      "successorStructureId": "alkyd-central-glycerol-phthalate-open-fragment",
+      "historicalSha256": "b171033529c29b6d0d63f16740c969f451d2bc07e352d1a5381f6aefe98a42ec",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000125"
+      ],
+      "archiveMember": "molfiles/alkyd-glycerol-phthalate-fatty-motif.mol"
+    },
+    {
+      "structureId": "amylopectin-alpha-1-6-branch-motif",
+      "status": "withdrawn",
+      "reason": "The previous one-residue picture did not show a connected alpha-1,6 branch bond.",
+      "successorStructureId": "amylopectin-branched-triglucosyl-motif",
+      "historicalSha256": "79d7920066c0f6200685b237ae1ca4abad76eb2bd246aeb00697151ecb3351dc",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000201",
+        "wop-000203",
+        "wop-000204"
+      ],
+      "archiveMember": "molfiles/amylopectin-alpha-1-6-branch-motif.mol"
+    },
+    {
+      "structureId": "aromatic-polyamide-imide-motif",
+      "status": "withdrawn",
+      "reason": "The former n-bracketed repeat implied a uniform chain sequence despite the source showing multiple local linkage patterns; a source-bounded open local example now illustrates this specific connection.",
+      "successorStructureId": "pai-meta-phenylene-open-example",
+      "historicalSha256": "5d294de62fd376c03cbe862aabfbd772c9e83cd90fe41b095611d767ea3b214c",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000085"
+      ],
+      "archiveMember": "molfiles/aromatic-polyamide-imide-motif.mol"
+    },
+    {
+      "structureId": "aromatic-polybenzimidazole-motif",
+      "status": "withdrawn",
+      "reason": "The structure differed from the named reference example selected in the audit.",
+      "successorStructureId": null,
+      "historicalSha256": "56fd0abbabe2b4dbcf28c331d4b937e9074481584e2911dea24d49c7f8bcb1a4",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000180"
+      ],
+      "archiveMember": "molfiles/aromatic-polybenzimidazole-motif.mol"
+    },
+    {
+      "structureId": "aromatic-polyetherimide-motif",
+      "status": "withdrawn",
+      "reason": "The former repeat boundary made a direct aromatic junction inconsistent with the named source example.",
+      "successorStructureId": null,
+      "historicalSha256": "119a2b63832ef5894b44a4fadf64cc287fff5ff44f0cd34ff606525518fc0f45",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000084",
+        "wop-000087"
+      ],
+      "archiveMember": "molfiles/aromatic-polyetherimide-motif.mol"
+    },
+    {
+      "structureId": "aromatic-polyimide-motif",
+      "status": "withdrawn",
+      "reason": "The former repeat boundary produced an aromatic junction inconsistent with the cited PMDA–ODA example.",
+      "successorStructureId": null,
+      "historicalSha256": "709abe10549138da0a752ba0c0f111fbe6188e5d35d392729a7cc98c9b322f80",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000086"
+      ],
+      "archiveMember": "molfiles/aromatic-polyimide-motif.mol"
+    },
+    {
+      "structureId": "aromatic-polyoxadiazole-motif",
+      "status": "withdrawn",
+      "reason": "The former repeated structure implied a specific biphenyl connection not established by the mapped example; source-bounded open local fragments now illustrate distinct examples.",
+      "successorStructureId": null,
+      "historicalSha256": "6dc4fb6842708745be63874947fd6512c3076e2964d8377561d16545b53169c3",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000183"
+      ],
+      "archiveMember": "molfiles/aromatic-polyoxadiazole-motif.mol"
+    },
+    {
+      "structureId": "cellulose-trisubstitution-markush-motif",
+      "status": "withdrawn",
+      "reason": "The former diagram assigned substituent sites differently from the corrected structure.",
+      "successorStructureId": "cellulose-trisubstitution-corrected-markush-motif",
+      "historicalSha256": "ce79b8b4405aab89ff17bd89ccfb9691fd04b4465ec72995a60dd9a96196f7f1",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000189",
+        "wop-000192",
+        "wop-000193",
+        "wop-000194",
+        "wop-000195",
+        "wop-000196",
+        "wop-000197",
+        "wop-000198",
+        "wop-000199"
+      ],
+      "archiveMember": "molfiles/cellulose-trisubstitution-markush-motif.mol"
+    },
+    {
+      "structureId": "chitosan-glucosamine-unit",
+      "status": "withdrawn",
+      "reason": "The former n-bracketed glucosamine repeat implied a uniform homopolymer within a chitosan entry that describes variable acetylation and sequence; an open local residue now represents that constituent.",
+      "successorStructureId": "chitosan-glucosamine-open-residue",
+      "historicalSha256": "0f5c29510a529e53fc9425af5bdf7cd92730e5c831949e3f1cc333b5a3e16ec6",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000206"
+      ],
+      "archiveMember": "molfiles/chitosan-glucosamine-unit.mol"
+    },
+    {
+      "structureId": "cis-ppv-unit",
+      "status": "withdrawn",
+      "reason": "Accessible source diagrams were insufficient to establish this precise ideal unsubstituted stereochemical repeat. The entry explicitly discloses the figure gap; withdrawal does not assert that the former structure is chemically impossible.",
+      "successorStructureId": null,
+      "historicalSha256": "c4d58ab0a5a9201fd7bf12b01cd11028ee8c0c1a54e13b4bc2e00cd05f34dc9f",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000248"
+      ],
+      "archiveMember": "molfiles/cis-ppv-unit.mol"
+    },
+    {
+      "structureId": "cpe-mixed-chlorination-local-segment",
+      "status": "withdrawn",
+      "reason": "The longer chlorinated arrangement was more specific than the cited evidence established.",
+      "successorStructureId": null,
+      "historicalSha256": "7ad6b6eec762217cd7b34e370ed6d4a30aee62fa5ccac641e7193df76ac9d33f",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000155"
+      ],
+      "archiveMember": "molfiles/cpe-mixed-chlorination-local-segment.mol"
+    },
+    {
+      "structureId": "cpvc-variable-chlorination-local-segment",
+      "status": "withdrawn",
+      "reason": "The particular five-carbon arrangement was not established by the mapped source.",
+      "successorStructureId": null,
+      "historicalSha256": "030dd7818a0bc4396c5ae88e17d4944a19c9850274e28bb69538456d2443a570",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000024"
+      ],
+      "archiveMember": "molfiles/cpvc-variable-chlorination-local-segment.mol"
+    },
+    {
+      "structureId": "cspe-chlorine-chlorosulfonyl-local-segment",
+      "status": "withdrawn",
+      "reason": "The source supported constituent units but not the specific adjacent sequence shown.",
+      "successorStructureId": null,
+      "historicalSha256": "3eec9aeed151dcfd382e16ce87c623b0f336cebb68f91ccf1ab9415201fcb39d",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000156"
+      ],
+      "archiveMember": "molfiles/cspe-chlorine-chlorosulfonyl-local-segment.mol"
+    },
+    {
+      "structureId": "dimethylolbenzoguanamine-precursor",
+      "status": "withdrawn",
+      "reason": "The former dimethylolbenzoguanamine structure assigned specific hydroxymethyl positions not established by its mapped source; a separately sourced substituted precursor example is shown instead.",
+      "successorStructureId": "tetramethylol-ortho-hydroxybenzoguanamine-example",
+      "historicalSha256": "e10f6be2894bd2556c049726b4c72affcb66b80f90154b8e37c381f7e9cf8376",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000121"
+      ],
+      "archiveMember": "molfiles/dimethylolbenzoguanamine-precursor.mol"
+    },
+    {
+      "structureId": "elastane-mdi-urea-ptmeg-connected-architecture",
+      "status": "withdrawn",
+      "reason": "The former connected chemical architecture was replaced by a schematic and separate source-qualified constituent motifs.",
+      "successorStructureId": null,
+      "historicalSha256": "bc78ce56278ff82385f181f104567926dd23ae69c1ad1c625b3f78c76beb7373",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000186"
+      ],
+      "archiveMember": "molfiles/elastane-mdi-urea-ptmeg-connected-architecture.mol"
+    },
+    {
+      "structureId": "epdm-enb-cure-site-motif",
+      "status": "withdrawn",
+      "reason": "The former cure-site depiction was withdrawn; a source-qualified replacement remains a figure gap.",
+      "successorStructureId": null,
+      "historicalSha256": "75348719187e0b3f1331bc30c4b13e173aa8e058535a52d9d1fa11bd14632412",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000150"
+      ],
+      "archiveMember": "molfiles/epdm-enb-cure-site-motif.mol"
+    },
+    {
+      "structureId": "epoxy-novolac-glycidyl-motif",
+      "status": "withdrawn",
+      "reason": "The former local ring linkage positions were not established by its source; the successor is a source-bounded open schematic example with positional and preparation limitations.",
+      "successorStructureId": "epoxy-cresol-li-fig1-open-motif",
+      "historicalSha256": "d1e231579eca288e00186ecf79557b76101066b05c21a9a362b04deaa26f884d",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000101"
+      ],
+      "archiveMember": "molfiles/epoxy-novolac-glycidyl-motif.mol"
+    },
+    {
+      "structureId": "four-aminophenoxy-phthalonitrile-cure-promoter",
+      "status": "withdrawn",
+      "reason": "The former role-specific label was not directly established by retained accessible sources. The same finite molecule is retained under a role-neutral identifier; a patent lists it as a reactive diluent and cites a prior self-cure study.",
+      "successorStructureId": "four-aminophenoxy-phthalonitrile",
+      "historicalSha256": "a33c26fa533b14c70d4309a9ac43d46aaf4137107f0a13f0f56e0d716d03a898",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000130"
+      ],
+      "archiveMember": "molfiles/four-aminophenoxy-phthalonitrile-cure-promoter.mol"
+    },
+    {
+      "structureId": "hdi-urethane-motif",
+      "status": "withdrawn",
+      "reason": "The corrected record is an open local segment rather than an n-fold repeat.",
+      "successorStructureId": "hdi-urethane-open-segment",
+      "historicalSha256": "583224fd73c5b6addef68652920c5abe34936d2f1b86d7835697f2bb703a6027",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000255"
+      ],
+      "archiveMember": "molfiles/hdi-urethane-motif.mol"
+    },
+    {
+      "structureId": "isotactic-polypropylene-dyad",
+      "status": "withdrawn",
+      "reason": "The corrected stereodyad uses revised connectivity and stereochemical representation.",
+      "successorStructureId": "isotactic-polypropylene-corrected-dyad",
+      "historicalSha256": "5ad195500f5dee3ec3a1aa17d2e9ff32cf95be022caf6e6dff8c010f9131a929",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000010",
+        "wop-000013"
+      ],
+      "archiveMember": "molfiles/isotactic-polypropylene-dyad.mol"
+    },
+    {
+      "structureId": "mdi-urethane-hard-segment-motif",
+      "status": "withdrawn",
+      "reason": "The corrected record is an open local segment rather than an n-fold repeat.",
+      "successorStructureId": "mdi-urethane-hard-open-segment",
+      "historicalSha256": "83b6b79017d94c8fd423c5466114d21e3c30bbf647e79ddc01f8a2aaa436f551",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000255"
+      ],
+      "archiveMember": "molfiles/mdi-urethane-hard-segment-motif.mol"
+    },
+    {
+      "structureId": "meh-ppv-trans-unit",
+      "status": "withdrawn",
+      "reason": "The former description of a trans local unit obscured that the n-bracket encodes an ideal all-trans repeat. The successor explicitly identifies this idealized reference and does not claim uniform geometry in an experimental sample.",
+      "successorStructureId": "meh-ppv-ideal-all-trans-repeat",
+      "historicalSha256": "bf17ac089b753fb98bca0014bab20ea188ebb42a2e87b1a5033d30146844a91f",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000249"
+      ],
+      "archiveMember": "molfiles/meh-ppv-trans-unit.mol"
+    },
+    {
+      "structureId": "melamine-formaldehyde-network-junction",
+      "status": "withdrawn",
+      "reason": "The former simultaneous three-arm network junction was more specific than the mapped evidence; a finite methylolated melamine precursor example is shown instead.",
+      "successorStructureId": "hexamethylolmelamine-precursor-example",
+      "historicalSha256": "aa2565ea722542e5959c72d906f0d987f42274622b216d52320cf95cf0f35ef4",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000118",
+        "wop-000119"
+      ],
+      "archiveMember": "molfiles/melamine-formaldehyde-network-junction.mol"
+    },
+    {
+      "structureId": "methyl-trifluoropropyl-siloxane-unit",
+      "status": "withdrawn",
+      "reason": "The former n-bracketed homopolymer unit implied a uniform repeat within a fluorosilicone composition. The successor is an open constituent example that does not assign co-occurrence on one chain, adjacency, sequence, ratio, or cured-network structure.",
+      "successorStructureId": "fvmq-open-trifluoropropylmethyl-unit",
+      "historicalSha256": "3c8a021b8efa114b1ff11a8e406cd3cc56ece009a84bdd33a03d58c1776a6a7b",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000162"
+      ],
+      "archiveMember": "molfiles/methyl-trifluoropropyl-siloxane-unit.mol"
+    },
+    {
+      "structureId": "methyl-vinyl-siloxane-unit",
+      "status": "withdrawn",
+      "reason": "The former n-bracketed homopolymer unit implied a uniform repeat within a fluorosilicone composition. The successor is an open constituent example that does not assign co-occurrence on one chain, adjacency, sequence, ratio, or cured-network structure.",
+      "successorStructureId": "vmq-open-methylvinyl-unit",
+      "historicalSha256": "8c1d91440b179ee593737b15e2f992a4d0c1b3d90c924188737c6d3ca1ff5e4d",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000161",
+        "wop-000162"
+      ],
+      "archiveMember": "molfiles/methyl-vinyl-siloxane-unit.mol"
+    },
+    {
+      "structureId": "novolac-phenolic-network-motif",
+      "status": "withdrawn",
+      "reason": "The former two-ring segment encoded an extended combination of methylene-bridge positions not directly established by the mapped evidence; it was replaced by bounded examples.",
+      "successorStructureId": null,
+      "historicalSha256": "9150e60fc4e2168d675be39f57158becaa497f21909f94be5012229c281ab4f5",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000111",
+        "wop-000112",
+        "wop-000116",
+        "wop-000120"
+      ],
+      "archiveMember": "molfiles/novolac-phenolic-network-motif.mol"
+    },
+    {
+      "structureId": "novoloid-phenolic-network-fragment",
+      "status": "withdrawn",
+      "reason": "The former three-continuation phenolic network junction was more specific than the mapped novoloid source; a generic open novolac precursor example is shown instead.",
+      "successorStructureId": "novolac-ortho-para-open-phenol",
+      "historicalSha256": "09441fb0919764d1c91f237d92be1319f69e09cbf7b18813d5bb6b9705937230",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000187"
+      ],
+      "archiveMember": "molfiles/novoloid-phenolic-network-fragment.mol"
+    },
+    {
+      "structureId": "o-cresol-epoxy-novolac-vinyl-ester-source-motif",
+      "status": "withdrawn",
+      "reason": "The former depiction asserted aromatic bridge positions not unambiguously established by the source. The successor retains only the source-visible methacrylate side chain with its aromatic attachment and other omitted topology explicitly bounded.",
+      "successorStructureId": "novolac-methacrylate-open-side-chain",
+      "historicalSha256": "5d2bde48b34af35ed0d4994e37d06bf04762ce8d350c384474208963d356aeef",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000110"
+      ],
+      "archiveMember": "molfiles/o-cresol-epoxy-novolac-vinyl-ester-source-motif.mol"
+    },
+    {
+      "structureId": "oda-ppta-unit",
+      "status": "withdrawn",
+      "reason": "A bracketed homopolymer repeat implied uniform repetition in a copolymer example.",
+      "successorStructureId": null,
+      "historicalSha256": "806536653b8f63703ed19271383d8453f45e275d714388069afd8b59146f81a5",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000179"
+      ],
+      "archiveMember": "molfiles/oda-ppta-unit.mol"
+    },
+    {
+      "structureId": "p3ht-head-to-tail-dyad",
+      "status": "withdrawn",
+      "reason": "The former drawing included an n-bracket despite describing a local dyad.",
+      "successorStructureId": null,
+      "historicalSha256": "523c3cd5ea955ab50fde76e098696b6ef04a8763de51d3f8e19d8130b5ac38bc",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000245"
+      ],
+      "archiveMember": "molfiles/p3ht-head-to-tail-dyad.mol"
+    },
+    {
+      "structureId": "pamam-amidoamine-branching-motif",
+      "status": "withdrawn",
+      "reason": "The former motif assigned secondary amine valence to both distal nitrogen endpoints even though the source did not establish those states. The successor truncates the arms before the ambiguous nitrogens.",
+      "successorStructureId": "pamam-truncated-open-branch-environment",
+      "historicalSha256": "84c305e0798b4ac54081cae8b307a86234172afa450ac74bf7ae63ec8db2ed5b",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000239"
+      ],
+      "archiveMember": "molfiles/pamam-amidoamine-branching-motif.mol"
+    },
+    {
+      "structureId": "pdadmac-pyrrolidinium-chloride-unit",
+      "status": "withdrawn",
+      "reason": "The former repeat omitted methylene connectivity and placed a single chloride outside the n-fold charged group.",
+      "successorStructureId": null,
+      "historicalSha256": "c53bb25d9aecc98879a7f3d6fbf7de8c6667dcce2be27045f1770e15424cb2cd",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000231"
+      ],
+      "archiveMember": "molfiles/pdadmac-pyrrolidinium-chloride-unit.mol"
+    },
+    {
+      "structureId": "pdap-network-fragment",
+      "status": "withdrawn",
+      "reason": "The four-continuation local network junction was not verified for its precise connectivity by a directly illustrated source. The successor is the separately source-verified finite diallyl phthalate precursor; variable prepolymer and cured network are not depicted.",
+      "successorStructureId": "diallyl-phthalate-monomer",
+      "historicalSha256": "b64c7747f64ba5a8ab81adf6fabac89db6b5137bd8ffffbc849143bf3f947af6",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000132"
+      ],
+      "archiveMember": "molfiles/pdap-network-fragment.mol"
+    },
+    {
+      "structureId": "peba-pa12-ptmeg-connected-architecture",
+      "status": "withdrawn",
+      "reason": "The polyether repeat membership and crossing bonds were corrected.",
+      "successorStructureId": "peba-pa12-ptmeg-corrected-architecture",
+      "historicalSha256": "d8c0486ee9de12200446012ca873e2e2df8d421993a80f21ff4a64dd683abe1f",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000175"
+      ],
+      "archiveMember": "molfiles/peba-pa12-ptmeg-connected-architecture.mol"
+    },
+    {
+      "structureId": "peo-ppo-peo-connected-aba-architecture",
+      "status": "withdrawn",
+      "reason": "The prior schematic did not disclose that its repeated PPO segment assumes a uniform connection sense and omits the two-ended starter junction. The same connection table is now explicitly limited as an ideal block-order reference.",
+      "successorStructureId": "poloxamer-ideal-peo-ppo-peo-block-schematic",
+      "historicalSha256": "ced6d6016ce07e4ea364753f3071584568cf2f0bfbdcfb0354f227d87779fd0a",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000238"
+      ],
+      "archiveMember": "molfiles/peo-ppo-peo-connected-aba-architecture.mol"
+    },
+    {
+      "structureId": "pfsa-long-side-chain-sulfonic-acid-unit",
+      "status": "withdrawn",
+      "reason": "The separate bracketed side-chain-bearing repeat appeared to represent a homopolymer in a copolymer example.",
+      "successorStructureId": null,
+      "historicalSha256": "22ca20cd261bdd8e6c330631c70931e2c2b3eaf1dcc2ac27748ec6270d66cf3b",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000234"
+      ],
+      "archiveMember": "molfiles/pfsa-long-side-chain-sulfonic-acid-unit.mol"
+    },
+    {
+      "structureId": "poly-1-octene-sru",
+      "status": "withdrawn",
+      "reason": "The separate bracketed repeat appeared to represent a homopolymer in a copolymer example.",
+      "successorStructureId": null,
+      "historicalSha256": "c9ff05d5c4972b9d2fab99e3334cda5d97c48bbd6afbff39627e64ed22a52ddc",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000007",
+        "wop-000165"
+      ],
+      "archiveMember": "molfiles/poly-1-octene-sru.mol"
+    },
+    {
+      "structureId": "poly-3-hexylthiophene-unit",
+      "status": "withdrawn",
+      "reason": "The former family-example drawing was replaced with a more legible, scope-qualified local fragment.",
+      "successorStructureId": null,
+      "historicalSha256": "2999164ab8c10525aafc776ef06693ff2866ba35edddd91a5bc8101748643eb2",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000244"
+      ],
+      "archiveMember": "molfiles/poly-3-hexylthiophene-unit.mol"
+    },
+    {
+      "structureId": "poly-3-hydroxybutyrate-unit",
+      "status": "withdrawn",
+      "reason": "The current structure has a different V3000 chiral flag; the earlier and current records are separately identified.",
+      "successorStructureId": "poly-3-hydroxybutyrate-chiral-unit",
+      "historicalSha256": "31753043283b6678f527bcc457a16c09e29deda8a77bbd1eb266577865e03229",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000214",
+        "wop-000215",
+        "wop-000216"
+      ],
+      "archiveMember": "molfiles/poly-3-hydroxybutyrate-unit.mol"
+    },
+    {
+      "structureId": "poly-3-hydroxyhexanoate-unit",
+      "status": "withdrawn",
+      "reason": "The separate n-fold homopolymer-like card was replaced in a copolymer example by a bounded connected local segment.",
+      "successorStructureId": null,
+      "historicalSha256": "077c8ec58ac4d0b733d46c0596a4ab976690db704de17fa81f5357474b559b2d",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000216"
+      ],
+      "archiveMember": "molfiles/poly-3-hydroxyhexanoate-unit.mol"
+    },
+    {
+      "structureId": "poly-3-hydroxyvalerate-unit",
+      "status": "withdrawn",
+      "reason": "The separate n-fold homopolymer-like card was replaced in a copolymer example by a bounded connected local segment.",
+      "successorStructureId": null,
+      "historicalSha256": "7434e8802c32101c74b26cb531d325f3b0997b79c60e1a8ca20194f0c264ae3c",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000215"
+      ],
+      "archiveMember": "molfiles/poly-3-hydroxyvalerate-unit.mol"
+    },
+    {
+      "structureId": "poly-9-9-dimethylfluorene-motif",
+      "status": "withdrawn",
+      "reason": "The former general motif description did not disclose that its n-bracketed structure encodes a uniform 2,7-linked 9,9-dimethylfluorene repeat. The successor explicitly identifies this ideal reference; actual copolymers and other substitution patterns can differ.",
+      "successorStructureId": "poly-9-9-dimethylfluorene-ideal-27-repeat",
+      "historicalSha256": "15145b7f21da801487a0221856b12a1ac1bbdf5e67ed50278dda41503363b671",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000250"
+      ],
+      "archiveMember": "molfiles/poly-9-9-dimethylfluorene-motif.mol"
+    },
+    {
+      "structureId": "poly-d-lactide-unit",
+      "status": "withdrawn",
+      "reason": "The current structure has a different V3000 chiral flag; the earlier and current records are separately identified.",
+      "successorStructureId": "poly-d-lactide-chiral-unit",
+      "historicalSha256": "51c8c301b8563ce939664205f46d83244173be938ea5b4420943a13959500d74",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000217"
+      ],
+      "archiveMember": "molfiles/poly-d-lactide-unit.mol"
+    },
+    {
+      "structureId": "poly-hydroxynaphthoate-sru",
+      "status": "withdrawn",
+      "reason": "The n-bracketed homopolymer repeat overstated a particular uniform chain for a copolyester with variable constituent proportions and sequence; an open local residue now illustrates that constituent.",
+      "successorStructureId": "lcp-hydroxynaphthoate-open-residue",
+      "historicalSha256": "f9d30cc495d2e635d899b91956a5093fd9abe0e63df787839f774dbe8c0d2cc3",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000051"
+      ],
+      "archiveMember": "molfiles/poly-hydroxynaphthoate-sru.mol"
+    },
+    {
+      "structureId": "poly-l-lactide-unit",
+      "status": "withdrawn",
+      "reason": "The current structure has a different V3000 chiral flag; the earlier and current records are separately identified.",
+      "successorStructureId": "poly-l-lactide-chiral-unit",
+      "historicalSha256": "8a2d8ca6569bd281008a76ae88d350d75b5a4bf701a3304567ece8ccc4a00d00",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000217",
+        "wop-000218"
+      ],
+      "archiveMember": "molfiles/poly-l-lactide-unit.mol"
+    },
+    {
+      "structureId": "poly-p-hydroxybenzoate-sru",
+      "status": "withdrawn",
+      "reason": "The n-bracketed homopolymer repeat overstated a particular uniform chain for a copolyester with variable constituent proportions and sequence; an open local residue now illustrates that constituent.",
+      "successorStructureId": "lcp-hydroxybenzoate-open-residue",
+      "historicalSha256": "37a359475283b55f5a2e569e376b12f6210fb944fbfde77a5ecd35d9a2ec1663",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000051"
+      ],
+      "archiveMember": "molfiles/poly-p-hydroxybenzoate-sru.mol"
+    },
+    {
+      "structureId": "poly-perfluoromethyl-vinyl-ether-sru",
+      "status": "withdrawn",
+      "reason": "A bracketed homopolymer repeat was replaced by an open constituent motif in copolymer examples.",
+      "successorStructureId": null,
+      "historicalSha256": "6be93bcae76f3b37600687f218931146cd278c80643a4b524709fa4e983abcbb",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000091",
+        "wop-000158",
+        "wop-000262"
+      ],
+      "archiveMember": "molfiles/poly-perfluoromethyl-vinyl-ether-sru.mol"
+    },
+    {
+      "structureId": "poly-r-3-hydroxyalkanoate-markush-unit",
+      "status": "withdrawn",
+      "reason": "The current structure has a different V3000 chiral flag; the earlier and current records are separately identified.",
+      "successorStructureId": "poly-r-3-hydroxyalkanoate-chiral-markush-unit",
+      "historicalSha256": "6237517c4292c25e2df4534b465e4255f987789ecc32f93e852634a85f0f79a4",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000213"
+      ],
+      "archiveMember": "molfiles/poly-r-3-hydroxyalkanoate-markush-unit.mol"
+    },
+    {
+      "structureId": "polyaniline-benzenoid-amine-motif",
+      "status": "withdrawn",
+      "reason": "The former record was described as a local motif despite its n-bracketed fully reduced uniform repeat. The same connection table is now identified as an ideal leucoemeraldine repeat with its limiting oxidation and protonation scope explicit.",
+      "successorStructureId": "polyaniline-ideal-leucoemeraldine-repeat",
+      "historicalSha256": "04153906d9a790bcb598bd798ea37857894562dfae4dc732515ab47a4ffb3c64",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000242"
+      ],
+      "archiveMember": "molfiles/polyaniline-benzenoid-amine-motif.mol"
+    },
+    {
+      "structureId": "polybenzoxazine-mannich-network-motif",
+      "status": "withdrawn",
+      "reason": "The former network fragment encoded an ortho/para substitution arrangement whose precise connected local pattern was not established by mapped sources. The successor is a bounded ortho/ortho fragment from a directly illustrated example; full sample and network are not depicted.",
+      "successorStructureId": "polybenzoxazine-ortho-mannich-open-fragment",
+      "historicalSha256": "7e8c7bb3a9301ea075aa16dc9e9e77a57a67b8f2d6e5893973e538903d1eda15",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000129"
+      ],
+      "archiveMember": "molfiles/polybenzoxazine-mannich-network-motif.mol"
+    },
+    {
+      "structureId": "polybutylene-adipate-unit",
+      "status": "withdrawn",
+      "reason": "A bracketed homopolymer repeat was replaced by open local constituent representations in copolymer examples.",
+      "successorStructureId": null,
+      "historicalSha256": "613bd88922883eb09acf75a70084b74d6410b0a52ed1393d0370570167830b07",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000223",
+        "wop-000224"
+      ],
+      "archiveMember": "molfiles/polybutylene-adipate-unit.mol"
+    },
+    {
+      "structureId": "polyfluorene-unsubstituted-motif",
+      "status": "withdrawn",
+      "reason": "The precise continuation positions of the former unsubstituted n-repeat were not established by accessible source diagrams. The entry now explicitly discloses this figure gap; this withdrawal does not assert that the former graph is chemically impossible.",
+      "successorStructureId": null,
+      "historicalSha256": "3f29d3e8136365e6de44af9b68e38dd815f5b5440e4ecc944503e94d53a930b2",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000250"
+      ],
+      "archiveMember": "molfiles/polyfluorene-unsubstituted-motif.mol"
+    },
+    {
+      "structureId": "polyfurfuryl-alcohol-network-motif",
+      "status": "withdrawn",
+      "reason": "The specific three-methylene furan junction was not established by the mapped structural source.",
+      "successorStructureId": "pfa-open-linear-furan-methylene-fragment",
+      "historicalSha256": "53d0e9c120845e0cabad67bddb38d45f90795d69df88a3830184c696012bab52",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000131"
+      ],
+      "archiveMember": "molfiles/polyfurfuryl-alcohol-network-motif.mol"
+    },
+    {
+      "structureId": "polyhema-unit",
+      "status": "historical-layout",
+      "reason": "This historical file has the same indexed structure semantics as the current record but uses earlier depiction coordinates.",
+      "successorStructureId": "polyhema-unit",
+      "historicalSha256": "c04576c5b970ee249a35011319a688a7501478ab6071bddef803a39ef8d423e2",
+      "currentSha256": "71b041bbb01274b58b62920059bab0d397aad578324755ed7c0f4ab386a518e5",
+      "baselineEntryIds": [
+        "wop-000229"
+      ],
+      "archiveMember": "molfiles/polyhema-unit.mol"
+    },
+    {
+      "structureId": "polyhexafluoropropylene-sru",
+      "status": "withdrawn",
+      "reason": "A bracketed homopolymer repeat was replaced by open constituent motifs in copolymer examples.",
+      "successorStructureId": null,
+      "historicalSha256": "f11afc613f3c7f2d7ef3ed185471a48fcc126991832396f6499585d532767929",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000090",
+        "wop-000096",
+        "wop-000157",
+        "wop-000254",
+        "wop-000262"
+      ],
+      "archiveMember": "molfiles/polyhexafluoropropylene-sru.mol"
+    },
+    {
+      "structureId": "polylactide-unspecified-unit",
+      "status": "withdrawn",
+      "reason": "A bracketed homopolymer repeat was replaced by open constituent representations in a copolymer example.",
+      "successorStructureId": null,
+      "historicalSha256": "42ebb79d81c062c597831777bb460041df38ebb36b1157f885e66424a096b859",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000220"
+      ],
+      "archiveMember": "molfiles/polylactide-unspecified-unit.mol"
+    },
+    {
+      "structureId": "polymaleic-anhydride-sru",
+      "status": "withdrawn",
+      "reason": "A bracketed homopolymer repeat was replaced with a source-qualified open local constituent for the copolymer example.",
+      "successorStructureId": null,
+      "historicalSha256": "da80748142175fed5effaef98a2aa95289db7d51d73ca42701f00c95252189ba",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000036"
+      ],
+      "archiveMember": "molfiles/polymaleic-anhydride-sru.mol"
+    },
+    {
+      "structureId": "polymethacrylic-acid-sru",
+      "status": "withdrawn",
+      "reason": "The separate bracketed repeat appeared to represent a homopolymer in a copolymer example.",
+      "successorStructureId": null,
+      "historicalSha256": "38a098a44f41703cd9534dbc1c8c1f35acb63280fa2c0790039da48c9e184c2d",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000021"
+      ],
+      "archiveMember": "molfiles/polymethacrylic-acid-sru.mol"
+    },
+    {
+      "structureId": "polyurea-linkage-motif",
+      "status": "withdrawn",
+      "reason": "The corrected record is an open local linkage rather than an n-fold repeat.",
+      "successorStructureId": "polyurea-open-linkage",
+      "historicalSha256": "4ab66ca8f5ee3eeb79f490061793374ef132057f642559935a454abba0afce4f",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000124"
+      ],
+      "archiveMember": "molfiles/polyurea-linkage-motif.mol"
+    },
+    {
+      "structureId": "polyvinyl-butyral-acetal-motif",
+      "status": "withdrawn",
+      "reason": "The corrected record is an open local acetal segment rather than an n-fold repeat.",
+      "successorStructureId": "polyvinyl-butyral-acetal-open-motif",
+      "historicalSha256": "d50ba23cda169452f7fdce201a7d09f30b2619f670def41af6be93597a3e4ad2",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000028"
+      ],
+      "archiveMember": "molfiles/polyvinyl-butyral-acetal-motif.mol"
+    },
+    {
+      "structureId": "polyvinyl-formal-acetal-motif",
+      "status": "withdrawn",
+      "reason": "The corrected record is an open local acetal segment rather than an n-fold repeat.",
+      "successorStructureId": "polyvinyl-formal-acetal-open-motif",
+      "historicalSha256": "b724ced3ad663ed1a357f09d2a0c17885d8228e05865b8c02c6bc78c2418edbf",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000029"
+      ],
+      "archiveMember": "molfiles/polyvinyl-formal-acetal-motif.mol"
+    },
+    {
+      "structureId": "resole-phenolic-network-motif",
+      "status": "withdrawn",
+      "reason": "The former ring encoded a hydroxymethyl group and two specific methylene continuations that were not established together by the cited source.",
+      "successorStructureId": "resole-ortho-methylol-open-phenol",
+      "historicalSha256": "07297b3a82478a79850a8fea3b4b7f6a846a0a264cf2023fbe4dcc64f0b0a3af",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000111",
+        "wop-000113"
+      ],
+      "archiveMember": "molfiles/resole-phenolic-network-motif.mol"
+    },
+    {
+      "structureId": "san-styrene-acrylonitrile-local-segment",
+      "status": "historical-layout",
+      "reason": "This historical file has the same indexed structure semantics as the current record but uses earlier depiction coordinates.",
+      "successorStructureId": "san-styrene-acrylonitrile-local-segment",
+      "historicalSha256": "18965b1c5432596bb7f72558f36d39d62d7b7a3d84bb56f34ae45279bf2eb399",
+      "currentSha256": "be5738ef77dc63a5c75db7b0a92c555e669f28c4af8c24026f6a8cecffddd7c2",
+      "baselineEntryIds": [
+        "wop-000033",
+        "wop-000034"
+      ],
+      "archiveMember": "molfiles/san-styrene-acrylonitrile-local-segment.mol"
+    },
+    {
+      "structureId": "sebs-connected-aba-block-architecture",
+      "status": "withdrawn",
+      "reason": "The former middle-block SRU encoded a periodic sequence beyond the scope of the family illustration.",
+      "successorStructureId": null,
+      "historicalSha256": "2ffeef00b9a06afe90f6091dea5b042524b13f91693d7991d3d662e58037404d",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000168"
+      ],
+      "archiveMember": "molfiles/sebs-connected-aba-block-architecture.mol"
+    },
+    {
+      "structureId": "sebs-saturated-midblock-motif",
+      "status": "withdrawn",
+      "reason": "The uniform bracketed segment implied a microstructure not established across the family.",
+      "successorStructureId": null,
+      "historicalSha256": "2a1acf146dd5cc08602e0d95c918add4c6bafa4c0d139bac2af9eeede189b841",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000257"
+      ],
+      "archiveMember": "molfiles/sebs-saturated-midblock-motif.mol"
+    },
+    {
+      "structureId": "seeps-connected-multiblock-architecture",
+      "status": "withdrawn",
+      "reason": "The former middle-block SRU encoded a periodic sequence beyond the scope of the family illustration.",
+      "successorStructureId": null,
+      "historicalSha256": "33d32b2df3c9c69afea1d28d12e737ab1958d573d3fd53256554eb5bd51e5595",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000170"
+      ],
+      "archiveMember": "molfiles/seeps-connected-multiblock-architecture.mol"
+    },
+    {
+      "structureId": "seps-connected-aba-block-architecture",
+      "status": "withdrawn",
+      "reason": "The former middle-block SRU encoded a periodic sequence and did not match the cited hydrogenated 1,4-isoprene constituent.",
+      "successorStructureId": null,
+      "historicalSha256": "9b523a4663aac7718c7ea8b8de0e31e5b1daea7ba8c5fe32f77266ef15dc5e66",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000169"
+      ],
+      "archiveMember": "molfiles/seps-connected-aba-block-architecture.mol"
+    },
+    {
+      "structureId": "silk-fibroin-gagags-motif",
+      "status": "withdrawn",
+      "reason": "The former motif wording did not disclose that its n-bracket encodes a uniform GAGAGS sequence. The successor explicitly identifies an ideal repeat; natural fibroin contains varied sequences and the illustrated chain is not an asserted exact extract.",
+      "successorStructureId": "silk-fibroin-ideal-gagags-repeat",
+      "historicalSha256": "c02f03233fe1b357bc55b4d5f381547dd616ad39ed1575b494c13ee03df00c80",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000212"
+      ],
+      "archiveMember": "molfiles/silk-fibroin-gagags-motif.mol"
+    },
+    {
+      "structureId": "sis-connected-aba-block-architecture",
+      "status": "withdrawn",
+      "reason": "The former general architecture description obscured that its n-bracketed middle block encodes a uniform 1,4-isoprene connection sense. The successor explicitly labels that idealized scope; actual SIS isoprene microstructure can vary.",
+      "successorStructureId": "sis-ideal-14-midblock-architecture",
+      "historicalSha256": "5b35f7b8b36d60c5d7952e3e25970d0833457e5c3e1ae657e0b70e4e826ad45f",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000167",
+        "wop-000169"
+      ],
+      "archiveMember": "molfiles/sis-connected-aba-block-architecture.mol"
+    },
+    {
+      "structureId": "sodium-guluronate-unit",
+      "status": "withdrawn",
+      "reason": "The n-fold anionic repeat excluded the single sodium ion from its repeating group and did not express arbitrary-n charge balance.",
+      "successorStructureId": null,
+      "historicalSha256": "32295b842f5ae680ce5bd09882a686585b4f6944657eac33f376cee701832a03",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000207"
+      ],
+      "archiveMember": "molfiles/sodium-guluronate-unit.mol"
+    },
+    {
+      "structureId": "sodium-mannuronate-unit",
+      "status": "withdrawn",
+      "reason": "The n-fold anionic repeat excluded the single sodium ion from its repeating group and did not express arbitrary-n charge balance.",
+      "successorStructureId": null,
+      "historicalSha256": "7f999e464ad82c2f42f51d8630f0b08e48c164455a880ea29ab94f903b063c58",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000207"
+      ],
+      "archiveMember": "molfiles/sodium-mannuronate-unit.mol"
+    },
+    {
+      "structureId": "sodium-polyacrylate-sru",
+      "status": "withdrawn",
+      "reason": "The n-fold anionic repeat excluded the single sodium ion from its repeating group; separate homopolymer cards also failed to depict the copolymer.",
+      "successorStructureId": null,
+      "historicalSha256": "9f301ebb233d4f8db366b6e4816c8fecb078559fdb3d6388065b1d6025bab0cc",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000022"
+      ],
+      "archiveMember": "molfiles/sodium-polyacrylate-sru.mol"
+    },
+    {
+      "structureId": "sodium-polystyrenesulfonate-unit",
+      "status": "withdrawn",
+      "reason": "The n-fold anionic repeat excluded the single sodium ion from its repeating group and did not express arbitrary-n charge balance.",
+      "successorStructureId": null,
+      "historicalSha256": "fb7c609286af20671f3ddbcbc2fd6ddc74941c8a7c33dd1b929fba950b5fe4c6",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000233"
+      ],
+      "archiveMember": "molfiles/sodium-polystyrenesulfonate-unit.mol"
+    },
+    {
+      "structureId": "sulfonated-peek-motif",
+      "status": "withdrawn",
+      "reason": "The former n-bracketed sulfonated repeat implied uniform substitution despite the entry describing variable sulfonation; an open local fragment now makes the chain-wide distribution unspecified.",
+      "successorStructureId": "speek-sulfonated-open-local-fragment",
+      "historicalSha256": "f471281cd9eb7cffe9c8648d9b9d56da070211f8e8f467811a54d55c62497a52",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000235"
+      ],
+      "archiveMember": "molfiles/sulfonated-peek-motif.mol"
+    },
+    {
+      "structureId": "syndiotactic-polypropylene-dyad",
+      "status": "withdrawn",
+      "reason": "The corrected stereodyad uses revised connectivity and stereochemical representation.",
+      "successorStructureId": "syndiotactic-polypropylene-corrected-dyad",
+      "historicalSha256": "cc0e1d81c0cfb02b222b2d7ed3ac447d06321091ecf60cbd563d0ea6c313bcf4",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000011"
+      ],
+      "archiveMember": "molfiles/syndiotactic-polypropylene-dyad.mol"
+    },
+    {
+      "structureId": "thermoset-polyurethane-junction",
+      "status": "withdrawn",
+      "reason": "The former general network-junction description exceeded the directly illustrated source, which depicts a glycerol-derived three-urethane fragment of a separate isocyanate-capped precursor. The successor explicitly identifies that narrower precursor scope; the selected oligoether-triol network is not depicted.",
+      "successorStructureId": "glycerol-trisurethane-precursor-fragment",
+      "historicalSha256": "8f873949f46ceb13cf6c8eb64a6244844559f4356b6845834ad4443b36771426",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000122"
+      ],
+      "archiveMember": "molfiles/thermoset-polyurethane-junction.mol"
+    },
+    {
+      "structureId": "tpc-pbt-ptmeg-connected-architecture",
+      "status": "withdrawn",
+      "reason": "The former polyether repeat boundary joined oxygen to oxygen when repeated, inconsistent with the cited PTMEG structure.",
+      "successorStructureId": null,
+      "historicalSha256": "7a7f751c1570ab5fd3291b6122a7cbf3deac86edc944dfd185766056d29ff509",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000174"
+      ],
+      "archiveMember": "molfiles/tpc-pbt-ptmeg-connected-architecture.mol"
+    },
+    {
+      "structureId": "tpu-ptmeg-mdi-ptmeg-connected-architecture",
+      "status": "withdrawn",
+      "reason": "The corrected architecture depicts an extended connected segment.",
+      "successorStructureId": "tpu-ptmeg-mdi-extended-connected-architecture",
+      "historicalSha256": "dde6774d8e2c86b6f2cdf0df824bf5c2c6e0133a7281248f8ddc40c8cb1237a8",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000173"
+      ],
+      "archiveMember": "molfiles/tpu-ptmeg-mdi-ptmeg-connected-architecture.mol"
+    },
+    {
+      "structureId": "tpv-epdm-enb-connected-local-motif",
+      "status": "withdrawn",
+      "reason": "The connected rubber segment encoded a specific local constituent adjacency not established by the source.",
+      "successorStructureId": null,
+      "historicalSha256": "784ad0bc93a19b212d5b18772a3e23c6609ea102eb5f3fe52905b25f9f550875",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000172"
+      ],
+      "archiveMember": "molfiles/tpv-epdm-enb-connected-local-motif.mol"
+    },
+    {
+      "structureId": "trans-ppv-unit",
+      "status": "withdrawn",
+      "reason": "Accessible source diagrams were insufficient to establish this precise ideal unsubstituted stereochemical repeat. The entry explicitly discloses the figure gap; withdrawal does not assert that the former structure is chemically impossible.",
+      "successorStructureId": null,
+      "historicalSha256": "57a38a27e39ab819dea8d72868c8eca1e3de3916476a8454749f005fd4c3fbb7",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000248"
+      ],
+      "archiveMember": "molfiles/trans-ppv-unit.mol"
+    },
+    {
+      "structureId": "urea-formaldehyde-network-junction",
+      "status": "withdrawn",
+      "reason": "The former three-continuation urea junction was more specific than the available UF and MUF structural evidence; it was replaced by a bounded finite methylolurea example.",
+      "successorStructureId": "dimethylolurea-precursor-example",
+      "historicalSha256": "13b0f9dca5533b87601b6fc4f5ebd5e88b24a43d32101b6c15319dbfa0bd2110",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000117",
+        "wop-000119",
+        "wop-000120"
+      ],
+      "archiveMember": "molfiles/urea-formaldehyde-network-junction.mol"
+    },
+    {
+      "structureId": "xnbr-acrylonitrile-butadiene-methacrylic-acid-local-segment",
+      "status": "withdrawn",
+      "reason": "The connected triad encoded a specific adjacent order beyond the available evidence.",
+      "successorStructureId": null,
+      "historicalSha256": "6086dba7d90425106ee3019765b98a9af04a1fe1626e5c21661d158a7ad1b61a",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000144"
+      ],
+      "archiveMember": "molfiles/xnbr-acrylonitrile-butadiene-methacrylic-acid-local-segment.mol"
+    },
+    {
+      "structureId": "xsbr-styrene-butadiene-acrylic-acid-local-segment",
+      "status": "withdrawn",
+      "reason": "The connected triad encoded a specific adjacent order beyond the available evidence.",
+      "successorStructureId": null,
+      "historicalSha256": "8d2442b21c783945cc43f1cc7dd55780748fc69b28cce5130773e1eacbc280b4",
+      "currentSha256": null,
+      "baselineEntryIds": [
+        "wop-000141"
+      ],
+      "archiveMember": "molfiles/xsbr-styrene-butadiene-acrylic-acid-local-segment.mol"
+    }
+  ]
+}

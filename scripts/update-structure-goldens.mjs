@@ -21,7 +21,7 @@ const byId = new Map(snapshot.chemicalStructures.map((definition) => [definition
 const cases = [
   { category: 'carbon-only', structureIds: ['polyethylene-sru'] },
   { category: 'heteroatom-rich', structureIds: ['polyethylene-terephthalate-sru'] },
-  { category: 'stereoregular', structureIds: ['isotactic-polypropylene-dyad'] },
+  { category: 'stereoregular', structureIds: ['isotactic-polypropylene-corrected-dyad'] },
   {
     category: 'copolymer',
     fixtures: ['cop-sgroup'],
@@ -31,16 +31,16 @@ const cases = [
       'sbs-connected-aba-block-architecture'
     ]
   },
-  { category: 'ionic', structureIds: ['sodium-polystyrenesulfonate-unit'] },
+  { category: 'ionic', structureIds: ['pnass-two-unit-sodium-segment'] },
   { category: 'silicon-containing', structureIds: ['polydimethylsiloxane-sru'] },
   {
     category: 'generic-markush',
     structureIds: [
       'poly-2-oxazoline-markush-unit',
-      'poly-r-3-hydroxyalkanoate-markush-unit'
+      'poly-r-3-hydroxyalkanoate-chiral-markush-unit'
     ]
   },
-  { category: 'numbered-markush', structureIds: ['cellulose-trisubstitution-markush-motif'] },
+  { category: 'numbered-markush', structureIds: ['cellulose-trisubstitution-corrected-markush-motif'] },
   { category: 'network', structureIds: ['pex-carbon-carbon-junction'] },
   {
     category: 'blend',

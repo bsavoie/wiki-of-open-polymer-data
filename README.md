@@ -110,21 +110,96 @@ npm run validate
 npm test
 npm run build
 npm run coverage
-npm run structures:migrate-v2
 npm run structures:validate
 npm run structures:preview -- wop-000044
 npm run structures:review-batch -- A-Z outputs/structure-review/a-z
 npm run structures:contact-sheet
 npm run structures:update-goldens
 npm run structures:coverage
+npm run history:validate
 npm run import:snapshot -- /absolute/path/to/wop-publication-snapshot-v2
 npm run check
 ```
 
+The original `structures:migrate-v2` command is retired: it reconstructed v2
+from the frozen v1 snapshot and historical structure specifications. Current
+work must use the authoritative v2 snapshot and the validated import workflow;
+the retired command refuses to overwrite it.
+
+`npm test` runs the maintained `test/*.test.mjs` suite. Isolated research and
+preview artifacts under `outputs/` are not included in the release test run.
+
+GitHub Pages publication also requires a sanitized structure-audit release
+attestation. Once every current occurrence has independently documented review
+and the local audit ledger is ready, run:
+
+```bash
+python3 outputs/structure-audit/check-release-readiness.py
+python3 scripts/create-structure-audit-attestation.py
+python3 scripts/verify-structure-audit-attestation.py
+```
+
+The generator refuses to issue an attestation unless the local readiness gate
+passes. On a handled failure, it moves any earlier attestation out of the CI path into
+the ignored local `outputs/structure-audit/quarantined-attestations/` directory.
+The Git index can still contain a staged copy; stage the deletion before any
+commit. The generator does not alter the index.
+If that move fails, it warns that the earlier file may still be present and the
+release must not proceed. A process termination or failure before the generator
+starts cannot perform that quarantine. It writes only a schema version, the exact v2
+snapshot hash, a hash of presentation/build inputs, occurrence counts, and a
+completion flag to `.github/structure-audit-attestation.json`;
+the private ledger and review evidence remain local. Pages CI rejects a missing,
+incomplete, malformed, or stale attestation before building or deploying. Test
+the clean-checkout release gate with `python3 test/test_structure_audit_attestation.py`.
+
+The attestation is a maintainer assertion, not a cryptographic signature or an
+independent check of the underlying scientific and visual evidence. When a
+review finding is invalidated without changing snapshot bytes, remove the old
+attestation before any release and issue a new one only after re-review. Any
+change to the snapshot, regular files under `lib/`, `site-assets/`, or the
+published history directory `public-data/structure-history/2026-11-10/`,
+`scripts/build.mjs`, `scripts/validate-structure-history.py`, `package.json`, or
+`package-lock.json` invalidates the
+assertion automatically, as does a change to `.github/workflows/pages.yml` or
+the attestation generator, helper, or verifier scripts; symlinks and missing
+required inputs fail closed. The input hash detects later changes, but does not
+itself prove that the current presentation was reviewed. Run the generator only
+when the snapshot, local audit ledger, and presentation inputs are not being
+edited concurrently.
+
+Historical structure records from the 10 November 2026 deployment are kept in
+the warning-bearing archive under `public-data/structure-history/2026-11-10/`.
+Its registry records the old hashes, reasons, and corrected identifiers where
+known. These historical records are not current chemical references. The site
+build requires Python 3 and validates the archive's members, hashes, and coverage
+of changed or withdrawn structures before copying it. The old unversioned download URLs for
+withdrawn structures intentionally return 404 on GitHub Pages.
+
+To refresh the archive after a reviewed structure change, update
+`scripts/structure-history-reasons.json`, ensure the baseline commit recorded in
+the registry is available locally, and generate into a fresh candidate directory:
+
+```bash
+python3 scripts/build-structure-history.py --reasons scripts/structure-history-reasons.json --output outputs/history-candidate
+python3 scripts/validate-structure-history.py --bundle outputs/history-candidate
+```
+
+Review the candidate before replacing the checked-in history directory. The
+validator uses the checked-in baseline inventory, so CI does not require the
+historical commit to be present in a shallow checkout.
+
 `npm run build` writes the static site to `dist/`. The builder stages a complete
 replacement, recognizes prior output by its build marker, and restores the
 previous site if replacement fails. Temporary staging directories are cleaned
-and ignored rather than retained indefinitely.
+and ignored rather than retained indefinitely. Concurrent builds targeting the
+same output are rejected. A stopped process can leave `.dist.wop-build.lock`;
+check that no builder is active before removing an abandoned lock.
+The command checks the source snapshot bytes again before swapping the site;
+canonical builds also hold the snapshot-import lock through the swap. Direct
+external edits that do not use the import protocol are not locked out. A stopped
+canonical build can leave `public-data/.wop-publication-snapshot-v2.import.lock`;
+check for an active snapshot operation before removing an abandoned lock.
 
 Set `WOP_SITE_URL=https://your-public-host.example/` when building a deployed
 copy. A sitemap and absolute robots directive are emitted only when that public
@@ -138,13 +213,10 @@ fixed to the authoritative public-data directory.
 
 ## Research workflow
 
-The [research improvement workflow](docs/research-workflow.md) connects the
-public question queue, section-specific reader requests, qualified evidence
-tables, independent review and guarded local publication. Use
-`npm run research -- help` for the commands. Progress counts distinguish
-populated sections, structured evidence, current or stale section reviews,
-and resolved or access-limited research attempts. Article maturity does not
-automatically rise when a question is closed.
+The [research improvement workflow](docs/research-workflow.md) supports
+maintainer-managed questions, qualified evidence, independent review, and
+guarded local publication. Use `npm run research -- help` for the commands.
+Article maturity does not automatically rise when a question is closed.
 
 The repository-local skill at
 `.agents/skills/research-polymer-entry/SKILL.md` describes the research and
@@ -162,7 +234,7 @@ measurement conditions, and grade-bound processing windows.
 `.agents/skills/research-polymer-structure/SKILL.md` governs structure-specific
 scientific decisions and evidence. Ketcher is the reference external curator
 for coordinate-bearing V3000 and SRU/COP S-groups; it is not embedded in the
-site. Repository-wide `wop-structure-style-v5` RDKit renderer settings remain
+site. Repository-wide `wop-structure-style-v9` RDKit renderer settings remain
 the machine authority for visual styling, with no per-record overrides.
 
 ## Licensing

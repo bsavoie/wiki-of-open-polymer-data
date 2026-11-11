@@ -31,6 +31,9 @@ function depictionGroups(polymer) {
 function structureConventionNotes(item, structure) {
   return [
     item.notation,
+    structure.conventions?.openAttachmentCount
+      ? 'Short waves across bond ends mark connections to omitted portions; they are not wavy stereobonds.'
+      : null,
     structure.conventions?.unknownSingleBondCount
       ? 'A wavy single bond means that configuration at that center is intentionally unspecified; it is not a polymer-continuation bond.'
       : null,

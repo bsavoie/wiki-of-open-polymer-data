@@ -1,6 +1,6 @@
 {
   "rendererVersion": "rdkit-js-2025.03.4",
-  "styleVersion": "wop-structure-style-v5",
+  "styleVersion": "wop-structure-style-v9",
   "cases": [
     {
       "category": "carbon-only",
@@ -26,9 +26,9 @@
       "category": "stereoregular",
       "outputs": [
         {
-          "structureId": "isotactic-polypropylene-dyad",
-          "filename": "stereoregular--isotactic-polypropylene-dyad.svg",
-          "sha256": "1bb21ba18a83febd651c03fe25ecfdaf04d4f816e16de48fcb8b5ea8b4191afb"
+          "structureId": "isotactic-polypropylene-corrected-dyad",
+          "filename": "stereoregular--isotactic-polypropylene-corrected-dyad.svg",
+          "sha256": "dbf359e72e22c96f574b923bef59569f17455fe58a3e9463bf466c989d3eb4e3"
         }
       ]
     },
@@ -38,12 +38,12 @@
         {
           "structureId": "pedot-neutral-unit",
           "filename": "copolymer--pedot-neutral-unit.svg",
-          "sha256": "6c907ff5cf500103cd4051d217741bf95ee84104650de9200f22f829da4f5db7"
+          "sha256": "54cf704d9c186a530b62303f456ccc4022f95f09c807e387c4b23830ff31a077"
         },
         {
           "structureId": "polystyrene-sulfonic-acid-unit",
           "filename": "copolymer--polystyrene-sulfonic-acid-unit.svg",
-          "sha256": "5d2c1488d923adf969e0750b4b39b7b248f921129dd241eaedc00c43d1834b9b"
+          "sha256": "19a98727c05aceafc8a7c18fabb37fe3b6d4d6031e572b484265820db0365c78"
         },
         {
           "structureId": "sbs-connected-aba-block-architecture",
@@ -61,9 +61,9 @@
       "category": "ionic",
       "outputs": [
         {
-          "structureId": "sodium-polystyrenesulfonate-unit",
-          "filename": "ionic--sodium-polystyrenesulfonate-unit.svg",
-          "sha256": "4c8c98f3b21c859a6c91585567d2677e1bdaa65a5ad03e2c26fd84d92ea96a74"
+          "structureId": "pnass-two-unit-sodium-segment",
+          "filename": "ionic--pnass-two-unit-sodium-segment.svg",
+          "sha256": "5a001d818428090ed55193bd4aa07ee6eaf86b1554eb19920419f9aad49710dd"
         }
       ]
     },
@@ -86,8 +86,8 @@
           "sha256": "d430791c357a5cb11f973f186c67463bb462dffc26a7b3ee5d8ed57cb6cfb3f4"
         },
         {
-          "structureId": "poly-r-3-hydroxyalkanoate-markush-unit",
-          "filename": "generic-markush--poly-r-3-hydroxyalkanoate-markush-unit.svg",
+          "structureId": "poly-r-3-hydroxyalkanoate-chiral-markush-unit",
+          "filename": "generic-markush--poly-r-3-hydroxyalkanoate-chiral-markush-unit.svg",
           "sha256": "7937e83a6ddd9744a73c01b63a02deee4ec6b352ed25ff4bf42a41c09814232f"
         }
       ]
@@ -96,9 +96,9 @@
       "category": "numbered-markush",
       "outputs": [
         {
-          "structureId": "cellulose-trisubstitution-markush-motif",
-          "filename": "numbered-markush--cellulose-trisubstitution-markush-motif.svg",
-          "sha256": "285a4088b6a42a17036c9feace2780a43a4a75a6af930455164282f438cb0c59"
+          "structureId": "cellulose-trisubstitution-corrected-markush-motif",
+          "filename": "numbered-markush--cellulose-trisubstitution-corrected-markush-motif.svg",
+          "sha256": "b9955e4c57c0fd41c9cf780452b9187c78f2b9ec2b5af1c6eb72aaf978a72dad"
         }
       ]
     },
@@ -108,7 +108,7 @@
         {
           "structureId": "pex-carbon-carbon-junction",
           "filename": "network--pex-carbon-carbon-junction.svg",
-          "sha256": "da81617d982b50aca0a23964aa0701930dd2e231ad7ab88cf8f915f153206817"
+          "sha256": "18de7e4f030b5b3afe9b9cf8215f16dc027cd2617334efb0762adf96b5eb7bbc"
         }
       ]
     },
@@ -143,7 +143,7 @@
         {
           "structureId": "lignin-guaiacyl-beta-o-4-open-macromolecular-motif",
           "filename": "irregular-motif--lignin-guaiacyl-beta-o-4-open-macromolecular-motif.svg",
-          "sha256": "2d96fd73e42b7299e9aa3a29d8f1d340868546b372c7603bb34931728cbda119"
+          "sha256": "38601f1ab142544d06389a45d43e58194d61415875abf0b4c7d91fa82d2ae3ac"
         }
       ]
     }

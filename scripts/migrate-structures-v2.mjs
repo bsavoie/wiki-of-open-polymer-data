@@ -11,6 +11,11 @@ import { validateSnapshot } from '../lib/schema.mjs';
 import { validateChemicalStructures as validateRenderedStructures } from '../lib/structure-renderer.mjs';
 import { importSnapshot } from '../lib/importer.mjs';
 
+// This one-time migration reconstructs v2 from the frozen v1 snapshot and
+// historical specifications. Running it against the maintained corpus would
+// discard subsequent research and restore retired structure records.
+throw new Error('The v1-to-v2 structure migration is retired. The checked-in v2 snapshot is authoritative; use the validated snapshot import workflow for current work.');
+
 const scriptDirectory = path.dirname(fileURLToPath(import.meta.url));
 const repository = path.resolve(scriptDirectory, '..');
 const v1Path = path.join(repository, 'public-data', 'wop-publication-snapshot-v1', 'snapshot.json');
