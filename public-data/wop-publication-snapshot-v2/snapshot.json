@@ -1234,6 +1234,30 @@
     {
       "structureId": "pbttt-bis-trimethylstannyl-thienothiophene",
       "molfileV3000": "pbttt-bis-trimethylstannyl-thienothiophene\n  Ketcher 2D\n\n  0  0  0     0  0            999 V3000\nM  V30 BEGIN CTAB\nM  V30 COUNTS 16 17 0 0 0\nM  V30 BEGIN ATOM\nM  V30 1 C 31.7914 -11.6657 0.0 0\nM  V30 2 Sn 32.2914 -12.5317 0.0 0\nM  V30 3 C 31.7914 -13.3977 0.0 0\nM  V30 4 C 31.2914 -12.5317 0.0 0\nM  V30 5 C 33.2914 -12.5317 0.0 0\nM  V30 6 C 33.8792 -11.7227 0.0 0\nM  V30 7 C 34.8303 -12.0317 0.0 0\nM  V30 8 C 34.8303 -13.0317 0.0 0\nM  V30 9 S 33.8792 -13.3407 0.0 0\nM  V30 10 C 35.7813 -13.3407 0.0 0\nM  V30 11 C 36.3691 -12.5317 0.0 0\nM  V30 12 S 35.7813 -11.7227 0.0 0\nM  V30 13 Sn 37.3691 -12.5317 0.0 0\nM  V30 14 C 37.8691 -13.3977 0.0 0\nM  V30 15 C 37.8691 -11.6657 0.0 0\nM  V30 16 C 38.3691 -12.5317 0.0 0\nM  V30 END ATOM\nM  V30 BEGIN BOND\nM  V30 1 1 1 2\nM  V30 2 1 2 3\nM  V30 3 1 2 4\nM  V30 4 1 2 5\nM  V30 5 2 5 6\nM  V30 6 1 6 7\nM  V30 7 2 7 8\nM  V30 8 1 8 9\nM  V30 9 1 9 5\nM  V30 10 1 8 10\nM  V30 11 2 10 11\nM  V30 12 1 11 12\nM  V30 13 1 12 7\nM  V30 14 1 11 13\nM  V30 15 1 13 14\nM  V30 16 1 13 15\nM  V30 17 1 13 16\nM  V30 END BOND\nM  V30 END CTAB\nM  END\n"
+    },
+    {
+      "structureId": "ptmo-oxytrimethylene-unit",
+      "molfileV3000": "\n  -INDIGO-11112618422D\n\n  0  0  0  0  0  0  0  0  0  0  0 V3000\nM  V30 BEGIN CTAB\nM  V30 COUNTS 6 5 1 0 0\nM  V30 BEGIN ATOM\nM  V30 1 * 11.2 -7.75 0.0 0\nM  V30 2 O 12.066 -8.25 0.0 0\nM  V30 3 C 12.9321 -7.75 0.0 0\nM  V30 4 C 13.7981 -8.25 0.0 0\nM  V30 5 C 14.6641 -7.75 0.0 0\nM  V30 6 * 15.5301 -8.25 0.0 0\nM  V30 END ATOM\nM  V30 BEGIN BOND\nM  V30 1 1 1 2\nM  V30 2 1 2 3\nM  V30 3 1 3 4\nM  V30 4 1 4 5\nM  V30 5 1 5 6\nM  V30 END BOND\nM  V30 BEGIN SGROUP\nM  V30 1 SRU 1 ATOMS=(4 2 3 4 5) BRKXYZ=(9 11.766026 -8.500000 0.000000 11.76-\nM  V30 6026 -7.500000 0.000000 0.000000 0.000000 0.000000) BRKXYZ=(9 14.96410-\nM  V30 2 -7.500000 0.000000 14.964102 -8.500000 0.000000 0.000000 0.000000 0.-\nM  V30 000000) XBONDS=(2 1 5) CONNECT=HT LABEL=n\nM  V30 END SGROUP\nM  V30 END CTAB\nM  END\n"
+    },
+    {
+      "structureId": "pesulfide-ethylene-sulfide-unit",
+      "molfileV3000": "\n  -INDIGO-11112618412D\n\n  0  0  0  0  0  0  0  0  0  0  0 V3000\nM  V30 BEGIN CTAB\nM  V30 COUNTS 5 4 1 0 0\nM  V30 BEGIN ATOM\nM  V30 1 * 12.9851 -8.225 0.0 0\nM  V30 2 C 13.8511 -7.725 0.0 0\nM  V30 3 C 14.7171 -8.225 0.0 0\nM  V30 4 S 15.5831 -7.725 0.0 0\nM  V30 5 * 16.4492 -8.225 0.0 0\nM  V30 END ATOM\nM  V30 BEGIN BOND\nM  V30 1 1 1 2\nM  V30 2 1 2 3\nM  V30 3 1 3 4\nM  V30 4 1 4 5\nM  V30 END BOND\nM  V30 BEGIN SGROUP\nM  V30 1 SRU 1 ATOMS=(3 2 3 4) BRKXYZ=(9 13.551083 -8.475000 0.000000 13.5510-\nM  V30 83 -7.475000 0.000000 0.000000 0.000000 0.000000) BRKXYZ=(9 15.883134 -\nM  V30 -7.475000 0.000000 15.883134 -8.475000 0.000000 0.000000 0.000000 0.00-\nM  V30 0000) XBONDS=(2 1 4) CONNECT=HT LABEL=n\nM  V30 END SGROUP\nM  V30 END CTAB\nM  END\n"
+    },
+    {
+      "structureId": "ptms-repeat",
+      "molfileV3000": "\n  -INDIGO-11112618422D\n\n  0  0  0  0  0  0  0  0  0  0  0 V3000\nM  V30 BEGIN CTAB\nM  V30 COUNTS 6 5 1 0 0\nM  V30 BEGIN ATOM\nM  V30 1 * 11.2 -7.75 0.0 0\nM  V30 2 S 12.066 -8.25 0.0 0\nM  V30 3 C 12.9321 -7.75 0.0 0\nM  V30 4 C 13.7981 -8.25 0.0 0\nM  V30 5 C 14.6641 -7.75 0.0 0\nM  V30 6 * 15.5301 -8.25 0.0 0\nM  V30 END ATOM\nM  V30 BEGIN BOND\nM  V30 1 1 1 2\nM  V30 2 1 2 3\nM  V30 3 1 3 4\nM  V30 4 1 4 5\nM  V30 5 1 5 6\nM  V30 END BOND\nM  V30 BEGIN SGROUP\nM  V30 1 SRU 1 ATOMS=(4 2 3 4 5) BRKXYZ=(9 11.766026 -8.500000 0.000000 11.76-\nM  V30 6026 -7.500000 0.000000 0.000000 0.000000 0.000000) BRKXYZ=(9 14.96410-\nM  V30 2 -7.500000 0.000000 14.964102 -8.500000 0.000000 0.000000 0.000000 0.-\nM  V30 000000) XBONDS=(2 1 5) CONNECT=HT LABEL=n\nM  V30 END SGROUP\nM  V30 END CTAB\nM  END\n"
+    },
+    {
+      "structureId": "ptmo-1-3-propanediol-feedstock",
+      "molfileV3000": "\n  -INDIGO-11112618462D\n\n  0  0  0  0  0  0  0  0  0  0  0 V3000\nM  V30 BEGIN CTAB\nM  V30 COUNTS 5 4 0 0 0\nM  V30 BEGIN ATOM\nM  V30 1 O 11.2 -7.75 0.0 0\nM  V30 2 C 12.066 -8.25 0.0 0\nM  V30 3 C 12.9321 -7.75 0.0 0\nM  V30 4 C 13.7981 -8.25 0.0 0\nM  V30 5 O 14.6641 -7.75 0.0 0\nM  V30 END ATOM\nM  V30 BEGIN BOND\nM  V30 1 1 1 2\nM  V30 2 1 2 3\nM  V30 3 1 3 4\nM  V30 4 1 4 5\nM  V30 END BOND\nM  V30 END CTAB\nM  END\n"
+    },
+    {
+      "structureId": "pesulfide-thiirane-feedstock",
+      "molfileV3000": "\n  -INDIGO-11112618462D\n\n  0  0  0  0  0  0  0  0  0  0  0 V3000\nM  V30 BEGIN CTAB\nM  V30 COUNTS 3 3 0 0 0\nM  V30 BEGIN ATOM\nM  V30 1 C 13.1994 -8.18247 0.0 0\nM  V30 2 C 14.2006 -8.18247 0.0 0\nM  V30 3 S 13.7001 -7.31753 0.0 0\nM  V30 END ATOM\nM  V30 BEGIN BOND\nM  V30 1 1 1 2\nM  V30 2 1 2 3\nM  V30 3 1 3 1\nM  V30 END BOND\nM  V30 END CTAB\nM  END\n"
+    },
+    {
+      "structureId": "ptms-thietane-feedstock",
+      "molfileV3000": "\n  -INDIGO-11112618462D\n\n  0  0  0  0  0  0  0  0  0  0  0 V3000\nM  V30 BEGIN CTAB\nM  V30 COUNTS 4 4 0 0 0\nM  V30 BEGIN ATOM\nM  V30 1 C 14.2072 -8.24755 0.0 0\nM  V30 2 C 14.2035 -7.25245 0.0 0\nM  V30 3 C 13.1953 -8.23464 0.0 0\nM  V30 4 S 13.1928 -7.25245 0.0 0\nM  V30 END ATOM\nM  V30 BEGIN BOND\nM  V30 1 1 1 2\nM  V30 2 1 2 4\nM  V30 3 1 4 3\nM  V30 4 1 3 1\nM  V30 END BOND\nM  V30 END CTAB\nM  END\n"
     }
   ],
   "polymers": [
@@ -132535,6 +132559,1130 @@
           ]
         }
       }
+    },
+    {
+      "type": "polymer_entry",
+      "wopId": "wop-000264",
+      "canonicalSlug": "poly-trimethylene-oxide",
+      "canonicalName": "Poly(trimethylene oxide)",
+      "alternateNames": [
+        "Poly(oxetane)",
+        "Poly(oxytrimethylene)"
+      ],
+      "abbreviations": [
+        "PTO"
+      ],
+      "entryKind": "polymer",
+      "taxonomy": {
+        "primaryClass": "functional_and_specialty",
+        "materialBehaviors": [
+          "functional"
+        ],
+        "marketTiers": [
+          "specialty"
+        ],
+        "origins": [
+          "synthetic"
+        ],
+        "chemistryClasses": [
+          "polyether"
+        ],
+        "functionalTags": [
+          "polyether"
+        ]
+      },
+      "relationships": [
+        {
+          "kind": "related",
+          "wopId": "wop-000227"
+        },
+        {
+          "kind": "related",
+          "wopId": "wop-000228"
+        }
+      ],
+      "sections": {
+        "overview": "Poly(trimethylene oxide) is a linear aliphatic polyether whose ideal chain repeat contains three methylene groups per ether oxygen. It is also known as poly(oxetane), after the four-membered cyclic ether from which it can be made. Hydroxyl-terminated poly(trimethylene ether) glycol is a commercially important form used as a reactive polyol in polyurethane production; other chain ends and molecular masses are possible. Its flexible ether segments contribute to soft phases in the finished polyurethane, while the isocyanate, chain extender and processing determine the behavior of the whole product.",
+        "history": "Polymerization of trimethylene glycol was documented by Rupert C. Morris and Alva Vance Snider in a patent filed in 1946 and published in 1950. This was an early preparation and purification route, not evidence that the patent was the first synthesis of the polyether. Later research and supplier documentation describe use of hydroxyl-terminated polytrimethylene ether glycol as a polyurethane intermediate.",
+        "nomenclature": "Poly(trimethylene oxide), poly(oxytrimethylene) and poly(oxetane) identify the unsubstituted three-carbon polyether backbone. Poly(trimethylene ether) glycol (PO3G) specifically describes a hydroxyl-terminated version and should not be assumed to describe all possible chain ends. Some trade and patent usage of the glycol name includes copolymers; their composition needs separate identification. This chain is different from poly(propylene oxide), whose usual 1,2-propylene-oxide repeat has a methyl side group, and from poly(tetramethylene oxide), which has four backbone carbons per oxygen.",
+        "feedstocksAndSynthesis": "Two routes lead to the oxytrimethylene backbone. Oxetane can undergo cationic ring-opening polymerization; one documented route uses boron trifluoride etherate with a diol co-initiator to produce hydroxyl-terminated polyoxytrimethylene glycol. This is a described catalyst system, and functionalized oxetanes would give different substituted polymers.\n\nAn alternative is acid-catalyzed polycondensation of 1,3-propanediol, with water removed as the ether chains form. In one patent example, the diol and 0.5 wt% sulfuric acid were heated at 170–185 °C under nitrogen for 8 hours while water was distilled, giving a product with number-average molar mass reported as 830 g/mol by NMR. Post-treatment and purification may be needed to remove residual acid, glycol and cyclic oligomers. The feedstock can be sourced from biomass or petrochemical routes; a bio-based feed does not change the ideal backbone.",
+        "mechanicalProperties": "Unreacted hydroxyl-terminated poly(trimethylene oxide) is generally a polyol intermediate rather than the finished structural polyurethane. In a polyurethane, flexible polyether segments coexist with harder urethane-rich domains; the proportion, chemical structure, and interactions of the hard segments, as well as temperature and processing, govern stiffness and tensile behavior. The polyol molar mass and functionality also affect the network or segment length.\n\nJung and co-workers prepared experimental thermoplastic polyurethanes from PO3G polyol, 1,4-butanediol and diisocyanates and tested pressed films. For the H12MDI-based series, the initial tensile modulus increased from 12.20 to 42.40 MPa and the reported tensile strength from 4.61 to 31.61 MPa between the H-BDO-2.0 and H-BDO-3.0 formulations. The formulation changes include a higher stated hard-segment content, so these are comparisons between specific segmented TPUs, not mechanical constants of neat poly(trimethylene oxide). A separate patent reports mechanical tests on a cast MDI and PO3G-based polyurethane; its test specimens and formulation likewise must be distinguished from the precursor.",
+        "processing": "Hydroxyl-terminated polytrimethylene ether glycol is commonly metered as a reactive feed to a polyurethane formulation. The polyol viscosity and melting state, moisture control, mixing, isocyanate and chain extender choice, and curing and shaping conditions influence the downstream product; a polyol handling condition is not a universal process window for its finished copolymer.\n\nIn one research-scale example, PO3G and 1,4-butanediol were mixed, followed by diisocyanate and catalyst; the poured product was cured at 100 °C for 24 hours and pressed at 180 °C for 5 minutes into films. In a different patent example, MDI-terminated PO3G prepolymer was heated to 70 °C, mixed with butanediol, degassed, poured into molds at 100 °C, cured for 24 hours and held for at least two weeks at room temperature before testing. Both schedules describe the stated polyurethane formulations and should not be generalized to every polyol or processing system. The authors report the input polyol molecular mass as M_n 1000 g/mol in the text and M_w 1000 g/mol in Table 2, but the accompanying hydroxyl-number specification is inconsistent with that mass; the correct value is unresolved.",
+        "structureAndMorphology": "The ideal repeat is –O–CH₂–CH₂–CH₂–, an ether oxygen followed by three methylene groups. Commercial hydroxyl-terminated material carries hydroxyl end groups that can react to connect the flexible polyether chains to urethane segments; the repeat drawing does not specify chain length or terminal groups. Poly(trimethylene oxide) can crystallize, but the morphology and measured transition depend on molecular mass, thermal history, end groups and whether the material is a neat polyol or incorporated in a different polymer.",
+        "properties": "A review reports a melting point of about 35 °C for poly(trimethylene oxide), while the SK chemicals preliminary data sheet lists 16–18 °C for its particular ECOTRION H2000 polyol. The difference illustrates why a single melting temperature should not be used as a universal grade-independent value. For H2000 the same supplier lists a molecular-mass range of 1900–2100 g/mol, hydroxyl number 53.4–59.0 mg KOH/g, and viscosity 1500–1900 cP at 25 °C; it labels those values preliminary rather than design limits.",
+        "applications": "Products and industries. Hydroxyl-terminated polytrimethylene ether glycol is a reactive ingredient for polyurethane elastomers, fibers, synthetic leather and coatings; SK chemicals lists these as uses of its H2000 grade. The polyol becomes a flexible segment within the downstream polymer, and the resulting properties depend on all of the urethane ingredients. Laboratory researchers have also used it to prepare films while varying the hard-segment composition and testing their morphology and mechanics.\n\nPurchasing. SK chemicals publishes a preliminary technical data sheet for the ECOTRION H2000 grade, and Gantrade lists multiple PO3G grades by molecular mass and offers quotation. These are examples of reactive polyol products, not a commitment that any grade is in stock or equivalent to a finished polyurethane component.\n\nScale and evidence limits. The distributor lists H1000, H2000 and other molecular-mass grades, which are useful for comparing supplied formulations. No independently verified annual production or consumption total for this particular polyether was established in this research pass.",
+        "degradationAndStability": "Degradation products and pathways: Polytrimethylene ether glycol can undergo thermal oxidation during prolonged high-temperature processing or storage, and a purification patent discusses aldehyde-containing by-products and color changes. The exact products and rates depend on temperature, oxygen, polymer and additives; an inhibitor or a benign outcome should not be assumed for every grade. Thermal decomposition of a PO3G-based polyurethane also reflects the urethane and other components, rather than isolating the behavior of the neat polyether.\n\nTimescales: One patent reports 66% biodegradation in 28 days for a low-molar-mass, nominal 250 g/mol polytrimethylene ether glycol by OECD 301B and 93% in 28 days for a nominal 500 g/mol sample by OECD 302B. Those different standardized laboratory tests are not directly interchangeable and do not establish the fate of a higher-molar-mass polyether or a polyurethane article. In a separate thermogravimetric study of PO3G-based TPU films, 5% mass loss occurred at 288.8–308.9 °C across the tested formulations while heating under nitrogen; this is a programmed laboratory measurement, not an environmental lifetime.\n\nEnvironmental persistence: Environmental breakdown depends on material molecular mass, physical state, exposure and access by organisms. The laboratory values above do not establish a soil, marine, or landfill lifetime, or complete mineralization of an intact finished polyurethane.",
+        "recyclingAndEndOfLife": "A patent on manufacturing purification describes removing residual low-molecular-weight compounds and cyclic oligomers from a polytrimethylene ether glycol product using reduced-pressure distillation. This is purification of a defined production stream, not demonstration of closed-loop recycling of the polyether from a used polyurethane article. A verified general route for separating and recovering the original polyether from mixed finished products was not established in this pass.",
+        "healthSafetyAndRegulation": "",
+        "limitationsAndVariability": "Molecular mass, hydroxyl functionality, end groups, residual monomer, cyclic oligomers and thermal history affect the properties and reaction behavior of a polyol. Sources also sometimes use the glycol name for copolymers containing other repeat units; this record’s ideal chain is the unsubstituted homopolyether. Neither a supplier’s preliminary data nor measurements on one downstream polyurethane formulation specify all poly(trimethylene oxide) materials."
+      },
+      "sources": [
+        {
+          "sourceId": "ptmo-structure-patent-2011",
+          "lineageId": "wo2011095721-polytrimethylene-structure",
+          "sourceType": "patent",
+          "citation": "Polytrimethylene ether glycol polyester topical cosmetic composition. WO2011095721A1 (2011).",
+          "url": "https://patents.google.com/patent/WO2011095721A1/en",
+          "locator": "Description: explicit hydroxyl-terminated oxytrimethylene chain formula and 1,3-propanediol origin.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The full document is publicly readable. Reuse rights are not assumed; it is independently paraphrased and cited.",
+          "supports": [
+            "overview",
+            "nomenclature",
+            "structureAndMorphology",
+            "structuralDepictions"
+          ]
+        },
+        {
+          "sourceId": "ptmo-oxetane-synthesis-1990",
+          "lineageId": "ep0385632-oxetane-polyol-patent",
+          "sourceType": "patent",
+          "citation": "Preparation of oxetane polyether polyols. EP0385632A2 (1990).",
+          "url": "https://patents.google.com/patent/EP0385632A2/en",
+          "locator": "Background: polyoxytrimethylene glycol by cationic ring opening of unsubstituted oxetane with boron trifluoride/ether and diol co-initiator; distinguish examples that use substituted monomers.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The full document is publicly readable. Reuse rights are not assumed; it is independently paraphrased and cited.",
+          "supports": [
+            "overview",
+            "nomenclature",
+            "feedstocksAndSynthesis"
+          ]
+        },
+        {
+          "sourceId": "ptmo-condensation-patent-2005",
+          "lineageId": "us6977291-po3g-process",
+          "sourceType": "patent",
+          "citation": "Production of polytrimethylene ether glycol and copolymers thereof. US6977291B2 (2005).",
+          "url": "https://patents.google.com/patent/US6977291B2/en",
+          "locator": "Background, Detailed Description, Example 1: 1,3-propanediol condensation, acid catalyst, water removal, product and purification.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The full document is publicly readable. Reuse rights are not assumed; it is independently paraphrased and cited.",
+          "supports": [
+            "overview",
+            "feedstocksAndSynthesis",
+            "limitationsAndVariability"
+          ]
+        },
+        {
+          "sourceId": "ptmo-early-condensation-1950",
+          "lineageId": "us2520733-trimethylene-polymer",
+          "sourceType": "patent",
+          "citation": "Morris and Snider, Polymers of trimethylene glycol. US2520733A (1950).",
+          "url": "https://patents.google.com/patent/US2520733A/en",
+          "locator": "Bibliographic data and description: filing 1946 and early acid-catalyzed trimethylene glycol polymer production and purification.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The full document is publicly readable. Reuse rights are not assumed; it is independently paraphrased and cited.",
+          "supports": [
+            "history"
+          ]
+        },
+        {
+          "sourceId": "ptmo-review-pcm-2024",
+          "lineageId": "pielichowska-po3g-pcm-2024",
+          "sourceType": "open_journal",
+          "citation": "Pielichowska, Nowicka-Dunal and Pielichowski, Bio-Based Polymers for Environmentally Friendly Phase Change Materials, Polymers 16 (2024), 328.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10857263/",
+          "locator": "Section 3.1: trimethylene ether chain, thermal transition, crystallinity, and comparison with other polyethers.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "open_licensed",
+          "permissionBasis": "The article specifies a Creative Commons Attribution 4.0 license; independently paraphrased and cited.",
+          "supports": [
+            "structureAndMorphology",
+            "properties"
+          ],
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "sourceId": "ptmo-sk-h2000-tds",
+          "lineageId": "skchemicals-ecotrion-h2000",
+          "sourceType": "manufacturer_technical_document",
+          "citation": "SK chemicals, ECOTRION H2000 technical data sheet.",
+          "url": "https://www.skchemicals.com/download/TDS/ECOTRION/TDS_ECOTRION_H2000.pdf",
+          "locator": "Product description, uses and physical property table: H2000 polyol molecular mass, melting point, hydroxyl value and viscosity.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The full document is publicly readable. Reuse rights are not assumed; it is independently paraphrased and cited.",
+          "supports": [
+            "overview",
+            "properties",
+            "applications",
+            "limitationsAndVariability",
+            "history",
+            "feedstocksAndSynthesis"
+          ]
+        },
+        {
+          "sourceId": "ptmo-gantrade-po3g-grades",
+          "lineageId": "gantrade-po3g-supplier",
+          "sourceType": "manufacturer_technical_document",
+          "citation": "Gantrade, Polytrimethylene Ether Glycol (PO3G): product catalog.",
+          "url": "https://www.gantrade.com/product-category/polytrimethylene-ether-glycol-po3g",
+          "locator": "Product list, quoted grades and request-a-quote option.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The full document is publicly readable. Reuse rights are not assumed; it is independently paraphrased and cited.",
+          "supports": [
+            "applications"
+          ]
+        },
+        {
+          "sourceId": "ptmo-jung-2022-tpu",
+          "lineageId": "jung-polytrimethylene-tpu-2022",
+          "sourceType": "open_journal",
+          "citation": "Jung, Lee, Park and Shin, One-Shot Synthesis of Thermoplastic Polyurethane Based on Bio-Polyol (Polytrimethylene Ether Glycol) and Characterization of Micro-Phase Separation, Polymers 14 (2022), 4269.",
+          "url": "https://www.mdpi.com/2073-4360/14/20/4269",
+          "locator": "Sections 2.1, 2.2.7–2.2.9, 3.7–3.8, Tables 1, 2, 9 and 10: PO3G-based TPU preparation, press-molded films, tensile properties and thermogravimetry.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "open_licensed",
+          "permissionBasis": "The article specifies a Creative Commons Attribution 4.0 license; independently paraphrased and cited.",
+          "supports": [
+            "mechanicalProperties",
+            "processing",
+            "degradationAndStability",
+            "applications"
+          ],
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "doi": "10.3390/polym14204269",
+          "contentUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9610669/"
+        },
+        {
+          "sourceId": "ptmo-urethane-patent-2005",
+          "lineageId": "us6852823-po3g-urethane",
+          "sourceType": "patent",
+          "citation": "Polyurethane and polyurethane-urea elastomers from polytrimethylene ether glycol. US6852823B2 (2005).",
+          "url": "https://patents.google.com/patent/US6852823",
+          "locator": "Example 10 and Table 3: PO3G/MDI/butanediol polyurethane shaping, 100 °C cure and properties; preparation of polyol A and Table A; storage oxidation discussion.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The full document is publicly readable. Reuse rights are not assumed; it is independently paraphrased and cited.",
+          "supports": [
+            "mechanicalProperties",
+            "processing",
+            "properties",
+            "degradationAndStability",
+            "applications",
+            "limitationsAndVariability",
+            "history"
+          ]
+        },
+        {
+          "sourceId": "ptmo-biodegradation-patent-2013",
+          "lineageId": "us8486458-po3g-biodegradation",
+          "sourceType": "patent",
+          "citation": "Methods and compositions for extracting flavor and fragrance compounds and solubilizing essential oils. US8486458B2 (2013).",
+          "url": "https://patents.google.com/patent/US8486458B2/en",
+          "locator": "Examples, Table 1: reported OECD 301B and 302B biodegradation tests for 250 and 500 g/mol polytrimethylene ether glycol samples.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The full document is publicly readable. Reuse rights are not assumed; it is independently paraphrased and cited.",
+          "supports": [
+            "degradationAndStability",
+            "applications"
+          ]
+        },
+        {
+          "sourceId": "ptmo-purification-patent-2023",
+          "lineageId": "us11608413-po3g-purification",
+          "sourceType": "patent",
+          "citation": "Polytrimethylene ether glycol and preparation method thereof. US11608413B2 (2023).",
+          "url": "https://patents.google.com/patent/US11608413B2/en",
+          "locator": "Background and Description: thermal oxidation and removal of volatile by-products and cyclic oligomers in polyol manufacture.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The full document is publicly readable. Reuse rights are not assumed; it is independently paraphrased and cited.",
+          "supports": [
+            "degradationAndStability",
+            "recyclingAndEndOfLife",
+            "limitationsAndVariability"
+          ]
+        },
+        {
+          "sourceId": "ptmo-feedstock-nist-propanediol",
+          "lineageId": "ptmo-feedstock-nist-propanediol",
+          "sourceType": "public_dataset",
+          "citation": "NIST Chemistry WebBook, SRD 69, 1,3-propanediol.",
+          "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=504-63-2",
+          "locator": "Identity, formula and finite molecular connectivity of 1,3-propanediol.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The public NIST record states that its standard reference data is covered by copyright; the record is independently cited.",
+          "supports": [
+            "structuralDepictions"
+          ]
+        }
+      ],
+      "maturity": {
+        "contentMaturity": "source_backed_draft",
+        "confidence": "provisional",
+        "reviewFlags": [
+          "open_sources_needed",
+          "taxonomy_needs_review",
+          "processing_data_needed",
+          "property_data_needed",
+          "grade_variation_not_captured",
+          "end_of_life_review_needed"
+        ]
+      },
+      "structuralDepictions": {
+        "reviewStatus": "reviewed",
+        "representationType": "constitutional_repeat_unit",
+        "scopeNote": "The figure shows the ideal unsubstituted oxytrimethylene constitutional repeat. It does not depict hydroxyl end groups, chain length, other possible end groups, copolymer composition or downstream polyurethane connectivity.",
+        "sourceIds": [
+          "ptmo-structure-patent-2011"
+        ],
+        "items": [
+          {
+            "structureId": "ptmo-oxytrimethylene-unit",
+            "label": "Oxytrimethylene repeat",
+            "fidelity": "exact",
+            "altText": "Poly(trimethylene oxide) repeat with three methylene groups and one ether oxygen",
+            "caption": "The ideal unsubstituted poly(trimethylene oxide) constitutional repeat; terminal groups are not shown."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "evidenceId": "ptmo-jung-h-bdo-2-0-1",
+          "section": "mechanicalProperties",
+          "kind": "measurement",
+          "attribute": "Initial tensile modulus",
+          "material": "Experimental H-BDO-2.0 polyurethane made with PO3G polyol, H12MDI and 1,4-butanediol; 36.9 wt% reported hard-segment content.",
+          "value": {
+            "min": 12.2,
+            "max": 12.2,
+            "units": "MPa"
+          },
+          "conditions": "Polyol OH:diisocyanate NCO:butanediol OH ratio 1:2.0:1; cured 100 °C for 24 h then pressed 180 °C for 5 min. Film specimens 10 × 2 × 0.5 mm; test temperature is not specified.",
+          "method": "Tensile test on an Instron 4201; test rate and standard not specified in the paper.",
+          "sourceId": "ptmo-jung-2022-tpu",
+          "locator": "Sections 2.1, 2.2.9 and 3.8; Tables 1 and 10, H-BDO-2.0.",
+          "limitations": "Specific segmented polyurethane film, not neat poly(trimethylene oxide). Test humidity, speed, replicate count, and uncertainty are not reported for these tabulated values. The source gives the input polyol molecular mass as M_n 1000 g/mol in its text but M_w 1000 g/mol in Table 2, alongside an OH number consistent with a higher mass; the true mass is unresolved."
+        },
+        {
+          "evidenceId": "ptmo-jung-h-bdo-2-0-2",
+          "section": "mechanicalProperties",
+          "kind": "measurement",
+          "attribute": "Tensile strength",
+          "material": "Experimental H-BDO-2.0 polyurethane made with PO3G polyol, H12MDI and 1,4-butanediol; 36.9 wt% reported hard-segment content.",
+          "value": {
+            "min": 4.61,
+            "max": 4.61,
+            "units": "MPa"
+          },
+          "conditions": "Polyol OH:diisocyanate NCO:butanediol OH ratio 1:2.0:1; cured 100 °C for 24 h then pressed 180 °C for 5 min. Film specimens 10 × 2 × 0.5 mm; test temperature is not specified.",
+          "method": "Tensile test on an Instron 4201; test rate and standard not specified in the paper.",
+          "sourceId": "ptmo-jung-2022-tpu",
+          "locator": "Sections 2.1, 2.2.9 and 3.8; Tables 1 and 10, H-BDO-2.0.",
+          "limitations": "Specific segmented polyurethane film, not neat poly(trimethylene oxide). Test humidity, speed, replicate count, and uncertainty are not reported for these tabulated values. The source gives the input polyol molecular mass as M_n 1000 g/mol in its text but M_w 1000 g/mol in Table 2, alongside an OH number consistent with a higher mass; the true mass is unresolved."
+        },
+        {
+          "evidenceId": "ptmo-jung-h-bdo-3-0-1",
+          "section": "mechanicalProperties",
+          "kind": "measurement",
+          "attribute": "Initial tensile modulus",
+          "material": "Experimental H-BDO-3.0 polyurethane made with PO3G polyol, H12MDI and 1,4-butanediol; 45.5 wt% reported hard-segment content.",
+          "value": {
+            "min": 42.4,
+            "max": 42.4,
+            "units": "MPa"
+          },
+          "conditions": "Polyol OH:diisocyanate NCO:butanediol OH ratio 1:3.0:1; cured 100 °C for 24 h then pressed 180 °C for 5 min. Film specimens 10 × 2 × 0.5 mm; test temperature is not specified.",
+          "method": "Tensile test on an Instron 4201; test rate and standard not specified in the paper.",
+          "sourceId": "ptmo-jung-2022-tpu",
+          "locator": "Sections 2.1, 2.2.9 and 3.8; Tables 1 and 10, H-BDO-3.0.",
+          "limitations": "Specific segmented polyurethane film, not neat poly(trimethylene oxide). Test humidity, speed, replicate count, and uncertainty are not reported for these tabulated values. The source gives the input polyol molecular mass as M_n 1000 g/mol in its text but M_w 1000 g/mol in Table 2, alongside an OH number consistent with a higher mass; the true mass is unresolved."
+        },
+        {
+          "evidenceId": "ptmo-jung-h-bdo-3-0-2",
+          "section": "mechanicalProperties",
+          "kind": "measurement",
+          "attribute": "Tensile strength",
+          "material": "Experimental H-BDO-3.0 polyurethane made with PO3G polyol, H12MDI and 1,4-butanediol; 45.5 wt% reported hard-segment content.",
+          "value": {
+            "min": 31.61,
+            "max": 31.61,
+            "units": "MPa"
+          },
+          "conditions": "Polyol OH:diisocyanate NCO:butanediol OH ratio 1:3.0:1; cured 100 °C for 24 h then pressed 180 °C for 5 min. Film specimens 10 × 2 × 0.5 mm; test temperature is not specified.",
+          "method": "Tensile test on an Instron 4201; test rate and standard not specified in the paper.",
+          "sourceId": "ptmo-jung-2022-tpu",
+          "locator": "Sections 2.1, 2.2.9 and 3.8; Tables 1 and 10, H-BDO-3.0.",
+          "limitations": "Specific segmented polyurethane film, not neat poly(trimethylene oxide). Test humidity, speed, replicate count, and uncertainty are not reported for these tabulated values. The source gives the input polyol molecular mass as M_n 1000 g/mol in its text but M_w 1000 g/mol in Table 2, alongside an OH number consistent with a higher mass; the true mass is unresolved."
+        }
+      ],
+      "contextualStructures": {
+        "feedstocksAndSynthesis": {
+          "reviewStatus": "reviewed",
+          "scopeNote": "The illustrated finite molecule is a feedstock, not a polymer repeat unit. The corresponding route represents one bounded preparation.",
+          "sourceIds": [
+            "ptmo-feedstock-nist-propanediol"
+          ],
+          "items": [
+            {
+              "structureId": "ptmo-1-3-propanediol-feedstock",
+              "label": "1,3-Propanediol",
+              "fidelity": "exact",
+              "altText": "1,3-propanediol: a three-carbon chain with hydroxyl groups on both terminal carbons.",
+              "caption": "Finite feedstock molecule; conditions and material scope are specified in the route."
+            }
+          ]
+        }
+      },
+      "synthesisRoutes": [
+        {
+          "routeId": "pdo-acid-condensation",
+          "title": "Acid-catalyzed 1,3-propanediol condensation",
+          "basis": "patent_example",
+          "scopeNote": "Example 1 is a documented preparation of hydroxyl-terminated polytrimethylene ether glycol; other routes and end groups are possible.",
+          "sourceIds": [
+            "ptmo-condensation-patent-2005"
+          ],
+          "inputs": [
+            {
+              "label": "1,3-Propanediol",
+              "structureId": "ptmo-1-3-propanediol-feedstock"
+            }
+          ],
+          "products": [
+            {
+              "label": "Oxytrimethylene repeat",
+              "structureId": "ptmo-oxytrimethylene-unit"
+            }
+          ],
+          "productMode": "structural_reference",
+          "productNote": "The polymer image is a constitutional repeat, not a complete molecule or a balanced equation. Hydroxyl end groups, distribution and water are not depicted.",
+          "reagents": [
+            {
+              "name": "Sulfuric acid",
+              "role": "catalyst",
+              "detail": "Example 1 uses 0.5 wt% concentrated acid relative to the 1,3-propanediol."
+            },
+            {
+              "name": "Nitrogen",
+              "role": "medium",
+              "detail": "The example uses a nitrogen blanket at atmospheric pressure."
+            }
+          ],
+          "conditions": "170–185 °C for 8 h under nitrogen at atmospheric pressure; distill and collect the water formed.",
+          "mechanism": "Acid-catalyzed condensation of the diol forms ether linkages with removal of water. The repeat-unit image depicts the main-chain connectivity, not the detailed catalytic mechanism.",
+          "steps": [
+            {
+              "title": "Charge and prepare",
+              "body": "Charge 1,3-propanediol, purge with nitrogen and add concentrated sulfuric acid.",
+              "sourceIds": [
+                "ptmo-condensation-patent-2005"
+              ]
+            },
+            {
+              "title": "Condense and remove water",
+              "body": "Heat at 170–185 °C under a nitrogen blanket for eight hours, collecting the water of reaction.",
+              "sourceIds": [
+                "ptmo-condensation-patent-2005"
+              ]
+            },
+            {
+              "title": "Cool the reaction",
+              "body": "Cool under nitrogen. The patent reported a number-average molecular mass of 830 g/mol by NMR for this product.",
+              "sourceIds": [
+                "ptmo-condensation-patent-2005"
+              ]
+            }
+          ],
+          "limitations": "A single patent example, not a general manufacturing or safety recipe; the repeat image does not show hydroxyl end groups, impurity levels, length distribution or all by-products."
+        }
+      ]
+    },
+    {
+      "type": "polymer_entry",
+      "wopId": "wop-000265",
+      "canonicalSlug": "poly-ethylene-sulfide",
+      "canonicalName": "Poly(ethylene sulfide)",
+      "alternateNames": [
+        "polyethylene sulfide",
+        "poly(ethylene sulphide)"
+      ],
+      "abbreviations": [
+        "PES"
+      ],
+      "entryKind": "polymer",
+      "taxonomy": {
+        "primaryClass": "functional_and_specialty",
+        "materialBehaviors": [
+          "thermoplastic"
+        ],
+        "marketTiers": [
+          "specialty"
+        ],
+        "origins": [
+          "synthetic"
+        ],
+        "chemistryClasses": [
+          "polythioether"
+        ],
+        "functionalTags": [
+          "semicrystalline"
+        ]
+      },
+      "relationships": [
+        {
+          "kind": "related",
+          "wopId": "wop-000264"
+        },
+        {
+          "kind": "related",
+          "wopId": "wop-000266"
+        }
+      ],
+      "sections": {
+        "overview": "Poly(ethylene sulfide) is an aliphatic polythioether whose ideal chain contains repeating –S–CH₂–CH₂– segments. It can be prepared by ring-opening polymerization of ethylene sulfide, also called thiirane, and by other routes. Samples described in the literature can be crystalline, high-melting solids with limited solubility in common solvents. Poly(ethylene sulfide) differs from poly(phenylene sulfide), which contains aromatic rings, and from polysulfide rubbers containing sulfur–sulfur sequences. The polymer has been studied as a molding material, melt-spun fiber and laboratory ingredient in a sulfide-based electrolyte composite; these are bounded examples, not evidence of current commercial production.",
+        "history": "A 1968 patent by Gobran and Osborn describes preparation using a zinc-containing catalyst and injection molding of test bars. In 1970, a patent by Polestak reported melt spinning and stretching of poly(ethylene sulfide) fibers. A later patent described oxidation of the sulfide polymer to a sulfoxide-containing product, and a 2025 study used poly(ethylene sulfide) as a control component in a sulfide-based electrolyte composite. These dates document specific developments, not the first synthesis or proof of a continuing commercial product.",
+        "nomenclature": "Poly(ethylene sulfide), polyethylene sulfide and poly(ethylene sulphide) identify the homopolymer obtained from ethylene sulfide (thiirane). Some articles abbreviate it PES; this is ambiguous because PES is also used for polyethersulfone. Its carbon–sulfur backbone is distinct from aromatic poly(phenylene sulfide), frequently abbreviated PPS. Copolymers containing ethylene sulfide units or polymers with sulfur–sulfur sequences are related materials, not synonyms for the homopolymer.",
+        "feedstocksAndSynthesis": "Ethylene sulfide, a three-membered cyclic sulfide also called thiirane, can undergo ring-opening polymerization to form the sulfur-containing main chain. In one historical route, a preformed diethylzinc–water catalyst was combined with ethylene sulfide under nitrogen in benzene, producing crystalline poly(ethylene sulfide). Its catalyst, solvent and isolation conditions describe the particular patent example, not a currently dominant manufacturing process.\n\nA different laboratory route does not start from thiirane: Mirmira and colleagues reacted lithium sulfide with 1,2-dichloroethane in water at 75 °C under reflux for 48 hours, then washed and vacuum-dried the resulting precipitate. The authors used this polymer as a comparison material in a sulfide electrolyte study. Starting feed, reaction conditions and work-up affect chain ends and potential residues, which must be accounted for when comparing samples.",
+        "mechanicalProperties": "The high-crystallinity homopolymer can be formed into stiff molded test bars, while melt-spun fibers show a different combination of elongation and recovery. The thermal and mechanical history, specimen geometry, oxidation and preparation method matter; values for a fiber should not be transferred to a bulk molded component. A 1968 patent reports injection-molded bars with different cooling treatments and ASTM tensile and flexural measurements. For its first water-cooled molding condition, the mean tensile strength was 6,586 psi and the mean flexural modulus was 315,440 psi, each based on five tests. A second sample molded at the same stated cylinder, nozzle and mold temperatures and held at 180 °C for seven minutes before gradual cooling gave 6,731 psi and 345,825 psi, respectively, also averages of five tests. This is a comparison of the patent’s specimens, not a universal annealing rule. A different 1970 patent reports that melt-spun poly(ethylene sulfide) fibers displayed substantial stretch and recovery; its fiber results depend on drawdown and processing and are not comparable to the molded-bar values.",
+        "processing": "The polymer can be melted and shaped, but its relatively high crystalline melting point places melt processing close to conditions where thermal stability and residence time matter. A historical molding patent describes injection molding of polyethylene sulfide into test bars; one example used a 378 °F cylinder, 450 °F nozzle and 171 °F mold, followed by either water cooling or a defined heat treatment. The cited patent does not establish that these settings are generally suitable for modern equipment or formulations. A separate patent describes melt-spinning at high take-up speed to form filaments, optionally followed by stretching to develop a porous structure. It notes that a thermal stabilizer such as a hindered phenol can improve shaped-article properties; its reported spinning parameters and additive choices are formulation-specific and are not present-day universal settings.",
+        "structureAndMorphology": "The ideal homopolymer chain has one thioether sulfur per two methylene groups, –S–CH₂–CH₂–. It has no pendant methyl group; methyl-substituted poly(propylene sulfide) is a different material. A patent describes its isolated poly(ethylene sulfide) as a crystalline powder and measured a high melting range for a specified preparation. Chain length, synthesis and thermal history can affect a specimen’s structure, and the repeat drawing does not specify these details or the terminal groups.",
+        "properties": "A sample prepared with a diethylzinc–water catalyst in one 1968 patent example had a reported melting range of 208–212 °C, measured using a hot stage at a heating rate of 3 °C per minute. The patent also tested a separately prepared sample in o-dichlorobenzene at 180 °C for four hours and reported that it was substantially insoluble under that procedure. These observations belong to the stated preparations and tests; melting behavior and solubility should not be assumed for every molecular weight or formulation.",
+        "applications": "Products and industries. A historical patent describes shaping poly(ethylene sulfide) into crystalline filaments and films and proposes porous stretched fibers for thermal-insulation or textile uses. A patent proposal does not establish that such products are widely commercialized. In a separate 2025 study, researchers combined separately prepared poly(ethylene sulfide) with a lithium thiophosphate solid electrolyte as an experimental comparison material; the tested mixture is a composite, not neat polymer.\n\nPurchasing. The sources checked document laboratory synthesis and historical patent examples, but do not establish a current commercial supplier or package size for this homopolymer. Ethylene sulfide monomer listings should not be confused with listings for the polymer.\n\nScale and evidence limits. The solid-electrolyte study synthesized a laboratory control polymer from approximately 2 g of 1,2-dichloroethane; the historical injection-molding patent describes a larger preparation. Neither example establishes current production, sales or annual consumption for poly(ethylene sulfide).",
+        "degradationAndStability": "Degradation products and pathways: Sulfur atoms in this polythioether can be chemically oxidized. One patent reports treating poly(ethylene sulfide) with nitric acid and methanesulfonic acid to form poly(ethylene sulfoxide), with NMR and infrared measurements used to assess the resulting sulfur functionalities. A different reaction time and temperature in that study produced a mixture of sulfoxide and sulfone groups. Such deliberate oxidation in strong acid is distinct from natural environmental degradation.\n\nTimescales: The patent’s sulfoxide preparation used a 24-hour oxidation at 0 °C in the specified acid mixture. The melt-spinning patent describes thermal stabilization during hot shaping, but neither example gives a service or outdoor lifetime. Material formulation, temperature and exposure atmosphere matter when comparing stability.\n\nEnvironmental persistence: The sources checked do not establish a homopolymer-specific rate of biodegradation or mineralization in soil, freshwater or seawater. Oxidation of sulfur, loss of physical performance and conversion of polymer carbon to carbon dioxide are different endpoints.",
+        "recyclingAndEndOfLife": "The sources examined do not demonstrate a collection or recycling process for poly(ethylene sulfide) articles. The documented nitric-acid/methanesulfonic-acid treatment deliberately changes sulfur chemistry to prepare a sulfoxide polymer; it is not a demonstrated route for recovering monomer or reusing the original polymer. Melt reprocessing would require separate study because the patent literature raises thermal-stability concerns.",
+        "healthSafetyAndRegulation": "Feedstock and polymer hazards must be distinguished. A 2025 TCI Europe safety data sheet for a butyl-mercaptan-stabilized ethylene sulfide laboratory reagent classifies that liquid as highly flammable, toxic if swallowed or inhaled, and capable of serious eye damage; it calls for controlled ventilation, protection and separation from ignition sources. These statements apply to the specified monomer preparation, not automatically to purified poly(ethylene sulfide). The historical recipes used other hazardous reagents and solvents; current safety documents and controls must be selected for the actual procedure.",
+        "limitationsAndVariability": "The label covers the homopolymer backbone, while chain length, end groups, catalyst residues, crystallinity and thermal history depend on synthesis and processing. The molded-bar data were measured on a specific historical sample and cannot be applied to a fiber, a copolymer or a different additive package without independent testing. Even a documented patent example or laboratory catalyst experiment does not establish the current market size, an environmental lifetime or a complete recycling system."
+      },
+      "sources": [
+        {
+          "sourceId": "pesulfide-gobran-osborn-1968",
+          "lineageId": "thiokol-episulfide-patent-1968",
+          "sourceType": "patent",
+          "citation": "R. H. Gobran and S. W. Osborn, Process for making episulfide polymers, US Patent 3,365,429, issued 1968.",
+          "url": "https://patents.google.com/patent/US3365429A/en",
+          "locator": "Examples 1–3, columns 3–6; Tables I–II, column 5; methods and molding conditions in columns 3–5.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The complete document is anonymously readable and independently paraphrased; no open reuse license was confirmed.",
+          "supports": [
+            "overview",
+            "history",
+            "feedstocksAndSynthesis",
+            "mechanicalProperties",
+            "processing",
+            "properties",
+            "applications",
+            "limitationsAndVariability"
+          ],
+          "contentUrl": "https://patentimages.storage.googleapis.com/3c/4b/5c/463d8782109b81/US3365429.pdf"
+        },
+        {
+          "sourceId": "pesulfide-polestak-fibers-1970",
+          "lineageId": "celanese-polyethylene-sulfide-fibers-1970",
+          "sourceType": "patent",
+          "citation": "W. J. Polestak, Process for producing filaments and films of polymers of alkylene sulfides, US Patent 3,539,676, issued 1970.",
+          "url": "https://patents.google.com/patent/US3539676A/en",
+          "locator": "Columns 1–9, especially examples I and III and Table V; fiber spinning and proposed uses.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The complete document is anonymously readable and independently paraphrased; no open reuse license was confirmed.",
+          "supports": [
+            "overview",
+            "history",
+            "mechanicalProperties",
+            "processing",
+            "applications",
+            "degradationAndStability",
+            "recyclingAndEndOfLife",
+            "limitationsAndVariability"
+          ],
+          "contentUrl": "https://patentimages.storage.googleapis.com/c8/80/53/d2a9762249ce6b/US3539676.pdf"
+        },
+        {
+          "sourceId": "pesulfide-sony-polymer-identity-2010",
+          "lineageId": "sony-jp2010010080a",
+          "sourceType": "patent",
+          "citation": "T. Kotani and H. Nakai, Negative electrode, secondary battery, and their manufacturing method, JP2010010080A (2010).",
+          "url": "https://patents.google.com/patent/JP2010010080A/en",
+          "locator": "Paragraph describing chemical formula 3(1), poly(thiirane) identity and thiirane ring opening.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The complete source is anonymously accessible and its contents are independently paraphrased and cited; no open reuse license is asserted.",
+          "supports": [
+            "overview",
+            "nomenclature",
+            "structureAndMorphology",
+            "structuralDepictions",
+            "feedstocksAndSynthesis"
+          ]
+        },
+        {
+          "sourceId": "pesulfide-polymer-sulfoxide-patent-2007",
+          "lineageId": "jp3953639b2-ethylene-sulfoxide",
+          "sourceType": "patent",
+          "citation": "Method for producing polyalkylene sulfoxide and polyethylene sulfoxide, JP3953639B2 (2007).",
+          "url": "https://patents.google.com/patent/JP3953639B2/en",
+          "locator": "Description paragraphs [0014]–[0020], [0029]–[0037] and Examples 1–3: polyethylene sulfide oxidation with nitric acid and methanesulfonic acid, NMR and isolation.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The complete source is anonymously accessible and its contents are independently paraphrased and cited; no open reuse license is asserted.",
+          "supports": [
+            "overview",
+            "history",
+            "applications",
+            "degradationAndStability",
+            "recyclingAndEndOfLife"
+          ]
+        },
+        {
+          "sourceId": "pesulfide-mirmira-2025-electrolyte",
+          "lineageId": "mirmira-solid-state-electrolyte-pes-control-2025",
+          "sourceType": "open_journal",
+          "citation": "P. Mirmira et al., In Situ Inorganic and Polymer Synthesis for Conformal Hybrid Sulfide-Type Solid State Electrolytes, Chemistry of Materials 37 (2025), 1069–1082.",
+          "url": "https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/4/1879/files/2025/05/mirmira-et-al-2025-in-situ-inorganic-and-polymer-synthesis-for-conformal-hybrid-sulfide-type-solid-state-electrolytes.pdf",
+          "locator": "Experimental: Synthesis of Poly(ethylene Sulfide) Control Polymer; Results and Discussion: ex situ sulfide–PES composite control.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The complete source is anonymously accessible and its contents are independently paraphrased and cited; no open reuse license is asserted.",
+          "supports": [
+            "overview",
+            "history",
+            "feedstocksAndSynthesis",
+            "applications"
+          ],
+          "doi": "10.1021/acs.chemmater.4c02835"
+        },
+        {
+          "sourceId": "pesulfide-tci-ethylene-sulfide-eu-sds-2025",
+          "lineageId": "tci-ethylene-sulfide-e0133-eu-sds-2025",
+          "sourceType": "manufacturer_technical_document",
+          "citation": "TCI Europe, Ethylene Sulfide (stabilized with Butyl Mercaptan), safety data sheet E0133, version 1.1, revised 30 September 2025.",
+          "url": "https://www.tcichemicals.com/BE/en/sds/E0133_EU_6N.pdf",
+          "locator": "Sections 1–3 and 7–8: reagent identification, EU classification and handling precautions.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The TCI Europe safety data sheet is publicly accessible at the distributor full-content URL; it is independently paraphrased and cited.",
+          "supports": [
+            "healthSafetyAndRegulation"
+          ],
+          "contentUrl": "https://static.cymitquimica.com/products/3B/pdf/sds-E0133.pdf"
+        },
+        {
+          "sourceId": "pesulfide-feedstock-nist-thiirane",
+          "lineageId": "pesulfide-feedstock-nist-thiirane",
+          "sourceType": "public_dataset",
+          "citation": "NIST Chemistry WebBook, SRD 69, thiirane.",
+          "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C420122&Units=SI",
+          "locator": "Identity, formula and finite 3-membered molecular connectivity of thiirane.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The public NIST record states that its standard reference data is covered by copyright; the record is independently cited.",
+          "supports": [
+            "structuralDepictions"
+          ]
+        }
+      ],
+      "maturity": {
+        "contentMaturity": "source_backed_draft",
+        "confidence": "provisional",
+        "reviewFlags": [
+          "open_sources_needed",
+          "taxonomy_needs_review",
+          "processing_data_needed",
+          "property_data_needed",
+          "grade_variation_not_captured",
+          "end_of_life_review_needed",
+          "safety_review_needed"
+        ]
+      },
+      "evidence": [
+        {
+          "evidenceId": "pesulfide-gobran-1968-a-strength",
+          "section": "mechanicalProperties",
+          "kind": "measurement",
+          "attribute": "Tensile strength",
+          "material": "Injection-molded poly(ethylene sulfide) test bars, water-cooled; 1/2 × 1/8 × 3 inch.",
+          "value": {
+            "min": 6586,
+            "max": 6586,
+            "units": "psi"
+          },
+          "conditions": "Cylinder 378 °F, nozzle 450 °F, mold 171 °F; tap-water-cooled. Test temperature, humidity and loading speed are not reported.",
+          "method": "ASTM D638 tensile.",
+          "sourceId": "pesulfide-gobran-osborn-1968",
+          "locator": "Example 2, Tables I and II, row 1, column 5.",
+          "limitations": "Mean of five tests as stated in the patent; individual values and uncertainty are not reported. Particular synthesis and molding conditions, not a universal polymer property."
+        },
+        {
+          "evidenceId": "pesulfide-gobran-1968-a-elongation",
+          "section": "mechanicalProperties",
+          "kind": "measurement",
+          "attribute": "Tensile elongation",
+          "material": "Injection-molded poly(ethylene sulfide) test bars, water-cooled; 1/2 × 1/8 × 3 inch.",
+          "value": {
+            "min": 3,
+            "max": 3,
+            "units": "%"
+          },
+          "conditions": "Cylinder 378 °F, nozzle 450 °F, mold 171 °F; tap-water-cooled. Test temperature, humidity and loading speed are not reported.",
+          "method": "ASTM D638 tensile.",
+          "sourceId": "pesulfide-gobran-osborn-1968",
+          "locator": "Example 2, Tables I and II, row 1, column 5.",
+          "limitations": "Mean of five tests as stated in the patent; individual values and uncertainty are not reported. Particular synthesis and molding conditions, not a universal polymer property."
+        },
+        {
+          "evidenceId": "pesulfide-gobran-1968-a-flexural-modulus",
+          "section": "mechanicalProperties",
+          "kind": "measurement",
+          "attribute": "Flexural modulus",
+          "material": "Injection-molded poly(ethylene sulfide) test bars, water-cooled; 1/2 × 1/8 × 3 inch.",
+          "value": {
+            "min": 315440,
+            "max": 315440,
+            "units": "psi"
+          },
+          "conditions": "Cylinder 378 °F, nozzle 450 °F, mold 171 °F; tap-water-cooled. Test temperature, humidity and loading speed are not reported.",
+          "method": "ASTM D790 flexural.",
+          "sourceId": "pesulfide-gobran-osborn-1968",
+          "locator": "Example 2, Tables I and II, row 1, column 5.",
+          "limitations": "Mean of five tests as stated in the patent; individual values and uncertainty are not reported. Particular synthesis and molding conditions, not a universal polymer property."
+        },
+        {
+          "evidenceId": "pesulfide-gobran-1968-b-strength",
+          "section": "mechanicalProperties",
+          "kind": "measurement",
+          "attribute": "Tensile strength",
+          "material": "Injection-molded poly(ethylene sulfide) test bars, 180 °C heat-treated; 1/2 × 1/8 × 3 inch.",
+          "value": {
+            "min": 6731,
+            "max": 6731,
+            "units": "psi"
+          },
+          "conditions": "Cylinder 378 °F, nozzle 450 °F, mold 171 °F; held at 180 °C for 7 minutes, then gradually air-cooled to room temperature. Test temperature, humidity and loading speed are not reported.",
+          "method": "ASTM D638 tensile.",
+          "sourceId": "pesulfide-gobran-osborn-1968",
+          "locator": "Example 2, Tables I and II, row 4, column 5.",
+          "limitations": "Mean of five tests as stated in the patent; individual values and uncertainty are not reported. Particular synthesis and molding conditions, not a universal polymer property."
+        },
+        {
+          "evidenceId": "pesulfide-gobran-1968-b-elongation",
+          "section": "mechanicalProperties",
+          "kind": "measurement",
+          "attribute": "Tensile elongation",
+          "material": "Injection-molded poly(ethylene sulfide) test bars, 180 °C heat-treated; 1/2 × 1/8 × 3 inch.",
+          "value": {
+            "min": 3,
+            "max": 3,
+            "units": "%"
+          },
+          "conditions": "Cylinder 378 °F, nozzle 450 °F, mold 171 °F; held at 180 °C for 7 minutes, then gradually air-cooled to room temperature. Test temperature, humidity and loading speed are not reported.",
+          "method": "ASTM D638 tensile.",
+          "sourceId": "pesulfide-gobran-osborn-1968",
+          "locator": "Example 2, Tables I and II, row 4, column 5.",
+          "limitations": "Mean of five tests as stated in the patent; individual values and uncertainty are not reported. Particular synthesis and molding conditions, not a universal polymer property."
+        },
+        {
+          "evidenceId": "pesulfide-gobran-1968-b-flexural-modulus",
+          "section": "mechanicalProperties",
+          "kind": "measurement",
+          "attribute": "Flexural modulus",
+          "material": "Injection-molded poly(ethylene sulfide) test bars, 180 °C heat-treated; 1/2 × 1/8 × 3 inch.",
+          "value": {
+            "min": 345825,
+            "max": 345825,
+            "units": "psi"
+          },
+          "conditions": "Cylinder 378 °F, nozzle 450 °F, mold 171 °F; held at 180 °C for 7 minutes, then gradually air-cooled to room temperature. Test temperature, humidity and loading speed are not reported.",
+          "method": "ASTM D790 flexural.",
+          "sourceId": "pesulfide-gobran-osborn-1968",
+          "locator": "Example 2, Tables I and II, row 4, column 5.",
+          "limitations": "Mean of five tests as stated in the patent; individual values and uncertainty are not reported. Particular synthesis and molding conditions, not a universal polymer property."
+        }
+      ],
+      "structuralDepictions": {
+        "reviewStatus": "reviewed",
+        "representationType": "constitutional_repeat_unit",
+        "scopeNote": "The diagram shows the ideal unsubstituted ethylene-sulfide repeat. It omits chain ends, molecular mass, catalyst residues, crystallinity, oxidation, and copolymer composition.",
+        "sourceIds": [
+          "pesulfide-sony-polymer-identity-2010"
+        ],
+        "items": [
+          {
+            "structureId": "pesulfide-ethylene-sulfide-unit",
+            "label": "Ethylene sulfide repeat",
+            "fidelity": "exact",
+            "altText": "Poly(ethylene sulfide) repeat with two methylene groups and one sulfur atom in the backbone",
+            "caption": "Ideal ethylene-sulfide homopolymer constitutional repeat; end groups are not shown."
+          }
+        ]
+      },
+      "contextualStructures": {
+        "feedstocksAndSynthesis": {
+          "reviewStatus": "reviewed",
+          "scopeNote": "The illustrated finite molecule is a feedstock, not a polymer repeat unit. The corresponding route represents one bounded preparation.",
+          "sourceIds": [
+            "pesulfide-feedstock-nist-thiirane"
+          ],
+          "items": [
+            {
+              "structureId": "pesulfide-thiirane-feedstock",
+              "label": "Ethylene sulfide (thiirane)",
+              "fidelity": "exact",
+              "altText": "Thiirane: a three-membered ring with two carbon atoms and one sulfur atom.",
+              "caption": "Finite feedstock molecule; conditions and material scope are specified in the route."
+            }
+          ]
+        }
+      },
+      "synthesisRoutes": [
+        {
+          "routeId": "thiirane-zinc-acetone",
+          "title": "Ethylene sulfide polymerization with a diethylzinc–acetone catalyst",
+          "basis": "patent_example",
+          "scopeNote": "Patent Example 14 describes one solution preparation of crystalline ethylene-sulfide homopolymer.",
+          "sourceIds": [
+            "pesulfide-gobran-osborn-1968"
+          ],
+          "inputs": [
+            {
+              "label": "Ethylene sulfide (thiirane)",
+              "structureId": "pesulfide-thiirane-feedstock"
+            }
+          ],
+          "products": [
+            {
+              "label": "Ethylene sulfide repeat",
+              "structureId": "pesulfide-ethylene-sulfide-unit"
+            }
+          ],
+          "productMode": "structural_reference",
+          "productNote": "The polymer drawing shows a constitutional repeat rather than a complete polymer, balanced reaction, chain ends, metal residues or molecular-mass distribution.",
+          "reagents": [
+            {
+              "name": "Diethylzinc and acetone catalyst solution",
+              "role": "catalyst",
+              "detail": "The patent prepares a 1:1 diethylzinc/acetone solution before charging."
+            },
+            {
+              "name": "Benzene",
+              "role": "medium",
+              "detail": "The patent example used dried benzene under nitrogen."
+            }
+          ],
+          "conditions": "Seal under dry nitrogen, heat to 80 °C for 2 h, then cool and recover polymer.",
+          "mechanism": "In the documented catalyst system, the cyclic sulfide undergoes ring-opening polymerization to form a carbon–sulfur backbone. The figure does not specify a detailed sequence of catalyst-centered elementary steps.",
+          "steps": [
+            {
+              "title": "Prepare catalyst",
+              "body": "Prepare the diethylzinc–acetone catalyst solution as described in the patent.",
+              "sourceIds": [
+                "pesulfide-gobran-osborn-1968"
+              ]
+            },
+            {
+              "title": "Polymerize",
+              "body": "Charge ethylene sulfide with catalyst solution and dried benzene under nitrogen; seal and maintain at 80 °C for two hours.",
+              "sourceIds": [
+                "pesulfide-gobran-osborn-1968"
+              ]
+            },
+            {
+              "title": "Recover",
+              "body": "Cool, open and recover the homopolymer. The patent reports 57% yield and a 205.5–209 °C melting range for this example.",
+              "sourceIds": [
+                "pesulfide-gobran-osborn-1968"
+              ]
+            }
+          ],
+          "limitations": "One historical patent experiment using hazardous benzene and pyrophoric organozinc reagent; the preparation and reported yield are not universal polymer characteristics."
+        }
+      ]
+    },
+    {
+      "type": "polymer_entry",
+      "wopId": "wop-000266",
+      "canonicalSlug": "poly-trimethylene-sulfide",
+      "canonicalName": "Poly(trimethylene sulfide)",
+      "alternateNames": [
+        "Poly(thietane)",
+        "Polythietane",
+        "Poly(trimethylene sulphide)"
+      ],
+      "abbreviations": [
+        "PTMS"
+      ],
+      "entryKind": "polymer",
+      "taxonomy": {
+        "primaryClass": "functional_and_specialty",
+        "materialBehaviors": [
+          "functional"
+        ],
+        "marketTiers": [
+          "specialty"
+        ],
+        "origins": [
+          "synthetic"
+        ],
+        "chemistryClasses": [
+          "polythioether"
+        ],
+        "functionalTags": [
+          "sulfur_containing_polymer"
+        ]
+      },
+      "relationships": [
+        {
+          "kind": "related",
+          "wopId": "wop-000264"
+        },
+        {
+          "kind": "related",
+          "wopId": "wop-000265"
+        }
+      ],
+      "sections": {
+        "overview": "Poly(trimethylene sulfide), also called poly(thietane), is an aliphatic polythioether whose constitutional repeating unit contains three methylene groups and one sulfur atom. Unlike poly(ethylene sulfide), it has three rather than two backbone carbons between sulfur atoms; it also differs from methyl-substituted poly(propylene sulfide). A 1967 patent describes preparing crystalline homopolymer from the cyclic monomer thietane and forming films. Later patents proposed its use in polymer blends and experimental battery-electrode coatings. These examples do not establish specifications for every preparation or current commercial scale.",
+        "history": "A 1967 patent by James T. Edmonds describes making trimethylene sulfide polymers using an organolithium catalyst and preparing films from several resulting homopolymers. In 1968 a related patent described blending poly(trimethylene sulfide) with olefin polymers. A later rechargeable-cell patent examined the homopolymer as a coating on laboratory electrodes. These documents trace particular examples and are not a claim that they were the first preparation or show present-day commercial production.",
+        "nomenclature": "Poly(trimethylene sulfide), poly(thietane) and polythietane identify the homopolymer with a three-carbon spacer between backbone sulfur atoms. The abbreviation PTMS is used here to avoid the ambiguous abbreviation PPS, which can refer to poly(propylene sulfide) or poly(phenylene sulfide). The name trimethylene sulfide itself usually denotes thietane, the four-membered cyclic monomer, rather than its polymer.",
+        "feedstocksAndSynthesis": "Thietane, also called trimethylene sulfide, can undergo ring-opening polymerization to produce a polythioether with three methylene groups between sulfur atoms. A rechargeable-cell patent identifies both cationic and anionic initiation routes for the cyclic monomer and distinguishes the resulting polymer from the two-carbon thiirane homopolymer and methyl-substituted products. A 1967 patent reports a bounded anionic preparation: thietane and n-butyllithium were combined in N-methylpyrrolidone under nitrogen and left overnight at room temperature. Adding water precipitated a polymer that was washed and dried; its properties depend on preparation and purification. End groups, molecular mass and residual reagents need to be specified for each material.",
+        "mechanicalProperties": "",
+        "processing": "Processing depends on whether the material is a neat homopolymer, an electrode coating or a complex. In one historical patent preparation, recovered poly(trimethylene sulfide) was molded into a film at 120 °C; the resulting film could be cold drawn. The patent did not establish a general processing window or describe all of the conditions needed to reproduce this behavior. Separately, a rechargeable-cell patent describes dipping a silicon electrode in a dilute polymer solution and drying it at 60 °C under reduced pressure. This solution-coating experiment concerns a particular laboratory electrode and solvent, rather than a universal manufacturing recommendation.",
+        "structureAndMorphology": "The unsubstituted constitutional repeat has three consecutive methylene carbons between thioether sulfur atoms. It differs from the two-carbon spacer in poly(ethylene sulfide) and the pendant methyl group of poly(propylene sulfide); these names can be confused in the literature. The 1967 patent describes a crystalline homopolymer produced by n-butyllithium polymerization of trimethylene sulfide. Chain length, purification, preparation and thermal history can affect the ordering of an actual specimen, and an oxidized derivative has a different chemical state.",
+        "properties": "In one 1967 patent, a thietane homopolymer was dissolved in N-methylpyrrolidone and characterized by solution viscosity at 30 °C; a film molded from the material could be cold drawn. These observations depend on the polymer’s preparation and do not define the solubility or melting point of every sample. The patent also describes a separate homopolymer sample with crystalline melting behavior. Chain length, residual reagents and thermal history should accompany comparisons between materials.",
+        "applications": "Products and industries. A rechargeable-cell patent investigated poly(thietane) as one of several sulfur-containing coatings on silicon negative electrodes. In the example corresponding to poly(thietane), the electrode was dip-coated from a 1 wt% solution in 4-chlorophenol and dried at 60 °C under reduced pressure; the patent reports improved capacity retention for coated electrodes relative to the uncoated comparison under its stated cell and cycling conditions. An earlier patent reports a 97 wt% ethylene–butene copolymer and 3 wt% poly(trimethylene sulfide) film blend; it reported brighter, more persistent color after dyeing and washing than for the unblended control. These are patent examples, not evidence of widespread current commercial products.\n\nPurchasing. The checked sources describe synthesized specimens and device experiments but do not establish a current commercial polymer-grade catalog or package size. A purchaser would need to specify the homopolymer, rather than a differently substituted sulfide or an oxidized formulation.\n\nScale and evidence limits. The patents describe particular film and cell experiments. They do not establish annual production or consumption of poly(trimethylene sulfide).",
+        "degradationAndStability": "Degradation products and pathways: Thioether sulfur can be chemically modified. A historical patent describes peroxygen treatment of trimethylene sulfide polymers and demonstrates an oxidized trimethylene sulfide–styrene copolymer; that example is not a test of environmental degradation of the homopolymer. In the electrode study, sulfur-containing secondary-ion signals were detected after cycling, but those signals alone do not show that the original polymer chains remained chemically intact.\n\nTimescales: In one patent example, a homopolymer sample heated in air at 175 °C for 26.5 hours lost 1.6 wt% in mass. This is one laboratory mass-loss observation; it does not identify degradation products or set a general service lifetime. The battery patent measured discharge capacity at the second and 100th cycles at 23 °C and detected sulfur-containing ions after 100 cycles. These are device and surface-analysis endpoints for its particular electrode and electrolyte.\n\nEnvironmental persistence: The checked sources do not establish a homopolymer-specific rate of biodegradation or mineralization in soil, water or landfill. Chemical oxidation, device performance and conversion of polymer carbon to carbon dioxide are distinct endpoints.",
+        "recyclingAndEndOfLife": "",
+        "healthSafetyAndRegulation": "The experimental battery-coating procedure used 4-chlorophenol as a solvent; the NOAA chemical-response record states that contact with 4-chlorophenol can burn skin and eyes and inhalation can cause adverse symptoms. These are solvent hazards, not a measured hazard classification for poly(trimethylene sulfide) itself. Synthesis and disposal depend on the actual reagents and current safety information.",
+        "limitationsAndVariability": "A polymer described as poly(trimethylene sulfide) may differ in chain length, end groups, residual initiator, crystallinity and processing history; an oxidized material is chemically different from the unmodified polymer. The patent’s thermally aged sample, film blend and cell-cycling experiments use different material forms and endpoints. Mechanical results reported for individual historical specimens have not been corroborated by a second independent source in this pass; the mechanical-properties tab therefore remains a gap. No homopolymer recycling process was verified in the checked sources."
+      },
+      "sources": [
+        {
+          "sourceId": "ptms-sony-cell-jp2010010080a",
+          "lineageId": "sony-jp2010010080a-2010",
+          "sourceType": "patent",
+          "citation": "Sony Corporation, Negative electrode, secondary battery, and their manufacturing method, JP2010010080A (2010).",
+          "url": "https://patents.google.com/patent/JP2010010080A/en",
+          "locator": "Chemical Formula 3 (3), ring-opening discussion, Examples 1-1 through 1-6, comparative cells and 100-cycle test at 23 °C.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The full text is anonymously readable; no general reuse license is asserted, and the record is independently paraphrased.",
+          "supports": [
+            "overview",
+            "history",
+            "nomenclature",
+            "feedstocksAndSynthesis",
+            "structureAndMorphology",
+            "applications",
+            "degradationAndStability",
+            "healthSafetyAndRegulation",
+            "limitationsAndVariability",
+            "structuralDepictions",
+            "processing"
+          ]
+        },
+        {
+          "sourceId": "ptms-noaa-4-chlorophenol",
+          "lineageId": "noaa-cameo-4-chlorophenol",
+          "sourceType": "public_report",
+          "citation": "NOAA CAMEO Chemicals, p-Chlorophenol chemical response information.",
+          "url": "https://cameochemicals.noaa.gov/chris/CPN.pdf",
+          "locator": "Health Hazards §3: exposure routes and skin and eye effects of 4-chlorophenol.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The full text is anonymously readable; no general reuse license is asserted, and the record is independently paraphrased.",
+          "supports": [
+            "healthSafetyAndRegulation"
+          ]
+        },
+        {
+          "sourceId": "ptms-edmonds-polymer-1967",
+          "lineageId": "phillips-edmonds-trimethylene-sulfide-1967",
+          "sourceType": "patent",
+          "citation": "J. T. Edmonds Jr., Trimethylene sulfide polymers, US Patent 3,328,361, issued 1967.",
+          "url": "https://patents.google.com/patent/US3328361A/en",
+          "locator": "Examples I–III: anionic homopolymerization, isolation, molding and specimen observations; disclosure on peroxygen treatments.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The complete patent is anonymously readable and independently paraphrased; no general reuse license is asserted.",
+          "supports": [
+            "overview",
+            "history",
+            "nomenclature",
+            "feedstocksAndSynthesis",
+            "structureAndMorphology",
+            "properties",
+            "processing",
+            "applications",
+            "degradationAndStability",
+            "limitationsAndVariability"
+          ]
+        },
+        {
+          "sourceId": "ptms-edmonds-blend-1968",
+          "lineageId": "phillips-edmonds-trimethylene-sulfide-1967",
+          "sourceType": "patent",
+          "citation": "J. T. Edmonds Jr., Blend of 1-monoolefin and trimethylene sulfide polymers, US Patent 3,377,408, issued 1968.",
+          "url": "https://patents.google.com/patent/US3377408A/en",
+          "locator": "Example III: 97/3 ethylene–butene copolymer/poly(trimethylene sulfide) blend, mill processing and dye comparison.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The complete patent is anonymously readable and independently paraphrased; no general reuse license is asserted.",
+          "supports": [
+            "history",
+            "processing",
+            "applications",
+            "limitationsAndVariability"
+          ]
+        },
+        {
+          "sourceId": "ptms-feedstock-nist-thietane",
+          "lineageId": "ptms-feedstock-nist-thietane",
+          "sourceType": "public_dataset",
+          "citation": "NIST Chemistry WebBook, SRD 69, thietane.",
+          "url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=287-27-4",
+          "locator": "Identity, formula and finite 4-membered molecular connectivity of thietane.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The public NIST record states that its standard reference data is covered by copyright; the record is independently cited.",
+          "supports": [
+            "structuralDepictions"
+          ]
+        }
+      ],
+      "maturity": {
+        "contentMaturity": "source_backed_draft",
+        "confidence": "provisional",
+        "reviewFlags": [
+          "open_sources_needed",
+          "taxonomy_needs_review",
+          "processing_data_needed",
+          "property_data_needed",
+          "grade_variation_not_captured",
+          "end_of_life_review_needed",
+          "safety_review_needed"
+        ]
+      },
+      "structuralDepictions": {
+        "reviewStatus": "reviewed",
+        "representationType": "constitutional_repeat_unit",
+        "scopeNote": "The diagram represents the linear unsubstituted constitutional repeat of poly(trimethylene sulfide). It does not specify molecular mass, end groups, crystallinity, branching, oxidation or borane complexation.",
+        "sourceIds": [
+          "ptms-sony-cell-jp2010010080a"
+        ],
+        "items": [
+          {
+            "structureId": "ptms-repeat",
+            "label": "Poly(trimethylene sulfide) repeat unit",
+            "fidelity": "exact",
+            "altText": "Polymer repeat containing three methylene carbon atoms and one sulfur atom in the backbone, with repeat connections at both ends.",
+            "caption": "Unsubstituted thioether repeat with three backbone methylene groups."
+          }
+        ]
+      },
+      "contextualStructures": {
+        "feedstocksAndSynthesis": {
+          "reviewStatus": "reviewed",
+          "scopeNote": "The illustrated finite molecule is a feedstock, not a polymer repeat unit. The corresponding route represents one bounded preparation.",
+          "sourceIds": [
+            "ptms-feedstock-nist-thietane"
+          ],
+          "items": [
+            {
+              "structureId": "ptms-thietane-feedstock",
+              "label": "Thietane (trimethylene sulfide)",
+              "fidelity": "exact",
+              "altText": "Thietane: a four-membered ring with three carbon atoms and one sulfur atom.",
+              "caption": "Finite feedstock molecule; conditions and material scope are specified in the route."
+            }
+          ]
+        }
+      },
+      "synthesisRoutes": [
+        {
+          "routeId": "thietane-butyllithium",
+          "title": "Thietane polymerization with n-butyllithium",
+          "basis": "patent_example",
+          "scopeNote": "Example III in a 1967 patent reports one anionic homopolymerization of thietane in N-methylpyrrolidone.",
+          "sourceIds": [
+            "ptms-edmonds-polymer-1967"
+          ],
+          "inputs": [
+            {
+              "label": "Thietane (trimethylene sulfide)",
+              "structureId": "ptms-thietane-feedstock"
+            }
+          ],
+          "products": [
+            {
+              "label": "Trimethylene sulfide repeat",
+              "structureId": "ptms-repeat"
+            }
+          ],
+          "productMode": "structural_reference",
+          "productNote": "The repeat image is a structural reference and does not show chain ends, residual initiator, salts, branching or a balanced equation.",
+          "reagents": [
+            {
+              "name": "n-Butyllithium",
+              "role": "initiator",
+              "detail": "The patent used 0.5 mL of a 15 wt% solution in n-hexane."
+            },
+            {
+              "name": "N-Methylpyrrolidone",
+              "role": "medium",
+              "detail": "The patent used 100 mL under nitrogen."
+            }
+          ],
+          "conditions": "Allow the closed reaction bottle to stand overnight at room temperature under nitrogen.",
+          "mechanism": "The source describes polymerization of thietane with organolithium catalyst; the polymer drawing is a structural reference and does not imply a detailed reaction mechanism.",
+          "steps": [
+            {
+              "title": "Charge",
+              "body": "Combine 100 mL N-methylpyrrolidone and 15 mL thietane in a bottle under nitrogen, then add 0.5 mL of the 15 wt% n-butyllithium solution.",
+              "sourceIds": [
+                "ptms-edmonds-polymer-1967"
+              ]
+            },
+            {
+              "title": "Polymerize and precipitate",
+              "body": "Stand overnight at room temperature, then pour the contents into 500 mL water to precipitate polymer.",
+              "sourceIds": [
+                "ptms-edmonds-polymer-1967"
+              ]
+            },
+            {
+              "title": "Wash and isolate",
+              "body": "Filter, wash twice with water and once with methanol, then filter and vacuum dry. The patent reports 6.8 g dry polymer.",
+              "sourceIds": [
+                "ptms-edmonds-polymer-1967"
+              ]
+            }
+          ],
+          "limitations": "A single historical laboratory example; organolithium initiators and the specified solvents require appropriate controls. The diagram does not encode chain ends or residual catalyst."
+        }
+      ]
     }
   ],
   "aliases": [
@@ -133961,6 +135109,10 @@
     {
       "slug": "pbttt",
       "wopId": "wop-000263"
+    },
+    {
+      "slug": "polyoxetane",
+      "wopId": "wop-000264"
     }
   ],
   "searchTerms": [
@@ -134444,6 +135596,29 @@
       "kind": "ambiguous",
       "wopIds": [
         "wop-000250"
+      ]
+    },
+    {
+      "term": "poly(trimethylene ether) glycol",
+      "kind": "ambiguous",
+      "wopIds": [
+        "wop-000264"
+      ]
+    },
+    {
+      "term": "PTMO",
+      "kind": "ambiguous",
+      "wopIds": [
+        "wop-000228",
+        "wop-000264"
+      ]
+    },
+    {
+      "term": "PES",
+      "kind": "ambiguous",
+      "wopIds": [
+        "wop-000078",
+        "wop-000265"
       ]
     }
   ]

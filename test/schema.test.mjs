@@ -160,7 +160,7 @@ test('the populated snapshot has no stubs and frozen stubs expose no prose or ar
 });
 
 test('all public entries satisfy reviewed structural-depiction acceptance', () => {
-  assert.equal(snapshot.polymers.length, 263);
+  assert.equal(snapshot.polymers.length, 266);
   assert.ok(snapshot.chemicalStructures.length > 0);
   assert.equal(JSON.stringify(snapshot).includes('"smiles"'), false);
   assert.equal(JSON.stringify(snapshot).includes('<svg'), false);
