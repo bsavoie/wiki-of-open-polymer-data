@@ -108,9 +108,4 @@
   addEventListener('popstate', restore);
   addEventListener('pageshow', restore);
   restore();
-  // The initial catalog collapse changes the position of this lower section
-  // after the browser's first fragment scroll.
-  if (location.hash === '#methodology') {
-    requestAnimationFrame(() => document.getElementById('methodology')?.scrollIntoView());
-  }
 })();

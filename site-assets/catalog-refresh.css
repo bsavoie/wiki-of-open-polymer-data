@@ -1,7 +1,7 @@
 /* Catalog and reference landing page. Shared colors and type come from site.css. */
 .home-hero {
   width: min(1180px, calc(100% - 3.5rem));
-  padding: clamp(2.5rem, 5vw, 4rem) 0 1.75rem;
+  padding: clamp(2.5rem, 5vw, 4rem) 0 0.75rem;
   display: block;
 }
 .home-hero h1 {
@@ -14,8 +14,6 @@
   line-height: 1.14;
 }
 .home-hero > div > p { max-width: 720px; font-size: 1rem; line-height: 1.6; }
-.home-hero__links { display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; margin-top: 1rem; }
-.home-hero__links a { font-size: 0.875rem; font-weight: 600; text-decoration-thickness: 1px; }
 .corpus-stats { gap: 0.5rem; margin-top: 1.2rem; }
 .corpus-stats span {
   padding: 0.3rem 0.65rem;
@@ -24,6 +22,28 @@
   font-size: 0.8rem;
 }
 .corpus-stats strong { font-size: inherit; }
+
+.home-tabs {
+  width: min(1180px, calc(100% - 3.5rem));
+  margin: 0 auto;
+  display: flex;
+  gap: 1.5rem;
+  border-bottom: 1px solid var(--line);
+}
+.home-tabs a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-bottom: -1px;
+  padding: 0.6rem 0.15rem;
+  border-bottom: 2px solid transparent;
+  color: var(--ink-soft);
+  font-weight: 600;
+  text-decoration: none;
+}
+.home-tabs a:hover { color: var(--blue); }
+.home-tabs a[aria-selected="true"] { border-bottom-color: var(--blue); color: var(--blue); }
+.home-tabs:not([hidden]) ~ .methodology { border-top: 0; padding-top: 1.5rem; }
 
 .catalog {
   width: min(1180px, calc(100% - 3.5rem));
@@ -233,7 +253,7 @@
   .catalog-controls button { justify-self: start; }
 }
 @media (max-width: 600px) {
-  .home-hero, .catalog, .research-queue, .methodology { width: calc(100% - 2rem); }
+  .home-hero, .home-tabs, .catalog, .research-queue, .methodology { width: calc(100% - 2rem); }
   .home-hero { padding-top: 2rem; }
   .catalog-controls { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .polymer-card:focus-within { transform: scale(1.04); }
@@ -259,4 +279,8 @@
   .polymer-card__structure { align-self: start; }
 }
 @media (prefers-reduced-motion: reduce) { .polymer-card { transition: none; } }
-@media print { .catalog-controls, .catalog-expand { display: none; } }
+@media print {
+  .home-tabs, .catalog-controls, .catalog-expand { display: none !important; }
+  .catalog[hidden] { display: block !important; }
+  .methodology[hidden] { display: grid !important; }
+}
