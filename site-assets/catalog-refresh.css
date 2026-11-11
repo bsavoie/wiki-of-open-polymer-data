@@ -181,7 +181,11 @@
 }
 .polymer-card h3 a { color: var(--ink); text-decoration: none; }
 .polymer-card h3 a:hover, .polymer-card h3 a:focus-visible { color: var(--blue); text-decoration: underline; }
-.polymer-card h3 a::after { content: none; }
+.polymer-card h3 a::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
 .polymer-card__aliases { grid-area: aliases; min-height: 0; margin: 0; color: var(--ink-soft); font-size: 0.8rem; overflow-wrap: anywhere; }
 .polymer-card__category {
   grid-area: category;

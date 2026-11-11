@@ -108,7 +108,7 @@ test('the static build emits canonical pages, unique aliases, local search, data
   const frozenLegacyData = await fs.readFile(path.resolve('public-data/wop-publication-snapshot-v1/snapshot.json'), 'utf8');
   const marker = JSON.parse(await fs.readFile(path.join(output, '.wop-build.json'), 'utf8'));
 
-  assert.match(home, /Polymer knowledge, built in the open/);
+  assert.match(home, /The Open Polymer Data Wiki is an experiment in using AI as an encyclopedist/);
   assert.match(home, /data-catalog-controls/);
   assert.match(home, new RegExp(`${snapshot.polymers.length}<\\/strong> canonical entries`));
   assert.match(home, /<label><span>Class<\/span><select data-class-filter>/);
