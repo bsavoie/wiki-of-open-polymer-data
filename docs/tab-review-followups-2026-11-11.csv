@@ -1,0 +1,80 @@
+wopId,name,tab,review_question,search_outcome
+wop-000010,Isotactic polypropylene,applications,Uses are tied to crystallinity but no particular grade or product illustrates a property/use relationship.,
+wop-000025,Poly(vinylidene chloride),degradation,A strong pyrolysis example exists but actual ambient-fate evidence is absent.,
+wop-000028,Poly(vinyl butyral),applications,The interlayer and other products are named but the application is not tied to a concrete commercial glazing or coating example.,
+wop-000028,Poly(vinyl butyral),overview,The description of stretch-induced phase separation does not specify the observed consequences for an interlayer.,
+wop-000037,Styrene–methyl methacrylate copolymer,degradation,Ultrasound in THF shows a laboratory chain-scission endpoint but an ordinary exposure and SMMA-specific recovery route remain unverified.,
+wop-000043,Thermoplastic polyester family,applications,"PBT example is concrete; purchasing remains generic, with no stated supplier product ordering details.",
+wop-000043,Thermoplastic polyester family,overview,Morphology explains phases but lacks a concrete composition or processing comparison.,
+wop-000052,Polyamide family,overview,Family structure is generic; seek a sourced comparison that preserves nylon-type boundaries.,
+wop-000054,Polyamide 66,degradation,acid reactor data only; source search for actual aging/environment,A 2024 open Heliyon study was identified; full-text cache available but anonymous live source verification and contradictory Tg table needed.
+wop-000055,Polyamide 46,degradation,Only PA46 thermal mass loss is direct; patent extrapolates from PA66 and no PA46-specific reclamation result is established.,
+wop-000060,Polyamide 1010,degradation,acid recycling only; environmental and service aging unaddressed,A nanofiller UV study was identified behind ScienceDirect; material-specific open full-text route has not been verified.
+wop-000067,Polyamide 6/66,degradation,Only dynamic thermal analysis addresses PA6/66; Nurel reports recycling compatibility rather than material recovery.,
+wop-000070,Poly(vinyl fluoride),applications,Purchasing gives only general channels and no grade or form-specific ordering example.,
+wop-000073,Polyoxymethylene family,applications,Purchasing names resin and stock forms but no example grade or specific route.,
+wop-000073,Polyoxymethylene family,degradation,Hot aging is measured but ambient POM fate is unresolved.,
+wop-000076,Poly(phenylene ether),degradation,Irradiation and pyrolysis are concrete; environmental fate remains an evidence gap.,
+wop-000076,Poly(phenylene ether),overview,Variation field names molecular mass and blends without concrete comparison.,
+wop-000088,Alternating ethylene–carbon monoxide polyketone,degradation,"Recycling example may be a propylene-containing terpolymer, not the exact ethylene/CO material.",
+wop-000091,Perfluoroalkoxy alkane polymer,applications,Grade/forms are specific but the 6/12 foot units are a supply scale rather than a named use-performance example.,
+wop-000091,Perfluoroalkoxy alkane polymer,degradation,Chemical-immersion and reprocessing observations do not establish environmental biodegradation.,
+wop-000091,Perfluoroalkoxy alkane polymer,overview,Different grade chemistry is mentioned but no specific example ties comonomer choice to properties.,
+wop-000100,Bisphenol F diglycidyl ether epoxy,overview,First four sentences of properties are largely generic; a bounded solvent-uptake comparison would be clearer.,
+wop-000103,Cycloaliphatic epoxy resin,degradation,Modified cleavable network is disclosed but conventional cycloaliphatic-epoxy recovery is unverified.,
+wop-000103,Cycloaliphatic epoxy resin,overview,Network effect is explained but variation passage repeats the property tradeoff.,
+wop-000106,Isophthalic unsaturated polyester resin,degradation,Isophthalic treatment is noted but conversion and exact conditions are only described generically.,
+wop-000106,Isophthalic unsaturated polyester resin,overview,Variability repeats chemical-resistance qualifiers without a concrete supported comparison.,
+wop-000109,Bisphenol A epoxy vinyl ester,degradation,The vinyl-ester composite recovery example is proposed for mixed thermosets and exact resin scope remains uncertain.,
+wop-000112,Novolac phenolic resin,applications,The friction application is named but the compound’s specific mechanical fit is not demonstrated.,
+wop-000112,Novolac phenolic resin,overview,"Network discussion repeats cure, and product-specific deformation effects need a clearer example.",
+wop-000115,Resorcinol–formaldehyde resin,overview,Variability largely restates the existing example; could add an independent controlled comparison.,
+wop-000121,Benzoguanamine–formaldehyde resin,degradation,"Coating crosslinker hydrolysis is bounded, but recovery is only generic manufacturer disposal guidance.",
+wop-000121,Benzoguanamine–formaldehyde resin,overview,Variability mainly lists ingredients without a concrete example of their effect.,
+wop-000124,Polyurea,applications,Spray system and return to service are concrete; product documentation should be reviewed for the inconsistent pack figures.,
+wop-000127,Bismaleimide resin,applications,Example is real but lacks how a particular adhesive/composite performance was demonstrated.,
+wop-000127,Bismaleimide resin,degradation,"Disulfide exchange applies only to redesigned BMI, and conventional-BMI recovery remains unverified.",
+wop-000129,Polybenzoxazine,degradation,dynamic network example only; broader service/environment aging unaddressed,"Related studies and full text leads found, but no verified representative environmental/service-aging result yet established."
+wop-000130,Phthalonitrile resin,degradation,No demonstrated recycling route is established; report preserved scientific gap rather than invented prose.,
+wop-000132,Poly(diallyl phthalate),degradation,heat and broad patent list only; no material-specific recovery or service exposure,A transfer-molding study supports the Overview; resin-specific environmental evidence remained unverified.
+wop-000133,Thermosetting polyimide,overview,The labeled property passage repeats study context before the numeric result.,
+wop-000139,Emulsion styrene–butadiene rubber,applications,Lab compound comparison is specific; tire-level relevance is rightly bounded and no separate volume is established.,
+wop-000141,Carboxylated styrene–butadiene rubber,degradation,separation and thermal scan; no aging example,Search returned mixed rubber research; no directly verified XSBR exposure study obtained.
+wop-000144,Carboxylated nitrile butadiene rubber,degradation,ionomer reprocessing and related-rubber patent only,University-hosted thesis on XNBR latex aging identified; conditions and results need full-text review.
+wop-000145,Butyl rubber,degradation,Chemical reversion and hot radiation are discussed but environmental persistence is unmeasured.,
+wop-000148,Polychloroprene rubber,degradation,"Patent examples use tire scrap, not polychloroprene, so recovery remains unproven.",
+wop-000151,Acrylic rubber,degradation,Patent lists acrylic rubber but does not demonstrate acrylic-rubber recovery or ambient pathways.,
+wop-000153,Epichlorohydrin homopolymer rubber,degradation,thermal aging and only generic persistence,The Applications tab now includes a homopolymer-specific sour-fuel experiment. A homopolymer-specific reclamation example remained unverified.
+wop-000154,Epichlorohydrin–ethylene oxide rubber,overview,Variability names variables without detailing a second concrete comparison.,
+wop-000156,Chlorosulfonated polyethylene rubber,degradation,"cable aging, but no demonstrated CSM recycling",Search returned generic silicone and mixed-waste recycling; no demonstrated CSM-specific reclamation source verified.
+wop-000157,FKM fluoroelastomer family,overview,Variability is generic despite grade-dependent fluoroelastomer cure and fluid behavior.,
+wop-000159,Tetrafluoroethylene–propylene elastomer,degradation,recycling lacks FEPM-specific demonstration,"Search returned commercial data and generic FKM recycling, not a directly demonstrated FEPM reclamation experiment."
+wop-000162,Fluorosilicone rubber,degradation,no fluorosilicone-specific reclamation or environmental endpoint,"Open 2025 thermal aging primary identified, but existing entry already reports aging; fluorosilicone-specific reclamation remains unverified."
+wop-000163,Polysulfide rubber,degradation,Thermal/water comparison is useful; fate and broader recovery lack direct evidence.,
+wop-000165,Ethylene–octene elastomer,degradation,unrelated tire re-use and indirect flow results only,2026 UV-aging study and 2021 encapsulant study located; direct grade scope and source accessibility require inspection.
+wop-000169,Styrene–ethylene/propylene–styrene block copolymer,degradation,Degradation is for formulated SEPS/PP blends; isolated polymer fate is unestablished.,
+wop-000178,Poly(m-phenylene isophthalamide),applications,The distinction between garments and fibers is clear but an example of actual fiber-level performance relevant to use would deepen it.,
+wop-000180,Polybenzimidazole,degradation,thermal only; recycling experimental special PBI lacks specifics,Generic recycling studies and other PBI grades found; PBI-specific repeatable recovery example still unverified.
+wop-000183,Polyoxadiazole,degradation,"pyrolysis only, no concrete POD recovery",Search yielded thermal studies but no verified POD-specific recovery example.
+wop-000184,Modacrylic fiber polymer family,degradation,"Combustion products and disposal are described, but modacrylic fate and material-specific recovery are gaps.",
+wop-000187,Novoloid fiber polymer family,degradation,Flame test is product-specific but environmental persistence is unmeasured.,
+wop-000193,Cellulose acetate propionate,degradation,Controlled CAP chemical treatment is clear but environmental degradation remains unmeasured.,
+wop-000202,Amylose,degradation,The enzyme assay is meaningful but environmental mineralization remains unmeasured.,
+wop-000211,Collagen,applications,Wound care and tissue scaffolds are generic with no named dressing or research device example.,
+wop-000211,Collagen,overview,Overview lacks a bounded example comparing collagen mechanical response across specimen conditions.,
+wop-000214,Poly(3-hydroxybutyrate),applications,"An offered compound is identified, but uses lack a specific product/performance example.",
+wop-000214,Poly(3-hydroxybutyrate),overview,Properties refers to increasing stiffness after storage without reporting specific comparison.,
+wop-000220,Poly(lactide-co-glycolide),degradation,"Partial CO₂ conversion is strong, but lack of a recovery route is explicit.",
+wop-000223,Poly(butylene adipate-co-terephthalate),applications,PBAT/PLA benefit is qualitative and no film-specific demonstration is stated.,
+wop-000223,Poly(butylene adipate-co-terephthalate),overview,Structure explains differences generically without a PBAT-specific morphology comparison.,
+wop-000226,Poly(ethylene oxide),applications,Drug matrices and electrolytes are named but a particular use or formulation needs an example.,
+wop-000226,Poly(ethylene oxide),overview,The conductivity discussion gives a mechanism but no material-specific measured comparison.,
+wop-000229,Poly(2-hydroxyethyl methacrylate),degradation,Thermal data are clear but environmental mineralization and PHEMA-specific recovery remain unestablished.,
+wop-000232,Polyethyleneimine,applications,Adhesion promoter and sorbent uses are not tied to a named performance example.,
+wop-000232,Polyethyleneimine,overview,"Membrane pH stability is specific, but chain structure variability could be developed further.",
+wop-000235,Sulfonated poly(ether ether ketone),degradation,The membrane example is strong but no direct recycling route was established.,
+wop-000241,Polyacetylene,degradation,Oxidation example is specific but no usable recovery process was verified.,
+wop-000249,"Poly[2-methoxy-5-(2-ethylhexyloxy)-1,4-phenylenevinylene]",degradation,"no MEH-PPV-specific recycling, only device guidance",MEH-PPV photodegradation publications located and already represented; no polymer-specific recycling source yet verified.
+wop-000250,Polyfluorene family,degradation,PFO oxidation is detailed and fluorene-imine recovery is qualified; natural-fate evidence is absent.,
+wop-000256,Polysiloxane family,degradation,PDMS soil results are specific to fluid; evidence for other siloxane networks remains limited.,
+wop-000259,Poly(phenylene ether)/polystyrene blend,applications,Product grades and uses are specific but the property-to-use link lacks a concrete example.,
