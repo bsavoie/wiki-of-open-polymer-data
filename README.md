@@ -1,35 +1,60 @@
 # Wiki of Open Polymer Data
 
-Illustrated synthesis routes and the five-article pilot are documented in
-[the synthesis route guide](docs/synthesis-routes.md). After building, open
-`/synthesis-preview/` to compare the articles and their phone/tablet layouts.
+[Browse the wiki](https://bsavoie.github.io/wiki-of-open-polymer-data/) ·
+[Download the current data snapshot](https://bsavoie.github.io/wiki-of-open-polymer-data/data/wop-publication-snapshot-v2/snapshot.json)
 
-Wiki of Open Polymer Data is a completeness-first public reference for polymer
-families and established polymer materials. It begins with a broad catalog of
-research stubs and is designed for later agents to strengthen one section at a
-time using sources that anyone can read: open textbooks, public lecture notes,
-open journals, institutional references, public reports, research-group notes,
-expert technical writing, patents, and public manufacturer documents.
+The Wiki of Open Polymer Data is an experiment in using AI as an encyclopedist.
+It is an open reference for polymer families and established polymer materials,
+built by agents using publicly readable literature. The catalog covers commodity
+and engineering plastics, thermosets, elastomers, fibers, natural and
+semisynthetic polymers, biodegradable materials, and functional polymers. It is
+a curated starting point, not a ranking of worldwide production.
 
-The initial catalog intentionally favors coverage over false precision. Its 262
-entries include major commodity plastics, engineering and high-performance
-thermoplastics, thermosets, elastomers, fibers, natural and semisynthetic
-polymers, degradable and biomedical polymers, and functional materials. This is
-a curated high-priority seed set, not a claimed worldwide production ranking.
+Entries bring together structures, synthesis, mechanical properties, processing,
+applications, degradation, and references. Coverage and review status vary:
+empty sections and open research questions are intentional. Sources document the
+scope of individual claims, and quantitative values retain their material and
+measurement conditions. Verify the cited sources and the relevant grade and test
+conditions before using the information for a specific application; agent-authored
+content can contain errors or omissions.
 
-## What was adapted
+The repository can be downloaded or forked. Updates are made from time to time
+when new models are released or when Brett has spare resets.
 
-The linked Wiki of Open Reactions project contributed the useful shape of the
-harness: a versioned public snapshot, strict schema validation, stable IDs,
-atomic imports, canonical and alias routes, a reader-side dependency-free
-static build, search, a sitemap, maturity labels, and full-corpus regression
-tests.
+## Run locally
 
-Reaction-specific machinery was deliberately left behind: Markush reaction
-schemes, mechanisms, electron-flow campaigns, SMILES rendering, procedure
-policies, and reaction example evidence grades do not belong in this project.
-This repository adds a polymer-specific taxonomy and a stricter rule that every
-populated prose section must point to open supporting sources.
+Install Node.js 20 or newer and Python 3, then:
+
+```bash
+git clone https://github.com/bsavoie/wiki-of-open-polymer-data.git
+cd wiki-of-open-polymer-data
+npm ci
+npm run check
+python3 -m http.server 8000 --directory dist
+```
+
+Open <http://localhost:8000/>. `npm run check` validates the snapshot and
+structures, runs the tests, and builds the static site in `dist/`. For a build
+without the full test suite, use `npm run build`. The synthesis route guide
+and `/synthesis-preview/` provide a route-review view after building; see
+[illustrated synthesis routes](docs/synthesis-routes.md).
+
+## Contributing
+
+Issues and pull requests are welcome. Before proposing a content change, consult
+[the research workflow](docs/research-workflow.md) and the repository's
+[publication rules](AGENTS.md). Use anonymously accessible sources, cite the
+sections they support, preserve stable polymer IDs, and retain material- and
+test-specific limitations. A public source is not necessarily openly licensed;
+source material keeps its own terms. Do not add private notes, credentials, or
+copied figures to public records.
+
+## Project design
+
+The site is generated from a versioned snapshot with schema validation, stable
+identifiers, canonical and alias routes, client-side search, and corpus-wide
+regression tests. Rendering is static; readers do not need a database or a
+chemistry runtime. The core data and its provenance are described below.
 
 ## Snapshot and structure contract
 
@@ -129,9 +154,11 @@ the retired command refuses to overwrite it.
 `npm test` runs the maintained `test/*.test.mjs` suite. Isolated research and
 preview artifacts under `outputs/` are not included in the release test run.
 
-GitHub Pages publication also requires a sanitized structure-audit release
-attestation. Once every current occurrence has independently documented review
-and the local audit ledger is ready, run:
+This repository’s GitHub Pages workflow also requires a sanitized structure-audit
+release attestation. The audit ledger and readiness scripts are maintainer-local
+and are not included in a fresh clone; they are not needed for `npm run check`
+or a local preview. Once every current occurrence has independently documented
+review and the local audit ledger is ready, maintainers run:
 
 ```bash
 python3 outputs/structure-audit/check-release-readiness.py
@@ -239,10 +266,10 @@ the machine authority for visual styling, with no per-record overrides.
 
 ## Licensing
 
-- Code: Apache-2.0 (`LICENSE`)
-- Original prose and diagrams: CC BY 4.0 (`LICENSE-CONTENT`)
-- Original structured data: CC0 (`LICENSE-DATA`)
-- Bundled Inter font: SIL Open Font License 1.1 (`site-assets/inter.LICENSE`)
+- Code: [Apache-2.0](LICENSE)
+- Original prose, tables, and diagrams: [CC BY 4.0](LICENSE-CONTENT)
+- Original structured data: [CC0](LICENSE-DATA)
+- Bundled Inter font: [SIL Open Font License 1.1](site-assets/inter.LICENSE)
 
 Those licenses apply only to original repository contributions. Linked source
 material retains its own copyright and license. The wiki should normally cite

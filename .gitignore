@@ -1,6 +1,9 @@
 dist/
 outputs/
 node_modules/
+.env
+.env.*
+!.env.example
 __pycache__/
 *.py[cod]
 .dist-build-*/
