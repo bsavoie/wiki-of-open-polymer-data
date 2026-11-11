@@ -5,7 +5,8 @@ description: Populate a Wiki of Open Polymer Data entry’s mechanical propertie
 
 # Research Polymer Mechanical Properties
 
-Populate only `sections.mechanicalProperties`. The separate `properties` field
+Populate `sections.mechanicalProperties` and its source-qualified mechanical
+measurement records in the optional `evidence` array. The separate `properties` field
 is reserved for thermal, electrical, optical, barrier, and other non-mechanical
 behavior. First read and follow
 [the shared polymer-entry skill](../research-polymer-entry/SKILL.md) and its two
@@ -35,8 +36,8 @@ draft normally contains:
 - enough context to show whether the example is a neat polymer, grade,
   compound, composite, fiber, film, gel, or cured network.
 
-For quantitative examples, retain the most consequential information the
-source provides without building a full evidence ledger:
+For quantitative examples, check the original openly accessible data-bearing
+source and retain the information needed to interpret each measurement:
 
 - exact polymer, grade, formulation, reinforcement, additives, and morphology;
 - specimen form, orientation, preparation process, and dimensions when
@@ -45,10 +46,24 @@ source provides without building a full evidence ledger:
 - test method, loading mode, speed or strain rate, and direction;
 - statistic, range, or uncertainty when readily available.
 
-Do not turn a grade value into a family constant or decode a formulation from a
-trade designator without support. A population pass does not require listing
-every absent specimen or test field; reserve that exhaustive envelope audit for
-later hardening.
+Create a `mechanicalProperties` / `measurement` evidence record for each useful
+source-verified numeric point or bounded range when the source supports it; the
+article renders these records as its qualified-evidence table. Check the exact
+source, table or figure, material, value, unit, conditions, method, statistic,
+and any footnotes before writing the row. Use `material`, `conditions`, `method`,
+`sourceId`, `locator`, and `limitations` to preserve its scope; explicitly say
+when a consequential condition or uncertainty definition was not reported.
+A section needs two independent source lineages, but an individual row can cite
+one directly supporting document. Follow `docs/research-workflow.md` for the
+record contract. Keep the prose explanation and include a table whenever eligible
+measurements have been found; do not leave supported measurements only in prose.
+
+Do not turn a grade value into a family constant, combine incomparable results
+into a family range, or decode a formulation from a trade designator without
+support. Do not force a qualitative result, one-sided bound, or 'no break' into
+a precise numeric point or range. When a suitable value or an anonymously
+accessible original source is unavailable, leave the table absent and report the
+evidence gap rather than inventing a value.
 
 Mechanical properties are distinct from thermal, electrical, optical, barrier,
 and rheological data; keep those outside this tab.
@@ -61,7 +76,7 @@ grades or methods should not be treated as one family range. Map a source to
 `mechanicalProperties` only when its cited material contains mechanical
 behavior or measurements; a synthesis or processing mention alone is not
 enough. Normally retain `grade_variation_not_captured` and
-`property_data_needed` during population. Detailed supplement, footnote,
-conditioning, and uncertainty review is a later hardening task.
+`property_data_needed` during population. For every tabulated result, review relevant source footnotes, conditioning,
+and uncertainty before publication; deeper family-wide hardening remains separate.
 
 Run `npm run check` once after completing the requested article or batch.
