@@ -35,6 +35,10 @@
 .article-profile__hero .structure-card__image--complex img { max-height: 420px; }
 .reaction-scheme .structure-card__image--complex { height: auto; min-height: 205px; }
 .reaction-scheme .structure-card__image--complex img { max-height: 420px; width: 100%; max-width: 100%; }
+/* Give wide, scale-preserving structures the full route width before scrolling. */
+.reaction-scheme:has(.structure-card__image--complex-scroll) { grid-template-columns: minmax(0, 1fr); }
+.reaction-scheme:has(.structure-card__image--complex-scroll) .reaction-arrow > span { display: inline-block; transform: rotate(90deg); }
+.section-structures .structure-grid:has(.structure-card__image--complex-scroll) { grid-template-columns: minmax(0, 1fr); }
 .complex-scroll-hint { display: none; }
 .contextual-structure-preview .structure-card__image--complex-scroll,
 .section-structures .structure-card__image--complex-scroll,

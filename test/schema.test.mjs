@@ -160,7 +160,7 @@ test('the populated snapshot has no stubs and frozen stubs expose no prose or ar
 });
 
 test('all public entries satisfy reviewed structural-depiction acceptance', () => {
-  assert.equal(snapshot.polymers.length, 262);
+  assert.equal(snapshot.polymers.length, 263);
   assert.ok(snapshot.chemicalStructures.length > 0);
   assert.equal(JSON.stringify(snapshot).includes('"smiles"'), false);
   assert.equal(JSON.stringify(snapshot).includes('<svg'), false);
@@ -576,6 +576,41 @@ test('each populated core attribute requires two documents and independent linea
     });
     assert.doesNotThrow(() => validateSnapshot(copy));
   }
+});
+
+test('NIST publication identifiers distinguish reports without counting tracking variants twice', () => {
+  const copy = structuredClone(fixture);
+  const article = copy.polymers[0];
+  article.sections.mechanicalProperties = 'A source-backed example of film mechanics.';
+  article.sources = [
+    {
+      ...copy.methodology.sources[1],
+      sourceId: 'nist-report-one',
+      lineageId: 'nist-study-one',
+      url: 'https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=905225',
+      supports: ['mechanicalProperties']
+    },
+    {
+      ...copy.methodology.sources[2],
+      sourceId: 'nist-report-two',
+      lineageId: 'nist-study-two',
+      url: 'https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=920744',
+      supports: ['mechanicalProperties']
+    }
+  ];
+  for (const source of article.sources) delete source.contentUrl;
+  article.maturity.contentMaturity = 'source_backed_draft';
+  attachReviewedFixtureStructure(copy, 'nist-report-one');
+
+  assert.doesNotThrow(() => validateSnapshot(copy));
+
+  // A fragment, a tracking parameter, and zero-padded ID do not make a new report.
+  article.sources[1].url = 'https://tsapps.nist.gov/publication/get_pdf.cfm?utm_source=test&pub_id=000905225#page=2';
+  assert.throws(() => validateSnapshot(copy), /same document URL|distinct source documents/);
+
+  // Same lineage also cannot make two document occurrences from one report.
+  article.sources[1].lineageId = article.sources[0].lineageId;
+  assert.throws(() => validateSnapshot(copy), /two distinct source documents/);
 });
 
 test('open-source-reviewed maturity requires principal coverage and independent lineages', () => {

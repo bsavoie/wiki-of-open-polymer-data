@@ -1222,6 +1222,18 @@
     {
       "structureId": "epdm-11-ethyl-tridecadiene-open-unit",
       "molfileV3000": "\n     RDKit          2D\n\n  0  0  0  0  0  0  0  0  0  0999 V3000\nM  V30 BEGIN CTAB\nM  V30 COUNTS 17 16 0 0 0\nM  V30 BEGIN ATOM\nM  V30 1 C 15.556800 -11.887500 0.000000 0\nM  V30 2 C 15.556800 -10.887500 0.000000 0\nM  V30 3 C 16.422800 -10.387500 0.000000 0\nM  V30 4 C 16.422800 -9.387500 0.000000 0\nM  V30 5 C 15.556800 -8.887500 0.000000 0\nM  V30 6 C 17.288800 -10.887500 0.000000 0\nM  V30 7 C 18.154800 -10.387500 0.000000 0\nM  V30 8 C 19.020900 -10.887500 0.000000 0\nM  V30 9 C 19.886900 -10.387500 0.000000 0\nM  V30 10 C 20.752900 -10.887500 0.000000 0\nM  V30 11 C 21.618900 -10.387500 0.000000 0\nM  V30 12 C 22.485000 -10.887500 0.000000 0\nM  V30 13 C 23.351000 -10.387500 0.000000 0\nM  V30 14 C 24.217000 -10.887500 0.000000 0\nM  V30 15 C 25.083100 -10.387500 0.000000 0\nM  V30 16 * 24.217000 -11.887500 0.000000 0\nM  V30 17 * 25.949100 -10.887500 0.000000 0\nM  V30 END ATOM\nM  V30 BEGIN BOND\nM  V30 1 1 1 2\nM  V30 2 1 2 3\nM  V30 3 2 3 4 CFG=2\nM  V30 4 1 4 5\nM  V30 5 1 3 6\nM  V30 6 1 6 7\nM  V30 7 1 7 8\nM  V30 8 1 8 9\nM  V30 9 1 9 10\nM  V30 10 1 10 11\nM  V30 11 1 11 12\nM  V30 12 1 12 13\nM  V30 13 1 13 14\nM  V30 14 1 14 15\nM  V30 15 1 14 16\nM  V30 16 1 15 17\nM  V30 END BOND\nM  V30 END CTAB\nM  END\n"
+    },
+    {
+      "structureId": "pbttt-open-bttt-r1-motif",
+      "molfileV3000": "\n  -INDIGO-11112615162D\n\n  0  0  0  0  0  0  0  0  0  0  0 V3000\nM  V30 BEGIN CTAB\nM  V30 COUNTS 22 25 0 0 0\nM  V30 BEGIN ATOM\nM  V30 1 * 15.4304 -11.8114 0.0 0\nM  V30 2 C 16.2394 -11.2236 0.0 0\nM  V30 3 C 16.2394 -10.2236 0.0 0\nM  V30 4 C 17.1905 -9.91463 0.0 0\nM  V30 5 R# 17.4995 -8.96357 0.0 0 RGROUPS=(1 1)\nM  V30 6 C 17.7783 -10.7236 0.0 0\nM  V30 7 C 18.7783 -10.7236 0.0 0\nM  V30 8 C 19.3661 -9.91463 0.0 0\nM  V30 9 C 20.3171 -10.2236 0.0 0\nM  V30 10 C 20.3171 -11.2236 0.0 0\nM  V30 11 S 19.3661 -11.5327 0.0 0\nM  V30 12 C 21.2682 -11.5327 0.0 0\nM  V30 13 C 21.8559 -10.7236 0.0 0\nM  V30 14 C 22.8559 -10.7236 0.0 0\nM  V30 15 C 23.4437 -9.91463 0.0 0\nM  V30 16 R# 23.1347 -8.96357 0.0 0 RGROUPS=(1 1)\nM  V30 17 C 24.3948 -10.2236 0.0 0\nM  V30 18 C 24.3948 -11.2236 0.0 0\nM  V30 19 * 25.2038 -11.8114 0.0 0\nM  V30 20 S 23.4437 -11.5327 0.0 0\nM  V30 21 S 21.2682 -9.91463 0.0 0\nM  V30 22 S 17.1905 -11.5327 0.0 0\nM  V30 END ATOM\nM  V30 BEGIN BOND\nM  V30 1 1 1 2\nM  V30 2 2 2 3\nM  V30 3 1 3 4\nM  V30 4 1 4 5\nM  V30 5 2 4 6\nM  V30 6 1 6 7\nM  V30 7 2 7 8\nM  V30 8 1 8 9\nM  V30 9 2 9 10\nM  V30 10 1 10 11\nM  V30 11 1 11 7\nM  V30 12 1 10 12\nM  V30 13 2 12 13\nM  V30 14 1 13 14\nM  V30 15 2 14 15\nM  V30 16 1 15 16\nM  V30 17 1 15 17\nM  V30 18 2 17 18\nM  V30 19 1 18 19\nM  V30 20 1 18 20\nM  V30 21 1 20 14\nM  V30 22 1 13 21\nM  V30 23 1 21 9\nM  V30 24 1 6 22\nM  V30 25 1 22 2\nM  V30 END BOND\nM  V30 END CTAB\nM  END\n"
+    },
+    {
+      "structureId": "pbttt-c14-dibromobithiophene",
+      "molfileV3000": "pbttt-c14-dibromobithiophene\n  Ketcher 2D\n\n  0  0  0     0  0            999 V3000\nM  V30 BEGIN CTAB\nM  V30 COUNTS 40 41 0 0 0\nM  V30 BEGIN ATOM\nM  V30 1 C 2.2707 -10.1392 0.0 0\nM  V30 2 C 3.07972 -9.55136 0.0 0\nM  V30 3 C 3.99326 -9.9581 0.0 0\nM  V30 4 C 4.80228 -9.37032 0.0 0\nM  V30 5 C 5.71583 -9.77706 0.0 0\nM  V30 6 C 6.52484 -9.18927 0.0 0\nM  V30 7 C 7.43839 -9.59601 0.0 0\nM  V30 8 C 8.24741 -9.00822 0.0 0\nM  V30 9 C 9.16095 -9.41496 0.0 0\nM  V30 10 C 9.96997 -8.82717 0.0 0\nM  V30 11 C 10.8835 -9.23391 0.0 0\nM  V30 12 C 11.6925 -8.64612 0.0 0\nM  V30 13 C 12.6061 -9.05286 0.0 0\nM  V30 14 C 13.4151 -8.46508 0.0 0\nM  V30 15 C 14.3286 -8.87181 0.0 0\nM  V30 16 C 15.1947 -8.37181 0.0 0\nM  V30 17 S 15.9378 -9.04094 0.0 0\nM  V30 18 C 15.5311 -9.95449 0.0 0\nM  V30 19 C 14.5365 -9.84996 0.0 0\nM  V30 20 C 16.0311 -10.8205 0.0 0\nM  V30 21 C 17.0256 -10.925 0.0 0\nM  V30 22 C 17.2335 -11.9032 0.0 0\nM  V30 23 C 16.3675 -12.4032 0.0 0\nM  V30 24 S 15.6243 -11.7341 0.0 0\nM  V30 25 Br 16.263 -13.3977 0.0 0\nM  V30 26 C 18.1471 -12.3099 0.0 0\nM  V30 27 C 18.9561 -11.7221 0.0 0\nM  V30 28 C 19.8696 -12.1289 0.0 0\nM  V30 29 C 20.6786 -11.5411 0.0 0\nM  V30 30 C 21.5922 -11.9478 0.0 0\nM  V30 31 C 22.4012 -11.36 0.0 0\nM  V30 32 C 23.3147 -11.7668 0.0 0\nM  V30 33 C 24.1238 -11.179 0.0 0\nM  V30 34 C 25.0373 -11.5857 0.0 0\nM  V30 35 C 25.8463 -10.998 0.0 0\nM  V30 36 C 26.7599 -11.4047 0.0 0\nM  V30 37 C 27.5689 -10.8169 0.0 0\nM  V30 38 C 28.4824 -11.2236 0.0 0\nM  V30 39 C 29.2914 -10.6359 0.0 0\nM  V30 40 Br 15.2992 -7.37729 0.0 0\nM  V30 END ATOM\nM  V30 BEGIN BOND\nM  V30 1 1 1 2\nM  V30 2 1 2 3\nM  V30 3 1 3 4\nM  V30 4 1 4 5\nM  V30 5 1 5 6\nM  V30 6 1 6 7\nM  V30 7 1 7 8\nM  V30 8 1 8 9\nM  V30 9 1 9 10\nM  V30 10 1 10 11\nM  V30 11 1 11 12\nM  V30 12 1 12 13\nM  V30 13 1 13 14\nM  V30 14 1 14 15\nM  V30 15 2 15 16\nM  V30 16 1 16 17\nM  V30 17 1 17 18\nM  V30 18 2 18 19\nM  V30 19 1 19 15\nM  V30 20 1 18 20\nM  V30 21 2 20 21\nM  V30 22 1 21 22\nM  V30 23 2 22 23\nM  V30 24 1 23 24\nM  V30 25 1 24 20\nM  V30 26 1 23 25\nM  V30 27 1 22 26\nM  V30 28 1 26 27\nM  V30 29 1 27 28\nM  V30 30 1 28 29\nM  V30 31 1 29 30\nM  V30 32 1 30 31\nM  V30 33 1 31 32\nM  V30 34 1 32 33\nM  V30 35 1 33 34\nM  V30 36 1 34 35\nM  V30 37 1 35 36\nM  V30 38 1 36 37\nM  V30 39 1 37 38\nM  V30 40 1 38 39\nM  V30 41 1 16 40\nM  V30 END BOND\nM  V30 END CTAB\nM  END\n"
+    },
+    {
+      "structureId": "pbttt-bis-trimethylstannyl-thienothiophene",
+      "molfileV3000": "pbttt-bis-trimethylstannyl-thienothiophene\n  Ketcher 2D\n\n  0  0  0     0  0            999 V3000\nM  V30 BEGIN CTAB\nM  V30 COUNTS 16 17 0 0 0\nM  V30 BEGIN ATOM\nM  V30 1 C 31.7914 -11.6657 0.0 0\nM  V30 2 Sn 32.2914 -12.5317 0.0 0\nM  V30 3 C 31.7914 -13.3977 0.0 0\nM  V30 4 C 31.2914 -12.5317 0.0 0\nM  V30 5 C 33.2914 -12.5317 0.0 0\nM  V30 6 C 33.8792 -11.7227 0.0 0\nM  V30 7 C 34.8303 -12.0317 0.0 0\nM  V30 8 C 34.8303 -13.0317 0.0 0\nM  V30 9 S 33.8792 -13.3407 0.0 0\nM  V30 10 C 35.7813 -13.3407 0.0 0\nM  V30 11 C 36.3691 -12.5317 0.0 0\nM  V30 12 S 35.7813 -11.7227 0.0 0\nM  V30 13 Sn 37.3691 -12.5317 0.0 0\nM  V30 14 C 37.8691 -13.3977 0.0 0\nM  V30 15 C 37.8691 -11.6657 0.0 0\nM  V30 16 C 38.3691 -12.5317 0.0 0\nM  V30 END ATOM\nM  V30 BEGIN BOND\nM  V30 1 1 1 2\nM  V30 2 1 2 3\nM  V30 3 1 2 4\nM  V30 4 1 2 5\nM  V30 5 2 5 6\nM  V30 6 1 6 7\nM  V30 7 2 7 8\nM  V30 8 1 8 9\nM  V30 9 1 9 5\nM  V30 10 1 8 10\nM  V30 11 2 10 11\nM  V30 12 1 11 12\nM  V30 13 1 12 7\nM  V30 14 1 11 13\nM  V30 15 1 13 14\nM  V30 16 1 13 15\nM  V30 17 1 13 16\nM  V30 END BOND\nM  V30 END CTAB\nM  END\n"
     }
   ],
   "polymers": [
@@ -109544,6 +109556,10 @@
         {
           "kind": "narrower",
           "wopId": "wop-000246"
+        },
+        {
+          "kind": "narrower",
+          "wopId": "wop-000263"
         }
       ],
       "sections": {
@@ -118286,6 +118302,484 @@
           "limitations": "This outline does not specify a universal recipe, reagent loading, operating schedule, or conversion endpoint. Those details must retain the material and process limits of the cited source. Figure notes distinguish exact molecules from representative motifs and variable architectures."
         }
       ]
+    },
+    {
+      "type": "polymer_entry",
+      "wopId": "wop-000263",
+      "canonicalSlug": "poly-bithiophene-alt-thienothiophene",
+      "canonicalName": "Poly(bithiophene-alt-thienothiophene)",
+      "alternateNames": [
+        "Poly[2,5-bis(3-alkylthiophen-2-yl)thieno[3,2-b]thiophene]"
+      ],
+      "abbreviations": [
+        "PBTTT"
+      ],
+      "entryKind": "subfamily",
+      "taxonomy": {
+        "primaryClass": "functional_and_specialty",
+        "materialBehaviors": [
+          "functional"
+        ],
+        "marketTiers": [
+          "specialty"
+        ],
+        "origins": [
+          "synthetic"
+        ],
+        "chemistryClasses": [
+          "conjugated_polymer"
+        ],
+        "functionalTags": [
+          "conjugated_semiconductor"
+        ]
+      },
+      "relationships": [
+        {
+          "kind": "broader",
+          "wopId": "wop-000244"
+        }
+      ],
+      "sections": {
+        "overview": "PBTTT denotes a family of conjugated, p-type semiconducting polymers whose backbone alternates bithiophene and fused thieno[3,2-b]thiophene units. Alkyl side chains make selected members soluble enough to cast thin films and permit the chains to pack into ordered domains. Charge moves along and between conjugated chains, so ordering and how domains connect can affect charge transport. PBTTT-C14, the tetradecyl-side-chain member, is a commonly studied example; C12 and C16 are related materials, not the same composition. PBTTT is studied as an active semiconductor in thin-film transistors, including printed and sensor devices.",
+        "history": "In 2006 Iain McCulloch, Martin Heeney and colleagues from Merck, PARC and Stanford reported a series of liquid-crystalline PBTTT semiconductors with C10, C12 and C14 side chains. Their design used fused thienothiophene to promote a planar conjugated backbone and packing into relatively large ordered domains; transistor mobilities of 0.2–0.6 cm²/V·s were reported for annealed devices in nitrogen. Those device values were measured for the authors’ particular films and device conditions. Subsequent research examined how the dielectric surface and film morphology influence electrical transport and explored roll-to-roll printed transistor arrays.",
+        "nomenclature": "PBTTT or pBTTT abbreviates poly[2,5-bis(3-alkylthiophen-2-yl)thieno[3,2-b]thiophene], also described as poly(bithiophene-alt-thienothiophene). The prefix C12, C14 or C16 identifies the number of carbons in the alkyl substituent; PBTTT-C14 is the tetradecyl material, not a name for every family member. The fused thieno[3,2-b]thiophene unit is part of the conjugated main chain. Molecular weight, substituent length and the state of doping need specification when comparing samples.",
+        "structureAndMorphology": "The conjugated chain alternates a thieno[3,2-b]thiophene fused-ring unit with an alkyl-substituted bithiophene segment. The aromatic backbone supports delocalized electronic states while the flexible alkyl side chains aid solubility and packing. In films, π-stacked backbones can form lamellar domains separated by side-chain-rich regions, alongside less ordered material. In the 2006 study, annealing a C12 film above its liquid-crystalline transition changed its initially nodular surface into an oriented polycrystalline structure with domains around 200 nm across; the reported image also showed some dewetting. That morphology is specific to the sample, substrate and heat treatment, not the structure of every PBTTT film.",
+        "properties": "PBTTT is typically used as a hole-transporting semiconductor; field-effect mobility is an extracted transistor parameter and depends on film and device architecture. For one set of thin-film devices, PBTTT on alkyltrichlorosilane-treated silicon dioxide gave approximately 0.2–0.5 cm²/V·s, whereas devices on untreated silicon dioxide gave less than 0.005 cm²/V·s. X-ray scattering indicated ordered lamellae on both surfaces, while microscopy showed differences in domain size, so the authors connected transport to microstructure and the disordered regions between domains. The comparison is not a universal intrinsic mobility for PBTTT or proof that substrate chemistry acts through only one mechanism.",
+        "limitationsAndVariability": "Side-chain length, molecular weight, solution preparation, annealing and dielectric surface can change order and device performance. In the original nitrogen-measured transistor comparison, C12 and C14 polymers gave maximum saturation mobilities of 0.30 and 0.63 cm²/V·s under the stated measurements; a different C14 device geometry gave 0.72 cm²/V·s. The authors cautioned that device fabrication could favor a particular sample, so these values do not isolate side-chain length as the sole cause. Interfacial contact resistance, gate dielectric and measurement conditions must accompany any comparison.",
+        "applications": "Products and industries. PBTTT is studied as a solution-processed semiconductor for organic thin-film transistors and sensor research. In a roll-to-roll gravure study, PBTTT-C14 ink was printed with electrodes and dielectric layers into 20 × 20 transistor arrays on PET film; among 400 devices in one selected array, the authors reported a 98% device yield, with average field-effect mobility about 2 × 10⁻⁴ cm²/V·s. The lower array mobility than optimized laboratory devices reflects the complete printed architecture and was associated by the authors with the rough printed dielectric. In a separate water-gated C16 transistor experiment, the response to the tested divalent cations was stronger than to sodium or potassium, illustrating a laboratory sensing concept rather than a validated commercial analytical device. The authors attributed the response to residual palladium-catalyst complex in the tested material, with supporting comparison experiments; it should not be presumed to be an intrinsic response of residue-free PBTTT.\n\nPurchasing. Sigma-Aldrich lists PBTTT-C14 as a powder, including a 250 mg package with a specified weight-average molecular mass above 50,000 g/mol. Purchasers must specify the side-chain variant and material characteristics for the intended film; a listed laboratory package is not a finished transistor or evidence of an industrial-scale supply.\n\nScale and evidence limits. The printing study produced 147 arrays along a 10 m PET web, equivalent to 58,800 patterned transistor sites. This is a documented research manufacturing run rather than annual production, commercial sales or a claim that every printed pixel met the study’s performance criterion. A reliable PBTTT-specific global consumption total was not established from these sources.",
+        "degradationAndStability": "Degradation products and pathways: PBTTT transistor behavior can change with air, humidity, light, dielectric contacts and processing history. The 2006 PBTTT-C12 study associated humidity-dependent changes in device characteristics with environmental effects, but it did not identify a complete chemical inventory of degraded polymer. A later study reported that printed PBTTT-C14 devices degraded under laboratory air and probe-station light; it proposed a solvent-related contribution, which remains the authors’ interpretation rather than a proven general mechanism. A fall in transistor mobility is a device-performance endpoint and does not by itself establish chain scission.\n\nTimescales: In the original C12 study, exposure to air at about 50% relative humidity for five days reduced field-effect mobility by a factor of two and the on/off current ratio by about two orders of magnitude. A different device held in approximately 4% relative humidity retained nearly unchanged mobility over more than 20 days. In the separate printed-array experiment, the uncoated pixels lost their electrical function rapidly; a CYTOP overcoat delayed the observed failure, but the authors reported that coated-device performance began to degrade after about a week and was eventually lost. These are results for different architectures, materials and exposure protocols, not a universal lifetime.\n\nEnvironmental persistence: Electrical failure, dissolution and changes in optical response are distinct from conversion of polymer carbon to carbon dioxide or biomass. The checked PBTTT-specific sources do not establish an environmental mineralization rate in soil, freshwater or seawater. No environmental disappearance time can be inferred from transistor measurements.",
+        "recyclingAndEndOfLife": "The checked studies do not establish a demonstrated, commercial recovery or depolymerization route for PBTTT from discarded devices. A 2025 patterning experiment found that a chloroform wash completely dissolved the washed region of an undoped PBTTT film, while an AuCl₃-doped film resisted visible dissolution. The treatment was used to control film patterning; the study did not demonstrate separation and recovery of pure PBTTT from a finished device.\n\nA real device contains a substrate, electrodes, dielectric and potentially dopants or encapsulants, so dissolution of one laboratory film does not by itself establish a usable recycling process. Recovery, solvent management and preservation of semiconductor properties would each require separate demonstration.",
+        "healthSafetyAndRegulation": "Handling concerns depend on the specific polymer form, synthesis and solvent, not merely the PBTTT name. A PBTTT-C16 transistor study dissolved the polymer in hot 1,2-dichlorobenzene to cast films. NIOSH lists inhalation and skin contact among possible routes of exposure to that solvent, with eye and nose irritation among reported effects; this is a solvent hazard, not a measured hazard classification for PBTTT itself. The supplier lists PBTTT-C14 as a powder. In the cited Stille route, the separately supplied 2,5-bis(trimethylstannyl)thienothiophene precursor is classified by its supplier as fatal if swallowed, inhaled or in contact with skin, and very toxic to aquatic life. That classification applies to the reagent, not automatically to purified PBTTT. Safe handling requires the current product and reagent safety information and controls appropriate to the actual preparation.",
+        "feedstocksAndSynthesis": "PBTTT is a conjugated alternating polymer made by joining a dialkyl-substituted bithiophene building block to thieno[3,2-b]thiophene units. A documented route is palladium-catalyzed Stille cross-coupling of a 5,5′-dibromo-4,4′-dialkyl-2,2′-bithiophene with 2,5-bis(trimethylstannyl)thieno[3,2-b]thiophene; the alkyl substituent controls which member, such as C12 or C14, is obtained. In one patent's C14 nanoparticle example, the monomers were dissolved in toluene with Pd2(dba)3 and tri(o-tolyl)phosphine, emulsified in aqueous sodium dodecyl sulfate, and held at 85 °C for 24 hours under argon. Dialysis and metal-scavenger treatment followed; the remaining catalyst and organotin residues are a purification concern, not automatically absent. A different laboratory study used a 1.6:1 excess of the dibrominated component to obtain bromine-terminated PBTTT-C14 macromonomers for later block-copolymer synthesis. The relative monomer feed, polymerization route, end groups and purification therefore depend on the intended product; neither example establishes an industrially prevalent recipe.",
+        "mechanicalProperties": "Semicrystalline PBTTT films can combine high charge transport with relatively low strain before cracking. Their mechanical response depends on side-chain length, molecular mass, solution casting, thermal history, film thickness, substrate and loading direction. In a study of PBTTT with C12 side chains and number-average molar mass about 29 kg/mol, substrate-supported thin-film buckling gave an elastic modulus of 0.879 ± 0.243 GPa as cast and 1.800 ± 0.345 GPa after annealing at 180 °C for five minutes; the stated uncertainties were standard errors of the fitting lines. When transferred to an elastomer and pulled in uniaxial tension, both types of film cracked below 2.5% strain, within that method's optical resolution. A separate study of PBTTT with C16 side chains obtained 1.82 ± 0.08 GPa and 1.47 ± 0.12 GPa from buckling of films cast from chlorobenzene and 1,2,4-trichlorobenzene, respectively, after annealing at 150 °C for 10 and 5 minutes; the schedules were selected to produce similar crystallinity. These measured thin-film and supported-composite responses are not bulk mechanical specifications; crack onset in a complete device also depends on its substrate and layer geometry.",
+        "processing": "PBTTT is commonly processed as a solution into thin semiconductor films by spin coating or wire-bar coating, followed by controlled thermal treatment; side-chain identity and solvent affect dissolution and film morphology. In one transistor study, commercial PBTTT-C14 was spin-coated from 0.5 wt% chlorobenzene solution at 3,000 rpm onto silicon with a 200 nm silicon-dioxide dielectric. The films were annealed at 150 °C for 10 minutes and either quenched or cooled at 1 °C/min before the top gold contacts were deposited. In a separate PBTTT-C14 patterning experiment, researchers preheated the glass and 1.5 wt% chlorobenzene solution to 110 °C, spin-coated at 4,000 rpm to obtain films about 43 nm thick, then annealed at 180 °C for 30 minutes in nitrogen and cooled slowly. These are laboratory device-fabrication examples, not universal process windows: substrate, solvent, molecular weight and thermal history alter morphology and device response. The solvents and organometallic reagents in these cited laboratory routes require their own handling assessment."
+      },
+      "sources": [
+        {
+          "sourceId": "pbttt-mcculloch-original-2006",
+          "lineageId": "pbttt-mcculloch-nature-materials-2006",
+          "sourceType": "open_journal",
+          "citation": "Iain McCulloch et al., Liquid-crystalline semiconducting polymers with high charge-carrier mobility, Nature Materials 5 (2006), 328–333.",
+          "url": "https://web.stanford.edu/group/mcgehee/publications/Nature2006.pdf",
+          "locator": "Introduction, Table 1, Figs. 2 and 5, and Methods: PBTTT C10/C12/C14, film morphology, transistor measurements and humidity comparison. Figure 1 and Table 1: PBTTT backbone and C10/C12/C14 series.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The complete source is anonymously readable; reuse rights are not assumed and the claims are independently paraphrased.",
+          "supports": [
+            "overview",
+            "history",
+            "nomenclature",
+            "structureAndMorphology",
+            "limitationsAndVariability",
+            "degradationAndStability",
+            "feedstocksAndSynthesis",
+            "structuralDepictions"
+          ],
+          "doi": "10.1038/nmat1612"
+        },
+        {
+          "sourceId": "pbttt-chabinyc-scattering-2007",
+          "lineageId": "pbttt-chabinyc-jacs-2007",
+          "sourceType": "open_journal",
+          "citation": "Michael L. Chabinyc, Michael F. Toney, R. Joseph Kline, Iain McCulloch and Martin Heeney, X-ray Scattering Study of Thin Films of Poly(2,5-bis(3-alkylthiophen-2-yl)thieno[3,2-b]thiophene), Journal of the American Chemical Society 129 (2007), 3226–3237.",
+          "url": "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=852682",
+          "locator": "Abstract, materials and results: substrate-dependent mobility, thin-film lamellae and domain size.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The complete source is anonymously readable; reuse rights are not assumed and the claims are independently paraphrased.",
+          "supports": [
+            "overview",
+            "nomenclature",
+            "structureAndMorphology",
+            "properties",
+            "limitationsAndVariability",
+            "history"
+          ],
+          "doi": "10.1021/ja0670714"
+        },
+        {
+          "sourceId": "pbttt-sun-gravure-2017",
+          "lineageId": "pbttt-sun-acs-omega-2017",
+          "sourceType": "open_journal",
+          "citation": "Junfeng Sun et al., Proving Scalability of an Organic Semiconductor To Print a TFT-Active Matrix Using a Roll-to-Roll Gravure, ACS Omega 2 (2017), 5766–5774.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6644715/",
+          "locator": "Results, Table 3 and Experimental Section: printed PBTTT-C14 transistor array, yield and mobility, electrical instability and encapsulation.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "ACS AuthorChoice permits noncommercial redistribution; no general open reuse license is asserted and the text is independently paraphrased.",
+          "supports": [
+            "applications",
+            "degradationAndStability",
+            "history"
+          ],
+          "doi": "10.1021/acsomega.7b00873"
+        },
+        {
+          "sourceId": "pbttt-aldrich-c14-product",
+          "lineageId": "aldrich-pbttt-c14-product-753971",
+          "sourceType": "manufacturer_technical_document",
+          "citation": "Sigma-Aldrich, PBTTT-C14 product 753971, product information.",
+          "url": "https://www.sigmaaldrich.com/US/en/product/aldrich/753971",
+          "locator": "Product identity, 250 mg package, powder form and specified weight-average molecular mass.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The complete source is anonymously readable; reuse rights are not assumed and the claims are independently paraphrased.",
+          "supports": [
+            "overview",
+            "nomenclature",
+            "applications",
+            "healthSafetyAndRegulation"
+          ]
+        },
+        {
+          "sourceId": "pbttt-althagafi-cation-sensing-2016",
+          "lineageId": "pbttt-althagafi-talanta-2016",
+          "sourceType": "open_journal",
+          "citation": "Talal M. Althagafi, Saud A. Al Garni and Martin Grell, Innate cation sensitivity in a semiconducting polymer, Talanta 158 (2016), 70–76.",
+          "url": "https://eprints.whiterose.ac.uk/id/eprint/99849/1/Innate%20cation%20sensitivity%20in%20a%20semiconducting%20polymer.pdf",
+          "locator": "Experimental section and results: PBTTT-C16 in 1,2-dichlorobenzene, water-gated TFT and mono-/divalent cation response.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "open_licensed",
+          "permissionBasis": "Author manuscript identifies CC BY-NC-ND 4.0; findings are independently paraphrased.",
+          "supports": [
+            "applications",
+            "healthSafetyAndRegulation"
+          ],
+          "doi": "10.1016/j.talanta.2016.05.047",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        },
+        {
+          "sourceId": "pbttt-kim-patterning-2025",
+          "lineageId": "pbttt-kim-doping-lithography-2025",
+          "sourceType": "open_journal",
+          "citation": "Yeongjin Kim et al., High-Resolution Photolithographic Patterning of Conjugated Polymers via Reversible Molecular Doping, Polymers 17 (2025), 3341.",
+          "url": "https://www.mdpi.com/2073-4360/17/24/3341",
+          "locator": "Results and Figure 1: AuCl₃-doped and undoped PBTTT film behavior during chloroform washing and patterned-film fabrication.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "open_licensed",
+          "permissionBasis": "The authors publish under CC BY 4.0; findings are independently paraphrased.",
+          "supports": [
+            "recyclingAndEndOfLife"
+          ],
+          "doi": "10.3390/polym17243341",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "sourceId": "pbttt-niosh-odcb-solvent",
+          "lineageId": "niosh-pocket-guide-o-dichlorobenzene",
+          "sourceType": "public_report",
+          "citation": "NIOSH, NIOSH Pocket Guide to Chemical Hazards: o-Dichlorobenzene.",
+          "url": "https://www.cdc.gov/niosh/npg/npgd0189.html",
+          "locator": "Exposure routes and symptoms of 1,2-dichlorobenzene.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "Government guide is anonymously readable and hazard information is independently paraphrased.",
+          "supports": [
+            "healthSafetyAndRegulation"
+          ]
+        },
+        {
+          "sourceId": "pbttt-miniemulsion-c14-patent-2017",
+          "lineageId": "pbttt-imperial-miniemulsion-us9834640",
+          "sourceType": "patent",
+          "citation": "Nanoparticles, U.S. Patent 9,834,640 B2 (2017).",
+          "url": "https://patents.google.com/patent/US9834640B2/en",
+          "locator": "Example 1A and metal-scavenging discussion: C14 PBTTT Stille monomers, catalyst, toluene/water miniemulsion, 85 °C 24-hour reaction and purification. Precursor synthesis schemes: dibromobithiophene and bis(trimethylstannyl)thienothiophene connection tables.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The complete patent text is publicly readable; chemistry is independently paraphrased.",
+          "supports": [
+            "feedstocksAndSynthesis",
+            "structuralDepictions"
+          ]
+        },
+        {
+          "sourceId": "pbttt-gasperini-macromonomer-2017",
+          "lineageId": "gasperini-sivula-multiblock-2017",
+          "sourceType": "open_journal",
+          "citation": "Gasperini, A. et al. Semiconducting alternating multi-block copolymers via a di-functionalized macromonomer approach. Polymer Chemistry 8 (2017), 824–827.",
+          "doi": "10.1039/c6py01921h",
+          "url": "https://infoscience.epfl.ch/server/api/core/bitstreams/e3eb09ea-7114-4992-be71-e5cc9152f78f/content",
+          "locator": "Figure 1 and discussion on p. 825: PBTTT-C14 Stille polycondensation using a 1.6:1 dibromide-to-distannyl monomer feed to generate a dibrominated macromonomer.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "open_licensed",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+          "permissionBasis": "The full article identifies a Creative Commons Attribution 3.0 Unported license; text independently paraphrased.",
+          "supports": [
+            "feedstocksAndSynthesis"
+          ]
+        },
+        {
+          "sourceId": "pbttt-oconnor-film-mechanics-2010",
+          "lineageId": "oconnor-pbttt-mechanics-2010",
+          "sourceType": "open_journal",
+          "citation": "O’Connor, B. et al. Correlations between Mechanical and Electrical Properties of Polythiophenes. ACS Nano 4 (2010), 7538–7544.",
+          "doi": "10.1021/nn1018768",
+          "url": "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=905225",
+          "locator": "Materials and Methods, Figure 2, Table 1 and crack-onset analysis: C12 PBTTT, solution casting, 180 °C anneal, modulus and tensile cracking on PDMS.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The full article is publicly hosted by NIST; publisher reuse rights are not asserted and prose is independently paraphrased.",
+          "supports": [
+            "mechanicalProperties"
+          ]
+        },
+        {
+          "sourceId": "pbttt-vakhshouri-film-mechanics-2016",
+          "lineageId": "vakhshouri-pbttt-processing-morphology-2016",
+          "sourceType": "open_journal",
+          "citation": "Vakhshouri, K. et al. Signatures of Intracrystallite and Intercrystallite Limitations of Charge Transport in Polythiophenes. Macromolecules 49 (2016), 7359–7369.",
+          "doi": "10.1021/acs.macromol.6b01086",
+          "url": "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=920744",
+          "locator": "Abstract, thin-film modulus discussion and Figure 7: C16 PBTTT, two casting solvents, 150 °C annealing and buckling-derived moduli. Materials and Methods: C16 PBTTT chemical identity.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "The full article is publicly hosted by NIST; publisher reuse rights are not asserted and prose is independently paraphrased.",
+          "supports": [
+            "mechanicalProperties",
+            "structuralDepictions"
+          ]
+        },
+        {
+          "sourceId": "pbttt-kang-c14-spin-film-2015",
+          "lineageId": "kang-pbttt-c14-transistor-2015",
+          "sourceType": "open_journal",
+          "citation": "Kang, E. S. H.; Kim, E. Multi-barrier field-emission behavior in PBTTT thin films at low temperatures. Scientific Reports 5 (2015), 8396.",
+          "doi": "10.1038/srep08396",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4323663/",
+          "locator": "Methods: commercial PBTTT-C14 spin coating from 0.5 wt% chlorobenzene, 150 °C thermal anneal, cooling and gold contact deposition.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "open_licensed",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "permissionBasis": "The article is licensed Creative Commons Attribution 4.0; the preparation is independently paraphrased.",
+          "supports": [
+            "processing"
+          ]
+        },
+        {
+          "sourceId": "pbttt-perevedentsev-gated-doping-2020",
+          "lineageId": "perevedentsev-campoy-quiles-molecular-gates-2020",
+          "sourceType": "open_journal",
+          "citation": "Perevedentsev, A.; Campoy-Quiles, M. Rapid and high-resolution patterning of microstructure and composition in organic semiconductors using molecular gates. Nature Communications 11 (2020), 3610.",
+          "doi": "10.1038/s41467-020-17361-8",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7367850/",
+          "locator": "Methods, patterning electrical conductivity: C14 PBTTT coating from 1.5 wt% chlorobenzene, 110 °C preheat and 180 °C nitrogen anneal. Figure 4a: PBTTT-C14 backbone and substituents.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "open_licensed",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "permissionBasis": "The article is licensed Creative Commons Attribution 4.0; the preparation is independently paraphrased.",
+          "supports": [
+            "processing",
+            "structuralDepictions"
+          ]
+        },
+        {
+          "sourceId": "pbttt-gregory-structure-c12-2023",
+          "lineageId": "gregory-pbttt-charge-localization-2023",
+          "sourceType": "open_journal",
+          "citation": "Gregory, S. A. et al. Quantifying Charge Carrier Localization in PBTTT Using Thermoelectric and Spectroscopic Techniques. Journal of Physical Chemistry C 127 (2023), 12206–12217.",
+          "doi": "10.1021/acs.jpcc.3c01152",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10320779/",
+          "locator": "Figure 1a: neutral PBTTT-C12 backbone and alkyl-substituent illustration.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "open_licensed",
+          "permissionBasis": "The article is licensed Creative Commons Attribution 4.0; structure is independently authored.",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "supports": [
+            "structuralDepictions"
+          ]
+        },
+        {
+          "sourceId": "pbttt-bis-stannyl-thienothiophene-product",
+          "lineageId": "aldrich-thienothiophene-distannyl-product",
+          "sourceType": "manufacturer_technical_document",
+          "citation": "Sigma-Aldrich. 2,5-Bis(trimethylstannyl)-thieno[3,2-b]thiophene, product 741027, product information.",
+          "url": "https://www.sigmaaldrich.com/US/en/product/aldrich/741027",
+          "locator": "Product structure, formula and Safety Information for the specified distannyl precursor.",
+          "accessedDate": "2026-11-11",
+          "accessStatus": "anonymous_full_content",
+          "reuseStatus": "publicly_accessible_citation_only",
+          "permissionBasis": "Supplier page is anonymously readable; structure and hazard descriptions are independently expressed.",
+          "supports": [
+            "structuralDepictions",
+            "healthSafetyAndRegulation"
+          ]
+        }
+      ],
+      "maturity": {
+        "contentMaturity": "source_backed_draft",
+        "confidence": "provisional",
+        "reviewFlags": [
+          "open_sources_needed",
+          "taxonomy_needs_review",
+          "processing_data_needed",
+          "property_data_needed",
+          "grade_variation_not_captured",
+          "end_of_life_review_needed",
+          "safety_review_needed"
+        ]
+      },
+      "structuralDepictions": {
+        "reviewStatus": "reviewed",
+        "representationType": "variable_substitution_motif",
+        "scopeNote": "The open local motif shows a thieno[3,2-b]thiophene core linked to two alkyl-substituted thiophenes. Both R¹ sites identify the same selected side chain in this illustrative unit. Chain length, end groups, defects, oxidation state and molecular packing are not specified.",
+        "sourceIds": [
+          "pbttt-mcculloch-original-2006",
+          "pbttt-vakhshouri-film-mechanics-2016",
+          "pbttt-perevedentsev-gated-doping-2020",
+          "pbttt-gregory-structure-c12-2023"
+        ],
+        "items": [
+          {
+            "structureId": "pbttt-open-bttt-r1-motif",
+            "label": "Representative PBTTT backbone motif",
+            "fidelity": "representative",
+            "altText": "Two substituted thiophene rings joined through a fused thienothiophene core with open polymer-chain connections.",
+            "caption": "An open, neutral illustrative segment; the side-chain length is variable.",
+            "notation": "R¹ = n-dodecyl, n-tetradecyl, or n-hexadecyl; both sites have the same choice in this illustration."
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "evidenceId": "pbttt-c12-as-cast-elastic-modulus-2010",
+          "section": "mechanicalProperties",
+          "kind": "measurement",
+          "attribute": "Thin-film elastic modulus",
+          "material": "PBTTT-C12, number-average molecular mass approximately 29 kg/mol, dispersity 1.9, as-cast film",
+          "value": {
+            "min": 0.879,
+            "max": 0.879,
+            "units": "GPa",
+            "uncertainty": 0.243,
+            "uncertaintyNote": "Standard error of the fitted line, as reported in the table footnote."
+          },
+          "conditions": "Film spin-cast from 1,2-dichlorobenzene/chloroform solution with warm casting; films with varying thickness. Film transferred to a soft polydimethylsiloxane substrate.",
+          "method": "Optical or atomic-force microscopy of buckling wavelength over film thicknesses under compression on an elastomer support.",
+          "sourceId": "pbttt-oconnor-film-mechanics-2010",
+          "locator": "Materials and Methods, Fig. 2, and Table 1.",
+          "limitations": "Estimated from the buckling method using film thickness and support modulus; a thin-film modulus for the specified processing history, not a bulk PBTTT family constant."
+        },
+        {
+          "evidenceId": "pbttt-c12-annealed-elastic-modulus-2010",
+          "section": "mechanicalProperties",
+          "kind": "measurement",
+          "attribute": "Thin-film elastic modulus",
+          "material": "PBTTT-C12, number-average molecular mass approximately 29 kg/mol, dispersity 1.9, annealed film",
+          "value": {
+            "min": 1.8,
+            "max": 1.8,
+            "units": "GPa",
+            "uncertainty": 0.345,
+            "uncertaintyNote": "Standard error of the fitted line, as reported in the table footnote."
+          },
+          "conditions": "Film spin-cast from 1,2-dichlorobenzene/chloroform solution with warm casting and annealed 180 °C for five minutes, then slowly cooled; films with varying thickness. Film transferred to a soft polydimethylsiloxane substrate.",
+          "method": "Optical or atomic-force microscopy of buckling wavelength over film thicknesses under compression on an elastomer support.",
+          "sourceId": "pbttt-oconnor-film-mechanics-2010",
+          "locator": "Materials and Methods, Fig. 2, and Table 1.",
+          "limitations": "Estimated from the buckling method using film thickness and support modulus; processing-dependent thin-film modulus, not a bulk PBTTT family constant."
+        }
+      ],
+      "synthesisRoutes": [
+        {
+          "routeId": "c14-stille-miniemulsion-example",
+          "title": "PBTTT-C14 nanoparticle synthesis by Stille coupling",
+          "basis": "representative_route",
+          "scopeNote": "One patent example uses C14-substituted monomers in a toluene/water miniemulsion; the drawing is a representative structural reference, not a balanced reaction.",
+          "sourceIds": [
+            "pbttt-miniemulsion-c14-patent-2017"
+          ],
+          "inputs": [
+            {
+              "label": "5,5′-Dibromo-4,4′-ditetradecyl-2,2′-bithiophene",
+              "structureId": "pbttt-c14-dibromobithiophene"
+            },
+            {
+              "label": "2,5-Bis(trimethylstannyl)thieno[3,2-b]thiophene",
+              "structureId": "pbttt-bis-trimethylstannyl-thienothiophene"
+            }
+          ],
+          "products": [
+            {
+              "label": "Representative PBTTT backbone motif",
+              "structureId": "pbttt-open-bttt-r1-motif"
+            }
+          ],
+          "productMode": "structural_reference",
+          "productNote": "The displayed motif represents the PBTTT backbone; in this particular example both R¹ sites denote n-tetradecyl. It does not depict the terminal groups or individual nanoparticles.",
+          "reagents": [
+            {
+              "name": "Pd₂(dba)₃ and tri(o-tolyl)phosphine",
+              "role": "catalyst",
+              "detail": "Palladium catalyst and phosphine ligand in the reported example."
+            },
+            {
+              "name": "Toluene, water and sodium dodecyl sulfate",
+              "role": "medium",
+              "detail": "Organic and aqueous phases with surfactant."
+            }
+          ],
+          "conditions": "The emulsion was held under argon at 85 °C for 24 hours in the cited experiment.",
+          "mechanism": "Palladium-catalyzed Stille cross-coupling joins the dibromobithiophene and distannylthienothiophene building blocks.",
+          "steps": [
+            {
+              "title": "Prepare the miniemulsion",
+              "body": "Dissolve the C14-substituted dibromobithiophene and distannylthienothiophene monomers with the palladium catalyst and ligand in toluene, then disperse in aqueous sodium dodecyl sulfate.",
+              "sourceIds": [
+                "pbttt-miniemulsion-c14-patent-2017"
+              ]
+            },
+            {
+              "title": "Couple and purify",
+              "body": "Heat under argon, then use dialysis and metal-scavenger treatment as reported for the nanoparticle dispersion.",
+              "sourceIds": [
+                "pbttt-miniemulsion-c14-patent-2017"
+              ]
+            }
+          ],
+          "limitations": "This is a specific laboratory or patent example; monomer stoichiometry, molecular weight, end groups, residual metals and any scale-up need separate characterization."
+        }
+      ],
+      "contextualStructures": {
+        "feedstocksAndSynthesis": {
+          "reviewStatus": "reviewed",
+          "scopeNote": "These finite C14-route monomers are the two coupling partners in the cited nanoparticle example; they are not representations of the polymer itself. Reaction conditions and purification are described separately.",
+          "sourceIds": [
+            "pbttt-miniemulsion-c14-patent-2017",
+            "pbttt-bis-stannyl-thienothiophene-product"
+          ],
+          "items": [
+            {
+              "structureId": "pbttt-c14-dibromobithiophene",
+              "label": "5,5′-Dibromo-4,4′-ditetradecyl-2,2′-bithiophene",
+              "fidelity": "exact",
+              "altText": "A pair of joined brominated thiophene rings with two tetradecyl substituents.",
+              "caption": "The brominated bithiophene precursor in the PBTTT-C14 example."
+            },
+            {
+              "structureId": "pbttt-bis-trimethylstannyl-thienothiophene",
+              "label": "2,5-Bis(trimethylstannyl)thieno[3,2-b]thiophene",
+              "fidelity": "exact",
+              "altText": "A fused thienothiophene ring system with a trimethyltin substituent at each end.",
+              "caption": "The distannyl thienothiophene coupling partner in the same example."
+            }
+          ]
+        }
+      }
     }
   ],
   "aliases": [
@@ -119708,6 +120202,10 @@
     {
       "slug": "xsbr",
       "wopId": "wop-000141"
+    },
+    {
+      "slug": "pbttt",
+      "wopId": "wop-000263"
     }
   ],
   "searchTerms": [

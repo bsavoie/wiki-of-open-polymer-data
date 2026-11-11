@@ -2,12 +2,19 @@
   // With JavaScript disabled the regions remain focusable. Once enhanced,
   // avoid a tab stop and scroll hint when the visible figure actually fits.
   const structureScrollRegions = [...document.querySelectorAll('[data-structure-scroll]')];
+  const initializedStructureScrollRegions = new WeakSet();
   let refreshStructureScroll = () => {};
   if (structureScrollRegions.length) {
     const syncStructureScroll = (region) => {
       const overflowing = region.clientWidth > 0 && region.scrollWidth > region.clientWidth + 1;
       region.tabIndex = overflowing ? 0 : -1;
       region.classList.toggle('is-not-overflowing', !overflowing);
+      // Show the center of long molecules first, but never reset a reader's scroll.
+      // Hidden tabs have no width, so initialize only once the region is visible.
+      if (overflowing && !initializedStructureScrollRegions.has(region)) {
+        region.scrollLeft = Math.round((region.scrollWidth - region.clientWidth) / 2);
+        initializedStructureScrollRegions.add(region);
+      }
     };
     refreshStructureScroll = () => structureScrollRegions.forEach(syncStructureScroll);
     if (typeof ResizeObserver === 'function') {

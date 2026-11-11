@@ -89,6 +89,10 @@ test('progressive scroll focus follows overflow, hidden panels and resize withou
     listeners.get('document:click')();
     assert.equal(region.tabIndex, 0, 'revealed overflow is keyboard accessible');
     assert.equal(region.classes.get('is-not-overflowing'), false);
+    assert.equal(region.scrollLeft, 188, 'a newly visible wide figure starts centered');
+    region.scrollLeft = 40;
+    listeners.get('document:click')();
+    assert.equal(region.scrollLeft, 40, 'refresh does not override the reader’s scroll');
     region.clientWidth = 560; region.scrollWidth = 560;
     listeners.get('window:resize')();
     assert.equal(region.tabIndex, -1, 'fitting figure is removed from tab order');
