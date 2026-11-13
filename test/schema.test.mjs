@@ -22,6 +22,10 @@ const snapshot = await readAndValidateSnapshot(publicDirectory);
 const fixture = await readAndValidateSnapshot(fixtureDirectory);
 const legacySnapshot = JSON.parse(await fs.readFile(path.resolve('public-data/wop-publication-snapshot-v1/snapshot.json'), 'utf8'));
 const LEGACY_V1_SHA256 = 'c9de0069c4f68b71c3b0730e1b579728abbc0a53bf8f2ebabec6ff1489b0bf0c';
+// Coverage completed before the November 2026 additions must not regress.
+// New source-backed drafts may retain the explicit gaps allowed by the record contract.
+const completedBaselineIds = new Set(Array.from({ length: 266 }, (_, index) =>
+  `wop-${String(index + 1).padStart(6, '0')}`));
 
 test('the legacy v1 publication snapshot remains byte-for-byte frozen', async () => {
   const legacyPath = path.resolve('public-data/wop-publication-snapshot-v1/snapshot.json');
@@ -160,7 +164,8 @@ test('the populated snapshot has no stubs and frozen stubs expose no prose or ar
 });
 
 test('all public entries satisfy reviewed structural-depiction acceptance', () => {
-  assert.equal(snapshot.polymers.length, 266);
+  const publishedIds = new Set(snapshot.polymers.map(({ wopId }) => wopId));
+  for (const wopId of completedBaselineIds) assert.ok(publishedIds.has(wopId), wopId);
   assert.ok(snapshot.chemicalStructures.length > 0);
   assert.equal(JSON.stringify(snapshot).includes('"smiles"'), false);
   assert.equal(JSON.stringify(snapshot).includes('<svg'), false);
@@ -545,9 +550,11 @@ test('history is required, allows explicit gaps, and requires mapped evidence wh
   assert.throws(() => validateSnapshot(copy), /sections.history has prose but no source mapped/);
 });
 
-test('every published polymer has a history supported by anonymously accessible evidence', () => {
+test('completed baseline histories persist and every populated history has open evidence', () => {
   for (const article of snapshot.polymers) {
-    assert.ok(article.sections.history.trim(), `${article.wopId} needs history`);
+    const history = article.sections.history.trim();
+    if (completedBaselineIds.has(article.wopId)) assert.ok(history, `${article.wopId} needs history`);
+    if (!history) continue;
     const sources = article.sources.filter(source => source.supports.includes('history'));
     assert.ok(sources.length, `${article.wopId} needs history evidence`);
     assert.ok(sources.every(source => source.accessStatus === 'anonymous_full_content'));
